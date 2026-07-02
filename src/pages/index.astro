@@ -1,6 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import CigarGlyph from '../components/CigarGlyph.astro';
 import { getAllCigarSlugs, getCigarPage } from '../lib/db';
 
 const cigars = getAllCigarSlugs().map(({ brand, line, vitola }) => getCigarPage(brand, line, vitola)!);
@@ -23,7 +22,6 @@ const cigars = getAllCigarSlugs().map(({ brand, line, vitola }) => getCigarPage(
     <h2 class="section__heading">Featured</h2>
     {cigars.map((c) => (
       <a class="cigar-card" href={`/cigars/${c.brand.slug}/${c.line.slug}/${c.vitola.slug}/`}>
-        <CigarGlyph size="card" />
         <div class="cigar-card__brand">{c.brand.name}</div>
         <div class="cigar-card__name">{c.line.name.replace(/ Maduro$| Natural$/, '')} {c.vitola.size_name}</div>
         <div class="cigar-card__score">

@@ -1,7 +1,6 @@
 ---
 import Layout from '../../../../layouts/Layout.astro';
 import ScoreBar from '../../../../components/ScoreBar.astro';
-import CigarGlyph from '../../../../components/CigarGlyph.astro';
 import { getAllCigarSlugs, getCigarPage } from '../../../../lib/db';
 import type { CriticReviewRow } from '../../../../lib/db';
 
@@ -42,7 +41,6 @@ const pageDescription = `${brand.name} ${vitola.size_name} (${vitola.length_in}x
 
 <Layout title={pageTitle} description={pageDescription}>
   <div class="cigar-hero">
-    <CigarGlyph size="hero" />
     <div class="cigar-hero__eyebrow">{brand.name}</div>
     <h1 class="cigar-hero__title">{line.name.replace(/ Maduro$| Natural$/, '')} {vitola.size_name}</h1>
     <p class="cigar-hero__subtitle">
