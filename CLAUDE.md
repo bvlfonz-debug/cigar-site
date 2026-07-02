@@ -43,6 +43,12 @@ workflow keeps it updated with minimal human involvement.
 5. **Scale**: grow the seed toward ~500 cigars over multiple sessions/nightly
    runs. Add ranking pages, comparison pages, price-history charts, deals page.
 
+## Design bar
+Premium editorial product — think wine or watch publications, not a hobby
+blog. Confident, refined, professional. Typography and whitespace carry the
+design; data visualizations (score bars, price history) are clean and
+restrained, not flashy. No stock-photo cigar clichés, no gimmicks.
+
 ## Data model (SQLite)
 - **brand**: id, name, slug, country, factory, founded_year, story_short
 - **line**: id, brand_id, name, slug, wrapper, binder, filler, strength
