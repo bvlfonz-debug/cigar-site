@@ -333,3 +333,53 @@ main {
   font-size: 0.9rem;
   color: var(--color-ink-soft);
 }
+
+.cigar-glyph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-parchment-dim);
+  border: 1px solid var(--color-rule);
+  border-radius: 4px;
+}
+
+.cigar-glyph svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cigar-glyph--hero {
+  max-width: 22rem;
+  margin: 0 auto 1.75rem;
+  padding: 1.75rem;
+}
+
+.cigar-glyph--card {
+  max-width: 9rem;
+  margin: 0 0 1rem;
+  padding: 0.85rem;
+}
+
+.retailer-ratings {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.retailer-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.92rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.retailer-rating__name {
+  font-weight: 600;
+}
+
+.retailer-rating__value {
+  color: var(--color-gold-deep);
+  font-variant-numeric: tabular-nums;
+}

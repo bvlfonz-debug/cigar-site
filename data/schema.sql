@@ -49,8 +49,10 @@ CREATE TABLE critic_review (
   id             INTEGER PRIMARY KEY AUTOINCREMENT,
   vitola_id      INTEGER NOT NULL REFERENCES vitola(id),
   source_name    TEXT NOT NULL,
+  source_type    TEXT NOT NULL DEFAULT 'critic' CHECK (source_type IN ('critic','retailer')),
   score          REAL NOT NULL,
   score_scale    REAL NOT NULL,
+  review_count   INTEGER,
   review_date    TEXT NOT NULL,
   url            TEXT NOT NULL,
   key_notes_text TEXT

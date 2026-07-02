@@ -1,6 +1,7 @@
 ---
 import Layout from '../../../../layouts/Layout.astro';
 import ScoreBar from '../../../../components/ScoreBar.astro';
+import CigarGlyph from '../../../../components/CigarGlyph.astro';
 import { getAllCigarSlugs, getCigarPage } from '../../../../lib/db';
 import type { CriticReviewRow } from '../../../../lib/db';
 
@@ -17,14 +18,17 @@ if (!data) {
   return new Response(null, { status: 404 });
 }
 
-const { brand, line, vitola, criticReviews } = data;
+const { brand, line, vitola, criticReviews: allReviews } = data;
+
+const professionalReviews = allReviews.filter((r) => r.source_type === 'critic');
+const retailerRatings = allReviews.filter((r) => r.source_type === 'retailer');
 
 const tastingNotes: string[] = JSON.parse(vitola.tasting_notes);
 const boxCounts: number[] = JSON.parse(vitola.box_counts);
 
 // Flag a critic review as dissenting when it lands well below the group's
 // average normalized score — surfaces disagreement instead of hiding it.
-const normalized = criticReviews.map((r) => ({ review: r, score: (r.score / r.score_scale) * 100 }));
+const normalized = professionalReviews.map((r) => ({ review: r, score: (r.score / r.score_scale) * 100 }));
 const avgNormalized = normalized.reduce((sum, n) => sum + n.score, 0) / normalized.length;
 const dissenting = normalized.filter((n) => avgNormalized - n.score >= 15);
 
@@ -33,11 +37,12 @@ function formatReviewDate(iso: string): string {
 }
 
 const pageTitle = `${brand.name} ${line.name.replace(/ Maduro$| Natural$/, '')} ${vitola.size_name} Review & Rating | StickScore`;
-const pageDescription = `${brand.name} ${vitola.size_name} (${vitola.length_in}x${vitola.ring_gauge}, ${line.wrapper} wrapper): StickScore ${vitola.stick_score ? Math.round(vitola.stick_score) : 'N/A'}/100 aggregated from ${criticReviews.length} published reviews.`;
+const pageDescription = `${brand.name} ${vitola.size_name} (${vitola.length_in}x${vitola.ring_gauge}, ${line.wrapper} wrapper): StickScore ${vitola.stick_score ? Math.round(vitola.stick_score) : 'N/A'}/100 aggregated from ${professionalReviews.length} published reviews.`;
 ---
 
 <Layout title={pageTitle} description={pageDescription}>
   <div class="cigar-hero">
+    <CigarGlyph size="hero" />
     <div class="cigar-hero__eyebrow">{brand.name}</div>
     <h1 class="cigar-hero__title">{line.name.replace(/ Maduro$| Natural$/, '')} {vitola.size_name}</h1>
     <p class="cigar-hero__subtitle">
@@ -50,11 +55,12 @@ const pageDescription = `${brand.name} ${vitola.size_name} (${vitola.length_in}x
         <small>StickScore</small>
       </div>
       <div>
-        <div class="score-panel__label">Aggregate of {criticReviews.length} published reviews</div>
+        <div class="score-panel__label">
+          Aggregate of {professionalReviews.length} critic review{professionalReviews.length === 1 ? '' : 's'}
+          {retailerRatings.length > 0 && <>{` and ${retailerRatings.length} retailer rating${retailerRatings.length === 1 ? '' : 's'}`}</>}
+        </div>
         <div class="score-panel__meta">
-          Critic scores weighted 70% &middot; retailer ratings weighted 30% (none collected yet for
-          this cigar) &middot; reviews from the last 5 years count double. This is a computed
-          aggregate, not a first-hand StickScore review.
+          Critic reviews are weighted 70% and retailer ratings 30%{retailerRatings.length === 0 && ' (none collected yet for this cigar, so the figure below rests on critics alone)'}; reviews from the last five years count double. This is a computed aggregate, presented as such — never a first-hand StickScore review.
         </div>
       </div>
     </div>
@@ -124,15 +130,37 @@ const pageDescription = `${brand.name} ${vitola.size_name} (${vitola.length_in}x
   <section class="section">
     <h2 class="section__heading">Pricing</h2>
     <p class="placeholder-note">
-      Retailer price tracking hasn't started for this cigar yet — that begins with the nightly
-      automation in a later phase. No prices are shown here to avoid guessing.
+      Retailer price tracking has not yet begun for this cigar — it starts with the nightly
+      automation in a later phase. Rather than estimate, we simply show nothing until it's real.
     </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Retailer ratings</h2>
+    {retailerRatings.length > 0 ? (
+      <div class="retailer-ratings">
+        {retailerRatings.map((r: CriticReviewRow) => (
+          <div class="retailer-rating">
+            <a class="retailer-rating__name" href={r.url} target="_blank" rel="noopener noreferrer">{r.source_name}</a>
+            <span class="retailer-rating__value">
+              {r.score}/{r.score_scale}{r.review_count != null && ` · ${r.review_count} reviews`}
+            </span>
+          </div>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">
+        No retailer star ratings have been collected for this cigar yet. When they are, we'll
+        show the aggregate rating and review count with a link back to the retailer — never
+        copied review text.
+      </p>
+    )}
   </section>
 
   <section class="section">
     <h2 class="section__heading">Sources</h2>
     <ul class="sources-list">
-      {criticReviews.map((r: CriticReviewRow) => (
+      {professionalReviews.map((r: CriticReviewRow) => (
         <li>
           <a href={r.url} target="_blank" rel="noopener noreferrer">{r.source_name}</a>
           &nbsp;&middot;&nbsp;
@@ -148,8 +176,8 @@ const pageDescription = `${brand.name} ${vitola.size_name} (${vitola.length_in}x
   <section class="section">
     <h2 class="section__heading">Similar cigars</h2>
     <p class="placeholder-note">
-      This is the only cigar in the database so far — similar-cigar suggestions will appear here
-      once more are added in the next phase.
+      This is the only cigar in the catalog so far. Once more are added, we'll suggest a
+      well-matched few here rather than a long, undifferentiated list.
     </p>
   </section>
 </Layout>

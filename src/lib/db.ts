@@ -58,8 +58,10 @@ export interface CriticReviewRow {
   id: number;
   vitola_id: number;
   source_name: string;
+  source_type: 'critic' | 'retailer';
   score: number;
   score_scale: number;
+  review_count: number | null;
   review_date: string;
   url: string;
   key_notes_text: string | null;

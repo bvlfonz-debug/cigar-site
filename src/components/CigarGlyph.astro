@@ -1,0 +1,23 @@
+---
+// Original illustrative placeholder — not a photo of any real product.
+// Used until licensed photography (own, purchased, or affiliate-provided) is available.
+interface Props {
+  size?: 'hero' | 'card';
+}
+
+const { size = 'card' } = Astro.props;
+---
+
+<div class={`cigar-glyph cigar-glyph--${size}`} role="img" aria-label="Illustrative cigar placeholder">
+  <svg viewBox="0 0 320 160" xmlns="http://www.w3.org/2000/svg">
+    <g transform="rotate(-8 160 80)">
+      <rect x="38" y="60" width="244" height="40" rx="20" fill="#e7dcc4" stroke="#c9b98f" stroke-width="1.5" />
+      <ellipse cx="280" cy="80" rx="10" ry="20" fill="#d8c9a3" stroke="#c9b98f" stroke-width="1.5" />
+      <circle cx="40" cy="80" r="7" fill="#c9502f" opacity="0.55" />
+      <circle cx="40" cy="80" r="3" fill="#e8caa0" opacity="0.8" />
+      <rect x="108" y="54" width="36" height="52" rx="4" fill="#a9762f" stroke="#8a5f22" stroke-width="1.5" />
+      <line x1="117" y1="59" x2="117" y2="101" stroke="#f5e9c8" stroke-width="1" opacity="0.6" />
+      <line x1="135" y1="59" x2="135" y2="101" stroke="#f5e9c8" stroke-width="1" opacity="0.6" />
+    </g>
+  </svg>
+</div>

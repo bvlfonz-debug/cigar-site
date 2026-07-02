@@ -26,20 +26,28 @@ function normalizeTo100(score, scoreScale) {
 }
 
 // StickScore weighting per CLAUDE.md: critic scores 70% / retailer averages 30%,
-// with reviews from the last 5 years counting double. No retailer user-review
-// average has been collected for this vitola yet (that's a nightly-automation
-// job), so the critic bucket currently carries the full weight.
-function computeStickScore(criticReviews, referenceDate) {
+// with reviews from the last 5 years counting double. When one bucket has no
+// data yet (e.g. no retailer average collected), that bucket's weight falls
+// away rather than being averaged in as zero.
+function bucketAverage(reviews, referenceDate) {
+  if (reviews.length === 0) return null;
   let weightedSum = 0;
   let totalWeight = 0;
-  for (const r of criticReviews) {
+  for (const r of reviews) {
     const normalized = normalizeTo100(r.score, r.score_scale);
     const ageYears = (referenceDate - new Date(r.review_date)) / (1000 * 60 * 60 * 24 * 365.25);
     const weight = ageYears <= 5 ? 2 : 1;
     weightedSum += normalized * weight;
     totalWeight += weight;
   }
-  return totalWeight > 0 ? weightedSum / totalWeight : null;
+  return weightedSum / totalWeight;
+}
+
+function computeStickScore(allReviews, referenceDate) {
+  const criticAvg = bucketAverage(allReviews.filter((r) => r.source_type === 'critic'), referenceDate);
+  const retailerAvg = bucketAverage(allReviews.filter((r) => r.source_type === 'retailer'), referenceDate);
+  if (criticAvg != null && retailerAvg != null) return criticAvg * 0.7 + retailerAvg * 0.3;
+  return criticAvg ?? retailerAvg ?? null;
 }
 
 const insertBrand = db.prepare(`
@@ -65,8 +73,8 @@ const insertVitola = db.prepare(`
 `);
 
 const insertCriticReview = db.prepare(`
-  INSERT INTO critic_review (vitola_id, source_name, score, score_scale, review_date, url, key_notes_text)
-  VALUES (@vitola_id, @source_name, @score, @score_scale, @review_date, @url, @key_notes_text)
+  INSERT INTO critic_review (vitola_id, source_name, source_type, score, score_scale, review_count, review_date, url, key_notes_text)
+  VALUES (@vitola_id, @source_name, @source_type, @score, @score_scale, @review_count, @review_date, @url, @key_notes_text)
 `);
 
 const brandId = insertBrand.run(at({
@@ -92,35 +100,46 @@ const lineId = insertLine.run(at({
     "Introduced in 1994 to mark 30 years since the company's founding, the 1964 Anniversary Series is Padrón's flagship full-bodied line: box-pressed, built from tobacco aged four years, and offered across sixteen sizes in both sun-grown Natural and Maduro wrappers.",
 })).lastInsertRowid;
 
+// No retailer user-rating average has been collected for this vitola yet —
+// that's a nightly-automation job (fetching live star ratings from JR, Famous,
+// Neptune, Atlantic, etc.). Nothing is fabricated here in the meantime.
 const criticReviews = [
   {
     source_name: 'Cigar Aficionado',
+    source_type: 'critic',
     score: 94,
     score_scale: 100,
+    review_count: null,
     review_date: '2012-01-01',
     url: 'https://www.cigaraficionado.com/ratings/15421/name/padron-1964-anniversary-series-exclusivo-maduro',
     key_notes_text: 'Rated 94; ranked #5 on Cigar Aficionado\'s Top 25 Cigars of 2011.',
   },
   {
     source_name: 'Developing Palates',
+    source_type: 'critic',
     score: 5.9,
     score_scale: 10,
+    review_count: null,
     review_date: '2021-07-30',
     url: 'https://developingpalates.com/reviews/cigar-reviews/personal-cigar-review-padron-1964-anniversary-series-maduro-exclusivo/',
     key_notes_text: 'Called it "fairly average," dominated by dark wood and earth; the dissenting view among sources.',
   },
   {
     source_name: 'CigarScore.com',
+    source_type: 'critic',
     score: 5,
     score_scale: 5,
+    review_count: null,
     review_date: '2022-12-26',
     url: 'https://www.cigarscore.com/cigar-review-padron-1964-anniversary-maduro-exclusivo/',
     key_notes_text: 'Perfect construction; reviewer felt it didn\'t quite taste like "classic Padrón."',
   },
   {
     source_name: 'Miami Humidor (Cigar Reviews by Mikey)',
+    source_type: 'critic',
     score: 93,
     score_scale: 100,
+    review_count: null,
     review_date: '2025-07-09',
     url: 'https://miamihumidor.net/2025/07/cigar-reviews-by-mikey-padron-1964-exclusivo-maduro/',
     key_notes_text: 'Long, satisfying coffee-and-spice finish; impeccable construction throughout.',
