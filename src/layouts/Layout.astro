@@ -1,0 +1,37 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-header__brand" href="/">StickScore</a>
+        <span class="site-header__tagline">The Aggregate Cigar Database</span>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        StickScore aggregates published critic reviews and retailer ratings into a single
+        comparable score. It does not sell cigars directly and does not claim first-hand
+        tasting experience. Scores and dates reflect the sources cited on each page.
+      </div>
+    </footer>
+  </body>
+</html>

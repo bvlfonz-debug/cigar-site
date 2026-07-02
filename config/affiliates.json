@@ -1,0 +1,28 @@
+{
+  "retailers": [
+    {
+      "key": "jr-cigars",
+      "name": "JR Cigars",
+      "trackingId": "PLACEHOLDER",
+      "urlTemplate": "https://www.jrcigars.com/PLACEHOLDER?product={slug}&affid=PLACEHOLDER"
+    },
+    {
+      "key": "famous-smoke",
+      "name": "Famous Smoke Shop",
+      "trackingId": "PLACEHOLDER",
+      "urlTemplate": "https://www.famous-smoke.com/PLACEHOLDER?product={slug}&affid=PLACEHOLDER"
+    },
+    {
+      "key": "neptune-cigar",
+      "name": "Neptune Cigar",
+      "trackingId": "PLACEHOLDER",
+      "urlTemplate": "https://www.neptunecigar.com/PLACEHOLDER?product={slug}&affid=PLACEHOLDER"
+    },
+    {
+      "key": "atlantic-cigar",
+      "name": "Atlantic Cigar",
+      "trackingId": "PLACEHOLDER",
+      "urlTemplate": "https://www.atlanticcigar.com/PLACEHOLDER?product={slug}&affid=PLACEHOLDER"
+    }
+  ]
+}

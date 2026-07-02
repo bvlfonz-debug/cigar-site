@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getAllCigarSlugs, getCigarPage } from '../lib/db';
+
+const cigars = getAllCigarSlugs().map(({ brand, line, vitola }) => getCigarPage(brand, line, vitola)!);
+---
+
+<Layout
+  title="StickScore — The Aggregate Cigar Database"
+  description="An aggregate database of cigar reviews, ratings, and specs, built from published critic sources."
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">The aggregate cigar database</h1>
+    <p>
+      StickScore combines published critic reviews and retailer ratings into one comparable
+      score per cigar — sourced and linked, never invented. This site is early: one cigar is
+      seeded so far, with more on the way.
+    </p>
+  </div>
+
+  <section class="section">
+    <h2 class="section__heading">Featured</h2>
+    {cigars.map((c) => (
+      <a class="cigar-card" href={`/cigars/${c.brand.slug}/${c.line.slug}/${c.vitola.slug}/`}>
+        <div class="cigar-card__brand">{c.brand.name}</div>
+        <div class="cigar-card__name">{c.line.name.replace(/ Maduro$| Natural$/, '')} {c.vitola.size_name}</div>
+        <div class="cigar-card__score">
+          StickScore {c.vitola.stick_score != null ? Math.round(c.vitola.stick_score) : '—'}/100
+        </div>
+      </a>
+    ))}
+  </section>
+</Layout>

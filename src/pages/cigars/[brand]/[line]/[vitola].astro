@@ -1,0 +1,155 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import ScoreBar from '../../../../components/ScoreBar.astro';
+import { getAllCigarSlugs, getCigarPage } from '../../../../lib/db';
+import type { CriticReviewRow } from '../../../../lib/db';
+
+export function getStaticPaths() {
+  return getAllCigarSlugs().map(({ brand, line, vitola }) => ({
+    params: { brand, line, vitola },
+  }));
+}
+
+const { brand: brandSlug, line: lineSlug, vitola: vitolaSlug } = Astro.params;
+const data = getCigarPage(brandSlug as string, lineSlug as string, vitolaSlug as string);
+
+if (!data) {
+  return new Response(null, { status: 404 });
+}
+
+const { brand, line, vitola, criticReviews } = data;
+
+const tastingNotes: string[] = JSON.parse(vitola.tasting_notes);
+const boxCounts: number[] = JSON.parse(vitola.box_counts);
+
+// Flag a critic review as dissenting when it lands well below the group's
+// average normalized score — surfaces disagreement instead of hiding it.
+const normalized = criticReviews.map((r) => ({ review: r, score: (r.score / r.score_scale) * 100 }));
+const avgNormalized = normalized.reduce((sum, n) => sum + n.score, 0) / normalized.length;
+const dissenting = normalized.filter((n) => avgNormalized - n.score >= 15);
+
+function formatReviewDate(iso: string): string {
+  return new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+const pageTitle = `${brand.name} ${line.name.replace(/ Maduro$| Natural$/, '')} ${vitola.size_name} Review & Rating | StickScore`;
+const pageDescription = `${brand.name} ${vitola.size_name} (${vitola.length_in}x${vitola.ring_gauge}, ${line.wrapper} wrapper): StickScore ${vitola.stick_score ? Math.round(vitola.stick_score) : 'N/A'}/100 aggregated from ${criticReviews.length} published reviews.`;
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <div class="cigar-hero">
+    <div class="cigar-hero__eyebrow">{brand.name}</div>
+    <h1 class="cigar-hero__title">{line.name.replace(/ Maduro$| Natural$/, '')} {vitola.size_name}</h1>
+    <p class="cigar-hero__subtitle">
+      {vitola.length_in}&Prime; &times; {vitola.ring_gauge} {vitola.vitola_type} &middot; {line.wrapper} wrapper &middot; {line.strength} strength
+    </p>
+
+    <div class="score-panel">
+      <div class="score-panel__number">
+        {vitola.stick_score != null ? Math.round(vitola.stick_score) : '—'}
+        <small>StickScore</small>
+      </div>
+      <div>
+        <div class="score-panel__label">Aggregate of {criticReviews.length} published reviews</div>
+        <div class="score-panel__meta">
+          Critic scores weighted 70% &middot; retailer ratings weighted 30% (none collected yet for
+          this cigar) &middot; reviews from the last 5 years count double. This is a computed
+          aggregate, not a first-hand StickScore review.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section">
+    <h2 class="section__heading">Sub-scores</h2>
+    <div class="score-bars">
+      <ScoreBar label="Flavor" value={vitola.score_flavor} />
+      <ScoreBar label="Construction" value={vitola.score_construction} />
+      <ScoreBar label="Complexity" value={vitola.score_complexity} />
+      <ScoreBar label="Value" value={vitola.score_value} />
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Consensus tasting notes</h2>
+    <div class="tasting-tags">
+      {tastingNotes.map((note) => <span class="tasting-tag">{note}</span>)}
+    </div>
+  </section>
+
+  <section class="section summary-review">
+    <h2 class="section__heading">Summary</h2>
+    <p>{vitola.summary_review}</p>
+  </section>
+
+  {dissenting.length > 0 && (
+    <section class="section">
+      <h2 class="section__heading">Where critics disagree</h2>
+      <div class="dissent-box">
+        {dissenting.map((d) => (
+          <p>
+            <strong>{d.review.source_name}</strong> ({formatReviewDate(d.review.review_date)}) scored this
+            notably lower than the group average — {d.review.key_notes_text}
+          </p>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <h2 class="section__heading">Background</h2>
+    <p>{line.background_text}</p>
+    <p>{brand.story_short}</p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Specs</h2>
+    <table class="specs-table">
+      <tbody>
+        <tr><th>Size</th><td>{vitola.size_name} ({vitola.vitola_type})</td></tr>
+        <tr><th>Dimensions</th><td>{vitola.length_in}&Prime; &times; {vitola.ring_gauge} ring gauge</td></tr>
+        <tr><th>Wrapper</th><td>{line.wrapper}</td></tr>
+        <tr><th>Binder</th><td>{line.binder}</td></tr>
+        <tr><th>Filler</th><td>{line.filler}</td></tr>
+        <tr><th>Strength</th><td>{line.strength}</td></tr>
+        <tr><th>Origin</th><td>{brand.country}</td></tr>
+        <tr><th>Factory</th><td>{brand.factory}</td></tr>
+        <tr><th>Release year</th><td>{line.release_year}</td></tr>
+        {vitola.smoke_time_min && <tr><th>Typical smoke time</th><td>~{vitola.smoke_time_min} minutes</td></tr>}
+        {boxCounts.length > 0 && <tr><th>Box sizes</th><td>{boxCounts.join(', ')}-count boxes</td></tr>}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Pricing</h2>
+    <p class="placeholder-note">
+      Retailer price tracking hasn't started for this cigar yet — that begins with the nightly
+      automation in a later phase. No prices are shown here to avoid guessing.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Sources</h2>
+    <ul class="sources-list">
+      {criticReviews.map((r: CriticReviewRow) => (
+        <li>
+          <a href={r.url} target="_blank" rel="noopener noreferrer">{r.source_name}</a>
+          &nbsp;&middot;&nbsp;
+          <span class="source-score">{r.score}/{r.score_scale}</span>
+          &nbsp;&middot;&nbsp;
+          {formatReviewDate(r.review_date)}
+          {r.key_notes_text && <span class="source-notes">{r.key_notes_text}</span>}
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Similar cigars</h2>
+    <p class="placeholder-note">
+      This is the only cigar in the database so far — similar-cigar suggestions will appear here
+      once more are added in the next phase.
+    </p>
+  </section>
+</Layout>

@@ -1,0 +1,335 @@
+:root {
+  --color-ink: #1c1815;
+  --color-ink-soft: #3a332c;
+  --color-parchment: #faf7f0;
+  --color-parchment-dim: #f0ead9;
+  --color-rule: #ddd3bd;
+  --color-gold: #a9762f;
+  --color-gold-deep: #8a5f22;
+  --color-green: #4b5d45;
+  --color-red: #8c3a2b;
+
+  --font-display: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+
+  --max-width: 46rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-parchment);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+.site-header {
+  background: var(--color-ink);
+  color: var(--color-parchment);
+  padding: 1.5rem 1.5rem;
+}
+
+.site-header__inner {
+  max-width: 64rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.site-header__brand {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--color-parchment);
+}
+
+.site-header__tagline {
+  font-size: 0.8rem;
+  color: var(--color-rule);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+main {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 5rem;
+}
+
+.site-footer {
+  border-top: 1px solid var(--color-rule);
+  padding: 2rem 1.5rem;
+  color: var(--color-ink-soft);
+  font-size: 0.85rem;
+}
+
+.site-footer__inner {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+/* Cigar detail page */
+
+.cigar-hero {
+  max-width: var(--max-width);
+  margin: 0 auto 3rem;
+}
+
+.cigar-hero__eyebrow {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-gold-deep);
+  font-weight: 600;
+}
+
+.cigar-hero__title {
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  line-height: 1.15;
+  margin: 0.3rem 0 0.5rem;
+}
+
+.cigar-hero__subtitle {
+  color: var(--color-ink-soft);
+  font-size: 1.05rem;
+  margin: 0 0 1.5rem;
+}
+
+.score-panel {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  padding: 1.5rem;
+  background: var(--color-parchment-dim);
+  border: 1px solid var(--color-rule);
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+
+.score-panel__number {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--color-gold-deep);
+  min-width: 5rem;
+}
+
+.score-panel__number small {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-ink-soft);
+  display: block;
+  margin-top: 0.35rem;
+  font-weight: 400;
+}
+
+.score-panel__label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-ink-soft);
+  margin-bottom: 0.25rem;
+}
+
+.score-panel__meta {
+  font-size: 0.85rem;
+  color: var(--color-ink-soft);
+}
+
+.section {
+  max-width: var(--max-width);
+  margin: 0 auto 2.75rem;
+}
+
+.section__heading {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.score-bars {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.score-bar {
+  display: grid;
+  grid-template-columns: 7rem 1fr 2.5rem;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.score-bar__label {
+  color: var(--color-ink-soft);
+}
+
+.score-bar__track {
+  height: 6px;
+  background: var(--color-rule);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.score-bar__fill {
+  height: 100%;
+  background: var(--color-gold);
+  border-radius: 3px;
+}
+
+.score-bar__value {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-ink-soft);
+}
+
+.tasting-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tasting-tag {
+  font-size: 0.85rem;
+  padding: 0.3rem 0.75rem;
+  background: var(--color-parchment-dim);
+  border: 1px solid var(--color-rule);
+  border-radius: 999px;
+  color: var(--color-ink-soft);
+}
+
+.summary-review p {
+  margin: 0 0 1rem;
+}
+
+.dissent-box {
+  border-left: 3px solid var(--color-red);
+  padding: 0.9rem 1.1rem;
+  background: #f7ece8;
+  font-size: 0.92rem;
+  color: var(--color-ink-soft);
+}
+
+.dissent-box strong {
+  color: var(--color-ink);
+}
+
+.specs-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.specs-table tr {
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.specs-table th,
+.specs-table td {
+  text-align: left;
+  padding: 0.55rem 0.25rem;
+}
+
+.specs-table th {
+  color: var(--color-ink-soft);
+  font-weight: 400;
+  width: 40%;
+}
+
+.sources-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+}
+
+.sources-list li {
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.sources-list a {
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-gold);
+}
+
+.sources-list .source-score {
+  color: var(--color-gold-deep);
+  font-variant-numeric: tabular-nums;
+}
+
+.sources-list .source-notes {
+  display: block;
+  color: var(--color-ink-soft);
+  margin-top: 0.15rem;
+}
+
+.placeholder-note {
+  font-size: 0.9rem;
+  color: var(--color-ink-soft);
+  font-style: italic;
+}
+
+.home-hero {
+  max-width: var(--max-width);
+  margin: 0 auto 3rem;
+}
+
+.home-hero__title {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  margin: 0 0 0.75rem;
+}
+
+.cigar-card {
+  display: block;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--color-rule);
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--color-ink);
+  background: var(--color-parchment-dim);
+}
+
+.cigar-card__brand {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-gold-deep);
+}
+
+.cigar-card__name {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  margin: 0.25rem 0 0.35rem;
+}
+
+.cigar-card__score {
+  font-size: 0.9rem;
+  color: var(--color-ink-soft);
+}
