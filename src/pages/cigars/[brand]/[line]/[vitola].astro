@@ -1,7 +1,8 @@
 ---
 import Layout from '../../../../layouts/Layout.astro';
 import ScoreBar from '../../../../components/ScoreBar.astro';
-import { getAllCigarSlugs, getCigarPage } from '../../../../lib/db';
+import FtcDisclosure from '../../../../components/FtcDisclosure.astro';
+import { getAllCigarSlugs, getCigarPage, getSimilarCigars } from '../../../../lib/db';
 import type { CriticReviewRow } from '../../../../lib/db';
 
 export function getStaticPaths() {
@@ -37,11 +38,36 @@ function formatReviewDate(iso: string): string {
 
 const pageTitle = `${brand.name} ${line.name.replace(/ Maduro$| Natural$/, '')} ${vitola.size_name} Review & Rating | StickScore`;
 const pageDescription = `${brand.name} ${vitola.size_name} (${vitola.length_in}x${vitola.ring_gauge}, ${line.wrapper} wrapper): StickScore ${vitola.stick_score ? Math.round(vitola.stick_score) : 'N/A'}/100 aggregated from ${professionalReviews.length} published reviews.`;
+
+const similarCigars = getSimilarCigars(vitola.id, line.wrapper, line.strength);
+
+// Per CLAUDE.md's StickScore rule: publish AggregateRating markup only once
+// the 3-independent-source minimum is met.
+const totalSources = professionalReviews.length + retailerRatings.length;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: `${brand.name} ${line.name} ${vitola.size_name}`,
+  brand: { '@type': 'Brand', name: brand.name },
+  description: pageDescription,
+  ...(totalSources >= 3 && vitola.stick_score != null
+    ? {
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: Math.round(vitola.stick_score),
+          bestRating: 100,
+          worstRating: 0,
+          reviewCount: totalSources,
+        },
+      }
+    : {}),
+};
 ---
 
 <Layout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <div class="cigar-hero">
-    <div class="cigar-hero__eyebrow">{brand.name}</div>
+    <a class="cigar-hero__eyebrow" href={`/brands/${brand.slug}/`}>{brand.name}</a>
     <h1 class="cigar-hero__title">{line.name.replace(/ Maduro$| Natural$/, '')} {vitola.size_name}</h1>
     <p class="cigar-hero__subtitle">
       {vitola.length_in}&Prime; &times; {vitola.ring_gauge} {vitola.vitola_type} &middot; {line.wrapper} wrapper &middot; {line.strength} strength
@@ -127,6 +153,7 @@ const pageDescription = `${brand.name} ${vitola.size_name} (${vitola.length_in}x
 
   <section class="section">
     <h2 class="section__heading">Pricing</h2>
+    <FtcDisclosure hasAffiliateLinks={false} />
     <p class="placeholder-note">
       Retailer price tracking has not yet begun for this cigar — it starts with the nightly
       automation in a later phase. Rather than estimate, we simply show nothing until it's real.
@@ -173,9 +200,23 @@ const pageDescription = `${brand.name} ${vitola.size_name} (${vitola.length_in}x
 
   <section class="section">
     <h2 class="section__heading">Similar cigars</h2>
-    <p class="placeholder-note">
-      This is the only cigar in the catalog so far. Once more are added, we'll suggest a
-      well-matched few here rather than a long, undifferentiated list.
-    </p>
+    {similarCigars.length > 0 ? (
+      <div class="search-results">
+        {similarCigars.map((c) => (
+          <a class="cigar-card" href={`/cigars/${c.brandSlug}/${c.lineSlug}/${c.vitolaSlug}/`}>
+            <div class="cigar-card__brand">{c.brandName}</div>
+            <div class="cigar-card__name">{c.lineName} {c.vitolaSizeName}</div>
+            <div class="cigar-card__score">
+              StickScore {c.stickScore != null ? Math.round(c.stickScore) : 'insufficient data'}
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">
+        Nothing else in the catalog shares this wrapper or strength yet. As the catalog grows,
+        a well-matched few will appear here.
+      </p>
+    )}
   </section>
 </Layout>

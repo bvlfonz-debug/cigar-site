@@ -1,0 +1,27 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAllBrands } from '../../lib/db';
+
+const brands = getAllBrands();
+---
+
+<Layout
+  title="Cigar Brands | StickScore"
+  description="Every cigar brand recorded in the StickScore database, with factory, origin, and founding details."
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">Brands</h1>
+    <p>Every maker recorded so far, each linking to its full catalog of lines and vitolas.</p>
+  </div>
+
+  <section class="section">
+    <div class="brand-directory">
+      {brands.map((b) => (
+        <a class="cigar-card" href={`/brands/${b.slug}/`}>
+          <div class="cigar-card__name">{b.name}</div>
+          <div class="cigar-card__score">{b.country}{b.founded_year && ` · Founded ${b.founded_year}`}</div>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>

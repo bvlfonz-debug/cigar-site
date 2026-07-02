@@ -1,0 +1,124 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getSearchIndex } from '../lib/db';
+
+const index = getSearchIndex();
+---
+
+<Layout
+  title="Search Cigars | StickScore"
+  description="Filter the StickScore catalog by wrapper, strength, country, and score."
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">Search</h1>
+    <p>
+      Filter the catalog by wrapper, strength, country of origin, or minimum StickScore. Price
+      filtering will arrive once retailer price tracking begins.
+    </p>
+  </div>
+
+  <section class="section">
+    <div class="search-filters">
+      <label>
+        Wrapper
+        <select id="filter-wrapper"><option value="">All</option></select>
+      </label>
+      <label>
+        Strength
+        <select id="filter-strength"><option value="">All</option></select>
+      </label>
+      <label>
+        Country
+        <select id="filter-country"><option value="">All</option></select>
+      </label>
+      <label>
+        Minimum StickScore
+        <select id="filter-score">
+          <option value="0">Any</option>
+          <option value="90">90+</option>
+          <option value="80">80+</option>
+          <option value="70">70+</option>
+        </select>
+      </label>
+    </div>
+
+    <div id="search-results" class="search-results"></div>
+    <p id="search-empty" class="search-empty" hidden>No cigars match those filters yet.</p>
+  </section>
+</Layout>
+
+<script type="application/json" id="search-data" set:html={JSON.stringify(index)} />
+
+<script>
+  interface Entry {
+    brandName: string;
+    brandSlug: string;
+    lineName: string;
+    lineSlug: string;
+    vitolaSizeName: string;
+    vitolaSlug: string;
+    wrapper: string;
+    strength: string;
+    country: string;
+    stickScore: number | null;
+    path: string;
+  }
+
+  const dataEl = document.getElementById('search-data');
+  const entries: Entry[] = dataEl ? JSON.parse(dataEl.textContent || '[]') : [];
+
+  function populate(selectId: string, values: string[]) {
+    const select = document.getElementById(selectId) as HTMLSelectElement | null;
+    if (!select) return;
+    const unique = Array.from(new Set(values)).sort();
+    for (const v of unique) {
+      const opt = document.createElement('option');
+      opt.value = v;
+      opt.textContent = v;
+      select.appendChild(opt);
+    }
+  }
+
+  populate('filter-wrapper', entries.map((e) => e.wrapper));
+  populate('filter-strength', entries.map((e) => e.strength));
+  populate('filter-country', entries.map((e) => e.country));
+
+  const resultsEl = document.getElementById('search-results') as HTMLElement;
+  const emptyEl = document.getElementById('search-empty') as HTMLElement;
+
+  function render() {
+    const wrapper = (document.getElementById('filter-wrapper') as HTMLSelectElement).value;
+    const strength = (document.getElementById('filter-strength') as HTMLSelectElement).value;
+    const country = (document.getElementById('filter-country') as HTMLSelectElement).value;
+    const minScore = Number((document.getElementById('filter-score') as HTMLSelectElement).value);
+
+    const filtered = entries.filter((e) => {
+      if (wrapper && e.wrapper !== wrapper) return false;
+      if (strength && e.strength !== strength) return false;
+      if (country && e.country !== country) return false;
+      if (minScore > 0 && (e.stickScore == null || e.stickScore < minScore)) return false;
+      return true;
+    });
+
+    resultsEl.innerHTML = '';
+    emptyEl.hidden = filtered.length > 0;
+
+    for (const e of filtered) {
+      const a = document.createElement('a');
+      a.className = 'cigar-card';
+      a.href = e.path;
+      a.innerHTML = `
+        <div class="cigar-card__brand">${e.brandName}</div>
+        <div class="cigar-card__name">${e.lineName} ${e.vitolaSizeName}</div>
+        <div class="cigar-card__score">StickScore ${e.stickScore != null ? Math.round(e.stickScore) : 'insufficient data'}</div>
+      `;
+      resultsEl.appendChild(a);
+    }
+  }
+
+  for (const id of ['filter-wrapper', 'filter-strength', 'filter-country', 'filter-score']) {
+    document.getElementById(id)?.addEventListener('change', render);
+  }
+
+  render();
+</script>

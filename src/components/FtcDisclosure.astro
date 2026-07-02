@@ -1,0 +1,18 @@
+---
+// Render only where affiliate links actually appear on the page — pass
+// hasAffiliateLinks={true} from the caller. Keeping the gate in the caller
+// (rather than always rendering) avoids disclosing links that don't exist yet.
+interface Props {
+  hasAffiliateLinks: boolean;
+}
+
+const { hasAffiliateLinks } = Astro.props;
+---
+
+{hasAffiliateLinks && (
+  <p class="ftc-disclosure">
+    <strong>Disclosure:</strong> Some links below are affiliate links. If you buy through one,
+    StickScore may earn a commission at no extra cost to you — this never influences our scores
+    or rankings.
+  </p>
+)}

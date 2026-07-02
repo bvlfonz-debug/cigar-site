@@ -1,0 +1,47 @@
+---
+// 21+ interstitial, remembered for the browser session (sessionStorage) per
+// CLAUDE.md's non-negotiable content rule. Included once, in Layout.astro,
+// so it covers every route.
+---
+
+<div id="age-gate" class="age-gate" hidden>
+  <div class="age-gate__card">
+    <p class="age-gate__eyebrow">Before you enter</p>
+    <h2 class="age-gate__title">Are you 21 or older?</h2>
+    <p class="age-gate__body">
+      StickScore covers tobacco products intended for adults of legal smoking age. Please
+      confirm your age to continue.
+    </p>
+    <div class="age-gate__actions">
+      <button type="button" id="age-gate-enter" class="age-gate__button age-gate__button--primary">
+        I am 21 or older
+      </button>
+      <button type="button" id="age-gate-exit" class="age-gate__button age-gate__button--secondary">
+        Exit
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const STORAGE_KEY = 'stickscore-age-verified';
+  const gate = document.getElementById('age-gate') as HTMLElement | null;
+
+  if (gate) {
+    const alreadyVerified = sessionStorage.getItem(STORAGE_KEY) === 'true';
+    if (!alreadyVerified) {
+      gate.hidden = false;
+      document.body.style.overflow = 'hidden';
+    }
+
+    document.getElementById('age-gate-enter')?.addEventListener('click', () => {
+      sessionStorage.setItem(STORAGE_KEY, 'true');
+      gate.hidden = true;
+      document.body.style.overflow = '';
+    });
+
+    document.getElementById('age-gate-exit')?.addEventListener('click', () => {
+      window.location.href = 'https://www.google.com';
+    });
+  }
+</script>

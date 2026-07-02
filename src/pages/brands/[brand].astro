@@ -1,0 +1,58 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAllBrandSlugs, getBrandPage } from '../../lib/db';
+
+export function getStaticPaths() {
+  return getAllBrandSlugs().map((brand) => ({ params: { brand } }));
+}
+
+const { brand: brandSlug } = Astro.params;
+const data = getBrandPage(brandSlug as string);
+
+if (!data) {
+  return new Response(null, { status: 404 });
+}
+
+const { brand, lines } = data;
+
+const allVitolas = lines.flatMap((l) => l.vitolas);
+const scored = allVitolas.filter((v) => v.stick_score != null);
+const avgScore = scored.length > 0 ? scored.reduce((s, v) => s + (v.stick_score as number), 0) / scored.length : null;
+
+const pageTitle = `${brand.name} Cigars — Lines, Vitolas & Scores | StickScore`;
+const pageDescription = `${brand.name}: ${brand.story_short}`;
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <div class="brand-hero">
+    <div class="cigar-hero__eyebrow">{brand.country}</div>
+    <h1 class="brand-hero__title">{brand.name}</h1>
+    <p>{brand.story_short}</p>
+
+    <div class="brand-stats">
+      <div><strong>{allVitolas.length}</strong> cigars recorded</div>
+      <div><strong>{lines.length}</strong> line{lines.length === 1 ? '' : 's'}</div>
+      {avgScore != null && <div><strong>{Math.round(avgScore)}</strong> average StickScore</div>}
+      {brand.founded_year && <div><strong>{brand.founded_year}</strong> founded</div>}
+    </div>
+  </div>
+
+  <section class="section">
+    <h2 class="section__heading">Catalog</h2>
+    {lines.map((line) => (
+      <div class="line-group">
+        <h3 class="line-group__name">{line.name}</h3>
+        <div class="search-results">
+          {line.vitolas.map((v) => (
+            <a class="cigar-card" href={`/cigars/${brand.slug}/${line.slug}/${v.slug}/`}>
+              <div class="cigar-card__name">{v.size_name} ({v.length_in}&Prime; &times; {v.ring_gauge})</div>
+              <div class="cigar-card__score">
+                StickScore {v.stick_score != null ? Math.round(v.stick_score) : 'insufficient data'}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+</Layout>

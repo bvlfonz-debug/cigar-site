@@ -107,3 +107,96 @@ export function getCigarPage(brandSlug: string, lineSlug: string, vitolaSlug: st
 
   return { brand, line, vitola, criticReviews };
 }
+
+export interface BrandPageLine extends LineRow {
+  vitolas: VitolaRow[];
+}
+
+export interface BrandPageData {
+  brand: BrandRow;
+  lines: BrandPageLine[];
+}
+
+export function getAllBrandSlugs(): string[] {
+  return (getDb().prepare('SELECT slug FROM brand').all() as { slug: string }[]).map((r) => r.slug);
+}
+
+export function getAllBrands(): BrandRow[] {
+  return getDb().prepare('SELECT * FROM brand ORDER BY name').all() as BrandRow[];
+}
+
+export function getBrandPage(brandSlug: string): BrandPageData | null {
+  const db = getDb();
+  const brand = db.prepare('SELECT * FROM brand WHERE slug = ?').get(brandSlug) as BrandRow | undefined;
+  if (!brand) return null;
+
+  const lines = db.prepare('SELECT * FROM line WHERE brand_id = ? ORDER BY name').all(brand.id) as LineRow[];
+  const linesWithVitolas: BrandPageLine[] = lines.map((line) => ({
+    ...line,
+    vitolas: db.prepare('SELECT * FROM vitola WHERE line_id = ? ORDER BY size_name').all(line.id) as VitolaRow[],
+  }));
+
+  return { brand, lines: linesWithVitolas };
+}
+
+export interface SearchIndexEntry {
+  brandName: string;
+  brandSlug: string;
+  lineName: string;
+  lineSlug: string;
+  vitolaSizeName: string;
+  vitolaSlug: string;
+  wrapper: string;
+  strength: string;
+  country: string;
+  stickScore: number | null;
+  path: string;
+}
+
+export interface SimilarCigar {
+  brandName: string;
+  brandSlug: string;
+  lineName: string;
+  lineSlug: string;
+  vitolaSizeName: string;
+  vitolaSlug: string;
+  stickScore: number | null;
+}
+
+export function getSimilarCigars(currentVitolaId: number, wrapper: string, strength: string, limit = 5): SimilarCigar[] {
+  const rows = getDb()
+    .prepare(
+      `SELECT
+         brand.name AS brandName, brand.slug AS brandSlug,
+         line.name AS lineName, line.slug AS lineSlug, line.wrapper AS wrapper, line.strength AS strength,
+         vitola.id AS vitolaId, vitola.size_name AS vitolaSizeName, vitola.slug AS vitolaSlug, vitola.stick_score AS stickScore
+       FROM vitola
+       JOIN line ON line.id = vitola.line_id
+       JOIN brand ON brand.id = line.brand_id
+       WHERE vitola.id != ? AND (line.wrapper = ? OR line.strength = ?)
+       ORDER BY (line.wrapper = ?) DESC, (line.strength = ?) DESC, vitola.stick_score DESC
+       LIMIT ?`
+    )
+    .all(currentVitolaId, wrapper, strength, wrapper, strength, limit) as (SimilarCigar & { vitolaId: number })[];
+
+  return rows.map(({ vitolaId, ...rest }) => rest);
+}
+
+export function getSearchIndex(): SearchIndexEntry[] {
+  const rows = getDb()
+    .prepare(
+      `SELECT
+         brand.name AS brandName, brand.slug AS brandSlug, brand.country AS country,
+         line.name AS lineName, line.slug AS lineSlug, line.wrapper AS wrapper, line.strength AS strength,
+         vitola.size_name AS vitolaSizeName, vitola.slug AS vitolaSlug, vitola.stick_score AS stickScore
+       FROM vitola
+       JOIN line ON line.id = vitola.line_id
+       JOIN brand ON brand.id = line.brand_id`
+    )
+    .all() as Omit<SearchIndexEntry, 'path'>[];
+
+  return rows.map((r) => ({
+    ...r,
+    path: `/cigars/${r.brandSlug}/${r.lineSlug}/${r.vitolaSlug}/`,
+  }));
+}

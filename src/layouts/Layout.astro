@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import AgeGate from '../components/AgeGate.astro';
 
 interface Props {
   title: string;
@@ -17,9 +18,14 @@ const { title, description } = Astro.props;
     <meta name="description" content={description} />
   </head>
   <body>
+    <AgeGate />
     <header class="site-header">
       <div class="site-header__inner">
         <a class="site-header__brand" href="/">StickScore</a>
+        <nav class="site-header__nav">
+          <a href="/brands/">Brands</a>
+          <a href="/search/">Search</a>
+        </nav>
         <span class="site-header__tagline">A Considered Record for the Discerning Smoker</span>
       </div>
     </header>
