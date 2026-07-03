@@ -379,14 +379,18 @@ main {
 /* Age gate */
 
 .age-gate {
+  display: none;
   position: fixed;
   inset: 0;
   z-index: 100;
-  display: flex;
   align-items: center;
   justify-content: center;
   padding: 1.5rem;
   background: rgba(28, 24, 21, 0.92);
+}
+
+.age-gate--visible {
+  display: flex;
 }
 
 .age-gate__card {

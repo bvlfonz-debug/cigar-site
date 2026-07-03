@@ -4,7 +4,7 @@
 // so it covers every route.
 ---
 
-<div id="age-gate" class="age-gate" hidden>
+<div id="age-gate" class="age-gate">
   <div class="age-gate__card">
     <p class="age-gate__eyebrow">Before you enter</p>
     <h2 class="age-gate__title">Are you 21 or older?</h2>
@@ -30,13 +30,13 @@
   if (gate) {
     const alreadyVerified = sessionStorage.getItem(STORAGE_KEY) === 'true';
     if (!alreadyVerified) {
-      gate.hidden = false;
+      gate.classList.add('age-gate--visible');
       document.body.style.overflow = 'hidden';
     }
 
     document.getElementById('age-gate-enter')?.addEventListener('click', () => {
       sessionStorage.setItem(STORAGE_KEY, 'true');
-      gate.hidden = true;
+      gate.classList.remove('age-gate--visible');
       document.body.style.overflow = '';
     });
 
