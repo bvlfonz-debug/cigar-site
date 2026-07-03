@@ -23,6 +23,16 @@ const { brand, line, vitola, criticReviews: allReviews } = data;
 const professionalReviews = allReviews.filter((r) => r.source_type === 'critic');
 const retailerRatings = allReviews.filter((r) => r.source_type === 'retailer');
 
+// A few outlets share one editorial team under two names (e.g. Cigar Insider
+// is Cigar Aficionado's own ratings newsletter) — canonicalized so the
+// "independent sources" count isn't inflated by re-listing the same publisher.
+const CANONICAL_SOURCE: Record<string, string> = {
+  'Cigar Insider (Cigar Aficionado)': 'Cigar Aficionado',
+  'Cigar Insider': 'Cigar Aficionado',
+};
+const canonSource = (name: string) => CANONICAL_SOURCE[name] ?? name;
+const distinctSourceCount = new Set(allReviews.map((r) => canonSource(r.source_name))).size;
+
 const tastingNotes: string[] = JSON.parse(vitola.tasting_notes);
 const boxCounts: number[] = JSON.parse(vitola.box_counts);
 
@@ -41,23 +51,28 @@ const pageDescription = `${brand.name} ${vitola.size_name} (${vitola.length_in}x
 
 const similarCigars = getSimilarCigars(vitola.id, line.wrapper, line.strength);
 
+const hasSubScores = [vitola.score_flavor, vitola.score_construction, vitola.score_complexity, vitola.score_value].some(
+  (v) => v != null
+);
+
 // Per CLAUDE.md's StickScore rule: publish AggregateRating markup only once
-// the 3-independent-source minimum is met.
-const totalSources = professionalReviews.length + retailerRatings.length;
+// the 3-independent-source minimum is met (vitola.stick_score is already null
+// otherwise, computed the same way in scripts/seed.mjs).
+const totalReviewCount = professionalReviews.length + retailerRatings.length;
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: `${brand.name} ${line.name} ${vitola.size_name}`,
   brand: { '@type': 'Brand', name: brand.name },
   description: pageDescription,
-  ...(totalSources >= 3 && vitola.stick_score != null
+  ...(vitola.stick_score != null
     ? {
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: Math.round(vitola.stick_score),
           bestRating: 100,
           worstRating: 0,
-          reviewCount: totalSources,
+          reviewCount: totalReviewCount,
         },
       }
     : {}),
@@ -80,32 +95,40 @@ const jsonLd = {
       </div>
       <div>
         <div class="score-panel__label">
-          Aggregate of {professionalReviews.length} critic review{professionalReviews.length === 1 ? '' : 's'}
-          {retailerRatings.length > 0 && <>{` and ${retailerRatings.length} retailer rating${retailerRatings.length === 1 ? '' : 's'}`}</>}
+          {vitola.stick_score != null
+            ? <>Aggregate of {professionalReviews.length} critic review{professionalReviews.length === 1 ? '' : 's'}
+                {retailerRatings.length > 0 && ` and ${retailerRatings.length} retailer rating${retailerRatings.length === 1 ? '' : 's'}`}</>
+            : <>Insufficient data — {distinctSourceCount} of the 3 independent sources StickScore requires</>}
         </div>
         <div class="score-panel__meta">
-          Critic reviews are weighted 70% and retailer ratings 30%{retailerRatings.length === 0 && ' (none collected yet for this cigar, so the figure below rests on critics alone)'}; reviews from the last five years count double. This is a computed aggregate, presented as such — never a first-hand StickScore review.
+          {vitola.stick_score != null
+            ? <>Critic reviews are weighted 70% and retailer ratings 30%{retailerRatings.length === 0 && ' (none collected yet for this cigar, so the figure above rests on critics alone)'}; reviews from the last five years count double. This is a computed aggregate, presented as such — never a first-hand StickScore review.</>
+            : <>We don't publish a score until at least 3 independent outlets have rated a cigar — padding the average with fewer sources would overstate how settled the consensus really is. This one is in the review queue for follow-up.</>}
         </div>
       </div>
     </div>
   </div>
 
-  <section class="section">
-    <h2 class="section__heading">Sub-scores</h2>
-    <div class="score-bars">
-      <ScoreBar label="Flavor" value={vitola.score_flavor} />
-      <ScoreBar label="Construction" value={vitola.score_construction} />
-      <ScoreBar label="Complexity" value={vitola.score_complexity} />
-      <ScoreBar label="Value" value={vitola.score_value} />
-    </div>
-  </section>
+  {hasSubScores && (
+    <section class="section">
+      <h2 class="section__heading">Sub-scores</h2>
+      <div class="score-bars">
+        <ScoreBar label="Flavor" value={vitola.score_flavor} />
+        <ScoreBar label="Construction" value={vitola.score_construction} />
+        <ScoreBar label="Complexity" value={vitola.score_complexity} />
+        <ScoreBar label="Value" value={vitola.score_value} />
+      </div>
+    </section>
+  )}
 
-  <section class="section">
-    <h2 class="section__heading">Consensus tasting notes</h2>
-    <div class="tasting-tags">
-      {tastingNotes.map((note) => <span class="tasting-tag">{note}</span>)}
-    </div>
-  </section>
+  {tastingNotes.length > 0 && (
+    <section class="section">
+      <h2 class="section__heading">{distinctSourceCount >= 3 ? 'Consensus tasting notes' : 'Tasting notes (limited sources)'}</h2>
+      <div class="tasting-tags">
+        {tastingNotes.map((note) => <span class="tasting-tag">{note}</span>)}
+      </div>
+    </section>
+  )}
 
   <section class="section summary-review">
     <h2 class="section__heading">Summary</h2>
@@ -184,18 +207,25 @@ const jsonLd = {
 
   <section class="section">
     <h2 class="section__heading">Sources</h2>
-    <ul class="sources-list">
-      {professionalReviews.map((r: CriticReviewRow) => (
-        <li>
-          <a href={r.url} target="_blank" rel="noopener noreferrer">{r.source_name}</a>
-          &nbsp;&middot;&nbsp;
-          <span class="source-score">{r.score}/{r.score_scale}</span>
-          &nbsp;&middot;&nbsp;
-          {formatReviewDate(r.review_date)}
-          {r.key_notes_text && <span class="source-notes">{r.key_notes_text}</span>}
-        </li>
-      ))}
-    </ul>
+    {professionalReviews.length > 0 ? (
+      <ul class="sources-list">
+        {professionalReviews.map((r: CriticReviewRow) => (
+          <li>
+            <a href={r.url} target="_blank" rel="noopener noreferrer">{r.source_name}</a>
+            &nbsp;&middot;&nbsp;
+            <span class="source-score">{r.score}/{r.score_scale}</span>
+            &nbsp;&middot;&nbsp;
+            {formatReviewDate(r.review_date)}
+            {r.key_notes_text && <span class="source-notes">{r.key_notes_text}</span>}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="placeholder-note">
+        No published critic reviews have been found yet for this exact vitola. It's in the
+        review queue so future research passes can fill this in.
+      </p>
+    )}
   </section>
 
   <section class="section">

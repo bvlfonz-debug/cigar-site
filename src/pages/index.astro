@@ -3,6 +3,11 @@ import Layout from '../layouts/Layout.astro';
 import { getAllCigarSlugs, getCigarPage } from '../lib/db';
 
 const cigars = getAllCigarSlugs().map(({ brand, line, vitola }) => getCigarPage(brand, line, vitola)!);
+const scoredCount = cigars.filter((c) => c.vitola.stick_score != null).length;
+
+const featured = [...cigars]
+  .sort((a, b) => (b.vitola.stick_score ?? -1) - (a.vitola.stick_score ?? -1))
+  .slice(0, 6);
 ---
 
 <Layout
@@ -13,21 +18,26 @@ const cigars = getAllCigarSlugs().map(({ brand, line, vitola }) => getCigarPage(
     <h1 class="home-hero__title">A considered record, not a sales pitch</h1>
     <p>
       StickScore weighs published critic reviews and retailer ratings into a single, comparable
-      figure for each cigar — every source cited, nothing invented. The catalog is young; one
-      cigar is recorded so far, with a great many more to follow.
+      figure for each cigar — every source cited, nothing invented. {cigars.length} cigars are
+      recorded so far; {scoredCount} have cleared the three-independent-source bar for a
+      published score, and the rest are queued for more research rather than padded to look
+      complete.
     </p>
   </div>
 
   <section class="section">
     <h2 class="section__heading">Featured</h2>
-    {cigars.map((c) => (
+    {featured.map((c) => (
       <a class="cigar-card" href={`/cigars/${c.brand.slug}/${c.line.slug}/${c.vitola.slug}/`}>
         <div class="cigar-card__brand">{c.brand.name}</div>
         <div class="cigar-card__name">{c.line.name.replace(/ Maduro$| Natural$/, '')} {c.vitola.size_name}</div>
         <div class="cigar-card__score">
-          StickScore {c.vitola.stick_score != null ? Math.round(c.vitola.stick_score) : '—'}/100
+          StickScore {c.vitola.stick_score != null ? Math.round(c.vitola.stick_score) : 'insufficient data'}
         </div>
       </a>
     ))}
+    <p class="placeholder-note">
+      <a href="/search/">See all {cigars.length} cigars in Search →</a> or browse by <a href="/brands/">Brand</a>.
+    </p>
   </section>
 </Layout>

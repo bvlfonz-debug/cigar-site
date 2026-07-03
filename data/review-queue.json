@@ -1,0 +1,264 @@
+[
+  {
+    "item": "1926 Serie No. 35 Maduro",
+    "path": "/cigars/padron/1926-serie/no-35-maduro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Arturo Fuente Hemingway Short Story",
+    "path": "/cigars/arturo-fuente/hemingway/short-story/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "CigarScore.com"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Fuente Fuente OpusX Robusto",
+    "path": "/cigars/arturo-fuente/opusx/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 0 independent sources found (StickScore requires 3).",
+    "sources_found": [],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Arturo Fuente Añejo Reserva No. 48",
+    "path": "/cigars/arturo-fuente/anejo-reserva/no-48/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "Stogies on the Rocks"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Serie V Melanio Robusto",
+    "path": "/cigars/oliva/serie-v-melanio/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "CigarScore.com"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Serie V Maduro Toro",
+    "path": "/cigars/oliva/serie-v-maduro/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "The Cigar Authority",
+      "CigarScore.com"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Le Bijou 1922 Toro",
+    "path": "/cigars/my-father/le-bijou-1922/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Flor de las Antillas Toro",
+    "path": "/cigars/my-father/flor-de-las-antillas/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "Cigar Dojo"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "My Father Robusto",
+    "path": "/cigars/my-father/no-1/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "Cigar Dojo"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Vintage 1990 Toro",
+    "path": "/cigars/rocky-patel/vintage-1990/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "StogieReview.com"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Decade Toro",
+    "path": "/cigars/rocky-patel/decade/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "CigarScore.com"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Liga Privada No. 9 Toro",
+    "path": "/cigars/drew-estate/liga-privada-no-9/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "Cigar Dojo"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Undercrown Maduro Gran Toro",
+    "path": "/cigars/drew-estate/undercrown-maduro/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Stogie Guys",
+      "CigarScore.com"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Liga Privada T52 Toro",
+    "path": "/cigars/drew-estate/liga-privada-t52/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "New World Toro",
+    "path": "/cigars/aj-fernandez/new-world/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Coop",
+      "CigarScore.com"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "San Lotano Requiem Toro",
+    "path": "/cigars/aj-fernandez/san-lotano-requiem/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 0 independent sources found (StickScore requires 3).",
+    "sources_found": [],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Davidoff Nicaragua Toro",
+    "path": "/cigars/davidoff/nicaragua/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "CigarScore.com"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Romeo y Julieta Reserva Real Toro",
+    "path": "/cigars/romeo-y-julieta/reserva-real/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Romeo y Julieta 1875 Bully",
+    "path": "/cigars/romeo-y-julieta/1875/bully/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Romeo Añejo Piramide",
+    "path": "/cigars/romeo-y-julieta/anejo/piramide/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Montecristo White Series Toro",
+    "path": "/cigars/montecristo/white-series/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "The Cigar Authority"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Montecristo Epic Toro",
+    "path": "/cigars/montecristo/montecristo-epic/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Montecristo Classic No. 2 Torpedo",
+    "path": "/cigars/montecristo/classic/no-2-torpedo/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  }
+]
