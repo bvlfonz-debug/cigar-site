@@ -1,0 +1,67 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAllNewsItems } from '../../lib/db';
+
+const newsItems = getAllNewsItems();
+
+function formatDate(iso: string): string {
+  return new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': newsItems.map((n) => ({
+    '@type': 'Article',
+    headline: n.title,
+    description: n.summary,
+    datePublished: n.published_at,
+    author: { '@type': 'Organization', name: n.source_name },
+    url: n.source_url,
+  })),
+};
+---
+
+<Layout
+  title="Cigar News | StickScore"
+  description="Brief, sourced updates on new releases and industry news, drawn from established cigar publications."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+  <div class="home-hero">
+    <h1 class="home-hero__title">News</h1>
+    <p>
+      Short, sourced briefs on new releases and industry developments — original summaries with
+      a link back to the outlet that reported it, never copied text.
+    </p>
+  </div>
+
+  <section class="section">
+    {newsItems.length > 0 ? (
+      <div class="news-list">
+        {newsItems.map((n) => (
+          <article class="news-item">
+            <div class="news-item__date">{formatDate(n.published_at)}</div>
+            <h2 class="news-item__title">{n.title}</h2>
+            <p>{n.summary}</p>
+            <div class="news-item__meta">
+              Source: <a href={n.source_url} target="_blank" rel="noopener noreferrer">{n.source_name}</a>
+              {n.relatedCigars.length > 0 && (
+                <>
+                  {' · '}Related:{' '}
+                  {n.relatedCigars.map((c, i) => (
+                    <>
+                      {i > 0 && ', '}
+                      <a href={`/cigars/${c.brandSlug}/${c.lineSlug}/${c.vitolaSlug}/`}>{c.brandName} {c.vitolaSizeName}</a>
+                    </>
+                  ))}
+                </>
+              )}
+            </div>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">No news briefs yet — the nightly automation adds these as it finds them.</p>
+    )}
+  </section>
+</Layout>

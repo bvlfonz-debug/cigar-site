@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { getAllCigarSlugs, getCigarPage } from '../lib/db';
+import { getAllCigarSlugs, getCigarPage, getLatestNewsItems } from '../lib/db';
 
 const cigars = getAllCigarSlugs().map(({ brand, line, vitola }) => getCigarPage(brand, line, vitola)!);
 const scoredCount = cigars.filter((c) => c.vitola.stick_score != null).length;
@@ -8,6 +8,12 @@ const scoredCount = cigars.filter((c) => c.vitola.stick_score != null).length;
 const featured = [...cigars]
   .sort((a, b) => (b.vitola.stick_score ?? -1) - (a.vitola.stick_score ?? -1))
   .slice(0, 6);
+
+const latestNews = getLatestNewsItems(3);
+
+function formatDate(iso: string): string {
+  return new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
 ---
 
 <Layout
@@ -40,4 +46,19 @@ const featured = [...cigars]
       <a href="/search/">See all {cigars.length} cigars in Search →</a> or browse by <a href="/brands/">Brand</a>.
     </p>
   </section>
+
+  {latestNews.length > 0 && (
+    <section class="section">
+      <h2 class="section__heading">Latest news</h2>
+      <div class="news-teaser">
+        {latestNews.map((n) => (
+          <div class="news-teaser__item">
+            <strong>{n.title}</strong>
+            {formatDate(n.published_at)} · {n.source_name}
+          </div>
+        ))}
+      </div>
+      <p class="placeholder-note"><a href="/news/">All news →</a></p>
+    </section>
+  )}
 </Layout>

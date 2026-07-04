@@ -182,6 +182,78 @@ export function getSimilarCigars(currentVitolaId: number, wrapper: string, stren
   return rows.map(({ vitolaId, ...rest }) => rest);
 }
 
+export interface PricePointRow {
+  id: number;
+  vitola_id: number;
+  retailer: string;
+  price_single: number | null;
+  price_box: number | null;
+  box_count: number | null;
+  affiliate_url: string | null;
+  checked_at: string;
+}
+
+// price_point is append-only, so history piles up per retailer over time —
+// this returns just the most recent check per retailer for display.
+export function getLatestPricePoints(vitolaId: number): PricePointRow[] {
+  const rows = getDb()
+    .prepare('SELECT * FROM price_point WHERE vitola_id = ? ORDER BY checked_at DESC')
+    .all(vitolaId) as PricePointRow[];
+
+  const latestByRetailer = new Map<string, PricePointRow>();
+  for (const row of rows) {
+    if (!latestByRetailer.has(row.retailer)) {
+      latestByRetailer.set(row.retailer, row);
+    }
+  }
+  return [...latestByRetailer.values()];
+}
+
+export interface NewsItemRow {
+  id: number;
+  title: string;
+  summary: string;
+  source_name: string;
+  source_url: string;
+  published_at: string;
+  related_vitola_ids: string;
+}
+
+export interface RelatedCigar {
+  brandName: string;
+  brandSlug: string;
+  lineName: string;
+  lineSlug: string;
+  vitolaSizeName: string;
+  vitolaSlug: string;
+}
+
+export interface NewsItemWithRelated extends NewsItemRow {
+  relatedCigars: RelatedCigar[];
+}
+
+export function getAllNewsItems(): NewsItemWithRelated[] {
+  const db = getDb();
+  const rows = db.prepare('SELECT * FROM news_item ORDER BY published_at DESC').all() as NewsItemRow[];
+  const relatedStmt = db.prepare(`
+    SELECT brand.name AS brandName, brand.slug AS brandSlug,
+           line.name AS lineName, line.slug AS lineSlug,
+           vitola.size_name AS vitolaSizeName, vitola.slug AS vitolaSlug
+    FROM vitola JOIN line ON line.id = vitola.line_id JOIN brand ON brand.id = line.brand_id
+    WHERE vitola.id = ?
+  `);
+
+  return rows.map((r) => {
+    const ids = JSON.parse(r.related_vitola_ids) as number[];
+    const relatedCigars = ids.map((id) => relatedStmt.get(id) as RelatedCigar | undefined).filter((c): c is RelatedCigar => !!c);
+    return { ...r, relatedCigars };
+  });
+}
+
+export function getLatestNewsItems(limit = 3): NewsItemWithRelated[] {
+  return getAllNewsItems().slice(0, limit);
+}
+
 export function getSearchIndex(): SearchIndexEntry[] {
   const rows = getDb()
     .prepare(

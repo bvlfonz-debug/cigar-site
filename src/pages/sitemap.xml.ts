@@ -4,7 +4,7 @@ import { getAllCigarSlugs, getAllBrandSlugs } from '../lib/db';
 export const GET: APIRoute = ({ site }) => {
   const base = site?.toString().replace(/\/$/, '') ?? '';
 
-  const staticPaths = ['/', '/search/', '/brands/'];
+  const staticPaths = ['/', '/search/', '/brands/', '/news/'];
   const brandPaths = getAllBrandSlugs().map((slug) => `/brands/${slug}/`);
   const cigarPaths = getAllCigarSlugs().map(
     ({ brand, line, vitola }) => `/cigars/${brand}/${line}/${vitola}/`
