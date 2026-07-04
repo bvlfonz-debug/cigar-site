@@ -30,7 +30,7 @@ jobs:
           cache: 'npm'
 
       - name: Install project dependencies
-        run: npm install
+        run: npm ci
 
       - name: Install Claude Code
         run: npm install -g @anthropic-ai/claude-code
