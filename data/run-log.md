@@ -12,3 +12,7 @@ new brands/lines, unusual price swings, and low-confidence scores all land
 there instead of publishing automatically.
 
 ---
+
+## 2026-07-04 — NEEDS-ATTENTION: fallback commit
+The nightly run left uncommitted changes (Claude exit code: 1).
+Committed automatically so nothing is lost; please check this run's logs in the Actions tab.
