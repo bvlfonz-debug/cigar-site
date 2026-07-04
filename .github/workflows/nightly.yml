@@ -58,6 +58,10 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
           set +e
+          # Defensive: strip any stray whitespace/newlines a copy-paste into
+          # the GitHub secret might have introduced — a raw newline in an
+          # HTTP header value makes every API call fail instantly.
+          export CLAUDE_CODE_OAUTH_TOKEN="$(printf '%s' "$CLAUDE_CODE_OAUTH_TOKEN" | tr -d '[:space:]')"
           claude -p "Follow the 'Nightly automation' section of CLAUDE.md in this repository exactly, from top to bottom (Ingest, Price refresh, Score recompute, Generate, Publish gate, commit+push, run-log entry).
 
           Today is $(date -u +%Y-%m-%d). Today is ${{ steps.budget.outputs.day_type }}. Your turn budget for this run is ${{ steps.budget.outputs.max_turns }} — if you're at risk of running out, stop early rather than leaving things half-done: commit whatever is fully complete, note what was skipped in data/run-log.md with a line starting 'NEEDS-ATTENTION:', and exit cleanly.
