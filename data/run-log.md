@@ -13,6 +13,27 @@ there instead of publishing automatically.
 
 ---
 
+## 2026-07-04 — Weekday run: 1 price, 1 news brief
+Kept it light since it's a weekday. What happened:
+
+- **Prices checked**: Oliva Serie V Melanio Robusto — $98.95 for a box of 10
+  from Famous Smoke Shop (currently on a 35%-off sale). This is the first
+  price ever recorded for this one, so there was nothing to compare against
+  and nothing got flagged.
+- **Also checked but skipped**: Rocky Patel Vintage 1990 Toro (the retailer
+  page showed a suspiciously high single-stick price with box options that
+  wouldn't resolve, so I didn't trust it) and Davidoff Nicaragua Toro (the
+  site that had a clear price blocked the request). Rather than guess, both
+  are left for another night.
+- **News**: added one brief — halfwheel's report that Drew Estate's CEO,
+  Glenn Wolfson, passed away on June 29 at age 70. No changes expected to
+  Liga Privada or Undercrown lines.
+- **Reviews / scores**: no new critic reviews found tonight, so no
+  StickScores changed.
+- **Errors**: none. Site builds cleanly.
+- Nothing new was added to `data/review-queue.json` this run — it still has
+  23 items waiting on you whenever you have a few minutes.
+
 ## 2026-07-04 — NEEDS-ATTENTION: fallback commit
 The nightly run left uncommitted changes (Claude exit code: 1).
 Committed automatically so nothing is lost; please check this run's logs in the Actions tab.
@@ -40,3 +61,7 @@ Kept it light since it's a weekday. What happened:
 - **Errors**: none. Site builds cleanly.
 - Nothing new was added to `data/review-queue.json` this run — it still has
   23 items waiting on you whenever you have a few minutes.
+
+## 2026-07-04 — NEEDS-ATTENTION: fallback commit
+The nightly run left uncommitted changes (Claude exit code: 1).
+Committed automatically so nothing is lost; please check this run's logs in the Actions tab.
