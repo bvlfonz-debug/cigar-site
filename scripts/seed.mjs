@@ -1,12 +1,20 @@
-// Rebuilds data/cigars.db from data/schema.sql and inserts researched data.
-// Every fact and review below is sourced from a real, linked publication — see
-// CLAUDE.md's "NEVER invent a score, a source, or a review" rule. Where fewer
-// than 3 independent sources were found, stick_score is left null ("insufficient
-// data") rather than guessed, and the cigar is written to data/review-queue.json.
+// DESTRUCTIVE — wipes and fully rebuilds data/cigars.db from the hardcoded
+// catalog below. This is the initial-seed script only. It is NOT safe to run
+// as part of nightly automation: it would erase all price history and any
+// cigars added since this file was last edited. Nightly updates must use
+// scripts/db-tools.mjs instead, which only ever appends/updates in place.
+//
+// Every fact and review below is sourced from a real, linked publication —
+// see CLAUDE.md's "NEVER invent a score, a source, or a review" rule. Where
+// fewer than 3 independent sources were found, stick_score is left null
+// ("insufficient data") rather than guessed, and the cigar is written to
+// data/review-queue.json.
 import { DatabaseSync } from 'node:sqlite';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { computeStickScore } from './lib/stickscore.mjs';
+import { canon } from './lib/stickscore.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dbPath = path.join(__dirname, '..', 'data', 'cigars.db');
@@ -22,47 +30,6 @@ db.exec(fs.readFileSync(schemaPath, 'utf-8'));
 // (e.g. "@name"), unlike better-sqlite3's bare-key convention.
 function at(params) {
   return Object.fromEntries(Object.entries(params).map(([k, v]) => [`@${k}`, v]));
-}
-
-function normalizeTo100(score, scoreScale) {
-  return (score / scoreScale) * 100;
-}
-
-// A handful of outlets share one editorial team/ratings database under two
-// names (e.g. Cigar Insider is Cigar Aficionado's own ratings newsletter) —
-// canonicalized so they count as one source, not two, against the minimum.
-const CANONICAL_SOURCE = {
-  'Cigar Insider (Cigar Aficionado)': 'Cigar Aficionado',
-  'Cigar Insider': 'Cigar Aficionado',
-};
-const canon = (name) => CANONICAL_SOURCE[name] || name;
-
-function bucketAverage(reviews, referenceDate) {
-  if (reviews.length === 0) return null;
-  let weightedSum = 0;
-  let totalWeight = 0;
-  for (const r of reviews) {
-    const normalized = normalizeTo100(r.score, r.score_scale);
-    const ageYears = (referenceDate - new Date(r.review_date)) / (1000 * 60 * 60 * 24 * 365.25);
-    const weight = ageYears <= 5 ? 2 : 1;
-    weightedSum += normalized * weight;
-    totalWeight += weight;
-  }
-  return weightedSum / totalWeight;
-}
-
-// StickScore weighting per CLAUDE.md: critic scores 70% / retailer averages 30%,
-// recent (<=5yr) reviews count double, minimum 3 independent sources to publish.
-function computeStickScore(allReviews, referenceDate) {
-  const distinctSources = new Set(allReviews.map((r) => canon(r.source_name)));
-  if (distinctSources.size < 3) return null;
-
-  const critic = allReviews.filter((r) => (r.source_type ?? 'critic') === 'critic');
-  const retailer = allReviews.filter((r) => r.source_type === 'retailer');
-  const criticAvg = bucketAverage(critic, referenceDate);
-  const retailerAvg = bucketAverage(retailer, referenceDate);
-  if (criticAvg != null && retailerAvg != null) return criticAvg * 0.7 + retailerAvg * 0.3;
-  return criticAvg ?? retailerAvg ?? null;
 }
 
 const insertBrand = db.prepare(`
