@@ -209,6 +209,84 @@ export function getLatestPricePoints(vitolaId: number): PricePointRow[] {
   return [...latestByRetailer.values()];
 }
 
+// Full history (not just latest), grouped by retailer, oldest first per group —
+// used for the price-history table and the /deals trailing-average calculation.
+export function getPriceHistory(vitolaId: number): Record<string, PricePointRow[]> {
+  const rows = getDb()
+    .prepare('SELECT * FROM price_point WHERE vitola_id = ? ORDER BY checked_at ASC')
+    .all(vitolaId) as PricePointRow[];
+
+  const byRetailer: Record<string, PricePointRow[]> = {};
+  for (const row of rows) {
+    (byRetailer[row.retailer] ??= []).push(row);
+  }
+  return byRetailer;
+}
+
+export interface DealCandidate {
+  brandName: string;
+  brandSlug: string;
+  lineName: string;
+  lineSlug: string;
+  vitolaSizeName: string;
+  vitolaSlug: string;
+  retailer: string;
+  latestPrice: number;
+  trailingAverage: number;
+  percentBelow: number;
+  affiliate_url: string | null;
+}
+
+// Anything currently priced >15% below its own trailing 90-day average,
+// per CLAUDE.md's /deals rule. A price needs at least one earlier check to
+// compare against, so a cigar's first-ever price check can never be a deal.
+export function getDeals(): DealCandidate[] {
+  const db = getDb();
+  const cigars = db
+    .prepare(
+      `SELECT brand.name AS brandName, brand.slug AS brandSlug,
+              line.name AS lineName, line.slug AS lineSlug,
+              vitola.id AS vitolaId, vitola.size_name AS vitolaSizeName, vitola.slug AS vitolaSlug
+       FROM vitola
+       JOIN line ON line.id = vitola.line_id
+       JOIN brand ON brand.id = line.brand_id`
+    )
+    .all() as { brandName: string; brandSlug: string; lineName: string; lineSlug: string; vitolaId: number; vitolaSizeName: string; vitolaSlug: string }[];
+
+  const ninetyDaysAgo = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000).toISOString();
+  const deals: DealCandidate[] = [];
+
+  for (const cigar of cigars) {
+    const history = getPriceHistory(cigar.vitolaId);
+    for (const [retailer, points] of Object.entries(history)) {
+      if (points.length < 2) continue; // nothing to compare the latest check against yet
+      const latest = points[points.length - 1];
+      const trailing = points.slice(0, -1).filter((p) => p.checked_at >= ninetyDaysAgo && p.price_single != null);
+      if (trailing.length === 0 || latest.price_single == null) continue;
+
+      const avg = trailing.reduce((s, p) => s + (p.price_single as number), 0) / trailing.length;
+      const percentBelow = ((avg - latest.price_single) / avg) * 100;
+      if (percentBelow > 15) {
+        deals.push({
+          brandName: cigar.brandName,
+          brandSlug: cigar.brandSlug,
+          lineName: cigar.lineName,
+          lineSlug: cigar.lineSlug,
+          vitolaSizeName: cigar.vitolaSizeName,
+          vitolaSlug: cigar.vitolaSlug,
+          retailer,
+          latestPrice: latest.price_single,
+          trailingAverage: avg,
+          percentBelow,
+          affiliate_url: latest.affiliate_url,
+        });
+      }
+    }
+  }
+
+  return deals.sort((a, b) => b.percentBelow - a.percentBelow);
+}
+
 export interface NewsItemRow {
   id: number;
   title: string;
@@ -252,6 +330,46 @@ export function getAllNewsItems(): NewsItemWithRelated[] {
 
 export function getLatestNewsItems(limit = 3): NewsItemWithRelated[] {
   return getAllNewsItems().slice(0, limit);
+}
+
+export interface CompareCigarEntry {
+  brandSlug: string;
+  brandName: string;
+  lineSlug: string;
+  lineName: string;
+  vitolaSlug: string;
+  vitolaSizeName: string;
+  stickScore: number | null;
+}
+
+export function getAllCigarsForCompare(): CompareCigarEntry[] {
+  return getDb()
+    .prepare(
+      `SELECT brand.slug AS brandSlug, brand.name AS brandName,
+              line.slug AS lineSlug, line.name AS lineName,
+              vitola.slug AS vitolaSlug, vitola.size_name AS vitolaSizeName,
+              vitola.stick_score AS stickScore
+       FROM vitola
+       JOIN line ON line.id = vitola.line_id
+       JOIN brand ON brand.id = line.brand_id
+       ORDER BY brand.name, line.name, vitola.size_name`
+    )
+    .all() as CompareCigarEntry[];
+}
+
+// Every unique cigar pair as a URL slug — shared by /compare/[pair]'s
+// getStaticPaths and the sitemap, so the two can never disagree.
+export function getAllComparePairSlugs(): string[] {
+  const cigars = getAllCigarsForCompare();
+  const slugs: string[] = [];
+  for (let i = 0; i < cigars.length; i++) {
+    for (let j = i + 1; j < cigars.length; j++) {
+      const a = cigars[i];
+      const b = cigars[j];
+      slugs.push(`${a.brandSlug}-${a.lineSlug}-${a.vitolaSlug}-vs-${b.brandSlug}-${b.lineSlug}-${b.vitolaSlug}`);
+    }
+  }
+  return slugs;
 }
 
 export function getSearchIndex(): SearchIndexEntry[] {

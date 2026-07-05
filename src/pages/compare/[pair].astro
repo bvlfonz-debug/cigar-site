@@ -1,0 +1,102 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ScoreBar from '../../components/ScoreBar.astro';
+import { getAllCigarsForCompare, getCigarPage } from '../../lib/db';
+import type { CompareCigarEntry } from '../../lib/db';
+
+function cigarLabel(c: CompareCigarEntry): string {
+  return `${c.brandName} ${c.vitolaSizeName}`;
+}
+
+export function getStaticPaths() {
+  const cigars = getAllCigarsForCompare();
+  const paths = [];
+  // Every unique pair, pre-rendered — 25 cigars is a small enough catalog
+  // that this is cheap, and it means any two cigars can always be compared.
+  // (Key-building is inlined rather than calling a helper — Astro's
+  // getStaticPaths runs in an isolated scope that can't see sibling
+  // function declarations in the same frontmatter.)
+  for (let i = 0; i < cigars.length; i++) {
+    for (let j = i + 1; j < cigars.length; j++) {
+      const a = cigars[i];
+      const b = cigars[j];
+      const keyA = `${a.brandSlug}-${a.lineSlug}-${a.vitolaSlug}`;
+      const keyB = `${b.brandSlug}-${b.lineSlug}-${b.vitolaSlug}`;
+      paths.push({
+        params: { pair: `${keyA}-vs-${keyB}` },
+        props: { a, b },
+      });
+    }
+  }
+  return paths;
+}
+
+const { a, b } = Astro.props as { a: CompareCigarEntry; b: CompareCigarEntry };
+
+const cigarA = getCigarPage(a.brandSlug, a.lineSlug, a.vitolaSlug)!;
+const cigarB = getCigarPage(b.brandSlug, b.lineSlug, b.vitolaSlug)!;
+
+function scoreOrNull(v: number | null): string {
+  return v != null ? String(Math.round(v)) : 'insufficient data';
+}
+
+const pageTitle = `${cigarLabel(a)} vs ${cigarLabel(b)} | StickScore`;
+const pageDescription = `Side-by-side comparison of ${cigarLabel(a)} and ${cigarLabel(b)}: specs, StickScore, and tasting notes.`;
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <div class="home-hero">
+    <h1 class="home-hero__title">{cigarLabel(a)} vs {cigarLabel(b)}</h1>
+  </div>
+
+  <section class="section">
+    <div style="overflow-x: auto;">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th><a href={`/cigars/${a.brandSlug}/${a.lineSlug}/${a.vitolaSlug}/`}>{cigarLabel(a)}</a></th>
+            <th><a href={`/cigars/${b.brandSlug}/${b.lineSlug}/${b.vitolaSlug}/`}>{cigarLabel(b)}</a></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th class="row-label">StickScore</th><td>{scoreOrNull(cigarA.vitola.stick_score)}</td><td>{scoreOrNull(cigarB.vitola.stick_score)}</td></tr>
+          <tr><th class="row-label">Flavor</th><td>{scoreOrNull(cigarA.vitola.score_flavor)}</td><td>{scoreOrNull(cigarB.vitola.score_flavor)}</td></tr>
+          <tr><th class="row-label">Construction</th><td>{scoreOrNull(cigarA.vitola.score_construction)}</td><td>{scoreOrNull(cigarB.vitola.score_construction)}</td></tr>
+          <tr><th class="row-label">Complexity</th><td>{scoreOrNull(cigarA.vitola.score_complexity)}</td><td>{scoreOrNull(cigarB.vitola.score_complexity)}</td></tr>
+          <tr><th class="row-label">Value</th><td>{scoreOrNull(cigarA.vitola.score_value)}</td><td>{scoreOrNull(cigarB.vitola.score_value)}</td></tr>
+          <tr><th class="row-label">Size</th><td>{cigarA.vitola.length_in}&Prime; &times; {cigarA.vitola.ring_gauge}</td><td>{cigarB.vitola.length_in}&Prime; &times; {cigarB.vitola.ring_gauge}</td></tr>
+          <tr><th class="row-label">Wrapper</th><td>{cigarA.line.wrapper}</td><td>{cigarB.line.wrapper}</td></tr>
+          <tr><th class="row-label">Binder</th><td>{cigarA.line.binder}</td><td>{cigarB.line.binder}</td></tr>
+          <tr><th class="row-label">Filler</th><td>{cigarA.line.filler}</td><td>{cigarB.line.filler}</td></tr>
+          <tr><th class="row-label">Strength</th><td>{cigarA.line.strength}</td><td>{cigarB.line.strength}</td></tr>
+          <tr><th class="row-label">Origin</th><td>{cigarA.brand.country}</td><td>{cigarB.brand.country}</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Sub-scores side by side</h2>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+      <div>
+        <p class="placeholder-note" style="margin-bottom: 0.5rem;">{cigarLabel(a)}</p>
+        <div class="score-bars">
+          <ScoreBar label="Flavor" value={cigarA.vitola.score_flavor} />
+          <ScoreBar label="Construction" value={cigarA.vitola.score_construction} />
+          <ScoreBar label="Complexity" value={cigarA.vitola.score_complexity} />
+          <ScoreBar label="Value" value={cigarA.vitola.score_value} />
+        </div>
+      </div>
+      <div>
+        <p class="placeholder-note" style="margin-bottom: 0.5rem;">{cigarLabel(b)}</p>
+        <div class="score-bars">
+          <ScoreBar label="Flavor" value={cigarB.vitola.score_flavor} />
+          <ScoreBar label="Construction" value={cigarB.vitola.score_construction} />
+          <ScoreBar label="Complexity" value={cigarB.vitola.score_complexity} />
+          <ScoreBar label="Value" value={cigarB.vitola.score_value} />
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

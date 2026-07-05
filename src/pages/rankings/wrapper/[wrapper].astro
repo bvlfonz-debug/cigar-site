@@ -1,0 +1,31 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import CigarList from '../../../components/CigarList.astro';
+import { getSearchIndex } from '../../../lib/db';
+import { slugify } from '../../../lib/slugify';
+
+export function getStaticPaths() {
+  const index = getSearchIndex();
+  const seen = new Map<string, string>();
+  for (const c of index) seen.set(slugify(c.wrapper), c.wrapper);
+  return [...seen.entries()].map(([slug, wrapper]) => ({ params: { wrapper: slug }, props: { wrapperLabel: wrapper } }));
+}
+
+const { wrapper: wrapperSlug } = Astro.params;
+const { wrapperLabel } = Astro.props as { wrapperLabel: string };
+
+const cigars = getSearchIndex().filter((c) => slugify(c.wrapper) === wrapperSlug);
+---
+
+<Layout
+  title={`Best ${wrapperLabel} Cigars | StickScore`}
+  description={`Cigars wrapped in ${wrapperLabel}, ranked by StickScore where enough independent sources exist.`}
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">{wrapperLabel} wrapper</h1>
+    <p>{cigars.length} cigar{cigars.length === 1 ? '' : 's'} in the catalog with this wrapper.</p>
+  </div>
+  <section class="section">
+    <CigarList cigars={cigars} />
+  </section>
+</Layout>

@@ -1,0 +1,43 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import FtcDisclosure from '../../components/FtcDisclosure.astro';
+import { getDeals } from '../../lib/db';
+
+const deals = getDeals();
+const hasAffiliateLinks = deals.some((d) => d.affiliate_url != null);
+---
+
+<Layout
+  title="Deals | StickScore"
+  description="Cigars currently priced more than 15% below their trailing 90-day average."
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">Deals</h1>
+    <p>
+      Anything priced more than 15% below its own trailing 90-day average, auto-flagged by the
+      nightly automation. A price needs at least one earlier check to compare against, so a
+      cigar's very first price check can never show up here.
+    </p>
+  </div>
+
+  <section class="section">
+    <FtcDisclosure hasAffiliateLinks={hasAffiliateLinks} />
+    {deals.length > 0 ? (
+      deals.map((d) => (
+        <a class="deal-card" href={`/cigars/${d.brandSlug}/${d.lineSlug}/${d.vitolaSlug}/`}>
+          <div class="deal-card__pct">{Math.round(d.percentBelow)}% below average</div>
+          <div class="cigar-card__name">{d.brandName} {d.lineName.replace(/ Maduro$| Natural$/, '')} {d.vitolaSizeName}</div>
+          <div class="deal-card__detail">
+            ${d.latestPrice.toFixed(2)} at {d.retailer} &middot; trailing average ${d.trailingAverage.toFixed(2)}
+          </div>
+        </a>
+      ))
+    ) : (
+      <p class="placeholder-note">
+        No deals right now. Nothing in the catalog has enough price history yet for a trailing
+        average to compare against — most cigars have only had their first-ever price check so
+        far. This page fills in naturally as the automation checks prices repeatedly over time.
+      </p>
+    )}
+  </section>
+</Layout>

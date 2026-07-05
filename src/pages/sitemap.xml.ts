@@ -1,16 +1,26 @@
 import type { APIRoute } from 'astro';
-import { getAllCigarSlugs, getAllBrandSlugs } from '../lib/db';
+import { getAllCigarSlugs, getAllBrandSlugs, getSearchIndex, getAllComparePairSlugs } from '../lib/db';
+import { slugify } from '../lib/slugify';
 
 export const GET: APIRoute = ({ site }) => {
   const base = site?.toString().replace(/\/$/, '') ?? '';
 
-  const staticPaths = ['/', '/search/', '/brands/', '/news/'];
+  const staticPaths = ['/', '/search/', '/brands/', '/news/', '/rankings/', '/deals/'];
   const brandPaths = getAllBrandSlugs().map((slug) => `/brands/${slug}/`);
   const cigarPaths = getAllCigarSlugs().map(
     ({ brand, line, vitola }) => `/cigars/${brand}/${line}/${vitola}/`
   );
 
-  const urls = [...staticPaths, ...brandPaths, ...cigarPaths];
+  const index = getSearchIndex();
+  const rankingPaths = [
+    ...new Set(index.map((c) => `/rankings/wrapper/${slugify(c.wrapper)}/`)),
+    ...new Set(index.map((c) => `/rankings/country/${slugify(c.country)}/`)),
+    ...new Set(index.map((c) => `/rankings/strength/${slugify(c.strength)}/`)),
+  ];
+
+  const comparePaths = getAllComparePairSlugs().map((slug) => `/compare/${slug}/`);
+
+  const urls = [...staticPaths, ...brandPaths, ...cigarPaths, ...rankingPaths, ...comparePaths];
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

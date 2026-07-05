@@ -1,0 +1,36 @@
+---
+interface Cigar {
+  brandName: string;
+  brandSlug: string;
+  lineName: string;
+  lineSlug: string;
+  vitolaSizeName: string;
+  vitolaSlug: string;
+  stickScore: number | null;
+}
+
+interface Props {
+  cigars: Cigar[];
+}
+
+const { cigars } = Astro.props;
+
+const sorted = [...cigars].sort((a, b) => {
+  if (a.stickScore != null && b.stickScore != null) return b.stickScore - a.stickScore;
+  if (a.stickScore != null) return -1;
+  if (b.stickScore != null) return 1;
+  return `${a.brandName} ${a.vitolaSizeName}`.localeCompare(`${b.brandName} ${b.vitolaSizeName}`);
+});
+---
+
+<div class="search-results">
+  {sorted.map((c) => (
+    <a class="cigar-card" href={`/cigars/${c.brandSlug}/${c.lineSlug}/${c.vitolaSlug}/`}>
+      <div class="cigar-card__brand">{c.brandName}</div>
+      <div class="cigar-card__name">{c.lineName.replace(/ Maduro$| Natural$/, '')} {c.vitolaSizeName}</div>
+      <div class="cigar-card__score">
+        StickScore {c.stickScore != null ? Math.round(c.stickScore) : 'insufficient data'}
+      </div>
+    </a>
+  ))}
+</div>

@@ -1,0 +1,57 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getSearchIndex } from '../../lib/db';
+import { slugify } from '../../lib/slugify';
+
+const index = getSearchIndex();
+
+function group(field: 'wrapper' | 'strength' | 'country') {
+  const counts = new Map<string, number>();
+  for (const c of index) counts.set(c[field], (counts.get(c[field]) ?? 0) + 1);
+  return [...counts.entries()].sort((a, b) => b[1] - a[1]);
+}
+
+const wrappers = group('wrapper');
+const strengths = group('strength');
+const countries = group('country');
+---
+
+<Layout
+  title="Rankings | StickScore"
+  description="Browse the StickScore catalog by wrapper, strength, and country of origin."
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">Rankings</h1>
+    <p>
+      Browse by a single trait below, or use <a href="/search/">Search</a> to combine wrapper,
+      strength, country, and score together.
+    </p>
+  </div>
+
+  <section class="section">
+    <h2 class="section__heading">By wrapper</h2>
+    <div class="facet-tags">
+      {wrappers.map(([value, count]) => (
+        <a class="facet-tag" href={`/rankings/wrapper/${slugify(value)}/`}>{value} <span>{count}</span></a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">By strength</h2>
+    <div class="facet-tags">
+      {strengths.map(([value, count]) => (
+        <a class="facet-tag" href={`/rankings/strength/${slugify(value)}/`}>{value} <span>{count}</span></a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">By country</h2>
+    <div class="facet-tags">
+      {countries.map(([value, count]) => (
+        <a class="facet-tag" href={`/rankings/country/${slugify(value)}/`}>{value} <span>{count}</span></a>
+      ))}
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,31 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import CigarList from '../../../components/CigarList.astro';
+import { getSearchIndex } from '../../../lib/db';
+import { slugify } from '../../../lib/slugify';
+
+export function getStaticPaths() {
+  const index = getSearchIndex();
+  const seen = new Map<string, string>();
+  for (const c of index) seen.set(slugify(c.strength), c.strength);
+  return [...seen.entries()].map(([slug, strength]) => ({ params: { strength: slug }, props: { strengthLabel: strength } }));
+}
+
+const { strength: strengthSlug } = Astro.params;
+const { strengthLabel } = Astro.props as { strengthLabel: string };
+
+const cigars = getSearchIndex().filter((c) => slugify(c.strength) === strengthSlug);
+---
+
+<Layout
+  title={`Best ${strengthLabel}-Strength Cigars | StickScore`}
+  description={`${strengthLabel}-strength cigars, ranked by StickScore where enough independent sources exist.`}
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">{strengthLabel} strength</h1>
+    <p>{cigars.length} cigar{cigars.length === 1 ? '' : 's'} in the catalog at this strength.</p>
+  </div>
+  <section class="section">
+    <CigarList cigars={cigars} />
+  </section>
+</Layout>

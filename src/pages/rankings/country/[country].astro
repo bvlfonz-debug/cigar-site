@@ -1,0 +1,31 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import CigarList from '../../../components/CigarList.astro';
+import { getSearchIndex } from '../../../lib/db';
+import { slugify } from '../../../lib/slugify';
+
+export function getStaticPaths() {
+  const index = getSearchIndex();
+  const seen = new Map<string, string>();
+  for (const c of index) seen.set(slugify(c.country), c.country);
+  return [...seen.entries()].map(([slug, country]) => ({ params: { country: slug }, props: { countryLabel: country } }));
+}
+
+const { country: countrySlug } = Astro.params;
+const { countryLabel } = Astro.props as { countryLabel: string };
+
+const cigars = getSearchIndex().filter((c) => slugify(c.country) === countrySlug);
+---
+
+<Layout
+  title={`Best Cigars from ${countryLabel} | StickScore`}
+  description={`Cigars made in ${countryLabel}, ranked by StickScore where enough independent sources exist.`}
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">Made in {countryLabel}</h1>
+    <p>{cigars.length} cigar{cigars.length === 1 ? '' : 's'} in the catalog from this origin.</p>
+  </div>
+  <section class="section">
+    <CigarList cigars={cigars} />
+  </section>
+</Layout>
