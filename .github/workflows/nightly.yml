@@ -45,10 +45,10 @@ jobs:
         run: |
           DOW=$(date -u +%w)
           if [ "$DOW" = "0" ]; then
-            echo "max_turns=60" >> "$GITHUB_OUTPUT"
+            echo "max_turns=90" >> "$GITHUB_OUTPUT"
             echo "day_type=Sunday — a heavier catalog pass is allowed today" >> "$GITHUB_OUTPUT"
           else
-            echo "max_turns=25" >> "$GITHUB_OUTPUT"
+            echo "max_turns=40" >> "$GITHUB_OUTPUT"
             echo "day_type=a weekday — keep this run lean" >> "$GITHUB_OUTPUT"
           fi
 
@@ -64,7 +64,7 @@ jobs:
           export CLAUDE_CODE_OAUTH_TOKEN="$(printf '%s' "$CLAUDE_CODE_OAUTH_TOKEN" | tr -d '[:space:]')"
           claude -p "Follow the 'Nightly automation' section of CLAUDE.md in this repository exactly, from top to bottom (Ingest, Price refresh, Score recompute, Generate, Publish gate, commit+push, run-log entry).
 
-          Today is $(date -u +%Y-%m-%d). Today is ${{ steps.budget.outputs.day_type }}. Your turn budget for this run is ${{ steps.budget.outputs.max_turns }} — if you're at risk of running out, stop early rather than leaving things half-done: commit whatever is fully complete, note what was skipped in data/run-log.md with a line starting 'NEEDS-ATTENTION:', and exit cleanly.
+          Today is $(date -u +%Y-%m-%d). Today is ${{ steps.budget.outputs.day_type }}. Your turn budget for this run is ${{ steps.budget.outputs.max_turns }}, and --max-turns is a HARD cutoff — if you hit it mid-step, you will be killed instantly with no chance to save anything. So: commit and push after EACH major step completes (e.g. right after price checks, right after news ingestion, right after score recomputes), not once at the very end. Append to data/run-log.md at the same time as each of those commits, a little at a time, rather than saving all the writing for a final summary you might not reach. If you're more than half your turn budget in and still have major steps left, wrap up what you're on, commit and push it, log what's left as 'NEEDS-ATTENTION: ran out of turns before finishing X', and stop there rather than starting something new.
 
           Tooling: use \`node scripts/db-tools.mjs <command> '<json>'\` for every database change (add-critic-review, add-price-point, add-news-item, add-brand, add-line, add-vitola, recompute-stick-score, queue-add, queue-list, find-vitola). NEVER run \`npm run seed\` — that script wipes and rebuilds the entire database from scratch and would destroy all price history and every cigar added since the initial commit.
 
