@@ -76,18 +76,22 @@ jobs:
 
           When you are done (or stopping early), make sure your work is committed with a message in the form 'nightly: <date> — <one-line summary>' and pushed to main. Append a dated, plain-English entry to data/run-log.md summarizing what was done, what was skipped, what was queued, and any errors — this file is the owner's only window into what happened tonight and they are not a programmer." \
             --max-turns "${{ steps.budget.outputs.max_turns }}" \
-            --dangerously-skip-permissions
-          echo "claude_exit_code=$?" >> "$GITHUB_OUTPUT"
+            --dangerously-skip-permissions 2>&1 | tee /tmp/claude-output.log
+          echo "claude_exit_code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
 
       - name: Fallback commit if Claude left changes uncommitted
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             echo "Uncommitted changes remain after the Claude run — committing them as a safety net."
+            REASON="Committed automatically so nothing is lost; please check this run's logs in the Actions tab."
+            if grep -qi "session limit\|usage limit\|rate limit" /tmp/claude-output.log 2>/dev/null; then
+              REASON="This is a quota issue, not a bug: the nightly automation shares your Claude Pro usage limit with your own daytime use, and tonight's budget was already used up. Nothing to fix — it'll work again once your quota resets. Whatever partial work was done is committed below."
+            fi
             {
               echo ""
               echo "## $(date -u +%Y-%m-%d) — NEEDS-ATTENTION: fallback commit"
               echo "The nightly run left uncommitted changes (Claude exit code: ${{ steps.nightly.outputs.claude_exit_code }})."
-              echo "Committed automatically so nothing is lost; please check this run's logs in the Actions tab."
+              echo "$REASON"
             } >> data/run-log.md
             git add -A
             git commit -m "nightly: $(date -u +%Y-%m-%d) — fallback commit (see run-log.md)"
