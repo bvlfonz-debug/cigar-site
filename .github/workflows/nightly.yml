@@ -79,23 +79,35 @@ jobs:
             --dangerously-skip-permissions 2>&1 | tee /tmp/claude-output.log
           echo "claude_exit_code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
 
-      - name: Fallback commit if Claude left changes uncommitted
+      - name: Fallback logging and commit if Claude didn't finish cleanly
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            echo "Uncommitted changes remain after the Claude run — committing them as a safety net."
-            REASON="Committed automatically so nothing is lost; please check this run's logs in the Actions tab."
-            if grep -qi "session limit\|usage limit\|rate limit" /tmp/claude-output.log 2>/dev/null; then
-              REASON="This is a quota issue, not a bug: the nightly automation shares your Claude Pro usage limit with your own daytime use, and tonight's budget was already used up. Nothing to fix — it'll work again once your quota resets. Whatever partial work was done is committed below."
-            fi
-            {
-              echo ""
-              echo "## $(date -u +%Y-%m-%d) — NEEDS-ATTENTION: fallback commit"
-              echo "The nightly run left uncommitted changes (Claude exit code: ${{ steps.nightly.outputs.claude_exit_code }})."
-              echo "$REASON"
-            } >> data/run-log.md
-            git add -A
-            git commit -m "nightly: $(date -u +%Y-%m-%d) — fallback commit (see run-log.md)"
-            git push
-          else
+          EXIT_CODE="${{ steps.nightly.outputs.claude_exit_code }}"
+          HAS_CHANGES=""
+          [ -n "$(git status --porcelain)" ] && HAS_CHANGES="1"
+
+          if [ "$EXIT_CODE" = "0" ] && [ -z "$HAS_CHANGES" ]; then
             echo "Nothing left uncommitted — Claude's own commit already covered it."
+            exit 0
           fi
+
+          REASON="The run exited with code $EXIT_CODE. Check this run's logs in the Actions tab for details."
+          if grep -qi "session limit\|usage limit\|rate limit" /tmp/claude-output.log 2>/dev/null; then
+            REASON="This is a quota issue, not a bug: the nightly automation shares your Claude Pro usage limit with your own daytime use, and tonight's budget was already used up. Nothing to fix — it'll work again once your quota resets."
+          fi
+
+          if [ -n "$HAS_CHANGES" ]; then
+            echo "Uncommitted changes remain after the Claude run — committing them as a safety net."
+            NOTE="$REASON Whatever partial work was done is committed below."
+          else
+            echo "Claude exited non-zero and made no changes at all — logging so this isn't silent."
+            NOTE="$REASON Nothing was changed or committed tonight."
+          fi
+
+          {
+            echo ""
+            echo "## $(date -u +%Y-%m-%d) — NEEDS-ATTENTION: run did not finish cleanly"
+            echo "$NOTE"
+          } >> data/run-log.md
+          git add -A
+          git commit -m "nightly: $(date -u +%Y-%m-%d) — run did not finish cleanly (see run-log.md)"
+          git push
