@@ -65,3 +65,6 @@ Kept it light since it's a weekday. What happened:
 ## 2026-07-04 — NEEDS-ATTENTION: fallback commit
 The nightly run left uncommitted changes (Claude exit code: 1).
 Committed automatically so nothing is lost; please check this run's logs in the Actions tab.
+
+## 2026-07-06 — NEEDS-ATTENTION: run did not finish cleanly
+This is a quota issue, not a bug: the nightly automation shares your Claude Pro usage limit with your own daytime use, and tonight's budget was already used up. Nothing to fix — it'll work again once your quota resets. Nothing was changed or committed tonight.
