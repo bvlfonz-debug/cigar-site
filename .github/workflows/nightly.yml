@@ -2,8 +2,14 @@ name: Nightly cigar database update
 
 on:
   schedule:
-    # 09:00 UTC daily — the owner's overnight lull (Asia timezone).
-    - cron: '0 9 * * *'
+    # Hourly, not just once at 09:00 UTC — the owner's Claude Pro quota is
+    # shared with their own daytime usage, so a run can fail purely because
+    # the quota is temporarily exhausted. Checking hourly means it picks back
+    # up automatically once quota frees up, instead of waiting a full day.
+    # The guard step below makes every hour where today's real work is
+    # already done cost almost nothing (a git log check, no Node/Claude
+    # install), so this stays cheap on GitHub Actions' free minutes.
+    - cron: '0 * * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -21,26 +27,50 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          # Full history, not fetch-depth: 1 — the guard step below needs to
+          # look back through however many hourly attempts happened today.
+          fetch-depth: 0
+
+      - name: Check whether real work already landed today
+        id: guard
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          # A "real" commit is any nightly commit that isn't just the
+          # fallback safety net logging a failure — if one already exists
+          # for today, skip the rest of this hour's job entirely rather than
+          # retrying (quota frugality: don't hammer for marginal gains once
+          # today's work is actually done).
+          if git log --oneline --grep="^nightly: $TODAY" -E | grep -v "did not finish cleanly" | grep -q .; then
+            echo "Real work already committed for $TODAY — skipping this hourly check-in."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "No real work committed for $TODAY yet — proceeding."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Set up Node.js
+        if: steps.guard.outputs.should_run == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
 
       - name: Install project dependencies
+        if: steps.guard.outputs.should_run == 'true'
         run: npm ci
 
       - name: Install Claude Code
+        if: steps.guard.outputs.should_run == 'true'
         run: npm install -g @anthropic-ai/claude-code
 
       - name: Configure git identity
+        if: steps.guard.outputs.should_run == 'true'
         run: |
           git config user.name "StickScore Nightly Bot"
           git config user.email "actions@users.noreply.github.com"
 
       - name: Determine turn budget
+        if: steps.guard.outputs.should_run == 'true'
         id: budget
         run: |
           DOW=$(date -u +%w)
@@ -53,6 +83,7 @@ jobs:
           fi
 
       - name: Run nightly update
+        if: steps.guard.outputs.should_run == 'true'
         id: nightly
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -80,6 +111,7 @@ jobs:
           echo "claude_exit_code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
 
       - name: Fallback logging and commit if Claude didn't finish cleanly
+        if: steps.guard.outputs.should_run == 'true'
         run: |
           EXIT_CODE="${{ steps.nightly.outputs.claude_exit_code }}"
           HAS_CHANGES=""
@@ -87,6 +119,15 @@ jobs:
 
           if [ "$EXIT_CODE" = "0" ] && [ -z "$HAS_CHANGES" ]; then
             echo "Nothing left uncommitted — Claude's own commit already covered it."
+            exit 0
+          fi
+
+          TODAY=$(date -u +%Y-%m-%d)
+          if [ -z "$HAS_CHANGES" ] && git log --oneline --grep="^nightly: $TODAY — run did not finish cleanly" -E | grep -q .; then
+            # Pure failure, nothing new to preserve, and today already has a
+            # failure logged — skip logging a near-identical duplicate every
+            # hour while quota stays exhausted. It'll keep retrying silently.
+            echo "Already logged today's failure with no new changes since — skipping duplicate entry."
             exit 0
           fi
 
@@ -105,9 +146,9 @@ jobs:
 
           {
             echo ""
-            echo "## $(date -u +%Y-%m-%d) — NEEDS-ATTENTION: run did not finish cleanly"
+            echo "## $TODAY — NEEDS-ATTENTION: run did not finish cleanly"
             echo "$NOTE"
           } >> data/run-log.md
           git add -A
-          git commit -m "nightly: $(date -u +%Y-%m-%d) — run did not finish cleanly (see run-log.md)"
+          git commit -m "nightly: $TODAY — run did not finish cleanly (see run-log.md)"
           git push
