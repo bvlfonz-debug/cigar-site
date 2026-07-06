@@ -9,7 +9,13 @@ on:
     # The guard step below makes every hour where today's real work is
     # already done cost almost nothing (a git log check, no Node/Claude
     # install), so this stays cheap on GitHub Actions' free minutes.
-    - cron: '0 * * * *'
+    #
+    # Minute is :17, not :00 — GitHub's own docs warn that schedules firing
+    # exactly on the hour hit the worst congestion and are the most likely
+    # to be delayed or silently dropped. (0 * * * * ran zero times in the
+    # ~6 hours after it was first set, across 6 expected ticks — moved off
+    # the hour after seeing that.)
+    - cron: '17 * * * *'
   workflow_dispatch: {}
 
 permissions:
