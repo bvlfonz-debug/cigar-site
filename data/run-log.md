@@ -68,3 +68,25 @@ Committed automatically so nothing is lost; please check this run's logs in the 
 
 ## 2026-07-06 — NEEDS-ATTENTION: run did not finish cleanly
 This is a quota issue, not a bug: the nightly automation shares your Claude Pro usage limit with your own daytime use, and tonight's budget was already used up. Nothing to fix — it'll work again once your quota resets. Nothing was changed or committed tonight.
+
+## 2026-07-07 — Weekday run: 3 prices, 1 news brief
+Kept it light since it's a weekday. What happened:
+
+- **Prices checked**: Padrón 1926 Serie No. 35 Maduro ($391.99/box of 24),
+  My Father Flor de las Antillas Toro ($166.99/box of 20), and Montecristo
+  White Series Toro ($412.99/box of 27) — all from JR Cigars. These are the
+  first price checks ever recorded for these three, so there was nothing to
+  compare against and nothing got flagged.
+- **News**: added one brief — halfwheel's report that Arturo Fuente's 2026
+  Father & Son sampler (shipped June 12, $275 MSRP) includes two new cigars:
+  a Fuente Fuente OpusX 25 Double Robusto and a new Don Carlos The Man
+  honoring the line's 50th anniversary.
+- **Reviews / scores**: tried to find a third independent source for a few
+  cigars sitting in your review queue (waiting on one more source each), but
+  halfwheel's site blocked every page fetch tonight (a "payment required"
+  response, same kind of block seen on other sites in past runs). Rather
+  than guess at a score, I left the queue as-is. Worth another try on a
+  future night, ideally the heavier Sunday session.
+- **Errors**: none otherwise. Site builds cleanly.
+- Nothing new was added to `data/review-queue.json` this run — it still has
+  23 items waiting on you whenever you have a few minutes.
