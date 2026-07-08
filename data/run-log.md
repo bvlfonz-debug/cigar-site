@@ -90,3 +90,29 @@ Kept it light since it's a weekday. What happened:
 - **Errors**: none otherwise. Site builds cleanly.
 - Nothing new was added to `data/review-queue.json` this run — it still has
   23 items waiting on you whenever you have a few minutes.
+
+## 2026-07-08 — Weekday run: 3 prices, 1 news brief
+Kept it light since it's a weekday. What happened:
+
+- **Prices checked**: Rocky Patel Vintage 1990 Toro ($216.99/box of 20),
+  Liga Privada No. 9 Toro ($429.99/box of 24), and Romeo y Julieta Reserva
+  Real Toro ($253.99/box of 25) — all from JR Cigars. These are the first
+  price checks ever recorded for these three, so there was nothing to
+  compare against and nothing got flagged.
+- **News**: added one brief — Cigar Aficionado's report that Davidoff's
+  parent company posted 2.5% sales growth for 2025 (545.3 million Swiss
+  francs, about $680 million) and made over 36 million cigars, crediting
+  the Davidoff and Zino lines plus expanded production in the Dominican
+  Republic and Honduras.
+- **Reviews / scores**: found a lead on a possible new Cigar Aficionado
+  score for My Father Le Bijou 1922 Toro (93 points, May/June 2026 issue),
+  but when I checked the cigar's actual rating page directly it still
+  showed the same 90-point review from 2021 already in the database — so
+  the "93" wasn't a confirmed, distinct data point and I didn't add it
+  rather than risk a wrong score. No new critic reviews added tonight, and
+  no vitola had enough new sources to recompute its StickScore. halfwheel
+  was blocked again tonight (payment-required response), same as recent
+  runs.
+- **Errors**: none. Site builds cleanly.
+- Nothing new was added to `data/review-queue.json` this run — it still has
+  23 items waiting on you whenever you have a few minutes.
