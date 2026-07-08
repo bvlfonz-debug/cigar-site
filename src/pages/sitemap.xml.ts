@@ -1,11 +1,20 @@
 import type { APIRoute } from 'astro';
-import { getAllCigarSlugs, getAllBrandSlugs, getSearchIndex, getAllComparePairSlugs } from '../lib/db';
+import {
+  getAllCigarSlugs,
+  getAllBrandSlugs,
+  getSearchIndex,
+  getAllComparePairSlugs,
+  getAllAccessoryCategories,
+  getAllAccessorySlugs,
+} from '../lib/db';
 import { slugify } from '../lib/slugify';
+
+const GUIDE_SLUGS = ['best-humidors-for-beginners'];
 
 export const GET: APIRoute = ({ site }) => {
   const base = site?.toString().replace(/\/$/, '') ?? '';
 
-  const staticPaths = ['/', '/search/', '/brands/', '/news/', '/rankings/', '/deals/'];
+  const staticPaths = ['/', '/search/', '/brands/', '/news/', '/rankings/', '/deals/', '/accessories/'];
   const brandPaths = getAllBrandSlugs().map((slug) => `/brands/${slug}/`);
   const cigarPaths = getAllCigarSlugs().map(
     ({ brand, line, vitola }) => `/cigars/${brand}/${line}/${vitola}/`
@@ -20,7 +29,22 @@ export const GET: APIRoute = ({ site }) => {
 
   const comparePaths = getAllComparePairSlugs().map((slug) => `/compare/${slug}/`);
 
-  const urls = [...staticPaths, ...brandPaths, ...cigarPaths, ...rankingPaths, ...comparePaths];
+  const accessoryCategoryPaths = getAllAccessoryCategories().map((c) => `/accessories/${c.slug}/`);
+  const accessoryPaths = getAllAccessorySlugs().map(
+    ({ category, accessory }) => `/accessories/${category}/${accessory}/`
+  );
+  const guidePaths = GUIDE_SLUGS.map((slug) => `/guides/${slug}/`);
+
+  const urls = [
+    ...staticPaths,
+    ...brandPaths,
+    ...cigarPaths,
+    ...rankingPaths,
+    ...comparePaths,
+    ...accessoryCategoryPaths,
+    ...accessoryPaths,
+    ...guidePaths,
+  ];
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

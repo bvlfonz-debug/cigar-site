@@ -1,0 +1,33 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAllAccessoryCategories, getAccessoriesByCategory } from '../../lib/db';
+
+const categories = getAllAccessoryCategories().map((c) => {
+  const data = getAccessoriesByCategory(c.slug)!;
+  return { ...c, count: data.accessories.length };
+});
+---
+
+<Layout
+  title="Cigar Accessories | StickScore"
+  description="Humidors, lighters, cutters, and more — reviewed with the same sourced, no-invented-scores rigor as the cigar catalog."
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">Accessories</h1>
+    <p>
+      The gear side of the site — humidors, cutters, lighters, and more — reviewed with the same
+      rule as everything else here: real sources, cited and linked, never invented.
+    </p>
+  </div>
+
+  <section class="section">
+    <div class="brand-directory">
+      {categories.map((c) => (
+        <a class="cigar-card" href={`/accessories/${c.slug}/`}>
+          <div class="cigar-card__name">{c.name}</div>
+          <div class="cigar-card__score">{c.count} item{c.count === 1 ? '' : 's'} recorded</div>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>

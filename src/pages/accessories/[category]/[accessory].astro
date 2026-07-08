@@ -1,0 +1,200 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import FtcDisclosure from '../../../components/FtcDisclosure.astro';
+import { getAllAccessorySlugs, getAccessoryPage, getLatestAccessoryPricePoints } from '../../../lib/db';
+
+export function getStaticPaths() {
+  return getAllAccessorySlugs().map(({ category, accessory }) => ({
+    params: { category, accessory },
+  }));
+}
+
+const { category: categorySlug, accessory: accessorySlug } = Astro.params;
+const data = getAccessoryPage(categorySlug as string, accessorySlug as string);
+
+if (!data) {
+  return new Response(null, { status: 404 });
+}
+
+const { category, accessory, reviews } = data;
+
+const specs: Record<string, string> = JSON.parse(accessory.specs);
+const pros: string[] = JSON.parse(accessory.pros);
+const cons: string[] = JSON.parse(accessory.cons);
+
+const CANONICAL_SOURCE: Record<string, string> = {
+  'Cigar Insider (Cigar Aficionado)': 'Cigar Aficionado',
+  'Cigar Insider': 'Cigar Aficionado',
+};
+const canonSource = (name: string) => CANONICAL_SOURCE[name] ?? name;
+const distinctSourceCount = new Set(reviews.map((r) => canonSource(r.source_name))).size;
+
+const pricePoints = getLatestAccessoryPricePoints(accessory.id).sort(
+  (a, b) => (a.price_single ?? a.price_box ?? Infinity) - (b.price_single ?? b.price_box ?? Infinity)
+);
+// Amazon compliance: never render a stored price as current for Amazon rows —
+// link out with "Check price on Amazon" instead, regardless of any price value.
+const amazonRows = pricePoints.filter((p) => p.retailer === 'Amazon');
+const otherRows = pricePoints.filter((p) => p.retailer !== 'Amazon');
+const hasAffiliateLinks = pricePoints.some((p) => p.affiliate_url != null);
+
+function formatPriceDate(iso: string): string {
+  return new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+function formatDate(iso: string): string {
+  return new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+const specLabels: Record<string, string> = {
+  capacity: 'Capacity',
+  material: 'Material',
+  dimensions: 'Dimensions',
+  humidification_system: 'Humidification system',
+  hygrometer: 'Hygrometer',
+  warranty: 'Warranty',
+};
+
+const pageTitle = `${accessory.brand} ${accessory.model} Review | StickScore`;
+const pageDescription = `${accessory.brand} ${accessory.model}: AccScore ${accessory.acc_score != null ? Math.round(accessory.acc_score) : 'N/A'}/100 aggregated from ${reviews.length} published sources.`;
+
+const totalSources = reviews.length;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: `${accessory.brand} ${accessory.model}`,
+  brand: { '@type': 'Brand', name: accessory.brand },
+  description: pageDescription,
+  ...(accessory.acc_score != null
+    ? {
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: Math.round(accessory.acc_score),
+          bestRating: 100,
+          worstRating: 0,
+          reviewCount: totalSources,
+        },
+      }
+    : {}),
+};
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <div class="cigar-hero">
+    <a class="cigar-hero__eyebrow" href={`/accessories/${category.slug}/`}>{category.name}</a>
+    <h1 class="cigar-hero__title">{accessory.brand} {accessory.model}</h1>
+
+    <div class="score-panel">
+      <div class="score-panel__number">
+        {accessory.acc_score != null ? Math.round(accessory.acc_score) : '—'}
+        <small>AccScore</small>
+      </div>
+      <div>
+        <div class="score-panel__label">
+          {accessory.acc_score != null
+            ? <>Aggregate of {reviews.length} source{reviews.length === 1 ? '' : 's'}</>
+            : <>Insufficient data — {distinctSourceCount} of the 3 independent sources AccScore requires</>}
+        </div>
+        <div class="score-panel__meta">
+          {accessory.acc_score != null
+            ? <>Dedicated reviews are weighted 70% and community/retailer ratings 30%; recent (≤5yr) sources count double. This is a computed aggregate, presented as such — never a first-hand StickScore review.</>
+            : <>We don't publish a score until at least 3 independent sources exist — padding the average with fewer would overstate how settled the consensus really is.</>}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section">
+    <h2 class="section__heading">Pros &amp; cons</h2>
+    <div class="pros-cons-grid">
+      <div>
+        <h3 class="pros-cons-heading pros-cons-heading--pro">Pros</h3>
+        <ul class="pros-list">
+          {pros.map((p) => <li>{p}</li>)}
+        </ul>
+      </div>
+      <div>
+        <h3 class="pros-cons-heading pros-cons-heading--con">Cons</h3>
+        <ul class="cons-list">
+          {cons.map((c) => <li>{c}</li>)}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section summary-review">
+    <h2 class="section__heading">Summary</h2>
+    <p>{accessory.summary_review}</p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Specs</h2>
+    <table class="specs-table">
+      <tbody>
+        {Object.entries(specs).map(([key, value]) => (
+          <tr><th>{specLabels[key] ?? key}</th><td>{value}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Pricing</h2>
+    <FtcDisclosure hasAffiliateLinks={hasAffiliateLinks} hasAmazonLinks={amazonRows.length > 0} />
+    {pricePoints.length > 0 ? (
+      <div class="retailer-ratings">
+        {otherRows.map((p) => (
+          <div class="retailer-rating">
+            {p.affiliate_url ? (
+              <a class="retailer-rating__name" href={p.affiliate_url} target="_blank" rel="noopener noreferrer sponsored">{p.retailer}</a>
+            ) : (
+              <span class="retailer-rating__name">{p.retailer}</span>
+            )}
+            <span class="retailer-rating__value">
+              {p.price_single != null && `$${p.price_single.toFixed(2)}`}
+              {p.price_box != null && ` · $${p.price_box.toFixed(2)}${p.box_count ? ` (pack of ${p.box_count})` : ''}`}
+              <span class="source-notes">checked {formatPriceDate(p.checked_at)}</span>
+            </span>
+          </div>
+        ))}
+        {amazonRows.map((p) => (
+          <div class="retailer-rating">
+            <span class="retailer-rating__name">Amazon</span>
+            {p.affiliate_url ? (
+              <a class="retailer-rating__value" href={p.affiliate_url} target="_blank" rel="noopener noreferrer sponsored">Check price on Amazon &rarr;</a>
+            ) : (
+              <span class="retailer-rating__value placeholder-note">Link not yet available</span>
+            )}
+          </div>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">
+        No retailer prices have been checked for this item yet. Rather than estimate, we simply
+        show nothing until it's real.
+      </p>
+    )}
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Sources</h2>
+    {reviews.length > 0 ? (
+      <ul class="sources-list">
+        {reviews.map((r) => (
+          <li>
+            <a href={r.url} target="_blank" rel="noopener noreferrer">{r.source_name}</a>
+            &nbsp;&middot;&nbsp;
+            <span class="source-score">{r.score}/{r.score_scale}</span>
+            &nbsp;&middot;&nbsp;
+            {formatDate(r.review_date)}
+            {r.source_type === 'community' && <span class="source-notes">Community/retailer consensus, not a single reviewer's verdict.</span>}
+            {r.key_notes_text && <span class="source-notes">{r.key_notes_text}</span>}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="placeholder-note">No published sources found yet for this item.</p>
+    )}
+  </section>
+</Layout>

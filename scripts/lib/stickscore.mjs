@@ -34,17 +34,23 @@ export function bucketAverage(reviews, referenceDate) {
 
 // StickScore weighting per CLAUDE.md: critic scores 70% / retailer averages 30%,
 // recent (<=5yr) reviews count double, minimum 3 independent sources to publish.
+// Same function powers AccScore for accessories (CLAUDE.md: "same aggregation
+// rules as StickScore") — the second bucket is "anything not critic" so it
+// covers cigars' 'retailer' and accessories' 'community' source_type alike.
 export function computeStickScore(allReviews, referenceDate) {
   const distinctSources = new Set(allReviews.map((r) => canon(r.source_name)));
   if (distinctSources.size < 3) return null;
 
   const critic = allReviews.filter((r) => (r.source_type ?? 'critic') === 'critic');
-  const retailer = allReviews.filter((r) => r.source_type === 'retailer');
+  const nonCritic = allReviews.filter((r) => (r.source_type ?? 'critic') !== 'critic');
   const criticAvg = bucketAverage(critic, referenceDate);
-  const retailerAvg = bucketAverage(retailer, referenceDate);
-  if (criticAvg != null && retailerAvg != null) return criticAvg * 0.7 + retailerAvg * 0.3;
-  return criticAvg ?? retailerAvg ?? null;
+  const nonCriticAvg = bucketAverage(nonCritic, referenceDate);
+  if (criticAvg != null && nonCriticAvg != null) return criticAvg * 0.7 + nonCriticAvg * 0.3;
+  return criticAvg ?? nonCriticAvg ?? null;
 }
+
+// Alias — same function, used under the AccScore name in accessory contexts.
+export const computeAccScore = computeStickScore;
 
 export function distinctSourceCount(allReviews) {
   return new Set(allReviews.map((r) => canon(r.source_name))).size;

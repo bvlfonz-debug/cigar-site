@@ -10,7 +10,7 @@ import { DatabaseSync } from 'node:sqlite';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { computeStickScore } from './lib/stickscore.mjs';
+import { computeStickScore, computeAccScore } from './lib/stickscore.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dbPath = path.join(__dirname, '..', 'data', 'cigars.db');
@@ -45,6 +45,32 @@ function resolveVitola(p) {
   const vitola = db.prepare('SELECT * FROM vitola WHERE line_id = ? AND slug = ?').get(line.id, vitolaSlug);
   if (!vitola) fail(`No vitola found with slug "${vitolaSlug}" under line "${lineSlug}"`);
   return { brand, line, vitola };
+}
+
+function parseAccessoryPath(p) {
+  const parts = p.split('/').filter(Boolean);
+  if (parts.length !== 3 || parts[0] !== 'accessories') {
+    fail(`Invalid accessory path "${p}" — expected /accessories/<category>/<brand-model>/`);
+  }
+  return { categorySlug: parts[1], accessorySlug: parts[2] };
+}
+
+function resolveAccessory(p) {
+  const { categorySlug, accessorySlug } = parseAccessoryPath(p);
+  const category = db.prepare('SELECT * FROM accessory_category WHERE slug = ?').get(categorySlug);
+  if (!category) fail(`No accessory category found with slug "${categorySlug}"`);
+  const accessory = db.prepare('SELECT * FROM accessory WHERE category_id = ? AND slug = ?').get(category.id, accessorySlug);
+  if (!accessory) fail(`No accessory found with slug "${accessorySlug}" in category "${categorySlug}"`);
+  return { category, accessory };
+}
+
+function recomputeAccScore(accessoryId) {
+  const reviews = db.prepare('SELECT * FROM accessory_review WHERE accessory_id = ?').all(accessoryId);
+  const accScore = computeAccScore(reviews, new Date());
+  db.prepare('UPDATE accessory SET acc_score = @acc_score WHERE id = @id').run(
+    at({ id: accessoryId, acc_score: accScore })
+  );
+  return accScore;
 }
 
 function readQueue() {
@@ -333,6 +359,105 @@ const commands = {
     }
     writeQueue(remaining);
     return { ok: true, removed: true };
+  },
+
+  // --- Accessories Expansion (non-tobacco) ---
+
+  'find-accessory'(payload) {
+    const { category, accessory } = resolveAccessory(payload.path);
+    return { category, accessory };
+  },
+
+  'add-accessory-category'(payload) {
+    const required = ['name', 'slug'];
+    for (const field of required) {
+      if (payload[field] == null) fail(`add-accessory-category requires "${field}"`);
+    }
+    const existing = db.prepare('SELECT id FROM accessory_category WHERE slug = ?').get(payload.slug);
+    if (existing) fail(`Accessory category "${payload.slug}" already exists (id ${existing.id})`);
+    const result = db.prepare('INSERT INTO accessory_category (name, slug) VALUES (@name, @slug)').run(at({
+      name: payload.name,
+      slug: payload.slug,
+    }));
+    return { ok: true, category_id: result.lastInsertRowid };
+  },
+
+  'add-accessory'(payload) {
+    const required = ['category_slug', 'brand', 'model', 'slug', 'summary_review'];
+    for (const field of required) {
+      if (payload[field] == null) fail(`add-accessory requires "${field}"`);
+    }
+    const category = db.prepare('SELECT * FROM accessory_category WHERE slug = ?').get(payload.category_slug);
+    if (!category) fail(`No accessory category found with slug "${payload.category_slug}"`);
+    const existing = db.prepare('SELECT id FROM accessory WHERE category_id = ? AND slug = ?').get(category.id, payload.slug);
+    if (existing) fail(`Accessory "${payload.slug}" already exists in "${payload.category_slug}" (id ${existing.id})`);
+    const result = db.prepare(`
+      INSERT INTO accessory (category_id, brand, model, slug, specs, acc_score, summary_review, pros, cons)
+      VALUES (@category_id, @brand, @model, @slug, @specs, NULL, @summary_review, @pros, @cons)
+    `).run(at({
+      category_id: category.id,
+      brand: payload.brand,
+      model: payload.model,
+      slug: payload.slug,
+      specs: JSON.stringify(payload.specs ?? {}),
+      summary_review: payload.summary_review,
+      pros: JSON.stringify(payload.pros ?? []),
+      cons: JSON.stringify(payload.cons ?? []),
+    }));
+    return { ok: true, accessory_id: result.lastInsertRowid };
+  },
+
+  'add-accessory-review'(payload) {
+    const { accessory } = resolveAccessory(payload.path);
+    const required = ['source_name', 'score', 'score_scale', 'review_date', 'url'];
+    for (const field of required) {
+      if (payload[field] == null) fail(`add-accessory-review requires "${field}"`);
+    }
+    db.prepare(`
+      INSERT INTO accessory_review (accessory_id, source_name, source_type, score, score_scale, review_date, url, key_notes_text)
+      VALUES (@accessory_id, @source_name, @source_type, @score, @score_scale, @review_date, @url, @key_notes_text)
+    `).run(at({
+      accessory_id: accessory.id,
+      source_name: payload.source_name,
+      source_type: payload.source_type ?? 'critic',
+      score: payload.score,
+      score_scale: payload.score_scale,
+      review_date: payload.review_date,
+      url: payload.url,
+      key_notes_text: payload.key_notes_text ?? null,
+    }));
+    const accScore = recomputeAccScore(accessory.id);
+    return { ok: true, accessory_id: accessory.id, acc_score: accScore };
+  },
+
+  'add-accessory-price-point'(payload) {
+    const { accessory } = resolveAccessory(payload.path);
+    const required = ['retailer'];
+    for (const field of required) {
+      if (payload[field] == null) fail(`add-accessory-price-point requires "${field}"`);
+    }
+    if (payload.price_single == null && payload.price_box == null) {
+      fail('add-accessory-price-point requires at least one of price_single or price_box');
+    }
+    db.prepare(`
+      INSERT INTO accessory_price_point (accessory_id, retailer, price_single, price_box, box_count, affiliate_url, checked_at)
+      VALUES (@accessory_id, @retailer, @price_single, @price_box, @box_count, @affiliate_url, @checked_at)
+    `).run(at({
+      accessory_id: accessory.id,
+      retailer: payload.retailer,
+      price_single: payload.price_single ?? null,
+      price_box: payload.price_box ?? null,
+      box_count: payload.box_count ?? null,
+      affiliate_url: payload.affiliate_url ?? null,
+      checked_at: new Date().toISOString(),
+    }));
+    return { ok: true };
+  },
+
+  'recompute-acc-score'(payload) {
+    const { accessory } = resolveAccessory(payload.path);
+    const accScore = recomputeAccScore(accessory.id);
+    return { ok: true, acc_score: accScore };
   },
 };
 

@@ -13,7 +13,7 @@ import { DatabaseSync } from 'node:sqlite';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { computeStickScore } from './lib/stickscore.mjs';
+import { computeStickScore, computeAccScore } from './lib/stickscore.mjs';
 import { canon } from './lib/stickscore.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -1041,5 +1041,113 @@ fs.writeFileSync(queuePath, JSON.stringify(queueItems, null, 2) + '\n');
 console.log(`Seeded ${brands.length} brands, ${cigars.length} cigars, ${totalReviews} critic reviews.`);
 console.log(`${scoredCount} of ${cigars.length} cigars cleared the 3-independent-source minimum for a StickScore.`);
 console.log(`${queueItems.length} cigars written to data/review-queue.json (insufficient data).`);
+
+// ---------------------------------------------------------------------------
+// Accessories Expansion (non-tobacco) — Phase A: one real, well-sourced sample
+// ---------------------------------------------------------------------------
+const insertAccessoryCategory = db.prepare(`
+  INSERT INTO accessory_category (name, slug) VALUES (@name, @slug)
+`);
+
+const insertAccessory = db.prepare(`
+  INSERT INTO accessory (category_id, brand, model, slug, specs, acc_score, summary_review, pros, cons)
+  VALUES (@category_id, @brand, @model, @slug, @specs, @acc_score, @summary_review, @pros, @cons)
+`);
+
+const insertAccessoryReview = db.prepare(`
+  INSERT INTO accessory_review (accessory_id, source_name, source_type, score, score_scale, review_date, url, key_notes_text)
+  VALUES (@accessory_id, @source_name, @source_type, @score, @score_scale, @review_date, @url, @key_notes_text)
+`);
+
+// All 9 categories exist from day one (even empty ones) so /accessories/ shows
+// the full shape of what's coming, same as how the cigar catalog started at 1.
+const accessoryCategories = [
+  { name: 'Humidors', slug: 'humidors' },
+  { name: 'Torch Lighters', slug: 'torch-lighters' },
+  { name: 'Soft-Flame Lighters', slug: 'soft-flame-lighters' },
+  { name: 'Cutters', slug: 'cutters' },
+  { name: 'Ashtrays', slug: 'ashtrays' },
+  { name: 'Hygrometers', slug: 'hygrometers' },
+  { name: 'Humidification Systems', slug: 'humidification-systems' },
+  { name: 'Travel Cases', slug: 'travel-cases' },
+  { name: 'Cigar Journals & Stands', slug: 'journals-stands' },
+];
+
+const accessoryCategoryIdBySlug = new Map();
+for (const c of accessoryCategories) {
+  const id = insertAccessoryCategory.run(at(c)).lastInsertRowid;
+  accessoryCategoryIdBySlug.set(c.slug, id);
+}
+
+const accessoryReviews = [
+  {
+    source_name: 'Bespoke Unit',
+    source_type: 'critic',
+    score: 5,
+    score_scale: 5,
+    review_date: '2025-08-28',
+    url: 'https://bespokeunit.com/articles/cigars/case-elegance-humidor/',
+    key_notes_text: 'Rated 5 out of 5; called it well-constructed with a "confidence-inspiring" feel.',
+  },
+  {
+    source_name: "Case Elegance (brand site's own verified-buyer reviews)",
+    source_type: 'community',
+    score: 4.9,
+    score_scale: 5,
+    review_date: '2026-07-08',
+    url: 'https://caseelegance.com/products/glass-top-cedar-humidor-with-front-digital-hygrometer',
+    key_notes_text: '4.9 out of 5 across 309 verified-buyer reviews on the maker\'s own storefront.',
+  },
+  {
+    source_name: 'Etsy (verified-buyer reviews)',
+    source_type: 'community',
+    score: 4.9,
+    score_scale: 5,
+    review_date: '2026-07-08',
+    url: 'https://www.etsy.com/listing/1819031675/case-elegance-glass-top-humidor-with',
+    key_notes_text: '4.9 out of 5 across roughly 8,100 verified-buyer reviews.',
+  },
+];
+
+const accScore = computeAccScore(accessoryReviews, new Date());
+
+const humidorId = insertAccessory.run(at({
+  category_id: accessoryCategoryIdBySlug.get('humidors'),
+  brand: 'Case Elegance',
+  model: 'Renzo Glass Top Humidor',
+  slug: 'case-elegance-renzo',
+  specs: JSON.stringify({
+    capacity: '18-60 cigars depending on vitola (roughly 46-50 Coronas)',
+    material: 'Spanish cedar interior (5mm), walnut-finish wood exterior, tempered glass top',
+    dimensions: '8.5"W x 9"D x 5.4"H',
+    humidification_system: 'Hydro System (tray, two solution bottles, gel crystals)',
+    hygrometer: 'Pre-calibrated digital hygrometer with thermometer',
+    warranty: 'Manufacturer warranty, registerable on Case Elegance\'s site (specific terms not published)',
+  }),
+  acc_score: accScore,
+  summary_review:
+    'The Case Elegance Renzo is one of the most consistently recommended first humidors for beginners, prized for a glass top that lets owners check their collection without breaking the seal, a magnetic closure, and a low-maintenance Hydro System that removes most of the guesswork from seasoning and humidity control. Reviewers and owners alike rate it very highly — Bespoke Unit gave it a full 5 out of 5, and real verified-buyer ratings on both the maker\'s own site and Etsy sit at 4.9 out of 5 across thousands of purchases. The most common complaints are minor: no lock, a glass lid that needs to stay out of direct sun, and no passive ventilation, so it needs a monthly manual opening for air exchange. AccScore reflects that near-universal enthusiasm.',
+  pros: JSON.stringify([
+    'Glass top for checking your collection without opening the lid',
+    'Magnetic closure with high-quality hinges holds a tight seal',
+    'Low-maintenance Hydro System humidification, easy to refill',
+    'Pre-calibrated digital hygrometer with thermometer built in',
+    'Accessory drawer for cutters and lighters',
+  ]),
+  cons: JSON.stringify([
+    'No lock mechanism',
+    'Glass lid needs to stay out of direct sunlight',
+    'No passive ventilation — needs a monthly manual opening for air exchange',
+    'No temperature control',
+    'Manufacturer advises against using Boveda packs with the included system',
+  ]),
+})).lastInsertRowid;
+
+for (const review of accessoryReviews) {
+  insertAccessoryReview.run(at({ accessory_id: humidorId, ...review }));
+}
+
+console.log(`Seeded ${accessoryCategories.length} accessory categories, 1 accessory, ${accessoryReviews.length} accessory reviews.`);
+console.log(`Computed AccScore for Case Elegance Renzo: ${accScore != null ? accScore.toFixed(1) : 'insufficient data'}`);
 
 db.close();

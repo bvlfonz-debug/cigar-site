@@ -1,0 +1,95 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAccessoryPage } from '../../lib/db';
+
+// Guides are hand-authored editorial content, not DB-driven — see CLAUDE.md
+// "Accessories Expansion" for the full planned list (15 guides). Each entry
+// here is one guide; add more as they're written (Phase B: guides 1-8).
+// (Defined inline in getStaticPaths, not as a sibling const, and passed via
+// props — Astro's getStaticPaths runs in an isolated scope that can't see
+// other frontmatter declarations in the same file.)
+export function getStaticPaths() {
+  const guides = [
+    {
+      slug: 'best-humidors-for-beginners',
+      title: 'Best Humidors for Beginners',
+      description: 'What to actually look for in your first humidor, and our current top pick.',
+      evergreen: false,
+    },
+  ];
+  return guides.map((g) => ({ params: { slug: g.slug }, props: { guide: g } }));
+}
+
+const { guide } = Astro.props as { guide: { slug: string; title: string; description: string; evergreen: boolean } };
+
+const featured = getAccessoryPage('humidors', 'case-elegance-renzo');
+---
+
+<Layout title={`${guide.title} | StickScore Guides`} description={guide.description}>
+  <div class="home-hero">
+    <div class="cigar-hero__eyebrow">Buying Guide</div>
+    <h1 class="home-hero__title">{guide.title}</h1>
+  </div>
+
+  <section class="section summary-review">
+    <p>
+      A humidor's only job is holding your cigars at roughly 65-70% relative humidity, but the
+      right first humidor also has to survive a beginner's learning curve — overfilling it,
+      forgetting to check it, not knowing what "seasoning" means yet. Here's what actually matters
+      when you're starting out, not just what looks nice on a shelf.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">What to look for</h2>
+    <p>
+      <strong>A humidification system you can't mess up.</strong> Traditional foam humidifiers
+      need frequent refilling and are easy to over- or under-charge. Beginners generally do better
+      with a system that's more forgiving — gel-based or two-way humidity packs (like Boveda) that
+      hold a target RH automatically, or a manufacturer's own pre-mixed solution designed not to
+      need constant adjustment.
+    </p>
+    <p>
+      <strong>A hygrometer you can actually trust.</strong> Cheap analog hygrometers are
+      notoriously inaccurate out of the box. A pre-calibrated digital hygrometer, or one you
+      calibrate yourself with a simple salt-test, removes a lot of first-humidor anxiety.
+    </p>
+    <p>
+      <strong>A seal that actually seals.</strong> A loose lid lets humidity leak out no matter how
+      good your humidification system is. Magnetic closures and well-fitted hinges matter more
+      than how ornate the finish looks.
+    </p>
+    <p>
+      <strong>Realistic capacity.</strong> It's tempting to buy small and "upgrade later," but a
+      humidor that's mostly empty holds humidity less consistently than one that's reasonably full.
+      Buying for slightly more than your current collection, not double it, tends to work better.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Our current pick</h2>
+    <p class="placeholder-note">
+      This list will grow as more humidors clear our sourcing bar — right now, one has enough
+      independent reviews to feature here.
+    </p>
+    {featured && (
+      <a class="cigar-card" href={`/accessories/humidors/${featured.accessory.slug}/`}>
+        <div class="cigar-card__brand">{featured.accessory.brand}</div>
+        <div class="cigar-card__name">{featured.accessory.model}</div>
+        <div class="cigar-card__score">
+          AccScore {featured.accessory.acc_score != null ? Math.round(featured.accessory.acc_score) : 'insufficient data'}
+        </div>
+      </a>
+    )}
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">A note on cost</h2>
+    <p>
+      A good beginner humidor doesn't need to be expensive — the fundamentals (a decent seal,
+      a workable humidification system, an accurate hygrometer) show up at a wide range of price
+      points. See our <a href="/accessories/humidors/">full humidors category</a> as more get added,
+      and our upcoming guides on humidors under $100 and under $200 for budget-specific picks.
+    </p>
+  </section>
+</Layout>

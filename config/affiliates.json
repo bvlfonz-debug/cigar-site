@@ -23,6 +23,13 @@
       "name": "Atlantic Cigar",
       "trackingId": "PLACEHOLDER",
       "urlTemplate": "https://www.atlanticcigar.com/PLACEHOLDER?product={slug}&affid=PLACEHOLDER"
+    },
+    {
+      "key": "amazon",
+      "name": "Amazon",
+      "trackingId": "PLACEHOLDER",
+      "urlTemplate": "https://www.amazon.com/dp/PLACEHOLDER?tag=PLACEHOLDER",
+      "note": "Accessories only — do not apply for this program until the owner has purchased a proper domain (see CLAUDE.md 'Amazon Associates'). Never display a stored price as current for this retailer; link out with 'Check price on Amazon' instead, and never use this link in an email."
     }
   ]
 }

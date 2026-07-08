@@ -79,7 +79,56 @@ CREATE TABLE news_item (
   related_vitola_ids  TEXT NOT NULL DEFAULT '[]'
 );
 
+-- Accessories Expansion (non-tobacco: humidors, cutters, lighters, etc.) —
+-- see CLAUDE.md "Accessories Expansion" for the authoritative field descriptions.
+
+CREATE TABLE accessory_category (
+  id    INTEGER PRIMARY KEY AUTOINCREMENT,
+  name  TEXT NOT NULL,
+  slug  TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE accessory (
+  id              INTEGER PRIMARY KEY AUTOINCREMENT,
+  category_id     INTEGER NOT NULL REFERENCES accessory_category(id),
+  brand           TEXT NOT NULL,
+  model           TEXT NOT NULL,
+  slug            TEXT NOT NULL,
+  specs           TEXT NOT NULL DEFAULT '{}',
+  acc_score       REAL,
+  summary_review  TEXT NOT NULL,
+  pros            TEXT NOT NULL DEFAULT '[]',
+  cons            TEXT NOT NULL DEFAULT '[]',
+  UNIQUE (category_id, slug)
+);
+
+CREATE TABLE accessory_review (
+  id             INTEGER PRIMARY KEY AUTOINCREMENT,
+  accessory_id   INTEGER NOT NULL REFERENCES accessory(id),
+  source_name    TEXT NOT NULL,
+  source_type    TEXT NOT NULL DEFAULT 'critic' CHECK (source_type IN ('critic','community')),
+  score          REAL NOT NULL,
+  score_scale    REAL NOT NULL,
+  review_date    TEXT NOT NULL,
+  url            TEXT NOT NULL,
+  key_notes_text TEXT
+);
+
+CREATE TABLE accessory_price_point (
+  id             INTEGER PRIMARY KEY AUTOINCREMENT,
+  accessory_id   INTEGER NOT NULL REFERENCES accessory(id),
+  retailer       TEXT NOT NULL,
+  price_single   REAL,
+  price_box      REAL,
+  box_count      INTEGER,
+  affiliate_url  TEXT,
+  checked_at     TEXT NOT NULL
+);
+
 CREATE INDEX idx_line_brand ON line(brand_id);
 CREATE INDEX idx_vitola_line ON vitola(line_id);
 CREATE INDEX idx_critic_review_vitola ON critic_review(vitola_id);
 CREATE INDEX idx_price_point_vitola ON price_point(vitola_id);
+CREATE INDEX idx_accessory_category ON accessory(category_id);
+CREATE INDEX idx_accessory_review_accessory ON accessory_review(accessory_id);
+CREATE INDEX idx_accessory_price_point_accessory ON accessory_price_point(accessory_id);

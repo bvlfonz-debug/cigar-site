@@ -390,3 +390,123 @@ export function getSearchIndex(): SearchIndexEntry[] {
     path: `/cigars/${r.brandSlug}/${r.lineSlug}/${r.vitolaSlug}/`,
   }));
 }
+
+// ---------------------------------------------------------------------------
+// Accessories Expansion (non-tobacco)
+// ---------------------------------------------------------------------------
+
+export interface AccessoryCategoryRow {
+  id: number;
+  name: string;
+  slug: string;
+}
+
+export interface AccessoryRow {
+  id: number;
+  category_id: number;
+  brand: string;
+  model: string;
+  slug: string;
+  specs: string;
+  acc_score: number | null;
+  summary_review: string;
+  pros: string;
+  cons: string;
+}
+
+export interface AccessoryReviewRow {
+  id: number;
+  accessory_id: number;
+  source_name: string;
+  source_type: 'critic' | 'community';
+  score: number;
+  score_scale: number;
+  review_date: string;
+  url: string;
+  key_notes_text: string | null;
+}
+
+export interface AccessoryPricePointRow {
+  id: number;
+  accessory_id: number;
+  retailer: string;
+  price_single: number | null;
+  price_box: number | null;
+  box_count: number | null;
+  affiliate_url: string | null;
+  checked_at: string;
+}
+
+export function getAllAccessoryCategories(): AccessoryCategoryRow[] {
+  return getDb().prepare('SELECT * FROM accessory_category ORDER BY name').all() as AccessoryCategoryRow[];
+}
+
+export function getAllAccessorySlugs(): { category: string; accessory: string }[] {
+  return getDb()
+    .prepare(
+      `SELECT accessory_category.slug AS category, accessory.slug AS accessory
+       FROM accessory JOIN accessory_category ON accessory_category.id = accessory.category_id`
+    )
+    .all() as { category: string; accessory: string }[];
+}
+
+export interface AccessoryPageData {
+  category: AccessoryCategoryRow;
+  accessory: AccessoryRow;
+  reviews: AccessoryReviewRow[];
+}
+
+export function getAccessoryPage(categorySlug: string, accessorySlug: string): AccessoryPageData | null {
+  const db = getDb();
+  const category = db.prepare('SELECT * FROM accessory_category WHERE slug = ?').get(categorySlug) as
+    | AccessoryCategoryRow
+    | undefined;
+  if (!category) return null;
+
+  const accessory = db
+    .prepare('SELECT * FROM accessory WHERE category_id = ? AND slug = ?')
+    .get(category.id, accessorySlug) as AccessoryRow | undefined;
+  if (!accessory) return null;
+
+  const reviews = db
+    .prepare('SELECT * FROM accessory_review WHERE accessory_id = ? ORDER BY review_date DESC')
+    .all(accessory.id) as AccessoryReviewRow[];
+
+  return { category, accessory, reviews };
+}
+
+export interface AccessorySummary {
+  brand: string;
+  model: string;
+  slug: string;
+  accScore: number | null;
+}
+
+export function getAccessoriesByCategory(categorySlug: string): { category: AccessoryCategoryRow; accessories: AccessorySummary[] } | null {
+  const db = getDb();
+  const category = db.prepare('SELECT * FROM accessory_category WHERE slug = ?').get(categorySlug) as
+    | AccessoryCategoryRow
+    | undefined;
+  if (!category) return null;
+
+  const rows = db
+    .prepare('SELECT brand, model, slug, acc_score AS accScore FROM accessory WHERE category_id = ?')
+    .all(category.id) as AccessorySummary[];
+
+  return { category, accessories: rows };
+}
+
+// price_point-style: latest check per retailer only.
+export function getLatestAccessoryPricePoints(accessoryId: number): AccessoryPricePointRow[] {
+  const rows = getDb()
+    .prepare('SELECT * FROM accessory_price_point WHERE accessory_id = ? ORDER BY checked_at DESC')
+    .all(accessoryId) as AccessoryPricePointRow[];
+
+  const latestByRetailer = new Map<string, AccessoryPricePointRow>();
+  for (const row of rows) {
+    if (!latestByRetailer.has(row.retailer)) {
+      latestByRetailer.set(row.retailer, row);
+    }
+  }
+  return [...latestByRetailer.values()];
+}

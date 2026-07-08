@@ -1,0 +1,52 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getAllAccessoryCategories, getAccessoriesByCategory } from '../../../lib/db';
+
+export function getStaticPaths() {
+  return getAllAccessoryCategories().map((c) => ({ params: { category: c.slug } }));
+}
+
+const { category: categorySlug } = Astro.params;
+const data = getAccessoriesByCategory(categorySlug as string);
+
+if (!data) {
+  return new Response(null, { status: 404 });
+}
+
+const { category, accessories } = data;
+
+const sorted = [...accessories].sort((a, b) => {
+  if (a.accScore != null && b.accScore != null) return b.accScore - a.accScore;
+  if (a.accScore != null) return -1;
+  if (b.accScore != null) return 1;
+  return `${a.brand} ${a.model}`.localeCompare(`${b.brand} ${b.model}`);
+});
+---
+
+<Layout
+  title={`Best ${category.name} | StickScore`}
+  description={`${category.name} ranked by AccScore where enough independent sources exist.`}
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">{category.name}</h1>
+    <p>{accessories.length} item{accessories.length === 1 ? '' : 's'} recorded in this category so far.</p>
+  </div>
+
+  <section class="section">
+    {sorted.length > 0 ? (
+      <div class="search-results">
+        {sorted.map((a) => (
+          <a class="cigar-card" href={`/accessories/${category.slug}/${a.slug}/`}>
+            <div class="cigar-card__brand">{a.brand}</div>
+            <div class="cigar-card__name">{a.model}</div>
+            <div class="cigar-card__score">
+              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">Nothing recorded in this category yet — more are added over time.</p>
+    )}
+  </section>
+</Layout>
