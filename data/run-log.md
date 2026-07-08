@@ -116,3 +116,35 @@ Kept it light since it's a weekday. What happened:
 - **Errors**: none. Site builds cleanly.
 - Nothing new was added to `data/review-queue.json` this run — it still has
   23 items waiting on you whenever you have a few minutes.
+
+## 2026-07-06/08 — Manual catch-up session (owner-requested, not automated)
+The automation had been failing (quota limits, then a scheduling bug, both
+now fixed), so the owner asked to do a session of the same work by hand
+instead of waiting further. The automation started succeeding on its own
+partway through this session and kept running nightly while this work was
+in progress — this entry's numbers are reconciled against all of that,
+not just a single snapshot.
+
+- **New reviews found**: 8 of 13 cigars stuck at "2 of 3 sources" got a
+  genuine 3rd independent review and now have real StickScores for the
+  first time, with sub-scores and rewritten summaries: Hemingway Short
+  Story, Serie V Melanio Robusto, Flor de las Antillas Toro, My Father
+  Robusto, Rocky Patel Vintage 1990 Toro, Liga Privada No. 9 Toro,
+  Undercrown Maduro Gran Toro, and Davidoff Nicaragua Toro. The other 5
+  (Añejo Reserva No. 48, Serie V Maduro Toro, Decade Toro, New World Toro,
+  Montecristo White Series) stay queued.
+- **Prices checked**: 8 more vitolas got a price check. A few turned out to
+  overlap with prices the automation checked independently on its own
+  nightly runs around the same time — all landed on the same real prices,
+  a good consistency signal. Both are kept; price history is meant to
+  accumulate checks over time.
+- **News**: added two more briefs (Wildfire Cigar Co.'s Radio Octave, and a
+  new AJ Fernandez-made Romeo y Julieta Reserva Real Nicaragua Profundo —
+  a different product from the Reserva Real already in this database, not
+  linked to it).
+- **Review queue**: 23 → 15 items.
+- Lesson for future sessions: when doing manual work alongside an active
+  automation, `git fetch` and reconcile immediately before every commit,
+  not just once — real work can land from either side at any time, and
+  price/critic-review data is additive by design so overlaps are rarely
+  a real conflict, just something to check for.

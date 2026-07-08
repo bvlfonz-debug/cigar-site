@@ -255,6 +255,44 @@ const commands = {
     return { ok: true, stick_score: stickScore };
   },
 
+  // Editorial text fields (e.g. summary_review needs rewriting once a vitola
+  // crosses the 3-source threshold and stops being "insufficient data").
+  // Only touches the fields actually passed in.
+  'update-vitola-copy'(payload) {
+    const { vitola } = resolveVitola(payload.path);
+    const sets = [];
+    const params = { id: vitola.id };
+    if (payload.summary_review != null) {
+      sets.push('summary_review = @summary_review');
+      params.summary_review = payload.summary_review;
+    }
+    if (payload.tasting_notes != null) {
+      sets.push('tasting_notes = @tasting_notes');
+      params.tasting_notes = JSON.stringify(payload.tasting_notes);
+    }
+    if (sets.length === 0) fail('update-vitola-copy requires summary_review and/or tasting_notes');
+    db.prepare(`UPDATE vitola SET ${sets.join(', ')} WHERE id = @id`).run(at(params));
+    return { ok: true };
+  },
+
+  // Sub-scores are editorial synthesis from review text, not something a
+  // formula derives — set them explicitly once a vitola has enough reviews
+  // to support real ones (only overwrites the four score_* columns).
+  'set-sub-scores'(payload) {
+    const { vitola } = resolveVitola(payload.path);
+    const required = ['flavor', 'construction', 'complexity', 'value'];
+    for (const field of required) {
+      if (payload[field] == null) fail(`set-sub-scores requires "${field}"`);
+    }
+    db.prepare(`
+      UPDATE vitola
+      SET score_flavor = @flavor, score_construction = @construction,
+          score_complexity = @complexity, score_value = @value
+      WHERE id = @id
+    `).run(at({ id: vitola.id, flavor: payload.flavor, construction: payload.construction, complexity: payload.complexity, value: payload.value }));
+    return { ok: true };
+  },
+
   'queue-add'(payload) {
     const required = ['item', 'reason', 'why_flagged', 'proposed_action'];
     for (const field of required) {
@@ -281,6 +319,20 @@ const commands = {
 
   'queue-list'() {
     return readQueue();
+  },
+
+  // Removes a queue item once its underlying issue is resolved (e.g. a
+  // cigar that was "insufficient sources" now has enough to score).
+  'queue-resolve'(payload) {
+    if (!payload.item) fail('queue-resolve requires "item"');
+    const queue = readQueue();
+    const before = queue.length;
+    const remaining = queue.filter((q) => q.item !== payload.item);
+    if (remaining.length === before) {
+      return { ok: true, removed: false, reason: 'no matching item found' };
+    }
+    writeQueue(remaining);
+    return { ok: true, removed: true };
   },
 };
 

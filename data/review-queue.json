@@ -11,18 +11,6 @@
     "decision": null
   },
   {
-    "item": "Arturo Fuente Hemingway Short Story",
-    "path": "/cigars/arturo-fuente/hemingway/short-story/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Cigar Aficionado",
-      "CigarScore.com"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
     "item": "Fuente Fuente OpusX Robusto",
     "path": "/cigars/arturo-fuente/opusx/robusto/",
     "reason": "insufficient_sources",
@@ -39,18 +27,6 @@
     "sources_found": [
       "Cigar Aficionado",
       "Stogies on the Rocks"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
-    "item": "Serie V Melanio Robusto",
-    "path": "/cigars/oliva/serie-v-melanio/robusto/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Cigar Aficionado",
-      "CigarScore.com"
     ],
     "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
     "decision": null
@@ -79,72 +55,12 @@
     "decision": null
   },
   {
-    "item": "Flor de las Antillas Toro",
-    "path": "/cigars/my-father/flor-de-las-antillas/toro/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Cigar Aficionado",
-      "Cigar Dojo"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
-    "item": "My Father Robusto",
-    "path": "/cigars/my-father/no-1/robusto/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Cigar Aficionado",
-      "Cigar Dojo"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
-    "item": "Vintage 1990 Toro",
-    "path": "/cigars/rocky-patel/vintage-1990/toro/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Cigar Aficionado",
-      "StogieReview.com"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
     "item": "Decade Toro",
     "path": "/cigars/rocky-patel/decade/toro/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
     "sources_found": [
       "Cigar Aficionado",
-      "CigarScore.com"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
-    "item": "Liga Privada No. 9 Toro",
-    "path": "/cigars/drew-estate/liga-privada-no-9/toro/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Cigar Aficionado",
-      "Cigar Dojo"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
-    "item": "Undercrown Maduro Gran Toro",
-    "path": "/cigars/drew-estate/undercrown-maduro/toro/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Stogie Guys",
       "CigarScore.com"
     ],
     "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
@@ -179,18 +95,6 @@
     "reason": "insufficient_sources",
     "why_flagged": "Only 0 independent sources found (StickScore requires 3).",
     "sources_found": [],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
-    "item": "Davidoff Nicaragua Toro",
-    "path": "/cigars/davidoff/nicaragua/toro/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Cigar Aficionado",
-      "CigarScore.com"
-    ],
     "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
     "decision": null
   },
