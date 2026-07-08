@@ -14,6 +14,13 @@ comparison pages, price tracking, and news briefs. Revenue comes from affiliate
 links to cigar retailers. After the initial build, a nightly GitHub Actions
 workflow keeps it updated with minimal human involvement.
 
+A second vertical, non-tobacco cigar accessories (humidors, cutters, lighters,
+etc.), was added later — see "Accessories Expansion" below. Because accessories
+aren't tobacco products, those pages can carry mainstream affiliate programs
+(Amazon Associates) and eventually display ads: a second revenue layer on the
+same traffic, built with the same rigor and the same beginner-friendly,
+one-step-at-a-time approach as everything else here.
+
 ## Stack
 - Astro static site, TypeScript, minimal dependencies
 - SQLite database at `data/cigars.db`, committed to the repo
@@ -168,6 +175,90 @@ approve/reject field the owner can edit. Applied on the next run. Rejected
 items are remembered and not re-proposed. Keep the queue small and readable —
 it is written for a non-technical human.
 
+## Accessories Expansion
+Humidors, torch/soft-flame lighters, cutters, ashtrays, hygrometers,
+humidification systems, travel cases, cigar journals/stands — everything here
+follows the exact same content rules, aggregate-scoring discipline, and
+beginner-friendly pacing as the cigar side. The only real difference is the
+affiliate programs available (see Affiliate configuration below) and that
+accessory pages don't get sub-score breakdowns (flavor/construction/etc. don't
+apply) — they get pros/cons instead.
+
+### Data model (SQLite) additions
+- **accessory_category**: id, name, slug (humidors, torch-lighters,
+  soft-flame-lighters, cutters, ashtrays, hygrometers,
+  humidification-systems, travel-cases, journals-stands)
+- **accessory**: id, category_id, brand, model, slug, specs (JSON — capacity,
+  material, dimensions, warranty, etc.), acc_score, summary_review,
+  pros (JSON array of strings), cons (JSON array of strings)
+- **accessory_review**: id, accessory_id, source_name, source_type
+  (critic | community), score, score_scale, review_date, url, key_notes_text
+  — same shape as critic_review
+- **accessory_price_point**: id, accessory_id, retailer, price_single,
+  price_box, box_count, affiliate_url, checked_at — APPEND-ONLY, same as
+  price_point. Amazon rows: see Affiliate configuration — never store a
+  price value that gets displayed as current.
+
+### AccScore — same aggregation rules as StickScore
+- Minimum 3 independent sources to publish. Fewer → "insufficient data",
+  queued. Normalize to 100. Recent (≤5yr) sources count double. Never invent
+  a score, a source, or a review.
+- Sources: dedicated review blogs, YouTube reviews (cite the channel name as
+  the source), retailer user-review averages, and forum consensus (r/cigars,
+  cigar forums) — label forum-derived figures explicitly as "community
+  consensus," never presented as a single critic's verdict.
+- Every score page displays source count and links to every original source,
+  same as cigar pages.
+
+### Pages
+- `/accessories/[category]/[brand-model]` — review page, same layout language
+  as cigar pages: AccScore, pros/cons (in place of sub-score bars), specs
+  table, price comparison across retailers (affiliate slots), sources list
+- `/accessories/[category]` — category hub, ranks all items in that category
+  (same pattern as `/rankings/[facet]/[value]`)
+- `/guides/[slug]` — buying guide pages (list below)
+- Cross-linking (Phase C): every cigar page gets a small "gear for this"
+  block; accessory pages link back to related cigar content. Guides
+  internal-link to the product review pages they reference.
+
+### First 15 guide pages — build in this order
+1. Best humidors for beginners
+2. Best humidors under $100
+3. Best humidors under $200
+4. Desktop vs cabinet vs travel humidors explained *(evergreen)*
+5. Best torch lighters
+6. Best cigar cutters
+7. Guillotine vs V-cut vs punch: which cut and why *(evergreen)*
+8. Best travel cigar cases
+9. Best hygrometers (and how to calibrate one) *(evergreen)*
+10. Boveda vs beads vs gel: humidification compared *(evergreen)*
+11. Best cigar ashtrays
+12. Best gifts for cigar smokers
+13. How to set up your first humidor (step-by-step) *(evergreen)*
+14. Best budget cigar starter kits
+15. Cigar accessories every beginner actually needs
+
+Guides 4, 7, 9, 10, 13 are educational/evergreen — they exist to build topical
+authority for SEO and internal-link to the product review pages, not to rank
+products themselves.
+
+### Nightly automation folding
+Accessories work folds into the SAME nightly run, within the SAME quota
+budget in CLAUDE.md's "Quota frugality" section — this does not add a second
+run or expand total nightly work. Alternate focus night-to-night (e.g. cigars
+on even calendar days, accessories on odd ones, or similar simple rule) rather
+than trying to cover both every night. The same publish gate and review queue
+rules apply equally: new accessory brands/categories never seen before →
+queue for human; price swings >25% → queue; scores under 3 sources →
+insufficient data, queued.
+
+### Build phases — same "stop for approval" discipline as the original build
+A) Schema + ONE complete sample (a well-reviewed humidor, real researched
+   data, same rigor as the Padrón sample page) + ONE sample guide page (Best
+   humidors for beginners). STOP for owner approval before continuing.
+B) Seed ~40 accessories across all categories. Build guides 1-8.
+C) Build guides 9-15. Add the cross-link blocks. Fold into nightly runs.
+
 ## Affiliate configuration
 - `config/affiliates.json` holds retailer names, tracking IDs, and URL
   templates. Ship with placeholder values clearly marked PLACEHOLDER.
@@ -176,6 +267,27 @@ it is written for a non-technical human.
   file with your step-by-step help.
 - Respect program terms: no trademark bidding, required disclosures, geo
   restrictions. Flag any program whose terms conflict with the site design.
+
+### Amazon Associates (accessories only)
+- Added to `config/affiliates.json` as PLACEHOLDER until the owner is
+  actually approved for the program.
+- IMPORTANT — do not prompt the owner to apply for Amazon Associates until
+  they tell you they've purchased a proper domain for the site. They've said
+  they need to do that first; wait for them to bring it up rather than
+  raising it yourself.
+- Required disclosure, verbatim, on every page with an Amazon link: "As an
+  Amazon Associate I earn from qualifying purchases." Render it via the same
+  FTC disclosure component used for cigar retailers, extended to include this
+  exact sentence whenever an Amazon link is present on the page.
+- NEVER display a stored/scraped Amazon price as if it's current — Amazon's
+  associate terms require price data to come from their own API, not a
+  cached number we looked up. For Amazon rows specifically, render a "Check
+  price on Amazon →" link instead of a dollar figure, regardless of whether
+  a price value happens to exist on the row.
+- NEVER include an Amazon affiliate link in an email.
+- Non-Amazon accessory retailers (mainstream shops, cigar retailers' own
+  accessory sections) keep the normal price-comparison treatment — real
+  fetched prices displayed, same as cigar price_point rows.
 
 ## Error handling for a beginner owner
 - All errors the owner might see should fail with plain-language messages.
