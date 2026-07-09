@@ -148,3 +148,6 @@ not just a single snapshot.
   not just once — real work can land from either side at any time, and
   price/critic-review data is additive by design so overlaps are rarely
   a real conflict, just something to check for.
+
+## 2026-07-09 — NEEDS-ATTENTION: run did not finish cleanly
+This is a quota issue, not a bug: the nightly automation shares your Claude Pro usage limit with your own daytime use, and tonight's budget was already used up. Nothing to fix — it'll work again once your quota resets. Nothing was changed or committed tonight.
