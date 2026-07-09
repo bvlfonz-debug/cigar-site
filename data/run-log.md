@@ -173,4 +173,5 @@ Quota was available for a second try tonight. Kept it light since it's a weekday
   sub-line (Epic Vintage 12, not the regular Epic) so I didn't use it.
   Another candidate source (CigarSense.com) blocked the fetch. No new
   scores added tonight.
-- More to come later tonight if quota allows — see next entry.
+- **Errors**: none otherwise. Site builds cleanly. That's everything for
+  tonight — kept it deliberately light since it's a weekday.
