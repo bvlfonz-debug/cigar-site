@@ -151,3 +151,26 @@ not just a single snapshot.
 
 ## 2026-07-09 — NEEDS-ATTENTION: run did not finish cleanly
 This is a quota issue, not a bug: the nightly automation shares your Claude Pro usage limit with your own daytime use, and tonight's budget was already used up. Nothing to fix — it'll work again once your quota resets. Nothing was changed or committed tonight.
+
+## 2026-07-09 — Weekday run, part 1: 3 prices, 1 news brief, 1 spec conflict queued
+Quota was available for a second try tonight. Kept it light since it's a weekday.
+
+- **News**: added one brief — Cigar Aficionado's report from the 2026 PCA
+  Trade Show that Oliva will release a Serie V Melanio Edición Año 2026 in a
+  tapered Perfecto Round shape, expected this fall.
+- **Prices checked**: My Father Le Bijou 1922 Toro ($261.99/box of 23),
+  Liga Privada T52 Toro ($429.99/box of 24), and Montecristo Epic Toro
+  ($172.99/box of 10) — all from JR Cigars, all first-ever price checks for
+  these three, so nothing to compare against and nothing flagged.
+- **Spec conflict found and queued, not guessed**: tried to check a price
+  for Davidoff Nicaragua Toro, but JR Cigars lists that vitola as 5.5" x 50
+  ring gauge while our database has it as 5.5" x 54. Rather than record a
+  price against a size that might not match, I skipped it and added it to
+  the review queue for you to confirm which is correct.
+- **Reviews / scores**: looked for a third source on a couple of queued
+  cigars (Arturo Fuente Añejo Reserva No. 48, Montecristo Epic Toro).
+  Found a Cigar Dojo review, but it turned out to be for a different
+  sub-line (Epic Vintage 12, not the regular Epic) so I didn't use it.
+  Another candidate source (CigarSense.com) blocked the fetch. No new
+  scores added tonight.
+- More to come later tonight if quota allows — see next entry.
