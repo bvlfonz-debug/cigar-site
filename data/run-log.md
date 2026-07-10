@@ -175,3 +175,26 @@ Quota was available for a second try tonight. Kept it light since it's a weekday
   scores added tonight.
 - **Errors**: none otherwise. Site builds cleanly. That's everything for
   tonight — kept it deliberately light since it's a weekday.
+
+## 2026-07-10 — Weekday run: 1 news brief, 3 first-ever price checks
+Kept it light again since it's a weekday. Today was a "cigars" night on the
+even/odd alternation with the accessories side (see CLAUDE.md).
+
+- **News**: added one brief — halfwheel's review of the E.P. Carrillo (Casa
+  Carrillo) Deep Blue Limited Edition 2026, a 6 x 56 toro extra with a
+  Jalapa, Nicaragua wrapper. This brand isn't in our database yet, so the
+  brief stands alone with no linked cigar page.
+- **Prices checked** (all first-ever checks for these three, so nothing to
+  compare against and nothing flagged): My Father No. 1 Robusto ($232.99/box
+  of 23, JR Cigars), Undercrown Maduro Gran Toro ($225.99/box of 25, JR
+  Cigars), Romeo y Julieta 1875 Bully ($177.99/box of 25, JR Cigars).
+- **Reviews / scores**: tried to find a genuine third source for a couple of
+  queued "insufficient sources" cigars (Montecristo Epic Toro, Rocky Patel
+  Decade Toro). For Epic, everything findable was for the Vintage 12 or
+  Craft Cured sub-lines, not the plain Epic Toro already in our database —
+  didn't use it, since it's a different product. For Decade, only saw an
+  unverifiable secondhand mention of a Cigar Snob score with no reviewable
+  page behind it — skipped rather than record a score I couldn't confirm
+  firsthand. No new scores added tonight; both stay queued as before.
+- **Errors**: none. Site builds cleanly. Stopping here for tonight given the
+  weekday budget — nothing left mid-task.
