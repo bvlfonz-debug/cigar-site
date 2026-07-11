@@ -198,3 +198,21 @@ even/odd alternation with the accessories side (see CLAUDE.md).
   firsthand. No new scores added tonight; both stay queued as before.
 - **Errors**: none. Site builds cleanly. Stopping here for tonight given the
   weekday budget — nothing left mid-task.
+
+## 2026-07-11 — Weekday run, part 1: accessories night — 1 news brief, 1 price check
+Today was an "accessories" night on the even/odd alternation with the cigar
+side (see CLAUDE.md).
+
+- **News**: added one brief — halfwheel's coverage from the PCA 2026 trade
+  show of a Brizard & Co. collaboration with Arturo Fuente, Florence
+  marquetry artisan Christian Maccarrone, and S.T. Dupont: a $5,700
+  limited-edition (99 pieces) Le Grand lighter. No accessory in our database
+  yet to link it to, so the brief stands alone.
+- **Prices checked**: Case Elegance Renzo Glass Top Humidor — $97.65 on the
+  maker's own site (on sale from $114.99), the first-ever price check for
+  this item, so nothing to compare against and nothing flagged. Couldn't
+  find a listed price on Bespoke Post to add a second retailer.
+- **Reviews / scores**: the Renzo already has 3 sources and a published
+  AccScore (99.4); didn't go looking for more since it already clears the
+  minimum.
+- **Errors**: none. Site builds cleanly.
