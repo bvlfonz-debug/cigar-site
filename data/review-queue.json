@@ -164,5 +164,428 @@
     ],
     "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
     "decision": null
+  },
+  {
+    "item": "TISFA Acrylic Desktop Cigar Humidor",
+    "path": "/accessories/humidors/tisfa-acrylic-desktop-humidor/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Plush Cigars (85/100)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Quality Importers Capri Glasstop Desktop Humidor",
+    "path": "/accessories/humidors/quality-importers-capri-glasstop-humidor/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Amazon (4.4/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Prestige Import Group Onyx 50-Count High Gloss Humidor",
+    "path": "/accessories/humidors/prestige-import-group-onyx-humidor/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Amazon (4.1/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "NewAir CC-300H Climate-Controlled Cabinet Humidor",
+    "path": "/accessories/humidors/newair-cc-300h-humidor/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Cigar Dojo (94/100)",
+      "Amazon (4.3/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Mantello Royal Glass-Top Cigar Humidor",
+    "path": "/accessories/humidors/mantello-royal-glass-top-humidor/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Walmart (4.5/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Xikar Volta",
+    "path": "/accessories/torch-lighters/xikar-volta/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Holt's Cigar Co. (2.67/5)",
+      "Wayfair (4.6/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Vertigo (by Lotus) Cyclone",
+    "path": "/accessories/torch-lighters/vertigo-cyclone/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "CIGAR.com / Cigars International (4.5/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Blazer PB207 (\"The Torch\")",
+    "path": "/accessories/torch-lighters/blazer-pb207/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Simrell Collection (3.75/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Colibri Quasar Table Lighter",
+    "path": "/accessories/torch-lighters/colibri-quasar/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Walmart (4.3/5)",
+      "JR Cigars (5/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Lotus Brawn",
+    "path": "/accessories/torch-lighters/lotus-brawn/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Cigars International (4/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Xikar EX",
+    "path": "/accessories/soft-flame-lighters/xikar-ex/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Amazon (3.4/5)",
+      "Walmart (2.5/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Zico ZD-60",
+    "path": "/accessories/soft-flame-lighters/zico-zd-60/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Smoke Dale Tobacco (5/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Zippo Yellow Flame Butane Lighter Insert",
+    "path": "/accessories/soft-flame-lighters/zippo-yellow-flame-butane-insert/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 0 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Xikar Xi1",
+    "path": "/accessories/cutters/xikar-xi1/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "HumidorDiscount.com (4.8/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Xikar Xi2",
+    "path": "/accessories/cutters/xikar-xi2/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "HumidorDiscount.com (4.6/5)",
+      "Famous Smoke Shop (4/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Palio Cutter",
+    "path": "/accessories/cutters/palio-cutter/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "CigarInspector.com (4/5)",
+      "Amazon (5/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Xikar VX2 V-Cut",
+    "path": "/accessories/cutters/xikar-vx2-v-cut/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "HumidorDiscount.com (5/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Colibri V-Cut Cutter",
+    "path": "/accessories/cutters/colibri-v-cut-cutter/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "HumidorDiscount.com (4.9/5)",
+      "Amazon (4.7/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Xikar 009 Punch Cutter",
+    "path": "/accessories/cutters/xikar-009-punch-cutter/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "HumidorDiscount.com (4.7/5)",
+      "BestCigarPrices.com (5/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Visol Arnold Crystal 4-Cigar Ashtray",
+    "path": "/accessories/ashtrays/visol-arnold-crystal-ashtray/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Amazon (4.7/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Colibri Quasar Cigar Ashtray",
+    "path": "/accessories/ashtrays/colibri-quasar-ashtray/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Amazon (4.8/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Xikar Ash Can (Portable Stainless Steel)",
+    "path": "/accessories/ashtrays/xikar-ash-can/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Amazon (4.6/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Quality Importers Crystal Tobacco Leaf 4-Cigar Ashtray",
+    "path": "/accessories/ashtrays/quality-importers-crystal-tobacco-leaf-ashtray/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 0 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Kevin Maguire Cigar Journal: Aficionado Tasting Notebook",
+    "path": "/accessories/journals-stands/maguire-cigar-journal-aficionado-tasting-notebook/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Amazon (4.4/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Nathan Scott Lester The Cigar Log Book",
+    "path": "/accessories/journals-stands/lester-the-cigar-log-book/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Amazon (4.6/5)",
+      "Goodreads (3.5/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Xikar Cigar Stand",
+    "path": "/accessories/journals-stands/xikar-cigar-stand/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 0 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Xikar PuroTemp Digital Hygrometer",
+    "path": "/accessories/hygrometers/xikar-purotemp-digital-hygrometer/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Amazon (4.1/5)",
+      "HumidorDiscount.com (4.5/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Western Humidor (Cigar Oasis) Caliber IV Digital Hygrometer",
+    "path": "/accessories/hygrometers/caliber-iv-hygrometer/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 0 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Cigars International (originally Boveda) CI Smart Sensor Bluetooth Hygrometer",
+    "path": "/accessories/hygrometers/boveda-ci-smart-sensor/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Cigars International (4.5/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Cigars International Large Analog Hygrometer (HYG7)",
+    "path": "/accessories/hygrometers/cigars-international-large-analog-hygrometer/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Cigars International (4.5/5)",
+      "Pipes and Cigars (4/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Boveda 65% RH Two-Way Humidification Pack (Size 60)",
+    "path": "/accessories/humidification-systems/boveda-65-rh-size-60/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Boveda (4.9/5)",
+      "Cigars International (5/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Heartfelt Industries Humidity Beads (65% RH)",
+    "path": "/accessories/humidification-systems/heartfelt-industries-humidity-beads-65-rh/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 0 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Cigar Oasis Magna 3.0 Electronic Humidification System",
+    "path": "/accessories/humidification-systems/cigar-oasis-magna-3-0/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Cigar Oasis (4.7/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "HUMI-CARE Crystal Gel Humidification Jar (4 oz)",
+    "path": "/accessories/humidification-systems/humi-care-crystal-gel-jar-4oz/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "CIGAR.com (4.5/5)",
+      "Pipes and Cigars (5/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Xikar 10-Cigar Travel Humidor",
+    "path": "/accessories/travel-cases/xikar-10-cigar-travel-humidor/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Humidor Discount (4.5/5)",
+      "Plush Cigars (4.8/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Case Elegance Flint Travel Leather Cigar Case",
+    "path": "/accessories/travel-cases/case-elegance-flint-travel-leather-cigar-case/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Case Elegance (5/5)",
+      "Bespoke Unit (5/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Visol Legend Leather Cigar Case (3-Finger)",
+    "path": "/accessories/travel-cases/visol-legend-leather-cigar-case/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Amazon (4.6/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
+  },
+  {
+    "item": "Prestige Import Group 3 Cigar Holder Bonded Leather Travel Case",
+    "path": "/accessories/travel-cases/prestige-import-group-3-cigar-bonded-leather-travel-case/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
+    "sources_found": [
+      "Amazon (4.6/5)"
+    ],
+    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
+    "decision": null
   }
 ]

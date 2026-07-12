@@ -9,7 +9,16 @@ import {
 } from '../lib/db';
 import { slugify } from '../lib/slugify';
 
-const GUIDE_SLUGS = ['best-humidors-for-beginners'];
+const GUIDE_SLUGS = [
+  'best-humidors-for-beginners',
+  'best-humidors-under-100',
+  'best-humidors-under-200',
+  'desktop-vs-cabinet-vs-travel-humidors',
+  'best-torch-lighters',
+  'best-cigar-cutters',
+  'guillotine-vs-v-cut-vs-punch',
+  'best-travel-cigar-cases',
+];
 
 export const GET: APIRoute = ({ site }) => {
   const base = site?.toString().replace(/\/$/, '') ?? '';

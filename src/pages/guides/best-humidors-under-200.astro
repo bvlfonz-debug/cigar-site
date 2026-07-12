@@ -1,0 +1,88 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAccessoryPage, getAccessoriesByCategory, getLatestAccessoryPricePoints } from '../../lib/db';
+
+const categoryData = getAccessoriesByCategory('humidors');
+const withPrices = (categoryData?.accessories ?? []).map((a) => {
+  const page = getAccessoryPage('humidors', a.slug);
+  const prices = page ? getLatestAccessoryPricePoints(page.accessory.id) : [];
+  const inBand = prices.find((p) => p.price_single != null && p.price_single >= 100 && p.price_single <= 200);
+  return { ...a, confirmedPrice: inBand?.price_single ?? null, retailer: inBand?.retailer ?? null };
+});
+const confirmed = withPrices.filter((a) => a.confirmedPrice != null);
+---
+
+<Layout
+  title="Best Humidors Under $200 | StickScore Guides"
+  description="What an extra $100 actually buys in a desktop humidor, with confirmed current prices where we've checked them."
+>
+  <div class="home-hero">
+    <div class="cigar-hero__eyebrow">Buying Guide</div>
+    <h1 class="home-hero__title">Best Humidors Under $200</h1>
+  </div>
+
+  <section class="section summary-review">
+    <p>
+      This is where desktop humidors move from "functional" to "built to last." The wood is
+      thicker, the hardware is nicer, and the humidification systems tend to be more forgiving —
+      but the fundamentals from the under-$100 tier still matter more than the finish.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">What actually changes at this price</h2>
+    <p>
+      <strong>Better hinges and locking hardware.</strong> Gold-plated or stainless hinges and a
+      proper lock set are more common, and tend to hold their fit longer than budget hardware.
+    </p>
+    <p>
+      <strong>Thicker cedar lining.</strong> More consistent humidity buffering across the whole
+      box, not just near the humidifier element.
+    </p>
+    <p>
+      <strong>Glass tops become common.</strong> Lets you check your collection without opening the
+      lid and losing humidity — a small but genuinely useful upgrade over a solid wood lid.
+    </p>
+    <p>
+      What usually doesn't change: hygrometer accuracy. A $180 humidor with a stock analog dial can
+      still be off by several percent — it's worth checking regardless of what you spend.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Confirmed in this price band</h2>
+    {confirmed.length > 0 ? (
+      <div class="search-results">
+        {confirmed.map((a) => (
+          <a class="cigar-card" href={`/accessories/humidors/${a.slug}/`}>
+            <div class="cigar-card__brand">{a.brand}</div>
+            <div class="cigar-card__name">{a.model}</div>
+            <div class="cigar-card__score">
+              ${a.confirmedPrice?.toFixed(2)} at {a.retailer} · AccScore{' '}
+              {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">
+        We don't have a confirmed $100-200 price check on any humidor in our database yet — we
+        only list one here once we've directly verified it falls in this range, no estimating.
+        Browse the full <a href="/accessories/humidors/">humidors category</a> to see current
+        retailer links and check pricing yourself in the meantime; this guide will fill in as our
+        nightly price checks reach more of the catalog.
+      </p>
+    )}
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Related</h2>
+    <p>
+      Just starting out? See <a href="/guides/best-humidors-for-beginners/">Best humidors for
+      beginners</a> or <a href="/guides/best-humidors-under-100/">Best humidors under $100</a>.
+      Not sure a desktop humidor is even what you need? Read
+      <a href="/guides/desktop-vs-cabinet-vs-travel-humidors/">Desktop vs cabinet vs travel
+      humidors explained</a>.
+    </p>
+  </section>
+</Layout>

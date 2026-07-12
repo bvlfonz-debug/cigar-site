@@ -1,0 +1,76 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAccessoriesByCategory } from '../../lib/db';
+
+const categoryData = getAccessoriesByCategory('cutters');
+const accessories = categoryData?.accessories ?? [];
+const sorted = [...accessories].sort((a, b) => {
+  if (a.accScore != null && b.accScore != null) return b.accScore - a.accScore;
+  if (a.accScore != null) return -1;
+  if (b.accScore != null) return 1;
+  return `${a.brand} ${a.model}`.localeCompare(`${b.brand} ${b.model}`);
+});
+const anyScored = sorted.some((a) => a.accScore != null);
+---
+
+<Layout
+  title="Best Cigar Cutters | StickScore Guides"
+  description="Guillotine, V-cut, and punch cutters compared, and every candidate we've researched so far."
+>
+  <div class="home-hero">
+    <div class="cigar-hero__eyebrow">Buying Guide</div>
+    <h1 class="home-hero__title">Best Cigar Cutters</h1>
+  </div>
+
+  <section class="section summary-review">
+    <p>
+      Which cutter is "best" depends more on cut style than brand — see our
+      <a href="/guides/guillotine-vs-v-cut-vs-punch/">guillotine vs. V-cut vs. punch</a> guide if
+      you haven't settled on a style yet. Within a style, the differences that matter are blade
+      steel, warranty, and how the cutter holds an edge over years of use.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">What to weigh</h2>
+    <p>
+      <strong>Blade steel and hardness.</strong> Higher-grade stainless (440C over 420, for
+      example) tends to hold a sharp edge longer between sharpenings.
+    </p>
+    <p>
+      <strong>Warranty terms.</strong> A cutter that includes free factory sharpening is a real,
+      ongoing cost saving over one that only covers manufacturing defects.
+    </p>
+    <p>
+      <strong>Fit for your ring gauges.</strong> A punch's fixed diameter or a guillotine's opening
+      width matters more than most marketing copy suggests — check the max ring gauge against what
+      you actually smoke.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">What we've found so far</h2>
+    {!anyScored && (
+      <p class="placeholder-note">
+        None of the cutters we've researched yet have three independent review sources — most sit
+        at one or two solid retailer ratings. We're listing what we found on each rather than
+        forcing a ranking the data doesn't support yet.
+      </p>
+    )}
+    {sorted.length > 0 ? (
+      <div class="search-results">
+        {sorted.map((a) => (
+          <a class="cigar-card" href={`/accessories/cutters/${a.slug}/`}>
+            <div class="cigar-card__brand">{a.brand}</div>
+            <div class="cigar-card__name">{a.model}</div>
+            <div class="cigar-card__score">
+              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">Nothing recorded in this category yet.</p>
+    )}
+  </section>
+</Layout>

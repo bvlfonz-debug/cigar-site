@@ -1,0 +1,77 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAccessoriesByCategory } from '../../lib/db';
+
+const categoryData = getAccessoriesByCategory('travel-cases');
+const accessories = categoryData?.accessories ?? [];
+const sorted = [...accessories].sort((a, b) => {
+  if (a.accScore != null && b.accScore != null) return b.accScore - a.accScore;
+  if (a.accScore != null) return -1;
+  if (b.accScore != null) return 1;
+  return `${a.brand} ${a.model}`.localeCompare(`${b.brand} ${b.model}`);
+});
+const anyScored = sorted.some((a) => a.accScore != null);
+---
+
+<Layout
+  title="Best Travel Cigar Cases | StickScore Guides"
+  description="Hard-shell vs. leather travel cases, and every candidate we've researched so far."
+>
+  <div class="home-hero">
+    <div class="cigar-hero__eyebrow">Buying Guide</div>
+    <h1 class="home-hero__title">Best Travel Cigar Cases</h1>
+  </div>
+
+  <section class="section summary-review">
+    <p>
+      A travel case protects cigars mechanically and slows moisture loss for a day or a trip — it's
+      not a substitute for a proper humidor. See
+      <a href="/guides/desktop-vs-cabinet-vs-travel-humidors/">desktop vs. cabinet vs. travel
+      humidors explained</a> if that distinction is new to you.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">What to weigh</h2>
+    <p>
+      <strong>Hard-shell plastic vs. leather.</strong> Hard-shell cases (like Xikar's) tend to be
+      genuinely airtight and crushproof; leather cases look and feel nicer but usually protect
+      mechanically rather than sealing humidity in.
+    </p>
+    <p>
+      <strong>Does it include humidification, or just a pocket for it?</strong> Some cases ship
+      with a working humidifier pad; others just have a mesh pocket sized for a pack you buy
+      separately. Check which you're getting before assuming "travel humidor" means sealed.
+    </p>
+    <p>
+      <strong>Capacity vs. how you actually travel.</strong> A 3-cigar sleeve for a day trip is a
+      very different tool than a 10-cigar hard-shell case for a week away.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">What we've found so far</h2>
+    {!anyScored && (
+      <p class="placeholder-note">
+        None of the travel cases we've researched yet have three independent review sources. We're
+        listing what we found on each — including real caveats reviewers raised — rather than
+        forcing a ranking the data doesn't support yet.
+      </p>
+    )}
+    {sorted.length > 0 ? (
+      <div class="search-results">
+        {sorted.map((a) => (
+          <a class="cigar-card" href={`/accessories/travel-cases/${a.slug}/`}>
+            <div class="cigar-card__brand">{a.brand}</div>
+            <div class="cigar-card__name">{a.model}</div>
+            <div class="cigar-card__score">
+              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">Nothing recorded in this category yet.</p>
+    )}
+  </section>
+</Layout>

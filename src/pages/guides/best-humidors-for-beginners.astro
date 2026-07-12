@@ -2,33 +2,16 @@
 import Layout from '../../layouts/Layout.astro';
 import { getAccessoryPage } from '../../lib/db';
 
-// Guides are hand-authored editorial content, not DB-driven — see CLAUDE.md
-// "Accessories Expansion" for the full planned list (15 guides). Each entry
-// here is one guide; add more as they're written (Phase B: guides 1-8).
-// (Defined inline in getStaticPaths, not as a sibling const, and passed via
-// props — Astro's getStaticPaths runs in an isolated scope that can't see
-// other frontmatter declarations in the same file.)
-export function getStaticPaths() {
-  const guides = [
-    {
-      slug: 'best-humidors-for-beginners',
-      title: 'Best Humidors for Beginners',
-      description: 'What to actually look for in your first humidor, and our current top pick.',
-      evergreen: false,
-    },
-  ];
-  return guides.map((g) => ({ params: { slug: g.slug }, props: { guide: g } }));
-}
-
-const { guide } = Astro.props as { guide: { slug: string; title: string; description: string; evergreen: boolean } };
-
 const featured = getAccessoryPage('humidors', 'case-elegance-renzo');
 ---
 
-<Layout title={`${guide.title} | StickScore Guides`} description={guide.description}>
+<Layout
+  title="Best Humidors for Beginners | StickScore Guides"
+  description="What to actually look for in your first humidor, and our current top pick."
+>
   <div class="home-hero">
     <div class="cigar-hero__eyebrow">Buying Guide</div>
-    <h1 class="home-hero__title">{guide.title}</h1>
+    <h1 class="home-hero__title">Best Humidors for Beginners</h1>
   </div>
 
   <section class="section summary-review">
@@ -89,7 +72,8 @@ const featured = getAccessoryPage('humidors', 'case-elegance-renzo');
       A good beginner humidor doesn't need to be expensive — the fundamentals (a decent seal,
       a workable humidification system, an accurate hygrometer) show up at a wide range of price
       points. See our <a href="/accessories/humidors/">full humidors category</a> as more get added,
-      and our upcoming guides on humidors under $100 and under $200 for budget-specific picks.
+      and our guides on <a href="/guides/best-humidors-under-100/">humidors under $100</a> and
+      <a href="/guides/best-humidors-under-200/">under $200</a> for budget-specific picks.
     </p>
   </section>
 </Layout>

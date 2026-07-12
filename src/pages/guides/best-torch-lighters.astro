@@ -1,0 +1,92 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAccessoriesByCategory } from '../../lib/db';
+
+const categoryData = getAccessoriesByCategory('torch-lighters');
+const accessories = categoryData?.accessories ?? [];
+const sorted = [...accessories].sort((a, b) => {
+  if (a.accScore != null && b.accScore != null) return b.accScore - a.accScore;
+  if (a.accScore != null) return -1;
+  if (b.accScore != null) return 1;
+  return `${a.brand} ${a.model}`.localeCompare(`${b.brand} ${b.model}`);
+});
+const anyScored = sorted.some((a) => a.accScore != null);
+---
+
+<Layout
+  title="Best Torch Lighters | StickScore Guides"
+  description="What separates a reliable torch lighter from a frustrating one, and every candidate we've researched so far."
+>
+  <div class="home-hero">
+    <div class="cigar-hero__eyebrow">Buying Guide</div>
+    <h1 class="home-hero__title">Best Torch Lighters</h1>
+  </div>
+
+  <section class="section summary-review">
+    <p>
+      A torch lighter's whole job is lighting reliably in wind and at altitude, and doing it
+      hundreds of times without failing. Jet count, fuel capacity, and build quality all matter —
+      but the single biggest differentiator in practice is just: does it consistently ignite.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">What to weigh</h2>
+    <p>
+      <strong>Jet count isn't everything.</strong> A well-built single or dual jet can outlast a
+      cheaply-made quad-torch. More jets mostly mean a bigger, more even flame for toasting large
+      ring gauges evenly — not automatically better reliability.
+    </p>
+    <p>
+      <strong>Fuel tank size vs. jet count.</strong> More jets burn fuel faster, so a small tank on
+      a quad-torch needs refilling more often than the spec sheet implies.
+    </p>
+    <p>
+      <strong>Warranty length is a real signal.</strong> Torch lighters are mechanically simple but
+      still fail — a lifetime or multi-year warranty (Xikar, Lotus) says more about a
+      manufacturer's confidence than marketing copy does.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Our current pick</h2>
+    {anyScored ? (
+      <p>
+        One torch lighter has cleared our three-source bar so far: Colibri's Firebird Afterburner,
+        a budget-friendly triple-jet with a strong, well-agreeing AccScore. Everything else below is
+        still building up independent review coverage — we're not ranking those against each other
+        until they clear the same bar.
+      </p>
+    ) : (
+      <p class="placeholder-note">
+        None of the torch lighters we've researched yet have three independent review sources, so
+        we're not publishing an AccScore-backed "best" pick — we'd rather tell you that honestly
+        than rank on thin data. Below is what we found on each, with sources linked on every page.
+      </p>
+    )}
+    {sorted.length > 0 ? (
+      <div class="search-results">
+        {sorted.map((a) => (
+          <a class="cigar-card" href={`/accessories/torch-lighters/${a.slug}/`}>
+            <div class="cigar-card__brand">{a.brand}</div>
+            <div class="cigar-card__name">{a.model}</div>
+            <div class="cigar-card__score">
+              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">Nothing recorded in this category yet.</p>
+    )}
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">A note on soft-flame lighters</h2>
+    <p>
+      If you smoke pipes as well, or just prefer a gentler flame for lighting cigars, a soft-flame
+      lighter is a different category with its own tradeoffs — see our
+      <a href="/accessories/soft-flame-lighters/">soft-flame lighters</a> page.
+    </p>
+  </section>
+</Layout>

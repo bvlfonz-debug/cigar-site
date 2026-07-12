@@ -1,0 +1,105 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAccessoryPage, getAccessoriesByCategory, getLatestAccessoryPricePoints } from '../../lib/db';
+
+const categoryData = getAccessoriesByCategory('humidors');
+const withPrices = (categoryData?.accessories ?? []).map((a) => {
+  const page = getAccessoryPage('humidors', a.slug);
+  const prices = page ? getLatestAccessoryPricePoints(page.accessory.id) : [];
+  const under100 = prices.find((p) => p.price_single != null && p.price_single < 100);
+  return { ...a, confirmedPrice: under100?.price_single ?? null, retailer: under100?.retailer ?? null };
+});
+const confirmed = withPrices.filter((a) => a.confirmedPrice != null);
+const unconfirmed = withPrices.filter((a) => a.confirmedPrice == null);
+---
+
+<Layout
+  title="Best Humidors Under $100 | StickScore Guides"
+  description="What actually holds up at the sub-$100 price point, with confirmed current prices where we've checked them."
+>
+  <div class="home-hero">
+    <div class="cigar-hero__eyebrow">Buying Guide</div>
+    <h1 class="home-hero__title">Best Humidors Under $100</h1>
+  </div>
+
+  <section class="section summary-review">
+    <p>
+      Under $100 you're mostly choosing between desktop wood-and-glass humidors and molded acrylic
+      boxes — real cabinet humidors and anything electronic start well above this price. The gap
+      between a good and a mediocre humidor at this price is almost always the seal and the
+      hygrometer, not the wood.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">What to check before you buy</h2>
+    <p>
+      <strong>Does the lid actually seal?</strong> A magnetic or gasket-assisted closure beats a
+      lid that relies on weight and a good fit alone — cheap hinges loosen over time.
+    </p>
+    <p>
+      <strong>Is the hygrometer digital or analog?</strong> Analog dials at this price point are
+      frequently 5-10% off out of the box. That's not necessarily disqualifying, but budget for a
+      separate digital hygrometer if the included one reads suspiciously.
+    </p>
+    <p>
+      <strong>What's the realistic capacity, not the advertised one?</strong> Once the
+      humidification hardware is installed, real capacity typically runs noticeably under the
+      number printed on the box.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Confirmed under $100</h2>
+    <p class="placeholder-note">
+      We only list a humidor here once we've directly checked a current price under $100 — no
+      estimating. Right now that's one item; more will be added as our nightly price checks cover
+      the rest of the category.
+    </p>
+    {confirmed.length > 0 && (
+      <div class="search-results">
+        {confirmed.map((a) => (
+          <a class="cigar-card" href={`/accessories/humidors/${a.slug}/`}>
+            <div class="cigar-card__brand">{a.brand}</div>
+            <div class="cigar-card__name">{a.model}</div>
+            <div class="cigar-card__score">
+              ${a.confirmedPrice?.toFixed(2)} at {a.retailer} · AccScore{' '}
+              {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+            </div>
+          </a>
+        ))}
+      </div>
+    )}
+  </section>
+
+  {unconfirmed.length > 0 && (
+    <section class="section">
+      <h2 class="section__heading">Also worth a look</h2>
+      <p>
+        These are commonly sold in a similar price range, but we haven't yet logged a confirmed
+        price check on them, so we're not stating a number here. Check the retailer link on each
+        page for current pricing.
+      </p>
+      <div class="search-results">
+        {unconfirmed.map((a) => (
+          <a class="cigar-card" href={`/accessories/humidors/${a.slug}/`}>
+            <div class="cigar-card__brand">{a.brand}</div>
+            <div class="cigar-card__name">{a.model}</div>
+            <div class="cigar-card__score">
+              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <h2 class="section__heading">Related</h2>
+    <p>
+      New to humidors entirely? Start with <a href="/guides/best-humidors-for-beginners/">Best
+      humidors for beginners</a>. Ready to spend a bit more? See
+      <a href="/guides/best-humidors-under-200/">Best humidors under $200</a>.
+    </p>
+  </section>
+</Layout>
