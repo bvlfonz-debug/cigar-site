@@ -13,6 +13,34 @@ there instead of publishing automatically.
 
 ---
 
+## 2026-07-12 — Sunday catalog pass, part 1: 1 news brief, 6 price checks
+Today's Sunday, so a heavier catalog pass was allowed — more price checks than
+a typical weekday.
+
+- **News**: one brief — nine premium cigar makers (including Arturo Fuente,
+  Oliva, My Father Cigars, Padrón, and Rocky Patel, all brands we carry) sued
+  the FDA in the U.S. Court of Federal Claims for $10M+ in user-fee refunds,
+  following the industry's earlier win exempting premium cigars from FDA
+  regulation. Source: halfwheel, July 10.
+- **Prices checked** (all recorded, none flagged as unusual swings):
+  AJ Fernandez New World Toro ($167.99/box of 21, JR Cigars, first-ever
+  check), AJ Fernandez San Lotano Requiem Toro ($174.99/box of 20, JR Cigars,
+  first-ever check — matched to the Habano wrapper variant specifically,
+  since that's the one that's actually 6"x54 like our record), Montecristo
+  Classic No. 2 Torpedo ($415.99/box of 20, JR Cigars, first-ever check),
+  Padrón 1964 Anniversary Exclusivo Maduro ($409.99/box of 25, JR Cigars),
+  Arturo Fuente Hemingway Short Story ($178.99/box of 25, JR Cigars), Rocky
+  Patel Decade Toro ($256.99/box of 20, JR Cigars).
+- **Skipped, not guessed**: Davidoff Yamasa Toro — two retailers' pages
+  wouldn't reveal a clean price tied to a specific box size. Romeo Añejo
+  Piramide — kept finding a same-named-but-different "Romeo by Romeo y
+  Julieta" line instead of the actual Añejo line; skipped rather than record
+  a mismatched price. Oliva Serie V Melanio Robusto — found the right JR
+  Cigars product page but couldn't get pricing off it. None of these were
+  guessed at.
+- More to come tonight (score sourcing, Davidoff spec-conflict follow-up) —
+  see the next entry below.
+
 ## 2026-07-04 — Weekday run: 1 price, 1 news brief
 Kept it light since it's a weekday. What happened:
 
