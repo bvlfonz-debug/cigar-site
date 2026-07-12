@@ -164,16 +164,5 @@
     ],
     "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
     "decision": null
-  },
-  {
-    "item": "Davidoff Nicaragua Toro ring gauge conflict",
-    "path": "/cigars/davidoff/nicaragua/toro/",
-    "reason": "conflicting_specs",
-    "why_flagged": "Our database lists this vitola as 5.5in x 54 ring gauge, but JR Cigars current listing for the Toro shows 5.5in x 50 ring gauge (box of 12, $321.99). Did not record a price against a vitola whose size may not match.",
-    "sources_found": [
-      "JR Cigars"
-    ],
-    "proposed_action": "Confirm the correct ring gauge for this vitola (check Davidoff official site or another retailer) and either correct the database record or confirm JR Cigars is listing a different product.",
-    "decision": null
   }
 ]

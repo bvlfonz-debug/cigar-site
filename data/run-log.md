@@ -38,8 +38,28 @@ a typical weekday.
   a mismatched price. Oliva Serie V Melanio Robusto — found the right JR
   Cigars product page but couldn't get pricing off it. None of these were
   guessed at.
-- More to come tonight (score sourcing, Davidoff spec-conflict follow-up) —
-  see the next entry below.
+## 2026-07-12 — Sunday catalog pass, part 2: spec conflict resolved, no new scores
+- **Davidoff Nicaragua Toro spec conflict resolved**: last night's queue item
+  flagged that JR Cigars showed 5.5"x50 while our database says 5.5"x54.
+  Checked two more independent sources (Neptune Cigar's listing and a
+  broader search including Davidoff's own specs) — both confirm 5.5"x54.
+  Our database was right; JR Cigars' page appears to be the outlier (maybe
+  a mislabeled listing). Removed the queue item — nothing for you to decide
+  here. Didn't record a new price against it tonight since I couldn't get a
+  clean price from a source I'd already confirmed matches on size; that can
+  happen another night.
+- **Reviews / scores**: tried to find genuine third sources for two
+  cigars close to the 3-source threshold — AJ Fernandez New World Toro
+  (needs 1 more) and Rocky Patel Decade Toro (needs 1 more). For New World,
+  everything findable was for different sub-lines (Dorado, Connecticut,
+  Puro Especial) rather than the plain Toro in our database. For Decade,
+  found a Holt's Cigar Co. staff review but its score covered the whole
+  Decade line, not the Toro vitola specifically. Didn't use either — same
+  "must match the exact vitola" standard as previous nights. No new scores
+  added; both stay queued as before.
+- **Errors**: none. Site builds cleanly (380 pages). That's everything for
+  tonight's heavier Sunday pass — a fuller batch of price checks than usual,
+  one industry news brief, and one queue item cleared.
 
 ## 2026-07-04 — Weekday run: 1 price, 1 news brief
 Kept it light since it's a weekday. What happened:
