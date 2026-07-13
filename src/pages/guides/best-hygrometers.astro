@@ -1,0 +1,99 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAccessoriesByCategory } from '../../lib/db';
+
+const categoryData = getAccessoriesByCategory('hygrometers');
+const accessories = categoryData?.accessories ?? [];
+const sorted = [...accessories].sort((a, b) => {
+  if (a.accScore != null && b.accScore != null) return b.accScore - a.accScore;
+  if (a.accScore != null) return -1;
+  if (b.accScore != null) return 1;
+  return `${a.brand} ${a.model}`.localeCompare(`${b.brand} ${b.model}`);
+});
+const anyScored = sorted.some((a) => a.accScore != null);
+---
+
+<Layout
+  title="Best Hygrometers (and How to Calibrate One) | StickScore Guides"
+  description="Analog vs digital hygrometers, why calibration matters more than the price tag, and how to salt-test one yourself."
+>
+  <div class="home-hero">
+    <div class="cigar-hero__eyebrow">Buying Guide</div>
+    <h1 class="home-hero__title">Best Hygrometers (and How to Calibrate One)</h1>
+  </div>
+
+  <section class="section summary-review">
+    <p>
+      A hygrometer is only as good as its calibration — an expensive digital unit reading 8% off
+      is worse than a cheap one you've verified yourself. Calibrating takes fifteen minutes and no
+      special equipment, and it matters more than which hygrometer you buy.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Analog vs digital</h2>
+    <p>
+      <strong>Analog (dial) hygrometers</strong> use a mechanical coil that expands and contracts
+      with humidity. They're inexpensive and battery-free, but the mechanism drifts over time and
+      needs more frequent rechecking than a digital sensor.
+    </p>
+    <p>
+      <strong>Digital hygrometers</strong> use an electronic sensor, usually more accurate out of
+      the box, and some offer a genuine recalibration function rather than just a cosmetic
+      "zero" screw. A few add Bluetooth monitoring so you can check a humidor from your phone — a
+      convenience feature, not an accuracy one.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">The salt test: calibrating any hygrometer yourself</h2>
+    <p>
+      This is the standard method and works on any hygrometer, analog or digital:
+    </p>
+    <p>
+      1. Fill a bottle cap with ordinary table salt and add a few drops of water — just enough to
+      dampen it, not dissolve it into a liquid.
+    </p>
+    <p>
+      2. Place the cap and your hygrometer together in a small sealed container (a sandwich bag
+      works) and leave them for 8-12 hours at room temperature.
+    </p>
+    <p>
+      3. A damp-salt environment always settles at 75% relative humidity. Whatever your hygrometer
+      reads at the end of the test is its offset — if it reads 79%, it's running 4 points high, and
+      you should subtract 4 from all future readings (or use the unit's calibration screw/button to
+      correct it directly, if it has one).
+    </p>
+    <p>
+      Do this when a hygrometer is new, and recheck every six months or so — more often for analog
+      dials, which drift faster than digital sensors.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">What we've found so far</h2>
+    {!anyScored && (
+      <p class="placeholder-note">
+        None of the hygrometers we've researched yet have three independent review sources. Below
+        is what we found on each, including which ones offer real user-adjustable calibration
+        versus a cosmetic zero screw — a more useful distinction than the star rating for this
+        category.
+      </p>
+    )}
+    {sorted.length > 0 ? (
+      <div class="search-results">
+        {sorted.map((a) => (
+          <a class="cigar-card" href={`/accessories/hygrometers/${a.slug}/`}>
+            <div class="cigar-card__brand">{a.brand}</div>
+            <div class="cigar-card__name">{a.model}</div>
+            <div class="cigar-card__score">
+              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">Nothing recorded in this category yet.</p>
+    )}
+  </section>
+</Layout>

@@ -1,0 +1,100 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAccessoriesByCategory } from '../../lib/db';
+
+const categoryData = getAccessoriesByCategory('humidification-systems');
+const accessories = categoryData?.accessories ?? [];
+const sorted = [...accessories].sort((a, b) => {
+  if (a.accScore != null && b.accScore != null) return b.accScore - a.accScore;
+  if (a.accScore != null) return -1;
+  if (b.accScore != null) return 1;
+  return `${a.brand} ${a.model}`.localeCompare(`${b.brand} ${b.model}`);
+});
+---
+
+<Layout
+  title="Boveda vs Beads vs Gel: Humidification Compared | StickScore Guides"
+  description="Two-way packs, rechargeable beads, gel jars, and electronic systems — what each actually costs you in money and maintenance."
+>
+  <div class="home-hero">
+    <div class="cigar-hero__eyebrow">Buying Guide</div>
+    <h1 class="home-hero__title">Boveda vs Beads vs Gel: Humidification Compared</h1>
+  </div>
+
+  <section class="section summary-review">
+    <p>
+      Every humidification method solves the same problem — holding your humidor at roughly
+      65-70% relative humidity — but they trade off differently between upfront cost, ongoing
+      cost, and how much maintenance you're willing to do.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Two-way packs (Boveda and similar)</h2>
+    <p>
+      Sealed packets that both add and absorb moisture to hold a fixed target RH, with no setup —
+      unwrap and place. The tradeoff is that they're disposable: a pack lasts a couple of months
+      before needing replacement, so the cost is ongoing rather than one-time. Best for anyone who
+      wants to not think about humidification at all.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Propylene glycol beads</h2>
+    <p>
+      Loose or bagged beads that you recharge yourself with distilled water when they turn opaque,
+      reusable indefinitely. Cheaper over time than disposable packs, especially for a large
+      humidor, but they need occasional monitoring and a bit more hands-on upkeep — you have to
+      actually check and recharge them rather than just replace on a schedule.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Gel jars</h2>
+    <p>
+      A gel medium in a jar, recharged with distilled water similarly to beads but usually in a
+      single larger mass rather than loose granules. Inexpensive and simple, though a few users
+      report mold risk if recharged with the wrong liquid — always use distilled water, never tap.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Electronic systems</h2>
+    <p>
+      For cabinet-sized humidors, an active electronic humidifier regulates RH continuously rather
+      than relying on passive absorption, which passive methods struggle to do evenly across a
+      large space. The tradeoff is real: it needs continuous power, has moving parts that can fail
+      over years of use, and costs significantly more upfront than any passive method.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Which one do you need?</h2>
+    <p>
+      Small desktop humidor, want to not think about it: two-way packs. Larger collection, want to
+      save money over time and don't mind occasional upkeep: beads or gel. Cabinet-sized humidor:
+      electronic is close to the only option that reliably holds humidity evenly at that scale.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">What we've found so far</h2>
+    <p class="placeholder-note">
+      None of these have three independent review sources yet, so there's no AccScore-backed pick
+      within each method — but here's a real example of each type we've researched.
+    </p>
+    {sorted.length > 0 && (
+      <div class="search-results">
+        {sorted.map((a) => (
+          <a class="cigar-card" href={`/accessories/humidification-systems/${a.slug}/`}>
+            <div class="cigar-card__brand">{a.brand}</div>
+            <div class="cigar-card__name">{a.model}</div>
+            <div class="cigar-card__score">
+              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+            </div>
+          </a>
+        ))}
+      </div>
+    )}
+  </section>
+</Layout>

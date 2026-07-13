@@ -18,6 +18,13 @@ const GUIDE_SLUGS = [
   'best-cigar-cutters',
   'guillotine-vs-v-cut-vs-punch',
   'best-travel-cigar-cases',
+  'best-hygrometers',
+  'boveda-vs-beads-vs-gel',
+  'best-cigar-ashtrays',
+  'best-gifts-for-cigar-smokers',
+  'how-to-set-up-your-first-humidor',
+  'best-budget-cigar-starter-kits',
+  'cigar-accessories-every-beginner-needs',
 ];
 
 export const GET: APIRoute = ({ site }) => {

@@ -1,0 +1,78 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAccessoriesByCategory } from '../../lib/db';
+
+const categoryData = getAccessoriesByCategory('ashtrays');
+const accessories = categoryData?.accessories ?? [];
+const sorted = [...accessories].sort((a, b) => {
+  if (a.accScore != null && b.accScore != null) return b.accScore - a.accScore;
+  if (a.accScore != null) return -1;
+  if (b.accScore != null) return 1;
+  return `${a.brand} ${a.model}`.localeCompare(`${b.brand} ${b.model}`);
+});
+const anyScored = sorted.some((a) => a.accScore != null);
+---
+
+<Layout
+  title="Best Cigar Ashtrays | StickScore Guides"
+  description="What actually matters in a cigar ashtray — rest width and weight, not just material — and every candidate we've researched so far."
+>
+  <div class="home-hero">
+    <div class="cigar-hero__eyebrow">Buying Guide</div>
+    <h1 class="home-hero__title">Best Cigar Ashtrays</h1>
+  </div>
+
+  <section class="section summary-review">
+    <p>
+      A cigarette ashtray doesn't work well for cigars — the rests are too narrow and the whole
+      thing is too light. A real cigar ashtray needs wide rests (cigars run a much bigger ring
+      gauge than cigarettes) and enough weight to not tip when a heavy cigar rests unevenly across
+      it.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">What to weigh</h2>
+    <p>
+      <strong>Rest width and count.</strong> More rests matter if you smoke with company; a single
+      wide rest is enough for solo use, but check it's sized for large ring gauges, not just
+      standard ones.
+    </p>
+    <p>
+      <strong>Weight and material.</strong> Crystal and cast metal resist tipping and wind better
+      than lightweight resin. Crystal looks sharper but chips if dropped; metal is more forgiving
+      outdoors.
+    </p>
+    <p>
+      <strong>Portable vs. tabletop.</strong> A sealed portable ashtray (contains ash and odor,
+      often sized for a car cup holder) suits smoking on the move; a tabletop piece suits a porch
+      or lounge setup.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">What we've found so far</h2>
+    {!anyScored && (
+      <p class="placeholder-note">
+        None of the ashtrays we've researched yet have three independent review sources — most sit
+        at one solid retailer rating. We're listing what we found on each rather than forcing a
+        ranking the data doesn't support yet.
+      </p>
+    )}
+    {sorted.length > 0 ? (
+      <div class="search-results">
+        {sorted.map((a) => (
+          <a class="cigar-card" href={`/accessories/ashtrays/${a.slug}/`}>
+            <div class="cigar-card__brand">{a.brand}</div>
+            <div class="cigar-card__name">{a.model}</div>
+            <div class="cigar-card__score">
+              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">Nothing recorded in this category yet.</p>
+    )}
+  </section>
+</Layout>
