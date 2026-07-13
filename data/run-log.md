@@ -13,6 +13,25 @@ there instead of publishing automatically.
 
 ---
 
+## 2026-07-13 — Weekday run, part 1: accessories night — 1 news brief, 2 price checks
+Today was an "accessories" night on the even/odd alternation with the cigar
+side (see CLAUDE.md).
+
+- **News**: added one brief — Cigar Aficionado's coverage of J.C. Newman's
+  America250 Cigar Humidor, a $2,750, 50-piece limited run made with Milwaukee
+  Humidor Co. featuring a marquetry map of the U.S. and shipping with 50 of a
+  new all-American cigar, The American Perfecto. Neither the humidor nor
+  J.C. Newman is in our database yet, so the brief stands alone with no linked
+  product page.
+- **Prices checked** (both first-ever checks, so nothing to compare against
+  and nothing flagged): TISFA Acrylic Desktop Cigar Humidor ($19.98 at XIFEI,
+  the maker's own site) and Blazer PB207 "The Torch" ($49.00 at Simrell
+  Collection). Tried three different retailer pages for the Xikar Volta table
+  lighter (Cigar.com, CigarPlace.biz, Quality Importers, BestCigarPrices) —
+  all blocked the fetch (403) or didn't show a usable price, so it was
+  skipped rather than guessed.
+- **Errors**: none otherwise. Site builds cleanly.
+
 ## 2026-07-12 — Sunday catalog pass, part 1: 1 news brief, 6 price checks
 Today's Sunday, so a heavier catalog pass was allowed — more price checks than
 a typical weekday.
