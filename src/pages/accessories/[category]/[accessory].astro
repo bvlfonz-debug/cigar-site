@@ -55,6 +55,15 @@ const specLabels: Record<string, string> = {
   warranty: 'Warranty',
 };
 
+const CIGAR_SIDE_PHRASING: Record<string, string> = {
+  humidors: 'Looking for cigars to keep in it?',
+  'travel-cases': 'Looking for cigars to carry in it?',
+  cutters: 'Looking for cigars to use it on?',
+  'torch-lighters': 'Looking for cigars to light with it?',
+  'soft-flame-lighters': 'Looking for cigars to light with it?',
+};
+const cigarSidePhrase = CIGAR_SIDE_PHRASING[category.slug] ?? 'Looking for cigars to pair with it?';
+
 const pageTitle = `${accessory.brand} ${accessory.model} Review | StickScore`;
 const pageDescription = `${accessory.brand} ${accessory.model}: AccScore ${accessory.acc_score != null ? Math.round(accessory.acc_score) : 'N/A'}/100 aggregated from ${reviews.length} published sources.`;
 
@@ -196,5 +205,13 @@ const jsonLd = {
     ) : (
       <p class="placeholder-note">No published sources found yet for this item.</p>
     )}
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">On the cigar side</h2>
+    <p>
+      {cigarSidePhrase} Browse <a href="/rankings/">top-rated cigars</a> by StickScore, or use
+      <a href="/search/">search</a> to filter by wrapper, strength, and price.
+    </p>
   </section>
 </Layout>
