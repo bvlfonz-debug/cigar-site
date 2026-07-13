@@ -646,5 +646,42 @@
     ],
     "proposed_action": "Only one independent, numerically-scored source found (Cigar Aficionado, 91/100). Holt’s and JR Cigars have published editorial coverage of this cigar but without a formal numeric rating.",
     "decision": null
+  },
+  {
+    "item": "Aging Room Quattro Nicaragua Maestro",
+    "path": "/cigars/aging-room/quattro-nicaragua/maestro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (StickScore requires 3) as of the 2026-07-14 research pass.",
+    "sources_found": [
+      "Cigar Aficionado (96/100)"
+    ],
+    "proposed_action": "Only one independently confirmed numeric source found so far (Cigar Aficionado, #1 Cigar of the Year 2019, 96/100). Two research passes have not yet confirmed halfwheel, Cigar Coop, Developing Palates, or retailer-average scores for this specific vitola — worth a focused follow-up pass. Note: Aging Room’s \"Quattro\" naming spans several distinct sub-lines and a 2025 relaunch reusing some vitola names — Quattro Nicaragua Maestro (the 2018 line) was chosen as the vitola with confirmed, unambiguous data.",
+    "decision": null
+  },
+  {
+    "item": "Foundation Charter Oak Rothschild",
+    "path": "/cigars/foundation-cigar-co/charter-oak/rothschild/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (StickScore requires 3) as of the 2026-07-14 research pass.",
+    "sources_found": [
+      "Cigar Aficionado (93/100)",
+      "Cigar Aficionado (90/100)",
+      "Developing Palates (6.8/10)",
+      "Developing Palates (7.4/10)"
+    ],
+    "proposed_action": "Two independent, wrapper-matched numeric sources found (Cigar Aficionado, Developing Palates). Other reviews found (Cigar Dojo 88, Final Third Cigar 94) were for the Broadleaf and Habano wrapper finishes of this vitola — different blends — and were excluded to avoid mixing data between distinct products.",
+    "decision": null
+  },
+  {
+    "item": "Diesel Unholy Cocktail Unholy Cocktail",
+    "path": "/cigars/diesel/unholy-cocktail/unholy-cocktail/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (StickScore requires 3) as of the 2026-07-14 research pass.",
+    "sources_found": [
+      "Blind Man’s Puff (90/100)",
+      "The Stick Stickler (88/100)"
+    ],
+    "proposed_action": "Two independent, numerically-scored sources found (Blind Man’s Puff, The Stick Stickler). A Cigars International retailer rating (4.5/5) was found but excluded as non-independent, since Diesel originated as a CI house brand. Cigar Inspector’s ~4.5/5 score is reported consistently across secondary sources but could not be independently confirmed by direct fetch, and had no confirmed date — excluded per the never-invent rule.",
+    "decision": null
   }
 ]
