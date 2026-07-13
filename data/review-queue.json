@@ -587,5 +587,64 @@
     ],
     "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
     "decision": null
+  },
+  {
+    "item": "Ashton VSG Robusto",
+    "path": "/cigars/ashton/vsg/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (StickScore requires 3) as of the 2026-07-13 research pass.",
+    "sources_found": [
+      "Cigar Aficionado (92/100)",
+      "Stogies on the Rocks (92/100)"
+    ],
+    "proposed_action": "Two independent, numerically-scored sources found (Cigar Aficionado 92, Stogies on the Rocks 92). A third review (CigarObsession) was found but published no numeric score, so it could not be counted toward the three-source minimum.",
+    "decision": null
+  },
+  {
+    "item": "Illusione Epernay Le Taureau",
+    "path": "/cigars/illusione/epernay/le-taureau/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (StickScore requires 3) as of the 2026-07-13 research pass.",
+    "sources_found": [
+      "Cigar Aficionado (93/100)",
+      "Cigar Aficionado (91/100)"
+    ],
+    "proposed_action": "Only one independent, numerically-scored source found (Cigar Aficionado, rated twice years apart). Two other qualitative reviews (CigarObsession, Crooked Burn) corroborate the profile but published no numeric score.",
+    "decision": null
+  },
+  {
+    "item": "Perdomo 20th Anniversary Sun Grown Epicure",
+    "path": "/cigars/perdomo/20th-anniversary-sun-grown/epicure/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (StickScore requires 3) as of the 2026-07-13 research pass.",
+    "sources_found": [
+      "Bespoke Unit (5/5)"
+    ],
+    "proposed_action": "Only one independent, numerically-scored, vitola-matched source found (Bespoke Unit, 5/5). Most critic coverage of this line is for other vitolas (Robusto, Churchill, Gordo) in the same family, not the Epicure.",
+    "decision": null
+  },
+  {
+    "item": "La Flor Dominicana Double Ligero Chisel",
+    "path": "/cigars/la-flor-dominicana/double-ligero/chisel/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (StickScore requires 3) as of the 2026-07-13 research pass.",
+    "sources_found": [
+      "Cigar Aficionado (92/100)",
+      "Cigar Aficionado (93/100)",
+      "He Spoke Style (8.25/10)"
+    ],
+    "proposed_action": "Two independent, numerically-scored, vitola-matched sources found (Cigar Aficionado, He Spoke Style). Other reviews found (The Cigar Authority, Cigar Reviews by the Katman) were for the Maduro-finish Chisel — a different wrapper blend — and were excluded to avoid mixing data between two distinct products.",
+    "decision": null
+  },
+  {
+    "item": "H. Upmann 1844 Reserve Robusto",
+    "path": "/cigars/h-upmann/1844-reserve/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (StickScore requires 3) as of the 2026-07-13 research pass.",
+    "sources_found": [
+      "Cigar Aficionado (91/100)"
+    ],
+    "proposed_action": "Only one independent, numerically-scored source found (Cigar Aficionado, 91/100). Holt’s and JR Cigars have published editorial coverage of this cigar but without a formal numeric rating.",
+    "decision": null
   }
 ]
