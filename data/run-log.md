@@ -30,6 +30,13 @@ side (see CLAUDE.md).
   lighter (Cigar.com, CigarPlace.biz, Quality Importers, BestCigarPrices) —
   all blocked the fetch (403) or didn't show a usable price, so it was
   skipped rather than guessed.
+- **Reviews / scores**: looked for a genuine third source for the Xikar Volta
+  (currently has 2: Holt's Cigar Co., Wayfair). Found a listing on
+  humidorenthusiast.com and a Neptune Cigar product page, but neither carries
+  a customer rating or review — just retailer listings with no reviews
+  submitted. A "cigaraccessories.review" result from search didn't resolve to
+  a real site, so it wasn't used. No new score added; stays queued as
+  insufficient sources.
 - **Errors**: none otherwise. Site builds cleanly.
 
 ## 2026-07-12 — Sunday catalog pass, part 1: 1 news brief, 6 price checks
@@ -283,3 +290,6 @@ side (see CLAUDE.md).
   AccScore (99.4); didn't go looking for more since it already clears the
   minimum.
 - **Errors**: none. Site builds cleanly.
+
+## 2026-07-13 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
