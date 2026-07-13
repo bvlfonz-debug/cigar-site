@@ -12,12 +12,21 @@ const index = getSearchIndex();
   <div class="home-hero">
     <h1 class="home-hero__title">Search</h1>
     <p>
-      Filter the catalog by wrapper, strength, country of origin, or minimum StickScore. Price
-      filtering will arrive once retailer price tracking begins.
+      Search by cigar, brand, or line name, or filter by wrapper, strength, country of origin, or
+      minimum StickScore. Price filtering will arrive once retailer price tracking begins.
     </p>
   </div>
 
   <section class="section">
+    <div class="search-query-row">
+      <input
+        type="search"
+        id="filter-query"
+        placeholder="Type a cigar, brand, or line name…"
+        aria-label="Search by name"
+      />
+    </div>
+
     <div class="search-filters">
       <label>
         Wrapper
@@ -43,7 +52,10 @@ const index = getSearchIndex();
     </div>
 
     <div id="search-results" class="search-results"></div>
-    <p id="search-empty" class="search-empty" hidden>No cigars match those filters yet.</p>
+    <p id="search-empty" class="search-empty" hidden>
+      No cigars found. If you searched by name, it may not be in the catalog yet — the catalog
+      grows over time and doesn't cover every cigar in existence yet.
+    </p>
   </section>
 </Layout>
 
@@ -86,13 +98,24 @@ const index = getSearchIndex();
   const resultsEl = document.getElementById('search-results') as HTMLElement;
   const emptyEl = document.getElementById('search-empty') as HTMLElement;
 
+  // Strips accents (Padrón -> Padron, Estelí -> Esteli) so a search typed on
+  // a plain keyboard still matches — most smokers won't type the accent.
+  function foldAccents(s: string): string {
+    return s.normalize('NFD').replace(/[̀-ͯ]/g, '');
+  }
+
   function render() {
+    const query = foldAccents((document.getElementById('filter-query') as HTMLInputElement).value.trim().toLowerCase());
     const wrapper = (document.getElementById('filter-wrapper') as HTMLSelectElement).value;
     const strength = (document.getElementById('filter-strength') as HTMLSelectElement).value;
     const country = (document.getElementById('filter-country') as HTMLSelectElement).value;
     const minScore = Number((document.getElementById('filter-score') as HTMLSelectElement).value);
 
     const filtered = entries.filter((e) => {
+      if (query) {
+        const haystack = foldAccents(`${e.brandName} ${e.lineName} ${e.vitolaSizeName}`.toLowerCase());
+        if (!haystack.includes(query)) return false;
+      }
       if (wrapper && e.wrapper !== wrapper) return false;
       if (strength && e.strength !== strength) return false;
       if (country && e.country !== country) return false;
@@ -118,6 +141,15 @@ const index = getSearchIndex();
 
   for (const id of ['filter-wrapper', 'filter-strength', 'filter-country', 'filter-score']) {
     document.getElementById(id)?.addEventListener('change', render);
+  }
+  document.getElementById('filter-query')?.addEventListener('input', render);
+
+  // Pre-fill from ?q= so the header search box (which submits here as a plain
+  // GET form) lands with results already filtered, no JS needed on other pages.
+  const params = new URLSearchParams(window.location.search);
+  const initialQuery = params.get('q');
+  if (initialQuery) {
+    (document.getElementById('filter-query') as HTMLInputElement).value = initialQuery;
   }
 
   render();

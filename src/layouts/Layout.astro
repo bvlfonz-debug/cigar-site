@@ -26,11 +26,14 @@ const { title, description } = Astro.props;
           <a href="/brands/">Brands</a>
           <a href="/rankings/">Rankings</a>
           <a href="/deals/">Deals</a>
-          <a href="/search/">Search</a>
           <a href="/news/">News</a>
           <a href="/accessories/">Accessories</a>
           <a href="/guides/">Guides</a>
         </nav>
+        <form class="site-header__search" action="/search/" method="get">
+          <input type="search" name="q" placeholder="Search cigars…" aria-label="Search cigars by name" />
+          <button type="submit">Search</button>
+        </form>
         <span class="site-header__tagline">A Considered Record for the Discerning Smoker</span>
       </div>
     </header>
