@@ -309,3 +309,10 @@ side (see CLAUDE.md). Kept it light since it's a weekday.
   24, Casa de Montecristo), Tatuaje Black Label Corona Gorda ($189.00/box of
   20, Atlantic Cigar Company), Illusione Epernay Le Taureau ($324.00/box of
   25, Atlantic Cigar Company).
+- **Reviews / scores**: looked for a third source on the queued Liga Privada
+  T52 Toro (currently only 1 source, Cigar Aficionado). Found halfwheel
+  reviews, but for different vitolas (Parejo, Double Corona) not the Toro in
+  our database, and a Cigar Coop mention with no numeric score attached —
+  didn't use either. No new scores added tonight; stays queued.
+- **Errors**: none. Site builds cleanly (916 pages). Stopping here for
+  tonight given the weekday budget.
