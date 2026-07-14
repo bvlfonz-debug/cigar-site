@@ -304,3 +304,8 @@ side (see CLAUDE.md). Kept it light since it's a weekday.
   broadleaf/Pennsylvania filler) rolled in Nicaragua, $9.99/stick in boxes
   of 10. CAO is already in our database but this America line isn't yet, so
   the brief stands alone with no linked cigar page.
+- **Prices checked** (all first-ever checks for these three, so nothing to
+  compare against and nothing flagged): Ashton VSG Robusto ($353.28/box of
+  24, Casa de Montecristo), Tatuaje Black Label Corona Gorda ($189.00/box of
+  20, Atlantic Cigar Company), Illusione Epernay Le Taureau ($324.00/box of
+  25, Atlantic Cigar Company).
