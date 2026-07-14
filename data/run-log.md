@@ -293,3 +293,14 @@ side (see CLAUDE.md).
 
 ## 2026-07-13 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-07-14 — Weekday run: cigars night
+Today was a "cigars" night on the even/odd alternation with the accessories
+side (see CLAUDE.md). Kept it light since it's a weekday.
+
+- **News**: added one brief — halfwheel's coverage of CAO's limited-edition
+  America 250th Anniversary, an all-American-tobacco 5.5 x 55 box-pressed
+  robusto (broadleaf/Connecticut shade wrapper, Connecticut habano binder,
+  broadleaf/Pennsylvania filler) rolled in Nicaragua, $9.99/stick in boxes
+  of 10. CAO is already in our database but this America line isn't yet, so
+  the brief stands alone with no linked cigar page.
