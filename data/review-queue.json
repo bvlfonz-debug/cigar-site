@@ -683,5 +683,42 @@
     ],
     "proposed_action": "Two independent, numerically-scored sources found (Blind Man’s Puff, The Stick Stickler). A Cigars International retailer rating (4.5/5) was found but excluded as non-independent, since Diesel originated as a CI house brand. Cigar Inspector’s ~4.5/5 score is reported consistently across secondary sources but could not be independently confirmed by direct fetch, and had no confirmed date — excluded per the never-invent rule.",
     "decision": null
+  },
+  {
+    "item": "RoMa Craft CroMagnon Knuckle Dragger",
+    "path": "/cigars/roma-craft-tobac/cromagnon/knuckle-dragger/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (StickScore requires 3) as of the 2026-07-14 research pass.",
+    "sources_found": [
+      "The Cigar Authority (91/100)",
+      "The Cigar Authority (90/100)",
+      "Loomis Cigar Cartel (93/100)"
+    ],
+    "proposed_action": "Two independent, numerically-scored sources found (The Cigar Authority reviewed it twice — counted once — and a Loomis Cigar Cartel podcast panel). Short of the three-source minimum. Note: RoMa Craft fully reblended CroMagnon in March 2024 (Connecticut Broadleaf to Pennsylvania Broadleaf wrapper) — a CigarScore.com review of the new blend was found but excluded here since it describes a materially different product; cataloging the current blend would need fresh research rather than mixing old and new blend data.",
+    "decision": null
+  },
+  {
+    "item": "Punch Rare Corojo Magnum",
+    "path": "/cigars/punch/rare-corojo/magnum/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (StickScore requires 3) as of the 2026-07-14 research pass.",
+    "sources_found": [
+      "Cigar Aficionado (92/100)",
+      "Cigar Aficionado (87/100)",
+      "JR Cigars (4.4/5)"
+    ],
+    "proposed_action": "Two independent, numerically-scored sources found (Cigar Aficionado, rated twice years apart, and JR Cigars). A CIGAR.com rating was found via search snippet but couldn’t be independently confirmed by direct fetch, so it was excluded rather than counted on unverified data.",
+    "decision": null
+  },
+  {
+    "item": "Hoyo de Monterrey Excalibur No. III",
+    "path": "/cigars/hoyo-de-monterrey/excalibur/no-iii/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source(s) found (StickScore requires 3) as of the 2026-07-14 research pass.",
+    "sources_found": [
+      "Cigar Aficionado (89/100)"
+    ],
+    "proposed_action": "Only one cleanly-confirmed independent numeric source found (Cigar Aficionado, 89/100). A Stogie Guys review exists but for a vitola name (\"Excalibur Epicure\") that couldn’t be confirmed as the same product as the No. III. A cigarmonthclub.com panel rating (90/100) had no confirmed date. A JR Cigars retailer rating described a Connecticut Broadleaf Maduro wrapper, conflicting with the No. III’s natural Connecticut Shade spec — likely describes a different wrapper finish, so excluded rather than risk mixing data.",
+    "decision": null
   }
 ]
