@@ -720,5 +720,42 @@
     ],
     "proposed_action": "Only one cleanly-confirmed independent numeric source found (Cigar Aficionado, 89/100). A Stogie Guys review exists but for a vitola name (\"Excalibur Epicure\") that couldn’t be confirmed as the same product as the No. III. A cigarmonthclub.com panel rating (90/100) had no confirmed date. A JR Cigars retailer rating described a Connecticut Broadleaf Maduro wrapper, conflicting with the No. III’s natural Connecticut Shade spec — likely describes a different wrapper finish, so excluded rather than risk mixing data.",
     "decision": null
+  },
+  {
+    "item": "Cohiba Black Robusto",
+    "path": "/cigars/cohiba/black/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (StickScore requires 3) as of the 2026-07-14 research pass.",
+    "sources_found": [
+      "Cigar Aficionado (88/100)",
+      "The Stick Stickler (93/100)"
+    ],
+    "proposed_action": "Two independent, dated numeric sources found (Cigar Aficionado, The Stick Stickler). Several retailer ratings were found but excluded — some belonged to a different SKU (the Crystal tubo variant), and Cigars International/CIGAR.com/Thompson Cigar ratings were excluded since those retailers share ownership (Scandinavian Tobacco Group) with Cohiba’s own manufacturer, General Cigar — not independent of the brand itself.",
+    "decision": null
+  },
+  {
+    "item": "Macanudo Café Hyde Park",
+    "path": "/cigars/macanudo/cafe/hyde-park/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (StickScore requires 3) as of the 2026-07-14 research pass.",
+    "sources_found": [
+      "Cigar Aficionado (90/100)",
+      "JR Cigars (4.12/5)"
+    ],
+    "proposed_action": "Two independent, numerically-scored sources found (Cigar Aficionado, JR Cigars). Coverage of this exact vitola is thin — halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and Developing Palates have all reviewed other Macanudo Café vitolas (Portofino, Gigante) but not the Hyde Park specifically, so we didn’t mix that data in.",
+    "decision": null
+  },
+  {
+    "item": "Partagás Classic No. 10",
+    "path": "/cigars/partagas/classic/no-10/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent source(s) found (StickScore requires 3) as of the 2026-07-14 research pass.",
+    "sources_found": [
+      "Cigar Aficionado (88/100)",
+      "Cigar Aficionado (86/100)",
+      "JR Cigars (4.23/5)"
+    ],
+    "proposed_action": "Two independent, numerically-scored sources found (Cigar Aficionado, rated twice years apart, and JR Cigars). A widely-repeated retailer claim of a \"91-point\" Cigar Aficionado score couldn’t be traced to a stable, confirmed source, so it was not used.",
+    "decision": null
   }
 ]
