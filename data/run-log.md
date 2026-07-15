@@ -13,6 +13,34 @@ there instead of publishing automatically.
 
 ---
 
+## 2026-07-15 — Weekday run: accessories night
+Today was an "accessories" night on the even/odd alternation with the cigar
+side (see CLAUDE.md). Kept it light since it's a weekday.
+
+- **News**: added one brief — Cigar Aficionado's coverage of Les Fines
+  Lames' Flying Tigers Limited Edition accessories for America's 250th
+  anniversary: a $199 Le Petit cigar knife and a $125 Duo leather cigar
+  case, both finished in black with the WWII squadron's shark-mouth motif,
+  only 250 of each made. Neither product is in our database yet, so the
+  brief stands alone.
+- **Prices checked**: Quality Importers Capri Glasstop Desktop Humidor —
+  $20.00 (on sale from $49.99) at Wilke Pipe Tobacco, the first-ever price
+  check for this item, so nothing to compare against and nothing flagged.
+  Tried to also price the Prestige Import Group Onyx humidor and the Xikar
+  Xi1 cutter, but every retailer page I tried (Walmart, Pipes and Cigars,
+  Best Cigar Prices, Humidor Enthusiast, Xikar's own site) either blocked
+  the fetch (403/429) or didn't render pricing — skipped both rather than
+  guess.
+- **Reviews / scores**: found a genuine third independent source for the
+  queued Xikar Xi2 cutter — Holt's Cigar Co. (4.71/5, 7 verified-buyer
+  ratings), joining HumidorDiscount.com and Famous Smoke Shop. That crosses
+  the 3-source minimum, so it now has a published AccScore of 88.7 and has
+  been removed from the review queue. Also looked for a third source on the
+  Xikar Volta table lighter (still stuck at 2: Holt's, Wayfair) but didn't
+  find anything new — stays queued as before.
+- **Errors**: none. Site builds cleanly (1,427 pages). Stopping here for
+  tonight given the weekday budget.
+
 ## 2026-07-13 — Weekday run, part 1: accessories night — 1 news brief, 2 price checks
 Today was an "accessories" night on the even/odd alternation with the cigar
 side (see CLAUDE.md).

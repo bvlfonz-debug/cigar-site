@@ -322,18 +322,6 @@
     "decision": null
   },
   {
-    "item": "Xikar Xi2",
-    "path": "/accessories/cutters/xikar-xi2/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
-    "sources_found": [
-      "HumidorDiscount.com (4.6/5)",
-      "Famous Smoke Shop (4/5)"
-    ],
-    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
-    "decision": null
-  },
-  {
     "item": "Palio Cutter",
     "path": "/accessories/cutters/palio-cutter/",
     "reason": "insufficient_sources",
