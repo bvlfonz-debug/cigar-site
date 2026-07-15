@@ -6,6 +6,8 @@ import {
   getAllComparePairSlugs,
   getAllAccessoryCategories,
   getAllAccessorySlugs,
+  getAllLoungeCitySlugs,
+  getAllLoungeSlugs,
 } from '../lib/db';
 import { slugify } from '../lib/slugify';
 
@@ -30,7 +32,7 @@ const GUIDE_SLUGS = [
 export const GET: APIRoute = ({ site }) => {
   const base = site?.toString().replace(/\/$/, '') ?? '';
 
-  const staticPaths = ['/', '/search/', '/brands/', '/news/', '/rankings/', '/deals/', '/accessories/', '/guides/'];
+  const staticPaths = ['/', '/search/', '/brands/', '/news/', '/rankings/', '/deals/', '/accessories/', '/guides/', '/lounges/'];
   const brandPaths = getAllBrandSlugs().map((slug) => `/brands/${slug}/`);
   const cigarPaths = getAllCigarSlugs().map(
     ({ brand, line, vitola }) => `/cigars/${brand}/${line}/${vitola}/`
@@ -51,6 +53,9 @@ export const GET: APIRoute = ({ site }) => {
   );
   const guidePaths = GUIDE_SLUGS.map((slug) => `/guides/${slug}/`);
 
+  const loungeCityPaths = getAllLoungeCitySlugs().map((c) => `/lounges/${c.city_slug}/`);
+  const loungePaths = getAllLoungeSlugs().map(({ city, lounge }) => `/lounges/${city}/${lounge}/`);
+
   const urls = [
     ...staticPaths,
     ...brandPaths,
@@ -60,6 +65,8 @@ export const GET: APIRoute = ({ site }) => {
     ...accessoryCategoryPaths,
     ...accessoryPaths,
     ...guidePaths,
+    ...loungeCityPaths,
+    ...loungePaths,
   ];
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>

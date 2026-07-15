@@ -1,0 +1,37 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAllLoungeCitySlugs } from '../../lib/db';
+
+const cities = getAllLoungeCitySlugs();
+---
+
+<Layout
+  title="Cigar Lounge Directory | StickScore"
+  description="A factual directory of cigar lounges by city — hours, membership terms, and indoor smoking status, sourced and cited, never invented."
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">Cigar Lounge Directory</h1>
+    <p>
+      Real facts about real lounges — address, hours, walk-in vs. membership terms, and indoor
+      smoking status under local law — sourced and cited the same way as everything else here.
+      This is a factual directory, not a review: we don't publish first-hand ratings.
+    </p>
+  </div>
+
+  <section class="section">
+    {cities.length > 0 ? (
+      <div class="brand-directory">
+        {cities.map((c) => (
+          <a class="cigar-card" href={`/lounges/${c.city_slug}/`}>
+            <div class="cigar-card__name">{c.city}{c.state ? `, ${c.state}` : ''}</div>
+            <div class="cigar-card__score">{c.count} lounge{c.count === 1 ? '' : 's'} recorded</div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">
+        No lounges recorded yet — this directory grows over time as new cities are added.
+      </p>
+    )}
+  </section>
+</Layout>

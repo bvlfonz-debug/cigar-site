@@ -1,0 +1,115 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getAllLoungeSlugs, getLoungePage } from '../../../lib/db';
+
+export function getStaticPaths() {
+  return getAllLoungeSlugs().map(({ city, lounge }) => ({ params: { city, slug: lounge } }));
+}
+
+const { city: citySlug, slug } = Astro.params;
+const data = getLoungePage(citySlug as string, slug as string);
+
+if (!data) {
+  return new Response(null, { status: 404 });
+}
+
+const { lounge } = data;
+const amenities: string[] = JSON.parse(lounge.amenities);
+const cityDisplay = lounge.state ? `${lounge.city}, ${lounge.state}` : lounge.city;
+
+const walkInLabel: Record<string, string> = {
+  'walk-in': 'Walk-in welcome',
+  membership: 'Membership required',
+  both: 'Walk-in welcome, membership available',
+};
+
+const smokingLabel: Record<string, string> = {
+  allowed: 'Indoor smoking allowed',
+  'not-allowed': 'Indoor smoking not allowed',
+  'allowed-with-restrictions': 'Indoor smoking allowed, with restrictions',
+};
+
+const pageTitle = `${lounge.name} — ${cityDisplay} | StickScore Lounge Directory`;
+const pageDescription = `${lounge.name} in ${cityDisplay}: address, hours, membership terms, and indoor smoking status — a factual directory listing, not a review.`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  name: lounge.name,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: lounge.address,
+    addressLocality: lounge.city,
+    addressRegion: lounge.state ?? undefined,
+    addressCountry: lounge.country,
+  },
+  ...(lounge.phone ? { telephone: lounge.phone } : {}),
+  ...(lounge.website ? { url: lounge.website } : {}),
+};
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <div class="cigar-hero">
+    <a class="cigar-hero__eyebrow" href={`/lounges/${lounge.city_slug}/`}>{cityDisplay}</a>
+    <h1 class="cigar-hero__title">{lounge.name}</h1>
+    <p class="cigar-hero__subtitle">{lounge.address}</p>
+  </div>
+
+  <section class="section">
+    <h2 class="section__heading">Facts</h2>
+    <table class="specs-table">
+      <tbody>
+        <tr><th>Address</th><td>{lounge.address}</td></tr>
+        {lounge.phone && <tr><th>Phone</th><td>{lounge.phone}</td></tr>}
+        {lounge.website && (
+          <tr><th>Website</th><td><a href={lounge.website} target="_blank" rel="noopener noreferrer">{lounge.website}</a></td></tr>
+        )}
+        {lounge.hours_text && <tr><th>Hours</th><td>{lounge.hours_text}</td></tr>}
+      </tbody>
+    </table>
+  </section>
+
+  {lounge.walk_in_or_membership && (
+    <section class="section">
+      <h2 class="section__heading">Walk-in &amp; Membership</h2>
+      <p>{walkInLabel[lounge.walk_in_or_membership]}</p>
+      {lounge.membership_details && <p>{lounge.membership_details}</p>}
+    </section>
+  )}
+
+  {lounge.indoor_smoking_status && (
+    <section class="section">
+      <h2 class="section__heading">Indoor Smoking</h2>
+      <p>{smokingLabel[lounge.indoor_smoking_status]}</p>
+      {lounge.indoor_smoking_note && <p>{lounge.indoor_smoking_note}</p>}
+      <p class="placeholder-note">
+        Smoking laws vary and change — confirm current regulations directly with the venue before visiting.
+      </p>
+    </section>
+  )}
+
+  {amenities.length > 0 && (
+    <section class="section">
+      <h2 class="section__heading">Amenities</h2>
+      <div class="tasting-tags">
+        {amenities.map((a) => <span class="tasting-tag">{a}</span>)}
+      </div>
+    </section>
+  )}
+
+  <section class="section summary-review">
+    <h2 class="section__heading">Overview</h2>
+    <p>{lounge.overview_text}</p>
+  </section>
+
+  {lounge.facts_source_url && (
+    <section class="section">
+      <h2 class="section__heading">Source</h2>
+      <p class="placeholder-note">
+        Facts sourced from <a href={lounge.facts_source_url} target="_blank" rel="noopener noreferrer">{lounge.facts_source_url}</a>
+        {lounge.facts_checked_at && ` — last checked ${new Date(lounge.facts_checked_at).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`}.
+      </p>
+    </section>
+  )}
+</Layout>

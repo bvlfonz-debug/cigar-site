@@ -21,6 +21,13 @@ aren't tobacco products, those pages can carry mainstream affiliate programs
 same traffic, built with the same rigor and the same beginner-friendly,
 one-step-at-a-time approach as everything else here.
 
+A third vertical, a factual cigar lounge directory (`/lounges`), was added
+later still — see "Lounge Directory Expansion" below. It carries no
+affiliate links or ads; it exists to be a genuinely useful, honestly-sourced
+reference, built with the same non-negotiable rule as everything else: never
+publish a first-hand rating, only cited aggregates once enough independent
+sources exist.
+
 ## Stack
 - Astro static site, TypeScript, minimal dependencies
 - SQLite database at `data/cigars.db`, committed to the repo
@@ -258,6 +265,78 @@ A) Schema + ONE complete sample (a well-reviewed humidor, real researched
    humidors for beginners). STOP for owner approval before continuing.
 B) Seed ~40 accessories across all categories. Build guides 1-8.
 C) Build guides 9-15. Add the cross-link blocks. Fold into nightly runs.
+
+## Lounge Directory Expansion
+A factual directory of cigar lounges (`/lounges/[city]/[slug]`) — a third
+vertical alongside cigars and accessories. Non-negotiable: **Phase 1 is a
+pure factual directory with NO first-hand or displayed ratings.** No
+StickScore/AccScore-style aggregate is shown yet — not even "insufficient
+data" messaging, since that implies scoring was attempted. The data model
+(`lounge_score`, `lounge_external_rating`) exists from day one so that
+if/when ratings are added, they slot in without a migration: aggregated from
+CITED external sources (Google/Yelp/TripAdvisor-style platforms, or genuine
+dated editorial rankings) exactly like StickScore/AccScore — never a
+first-hand rating, ever.
+
+### Data model (SQLite) additions
+- **lounge**: id, name, slug, city, city_slug, state, country, address,
+  phone, website, hours_text, walk_in_or_membership
+  (walk-in | membership | both), membership_details, indoor_smoking_status
+  (allowed | not-allowed | allowed-with-restrictions), indoor_smoking_note,
+  amenities (JSON array), overview_text, lounge_score (nullable, unused
+  until Phase C), facts_source_url, facts_checked_at — UNIQUE(city_slug, slug).
+  `city_slug` is computed and persisted at insert time (by `db-tools.mjs`'s
+  `add-lounge` command), not derived per-page, so same-named cities in
+  different states never collide (e.g. Portland, OR vs Portland, ME).
+- **lounge_external_rating**: id, lounge_id, source_name, source_type
+  (critic | platform — `platform` is a Google/Yelp/TripAdvisor-style live
+  aggregate, `critic` is a genuine dated editorial ranking), score,
+  score_scale, review_count, rating_date, url, key_notes_text — same shape
+  as accessory_review, populated only from Phase C onward.
+
+### LoungeScore (future — not active in Phase 1)
+`computeLoungeScore` (in `scripts/lib/stickscore.mjs`) is an alias of
+`computeStickScore` — same 3-independent-source minimum, same recency
+weighting, same critic/platform 70/30 blend-or-fallback. This entire
+subsection describes Phase C+ behavior only. Phase 1 and Phase 2 pages must
+render no score UI of any kind.
+
+### Pages
+- `/lounges` — hub listing all cities with lounges recorded
+- `/lounges/[city]` — city index, lounges listed alphabetically (no
+  score-based sort — there is no score yet)
+- `/lounges/[city]/[slug]` — detail page: facts panel (address/phone/
+  website/hours), walk-in vs. membership, indoor smoking status + note +
+  the fixed disclaimer sentence below, amenities, overview_text, and a
+  "facts last checked" line citing `facts_source_url`. `LocalBusiness`
+  JSON-LD (schema.org has no specific cigar-lounge type), no
+  `aggregateRating` key in Phase 1. No pricing section, no affiliate links,
+  no FTC disclosure component — lounges aren't retailers.
+
+### Content rules specific to lounges
+- Fixed disclaimer sentence, reused verbatim wherever indoor smoking status
+  is shown, never paraphrased per-lounge (same treatment as the Amazon
+  disclosure sentence): "Smoking laws vary and change — confirm current
+  regulations directly with the venue before visiting."
+- "Never invent" extends to the directory facts themselves, not just future
+  ratings — address/hours/phone/etc. need a real `facts_source_url`, not
+  just the ratings in `lounge_external_rating`.
+- New cities/lounges never verified before must go through the same
+  `queue-add` review-queue flow as new cigar brands/lines and new accessory
+  categories — never created directly without a matching approved queue entry.
+
+### Build phases — same "stop for approval" discipline
+A) Schema + `db.ts` + `db-tools.mjs` (`add-lounge`, `find-lounge` — no
+   rating commands yet) + the 3 page templates + nav/sitemap + ONE real
+   researched sample lounge. STOP for owner approval before continuing.
+B) Seed a real batch of lounges across several cities — facts only, still
+   no ratings.
+C) Populate `lounge_external_rating` from cited platforms, activate
+   LoungeScore display, fold lounges into the nightly automation's
+   alternating cadence (becomes a 3-way rotation with cigars/accessories),
+   add cross-links to/from guides and cigar pages. Phase A/B do NOT touch
+   `.github/workflows/nightly.yml` — lounges are out of scope for nightly
+   automation until Phase C.
 
 ## Affiliate configuration
 - `config/affiliates.json` holds retailer names, tracking IDs, and URL

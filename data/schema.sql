@@ -125,6 +125,51 @@ CREATE TABLE accessory_price_point (
   checked_at     TEXT NOT NULL
 );
 
+-- Lounge Directory Expansion (factual directory, no first-hand ratings) —
+-- see CLAUDE.md "Lounge Directory Expansion" for the authoritative field descriptions.
+
+CREATE TABLE lounge (
+  id                      INTEGER PRIMARY KEY AUTOINCREMENT,
+  name                    TEXT NOT NULL,
+  slug                    TEXT NOT NULL,
+  city                    TEXT NOT NULL,
+  city_slug               TEXT NOT NULL,
+  state                   TEXT,
+  country                 TEXT NOT NULL DEFAULT 'USA',
+  address                 TEXT NOT NULL,
+  phone                   TEXT,
+  website                 TEXT,
+  hours_text              TEXT,
+  walk_in_or_membership   TEXT CHECK (walk_in_or_membership IN ('walk-in','membership','both')),
+  membership_details      TEXT,
+  indoor_smoking_status   TEXT CHECK (indoor_smoking_status IN ('allowed','not-allowed','allowed-with-restrictions')),
+  indoor_smoking_note     TEXT,
+  amenities               TEXT NOT NULL DEFAULT '[]',
+  overview_text           TEXT NOT NULL,
+  lounge_score            REAL,
+  facts_source_url        TEXT,
+  facts_checked_at        TEXT,
+  UNIQUE (city_slug, slug)
+);
+
+-- Populated only from Phase C onward — schema exists from day one so ratings
+-- slot in without a migration, but stays empty through the Phase A/B factual
+-- directory. Never a first-hand rating: only cited external platforms
+-- (Google/Yelp/TripAdvisor-style aggregates) or genuine dated editorial
+-- rankings, aggregated the same way as StickScore/AccScore.
+CREATE TABLE lounge_external_rating (
+  id             INTEGER PRIMARY KEY AUTOINCREMENT,
+  lounge_id      INTEGER NOT NULL REFERENCES lounge(id),
+  source_name    TEXT NOT NULL,
+  source_type    TEXT NOT NULL DEFAULT 'platform' CHECK (source_type IN ('critic','platform')),
+  score          REAL NOT NULL,
+  score_scale    REAL NOT NULL,
+  review_count   INTEGER,
+  rating_date    TEXT NOT NULL,
+  url            TEXT NOT NULL,
+  key_notes_text TEXT
+);
+
 CREATE INDEX idx_line_brand ON line(brand_id);
 CREATE INDEX idx_vitola_line ON vitola(line_id);
 CREATE INDEX idx_critic_review_vitola ON critic_review(vitola_id);
@@ -132,3 +177,5 @@ CREATE INDEX idx_price_point_vitola ON price_point(vitola_id);
 CREATE INDEX idx_accessory_category ON accessory(category_id);
 CREATE INDEX idx_accessory_review_accessory ON accessory_review(accessory_id);
 CREATE INDEX idx_accessory_price_point_accessory ON accessory_price_point(accessory_id);
+CREATE INDEX idx_lounge_city ON lounge(city_slug);
+CREATE INDEX idx_lounge_external_rating_lounge ON lounge_external_rating(lounge_id);

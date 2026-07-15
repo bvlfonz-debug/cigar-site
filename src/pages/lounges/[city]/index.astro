@@ -1,0 +1,44 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getAllLoungeCitySlugs, getLoungesByCity } from '../../../lib/db';
+
+export function getStaticPaths() {
+  return getAllLoungeCitySlugs().map((c) => ({ params: { city: c.city_slug } }));
+}
+
+const { city: citySlug } = Astro.params;
+const data = getLoungesByCity(citySlug as string);
+
+if (!data) {
+  return new Response(null, { status: 404 });
+}
+
+const { cityLabel, state, lounges } = data;
+const cityDisplay = state ? `${cityLabel}, ${state}` : cityLabel;
+const sorted = [...lounges].sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<Layout
+  title={`Cigar Lounges in ${cityDisplay} | StickScore`}
+  description={`A factual directory of cigar lounges in ${cityDisplay} — hours, membership terms, and indoor smoking status, sourced and cited.`}
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">Cigar Lounges in {cityDisplay}</h1>
+    <p>{lounges.length} lounge{lounges.length === 1 ? '' : 's'} recorded in {cityDisplay} so far.</p>
+  </div>
+
+  <section class="section">
+    {sorted.length > 0 ? (
+      <div class="search-results">
+        {sorted.map((l) => (
+          <a class="cigar-card" href={`/lounges/${l.city_slug}/${l.slug}/`}>
+            <div class="cigar-card__name">{l.name}</div>
+            <div class="cigar-card__score">{l.address}</div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">Nothing recorded in this city yet — more are added over time.</p>
+    )}
+  </section>
+</Layout>

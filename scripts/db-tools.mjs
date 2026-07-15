@@ -64,6 +64,35 @@ function resolveAccessory(p) {
   return { category, accessory };
 }
 
+function parseLoungePath(p) {
+  const parts = p.split('/').filter(Boolean);
+  if (parts.length !== 3 || parts[0] !== 'lounges') {
+    fail(`Invalid lounge path "${p}" — expected /lounges/<city-slug>/<lounge-slug>/`);
+  }
+  return { citySlug: parts[1], loungeSlug: parts[2] };
+}
+
+function resolveLounge(p) {
+  const { citySlug, loungeSlug } = parseLoungePath(p);
+  const lounge = db.prepare('SELECT * FROM lounge WHERE city_slug = ? AND slug = ?').get(citySlug, loungeSlug);
+  if (!lounge) fail(`No lounge found with slug "${loungeSlug}" in city "${citySlug}"`);
+  return { lounge };
+}
+
+// Small local slugify — scripts/ doesn't import from src/ anywhere else in
+// this project (scripts/lib/stickscore.mjs is a standalone duplicate, not a
+// shared import), so this stays a duplicate rather than crossing that
+// boundary for one function.
+function slugify(text) {
+  return text
+    .toString()
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 function recomputeAccScore(accessoryId) {
   const reviews = db.prepare('SELECT * FROM accessory_review WHERE accessory_id = ?').all(accessoryId);
   const accScore = computeAccScore(reviews, new Date());
@@ -458,6 +487,57 @@ const commands = {
     const { accessory } = resolveAccessory(payload.path);
     const accScore = recomputeAccScore(accessory.id);
     return { ok: true, acc_score: accScore };
+  },
+
+  // Lounge Directory — Phase A is a pure factual directory. There is
+  // deliberately no add-lounge-external-rating / recompute-lounge-score
+  // command yet: nothing populates lounge_external_rating or reads
+  // lounge_score until Phase C is explicitly approved (see CLAUDE.md
+  // "Lounge Directory Expansion").
+  'find-lounge'(payload) {
+    const { lounge } = resolveLounge(payload.path);
+    return { lounge };
+  },
+
+  'add-lounge'(payload) {
+    const required = ['name', 'slug', 'city', 'state', 'address', 'overview_text'];
+    for (const field of required) {
+      if (payload[field] == null) fail(`add-lounge requires "${field}"`);
+    }
+    const citySlug = slugify(`${payload.city}${payload.state ? '-' + payload.state : ''}`);
+    const existing = db.prepare('SELECT id FROM lounge WHERE city_slug = ? AND slug = ?').get(citySlug, payload.slug);
+    if (existing) fail(`Lounge "${payload.slug}" already exists in "${citySlug}" (id ${existing.id})`);
+    const result = db.prepare(`
+      INSERT INTO lounge (
+        name, slug, city, city_slug, state, country, address, phone, website, hours_text,
+        walk_in_or_membership, membership_details, indoor_smoking_status, indoor_smoking_note,
+        amenities, overview_text, lounge_score, facts_source_url, facts_checked_at
+      ) VALUES (
+        @name, @slug, @city, @city_slug, @state, @country, @address, @phone, @website, @hours_text,
+        @walk_in_or_membership, @membership_details, @indoor_smoking_status, @indoor_smoking_note,
+        @amenities, @overview_text, NULL, @facts_source_url, @facts_checked_at
+      )
+    `).run(at({
+      name: payload.name,
+      slug: payload.slug,
+      city: payload.city,
+      city_slug: citySlug,
+      state: payload.state ?? null,
+      country: payload.country ?? 'USA',
+      address: payload.address,
+      phone: payload.phone ?? null,
+      website: payload.website ?? null,
+      hours_text: payload.hours_text ?? null,
+      walk_in_or_membership: payload.walk_in_or_membership ?? null,
+      membership_details: payload.membership_details ?? null,
+      indoor_smoking_status: payload.indoor_smoking_status ?? null,
+      indoor_smoking_note: payload.indoor_smoking_note ?? null,
+      amenities: JSON.stringify(payload.amenities ?? []),
+      overview_text: payload.overview_text,
+      facts_source_url: payload.facts_source_url ?? null,
+      facts_checked_at: payload.facts_checked_at ?? null,
+    }));
+    return { ok: true, lounge_id: result.lastInsertRowid, city_slug: citySlug };
   },
 };
 

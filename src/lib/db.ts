@@ -510,3 +510,75 @@ export function getLatestAccessoryPricePoints(accessoryId: number): AccessoryPri
   }
   return [...latestByRetailer.values()];
 }
+
+// ---------------------------------------------------------------------------
+// Lounge Directory Expansion (factual directory, no first-hand ratings)
+// ---------------------------------------------------------------------------
+
+export interface LoungeRow {
+  id: number;
+  name: string;
+  slug: string;
+  city: string;
+  city_slug: string;
+  state: string | null;
+  country: string;
+  address: string;
+  phone: string | null;
+  website: string | null;
+  hours_text: string | null;
+  walk_in_or_membership: 'walk-in' | 'membership' | 'both' | null;
+  membership_details: string | null;
+  indoor_smoking_status: 'allowed' | 'not-allowed' | 'allowed-with-restrictions' | null;
+  indoor_smoking_note: string | null;
+  amenities: string;
+  overview_text: string;
+  lounge_score: number | null;
+  facts_source_url: string | null;
+  facts_checked_at: string | null;
+}
+
+export interface LoungeCitySummary {
+  city_slug: string;
+  city: string;
+  state: string | null;
+  count: number;
+}
+
+export function getAllLoungeCitySlugs(): LoungeCitySummary[] {
+  return getDb()
+    .prepare(
+      `SELECT city_slug, city, state, COUNT(*) AS count
+       FROM lounge GROUP BY city_slug ORDER BY city`
+    )
+    .all() as LoungeCitySummary[];
+}
+
+export function getAllLoungeSlugs(): { city: string; lounge: string }[] {
+  return getDb()
+    .prepare('SELECT city_slug AS city, slug AS lounge FROM lounge')
+    .all() as { city: string; lounge: string }[];
+}
+
+export function getLoungesByCity(citySlug: string): { cityLabel: string; state: string | null; lounges: LoungeRow[] } | null {
+  const db = getDb();
+  const cityRow = db.prepare('SELECT city, state FROM lounge WHERE city_slug = ? LIMIT 1').get(citySlug) as
+    | { city: string; state: string | null }
+    | undefined;
+  if (!cityRow) return null;
+
+  const lounges = db
+    .prepare('SELECT * FROM lounge WHERE city_slug = ? ORDER BY name')
+    .all(citySlug) as LoungeRow[];
+
+  return { cityLabel: cityRow.city, state: cityRow.state, lounges };
+}
+
+export function getLoungePage(citySlug: string, slug: string): { lounge: LoungeRow } | null {
+  const lounge = getDb()
+    .prepare('SELECT * FROM lounge WHERE city_slug = ? AND slug = ?')
+    .get(citySlug, slug) as LoungeRow | undefined;
+  if (!lounge) return null;
+
+  return { lounge };
+}

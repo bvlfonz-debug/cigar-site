@@ -52,6 +52,12 @@ export function computeStickScore(allReviews, referenceDate) {
 // Alias — same function, used under the AccScore name in accessory contexts.
 export const computeAccScore = computeStickScore;
 
+// Alias — same function, reserved for the future LoungeScore (Lounge
+// Directory Phase C). Not wired to any live data flow yet; callers must map
+// lounge_external_rating's `rating_date` column to `review_date` on the
+// objects passed in, since this function reads that exact key name.
+export const computeLoungeScore = computeStickScore;
+
 export function distinctSourceCount(allReviews) {
   return new Set(allReviews.map((r) => canon(r.source_name))).size;
 }
