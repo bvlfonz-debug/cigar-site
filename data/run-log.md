@@ -22,6 +22,17 @@ side (see CLAUDE.md).
   page 404'd) — skipped rather than guess.
 - Site builds cleanly (1448 pages) after these additions.
 
+**Update, same run**: found a genuine third source for the queued Oliva
+Serie V Maduro Toro (only 2 sources before) — a Holt's Cigar Company staff
+review (92/100, dated 2021-05-20) confirmed to carry a real numeric score.
+That brings it to 3 independent sources, so StickScore is now published:
+95.3. Rewrote its summary review and consensus tasting notes to reflect the
+new score (all three sources single out consistent construction and
+maduro-driven sweetness). Removed it from the review queue. Didn't attempt
+sub-scores (flavor/construction/complexity/value) — the source text doesn't
+give enough detail to back all four honestly, so left them unset rather than
+guess. Site still builds cleanly (1448 pages).
+
 If an entry starts with **NEEDS-ATTENTION**, something didn't go cleanly and
 is worth a look. Otherwise, everything below was routine.
 

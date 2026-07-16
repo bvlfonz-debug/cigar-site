@@ -32,18 +32,6 @@
     "decision": null
   },
   {
-    "item": "Serie V Maduro Toro",
-    "path": "/cigars/oliva/serie-v-maduro/toro/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "The Cigar Authority",
-      "CigarScore.com"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
     "item": "Le Bijou 1922 Toro",
     "path": "/cigars/my-father/le-bijou-1922/toro/",
     "reason": "insufficient_sources",
