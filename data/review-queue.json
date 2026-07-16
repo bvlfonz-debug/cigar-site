@@ -831,5 +831,26 @@
     ],
     "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
     "decision": null
+  },
+  {
+    "item": "Factory \"Raíces Cubanas\" is missing founded_year",
+    "path": "/factories/raices-cubanas/",
+    "reason": "Missing sourced fact on a brand/factory profile",
+    "why_flagged": "founded_year was not provided when this factory was added.",
+    "sources_found": [],
+    "proposed_action": "Research a citable source and call add-brand-source/add-factory-source, then update-brand/update-factory to fill the field.",
+    "decision": null
+  },
+  {
+    "item": "Illusione brand.factory field appears outdated",
+    "path": "/brands/illusione/",
+    "reason": "conflicting_sources",
+    "why_flagged": "Our brand record lists factory as \"Fábrica de Tabacos Raíces Cubanas, Danlí\" — true historically, but multiple sources (halfwheel, Cigar Aficionado) report that Illusione production largely shifted to TABSA (Tabacos Valle de Jalapa S.A.) in Estelí, Nicaragua starting with the 2012 Singularé release, with only select lines occasionally remaining at Raíces Cubanas. Deliberately did NOT link Illusione to the new Raíces Cubanas factory profile given this uncertainty.",
+    "sources_found": [
+      "halfwheel (New Illusione Has A New Factory)",
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Research Illusione's CURRENT factory situation (which lines are made where today) and either correct brand.factory's free text or set factory_id to the right profile — TABSA may be worth its own factory profile given AGANORSA/Fernández family ownership.",
+    "decision": null
   }
 ]
