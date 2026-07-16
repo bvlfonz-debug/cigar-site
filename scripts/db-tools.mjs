@@ -94,6 +94,34 @@ function resolveRelease(p) {
   return { release };
 }
 
+function parseFactoryPath(p) {
+  const parts = p.split('/').filter(Boolean);
+  if (parts.length !== 2 || parts[0] !== 'factories') {
+    fail(`Invalid factory path "${p}" — expected /factories/<slug>/`);
+  }
+  return { slug: parts[1] };
+}
+
+function resolveFactory(p) {
+  const { slug } = parseFactoryPath(p);
+  const factory = db.prepare('SELECT * FROM factory WHERE slug = ?').get(slug);
+  if (!factory) fail(`No factory found with slug "${slug}"`);
+  return { factory };
+}
+
+// Queues a missing-sourced-fact gap so it surfaces in the owner's weekly
+// review-queue skim instead of sitting invisibly null. Reuses queue-add's
+// own dedup (by "item" string) so calling this on every add/update is safe.
+function queueMissingFact(item, path, why) {
+  commands['queue-add']({
+    item,
+    path,
+    reason: 'Missing sourced fact on a brand/factory profile',
+    why_flagged: why,
+    proposed_action: 'Research a citable source and call add-brand-source/add-factory-source, then update-brand/update-factory to fill the field.',
+  });
+}
+
 // Small local slugify — scripts/ doesn't import from src/ anywhere else in
 // this project (scripts/lib/stickscore.mjs is a standalone duplicate, not a
 // shared import), so this stays a duplicate rather than crossing that
@@ -701,6 +729,141 @@ const commands = {
     }
     db.prepare(`UPDATE cigar_release SET ${sets.join(', ')} WHERE id = @id`).run(at(params));
     return { ok: true };
+  },
+
+  'find-factory'(payload) {
+    const { factory } = resolveFactory(payload.path);
+    return { factory };
+  },
+
+  // A new factory is a new catalog entity, same tier as add-brand/add-line —
+  // only call this directly when data/review-queue.json already has an
+  // owner-approved entry; otherwise queue-add first. `history_text`/
+  // `founded_year`/`city` are NEVER fabricated: omit them and this command
+  // queues the gap for the owner rather than guessing.
+  'add-factory'(payload) {
+    const required = ['name', 'slug', 'country'];
+    for (const field of required) {
+      if (payload[field] == null) fail(`add-factory requires "${field}"`);
+    }
+    const existing = db.prepare('SELECT id FROM factory WHERE slug = ?').get(payload.slug);
+    if (existing) fail(`Factory "${payload.slug}" already exists (id ${existing.id})`);
+
+    const brandSlugs = payload.brand_slugs ?? [];
+    const brands = brandSlugs.map((slug) => {
+      const brand = db.prepare('SELECT * FROM brand WHERE slug = ?').get(slug);
+      if (!brand) fail(`No brand found with slug "${slug}"`);
+      return brand;
+    });
+
+    const result = db.prepare(`
+      INSERT INTO factory (name, slug, country, city, founded_year, history_text)
+      VALUES (@name, @slug, @country, @city, @founded_year, @history_text)
+    `).run(at({
+      name: payload.name,
+      slug: payload.slug,
+      country: payload.country,
+      city: payload.city ?? null,
+      founded_year: payload.founded_year ?? null,
+      history_text: payload.history_text ?? null,
+    }));
+    const factoryId = result.lastInsertRowid;
+
+    for (const brand of brands) {
+      db.prepare('UPDATE brand SET factory_id = ? WHERE id = ?').run(factoryId, brand.id);
+    }
+
+    if (payload.founded_year == null) {
+      queueMissingFact(`Factory "${payload.name}" is missing founded_year`, `/factories/${payload.slug}/`, 'founded_year was not provided when this factory was added.');
+    }
+    if (payload.history_text == null) {
+      queueMissingFact(`Factory "${payload.name}" is missing history_text`, `/factories/${payload.slug}/`, 'history_text was not provided when this factory was added.');
+    }
+
+    return { ok: true, factory_id: factoryId, linked_brands: brands.map((b) => b.slug) };
+  },
+
+  // Only touches fields actually passed in (mirrors update-release).
+  'update-factory'(payload) {
+    const { factory } = resolveFactory(payload.path);
+    const sets = [];
+    const params = { id: factory.id };
+    if (payload.city != null) {
+      sets.push('city = @city');
+      params.city = payload.city;
+    }
+    if (payload.founded_year != null) {
+      sets.push('founded_year = @founded_year');
+      params.founded_year = payload.founded_year;
+    }
+    if (payload.history_text != null) {
+      sets.push('history_text = @history_text');
+      params.history_text = payload.history_text;
+    }
+    if (sets.length === 0) fail('update-factory requires at least one of: city, founded_year, history_text');
+    db.prepare(`UPDATE factory SET ${sets.join(', ')} WHERE id = @id`).run(at(params));
+    return { ok: true };
+  },
+
+  // Only touches fields actually passed in. Currently just links a brand to
+  // a real, already-profiled factory — other brand fields have their own
+  // established mutation path (none yet) and aren't in scope here.
+  'update-brand'(payload) {
+    const brand = db.prepare('SELECT * FROM brand WHERE slug = ?').get(payload.brand_slug);
+    if (!brand) fail(`No brand found with slug "${payload.brand_slug}"`);
+    const sets = [];
+    const params = { id: brand.id };
+    if (payload.factory_slug != null) {
+      const factory = db.prepare('SELECT id FROM factory WHERE slug = ?').get(payload.factory_slug);
+      if (!factory) fail(`No factory found with slug "${payload.factory_slug}"`);
+      sets.push('factory_id = @factory_id');
+      params.factory_id = factory.id;
+    }
+    if (sets.length === 0) fail('update-brand requires at least one of: factory_slug');
+    db.prepare(`UPDATE brand SET ${sets.join(', ')} WHERE id = @id`).run(at(params));
+    return { ok: true };
+  },
+
+  // Citations on an EXISTING entity (like add-critic-review) — auto-publish
+  // tier, no queue-gating. Multiple rows per brand/factory since different
+  // facts are often sourced from different places at different times.
+  'add-brand-source'(payload) {
+    const brand = db.prepare('SELECT * FROM brand WHERE slug = ?').get(payload.brand_slug);
+    if (!brand) fail(`No brand found with slug "${payload.brand_slug}"`);
+    const required = ['source_name', 'source_url', 'fact_note', 'retrieved_at'];
+    for (const field of required) {
+      if (payload[field] == null) fail(`add-brand-source requires "${field}"`);
+    }
+    const result = db.prepare(`
+      INSERT INTO brand_source (brand_id, source_name, source_url, fact_note, retrieved_at)
+      VALUES (@brand_id, @source_name, @source_url, @fact_note, @retrieved_at)
+    `).run(at({
+      brand_id: brand.id,
+      source_name: payload.source_name,
+      source_url: payload.source_url,
+      fact_note: payload.fact_note,
+      retrieved_at: payload.retrieved_at,
+    }));
+    return { ok: true, brand_source_id: result.lastInsertRowid };
+  },
+
+  'add-factory-source'(payload) {
+    const { factory } = resolveFactory(payload.path);
+    const required = ['source_name', 'source_url', 'fact_note', 'retrieved_at'];
+    for (const field of required) {
+      if (payload[field] == null) fail(`add-factory-source requires "${field}"`);
+    }
+    const result = db.prepare(`
+      INSERT INTO factory_source (factory_id, source_name, source_url, fact_note, retrieved_at)
+      VALUES (@factory_id, @source_name, @source_url, @fact_note, @retrieved_at)
+    `).run(at({
+      factory_id: factory.id,
+      source_name: payload.source_name,
+      source_url: payload.source_url,
+      fact_note: payload.fact_note,
+      retrieved_at: payload.retrieved_at,
+    }));
+    return { ok: true, factory_source_id: result.lastInsertRowid };
   },
 };
 

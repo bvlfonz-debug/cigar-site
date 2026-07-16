@@ -64,7 +64,13 @@ design; data visualizations (score bars, price history) are clean and
 restrained, not flashy. No stock-photo cigar clichés, no gimmicks.
 
 ## Data model (SQLite)
-- **brand**: id, name, slug, country, factory, founded_year, story_short
+- **brand**: id, name, slug, country, factory (plain-text fallback), factory_id
+  (nullable link to a profiled factory), founded_year, story_short
+- **factory**: id, name, slug, country, city, founded_year, history_text — see
+  "Brand & Factory Profiles" below
+- **brand_source** / **factory_source**: cited sources for brand/factory facts,
+  one row per citation (id, brand_id/factory_id, source_name, source_url,
+  fact_note, retrieved_at) — see "Brand & Factory Profiles" below
 - **line**: id, brand_id, name, slug, wrapper, binder, filler, strength
   (mild | mild-medium | medium | medium-full | full), release_year, background_text
 - **vitola**: id, line_id, size_name, slug, length_in, ring_gauge, vitola_type
@@ -122,7 +128,11 @@ restrained, not flashy. No stock-photo cigar clichés, no gimmicks.
   section when applicable, background, specs table, price-per-stick and
   per-box comparison across retailers (affiliate slots), price history chart,
   sources list, similar cigars block
-- `/brands/[brand]` — brand story, all lines and vitolas, brand-level stats
+- `/brands/[brand]` — brand story, sourced facts, factory link, all lines and
+  vitolas, brand-level stats
+- `/factories/[factory]` — factory profile: history, sourced facts, brands
+  rolled there, and the full auto-generated list of their cigars; see "Brand
+  & Factory Profiles" below
 - `/rankings/...` — programmatic list pages: by wrapper, country, strength,
   price band, vitola type, and combinations ("best Nicaraguan maduros under $10")
 - `/compare/[a]-vs-[b]` — side-by-side comparison pages for popular pairs
@@ -138,6 +148,8 @@ restrained, not flashy. No stock-photo cigar clichés, no gimmicks.
 - Product + AggregateRating JSON-LD on every cigar page; Article on news
 - Product + releaseDate JSON-LD on the release calendar, only emitted when a
   specific month is actually known
+- Organization JSON-LD on brand and factory profile pages, fields omitted
+  (not fabricated) when a fact isn't yet sourced
 - Clean slugs, canonical URLs, sitemap regenerated every build
 - Internal linking: every page links to parents, siblings, 3-5 similar cigars
 - Meta descriptions generated from the data, unique per page
@@ -405,6 +417,52 @@ full stop.
 2. Whenever the nightly ingest writes a news brief that is itself reporting
    a release, call `add-release` (or `update-release` on an existing entry)
    with `related_news_item_id` set to the new news item's id, in the same pass.
+
+## Brand & Factory Profiles
+Evergreen, SEO-strong profile pages that establish topical authority and
+internally link into the cigar catalog. A factory is a distinct entity from a
+brand — one factory commonly rolls cigars for several brands under contract —
+so `brand.factory_id` links to a real `factory` row once one is profiled;
+`brand.factory` stays as the plain-text fallback name until then.
+
+**Never invent brand/factory history.** `founded_year`/`history_text`/`city`
+are nullable and mean "not yet sourced" when null — never a fabricated or
+estimated value. `add-brand`/`add-factory` automatically call `queue-add` when
+these are missing, so the gap surfaces in the owner's weekly review-queue skim
+instead of sitting invisibly null. Once a real source is found, call
+`add-brand-source`/`add-factory-source` (citation, auto-publish tier) then
+`update-brand`/`update-factory` (only touches fields actually passed) to fill
+the field in.
+
+**Queue-gating**: a new `factory` row is a new catalog entity, same tier as
+brands/lines/lounges — only call `add-factory` directly when
+`data/review-queue.json` already has an owner-approved entry, otherwise
+`queue-add` first. `brand_source`/`factory_source` rows are citations on an
+*existing* entity (same tier as `critic_review`/`lounge_external_rating`) —
+auto-publish, gated only by requiring a real `source_name`/`source_url`.
+
+### Pages
+- `/factories` — index of every profiled factory (name, country/city, founded
+  year, brand count)
+- `/factories/[factory]` — name, country/city, founded_year, `history_text`
+  (or a placeholder note when not yet sourced), a "Sourced facts" citation
+  list, every brand rolled there (linked to `/brands/[slug]`), and the full
+  auto-generated list of those brands' cigars (linked to `/cigars/...`)
+- `/brands/[brand]` (existing page, extended) — a "Factory" section linking to
+  `/factories/[slug]` when `factory_id` is set, else the plain-text fallback;
+  a "Sourced facts" citation list
+- Cigar detail page's Factory specs-table row links to `/factories/[slug]`
+  when the brand's `factory_id` resolves, else stays plain text
+
+### Nightly automation folding
+This folds into the existing **cigars** rotation night (not a new 4th
+rotation slot) — brand/factory sourcing is intrinsically part of the cigar
+catalog, same reasoning as folding the release calendar into the cigar
+ingest step. When researching a new brand or correcting a factory
+free-text field, look for a real citable source for founding info and
+history; if one is found, record it via `add-brand-source`/`add-factory-source`
+and link with `update-brand`/`update-factory` rather than leaving it as an
+unsourced plain-text guess.
 
 ## Affiliate configuration
 - `config/affiliates.json` holds retailer names, tracking IDs, and URL

@@ -1,14 +1,53 @@
 -- Ultimate Cigar Database — SQLite schema
 -- See CLAUDE.md "Data model" for the authoritative field descriptions.
 
+-- A factory is a distinct entity from a brand because one factory commonly
+-- rolls cigars for several brands (a real, common pattern with contract
+-- manufacturing) — brand.factory_id links to a profiled factory once one
+-- exists; brand.factory stays as a plain-text fallback name until then.
+-- See CLAUDE.md "Brand & Factory Profiles" for the authoritative description.
+CREATE TABLE factory (
+  id            INTEGER PRIMARY KEY AUTOINCREMENT,
+  name          TEXT NOT NULL,
+  slug          TEXT NOT NULL UNIQUE,
+  country       TEXT NOT NULL,
+  city          TEXT,
+  founded_year  INTEGER,
+  history_text  TEXT
+);
+
 CREATE TABLE brand (
   id            INTEGER PRIMARY KEY AUTOINCREMENT,
   name          TEXT NOT NULL,
   slug          TEXT NOT NULL UNIQUE,
   country       TEXT NOT NULL,
   factory       TEXT,
+  factory_id    INTEGER REFERENCES factory(id),
   founded_year  INTEGER,
   story_short   TEXT NOT NULL
+);
+
+-- Cited sources for brand/factory facts (founding info, history, etc.) —
+-- one row per citation, many rows per parent, same shape as critic_review /
+-- lounge_external_rating. NEVER a single fixed source field on the parent:
+-- different facts (founding year vs. factory location) are often sourced
+-- from different places at different times.
+CREATE TABLE brand_source (
+  id            INTEGER PRIMARY KEY AUTOINCREMENT,
+  brand_id      INTEGER NOT NULL REFERENCES brand(id),
+  source_name   TEXT NOT NULL,
+  source_url    TEXT NOT NULL,
+  fact_note     TEXT NOT NULL,
+  retrieved_at  TEXT NOT NULL
+);
+
+CREATE TABLE factory_source (
+  id            INTEGER PRIMARY KEY AUTOINCREMENT,
+  factory_id    INTEGER NOT NULL REFERENCES factory(id),
+  source_name   TEXT NOT NULL,
+  source_url    TEXT NOT NULL,
+  fact_note     TEXT NOT NULL,
+  retrieved_at  TEXT NOT NULL
 );
 
 CREATE TABLE line (
@@ -203,3 +242,6 @@ CREATE INDEX idx_lounge_city ON lounge(city_slug);
 CREATE INDEX idx_lounge_external_rating_lounge ON lounge_external_rating(lounge_id);
 CREATE INDEX idx_cigar_release_brand ON cigar_release(brand_slug);
 CREATE INDEX idx_cigar_release_vitola ON cigar_release(related_vitola_id);
+CREATE INDEX idx_brand_factory ON brand(factory_id);
+CREATE INDEX idx_brand_source_brand ON brand_source(brand_id);
+CREATE INDEX idx_factory_source_factory ON factory_source(factory_id);

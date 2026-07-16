@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAllFactories } from '../../lib/db';
+
+const factories = getAllFactories();
+---
+
+<Layout
+  title="Cigar Factories | StickScore"
+  description="Every cigar factory recorded in the StickScore database, with origin, founding details, and the brands rolled there."
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">Factories</h1>
+    <p>Where the cigars in our catalog are actually rolled — one factory often makes cigars for several brands.</p>
+  </div>
+
+  <section class="section">
+    <div class="brand-directory">
+      {factories.map((f) => (
+        <a class="cigar-card" href={`/factories/${f.slug}/`}>
+          <div class="cigar-card__name">{f.name}</div>
+          <div class="cigar-card__score">
+            {f.city ? `${f.city}, ${f.country}` : f.country}{f.founded_year && ` · Founded ${f.founded_year}`}
+            {' · '}{f.brandCount} brand{f.brandCount === 1 ? '' : 's'}
+          </div>
+        </a>
+      ))}
+    </div>
+    {factories.length === 0 && (
+      <p class="placeholder-note">
+        No factory profiles yet — these are added as we research and source real facts about where
+        each brand's cigars are rolled.
+      </p>
+    )}
+  </section>
+</Layout>

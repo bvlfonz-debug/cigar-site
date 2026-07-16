@@ -18,8 +18,37 @@ export interface BrandRow {
   slug: string;
   country: string;
   factory: string | null;
+  factory_id: number | null;
   founded_year: number | null;
   story_short: string;
+}
+
+export interface FactoryRow {
+  id: number;
+  name: string;
+  slug: string;
+  country: string;
+  city: string | null;
+  founded_year: number | null;
+  history_text: string | null;
+}
+
+export interface BrandSourceRow {
+  id: number;
+  brand_id: number;
+  source_name: string;
+  source_url: string;
+  fact_note: string;
+  retrieved_at: string;
+}
+
+export interface FactorySourceRow {
+  id: number;
+  factory_id: number;
+  source_name: string;
+  source_url: string;
+  fact_note: string;
+  retrieved_at: string;
 }
 
 export interface LineRow {
@@ -115,6 +144,8 @@ export interface BrandPageLine extends LineRow {
 export interface BrandPageData {
   brand: BrandRow;
   lines: BrandPageLine[];
+  sources: BrandSourceRow[];
+  factory: FactoryRow | null;
 }
 
 export function getAllBrandSlugs(): string[] {
@@ -136,7 +167,63 @@ export function getBrandPage(brandSlug: string): BrandPageData | null {
     vitolas: db.prepare('SELECT * FROM vitola WHERE line_id = ? ORDER BY size_name').all(line.id) as VitolaRow[],
   }));
 
-  return { brand, lines: linesWithVitolas };
+  const sources = db.prepare('SELECT * FROM brand_source WHERE brand_id = ? ORDER BY retrieved_at DESC').all(brand.id) as BrandSourceRow[];
+  const factory = brand.factory_id != null
+    ? (db.prepare('SELECT * FROM factory WHERE id = ?').get(brand.factory_id) as FactoryRow | undefined) ?? null
+    : null;
+
+  return { brand, lines: linesWithVitolas, sources, factory };
+}
+
+// ---------------------------------------------------------------------------
+// Factory profiles
+// ---------------------------------------------------------------------------
+
+export interface FactoryPageBrand extends BrandRow {
+  lines: BrandPageLine[];
+}
+
+export interface FactoryPageData {
+  factory: FactoryRow;
+  brands: FactoryPageBrand[];
+  sources: FactorySourceRow[];
+}
+
+export function getAllFactorySlugs(): string[] {
+  return (getDb().prepare('SELECT slug FROM factory').all() as { slug: string }[]).map((r) => r.slug);
+}
+
+export function getFactoryById(id: number): FactoryRow | null {
+  return (getDb().prepare('SELECT * FROM factory WHERE id = ?').get(id) as FactoryRow | undefined) ?? null;
+}
+
+export function getAllFactories(): (FactoryRow & { brandCount: number })[] {
+  const db = getDb();
+  const factories = db.prepare('SELECT * FROM factory ORDER BY name').all() as FactoryRow[];
+  const countStmt = db.prepare('SELECT COUNT(*) AS n FROM brand WHERE factory_id = ?');
+  return factories.map((f) => ({ ...f, brandCount: (countStmt.get(f.id) as { n: number }).n }));
+}
+
+export function getFactoryPage(factorySlug: string): FactoryPageData | null {
+  const db = getDb();
+  const factory = db.prepare('SELECT * FROM factory WHERE slug = ?').get(factorySlug) as FactoryRow | undefined;
+  if (!factory) return null;
+
+  const brandRows = db.prepare('SELECT * FROM brand WHERE factory_id = ? ORDER BY name').all(factory.id) as BrandRow[];
+  const brands: FactoryPageBrand[] = brandRows.map((brand) => {
+    const lines = db.prepare('SELECT * FROM line WHERE brand_id = ? ORDER BY name').all(brand.id) as LineRow[];
+    return {
+      ...brand,
+      lines: lines.map((line) => ({
+        ...line,
+        vitolas: db.prepare('SELECT * FROM vitola WHERE line_id = ? ORDER BY size_name').all(line.id) as VitolaRow[],
+      })),
+    };
+  });
+
+  const sources = db.prepare('SELECT * FROM factory_source WHERE factory_id = ? ORDER BY retrieved_at DESC').all(factory.id) as FactorySourceRow[];
+
+  return { factory, brands, sources };
 }
 
 export interface SearchIndexEntry {

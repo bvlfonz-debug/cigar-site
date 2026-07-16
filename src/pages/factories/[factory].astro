@@ -1,0 +1,129 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAllFactorySlugs, getFactoryPage } from '../../lib/db';
+
+export function getStaticPaths() {
+  return getAllFactorySlugs().map((factory) => ({ params: { factory } }));
+}
+
+const { factory: factorySlug } = Astro.params;
+const data = getFactoryPage(factorySlug as string);
+
+if (!data) {
+  return new Response(null, { status: 404 });
+}
+
+const { factory, brands, sources } = data;
+
+const totalCigars = brands.reduce((sum, b) => sum + b.lines.reduce((s, l) => s + l.vitolas.length, 0), 0);
+const locationLabel = factory.city ? `${factory.city}, ${factory.country}` : factory.country;
+
+const pageTitle = `${factory.name} — Cigar Factory Profile | StickScore`;
+const pageDescription = `${factory.name} in ${locationLabel}: history, and every brand and cigar in our database rolled here.`;
+
+function formatDate(iso: string): string {
+  return new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+// Never emit a JSON-LD field without real data — omit foundingDate/address
+// pieces entirely rather than guessing, same discipline used everywhere else.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: factory.name,
+  ...(factory.founded_year != null ? { foundingDate: String(factory.founded_year) } : {}),
+  address: {
+    '@type': 'PostalAddress',
+    ...(factory.city ? { addressLocality: factory.city } : {}),
+    addressCountry: factory.country,
+  },
+};
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <div class="brand-hero">
+    <div class="cigar-hero__eyebrow">{locationLabel}</div>
+    <h1 class="brand-hero__title">{factory.name}</h1>
+    {factory.history_text ? (
+      <p>{factory.history_text}</p>
+    ) : (
+      <p class="placeholder-note">
+        Documented history not yet sourced for this factory — flagged for the owner to add once a
+        citable source is found. We don't invent history to fill the gap.
+      </p>
+    )}
+
+    <div class="brand-stats">
+      <div><strong>{brands.length}</strong> brand{brands.length === 1 ? '' : 's'}</div>
+      <div><strong>{totalCigars}</strong> cigars recorded</div>
+      {factory.founded_year && <div><strong>{factory.founded_year}</strong> founded</div>}
+    </div>
+  </div>
+
+  <section class="section">
+    <h2 class="section__heading">Sourced facts</h2>
+    {sources.length > 0 ? (
+      <ul class="sources-list">
+        {sources.map((s) => (
+          <li>
+            <a href={s.source_url} target="_blank" rel="noopener noreferrer">{s.source_name}</a>
+            &nbsp;&middot;&nbsp;
+            <span class="source-notes">{s.fact_note}</span>
+            &nbsp;&middot;&nbsp;
+            retrieved {formatDate(s.retrieved_at)}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="placeholder-note">
+        No cited sources recorded for this factory yet.
+      </p>
+    )}
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Brands rolled here</h2>
+    {brands.length > 0 ? (
+      <div class="search-results">
+        {brands.map((b) => (
+          <a class="cigar-card" href={`/brands/${b.slug}/`}>
+            <div class="cigar-card__name">{b.name}</div>
+            <div class="cigar-card__score">{b.country}</div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">
+        No brands are linked to this factory yet.
+      </p>
+    )}
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Cigars from this factory</h2>
+    {totalCigars > 0 ? (
+      brands.map((b) => (
+        b.lines.some((l) => l.vitolas.length > 0) && (
+          <div class="line-group">
+            <h3 class="line-group__name">{b.name}</h3>
+            <div class="search-results">
+              {b.lines.flatMap((line) => line.vitolas.map((v) => (
+                <a class="cigar-card" href={`/cigars/${b.slug}/${line.slug}/${v.slug}/`}>
+                  <div class="cigar-card__name">{line.name} {v.size_name}</div>
+                  <div class="cigar-card__score">
+                    StickScore {v.stick_score != null ? Math.round(v.stick_score) : 'insufficient data'}
+                  </div>
+                </a>
+              )))}
+            </div>
+          </div>
+        )
+      ))
+    ) : (
+      <p class="placeholder-note">
+        No cigars in our catalog are linked to this factory yet.
+      </p>
+    )}
+  </section>
+</Layout>

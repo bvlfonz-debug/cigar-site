@@ -13,7 +13,7 @@ if (!data) {
   return new Response(null, { status: 404 });
 }
 
-const { brand, lines } = data;
+const { brand, lines, sources, factory } = data;
 
 const allVitolas = lines.flatMap((l) => l.vitolas);
 const scored = allVitolas.filter((v) => v.stick_score != null);
@@ -21,9 +21,28 @@ const avgScore = scored.length > 0 ? scored.reduce((s, v) => s + (v.stick_score 
 
 const pageTitle = `${brand.name} Cigars — Lines, Vitolas & Scores | StickScore`;
 const pageDescription = `${brand.name}: ${brand.story_short}`;
+
+function formatDate(iso: string): string {
+  return new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+// Never emit a JSON-LD field without real data — foundingDate is omitted
+// entirely when founded_year isn't known, same discipline as every other
+// conditional field on this site.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: brand.name,
+  ...(brand.founded_year != null ? { foundingDate: String(brand.founded_year) } : {}),
+  address: {
+    '@type': 'PostalAddress',
+    addressCountry: brand.country,
+  },
+};
 ---
 
 <Layout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <div class="brand-hero">
     <div class="cigar-hero__eyebrow">{brand.country}</div>
     <h1 class="brand-hero__title">{brand.name}</h1>
@@ -36,6 +55,38 @@ const pageDescription = `${brand.name}: ${brand.story_short}`;
       {brand.founded_year && <div><strong>{brand.founded_year}</strong> founded</div>}
     </div>
   </div>
+
+  <section class="section">
+    <h2 class="section__heading">Factory</h2>
+    {factory ? (
+      <p>Rolled at <a href={`/factories/${factory.slug}/`}>{factory.name}</a>{factory.city && `, ${factory.city}`}, {factory.country}.</p>
+    ) : brand.factory ? (
+      <p>{brand.factory} — no dedicated factory profile yet.</p>
+    ) : (
+      <p class="placeholder-note">Factory not yet documented for this brand.</p>
+    )}
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Sourced facts</h2>
+    {sources.length > 0 ? (
+      <ul class="sources-list">
+        {sources.map((s) => (
+          <li>
+            <a href={s.source_url} target="_blank" rel="noopener noreferrer">{s.source_name}</a>
+            &nbsp;&middot;&nbsp;
+            <span class="source-notes">{s.fact_note}</span>
+            &nbsp;&middot;&nbsp;
+            retrieved {formatDate(s.retrieved_at)}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="placeholder-note">
+        No cited sources recorded for this brand's history yet.
+      </p>
+    )}
+  </section>
 
   <section class="section">
     <h2 class="section__heading">Catalog</h2>
