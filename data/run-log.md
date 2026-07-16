@@ -4,6 +4,24 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-07-16 — Weekday run, part 1: cigars night — 1 news brief, 2 price checks
+Today was a "cigars" night on the even/odd alternation with the accessories
+side (see CLAUDE.md).
+
+- **News**: added one brief — halfwheel's coverage of E.P. Carrillo's Deep
+  Blue Limited Edition 2026, a single 6 x 56 "Hades" toro extra (Jalapa,
+  Nicaragua wrapper, Honduran binder, Nicaraguan filler), $22/stick, capped
+  at 2,500 numbered boxes of 20. E.P. Carrillo is already in our database
+  but this Deep Blue line isn't yet, so the brief stands alone with no
+  linked cigar page.
+- **Prices checked** (both first-ever checks for these two, so nothing to
+  compare against and nothing flagged): Camacho Corojo Robusto ($185.99/box
+  of 20, JR Cigars), Alec Bradley Prensado Robusto ($292.99/box of 24, JR
+  Cigars). Couldn't pin down a clean box price for Davidoff Nicaragua Toro
+  (most retailers listed it in boxes of 12 without a clear box total, or the
+  page 404'd) — skipped rather than guess.
+- Site builds cleanly (1448 pages) after these additions.
+
 If an entry starts with **NEEDS-ATTENTION**, something didn't go cleanly and
 is worth a look. Otherwise, everything below was routine.
 
