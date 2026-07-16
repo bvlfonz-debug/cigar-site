@@ -13,9 +13,16 @@ if (!data) {
   return new Response(null, { status: 404 });
 }
 
-const { lounge } = data;
+const { lounge, ratings } = data;
 const amenities: string[] = JSON.parse(lounge.amenities);
 const cityDisplay = lounge.state ? `${lounge.city}, ${lounge.state}` : lounge.city;
+
+const CANONICAL_SOURCE: Record<string, string> = {
+  'Cigar Insider (Cigar Aficionado)': 'Cigar Aficionado',
+  'Cigar Insider': 'Cigar Aficionado',
+};
+const canonSource = (name: string) => CANONICAL_SOURCE[name] ?? name;
+const distinctSourceCount = new Set(ratings.map((r) => canonSource(r.source_name))).size;
 
 const walkInLabel: Record<string, string> = {
   'walk-in': 'Walk-in welcome',
@@ -45,6 +52,17 @@ const jsonLd = {
   },
   ...(lounge.phone ? { telephone: lounge.phone } : {}),
   ...(lounge.website ? { url: lounge.website } : {}),
+  ...(lounge.lounge_score != null
+    ? {
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: Math.round(lounge.lounge_score),
+          bestRating: 100,
+          worstRating: 0,
+          reviewCount: ratings.length,
+        },
+      }
+    : {}),
 };
 ---
 
@@ -54,6 +72,25 @@ const jsonLd = {
     <a class="cigar-hero__eyebrow" href={`/lounges/${lounge.city_slug}/`}>{cityDisplay}</a>
     <h1 class="cigar-hero__title">{lounge.name}</h1>
     <p class="cigar-hero__subtitle">{lounge.address}</p>
+
+    <div class="score-panel">
+      <div class="score-panel__number">
+        {lounge.lounge_score != null ? Math.round(lounge.lounge_score) : '—'}
+        <small>LoungeScore</small>
+      </div>
+      <div>
+        <div class="score-panel__label">
+          {lounge.lounge_score != null
+            ? <>Aggregate of {ratings.length} cited source{ratings.length === 1 ? '' : 's'}</>
+            : <>Insufficient data — {distinctSourceCount} of the 3 independent sources LoungeScore requires</>}
+        </div>
+        <div class="score-panel__meta">
+          {lounge.lounge_score != null
+            ? <>Editorial rankings are weighted 70% and platform ratings (Google, Yelp, TripAdvisor-style) 30%; recent (≤5yr) sources count double. This is a computed aggregate of cited external sources, presented as such — StickScore never publishes a first-hand lounge rating.</>
+            : <>We don't publish a score until at least 3 independent, cited external sources exist — padding the average with fewer would overstate how settled the consensus really is.</>}
+        </div>
+      </div>
+    </div>
   </div>
 
   <section class="section">
@@ -103,6 +140,26 @@ const jsonLd = {
     <p>{lounge.overview_text}</p>
   </section>
 
+  {ratings.length > 0 && (
+    <section class="section">
+      <h2 class="section__heading">Ratings</h2>
+      <ul class="sources-list">
+        {ratings.map((r) => (
+          <li>
+            <a href={r.url} target="_blank" rel="noopener noreferrer">{r.source_name}</a>
+            &nbsp;&middot;&nbsp;
+            <span class="source-score">{r.score}/{r.score_scale}</span>
+            {r.review_count != null && ` · ${r.review_count} reviews`}
+            &nbsp;&middot;&nbsp;
+            {new Date(r.rating_date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            {r.source_type === 'platform' && <span class="source-notes">Platform aggregate, not a single reviewer's verdict.</span>}
+            {r.key_notes_text && <span class="source-notes">{r.key_notes_text}</span>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
   {lounge.facts_source_url && (
     <section class="section">
       <h2 class="section__heading">Source</h2>
@@ -112,4 +169,12 @@ const jsonLd = {
       </p>
     </section>
   )}
+
+  <section class="section">
+    <h2 class="section__heading">What to bring</h2>
+    <p>
+      Browse <a href="/rankings/">top-rated cigars</a> by StickScore, or use
+      <a href="/search/">search</a> to filter by wrapper, strength, and price before you go.
+    </p>
+  </section>
 </Layout>

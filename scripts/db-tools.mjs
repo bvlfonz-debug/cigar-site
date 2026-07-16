@@ -10,7 +10,7 @@ import { DatabaseSync } from 'node:sqlite';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { computeStickScore, computeAccScore } from './lib/stickscore.mjs';
+import { computeStickScore, computeAccScore, computeLoungeScore } from './lib/stickscore.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dbPath = path.join(__dirname, '..', 'data', 'cigars.db');
@@ -100,6 +100,19 @@ function recomputeAccScore(accessoryId) {
     at({ id: accessoryId, acc_score: accScore })
   );
   return accScore;
+}
+
+function recomputeLoungeScore(loungeId) {
+  // lounge_external_rating stores rating_date (not review_date, since these
+  // are cited external platform aggregates or editorial rankings, not
+  // first-hand reviews) — map it to the key computeLoungeScore expects.
+  const ratings = db.prepare('SELECT * FROM lounge_external_rating WHERE lounge_id = ?').all(loungeId)
+    .map((r) => ({ ...r, review_date: r.rating_date }));
+  const loungeScore = computeLoungeScore(ratings, new Date());
+  db.prepare('UPDATE lounge SET lounge_score = @lounge_score WHERE id = @id').run(
+    at({ id: loungeId, lounge_score: loungeScore })
+  );
+  return loungeScore;
 }
 
 function readQueue() {
@@ -538,6 +551,40 @@ const commands = {
       facts_checked_at: payload.facts_checked_at ?? null,
     }));
     return { ok: true, lounge_id: result.lastInsertRowid, city_slug: citySlug };
+  },
+
+  // Phase C: lounge ratings — CITED EXTERNAL SOURCES ONLY (Google/Yelp/
+  // TripAdvisor-style platform aggregates, or genuine dated editorial
+  // rankings). Never a first-hand rating. Same 3-independent-source
+  // minimum and aggregation rules as StickScore/AccScore.
+  'add-lounge-external-rating'(payload) {
+    const { lounge } = resolveLounge(payload.path);
+    const required = ['source_name', 'score', 'score_scale', 'rating_date', 'url'];
+    for (const field of required) {
+      if (payload[field] == null) fail(`add-lounge-external-rating requires "${field}"`);
+    }
+    db.prepare(`
+      INSERT INTO lounge_external_rating (lounge_id, source_name, source_type, score, score_scale, review_count, rating_date, url, key_notes_text)
+      VALUES (@lounge_id, @source_name, @source_type, @score, @score_scale, @review_count, @rating_date, @url, @key_notes_text)
+    `).run(at({
+      lounge_id: lounge.id,
+      source_name: payload.source_name,
+      source_type: payload.source_type ?? 'platform',
+      score: payload.score,
+      score_scale: payload.score_scale,
+      review_count: payload.review_count ?? null,
+      rating_date: payload.rating_date,
+      url: payload.url,
+      key_notes_text: payload.key_notes_text ?? null,
+    }));
+    const loungeScore = recomputeLoungeScore(lounge.id);
+    return { ok: true, lounge_id: lounge.id, lounge_score: loungeScore };
+  },
+
+  'recompute-lounge-score'(payload) {
+    const { lounge } = resolveLounge(payload.path);
+    const loungeScore = recomputeLoungeScore(lounge.id);
+    return { ok: true, lounge_score: loungeScore };
   },
 };
 

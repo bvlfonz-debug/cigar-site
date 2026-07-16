@@ -15,7 +15,12 @@ if (!data) {
 
 const { cityLabel, state, lounges } = data;
 const cityDisplay = state ? `${cityLabel}, ${state}` : cityLabel;
-const sorted = [...lounges].sort((a, b) => a.name.localeCompare(b.name));
+const sorted = [...lounges].sort((a, b) => {
+  if (a.lounge_score != null && b.lounge_score != null) return b.lounge_score - a.lounge_score;
+  if (a.lounge_score != null) return -1;
+  if (b.lounge_score != null) return 1;
+  return a.name.localeCompare(b.name);
+});
 ---
 
 <Layout
@@ -33,7 +38,9 @@ const sorted = [...lounges].sort((a, b) => a.name.localeCompare(b.name));
         {sorted.map((l) => (
           <a class="cigar-card" href={`/lounges/${l.city_slug}/${l.slug}/`}>
             <div class="cigar-card__name">{l.name}</div>
-            <div class="cigar-card__score">{l.address}</div>
+            <div class="cigar-card__score">
+              LoungeScore {l.lounge_score != null ? Math.round(l.lounge_score) : 'insufficient data'}
+            </div>
           </a>
         ))}
       </div>

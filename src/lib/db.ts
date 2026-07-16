@@ -538,6 +538,19 @@ export interface LoungeRow {
   facts_checked_at: string | null;
 }
 
+export interface LoungeExternalRatingRow {
+  id: number;
+  lounge_id: number;
+  source_name: string;
+  source_type: 'critic' | 'platform';
+  score: number;
+  score_scale: number;
+  review_count: number | null;
+  rating_date: string;
+  url: string;
+  key_notes_text: string | null;
+}
+
 export interface LoungeCitySummary {
   city_slug: string;
   city: string;
@@ -574,11 +587,16 @@ export function getLoungesByCity(citySlug: string): { cityLabel: string; state: 
   return { cityLabel: cityRow.city, state: cityRow.state, lounges };
 }
 
-export function getLoungePage(citySlug: string, slug: string): { lounge: LoungeRow } | null {
-  const lounge = getDb()
+export function getLoungePage(citySlug: string, slug: string): { lounge: LoungeRow; ratings: LoungeExternalRatingRow[] } | null {
+  const db = getDb();
+  const lounge = db
     .prepare('SELECT * FROM lounge WHERE city_slug = ? AND slug = ?')
     .get(citySlug, slug) as LoungeRow | undefined;
   if (!lounge) return null;
 
-  return { lounge };
+  const ratings = db
+    .prepare('SELECT * FROM lounge_external_rating WHERE lounge_id = ? ORDER BY rating_date DESC')
+    .all(lounge.id) as LoungeExternalRatingRow[];
+
+  return { lounge, ratings };
 }
