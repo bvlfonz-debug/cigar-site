@@ -919,5 +919,76 @@
     ],
     "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
     "decision": null
+  },
+  {
+    "item": "Colibri Julius (soft-flame lighter)",
+    "path": "/accessories/soft-flame-lighters/julius/",
+    "reason": "insufficient_sources",
+    "why_flagged": "No source with a confirmable numeric score was found (Cigar Aficionado, Simply Stogies, Cigar Inspector, and a YouTube comparison all cover this product but only with qualitative descriptions).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "Simply Stogies",
+      "Cigar Inspector",
+      "YouTube (Colibri Julius Review: Can It Rival S.T. Dupont?)"
+    ],
+    "proposed_action": "Look for a retailer aggregate rating (e.g. Cigar.com, Famous Smoke Shop) with a numeric score and review count for this product.",
+    "decision": null
+  },
+  {
+    "item": "IM Corona Old Boy (soft-flame lighter)",
+    "path": "/accessories/soft-flame-lighters/old-boy/",
+    "reason": "insufficient_sources",
+    "why_flagged": "No source with a confirmable numeric score was found (Cigar Forums, Cigar Manor, and Brothers of Briar all discuss this product qualitatively; no major outlet like Cigar Aficionado has reviewed it).",
+    "sources_found": [
+      "Cigar Forums",
+      "Cigar Manor",
+      "Brothers of Briar"
+    ],
+    "proposed_action": "Look for a retailer aggregate rating with a numeric score and review count for this product.",
+    "decision": null
+  },
+  {
+    "item": "Xikar Executive Ashtray Can (Leather Wrapped)",
+    "path": "/accessories/ashtrays/executive-ashtray-can-leather/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source with a numeric score found (StickScore/AccScore requires 3); a YouTube review and a Cigar Forums thread cover it qualitatively but without a numeric score.",
+    "sources_found": [
+      "Amazon"
+    ],
+    "proposed_action": "Check other major retailers (Cigar.com, Famous Smoke Shop) for an aggregate rating with a review count.",
+    "decision": null
+  },
+  {
+    "item": "Visol Iris Metal and Wood Cigar Ashtray",
+    "path": "/accessories/ashtrays/iris-metal-and-wood/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source with a numeric score found (StickScore/AccScore requires 3).",
+    "sources_found": [
+      "Amazon"
+    ],
+    "proposed_action": "Check other major retailers for an aggregate rating with a review count, or dedicated ashtray review coverage.",
+    "decision": null
+  },
+  {
+    "item": "Cigar Dossier Personal Cigar Journal",
+    "path": "/accessories/journals-stands/personal-cigar-journal/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source with a numeric score found (StickScore/AccScore requires 3). A Cigar Forums thread discusses it but the site is now paywalled and its content could not be verified.",
+    "sources_found": [
+      "Amazon"
+    ],
+    "proposed_action": "Check other retailers for an aggregate rating with a review count.",
+    "decision": null
+  },
+  {
+    "item": "Doug Torralba Press Cigar Journal (Flavor Wheel)",
+    "path": "/accessories/journals-stands/blank-tasting-review-log-flavor-wheel/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source with a numeric score found (StickScore/AccScore requires 3) - this is a self-published title with no independent review coverage found beyond its Amazon aggregate.",
+    "sources_found": [
+      "Amazon"
+    ],
+    "proposed_action": "This is a thin-coverage, self-published title; unlikely more independent coverage exists. Consider whether it meets the bar for inclusion going forward.",
+    "decision": null
   }
 ]
