@@ -852,5 +852,72 @@
     ],
     "proposed_action": "Research Illusione's CURRENT factory situation (which lines are made where today) and either correct brand.factory's free text or set factory_id to the right profile — TABSA may be worth its own factory profile given AGANORSA/Fernández family ownership.",
     "decision": null
+  },
+  {
+    "item": "AJ Fernandez New World Robusto",
+    "path": "/cigars/aj-fernandez/new-world/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "He Spoke Style",
+      "The Cigar Authority"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Davidoff Nicaragua Robusto",
+    "path": "/cigars/davidoff/nicaragua/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3). Two additional reviews (Cigar Inspector, Leaf Enthusiast) were located but their exact publish dates could not be verified - excluded rather than guessing a date.",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Confirm publish dates for the Cigar Inspector and Leaf Enthusiast reviews (https://www.cigarinspector.com/ci/davidoff-nicaragua-robusto/, https://www.leafenthusiast.com/cigar-review-davidoff-nicaragua-2/) and add them if dates check out, or search for other coverage.",
+    "decision": null
+  },
+  {
+    "item": "Rocky Patel Decade Robusto",
+    "path": "/cigars/rocky-patel/decade/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3). A Famous Smoke Shop/Cigar Advisor review (8.6/10) was located but carries no confirmable publish date - excluded rather than guessing a date.",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Confirm a publish date for the Famous Smoke Shop review (https://www.famous-smoke.com/cigaradvisor/cigar-reviews/rocky-patel-decade-robusto-cigar-review) and add it if one can be found, or search for other coverage.",
+    "decision": null
+  },
+  {
+    "item": "Crowned Heads Le Carême Hermoso No. 1",
+    "path": "/cigars/crowned-heads/le-careme/hermoso-no-1/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Fine Tobacco Club"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola (not to be confused with the already-catalogued Robusto size).",
+    "decision": null
+  },
+  {
+    "item": "Padrón 1964 Anniversary Series Maduro Torpedo",
+    "path": "/cigars/padron/1964-anniversary-maduro/torpedo/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3). A Cigar Inspector review gave category subscores (appearance, construction) but no confirmable overall composite score, so it was excluded rather than guessed.",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Aging Room Quattro Nicaragua Vibrato",
+    "path": "/cigars/aging-room/quattro-nicaragua/vibrato/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3). A widely-cited \"96-point Cigar Aficionado Cigar of the Year 2019\" claim was verified to actually belong to the Maestro vitola (already catalogued), not Vibrato - excluded to avoid misattribution.",
+    "sources_found": [
+      "The Cigar Authority"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
   }
 ]
