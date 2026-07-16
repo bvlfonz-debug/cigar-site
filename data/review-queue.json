@@ -751,5 +751,85 @@
     "sources_found": [],
     "proposed_action": "Research a citable source and call add-brand-source/add-factory-source, then update-brand/update-factory to fill the field.",
     "decision": null
+  },
+  {
+    "item": "Ashton VSG Torpedo",
+    "path": "/cigars/ashton/vsg/torpedo/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Alec Bradley Prensado Churchill",
+    "path": "/cigars/alec-bradley/prensado/churchill/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "CAO Brazilia Amazon",
+    "path": "/cigars/cao/brazilia/amazon/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Illusione Epernay Le Ferme",
+    "path": "/cigars/illusione/epernay/le-ferme/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "The Cigar Authority"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Perdomo 20th Anniversary Sun Grown Churchill",
+    "path": "/cigars/perdomo/20th-anniversary-sun-grown/churchill/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "E.P. Carrillo Encore Celestial",
+    "path": "/cigars/ep-carrillo/encore/celestial/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "Cigar Dojo"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Developing Palates, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "H. Upmann 1844 Reserve Toro",
+    "path": "/cigars/h-upmann/1844-reserve/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "CigarScore.com"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
   }
 ]
