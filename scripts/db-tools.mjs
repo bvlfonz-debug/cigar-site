@@ -79,6 +79,21 @@ function resolveLounge(p) {
   return { lounge };
 }
 
+function parseReleasePath(p) {
+  const parts = p.split('/').filter(Boolean);
+  if (parts.length !== 2 || parts[0] !== 'calendar') {
+    fail(`Invalid release path "${p}" — expected /calendar/<slug>/`);
+  }
+  return { slug: parts[1] };
+}
+
+function resolveRelease(p) {
+  const { slug } = parseReleasePath(p);
+  const release = db.prepare('SELECT * FROM cigar_release WHERE slug = ?').get(slug);
+  if (!release) fail(`No release found with slug "${slug}"`);
+  return { release };
+}
+
 // Small local slugify — scripts/ doesn't import from src/ anywhere else in
 // this project (scripts/lib/stickscore.mjs is a standalone duplicate, not a
 // shared import), so this stays a duplicate rather than crossing that
@@ -585,6 +600,107 @@ const commands = {
     const { lounge } = resolveLounge(payload.path);
     const loungeScore = recomputeLoungeScore(lounge.id);
     return { ok: true, lounge_score: loungeScore };
+  },
+
+  // Cigar Release Calendar — same auto-publish tier as add-news-item (a
+  // cited report, not a new catalog entity), NOT queue-gated like
+  // add-brand/add-line/add-lounge. A real source_name/source_url is
+  // required on every row instead.
+  'find-release'(payload) {
+    const { release } = resolveRelease(payload.path);
+    return { release };
+  },
+
+  'add-release'(payload) {
+    const required = ['brand_name', 'line_name', 'announced_date', 'summary_text', 'source_name', 'source_url'];
+    for (const field of required) {
+      if (payload[field] == null) fail(`add-release requires "${field}"`);
+    }
+    const year = String(payload.announced_date).slice(0, 4);
+    const slug = slugify(`${payload.brand_name}-${payload.line_name}-${year}`);
+    const existing = db.prepare('SELECT id FROM cigar_release WHERE slug = ?').get(slug);
+    if (existing) fail(`Release "${slug}" already exists (id ${existing.id}) — use update-release instead`);
+
+    let brandSlug = null;
+    if (payload.brand_slug != null) {
+      const brand = db.prepare('SELECT slug FROM brand WHERE slug = ?').get(payload.brand_slug);
+      if (!brand) fail(`No brand found with slug "${payload.brand_slug}"`);
+      brandSlug = brand.slug;
+    }
+
+    if (payload.release_month != null && !/^\d{4}-\d{2}$/.test(payload.release_month)) {
+      fail(`release_month must be in "YYYY-MM" format, got "${payload.release_month}"`);
+    }
+
+    let relatedNewsItemId = null;
+    if (payload.related_news_item_id != null) {
+      const newsItem = db.prepare('SELECT id FROM news_item WHERE id = ?').get(payload.related_news_item_id);
+      if (!newsItem) fail(`No news_item found with id "${payload.related_news_item_id}"`);
+      relatedNewsItemId = newsItem.id;
+    }
+
+    const result = db.prepare(`
+      INSERT INTO cigar_release (
+        slug, brand_name, brand_slug, line_name, announced_date, release_month,
+        release_date_text, summary_text, source_name, source_url, related_vitola_id, related_news_item_id
+      ) VALUES (
+        @slug, @brand_name, @brand_slug, @line_name, @announced_date, @release_month,
+        @release_date_text, @summary_text, @source_name, @source_url, NULL, @related_news_item_id
+      )
+    `).run(at({
+      slug,
+      brand_name: payload.brand_name,
+      brand_slug: brandSlug,
+      line_name: payload.line_name,
+      announced_date: payload.announced_date,
+      release_month: payload.release_month ?? null,
+      release_date_text: payload.release_date_text ?? null,
+      summary_text: payload.summary_text,
+      source_name: payload.source_name,
+      source_url: payload.source_url,
+      related_news_item_id: relatedNewsItemId,
+    }));
+    return { ok: true, release_id: result.lastInsertRowid, slug };
+  },
+
+  // Only touches fields actually passed in, mirroring update-vitola-copy.
+  'update-release'(payload) {
+    const { release } = resolveRelease(payload.path);
+    const sets = [];
+    const params = { id: release.id };
+
+    if (payload.release_month != null) {
+      if (!/^\d{4}-\d{2}$/.test(payload.release_month)) {
+        fail(`release_month must be in "YYYY-MM" format, got "${payload.release_month}"`);
+      }
+      sets.push('release_month = @release_month');
+      params.release_month = payload.release_month;
+    }
+    if (payload.release_date_text != null) {
+      sets.push('release_date_text = @release_date_text');
+      params.release_date_text = payload.release_date_text;
+    }
+    if (payload.summary_text != null) {
+      sets.push('summary_text = @summary_text');
+      params.summary_text = payload.summary_text;
+    }
+    if (payload.related_vitola_path != null) {
+      const { vitola } = resolveVitola(payload.related_vitola_path);
+      sets.push('related_vitola_id = @related_vitola_id');
+      params.related_vitola_id = vitola.id;
+    }
+    if (payload.related_news_item_id != null) {
+      const newsItem = db.prepare('SELECT id FROM news_item WHERE id = ?').get(payload.related_news_item_id);
+      if (!newsItem) fail(`No news_item found with id "${payload.related_news_item_id}"`);
+      sets.push('related_news_item_id = @related_news_item_id');
+      params.related_news_item_id = newsItem.id;
+    }
+
+    if (sets.length === 0) {
+      fail('update-release requires at least one of: release_month, release_date_text, summary_text, related_vitola_path, related_news_item_id');
+    }
+    db.prepare(`UPDATE cigar_release SET ${sets.join(', ')} WHERE id = @id`).run(at(params));
+    return { ok: true };
   },
 };
 

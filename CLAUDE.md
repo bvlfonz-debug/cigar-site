@@ -78,6 +78,10 @@ restrained, not flashy. No stock-photo cigar clichés, no gimmicks.
   history is a core feature.
 - **news_item**: id, title, summary, source_name, source_url, published_at,
   related_vitola_ids (JSON array)
+- **cigar_release**: id, slug, brand_name, brand_slug, line_name,
+  announced_date, release_month, release_date_text, summary_text,
+  source_name, source_url, related_vitola_id, related_news_item_id — see
+  "Cigar Release Calendar" below
 - **review_queue**: human-approval queue, stored as `data/review-queue.json`
 
 ## StickScore — the aggregate scoring system
@@ -125,11 +129,15 @@ restrained, not flashy. No stock-photo cigar clichés, no gimmicks.
 - `/deals` — auto-flagged: anything currently priced >15% below its trailing
   90-day average
 - `/news` — daily briefs generated from news_items
+- `/calendar` — upcoming and recent cigar releases, filterable by month/brand;
+  see "Cigar Release Calendar" below
 - `/search` — faceted filter: wrapper, strength, country, price, score
 - Homepage: featured cigars, latest news, biggest movers, top-rated
 
 ## SEO
 - Product + AggregateRating JSON-LD on every cigar page; Article on news
+- Product + releaseDate JSON-LD on the release calendar, only emitted when a
+  specific month is actually known
 - Clean slugs, canonical URLs, sitemap regenerated every build
 - Internal linking: every page links to parents, siblings, 3-5 similar cigars
 - Meta descriptions generated from the data, unique per page
@@ -348,6 +356,55 @@ B) Seed a real batch of lounges across several cities — facts only, still
 C) Populate `lounge_external_rating` from cited platforms, activate
    LoungeScore display, fold lounges into the nightly automation's
    3-way rotation, add cross-links to/from guides and cigar pages. DONE.
+
+## Cigar Release Calendar
+A chronological view of upcoming and recent cigar releases (`/calendar`),
+pairing with — not replacing — the news feed. `cigar_release` rows are a
+citation about a reported event, structurally identical to `news_item`, NOT
+a new catalog entity — so they are auto-published (same tier as "news
+briefs citing established outlets" in the Publish Gate below), never
+queue-gated the way new brands/lines/lounges are. The one non-negotiable
+requirement carried over from everywhere else on this site: a release date
+is a claim, and a real `source_name`/`source_url` is required on every row,
+full stop.
+
+### Data model
+- **cigar_release**: id, slug, brand_name, brand_slug (nullable, only ever
+  set once validated against an existing `brand.slug`), line_name,
+  announced_date, release_month ('YYYY-MM', nullable), release_date_text
+  (free-text fallback for vague timing, e.g. "Fall 2026" — NEVER fabricate
+  a specific month a source didn't give), summary_text (original synthesis,
+  same rule as everywhere else), source_name, source_url, related_vitola_id
+  (nullable, set once the release enters the main catalog), related_news_item_id
+  (nullable, cross-links to a corresponding news brief).
+- No `status` column — "released" vs. "still upcoming" is derived purely
+  from whether `related_vitola_id` is non-null, the same null-as-signal
+  pattern used for `stick_score`/`acc_score`/`lounge_score`.
+- `slug` is `slugify(brand_name-line_name-announcement_year)`, computed by
+  `db-tools.mjs`'s `add-release` command, so a real recurring limited-edition
+  release announced in different years doesn't collide.
+
+### Pages
+- `/calendar` — single flat page (same tier as `/news`, not per-month
+  routes), two sections: Upcoming (`related_vitola_id` null, sorted by
+  `release_month` ascending with a "Date TBD" bucket for `release_date_text`-only
+  entries) and Recently released (`related_vitola_id` set, sorted by
+  `announced_date` descending). Client-side month/brand filter dropdowns —
+  the full dataset stays server-rendered regardless of filter state, so the
+  page stays fully crawlable. Cross-links: a "Now in our database →" link
+  when `related_vitola_id` is set, a "As reported in our news feed →" link
+  when `related_news_item_id` is set (and the reverse: a news item with a
+  matching `cigar_release.related_news_item_id` shows a "See it on the
+  release calendar →" link back).
+
+### Nightly automation folding — two ingest triggers that make the cross-links real
+1. Whenever the nightly ingest adds a new vitola (`add-vitola`), check
+   `cigar_release` for an unlinked entry (`related_vitola_id IS NULL`) whose
+   `brand_name`/`line_name` match (case-insensitive) the new brand/line, and
+   if found, call `update-release` to link it.
+2. Whenever the nightly ingest writes a news brief that is itself reporting
+   a release, call `add-release` (or `update-release` on an existing entry)
+   with `related_news_item_id` set to the new news item's id, in the same pass.
 
 ## Affiliate configuration
 - `config/affiliates.json` holds retailer names, tracking IDs, and URL

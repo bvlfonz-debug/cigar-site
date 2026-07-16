@@ -308,6 +308,7 @@ export interface RelatedCigar {
 
 export interface NewsItemWithRelated extends NewsItemRow {
   relatedCigars: RelatedCigar[];
+  relatedReleaseSlug: string | null;
 }
 
 export function getAllNewsItems(): NewsItemWithRelated[] {
@@ -320,16 +321,68 @@ export function getAllNewsItems(): NewsItemWithRelated[] {
     FROM vitola JOIN line ON line.id = vitola.line_id JOIN brand ON brand.id = line.brand_id
     WHERE vitola.id = ?
   `);
+  // Bidirectional cross-link with the Cigar Release Calendar: a release row
+  // may point back at the news item that reported it.
+  const releaseByNewsItem = new Map(
+    (db.prepare('SELECT related_news_item_id, slug FROM cigar_release WHERE related_news_item_id IS NOT NULL').all() as { related_news_item_id: number; slug: string }[])
+      .map((r) => [r.related_news_item_id, r.slug])
+  );
 
   return rows.map((r) => {
     const ids = JSON.parse(r.related_vitola_ids) as number[];
     const relatedCigars = ids.map((id) => relatedStmt.get(id) as RelatedCigar | undefined).filter((c): c is RelatedCigar => !!c);
-    return { ...r, relatedCigars };
+    return { ...r, relatedCigars, relatedReleaseSlug: releaseByNewsItem.get(r.id) ?? null };
   });
 }
 
 export function getLatestNewsItems(limit = 3): NewsItemWithRelated[] {
   return getAllNewsItems().slice(0, limit);
+}
+
+// ---------------------------------------------------------------------------
+// Cigar Release Calendar
+// ---------------------------------------------------------------------------
+
+export interface CigarReleaseRow {
+  id: number;
+  slug: string;
+  brand_name: string;
+  brand_slug: string | null;
+  line_name: string;
+  announced_date: string;
+  release_month: string | null;
+  release_date_text: string | null;
+  summary_text: string;
+  source_name: string;
+  source_url: string;
+  related_vitola_id: number | null;
+  related_news_item_id: number | null;
+}
+
+export interface CigarReleaseWithRelated extends CigarReleaseRow {
+  relatedCigar: RelatedCigar | null;
+  relatedNewsItem: { id: number; title: string; published_at: string } | null;
+}
+
+export function getAllCigarReleases(): CigarReleaseWithRelated[] {
+  const db = getDb();
+  const rows = db.prepare('SELECT * FROM cigar_release').all() as CigarReleaseRow[];
+  const vitolaStmt = db.prepare(`
+    SELECT brand.name AS brandName, brand.slug AS brandSlug,
+           line.name AS lineName, line.slug AS lineSlug,
+           vitola.size_name AS vitolaSizeName, vitola.slug AS vitolaSlug
+    FROM vitola JOIN line ON line.id = vitola.line_id JOIN brand ON brand.id = line.brand_id
+    WHERE vitola.id = ?
+  `);
+  const newsStmt = db.prepare('SELECT id, title, published_at FROM news_item WHERE id = ?');
+
+  return rows.map((r) => ({
+    ...r,
+    relatedCigar: r.related_vitola_id != null ? (vitolaStmt.get(r.related_vitola_id) as RelatedCigar | undefined) ?? null : null,
+    relatedNewsItem: r.related_news_item_id != null
+      ? (newsStmt.get(r.related_news_item_id) as { id: number; title: string; published_at: string } | undefined) ?? null
+      : null,
+  }));
 }
 
 export interface CompareCigarEntry {

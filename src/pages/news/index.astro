@@ -39,7 +39,7 @@ const jsonLd = {
     {newsItems.length > 0 ? (
       <div class="news-list">
         {newsItems.map((n) => (
-          <article class="news-item">
+          <article class="news-item" id={`news-${n.id}`}>
             <div class="news-item__date">{formatDate(n.published_at)}</div>
             <h2 class="news-item__title">{n.title}</h2>
             <p>{n.summary}</p>
@@ -54,6 +54,11 @@ const jsonLd = {
                       <a href={`/cigars/${c.brandSlug}/${c.lineSlug}/${c.vitolaSlug}/`}>{c.brandName} {c.vitolaSizeName}</a>
                     </>
                   ))}
+                </>
+              )}
+              {n.relatedReleaseSlug && (
+                <>
+                  {' · '}<a href={`/calendar/#release-${n.relatedReleaseSlug}`}>See it on the release calendar &rarr;</a>
                 </>
               )}
             </div>

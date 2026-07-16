@@ -79,6 +79,28 @@ CREATE TABLE news_item (
   related_vitola_ids  TEXT NOT NULL DEFAULT '[]'
 );
 
+-- Cigar Release Calendar — pairs with news_item but tracks a release's own
+-- lifecycle (announced -> released) separately from ad-hoc news briefs.
+-- See CLAUDE.md "Cigar Release Calendar" for the authoritative field
+-- descriptions. Same auto-publish tier as news_item: a real source_name/
+-- source_url is required, but this is not a new catalog entity so it does
+-- NOT go through the queue-add review flow the way new brands/lines do.
+CREATE TABLE cigar_release (
+  id                    INTEGER PRIMARY KEY AUTOINCREMENT,
+  slug                  TEXT NOT NULL UNIQUE,
+  brand_name            TEXT NOT NULL,
+  brand_slug            TEXT REFERENCES brand(slug),
+  line_name             TEXT NOT NULL,
+  announced_date        TEXT NOT NULL,
+  release_month         TEXT,
+  release_date_text     TEXT,
+  summary_text          TEXT NOT NULL,
+  source_name           TEXT NOT NULL,
+  source_url            TEXT NOT NULL,
+  related_vitola_id     INTEGER REFERENCES vitola(id),
+  related_news_item_id  INTEGER REFERENCES news_item(id)
+);
+
 -- Accessories Expansion (non-tobacco: humidors, cutters, lighters, etc.) —
 -- see CLAUDE.md "Accessories Expansion" for the authoritative field descriptions.
 
@@ -179,3 +201,5 @@ CREATE INDEX idx_accessory_review_accessory ON accessory_review(accessory_id);
 CREATE INDEX idx_accessory_price_point_accessory ON accessory_price_point(accessory_id);
 CREATE INDEX idx_lounge_city ON lounge(city_slug);
 CREATE INDEX idx_lounge_external_rating_lounge ON lounge_external_rating(lounge_id);
+CREATE INDEX idx_cigar_release_brand ON cigar_release(brand_slug);
+CREATE INDEX idx_cigar_release_vitola ON cigar_release(related_vitola_id);

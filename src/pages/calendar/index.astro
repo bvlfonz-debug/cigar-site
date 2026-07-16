@@ -1,0 +1,186 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getAllCigarReleases } from '../../lib/db';
+
+const releases = getAllCigarReleases();
+
+function formatDate(iso: string): string {
+  return new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+function formatMonth(ym: string): string {
+  const [y, m] = ym.split('-').map(Number);
+  return new Date(y, m - 1, 1).toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+}
+
+const upcoming = releases
+  .filter((r) => r.related_vitola_id == null)
+  .sort((a, b) => {
+    if (a.release_month && b.release_month) return a.release_month.localeCompare(b.release_month);
+    if (a.release_month) return -1;
+    if (b.release_month) return 1;
+    return a.announced_date.localeCompare(b.announced_date);
+  });
+
+const recentlyReleased = releases
+  .filter((r) => r.related_vitola_id != null)
+  .sort((a, b) => b.announced_date.localeCompare(a.announced_date));
+
+// Product + releaseDate (not Event — schema.org's Event type is built for
+// attendable happenings with a venue/start-end window, neither of which
+// applies here). Only emitted when a specific month is actually known —
+// never claim a date for a "Fall 2026"-only entry.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': releases
+    .filter((r) => r.release_month != null)
+    .map((r) => ({
+      '@type': 'Product',
+      name: `${r.brand_name} ${r.line_name}`,
+      brand: { '@type': 'Brand', name: r.brand_name },
+      description: r.summary_text,
+      releaseDate: r.release_month,
+    })),
+};
+---
+
+<Layout
+  title="Cigar Release Calendar | StickScore"
+  description="Upcoming and recent cigar releases, sourced and cited — filterable by month and brand."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+  <div class="home-hero">
+    <h1 class="home-hero__title">Release Calendar</h1>
+    <p>
+      Announced and recent cigar releases, each with a source citation — original summaries with
+      a link back to the outlet that reported it, never copied text. When a release enters our
+      main database with a full review page, we link straight to it.
+    </p>
+  </div>
+
+  <section class="section">
+    <div class="search-filters">
+      <label>
+        Month
+        <select id="filter-month"><option value="">All</option></select>
+      </label>
+      <label>
+        Brand
+        <select id="filter-brand"><option value="">All</option></select>
+      </label>
+    </div>
+
+    <h2 class="section__heading">Upcoming</h2>
+    {upcoming.length > 0 ? (
+      <div class="news-list" id="upcoming-list">
+        {upcoming.map((r) => (
+          <article
+            class="news-item release-entry"
+            id={`release-${r.slug}`}
+            data-month={r.release_month ?? ''}
+            data-brand={r.brand_name}
+          >
+            <div class="news-item__date">
+              {r.release_month ? formatMonth(r.release_month) : (r.release_date_text ?? 'Date TBD')}
+            </div>
+            <h3 class="news-item__title">
+              {r.brand_slug ? <a href={`/brands/${r.brand_slug}/`}>{r.brand_name}</a> : r.brand_name} {r.line_name}
+            </h3>
+            <p>{r.summary_text}</p>
+            <div class="news-item__meta">
+              Announced {formatDate(r.announced_date)} &middot; Source:{' '}
+              <a href={r.source_url} target="_blank" rel="noopener noreferrer">{r.source_name}</a>
+              {r.relatedNewsItem && (
+                <>
+                  {' · '}<a href={`/news/#news-${r.relatedNewsItem.id}`}>As reported in our news feed &rarr;</a>
+                </>
+              )}
+            </div>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">Nothing announced yet — this grows as new releases are reported.</p>
+    )}
+
+    <h2 class="section__heading">Recently released</h2>
+    {recentlyReleased.length > 0 ? (
+      <div class="news-list" id="released-list">
+        {recentlyReleased.map((r) => (
+          <article
+            class="news-item release-entry"
+            id={`release-${r.slug}`}
+            data-month={r.release_month ?? ''}
+            data-brand={r.brand_name}
+          >
+            <div class="news-item__date">{formatDate(r.announced_date)}</div>
+            <h3 class="news-item__title">
+              {r.brand_slug ? <a href={`/brands/${r.brand_slug}/`}>{r.brand_name}</a> : r.brand_name} {r.line_name}
+            </h3>
+            <p>{r.summary_text}</p>
+            <div class="news-item__meta">
+              Source: <a href={r.source_url} target="_blank" rel="noopener noreferrer">{r.source_name}</a>
+              {r.relatedCigar && (
+                <>
+                  {' · '}
+                  <a href={`/cigars/${r.relatedCigar.brandSlug}/${r.relatedCigar.lineSlug}/${r.relatedCigar.vitolaSlug}/`}>
+                    Now in our database &rarr;
+                  </a>
+                </>
+              )}
+              {r.relatedNewsItem && (
+                <>
+                  {' · '}<a href={`/news/#news-${r.relatedNewsItem.id}`}>As reported in our news feed &rarr;</a>
+                </>
+              )}
+            </div>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">Nothing recorded here yet — entries move here once the released cigar enters our main database.</p>
+    )}
+    <p id="calendar-empty" class="search-empty" hidden>No releases match that filter.</p>
+  </section>
+</Layout>
+
+<script>
+  function populate(selectId: string, entries: HTMLElement[], attr: string) {
+    const select = document.getElementById(selectId) as HTMLSelectElement | null;
+    if (!select) return;
+    const values = entries.map((e) => e.dataset[attr]).filter((v): v is string => !!v);
+    const unique = Array.from(new Set(values)).sort();
+    for (const v of unique) {
+      const opt = document.createElement('option');
+      opt.value = v;
+      opt.textContent = attr === 'month' ? new Date(Number(v.split('-')[0]), Number(v.split('-')[1]) - 1, 1).toLocaleDateString('en-US', { year: 'numeric', month: 'long' }) : v;
+      select.appendChild(opt);
+    }
+  }
+
+  const entries = Array.from(document.querySelectorAll<HTMLElement>('.release-entry'));
+  populate('filter-month', entries, 'month');
+  populate('filter-brand', entries, 'brand');
+
+  const emptyEl = document.getElementById('calendar-empty') as HTMLElement;
+
+  function render() {
+    const month = (document.getElementById('filter-month') as HTMLSelectElement).value;
+    const brand = (document.getElementById('filter-brand') as HTMLSelectElement).value;
+
+    let visibleCount = 0;
+    for (const e of entries) {
+      const matches = (!month || e.dataset.month === month) && (!brand || e.dataset.brand === brand);
+      e.hidden = !matches;
+      if (matches) visibleCount++;
+    }
+    emptyEl.hidden = visibleCount > 0;
+  }
+
+  for (const id of ['filter-month', 'filter-brand']) {
+    document.getElementById(id)?.addEventListener('change', render);
+  }
+
+  render();
+</script>
