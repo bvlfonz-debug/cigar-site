@@ -733,5 +733,23 @@
     ],
     "proposed_action": "Two independent, numerically-scored sources found (Cigar Aficionado, rated twice years apart, and JR Cigars). A widely-repeated retailer claim of a \"91-point\" Cigar Aficionado score couldn’t be traced to a stable, confirmed source, so it was not used.",
     "decision": null
+  },
+  {
+    "item": "Factory \"General Cigar Dominicana\" is missing founded_year",
+    "path": "/factories/general-cigar-dominicana/",
+    "reason": "Missing sourced fact on a brand/factory profile",
+    "why_flagged": "founded_year was not provided when this factory was added.",
+    "sources_found": [],
+    "proposed_action": "Research a citable source and call add-brand-source/add-factory-source, then update-brand/update-factory to fill the field.",
+    "decision": null
+  },
+  {
+    "item": "Factory \"HATSA (Honduras American Tabaco S.A.)\" is missing founded_year",
+    "path": "/factories/hatsa/",
+    "reason": "Missing sourced fact on a brand/factory profile",
+    "why_flagged": "founded_year was not provided when this factory was added.",
+    "sources_found": [],
+    "proposed_action": "Research a citable source and call add-brand-source/add-factory-source, then update-brand/update-factory to fill the field.",
+    "decision": null
   }
 ]
