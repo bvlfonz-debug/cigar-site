@@ -4,6 +4,35 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-07-17 — Weekday run: lounges night — 1 lounge crosses LoungeScore threshold
+Today was a "lounges" night on the 3-way rotation with cigars and
+accessories (see CLAUDE.md). Kept it light since it's a weekday. Lounges
+don't have a price-refresh step (no pricing on lounge pages), so tonight's
+work focused on finding new cited ratings for existing lounges.
+
+- **Ratings found**: added a TripAdvisor rating for Grand Havana Room
+  (Beverly Hills) — 5.0/5 from 7 reviews, cited via OverlookMaps.com. That
+  was its third independent source (it already had Google and Yelp), so it
+  published a LoungeScore for the first time tonight: 94.7.
+- **Tried and couldn't confirm**: looked for a third source on BURN by
+  Rocky Patel (Naples, currently at 2: Google + TripAdvisor). Found a 2020
+  Cigar Journal editorial feature on the lounge, but it carries no numeric
+  score, so it can't feed the aggregate — skipped rather than force a
+  number that isn't there. Also tried to confirm exact Yelp/TripAdvisor
+  star ratings for Casa de Montecristo's Manhattan (2nd Ave) location
+  (currently at 1: Google only) and Corona Cigar Company & Diamond Crown
+  Lounge in Orlando (also at 1), but couldn't verify exact numbers from
+  what was reachable tonight — several review sites blocked automated
+  fetches. Left both queued as before rather than guess at a figure.
+- **New lounges/cities**: none proposed tonight — stayed focused on
+  pushing existing "insufficient data" lounges toward the 3-source minimum
+  given the weekday budget.
+- **Errors**: TripAdvisor and Yelp blocked direct page fetches (403) for
+  a couple of lookups tonight; worked around it via search snippets and an
+  aggregator site (OverlookMaps.com) where the numbers could be
+  cross-confirmed, and skipped anywhere they couldn't be. Site builds
+  cleanly (2287 pages). Stopping here for tonight given the weekday budget.
+
 ## 2026-07-16 — Weekday run, part 1: cigars night — 1 news brief, 2 price checks
 Today was a "cigars" night on the even/odd alternation with the accessories
 side (see CLAUDE.md).
