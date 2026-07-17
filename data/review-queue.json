@@ -990,5 +990,84 @@
     ],
     "proposed_action": "This is a thin-coverage, self-published title; unlikely more independent coverage exists. Consider whether it meets the bar for inclusion going forward.",
     "decision": null
+  },
+  {
+    "item": "Fuente Fuente OpusX Double Corona",
+    "path": "/cigars/arturo-fuente/opusx/double-corona/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3). A halfwheel review of an aged 1995 box exists but the site repeatedly blocked automated access, so no numeric score could be confirmed.",
+    "sources_found": [
+      "Cigar Aficionado",
+      "Cigar Reviews by the Katman"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Arturo Fuente Hemingway Classic",
+    "path": "/cigars/arturo-fuente/hemingway/hemingway-classic/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Both confirmed reviews are from Cigar Aficionado (9 years apart) - only 1 truly independent source (StickScore requires 3). Halfwheel has reviewed a Sun Grown variant but the site blocked automated access, so no score could be confirmed.",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Liga Privada No. 9 Robusto",
+    "path": "/cigars/drew-estate/liga-privada-no-9/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3). A Cigar Dojo review exists but does not state the vitola reviewed, so it was excluded to avoid conflating a different size.",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Liga Privada T52 Flying Pig",
+    "path": "/cigars/drew-estate/liga-privada-t52/flying-pig/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "The Cigar Authority"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Undercrown Maduro Corona Doble",
+    "path": "/cigars/drew-estate/undercrown-maduro/corona-doble/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3). A review titled \"Corona Doble\" from Cigar Reviews by the Katman was found but confirmed to actually cover the separate Undercrown 10 (UC10) anniversary blend, not standard Undercrown Maduro - excluded to avoid conflation.",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Montecristo Classic Robusto",
+    "path": "/cigars/montecristo/classic/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3). A JR Cigars review exists but covers the Toro size and carries no numeric score, so it was excluded.",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Hoyo de Monterrey Excalibur No. II",
+    "path": "/cigars/hoyo-de-monterrey/excalibur/no-ii/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3). Most current review coverage online is for newer spin-off editions (Black, Legend, Illusione collaboration) rather than the classic No. II.",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
   }
 ]
