@@ -402,3 +402,6 @@ side (see CLAUDE.md). Kept it light since it's a weekday.
   didn't use either. No new scores added tonight; stays queued.
 - **Errors**: none. Site builds cleanly (916 pages). Stopping here for
   tonight given the weekday budget.
+
+## 2026-07-17 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
