@@ -4,6 +4,26 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-07-18 — Weekday run: cigars night — 1 news brief, 3 first-ever price checks
+Today was a "cigars" night on the 3-way rotation with accessories and
+lounges (day-of-month mod 3 = 0, see CLAUDE.md). Kept it light since it's
+a weekday.
+
+- **News**: added one brief — halfwheel's coverage of E.P. Carrillo's new
+  Encore Noir II, an all-Nicaraguan limited blend built in the same
+  Celestial No. 2 size as our existing Encore Celestial vitola but a
+  genuinely different product (mainly international, with a 250-box U.S.
+  allotment going to Two Guys Cigars in New Hampshire at $17/cigar for a
+  July 24-25 launch event). Didn't link it to the existing Encore Celestial
+  page since it's a distinct blend, not the same cigar.
+- **Prices checked** (all first-ever checks for these three, so nothing to
+  compare against and nothing flagged): Davidoff Nicaragua Toro
+  ($306.00/box of 12, Atlantic Cigar Company), Foundation Charter Oak
+  Rothschild ($127.99/box of 20, Cigars.com), H. Upmann 1844 Reserve
+  Robusto ($207.99/box of 25, Thompson Cigar).
+- **Reviews / scores**: still to check tonight.
+- **Errors**: none so far. Site builds cleanly (2770 pages).
+
 ## 2026-07-17 — Weekday run: lounges night — 1 lounge crosses LoungeScore threshold
 Today was a "lounges" night on the 3-way rotation with cigars and
 accessories (see CLAUDE.md). Kept it light since it's a weekday. Lounges
