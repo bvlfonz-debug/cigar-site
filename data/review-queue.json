@@ -1069,5 +1069,151 @@
     ],
     "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
     "decision": null
+  },
+  {
+    "item": "San Lotano Requiem Habano Gran Toro",
+    "path": "/cigars/aj-fernandez/san-lotano-requiem/gran-toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3). A Cigar Inspector page exists but returned a paywall error, so its content could not be confirmed.",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Arturo Fuente Añejo Reserva No. 46",
+    "path": "/cigars/arturo-fuente/anejo-reserva/no-46/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado",
+      "The Cigar Authority"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Crowned Heads Le Pâtissier Senadores",
+    "path": "/cigars/crowned-heads/le-patissier/senadores/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3). A Blind Man's Puff score widely cited for \"Le Pâtissier\" was confirmed to actually be for the separate Lonsdale release, not Senadores - excluded to avoid conflation.",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Davidoff Yamasá Robusto",
+    "path": "/cigars/davidoff/yamasa/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Dunbarton Tobacco & Trust Sobremesa Short Churchill",
+    "path": "/cigars/dunbarton-tobacco-trust/sobremesa/short-churchill/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source with a numeric score found (StickScore requires 3). A Casas Fumando review exists but does not use a point scale, so it could not be recorded as a scored review.",
+    "sources_found": [
+      "Cigar Coop"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Aficionado, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Montecristo White Series Churchill",
+    "path": "/cigars/montecristo/white-series/churchill/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "My Father Flor de las Antillas Robusto",
+    "path": "/cigars/my-father/flor-de-las-antillas/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "2 distinct independent sources found (Cigar Aficionado, reviewed twice in 2012 and 2014, plus Blind Man's Puff) - StickScore requires 3 distinct sources.",
+    "sources_found": [
+      "Cigar Aficionado",
+      "Blind Man's Puff"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "HUMI-CARE Rectangle Digital Hygrometer",
+    "path": "/accessories/hygrometers/rectangle-digital-hygrometer/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source with a numeric score found (StickScore/AccScore requires 3).",
+    "sources_found": [
+      "Cigars International"
+    ],
+    "proposed_action": "Check other major retailers for an aggregate rating with a review count.",
+    "decision": null
+  },
+  {
+    "item": "Prestige Import Group Digital Mountable Hygrometer",
+    "path": "/accessories/hygrometers/digital-mountable-hygrometer-calibration/",
+    "reason": "insufficient_sources",
+    "why_flagged": "No aggregate numeric rating found - only individual, unscored customer review text on Amazon. This is the weakest-covered accessory added this round.",
+    "sources_found": [
+      "Amazon (individual reviews, no aggregate score found)"
+    ],
+    "proposed_action": "Look for a retailer with a numeric aggregate rating and review count for this product.",
+    "decision": null
+  },
+  {
+    "item": "Xikar Crystal Gel Humidifier Jar, 4 oz",
+    "path": "/accessories/humidification-systems/crystal-gel-humidifier-jar-4oz/",
+    "reason": "insufficient_sources",
+    "why_flagged": "No source with a confirmable numeric score was found - coverage is real (CIGAR.com forum, Cigarbum forum) but qualitative only.",
+    "sources_found": [
+      "CIGAR.com forum",
+      "Cigarbum forum"
+    ],
+    "proposed_action": "Look for a retailer aggregate rating with a numeric score and review count for this product.",
+    "decision": null
+  },
+  {
+    "item": "Cigar Oasis Ultra 4.0 Electronic Humidifier",
+    "path": "/accessories/humidification-systems/ultra-4-0-electronic-humidifier/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source with a numeric score found (StickScore/AccScore requires 3), and it is the manufacturer's own site rather than a fully independent retailer.",
+    "sources_found": [
+      "Cigar Oasis (manufacturer site)"
+    ],
+    "proposed_action": "Check Amazon and other independent retailers for an aggregate rating with a review count.",
+    "decision": null
+  },
+  {
+    "item": "Cigar Caddy 5-Count Travel Humidor",
+    "path": "/accessories/travel-cases/5-count-travel-humidor/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source with a numeric score found (StickScore/AccScore requires 3). A CigarWeekly review exists but could only be confirmed via search-indexed excerpts, not a direct page fetch.",
+    "sources_found": [
+      "Plush Cigar"
+    ],
+    "proposed_action": "Directly re-verify the CigarWeekly review and check other retailers for an aggregate rating with a review count.",
+    "decision": null
+  },
+  {
+    "item": "Quality Importers Traveler 20 Travel Humidor",
+    "path": "/accessories/travel-cases/traveler-20-travel-humidor/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source with a numeric score found (StickScore/AccScore requires 3) - this is single-retailer (Amazon) coverage, weaker than most other accessories in this catalog.",
+    "sources_found": [
+      "Amazon"
+    ],
+    "proposed_action": "Look for an independent editorial or forum review of this specific model.",
+    "decision": null
   }
 ]
