@@ -4,7 +4,7 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
-## 2026-07-18 — Weekday run: cigars night — 1 news brief, 3 first-ever price checks
+## 2026-07-18 — Weekday run: cigars night — 1 news brief, 3 price checks, 1 release logged
 Today was a "cigars" night on the 3-way rotation with accessories and
 lounges (day-of-month mod 3 = 0, see CLAUDE.md). Kept it light since it's
 a weekday.
@@ -21,8 +21,16 @@ a weekday.
   ($306.00/box of 12, Atlantic Cigar Company), Foundation Charter Oak
   Rothschild ($127.99/box of 20, Cigars.com), H. Upmann 1844 Reserve
   Robusto ($207.99/box of 25, Thompson Cigar).
-- **Reviews / scores**: still to check tonight.
-- **Errors**: none so far. Site builds cleanly (2770 pages).
+- **Release calendar**: the Encore Noir II news brief is itself a release
+  report, so it's now also logged on `/calendar` (E.P. Carrillo Encore Noir
+  II, expected July 2026), cross-linked back to the news brief.
+- **Reviews / scores**: looked for a third source on the queued Arturo
+  Fuente Añejo Reserva No. 48 (currently 2: Cigar Aficionado, Stogies on
+  the Rocks). Found general Añejo-line coverage from halfwheel and Cigar
+  Dojo, but nothing with a numeric score for this exact No. 48 vitola, and
+  no retailer user-rating average either — didn't use it, stays queued.
+- **Errors**: none. Site builds cleanly (2770 pages). Stopping here for
+  tonight given the weekday budget.
 
 ## 2026-07-17 — Weekday run: lounges night — 1 lounge crosses LoungeScore threshold
 Today was a "lounges" night on the 3-way rotation with cigars and
