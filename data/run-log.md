@@ -33,7 +33,17 @@ recently and many are sitting just short of a published AccScore.
   different (wireless) Xikar product, not the one in our database, so it
   wasn't used either.
 - **Errors**: none otherwise. Site builds cleanly (3,309 pages).
-- More to come tonight — price checks and news brief still to do.
+
+- **Prices checked** (5 accessories, all first-ever checks so nothing to
+  compare against and nothing flagged): Xikar 009 Punch Cutter ($113.00,
+  Humidor Discount), Colibri Quasar Table Lighter ($155.00, Walmart), Vertigo
+  Cyclone by Lotus ($14.99, Lotus's own site), Xikar Volta tabletop lighter
+  ($164.99, eLighters.com), Colibri V-Cut Cutter ($80.00, Humidor Discount).
+  Tried a few more (Palio Cutter, Prestige Import Group Onyx Humidor, Mantello
+  Royal Glass-Top Humidor, NewAir CC-300H, HUMI-CARE Crystal Gel Jar) but
+  every retailer page tried for those either blocked the fetch or didn't
+  show a price in what came back — skipped rather than guess.
+- More to come tonight — news brief still to do.
 
 ## 2026-07-18 — Weekday run: cigars night — 1 news brief, 3 price checks, 1 release logged
 Today was a "cigars" night on the 3-way rotation with accessories and
