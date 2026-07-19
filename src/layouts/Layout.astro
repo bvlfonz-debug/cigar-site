@@ -5,9 +5,10 @@ import AgeGate from '../components/AgeGate.astro';
 interface Props {
   title: string;
   description: string;
+  noindex?: boolean;
 }
 
-const { title, description } = Astro.props;
+const { title, description, noindex = false } = Astro.props;
 ---
 
 <html lang="en">
@@ -16,6 +17,7 @@ const { title, description } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
   </head>
   <body>
     <AgeGate />
@@ -53,3 +55,12 @@ const { title, description } = Astro.props;
     </footer>
   </body>
 </html>
+
+<script>
+  // Site-wide: activates every <HumidorButton> instance on whatever page
+  // rendered one (cigar pages, the comparison tool, search results) — see
+  // src/lib/humidor-client.ts and CLAUDE.md "Personal Humidor". A no-op on
+  // pages with no humidor-button markup.
+  import { initHumidorButtons } from '../lib/humidor-client';
+  initHumidorButtons();
+</script>

@@ -587,6 +587,48 @@ Folds into the existing **cigars** rotation night. Never call
 `add-community-review`/`update-community-review-status` without the owner
 explicitly naming the specific submission/review to act on.
 
+## Personal Humidor
+A visitor's own "Smoked" and "Want to Try" lists, entirely client-side
+(`localStorage`, key `stickscore-humidor-v1`) — this data never reaches
+`data/cigars.db`, is never submitted anywhere, and is never blended with any
+official score. Any private rating/note a visitor attaches to a saved cigar
+is a separate concept from the public Community Reviews system — one never
+feeds the other.
+
+- **One shared service, `src/lib/humidor-client.ts`**, is the only file that
+  reads/writes humidor data — every touchpoint calls its `HumidorStore`
+  interface (`getAll`/`get`/`upsert`/`remove`), never `localStorage` directly.
+  Phase 1's only implementation is `LocalStorageHumidorStore`; a future
+  account-synced implementation can satisfy the exact same interface and be
+  swapped in as the module's `humidor` export without changing any caller.
+- **`src/components/HumidorButton.astro`** is the shared markup (a `cigarId`
+  prop), carrying zero inline script — `initHumidorButtons()` (wired once,
+  site-wide, in `Layout.astro`) finds and activates every instance
+  generically via `[data-humidor-button]`/`[data-cigar-id]` attributes. A
+  page whose cards are built in client JS (like `search.astro`'s result
+  list) replicates this exact markup shape and re-calls
+  `initHumidorButtons(scopeEl)` after each re-render — the function is
+  idempotent (skips already-wired elements), so this is always safe.
+- **Real integration points today**: the cigar detail page, the comparison
+  tool (`/compare/[pair]`), and the search/browse page (`/search`). Adding a
+  new touchpoint anywhere else is a markup-only change (drop in the same
+  `data-humidor-button` structure), not a re-architecture.
+- **Designed for later, not built**: a `source: 'scan'` value already exists
+  in `HumidorSource` for a future band-scanner feature (doesn't exist as a
+  feature today); a `source: 'review'` value exists for auto-adding a cigar
+  to "Smoked" at the moment a review is posted (no live trigger for this
+  exists today since Community Reviews is owner-curated, not live-submitted
+  — see "Community Reviews" above); an account-backed `HumidorStore`
+  implementation for real cross-device sync.
+- **`/humidor`** — the hub page. Its build-time HTML is an identical empty
+  shell for every visitor (content depends entirely on that visitor's own
+  browser storage), so it ships `<meta name="robots" content="noindex">` —
+  nothing here is uniquely indexable. It embeds the full cigar catalog index
+  (`getSearchIndex()`, same pattern `search.astro` already uses) so client JS
+  can resolve a stored `cigarId` to its real name and official StickScore
+  ("StickScore (ours)") without a network round-trip, alongside each entry's
+  private rating/note (editable in place) and list-move/remove controls.
+
 ## Affiliate configuration
 - `config/affiliates.json` holds retailer names, tracking IDs, and URL
   templates. Ship with placeholder values clearly marked PLACEHOLDER.

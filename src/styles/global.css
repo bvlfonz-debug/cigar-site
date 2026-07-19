@@ -906,3 +906,103 @@ main {
   color: var(--color-red);
   font-weight: 600;
 }
+
+/* Personal Humidor — the add/status widget dropped into cigar pages, the
+   comparison tool, and search results (see src/components/HumidorButton.astro
+   and src/lib/humidor-client.ts). */
+.humidor-button {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.75rem 0;
+}
+
+.humidor-button__status {
+  font-size: 0.82rem;
+  color: var(--color-ink-soft);
+  font-style: italic;
+}
+
+.humidor-button__actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.humidor-btn {
+  padding: 0.4rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  font-family: var(--font-body);
+  background: transparent;
+  color: var(--color-ink-soft);
+  border: 1px solid var(--color-rule);
+}
+
+.humidor-btn--active {
+  background: var(--color-ink);
+  color: var(--color-parchment);
+  border-color: var(--color-ink);
+}
+
+.humidor-btn--remove {
+  color: var(--color-red);
+  border-color: var(--color-red);
+}
+
+/* /humidor/ page */
+.humidor-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.humidor-entry {
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--color-rule);
+  border-radius: 4px;
+}
+
+.humidor-entry__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.humidor-entry__score {
+  font-size: 0.82rem;
+  color: var(--color-ink-soft);
+}
+
+.humidor-entry__private {
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px dashed var(--color-rule);
+  font-size: 0.9rem;
+}
+
+.humidor-entry__private-label {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.7rem;
+  color: var(--color-ink-soft);
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.humidor-stars {
+  display: inline-flex;
+  gap: 0.15rem;
+  cursor: pointer;
+}
+
+.humidor-stars__star {
+  font-size: 1.2rem;
+  color: var(--color-rule);
+}
+
+.humidor-stars__star--filled {
+  color: var(--color-gold);
+}

@@ -1,0 +1,163 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getSearchIndex } from '../../lib/db';
+
+// This page's content depends entirely on the visitor's own browser storage
+// — the build-time HTML below is an identical empty shell for everyone, so
+// there's nothing useful for a crawler to index (see CLAUDE.md "Personal
+// Humidor"). The full cigar index is embedded the same way search.astro
+// already does, so client JS can resolve a stored cigarId to its real name/
+// score/link without a network request.
+const index = getSearchIndex();
+---
+
+<Layout
+  title="My Humidor | StickScore"
+  description="Your personal Smoked and Want to Try lists — private to your browser, never mixed with our official StickScore."
+  noindex={true}
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">My Humidor</h1>
+    <p>
+      Your own "Smoked" and "Want to Try" lists, saved privately in this browser. Any private
+      rating or note you add here is yours alone — it's never submitted publicly and never
+      counted toward a cigar's official StickScore.
+    </p>
+  </div>
+
+  <section class="section">
+    <h2 class="section__heading">Want to Try</h2>
+    <div id="humidor-want-to-try" class="humidor-list"></div>
+    <p id="humidor-want-to-try-empty" class="placeholder-note" hidden>
+      Nothing here yet. Add a cigar from its own page, the comparison tool, or search results.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">Smoked</h2>
+    <div id="humidor-smoked" class="humidor-list"></div>
+    <p id="humidor-smoked-empty" class="placeholder-note" hidden>
+      Nothing here yet. Mark a cigar as smoked from its own page, the comparison tool, or search
+      results.
+    </p>
+  </section>
+</Layout>
+
+<script type="application/json" id="humidor-cigar-index" set:html={JSON.stringify(index)} />
+
+<script>
+  import { humidor, type HumidorEntry } from '../../lib/humidor-client';
+
+  interface CigarIndexEntry {
+    brandName: string;
+    lineName: string;
+    vitolaSizeName: string;
+    stickScore: number | null;
+    path: string;
+  }
+
+  const dataEl = document.getElementById('humidor-cigar-index');
+  const cigarIndex: CigarIndexEntry[] = dataEl ? JSON.parse(dataEl.textContent || '[]') : [];
+  const cigarByPath = new Map(cigarIndex.map((c) => [c.path, c]));
+
+  function starPicker(cigarId: string, current: number | null): HTMLElement {
+    const wrap = document.createElement('span');
+    wrap.className = 'humidor-stars';
+    wrap.setAttribute('role', 'group');
+    wrap.setAttribute('aria-label', 'Your private rating');
+    for (let i = 1; i <= 5; i++) {
+      const star = document.createElement('span');
+      star.className = 'humidor-stars__star' + (current != null && i <= current ? ' humidor-stars__star--filled' : '');
+      star.textContent = current != null && i <= current ? '★' : '☆';
+      star.addEventListener('click', () => {
+        const entry = humidor.get(cigarId);
+        humidor.upsert(cigarId, entry ? entry.list : 'smoked', { privateRating: i });
+        render();
+      });
+      wrap.appendChild(star);
+    }
+    return wrap;
+  }
+
+  function renderEntry(entry: HumidorEntry): HTMLElement {
+    const cigar = cigarByPath.get(entry.cigarId);
+    const card = document.createElement('div');
+    card.className = 'humidor-entry';
+
+    const header = document.createElement('div');
+    header.className = 'humidor-entry__header';
+    const nameLink = document.createElement('a');
+    nameLink.href = entry.cigarId;
+    nameLink.textContent = cigar ? `${cigar.brandName} — ${cigar.lineName} ${cigar.vitolaSizeName}` : entry.cigarId;
+    header.appendChild(nameLink);
+    const score = document.createElement('span');
+    score.className = 'humidor-entry__score';
+    score.textContent = cigar
+      ? `StickScore (ours): ${cigar.stickScore != null ? Math.round(cigar.stickScore) : 'insufficient data'}`
+      : '';
+    header.appendChild(score);
+    card.appendChild(header);
+
+    const privateBox = document.createElement('div');
+    privateBox.className = 'humidor-entry__private';
+    const label = document.createElement('span');
+    label.className = 'humidor-entry__private-label';
+    label.textContent = 'Your private rating & note (never public)';
+    privateBox.appendChild(label);
+    privateBox.appendChild(starPicker(entry.cigarId, entry.privateRating));
+
+    const noteInput = document.createElement('textarea');
+    noteInput.value = entry.privateNote ?? '';
+    noteInput.placeholder = 'Private note to yourself…';
+    noteInput.rows = 2;
+    noteInput.addEventListener('change', () => {
+      humidor.upsert(entry.cigarId, entry.list, { privateNote: noteInput.value });
+    });
+    privateBox.appendChild(document.createElement('br'));
+    privateBox.appendChild(noteInput);
+    card.appendChild(privateBox);
+
+    const actions = document.createElement('div');
+    actions.style.marginTop = '0.6rem';
+    const moveBtn = document.createElement('button');
+    moveBtn.type = 'button';
+    moveBtn.className = 'humidor-btn';
+    moveBtn.textContent = entry.list === 'smoked' ? 'Move to Want to Try' : 'Move to Smoked';
+    moveBtn.addEventListener('click', () => {
+      humidor.upsert(entry.cigarId, entry.list === 'smoked' ? 'want-to-try' : 'smoked');
+      render();
+    });
+    actions.appendChild(moveBtn);
+
+    const removeBtn = document.createElement('button');
+    removeBtn.type = 'button';
+    removeBtn.className = 'humidor-btn humidor-btn--remove';
+    removeBtn.textContent = 'Remove';
+    removeBtn.addEventListener('click', () => {
+      humidor.remove(entry.cigarId);
+      render();
+    });
+    actions.appendChild(removeBtn);
+    card.appendChild(actions);
+
+    return card;
+  }
+
+  function render() {
+    const all = humidor.getAll();
+    const wantToTry = all.filter((e) => e.list === 'want-to-try');
+    const smoked = all.filter((e) => e.list === 'smoked');
+
+    const wantEl = document.getElementById('humidor-want-to-try') as HTMLElement;
+    const smokedEl = document.getElementById('humidor-smoked') as HTMLElement;
+    wantEl.innerHTML = '';
+    smokedEl.innerHTML = '';
+    wantToTry.forEach((e) => wantEl.appendChild(renderEntry(e)));
+    smoked.forEach((e) => smokedEl.appendChild(renderEntry(e)));
+
+    (document.getElementById('humidor-want-to-try-empty') as HTMLElement).hidden = wantToTry.length > 0;
+    (document.getElementById('humidor-smoked-empty') as HTMLElement).hidden = smoked.length > 0;
+  }
+
+  render();
+</script>

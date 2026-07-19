@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import ScoreBar from '../../components/ScoreBar.astro';
+import HumidorButton from '../../components/HumidorButton.astro';
 import { getAllCigarsForCompare, getCigarPage } from '../../lib/db';
 import type { CompareCigarEntry } from '../../lib/db';
 
@@ -48,6 +49,17 @@ const pageDescription = `Side-by-side comparison of ${cigarLabel(a)} and ${cigar
   <div class="home-hero">
     <h1 class="home-hero__title">{cigarLabel(a)} vs {cigarLabel(b)}</h1>
   </div>
+
+  <section class="section" style="display: flex; gap: 2rem; flex-wrap: wrap;">
+    <div>
+      <strong>{cigarLabel(a)}</strong>
+      <HumidorButton cigarId={`/cigars/${a.brandSlug}/${a.lineSlug}/${a.vitolaSlug}/`} source="compare" />
+    </div>
+    <div>
+      <strong>{cigarLabel(b)}</strong>
+      <HumidorButton cigarId={`/cigars/${b.brandSlug}/${b.lineSlug}/${b.vitolaSlug}/`} source="compare" />
+    </div>
+  </section>
 
   <section class="section">
     <div style="overflow-x: auto;">

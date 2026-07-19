@@ -1,0 +1,20 @@
+---
+// Zero inline script — src/lib/humidor-client.ts's initHumidorButtons(),
+// wired once site-wide in Layout.astro, finds and activates every instance
+// of this markup generically. See CLAUDE.md "Personal Humidor."
+interface Props {
+  cigarId: string;
+  source?: 'manual' | 'compare' | 'search';
+}
+
+const { cigarId, source = 'manual' } = Astro.props;
+---
+
+<div class="humidor-button" data-humidor-button data-cigar-id={cigarId} data-humidor-source={source}>
+  <span class="humidor-button__status" data-humidor-status>Not in your humidor yet</span>
+  <div class="humidor-button__actions">
+    <button type="button" class="humidor-btn" data-humidor-action="want-to-try">Want to Try</button>
+    <button type="button" class="humidor-btn" data-humidor-action="smoked">Mark as Smoked</button>
+    <button type="button" class="humidor-btn humidor-btn--remove" data-humidor-action="remove" hidden>Remove</button>
+  </div>
+</div>

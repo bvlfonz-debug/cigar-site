@@ -62,6 +62,8 @@ const index = getSearchIndex();
 <script type="application/json" id="search-data" set:html={JSON.stringify(index)} />
 
 <script>
+  import { initHumidorButtons } from '../lib/humidor-client';
+
   interface Entry {
     brandName: string;
     brandSlug: string;
@@ -127,6 +129,7 @@ const index = getSearchIndex();
     emptyEl.hidden = filtered.length > 0;
 
     for (const e of filtered) {
+      const wrap = document.createElement('div');
       const a = document.createElement('a');
       a.className = 'cigar-card';
       a.href = e.path;
@@ -135,8 +138,25 @@ const index = getSearchIndex();
         <div class="cigar-card__name">${e.lineName} ${e.vitolaSizeName}</div>
         <div class="cigar-card__score">StickScore ${e.stickScore != null ? Math.round(e.stickScore) : 'insufficient data'}</div>
       `;
-      resultsEl.appendChild(a);
+      wrap.appendChild(a);
+      // Mirrors src/components/HumidorButton.astro's exact markup — that
+      // component only renders at build time, so result cards built here in
+      // client JS replicate its structure directly (initHumidorButtons()'s
+      // [data-humidor-button] selector doesn't care how the markup arrived).
+      wrap.insertAdjacentHTML(
+        'beforeend',
+        `<div class="humidor-button" data-humidor-button data-cigar-id="${e.path}" data-humidor-source="search">
+          <span class="humidor-button__status" data-humidor-status>Not in your humidor yet</span>
+          <div class="humidor-button__actions">
+            <button type="button" class="humidor-btn" data-humidor-action="want-to-try">Want to Try</button>
+            <button type="button" class="humidor-btn" data-humidor-action="smoked">Mark as Smoked</button>
+            <button type="button" class="humidor-btn humidor-btn--remove" data-humidor-action="remove" hidden>Remove</button>
+          </div>
+        </div>`
+      );
+      resultsEl.appendChild(wrap);
     }
+    initHumidorButtons(resultsEl);
   }
 
   for (const id of ['filter-wrapper', 'filter-strength', 'filter-country', 'filter-score']) {

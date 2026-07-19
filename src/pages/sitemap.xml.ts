@@ -34,7 +34,7 @@ const GUIDE_SLUGS = [
 export const GET: APIRoute = ({ site }) => {
   const base = site?.toString().replace(/\/$/, '') ?? '';
 
-  const staticPaths = ['/', '/search/', '/brands/', '/news/', '/rankings/', '/deals/', '/accessories/', '/guides/', '/lounges/', '/calendar/', '/factories/', '/pairings/'];
+  const staticPaths = ['/', '/search/', '/brands/', '/news/', '/rankings/', '/deals/', '/accessories/', '/guides/', '/lounges/', '/calendar/', '/factories/', '/pairings/', '/humidor/'];
   const pairingPaths = PAIRING_TOPICS.map((t) => `/pairings/${t.slug}/`);
   const brandPaths = getAllBrandSlugs().map((slug) => `/brands/${slug}/`);
   const cigarPaths = getAllCigarSlugs().map(
