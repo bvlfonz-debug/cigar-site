@@ -1,0 +1,52 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const PAIRING_GUIDES = [
+  {
+    slug: 'cigars-and-whiskey',
+    title: 'Cigars and Whiskey',
+    description: 'Matching bourbon, rye, and scotch to cigar strength and wrapper — by general profile, not a specific claim.',
+  },
+  {
+    slug: 'cigars-and-rum',
+    title: 'Cigars and Rum',
+    description: 'Why dark, maduro-style wrappers are usually pointed toward rum, and how to pick a bottle.',
+  },
+  {
+    slug: 'cigars-and-coffee',
+    title: 'Cigars and Coffee',
+    description: 'Matching roast level to cigar strength, from a light breakfast blend to a dark espresso.',
+  },
+  {
+    slug: 'cigars-and-cocktails',
+    title: 'Cigars and Cocktails',
+    description: 'Lighter wrappers and milder cigars matched to lighter cocktails, gin, and pilsners.',
+  },
+];
+---
+
+<Layout
+  title="Cigar Pairing Guides | StickScore"
+  description="How to match a cigar's strength, wrapper, and flavor profile to whiskey, rum, coffee, and cocktails — general guidance, never a first-hand claim about one specific cigar."
+>
+  <div class="home-hero">
+    <h1 class="home-hero__title">Pairing Guides</h1>
+    <p>
+      A pairing is an opinion, not a fact — these guides give general profile-based guidance
+      (by strength, body, and wrapper), never an invented claim about one specific cigar. Every
+      cigar page also has its own Pairings section built the same way, plus any real cited
+      recommendations and community submissions we've collected.
+    </p>
+  </div>
+
+  <section class="section">
+    <div class="brand-directory">
+      {PAIRING_GUIDES.map((g) => (
+        <a class="cigar-card" href={`/pairings/${g.slug}/`}>
+          <div class="cigar-card__name">{g.title}</div>
+          <div class="cigar-card__score">{g.description}</div>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>

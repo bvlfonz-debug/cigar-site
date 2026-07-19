@@ -285,6 +285,59 @@ main {
   color: var(--color-ink);
 }
 
+/* Pairings section — three visually distinct zones so it's never possible to
+   mistake a heuristic, a citation, and a user submission for one another. */
+.pairing-zone {
+  margin-bottom: 1.5rem;
+}
+
+.pairing-zone__label {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 3px;
+  margin-bottom: 0.6rem;
+}
+
+.pairing-zone--heuristic .pairing-zone__label {
+  background: var(--color-parchment-dim);
+  color: var(--color-ink-soft);
+  border: 1px solid var(--color-rule);
+}
+
+.pairing-zone--cited .pairing-zone__label {
+  background: color-mix(in srgb, var(--color-gold) 15%, transparent);
+  color: var(--color-gold-deep);
+  border: 1px solid var(--color-gold);
+}
+
+.pairing-zone--community .pairing-zone__label {
+  background: color-mix(in srgb, var(--color-green) 12%, transparent);
+  color: var(--color-green);
+  border: 1px solid var(--color-green);
+}
+
+.pairing-card {
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--color-rule);
+  border-radius: 4px;
+  margin-bottom: 0.6rem;
+}
+
+.pairing-card__guidance {
+  color: var(--color-ink);
+}
+
+.pairing-card__meta {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--color-ink-soft);
+  margin-top: 0.35rem;
+}
+
 .specs-table {
   width: 100%;
   border-collapse: collapse;
@@ -342,6 +395,25 @@ main {
   font-size: 0.9rem;
   color: var(--color-ink-soft);
   font-style: italic;
+}
+
+/* Editorial TODO markers for the owner — never meant to read as real site
+   copy. Deliberately loud (dashed border, warning color) so it can't be
+   mistaken for a normal content block if it accidentally ships. */
+.owner-note {
+  border: 2px dashed var(--color-red);
+  background: color-mix(in srgb, var(--color-red) 8%, transparent);
+  color: var(--color-red);
+  padding: 0.9rem 1.1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+
+.owner-note strong {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.78rem;
 }
 
 .home-hero {

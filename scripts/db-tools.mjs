@@ -109,6 +109,23 @@ function resolveFactory(p) {
   return { factory };
 }
 
+function parseLinePath(p) {
+  const parts = p.split('/').filter(Boolean);
+  if (parts.length !== 3 || parts[0] !== 'cigars') {
+    fail(`Invalid line path "${p}" — expected /cigars/<brand>/<line>/`);
+  }
+  return { brandSlug: parts[1], lineSlug: parts[2] };
+}
+
+function resolveLine(p) {
+  const { brandSlug, lineSlug } = parseLinePath(p);
+  const brand = db.prepare('SELECT * FROM brand WHERE slug = ?').get(brandSlug);
+  if (!brand) fail(`No brand found with slug "${brandSlug}"`);
+  const line = db.prepare('SELECT * FROM line WHERE brand_id = ? AND slug = ?').get(brand.id, lineSlug);
+  if (!line) fail(`No line found with slug "${lineSlug}" under brand "${brandSlug}"`);
+  return { brand, line };
+}
+
 // Queues a missing-sourced-fact gap so it surfaces in the owner's weekly
 // review-queue skim instead of sitting invisibly null. Reuses queue-add's
 // own dedup (by "item" string) so calling this on every add/update is safe.
@@ -864,6 +881,63 @@ const commands = {
       retrieved_at: payload.retrieved_at,
     }));
     return { ok: true, factory_source_id: result.lastInsertRowid };
+  },
+
+  // Citation on an existing entity (like add-critic-review) — auto-publish
+  // tier, no queue-gating. Keyed to line_id, not vitola_id: a real "pair this
+  // with X" recommendation is almost always about the blend as a whole, not
+  // one specific size.
+  'add-pairing-citation'(payload) {
+    const { line } = resolveLine(payload.path);
+    const required = ['pairing_text', 'source_name', 'source_url', 'published_date'];
+    for (const field of required) {
+      if (payload[field] == null) fail(`add-pairing-citation requires "${field}"`);
+    }
+    const result = db.prepare(`
+      INSERT INTO cigar_pairing_citation (line_id, pairing_text, category, source_name, source_url, published_date)
+      VALUES (@line_id, @pairing_text, @category, @source_name, @source_url, @published_date)
+    `).run(at({
+      line_id: line.id,
+      pairing_text: payload.pairing_text,
+      category: payload.category ?? null,
+      source_name: payload.source_name,
+      source_url: payload.source_url,
+      published_date: payload.published_date,
+    }));
+    return { ok: true, pairing_citation_id: result.lastInsertRowid };
+  },
+
+  'find-pairing-citations'(payload) {
+    const { line } = resolveLine(payload.path);
+    return { citations: db.prepare('SELECT * FROM cigar_pairing_citation WHERE line_id = ?').all(line.id) };
+  },
+
+  // IMPORTANT: only ever call this after a human has personally read the
+  // submission for appropriateness, spam, and minors-targeting — there is no
+  // "pending" state in this table, so calling this command IS the approval.
+  // Nightly automation must never call this unsupervised; see CLAUDE.md
+  // "Cigar Pairings."
+  'add-community-pairing'(payload) {
+    const { line } = resolveLine(payload.path);
+    const required = ['submitter_name', 'pairing_text', 'submitted_date'];
+    for (const field of required) {
+      if (payload[field] == null) fail(`add-community-pairing requires "${field}"`);
+    }
+    const result = db.prepare(`
+      INSERT INTO cigar_pairing_community (line_id, submitter_name, pairing_text, submitted_date)
+      VALUES (@line_id, @submitter_name, @pairing_text, @submitted_date)
+    `).run(at({
+      line_id: line.id,
+      submitter_name: payload.submitter_name,
+      pairing_text: payload.pairing_text,
+      submitted_date: payload.submitted_date,
+    }));
+    return { ok: true, community_pairing_id: result.lastInsertRowid };
+  },
+
+  'find-community-pairings'(payload) {
+    const { line } = resolveLine(payload.path);
+    return { pairings: db.prepare('SELECT * FROM cigar_pairing_community WHERE line_id = ?').all(line.id) };
   },
 };
 

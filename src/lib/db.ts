@@ -1,5 +1,6 @@
 import { DatabaseSync } from 'node:sqlite';
 import path from 'node:path';
+import { wrapperMatchesKeywords } from './pairingRules';
 
 const dbPath = path.join(process.cwd(), 'data', 'cigars.db');
 
@@ -96,11 +97,31 @@ export interface CriticReviewRow {
   key_notes_text: string | null;
 }
 
+export interface PairingCitationRow {
+  id: number;
+  line_id: number;
+  pairing_text: string;
+  category: string | null;
+  source_name: string;
+  source_url: string;
+  published_date: string;
+}
+
+export interface CommunityPairingRow {
+  id: number;
+  line_id: number;
+  submitter_name: string;
+  pairing_text: string;
+  submitted_date: string;
+}
+
 export interface CigarPageData {
   brand: BrandRow;
   line: LineRow;
   vitola: VitolaRow;
   criticReviews: CriticReviewRow[];
+  pairingCitations: PairingCitationRow[];
+  communityPairings: CommunityPairingRow[];
 }
 
 export function getAllCigarSlugs(): { brand: string; line: string; vitola: string }[] {
@@ -134,7 +155,15 @@ export function getCigarPage(brandSlug: string, lineSlug: string, vitolaSlug: st
     .prepare('SELECT * FROM critic_review WHERE vitola_id = ? ORDER BY review_date DESC')
     .all(vitola.id) as CriticReviewRow[];
 
-  return { brand, line, vitola, criticReviews };
+  const pairingCitations = db
+    .prepare('SELECT * FROM cigar_pairing_citation WHERE line_id = ? ORDER BY published_date DESC')
+    .all(line.id) as PairingCitationRow[];
+
+  const communityPairings = db
+    .prepare('SELECT * FROM cigar_pairing_community WHERE line_id = ? ORDER BY submitted_date DESC')
+    .all(line.id) as CommunityPairingRow[];
+
+  return { brand, line, vitola, criticReviews, pairingCitations, communityPairings };
 }
 
 export interface BrandPageLine extends LineRow {
@@ -267,6 +296,48 @@ export function getSimilarCigars(currentVitolaId: number, wrapper: string, stren
     .all(currentVitolaId, wrapper, strength, wrapper, strength, limit) as (SimilarCigar & { vitolaId: number })[];
 
   return rows.map(({ vitolaId, ...rest }) => rest);
+}
+
+export interface CigarProfileMatch {
+  brandName: string;
+  brandSlug: string;
+  lineName: string;
+  lineSlug: string;
+  vitolaSizeName: string;
+  vitolaSlug: string;
+  stickScore: number | null;
+}
+
+// For the /pairings/[slug]/ "example cigars" sections. Small dataset (see
+// getSimilarCigars above), so filter/sort in memory rather than a fuzzy SQL
+// match — reuses wrapperMatchesKeywords() from pairingRules.ts so the guide
+// pages and the per-cigar rule engine agree on what counts as e.g. "a
+// maduro-style wrapper." Matches on strength OR wrapper (not both required):
+// in the per-cigar rule engine, strength and wrapper are independent signals
+// that each suggest a pairing category on their own, so a topic page's
+// example list should be the union, not the (much narrower) intersection.
+export function getCigarsByProfile(strengths: string[], wrapperKeywords: string[], limit = 8): CigarProfileMatch[] {
+  const rows = getDb()
+    .prepare(
+      `SELECT
+         brand.name AS brandName, brand.slug AS brandSlug,
+         line.name AS lineName, line.slug AS lineSlug, line.wrapper AS wrapper, line.strength AS strength,
+         vitola.size_name AS vitolaSizeName, vitola.slug AS vitolaSlug, vitola.stick_score AS stickScore
+       FROM vitola
+       JOIN line ON line.id = vitola.line_id
+       JOIN brand ON brand.id = line.brand_id`
+    )
+    .all() as (CigarProfileMatch & { wrapper: string; strength: string })[];
+
+  return rows
+    .filter(
+      (r) =>
+        strengths.includes(r.strength) ||
+        (wrapperKeywords.length > 0 && wrapperMatchesKeywords(r.wrapper, wrapperKeywords))
+    )
+    .sort((a, b) => (b.stickScore ?? -1) - (a.stickScore ?? -1))
+    .slice(0, limit)
+    .map(({ wrapper, strength, ...rest }) => rest);
 }
 
 export interface PricePointRow {

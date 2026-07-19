@@ -11,6 +11,7 @@ import {
   getAllFactorySlugs,
 } from '../lib/db';
 import { slugify } from '../lib/slugify';
+import { PAIRING_TOPICS } from '../lib/pairingTopics';
 
 const GUIDE_SLUGS = [
   'best-humidors-for-beginners',
@@ -33,7 +34,8 @@ const GUIDE_SLUGS = [
 export const GET: APIRoute = ({ site }) => {
   const base = site?.toString().replace(/\/$/, '') ?? '';
 
-  const staticPaths = ['/', '/search/', '/brands/', '/news/', '/rankings/', '/deals/', '/accessories/', '/guides/', '/lounges/', '/calendar/', '/factories/'];
+  const staticPaths = ['/', '/search/', '/brands/', '/news/', '/rankings/', '/deals/', '/accessories/', '/guides/', '/lounges/', '/calendar/', '/factories/', '/pairings/'];
+  const pairingPaths = PAIRING_TOPICS.map((t) => `/pairings/${t.slug}/`);
   const brandPaths = getAllBrandSlugs().map((slug) => `/brands/${slug}/`);
   const cigarPaths = getAllCigarSlugs().map(
     ({ brand, line, vitola }) => `/cigars/${brand}/${line}/${vitola}/`
@@ -70,6 +72,7 @@ export const GET: APIRoute = ({ site }) => {
     ...loungeCityPaths,
     ...loungePaths,
     ...factoryPaths,
+    ...pairingPaths,
   ];
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>

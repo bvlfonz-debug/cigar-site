@@ -1,0 +1,105 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCigarsByProfile } from '../../lib/db';
+import { PAIRING_TOPICS } from '../../lib/pairingTopics';
+
+export function getStaticPaths() {
+  return PAIRING_TOPICS.map((t) => ({ params: { slug: t.slug } }));
+}
+
+const { slug } = Astro.params;
+const topic = PAIRING_TOPICS.find((t) => t.slug === slug);
+
+if (!topic) {
+  return new Response(null, { status: 404 });
+}
+
+const exampleCigars = getCigarsByProfile(topic.exampleStrengths, topic.exampleWrapperKeywords, 6);
+
+const pageTitle = `${topic.title} | StickScore Pairing Guides`;
+
+// Never emit FAQPage JSON-LD with placeholder/invented copy — only when this
+// topic actually has real, owner-written FAQ content.
+const jsonLd =
+  topic.faqs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: topic.faqs.map((f) => ({
+          '@type': 'Question',
+          name: f.question,
+          acceptedAnswer: { '@type': 'Answer', text: f.answer },
+        })),
+      }
+    : null;
+---
+
+<Layout title={pageTitle} description={topic.metaDescription}>
+  {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+
+  <div class="home-hero">
+    <div class="cigar-hero__eyebrow">Pairing Guide</div>
+    <h1 class="home-hero__title">{topic.title}</h1>
+  </div>
+
+  <section class="section summary-review">
+    <p>{topic.intro}</p>
+  </section>
+
+  {topic.guidance.map((g) => (
+    <section class="section">
+      <h2 class="section__heading">{g.heading}</h2>
+      <p>{g.body}</p>
+    </section>
+  ))}
+
+  {topic.ownerNotes.length > 0 && (
+    <section class="section">
+      {topic.ownerNotes.map((note) => (
+        <div class="owner-note"><strong>Owner note</strong><br />{note}</div>
+      ))}
+    </section>
+  )}
+
+  {topic.faqs.length > 0 && (
+    <section class="section">
+      <h2 class="section__heading">Frequently asked questions</h2>
+      {topic.faqs.map((f) => (
+        <div class="dissent-box" style="margin-bottom: 0.75rem;">
+          <p><strong>{f.question}</strong></p>
+          <p>{f.answer}</p>
+        </div>
+      ))}
+    </section>
+  )}
+
+  <section class="section">
+    <h2 class="section__heading">Example cigars from our database</h2>
+    {exampleCigars.length > 0 ? (
+      <div class="search-results">
+        {exampleCigars.map((c) => (
+          <a class="cigar-card" href={`/cigars/${c.brandSlug}/${c.lineSlug}/${c.vitolaSlug}/`}>
+            <div class="cigar-card__brand">{c.brandName}</div>
+            <div class="cigar-card__name">{c.lineName} {c.vitolaSizeName}</div>
+            <div class="cigar-card__score">
+              StickScore {c.stickScore != null ? Math.round(c.stickScore) : 'insufficient data'}
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="placeholder-note">No cigars in our catalog currently match this profile closely enough to list here.</p>
+    )}
+  </section>
+
+  <section class="section">
+    <h2 class="section__heading">More pairing guides</h2>
+    <div class="brand-directory">
+      {PAIRING_TOPICS.filter((t) => t.slug !== topic.slug).map((t) => (
+        <a class="cigar-card" href={`/pairings/${t.slug}/`}>
+          <div class="cigar-card__name">{t.title}</div>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>

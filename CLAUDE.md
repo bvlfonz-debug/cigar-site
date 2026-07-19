@@ -88,6 +88,12 @@ restrained, not flashy. No stock-photo cigar clichés, no gimmicks.
   announced_date, release_month, release_date_text, summary_text,
   source_name, source_url, related_vitola_id, related_news_item_id — see
   "Cigar Release Calendar" below
+- **cigar_pairing_citation**: id, line_id, pairing_text, category, source_name,
+  source_url, published_date — a real critic/publication's pairing
+  recommendation, keyed to line_id (not vitola_id) — see "Cigar Pairings" below
+- **cigar_pairing_community**: id, line_id, submitter_name, pairing_text,
+  submitted_date — owner-curated user submissions, no "pending" status column
+  (see "Cigar Pairings" below)
 - **review_queue**: human-approval queue, stored as `data/review-queue.json`
 
 ## StickScore — the aggregate scoring system
@@ -141,6 +147,8 @@ restrained, not flashy. No stock-photo cigar clichés, no gimmicks.
 - `/news` — daily briefs generated from news_items
 - `/calendar` — upcoming and recent cigar releases, filterable by month/brand;
   see "Cigar Release Calendar" below
+- `/pairings` and `/pairings/[slug]` — evergreen pairing guides (whiskey, rum,
+  coffee, cocktails); see "Cigar Pairings" below
 - `/search` — faceted filter: wrapper, strength, country, price, score
 - Homepage: featured cigars, latest news, biggest movers, top-rated
 
@@ -150,6 +158,8 @@ restrained, not flashy. No stock-photo cigar clichés, no gimmicks.
   specific month is actually known
 - Organization JSON-LD on brand and factory profile pages, fields omitted
   (not fabricated) when a fact isn't yet sourced
+- FAQPage JSON-LD on pairing guide pages, only emitted when that page has
+  real, owner-written FAQ content — never scaffolded/placeholder Q&A
 - Clean slugs, canonical URLs, sitemap regenerated every build
 - Internal linking: every page links to parents, siblings, 3-5 similar cigars
 - Meta descriptions generated from the data, unique per page
@@ -463,6 +473,60 @@ free-text field, look for a real citable source for founding info and
 history; if one is found, record it via `add-brand-source`/`add-factory-source`
 and link with `update-brand`/`update-factory` rather than leaving it as an
 unsourced plain-text guess.
+
+## Cigar Pairings
+A "this cigar pairs with X" claim is an opinion, never asserted as fact — same
+principle as StickScore never inventing a score. Every pairing shown on the
+site must be legibly one of three types, never blended into one
+undifferentiated list:
+- **(A) Profile-based heuristic** — computed at build time from a cigar's own
+  `line.strength`/`line.wrapper`/`vitola.tasting_notes` by the rule engine in
+  `src/lib/pairingRules.ts` (`PAIRING_RULES` + `getPairingSuggestions()`).
+  This is a plain, human-editable list, not stored in the database — edit the
+  rules there directly. Framed as a general tendency about a *category* of
+  cigar, never a claim about one specific cigar. Never guesses: strength/
+  wrapper rules always fire (both fields are `NOT NULL`), tasting-note rules
+  only fire when `tasting_notes` is non-empty, so a thin-data cigar simply
+  shows fewer suggestions.
+- **(B) Cited pairing** — a real critic/publication's recommendation, stored
+  in `cigar_pairing_citation` (keyed to `line_id`, not `vitola_id` — a
+  pairing recommendation is almost always about the blend as a whole, not one
+  specific size). Auto-publish tier, same as `critic_review`: a citation on
+  an existing entity, gated only by requiring a real `source_name`/
+  `source_url`. Add via `add-pairing-citation`.
+- **(C) Community pairing** — a named user's submission, stored in
+  `cigar_pairing_community` (also `line_id`-keyed). **No live public
+  submission form exists or is planned** — this site has no backend/live
+  write capability anywhere. Real submissions arrive out-of-band (a form you
+  link to, email, social replies) and only get added via
+  `add-community-pairing` after a human has personally read the submission
+  for appropriateness, spam, and minors-targeting — there is no "pending"
+  status in the table, so calling the command IS the approval. **Nightly
+  automation must never call `add-community-pairing` unsupervised** — only
+  when the owner has explicitly said which specific submission to add.
+
+### Pages
+- `/pairings` — hub linking to each topic guide (fixed editorial list, not
+  DB-driven, same pattern as the 15 buying guides)
+- `/pairings/[slug]` — one evergreen guide per topic (cigars-and-whiskey,
+  cigars-and-rum, cigars-and-coffee, cigars-and-cocktails), each with general
+  strength/wrapper-based guidance, an "Example cigars from our database"
+  section (`getCigarsByProfile()` in `src/lib/db.ts`), and FAQPage JSON-LD
+  only when real FAQ copy exists. Editorial content lives in
+  `src/lib/pairingTopics.ts` — any spot needing a citable factual claim gets
+  an `.owner-note` callout instead of invented copy; fill those in or delete
+  them, never let the automation write over them with a guess.
+- Cigar detail page's "Pairings" section (between "Gear for this cigar" and
+  "Where to smoke it") shows all three types in clearly labeled, visually
+  distinct zones, and cross-links to the matching `/pairings/[slug]` guide(s).
+
+### Nightly automation folding
+Folds into the existing **cigars** rotation night. If genuine research turns
+up a real critic pairing recommendation for a cigar already in the catalog,
+record it via `add-pairing-citation`. Never call `add-community-pairing`
+without the owner explicitly naming the submission to add, and never write to
+`src/lib/pairingRules.ts` or `src/lib/pairingTopics.ts` (editorial content,
+owner-maintained) during an automated run.
 
 ## Affiliate configuration
 - `config/affiliates.json` holds retailer names, tracking IDs, and URL

@@ -64,6 +64,33 @@ CREATE TABLE line (
   UNIQUE (brand_id, slug)
 );
 
+-- Cited pairing recommendations from a real critic/publication — auto-publish
+-- tier (a citation on an existing entity, like critic_review), NOT queue-gated.
+-- Keyed to line_id, not vitola_id: a real "pair this with X" recommendation is
+-- almost always about the blend as a whole, not one specific size — unlike a
+-- numeric score, which genuinely varies by ring gauge/burn time.
+-- See CLAUDE.md "Cigar Pairings" for the authoritative description.
+CREATE TABLE cigar_pairing_citation (
+  id             INTEGER PRIMARY KEY AUTOINCREMENT,
+  line_id        INTEGER NOT NULL REFERENCES line(id),
+  pairing_text   TEXT NOT NULL,
+  category       TEXT,
+  source_name    TEXT NOT NULL,
+  source_url     TEXT NOT NULL,
+  published_date TEXT NOT NULL
+);
+
+-- Community-submitted pairings. No "pending" status column: exactly like
+-- brand/lounge/factory rows, nothing is ever inserted without a human having
+-- already read it for appropriateness first — see CLAUDE.md "Cigar Pairings".
+CREATE TABLE cigar_pairing_community (
+  id              INTEGER PRIMARY KEY AUTOINCREMENT,
+  line_id         INTEGER NOT NULL REFERENCES line(id),
+  submitter_name  TEXT NOT NULL,
+  pairing_text    TEXT NOT NULL,
+  submitted_date  TEXT NOT NULL
+);
+
 CREATE TABLE vitola (
   id                  INTEGER PRIMARY KEY AUTOINCREMENT,
   line_id             INTEGER NOT NULL REFERENCES line(id),
@@ -245,3 +272,5 @@ CREATE INDEX idx_cigar_release_vitola ON cigar_release(related_vitola_id);
 CREATE INDEX idx_brand_factory ON brand(factory_id);
 CREATE INDEX idx_brand_source_brand ON brand_source(brand_id);
 CREATE INDEX idx_factory_source_factory ON factory_source(factory_id);
+CREATE INDEX idx_cigar_pairing_citation_line ON cigar_pairing_citation(line_id);
+CREATE INDEX idx_cigar_pairing_community_line ON cigar_pairing_community(line_id);
