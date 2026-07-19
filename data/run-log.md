@@ -4,6 +4,37 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-07-19 — Sunday run, part 1: accessories night — 3 accessories crossed into a published score
+Today is an "accessories" night on the 3-way rotation with cigars and lounges
+(day-of-month mod 3 = 1, see CLAUDE.md). Since it's Sunday, a heavier catalog
+pass was allowed, so tonight's focus was clearing out accessories stuck at
+"2 of 3 sources" in the review queue — a batch of new accessories was added
+recently and many are sitting just short of a published AccScore.
+
+- **Scores published for the first time** (found a genuine, independent 3rd
+  source — Holt's Cigar Company's own customer-rating average, distinct from
+  the retailers already on file for each item — and recomputed):
+  - Xikar 009 Punch Cutter: AccScore 95.8 (Holt's: 4.67/5 across 3 reviews)
+  - HUMI-CARE Crystal Gel Humidification Jar (4 oz): AccScore 96.7 (Holt's:
+    5.00/5 across 8 reviews)
+  - Colibri V-Cut Cutter: AccScore 97.3 (Holt's: 5.00/5 across 5 reviews,
+    listed there in a Black/Gold finish rather than the Black/Chrome variant
+    already on file — same underlying product line)
+- **Researched but not used**: tried to find a genuine 3rd numeric source for
+  Xikar Volta, Xikar EX, Xikar PuroTemp Digital Hygrometer, Boveda 65% RH
+  Size 60, Xikar 10-Cigar Travel Humidor, and the Nathan Scott Lester Cigar
+  Log Book. Found real editorial write-ups (Blind Man's Puff, Developing
+  Palates) but they gave only qualitative "highly recommend"-style verdicts
+  with no numeric score to record — recording a made-up number to hit the
+  minimum would violate the "never invent a score" rule, so these stay
+  queued. A couple of retailer pages that might have had star ratings
+  blocked the fetch (Thompson Cigar, Cigars International, Neptune Cigar on
+  some pages). One Blind Man's Puff hygrometer review turned out to cover a
+  different (wireless) Xikar product, not the one in our database, so it
+  wasn't used either.
+- **Errors**: none otherwise. Site builds cleanly (3,309 pages).
+- More to come tonight — price checks and news brief still to do.
+
 ## 2026-07-18 — Weekday run: cigars night — 1 news brief, 3 price checks, 1 release logged
 Today was a "cigars" night on the 3-way rotation with accessories and
 lounges (day-of-month mod 3 = 0, see CLAUDE.md). Kept it light since it's
