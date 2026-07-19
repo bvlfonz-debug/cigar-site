@@ -94,6 +94,12 @@ restrained, not flashy. No stock-photo cigar clichés, no gimmicks.
 - **cigar_pairing_community**: id, line_id, submitter_name, pairing_text,
   submitted_date — owner-curated user submissions, no "pending" status column
   (see "Cigar Pairings" below)
+- **cigar_community_review**: id, vitola_id, external_id, reviewer_name,
+  star_rating (1-5), strength_experienced, draw_experienced, burn_experienced,
+  tasting_notes_user (JSON array), review_text, submitted_date, report_count,
+  hidden — first-hand user reviews, keyed to vitola_id (not line_id, unlike
+  the pairing tables) since burn/draw are real per-physical-stick properties;
+  see "Community Reviews" below
 - **review_queue**: human-approval queue, stored as `data/review-queue.json`
 
 ## StickScore — the aggregate scoring system
@@ -527,6 +533,59 @@ record it via `add-pairing-citation`. Never call `add-community-pairing`
 without the owner explicitly naming the submission to add, and never write to
 `src/lib/pairingRules.ts` or `src/lib/pairingTopics.ts` (editorial content,
 owner-maintained) during an automated run.
+
+## Community Reviews
+User star ratings and free-text reviews are FIRST-HAND opinions, always
+attributed to a named reviewer, and must NEVER be merged into or confused
+with the aggregated critic score (StickScore). The two stay visually and
+structurally separate everywhere — same "never conflate an opinion with a
+fact" principle as Cigar Pairings, applied to user content instead of critic
+citations.
+
+- Stored in `cigar_community_review`, keyed to `vitola_id` (not `line_id`,
+  unlike the pairing tables) — a review's structured fields
+  (`strength_experienced`/`draw_experienced`/`burn_experienced`) describe the
+  reviewer's own experience of the *specific physical stick*, the same reason
+  `critic_review` itself is `vitola_id`-keyed.
+- **No live public submission form exists or is planned** — same as Community
+  Pairings, this site has no backend/live write capability anywhere. Real
+  reviews arrive out-of-band (however the owner collects them) and only get
+  added via `add-community-review` after a human has personally read the
+  submission for appropriateness, spam, and minors-targeting — calling the
+  command IS the approval. **Nightly automation must never call
+  `add-community-review` unsupervised** — only when the owner has explicitly
+  said which specific submission to add.
+- `star_rating`/structured fields NEVER feed `computeStickScore` or any
+  critic-facing number, anywhere, under any circumstance. The "community
+  average" shown on a cigar page is computed separately by
+  `computeCommunityAverage()` in `src/lib/db.ts` — a plain arithmetic mean,
+  `null` below 3 non-hidden reviews (same minimum-source convention as
+  everywhere else), explicitly not `computeStickScore`'s critic-weighting/
+  recency-doubling logic.
+- If a published review turns out to be spam or inappropriate after the fact,
+  hide it via `update-community-review-status` (sets `hidden`) — never delete
+  the row, same "never delete, only correct" guardrail as everywhere else.
+
+### Pages
+- Cigar detail page's "Community Reviews" section (between "Sources" and
+  "Similar cigars") — the community average (clearly labeled "user-submitted,
+  not the official StickScore"), individual review cards (star rating,
+  reviewer name, any structured fields the reviewer gave, their own tasting
+  notes — visually distinct from the critic-consensus tasting-notes tags
+  higher on the page — and free text), and an empty-state note when there are
+  no reviews yet.
+- JSON-LD: each non-hidden review becomes one `Review` entry in the existing
+  `Product` JSON-LD's `review` array (schema.org's standard mechanism for
+  individual attributed reviews). Deliberately NO second `aggregateRating`
+  node for the community average — two `AggregateRating`s on one entity (one
+  critic, one community) risks Google's Rich Results parser treating them as
+  conflicting, which would undercut the entire point of this feature. The
+  community average stays fully crawlable as ordinary page text instead.
+
+### Nightly automation folding
+Folds into the existing **cigars** rotation night. Never call
+`add-community-review`/`update-community-review-status` without the owner
+explicitly naming the specific submission/review to act on.
 
 ## Affiliate configuration
 - `config/affiliates.json` holds retailer names, tracking IDs, and URL

@@ -115,6 +115,22 @@ export interface CommunityPairingRow {
   submitted_date: string;
 }
 
+export interface CommunityReviewRow {
+  id: number;
+  vitola_id: number;
+  external_id: string;
+  reviewer_name: string;
+  star_rating: number;
+  strength_experienced: string | null;
+  draw_experienced: string | null;
+  burn_experienced: string | null;
+  tasting_notes_user: string;
+  review_text: string | null;
+  submitted_date: string;
+  report_count: number;
+  hidden: number;
+}
+
 export interface CigarPageData {
   brand: BrandRow;
   line: LineRow;
@@ -122,6 +138,18 @@ export interface CigarPageData {
   criticReviews: CriticReviewRow[];
   pairingCitations: PairingCitationRow[];
   communityPairings: CommunityPairingRow[];
+  communityReviews: CommunityReviewRow[];
+}
+
+// First-hand, user-submitted star ratings — NEVER computed via
+// computeStickScore (that logic is critic-weighting/recency-doubling, which
+// is meaningless for a flat 1-5 average) and never blended with
+// vitola.stick_score anywhere. Same "insufficient data" minimum-count
+// convention used everywhere else on the site, just a plain arithmetic mean.
+export function computeCommunityAverage(reviews: CommunityReviewRow[]): number | null {
+  const visible = reviews.filter((r) => !r.hidden);
+  if (visible.length < 3) return null;
+  return visible.reduce((sum, r) => sum + r.star_rating, 0) / visible.length;
 }
 
 export function getAllCigarSlugs(): { brand: string; line: string; vitola: string }[] {
@@ -163,7 +191,11 @@ export function getCigarPage(brandSlug: string, lineSlug: string, vitolaSlug: st
     .prepare('SELECT * FROM cigar_pairing_community WHERE line_id = ? ORDER BY submitted_date DESC')
     .all(line.id) as CommunityPairingRow[];
 
-  return { brand, line, vitola, criticReviews, pairingCitations, communityPairings };
+  const communityReviews = db
+    .prepare('SELECT * FROM cigar_community_review WHERE vitola_id = ? AND hidden = 0 ORDER BY submitted_date DESC')
+    .all(vitola.id) as CommunityReviewRow[];
+
+  return { brand, line, vitola, criticReviews, pairingCitations, communityPairings, communityReviews };
 }
 
 export interface BrandPageLine extends LineRow {

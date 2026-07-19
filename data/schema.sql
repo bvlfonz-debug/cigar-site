@@ -124,6 +124,28 @@ CREATE TABLE critic_review (
   key_notes_text TEXT
 );
 
+-- First-hand, user-submitted reviews — never conflated with critic_review or
+-- vitola.stick_score. Keyed to vitola_id (not line_id) for the same reason
+-- critic_review is: burn/draw/construction are real per-physical-stick
+-- properties. Rows only ever arrive via scripts/sync-community-reviews.mjs,
+-- which only inserts submissions the owner has already approved in the
+-- Vercel Blob moderation queue — see CLAUDE.md "Community Reviews".
+CREATE TABLE cigar_community_review (
+  id                    INTEGER PRIMARY KEY AUTOINCREMENT,
+  vitola_id             INTEGER NOT NULL REFERENCES vitola(id),
+  external_id           TEXT NOT NULL UNIQUE,
+  reviewer_name         TEXT NOT NULL,
+  star_rating           INTEGER NOT NULL CHECK (star_rating BETWEEN 1 AND 5),
+  strength_experienced  TEXT CHECK (strength_experienced IN ('mild','mild-medium','medium','medium-full','full')),
+  draw_experienced      TEXT CHECK (draw_experienced IN ('tight','ideal','loose')),
+  burn_experienced      TEXT CHECK (burn_experienced IN ('poor','average','excellent')),
+  tasting_notes_user    TEXT NOT NULL DEFAULT '[]',
+  review_text           TEXT,
+  submitted_date        TEXT NOT NULL,
+  report_count          INTEGER NOT NULL DEFAULT 0,
+  hidden                INTEGER NOT NULL DEFAULT 0
+);
+
 CREATE TABLE price_point (
   id             INTEGER PRIMARY KEY AUTOINCREMENT,
   vitola_id      INTEGER NOT NULL REFERENCES vitola(id),
@@ -274,3 +296,4 @@ CREATE INDEX idx_brand_source_brand ON brand_source(brand_id);
 CREATE INDEX idx_factory_source_factory ON factory_source(factory_id);
 CREATE INDEX idx_cigar_pairing_citation_line ON cigar_pairing_citation(line_id);
 CREATE INDEX idx_cigar_pairing_community_line ON cigar_pairing_community(line_id);
+CREATE INDEX idx_cigar_community_review_vitola ON cigar_community_review(vitola_id);

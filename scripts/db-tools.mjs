@@ -939,6 +939,89 @@ const commands = {
     const { line } = resolveLine(payload.path);
     return { pairings: db.prepare('SELECT * FROM cigar_pairing_community WHERE line_id = ?').all(line.id) };
   },
+
+  // Real submissions arrive out-of-band (however the owner collects them —
+  // a linked form, email, etc.), never through a live public endpoint. Only
+  // ever call this after a human has personally read the submission for
+  // appropriateness, spam, and minors-targeting — same trust model as
+  // add-community-pairing. This command's own job beyond that is idempotency
+  // (skip if external_id already exists) and structural validity (star
+  // range, non-empty name, valid enums), not re-moderation.
+  'add-community-review'(payload) {
+    const { vitola } = resolveVitola(payload.path);
+    const required = ['external_id', 'reviewer_name', 'star_rating', 'submitted_date'];
+    for (const field of required) {
+      if (payload[field] == null) fail(`add-community-review requires "${field}"`);
+    }
+    if (!Number.isInteger(payload.star_rating) || payload.star_rating < 1 || payload.star_rating > 5) {
+      fail(`add-community-review requires "star_rating" to be an integer between 1 and 5, got ${payload.star_rating}`);
+    }
+    if (String(payload.reviewer_name).trim().length === 0) {
+      fail('add-community-review requires a non-empty "reviewer_name"');
+    }
+    const existing = db.prepare('SELECT id FROM cigar_community_review WHERE external_id = ?').get(payload.external_id);
+    if (existing) {
+      return { ok: true, skipped: true, reason: 'already synced', community_review_id: existing.id };
+    }
+    const validEnum = (value, allowed) => value == null || allowed.includes(value);
+    if (!validEnum(payload.strength_experienced, ['mild', 'mild-medium', 'medium', 'medium-full', 'full'])) {
+      fail(`add-community-review: invalid strength_experienced "${payload.strength_experienced}"`);
+    }
+    if (!validEnum(payload.draw_experienced, ['tight', 'ideal', 'loose'])) {
+      fail(`add-community-review: invalid draw_experienced "${payload.draw_experienced}"`);
+    }
+    if (!validEnum(payload.burn_experienced, ['poor', 'average', 'excellent'])) {
+      fail(`add-community-review: invalid burn_experienced "${payload.burn_experienced}"`);
+    }
+    const result = db.prepare(`
+      INSERT INTO cigar_community_review (
+        vitola_id, external_id, reviewer_name, star_rating, strength_experienced,
+        draw_experienced, burn_experienced, tasting_notes_user, review_text, submitted_date
+      ) VALUES (
+        @vitola_id, @external_id, @reviewer_name, @star_rating, @strength_experienced,
+        @draw_experienced, @burn_experienced, @tasting_notes_user, @review_text, @submitted_date
+      )
+    `).run(at({
+      vitola_id: vitola.id,
+      external_id: payload.external_id,
+      reviewer_name: payload.reviewer_name,
+      star_rating: payload.star_rating,
+      strength_experienced: payload.strength_experienced ?? null,
+      draw_experienced: payload.draw_experienced ?? null,
+      burn_experienced: payload.burn_experienced ?? null,
+      tasting_notes_user: JSON.stringify(payload.tasting_notes_user ?? []),
+      review_text: payload.review_text ?? null,
+      submitted_date: payload.submitted_date,
+    }));
+    return { ok: true, skipped: false, community_review_id: result.lastInsertRowid };
+  },
+
+  // For hiding an already-published review the owner later decides is spam
+  // or inappropriate (e.g. after a reader flags it some other way) — never
+  // deletes the row, matches the site's "never delete, only correct" rule.
+  'update-community-review-status'(payload) {
+    if (payload.external_id == null) fail('update-community-review-status requires "external_id"');
+    const review = db.prepare('SELECT * FROM cigar_community_review WHERE external_id = ?').get(payload.external_id);
+    if (!review) fail(`No community review found with external_id "${payload.external_id}"`);
+    const sets = [];
+    const params = { id: review.id };
+    if (payload.hidden != null) {
+      sets.push('hidden = @hidden');
+      params.hidden = payload.hidden ? 1 : 0;
+    }
+    if (payload.report_count != null) {
+      sets.push('report_count = @report_count');
+      params.report_count = payload.report_count;
+    }
+    if (sets.length === 0) fail('update-community-review-status requires at least one of: hidden, report_count');
+    db.prepare(`UPDATE cigar_community_review SET ${sets.join(', ')} WHERE id = @id`).run(at(params));
+    return { ok: true };
+  },
+
+  'find-community-reviews'(payload) {
+    const { vitola } = resolveVitola(payload.path);
+    return { reviews: db.prepare('SELECT * FROM cigar_community_review WHERE vitola_id = ?').all(vitola.id) };
+  },
 };
 
 const [, , command, payloadJson] = process.argv;
