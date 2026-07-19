@@ -1350,5 +1350,54 @@
     ],
     "proposed_action": "Check Amazon for a confirmed aggregate rating and review count on a specific SKU.",
     "decision": null
+  },
+  {
+    "item": "Liga Privada No. 9 Belicoso",
+    "path": "/cigars/drew-estate/liga-privada-no-9/belicoso/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Liga Privada No. 9 Corona Doble",
+    "path": "/cigars/drew-estate/liga-privada-no-9/corona-doble/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Liga Privada No. 9 Coronets",
+    "path": "/cigars/drew-estate/liga-privada-no-9/coronets/",
+    "reason": "insufficient_sources",
+    "why_flagged": "A real, dated review exists (JR Cigars Blending Room, Sep 4 2019) but carries no numeric score, so no critic_review row was added. 0 of the 3 independent scored sources StickScore requires.",
+    "sources_found": [],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Aficionado, Cigar Dojo for a scored review of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Liga Privada No. 9 Corona Viva",
+    "path": "/cigars/drew-estate/liga-privada-no-9/corona-viva/",
+    "reason": "insufficient_sources",
+    "why_flagged": "A Cigar Aficionado rating (87 points, Dec 2019) was found under this name but lists 6x48 dimensions, conflicting with the 6x46 confirmed by multiple retailers (Neptune, Fox, Atlantic Cigar) - not used as a citation pending resolution of that discrepancy, to avoid risking misattribution to a different product. A halfwheel review (Top 25 2018) also exists but its page was paywalled and could not be independently confirmed.",
+    "sources_found": [],
+    "proposed_action": "Resolve the 6x46 vs 6x48 dimension discrepancy on the Cigar Aficionado rating page (https://www.cigaraficionado.com/ratings/21607/name/liga-privada-no.-9-corona-viva-toro), and if it is confirmed to be the same product, add it as a scored citation.",
+    "decision": null
+  },
+  {
+    "item": "Liga Privada No. 9 Flying Pig",
+    "path": "/cigars/drew-estate/liga-privada-no-9/flying-pig/",
+    "reason": "insufficient_sources",
+    "why_flagged": "A halfwheel review (93 points) is real and well-corroborated in secondary sources, but its exact publish date could not be confirmed after repeated attempts (site returned paywall/402 errors), so no critic_review row was added rather than guessing a date. A separately-cited \"83 points, Cigar Aficionado\" figure could not be confirmed as being for this exact product (No. 9 Flying Pig) rather than a similarly-named Liga Privada T52 or Único Feral Flying Pig, so it was not used.",
+    "sources_found": [],
+    "proposed_action": "Confirm the halfwheel review's publish date directly (https://halfwheel.com/liga-privada-9-flying-pig/62059/) and locate the correct Cigar Aficionado ratings page specifically for the No. 9 Flying Pig (not T52 or Único Feral) before adding either as a citation.",
+    "decision": null
   }
 ]
