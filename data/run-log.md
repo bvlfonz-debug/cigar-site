@@ -43,7 +43,18 @@ recently and many are sitting just short of a published AccScore.
   Royal Glass-Top Humidor, NewAir CC-300H, HUMI-CARE Crystal Gel Jar) but
   every retailer page tried for those either blocked the fetch or didn't
   show a price in what came back — skipped rather than guess.
-- More to come tonight — news brief still to do.
+- **News**: added one brief — Biz New Orleans' coverage of CigarBros
+  unveiling the FreshBox, a roughly 50-cigar desktop humidor system (made
+  from recyclable expanded polypropylene, magnetic stacking, 69% Boveda
+  humidification) at the April 2026 PCA Trade Show, priced $99.99-$199
+  depending on series. It's a whole new system/brand rather than a single
+  product we already catalog, so the brief stands alone with no linked
+  accessory page for now.
+- **Review queue**: unchanged tonight (108 items still waiting on you,
+  mostly accessories sitting at "1 or 2 of 3 sources" after last week's
+  batch of new additions — no rush, skim whenever you have a few minutes).
+- **Errors**: none. Site builds cleanly (3,309 pages) after every step
+  tonight. That's everything for tonight's accessories-focus run.
 
 ## 2026-07-18 — Weekday run: cigars night — 1 news brief, 3 price checks, 1 release logged
 Today was a "cigars" night on the 3-way rotation with accessories and
