@@ -1215,5 +1215,140 @@
     ],
     "proposed_action": "Look for an independent editorial or forum review of this specific model.",
     "decision": null
+  },
+  {
+    "item": "Cohiba Black Toro",
+    "path": "/cigars/cohiba/black/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Cohiba Black Churchill",
+    "path": "/cigars/cohiba/black/churchill/",
+    "reason": "insufficient_sources",
+    "why_flagged": "All confirmed reviews are from Cigar Aficionado across several years - only 1 truly independent source (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Macanudo Café Duke of Windsor",
+    "path": "/cigars/macanudo/cafe/duke-of-windsor/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Both confirmed reviews are from Cigar Aficionado (13 years apart) - only 1 truly independent source (StickScore requires 3).",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Padrón 1926 Serie No. 9 Maduro",
+    "path": "/cigars/padron/1926-serie/no-9-maduro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3). A Cigar Aficionado 97-point review (2007 Cigar of the Year) exists for the No. 9 but is for the Natural-wrapper version - our 1926 Serie line is recorded as Nicaraguan Maduro, so that review was excluded rather than misattributed to the wrong wrapper.",
+    "sources_found": [
+      "The Cigar Authority"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of the Maduro No. 9 specifically.",
+    "decision": null
+  },
+  {
+    "item": "Romeo y Julieta 1875 Churchill",
+    "path": "/cigars/romeo-y-julieta/1875/churchill/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3). A same-named-but-different \"Romeo y Julieta Churchill\" (7x47, not part of the 1875 line) was found and correctly excluded to avoid misattribution.",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "Room101 Farce Toro",
+    "path": "/cigars/room101/farce/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3). A halfwheel review exists but returned a paywall block, so its score could not be confirmed. Two other scores found (\"Farce Nicaragua Toro\" and \"Farce It Is a Lonsdale\") are for a different sub-blend and a different size respectively - excluded to avoid misattribution.",
+    "sources_found": [
+      "Cigar Aficionado"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "RoMa Craft CroMagnon Anthropology",
+    "path": "/cigars/roma-craft-tobac/cromagnon/anthropology/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 2 independent sources found (StickScore requires 3). A CigarObsession review exists but gives no numeric score, so it was excluded.",
+    "sources_found": [
+      "Cigar Aficionado",
+      "The Cigar Authority"
+    ],
+    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
+    "decision": null
+  },
+  {
+    "item": "S.T. Dupont Ligne 2",
+    "path": "/accessories/soft-flame-lighters/ligne-2/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source with a numeric score found (StickScore/AccScore requires 3). A Kirby Allison video review exists but is qualitative, not scored, and a Cigar Aficionado mention is only in passing.",
+    "sources_found": [
+      "Smokin Tabacco"
+    ],
+    "proposed_action": "Check other major retailers for an aggregate rating with a review count.",
+    "decision": null
+  },
+  {
+    "item": "Vertigo by Lotus Attaché 2",
+    "path": "/accessories/soft-flame-lighters/attache-2/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source with a numeric score found (StickScore/AccScore requires 3). Amazon and CigarPage.com reviews exist but are mixed/qualitative individual comments without a clear aggregate figure.",
+    "sources_found": [
+      "LighterUSA"
+    ],
+    "proposed_action": "Check Amazon for a confirmed aggregate rating with a review count.",
+    "decision": null
+  },
+  {
+    "item": "Visol Stinger",
+    "path": "/accessories/soft-flame-lighters/stinger/",
+    "reason": "insufficient_sources",
+    "why_flagged": "No source with a confirmable numeric score was found (halfwheel and Oxford Cigar Company both cover this product but only qualitatively).",
+    "sources_found": [
+      "halfwheel",
+      "Oxford Cigar Company"
+    ],
+    "proposed_action": "Look for a retailer aggregate rating with a numeric score and review count for this product.",
+    "decision": null
+  },
+  {
+    "item": "33 Books Co. 33 Cigars Pocket Journal",
+    "path": "/accessories/journals-stands/33-cigars-pocket-journal/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only 1 independent source with a numeric score found (StickScore/AccScore requires 3), and it is the manufacturer's own site rather than a fully independent retailer.",
+    "sources_found": [
+      "33books.com"
+    ],
+    "proposed_action": "Check Amazon and other independent retailers for a confirmed aggregate rating with a review count.",
+    "decision": null
+  },
+  {
+    "item": "CIGARISM Carbon Fiber Detachable Cigar Stand",
+    "path": "/accessories/journals-stands/carbon-fiber-detachable-cigar-stand/",
+    "reason": "insufficient_sources",
+    "why_flagged": "No source with a confirmable numeric score was found - Cigar Forums and Amazon both cover this product with real, substantive feedback but no clear aggregate figure.",
+    "sources_found": [
+      "Cigar Forums",
+      "Amazon (individual reviews)"
+    ],
+    "proposed_action": "Check Amazon for a confirmed aggregate rating and review count on a specific SKU.",
+    "decision": null
   }
 ]
