@@ -1750,5 +1750,31 @@
     "sources_found": [],
     "proposed_action": "Find a working route to halfwheel's content, or another accessible outlet's scored review for this specific vitola.",
     "decision": null
+  },
+  {
+    "item": "Aladino Cameroon Super Toro / Lancero / Elegante / Gordo / Queens Perfecto — critic scores",
+    "path": "/cigars/aladino/cameroon/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Reviews exist for several of these (Cigar Advisor for Super Toro, halfwheel for Elegante and Gordo) but gave no numeric score, or the outlet (halfwheel) blocked direct fetch. No confirmed scored citation found for Lancero or Queens Perfecto either.",
+    "sources_found": [
+      "https://www.famous-smoke.com/cigaradvisor/cigar-reviews/my-weekend-cigar-aladino-cameroon",
+      "https://halfwheel.com/aladino-cameroon-elegante/390576/",
+      "https://halfwheel.com/aladino-cameroon-gordo/414078/"
+    ],
+    "proposed_action": "Research each of these 5 vitolas individually for a scored, direct-fetchable review.",
+    "decision": null
+  },
+  {
+    "item": "Aladino Cameroon — submission contained a FABRICATED award and multiple wrong facts",
+    "path": "/cigars/aladino/cameroon/",
+    "reason": "conflicting_facts",
+    "why_flagged": "This submission's headline claim — a No. 2 Cigar of the Year (96 points) from Cigar Aficionado's 2022 Top 25 — is FALSE. Directly fetched the actual 2022 Top 25 list: Aladino Cameroon does not appear on it anywhere. The real #2 for 2022 was Rocky Patel Sixty Sixty; #1 was H. Upmann No. 2. No Aladino product of any kind appears on that list. This was not used. Additional errors: release_year was submitted as 2021, but the line actually launched May 2020 (confirmed via halfwheel/Cigar Coop coverage). The wrapper was described as \"authentic African Cameroon wrapper tobacco\" grown in Cameroon, but it is actually Honduran-GROWN Cameroon-SEED tobacco from the Eiroa family's own Jamastran Valley farms — never grown in Cameroon itself. Factory was given as \"Fabricas Unidas\"; the more specific and commonly-cited name is \"Fabrica de Puros Aladino,\" a converted vintage movie theater (Fabricas Unidas appears to be a related/parent entity). Vitola names and dimensions were also substantially wrong: \"Petit Corona\" (4.5x46) does not match the real \"Elegante\" (4.5x48); \"Toro\" (6x52) should be named \"Super Toro\"; \"Lonsdale\" was submitted at 6.5x44 but is actually 6x43; a \"Corona\" at 5.6x44 does not match any known Aladino Cameroon vitola at all and was not added. The submission also omitted 3 real vitolas (Lancero, Gordo, Queens Perfecto).",
+    "sources_found": [
+      "https://www.cigaraficionado.com/top25/2022",
+      "https://www.cigaraficionado.com/article/best-cigars-of-2022",
+      "https://www.cigaraficionado.com/article/an-aladino-wrapped-in-honduran-cameroon"
+    ],
+    "proposed_action": "Treat this submission's source as unreliable going forward — this is the first submission this session with a wholly fabricated award citation rather than a research/attribution error. Flagged directly to the site owner.",
+    "decision": null
   }
 ]
