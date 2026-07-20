@@ -1895,5 +1895,26 @@
     ],
     "proposed_action": "No action needed — this entry documents the corrections applied.",
     "decision": null
+  },
+  {
+    "item": "Vintage 1992/Edge Maduro/Sun Grown remaining vitolas — critic scores",
+    "path": "/brands/rocky-patel/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Vintage 1992 Torpedo/Sixty, all 4 Edge Maduro vitolas, and all 4 Sun Grown vitolas were not individually researched — time was prioritized on verifying award claims across this large 5-line batch.",
+    "sources_found": [],
+    "proposed_action": "Research each remaining vitola individually for a scored, direct-fetchable review.",
+    "decision": null
+  },
+  {
+    "item": "Rocky Patel batch #4 — Olde World Reserve Maduro award misattribution and Vintage 1992 omitted award",
+    "path": "/brands/rocky-patel/",
+    "reason": "conflicting_facts",
+    "why_flagged": "Two issues found. (1) Olde World Reserve Maduro: the submission attributed its #8/2009/92pt Cigar Aficionado award to the Toro vitola, but the real award-winning cigar is a Torpedo (5x54) — a vitola the submission omitted from its list entirely. Added the Torpedo and moved the citation there; the Toro does have its own separate, later 91-point 2019 review, which was also added. (2) Vintage 1992: the submission's awards array was empty, but a real, independently-confirmed award exists — Cigar Journal's #8 Cigar of the Year for 2015 (Robusto) — added. Conviction's #7/2024/95pt award was independently re-confirmed against the full 2024 Top 25 list already fetched earlier this session (during West Tampa Tobacco verification) and is accurate.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/top25cigar/rocky-patel-olde-world-reserve-maduro-torpedo-2009",
+      "https://www.cigarjournal.com/rocky-patel-vintage-1992-robusto-is-8-of-top-25-cigars-of-2015/"
+    ],
+    "proposed_action": "No action needed — this entry documents the corrections applied.",
+    "decision": null
   }
 ]
