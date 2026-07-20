@@ -1451,5 +1451,42 @@
     "sources_found": [],
     "proposed_action": "If a future submission or source directly disputes 2017/full with strong primary-source backing, revisit; otherwise no action needed — this entry exists to document why the conflicting user-submitted values were rejected.",
     "decision": null
+  },
+  {
+    "item": "Romeo y Julieta Reserva Real \"Petit Corona\" — name/dimensions could not be confirmed",
+    "path": "/cigars/romeo-y-julieta/reserva-real/",
+    "reason": "insufficient_sources",
+    "why_flagged": "A user submission listed a \"Petit Corona\" at 5.0x36 for this line. No retailer or review site found lists a Reserva Real size by that name or those dimensions. The closest real match is a plain \"Corona\" at 5.5x44 (JR Cigars, Neptune Cigar) — a different name AND different dimensions, so it isn't safe to assume they're the same product. Separately, a completely different Romeo y Julieta product (the classic, non-Reserva-Real line) does have its own \"Petit Corona\" with a real Cigar Aficionado rating (ratings/1971) — real risk the submission conflated that unrelated product with this line.",
+    "sources_found": [
+      "https://www.jrcigars.com/item/romeo-y-julieta-reserva-real/corona/JUCRR.html",
+      "https://www.neptunecigar.com/cigars/romeo-y-julieta-reserva-real-corona"
+    ],
+    "proposed_action": "If a Corona (5.5x44) is wanted for this line, add-vitola under that real name/dimensions once a scored review is found; do not add a \"Petit Corona\" at 5x36 without a direct citation confirming it actually exists in the Reserva Real line.",
+    "decision": null
+  },
+  {
+    "item": "Romeo y Julieta Reserva Real \"Gigante\" — real name is Magnum, no scored review confirmed yet",
+    "path": "/cigars/romeo-y-julieta/reserva-real/",
+    "reason": "insufficient_sources",
+    "why_flagged": "A user submission listed a \"Gigante\" at 6.0x60. Dimensions are real (6x60), but every retailer found (Neptune, Best Cigar Prices, Corona Cigar, Cigar Luxury, Cigar King) calls this size \"Magnum\", not \"Gigante\" — and a separate \"Reserva Real Nicaragua Magnum\" variant also exists under the same size name, so the wrapper variant needs confirming too. A search summary claimed a 91 Cigar Aficionado rating for the Magnum but no direct-fetchable CA rating URL was found to confirm the exact score/date and which wrapper variant it's for.",
+    "sources_found": [
+      "https://www.neptunecigar.com/cigars/romeo-y-julieta-reserva-real-magnum",
+      "https://atlanticcigar.com/romeo-y-julieta-reserva-real-nicaragua-magnum-6x60/"
+    ],
+    "proposed_action": "Find the exact Cigar Aficionado (or other) rating URL for the plain (Ecuadorian Connecticut, non-Nicaragua) Magnum specifically, confirm score/date, then add-vitola as \"Magnum\" (not \"Gigante\") at 6x60.",
+    "decision": null
+  },
+  {
+    "item": "Romeo y Julieta Reserva Real — submitted wrapper origin (US) conflicts with existing db (Ecuador)",
+    "path": "/cigars/romeo-y-julieta/reserva-real/",
+    "reason": "conflicting_facts",
+    "why_flagged": "A user submission claimed the wrapper is Connecticut Shade grown in the United States. Our existing db value (Ecuadorian Connecticut shade) predates this submission and was independently re-confirmed twice this session via direct-fetched Cigar Aficionado rating pages (Robusto, Churchill, Belicoso No. 2 all list wrapper origin as Ecuador) plus multiple independent retailer descriptions (\"silky, shade-grown Ecuadorian Connecticut wrapper\"). Kept the existing Ecuador-origin wrapper value and did not change it to the submission's claim.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/ratings/8963/name/romeo-y-julieta-reserva-real-robusto",
+      "https://www.cigaraficionado.com/ratings/8964/name/romeo-y-julieta-reserva-real-churchill-churchill",
+      "https://www.cigaraficionado.com/ratings/8965/name/romeo-y-julieta-reserva-real-no-2-belicoso"
+    ],
+    "proposed_action": "No action needed — this entry documents why the submitted wrapper-origin claim was rejected in favor of the already-corroborated Ecuador origin.",
+    "decision": null
   }
 ]

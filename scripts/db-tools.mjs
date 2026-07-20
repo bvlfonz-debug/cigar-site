@@ -341,6 +341,29 @@ const commands = {
     return { ok: true, line_id: result.lastInsertRowid };
   },
 
+  // Only touches fields actually passed in — for filling gaps on an existing
+  // line (e.g. a release_year that was left null pending confirmation), not
+  // for casually overwriting already-cited facts.
+  'update-line'(payload) {
+    const brand = db.prepare('SELECT * FROM brand WHERE slug = ?').get(payload.brand_slug);
+    if (!brand) fail(`No brand found with slug "${payload.brand_slug}"`);
+    const line = db.prepare('SELECT * FROM line WHERE brand_id = ? AND slug = ?').get(brand.id, payload.line_slug);
+    if (!line) fail(`No line found with slug "${payload.line_slug}" under "${payload.brand_slug}"`);
+    const sets = [];
+    const params = { id: line.id };
+    if (payload.release_year != null) {
+      sets.push('release_year = @release_year');
+      params.release_year = payload.release_year;
+    }
+    if (payload.background_text != null) {
+      sets.push('background_text = @background_text');
+      params.background_text = payload.background_text;
+    }
+    if (sets.length === 0) fail('update-line requires at least one of: release_year, background_text');
+    db.prepare(`UPDATE line SET ${sets.join(', ')} WHERE id = @id`).run(at(params));
+    return { ok: true };
+  },
+
   'add-vitola'(payload) {
     const required = ['brand_slug', 'line_slug', 'size_name', 'slug', 'length_in', 'ring_gauge', 'vitola_type', 'summary_review'];
     for (const field of required) {
