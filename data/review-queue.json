@@ -1616,5 +1616,35 @@
     "sources_found": [],
     "proposed_action": "Re-search once these sizes have been reviewed by an accessible outlet; consider adding the Torpedo vitola separately once sourced.",
     "decision": null
+  },
+  {
+    "item": "Crowned Heads Mil Dias Sublime — critic score",
+    "path": "/cigars/crowned-heads/mil-dias/sublime/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. A halfwheel review of the Sublime exists but returned HTTP 402 on direct fetch. A Developing Palates \"Mil Dias Maduro Sublime\" review was also found, but that is the separate Maduro-wrapper expression and would misattribute if used here.",
+    "sources_found": [],
+    "proposed_action": "Find a working halfwheel route or another accessible outlet's scored review specific to the base (non-Maduro) Sublime.",
+    "decision": null
+  },
+  {
+    "item": "Crowned Heads Mil Dias Topes — critic score",
+    "path": "/cigars/crowned-heads/mil-dias/topes/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Reviews of the Topes (added to the line in 2023) exist but are qualitative only — no numeric score found from an established outlet.",
+    "sources_found": [],
+    "proposed_action": "Re-search once a scored review is published for this size.",
+    "decision": null
+  },
+  {
+    "item": "Crowned Heads Mil Dias Maduro — needs its own line entry",
+    "path": "/cigars/crowned-heads/mil-dias/",
+    "reason": "insufficient_sources",
+    "why_flagged": "A separate Mil Dias Maduro expression (2024) exists with its own wrapper and its own reviews (Cigar Coop, halfwheel, Developing Palates all review Maduro-labeled vitolas distinctly from the base line) — same pattern as other wrapper-variant splits this session (Perdomo, Plasencia, CAO, Foundation). Not part of the current submission, so not researched in depth.",
+    "sources_found": [
+      "https://cigar-coop.com/2024/09/crowned-heads-mil-dias-maduro-edmundo-cigar-review.html",
+      "https://halfwheel.com/mil-dias-maduro-sublime/438447/"
+    ],
+    "proposed_action": "Research Mil Dias Maduro's blend/release details in depth and add it as its own line under the crowned-heads brand when there's a submission or bandwidth for it.",
+    "decision": null
   }
 ]
