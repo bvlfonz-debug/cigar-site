@@ -1829,5 +1829,28 @@
     ],
     "proposed_action": "No action needed — this entry documents the score correction. Note this is a partial error (unlike the two prior submissions this session with wholly fabricated or entirely wrong awards) — the placement and vitola were both accurate, only the score was inflated.",
     "decision": null
+  },
+  {
+    "item": "Rocky Patel Royale/Sun Grown Maduro/Sixty/A.L.R. Second Edition — remaining vitolas need critic scores",
+    "path": "/brands/rocky-patel/",
+    "reason": "insufficient_sources",
+    "why_flagged": "4 new Rocky Patel lines were added from a batch submission, each with one award-winning vitola already directly cited (Royale Toro, Sun Grown Maduro Robusto, Sixty Sixty, A.L.R. Second Edition Toro). The remaining 12 vitolas across these 4 lines (Royale Robusto/Torpedo/Sixty; Sun Grown Maduro Toro/Belicoso/Sixty; Sixty Robusto/Toro/Half Corona; A.L.R. Robusto/Sixty) were added spec-only without individual research — time was prioritized on verifying the award claims given this batch's pattern of wrong placements.",
+    "sources_found": [],
+    "proposed_action": "Research each remaining vitola individually for a scored, direct-fetchable review.",
+    "decision": null
+  },
+  {
+    "item": "Rocky Patel batch (4 lines) — systematic award-placement errors and wrong factory name",
+    "path": "/brands/rocky-patel/",
+    "reason": "conflicting_facts",
+    "why_flagged": "All 4 submissions in this batch claimed a Cigar Aficionado Top 25 placement of exactly \"No. 2\" — a striking pattern verified directly against the real Top 25 lists: Royale Toro claimed #2/2014, actually #5 (score 94 correct). Sun Grown Maduro Robusto claimed #2/2016 — actually correct, #2/95pts confirmed exactly. Sixty claimed #2/2022 for the Toro vitola — placement and score (96) were correct, but the real award is for the Sixty (6x60) vitola, not Toro. A.L.R. Second Edition claimed #2/2023 — actually #4 (score 96 correct). Pattern: score was right in all 4 cases, but placement was only genuinely #2 once (Sun Grown Maduro); it looks like \"#2\" was used as a default/generic \"very good\" placement rather than actually looked up for the other 3. Separately, all 4 submissions named the Nicaraguan factory \"Tabacos Valle de Jalapa S.A. (TAVICASA)\" — the real name is TAVICUSA (Tabacalera Villa Cuba S.A.), opened 2008; used the correct name throughout. A.L.R. Second Edition's claimed 3-year post-roll aging was also corrected to the confirmed 2 years.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/top25cigar/rocky-patel-royale-toro-2014",
+      "https://www.cigaraficionado.com/top25cigar/rocky-patel-sun-grown-maduro-robusto-2016",
+      "https://www.cigaraficionado.com/top25cigar/rocky-patel-sixty-sixty-2022",
+      "https://www.cigaraficionado.com/top25cigar/rocky-patel-a-l-r-second-edition-toro-2023"
+    ],
+    "proposed_action": "No action needed — this entry documents the corrections applied across the batch. Recommend treating any future \"No. 2\" placement claim from this submission source with particular skepticism given this pattern.",
+    "decision": null
   }
 ]
