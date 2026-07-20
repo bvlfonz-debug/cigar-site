@@ -1925,5 +1925,14 @@
     "sources_found": [],
     "proposed_action": "Research each remaining vitola individually, and consider adding La Opulencia's 3 missing sizes.",
     "decision": null
+  },
+  {
+    "item": "Flor de las Antillas/Jaime Garcia Reserva Especial/Fonseca/El Centurion — remaining vitolas need critic scores",
+    "path": "/brands/my-father/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Flor de las Antillas Belicoso/Toro Grande, all 5 Jaime Garcia Reserva Especial vitolas, Fonseca Robusto/Cedros/Toro Gordo, and El Centurion Corona were not individually researched — time was prioritized on verifying award claims. Also noted real vitolas omitted by these submissions: Jaime Garcia Reserva Especial has a 6th size (Super Gordo, 5.75x66) and Fonseca has 2 more (Cosacos, Belicosos) not covered here.",
+    "sources_found": [],
+    "proposed_action": "Research each remaining vitola individually, and consider adding the 3 missing real sizes noted above.",
+    "decision": null
   }
 ]
