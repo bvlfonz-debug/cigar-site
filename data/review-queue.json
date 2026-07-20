@@ -1678,5 +1678,16 @@
     ],
     "proposed_action": "Find a working route to Cigar Coop's content, or retry thebarrelburner.com later in case the DNS issue was transient.",
     "decision": null
+  },
+  {
+    "item": "Black Works Studio Killer Bee Robusto — critic score",
+    "path": "/cigars/black-works-studio/killer-bee/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Cigar Coop reviewed the original Killer Bee (reportedly 92 points, Box Worthy) but 403'd on every direct-fetch attempt, and the exact vitola reviewed could not be confirmed. A separate Cigar Coop review is specifically for the Green Hornet Robusto, a different variant not in this submission — real risk of misattributing that score to this base Robusto if used without confirmation.",
+    "sources_found": [
+      "https://cigar-coop.com/2016/05/cigar-review-black-works-studio-killer-bee.html"
+    ],
+    "proposed_action": "Find a working route to Cigar Coop content and confirm which vitola the 2016-05 review actually covers before citing a score.",
+    "decision": null
   }
 ]
