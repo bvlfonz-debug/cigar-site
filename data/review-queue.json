@@ -1544,5 +1544,32 @@
     ],
     "proposed_action": "Confirm whether Oliva's official SKU is \"466\" or \"466B\" before any customer-facing copy uses one over the other; find a scored review once available.",
     "decision": null
+  },
+  {
+    "item": "San Cristobal Elegancia Robusto — critic score",
+    "path": "/cigars/san-cristobal/elegancia/robusto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Searches repeatedly returned a claimed \"91-point\" Cigar Aficionado rating for this vitola, but every instance reused the exact same review-text snippet (\"three-seam cap... draws evenly\") that also got attached to the Pyramid and generic Elegancia searches — a sign the search engine is recycling one canned snippet rather than surfacing distinct page content. No actual Robusto-specific cigaraficionado.com/ratings URL could be found or direct-fetched to confirm a real score, and Pyramid's real, directly-confirmed score turned out to be 85 (not 91), reinforcing that the recycled \"91\" figure is unreliable.",
+    "sources_found": [],
+    "proposed_action": "Find and directly fetch the real Cigar Aficionado (or other outlet) rating URL for this specific vitola before citing any score for it.",
+    "decision": null
+  },
+  {
+    "item": "San Cristobal Elegancia Imperial — critic score",
+    "path": "/cigars/san-cristobal/elegancia/imperial/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Same recycled-snippet issue as the Robusto entry — no distinct, direct-fetchable citation found for this vitola specifically.",
+    "sources_found": [],
+    "proposed_action": "Find and directly fetch a real rating URL for this specific vitola before citing any score for it.",
+    "decision": null
+  },
+  {
+    "item": "San Cristobal Elegancia Grandioso — critic score",
+    "path": "/cigars/san-cristobal/elegancia/grandioso/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Same recycled-snippet issue as the Robusto and Imperial entries — no distinct, direct-fetchable citation found for this vitola specifically.",
+    "sources_found": [],
+    "proposed_action": "Find and directly fetch a real rating URL for this specific vitola before citing any score for it.",
+    "decision": null
   }
 ]
