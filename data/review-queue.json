@@ -1488,5 +1488,27 @@
     ],
     "proposed_action": "No action needed — this entry documents why the submitted wrapper-origin claim was rejected in favor of the already-corroborated Ecuador origin.",
     "decision": null
+  },
+  {
+    "item": "CAO Flathead Steel Horse — needs its own line entry",
+    "path": "/cigars/cao/flathead/",
+    "reason": "insufficient_sources",
+    "why_flagged": "A user submission listed \"Steel Horse Apehanger (V554)\" at 5.5x54 and \"Steel Horse Roadkill (V660)\" at 6x60 as if they belonged to the original CAO Flathead line. Independent research shows Flathead Steel Horse is a separate, motorcycle-themed offshoot released in 2015 (two years after the original 2013 hot-rod-themed Flathead) with a DIFFERENT blend: Connecticut Habano Grueso wrapper and Brazilian Arapiraca binder, versus the original's Connecticut Broadleaf Maduro wrapper and Ecuadorian Connecticut binder. Steel Horse also does not use the original line's \"V\" + dimensions naming convention at all — its real vitola names are Apehanger, Bullneck (debut sizes), Handbrake (4.5x50), and Roadkill (5.5x54, NOT 6x60 as submitted). Given the different blend, adding these under the original Flathead line would misattribute wrapper/binder facts.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/article/cao-steel-horse-wheels-out-two-new-vitolas-18663",
+      "https://halfwheel.com/cao-flathead-steel-horse-gets-two-new-vitolas/109434/",
+      "https://cigar-coop.com/2016/02/cigar-review-cao-flathead-steel-horse-apehanger.html"
+    ],
+    "proposed_action": "Research Steel Horse's exact blend, release date, and real vitola dimensions (Apehanger, Bullneck, Handbrake, Roadkill) in enough depth to add it as its own line under the cao brand, mirroring how Perdomo's Sun Grown/Maduro and Plasencia's Natural/Colorado Claro are modeled as separate lines.",
+    "decision": null
+  },
+  {
+    "item": "CAO Flathead — submission contained multiple wrong vitola names/dimensions",
+    "path": "/cigars/cao/flathead/",
+    "reason": "conflicting_facts",
+    "why_flagged": "Beyond the Steel Horse conflation (see separate queue entry), the submission itself contained internal errors on the original line: \"Sparkplug (V342)\" at 3.5x42 does not match any source found — the real vitola is \"V450 Sparkplug\" at 4.5x50 (5+ independent retailers agree: Neptune, JR Cigars, Atlantic Cigar, Cigars Daily, Cigar Coop's original 2014 review). \"V642 Piston\" was submitted at 6x42 but is confirmed 6.5x42 by 3 independent sources (Neptune, JR Cigars, and a Cigar Aficionado rating page). The submission also listed the same real cigar as two different garbled entries in a few cases. Added the line using the corrected, independently-confirmed names and dimensions instead of the submission's values; release_year was also corrected from the submission's 2015 to 2013 (the line's actual IPCPR launch year, confirmed by multiple sources plus a Cigar Coop review of the Sparkplug dated June 2014).",
+    "sources_found": [],
+    "proposed_action": "No action needed — this entry documents the corrections made so a future submission doesn't reintroduce the same wrong names/dimensions.",
+    "decision": null
   }
 ]
