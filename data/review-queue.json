@@ -1776,5 +1776,16 @@
     ],
     "proposed_action": "Treat this submission's source as unreliable going forward — this is the first submission this session with a wholly fabricated award citation rather than a research/attribution error. Flagged directly to the site owner.",
     "decision": null
+  },
+  {
+    "item": "Highclere Castle Edwardian — release_year correction",
+    "path": "/cigars/highclere-castle/edwardian/",
+    "reason": "conflicting_facts",
+    "why_flagged": "The submission claimed release_year 2019. Independent research (halfwheel's original partnership-announcement article, plus corroborating retailer/trade coverage) confirms the line was announced at the 2017 IPCPR trade show and released for regular production in September 2017. Set release_year to 2017 instead.",
+    "sources_found": [
+      "https://halfwheel.com/foundation-cigar-co-partners-highclere-castle-cigar-co-new-cigar/"
+    ],
+    "proposed_action": "No action needed — this entry documents why the submitted release_year was corrected.",
+    "decision": null
   }
 ]
