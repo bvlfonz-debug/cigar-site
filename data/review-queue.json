@@ -1580,5 +1580,23 @@
     "sources_found": [],
     "proposed_action": "Find the real Cigar Aficionado rating URL for Arbitrage (likely from the same July 2014 review batch as Currency/Annuity) and confirm score/date directly before citing.",
     "decision": null
+  },
+  {
+    "item": "Foundation Olmec Claro Corona Gorda / Grande / Double Corona — critic scores",
+    "path": "/cigars/foundation-cigar-co/olmec-claro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Claro's Robusto and Toro each have a directly-verified citation, but no scored review could be found for Corona Gorda, Grande, or Double Corona specifically despite searching. Two Cigar Coop reviews (Claro Toro, Maduro Toro) were also found but Cigar Coop returned HTTP 403 on every direct-fetch attempt, so their claimed scores were not used.",
+    "sources_found": [],
+    "proposed_action": "Re-search once these sizes have been reviewed by an accessible outlet, or find a working route to Cigar Coop's content.",
+    "decision": null
+  },
+  {
+    "item": "Foundation Olmec Maduro Corona Gorda / Toro / Grande — critic scores",
+    "path": "/cigars/foundation-cigar-co/olmec-maduro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Maduro's Robusto and Double Corona each have a directly-verified citation, but no scored review could be found for Corona Gorda, Toro, or Grande specifically. Cigar Coop reviewed the Maduro Toro but 403'd on every direct-fetch attempt, so its claimed 89-point score was not used without confirmation.",
+    "sources_found": [],
+    "proposed_action": "Re-search once these sizes have been reviewed by an accessible outlet, or find a working route to Cigar Coop's content.",
+    "decision": null
   }
 ]
