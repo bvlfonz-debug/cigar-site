@@ -1399,5 +1399,32 @@
     "sources_found": [],
     "proposed_action": "Confirm the halfwheel review's publish date directly (https://halfwheel.com/liga-privada-9-flying-pig/62059/) and locate the correct Cigar Aficionado ratings page specifically for the No. 9 Flying Pig (not T52 or Único Feral) before adding either as a citation.",
     "decision": null
+  },
+  {
+    "item": "Perdomo Reserve 10th Anniversary Box-Pressed Maduro Figurado — critic score",
+    "path": "/cigars/perdomo/reserve-10th-anniversary-box-pressed-maduro/figurado/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only from a user submission. Searched for scored reviews (halfwheel, Cigar Coop, Blind Man's Puff, Cigar Aficionado) but found none specific to the Figurado (4.75x56) size — only retailer product listings and a passing unscored mention (\"a very tasty cigar\" with a \"near perfect draw\"). 0 of 3 required scored sources found.",
+    "sources_found": [],
+    "proposed_action": "Re-search for a scored Figurado-specific review once more outlets have covered this size, or confirm none exists and leave permanently spec-only.",
+    "decision": null
+  },
+  {
+    "item": "Perdomo Reserve 10th Anniversary Box-Pressed Maduro Super Toro — critic score",
+    "path": "/cigars/perdomo/reserve-10th-anniversary-box-pressed-maduro/super-toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only from a user submission. Searched for scored reviews specific to the Super Toro (6x60) size — found only retailer listings (Gotham Cigars, Neptune, CigarPlace, Corona Cigar) with tasting-note blurbs but no critic outlet with a numeric score for this size specifically. 0 of 3 required scored sources found.",
+    "sources_found": [],
+    "proposed_action": "Re-search for a scored Super Toro-specific review once more outlets have covered this size, or confirm none exists and leave permanently spec-only.",
+    "decision": null
+  },
+  {
+    "item": "Perdomo Reserve 10th Anniversary Box-Pressed Maduro Torpedo — critic score",
+    "path": "/cigars/perdomo/reserve-10th-anniversary-box-pressed-maduro/torpedo/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only from a user submission. Searched for scored reviews specific to the Torpedo (7x54) size across halfwheel, Cigar Coop, and Blind Man's Puff — all confirmed reviews found were for the Robusto, Epicure, or Churchill sizes instead. 0 of 3 required scored sources found.",
+    "sources_found": [],
+    "proposed_action": "Re-search for a scored Torpedo-specific review once more outlets have covered this size, or confirm none exists and leave permanently spec-only.",
+    "decision": null
   }
 ]
