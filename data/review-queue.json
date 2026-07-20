@@ -1666,5 +1666,17 @@
     "sources_found": [],
     "proposed_action": "Find a working route to halfwheel's review, or confirm no other outlet covered this DROP-exclusive run.",
     "decision": null
+  },
+  {
+    "item": "Black Label Trading Co. Orthodox Toro — critic score",
+    "path": "/cigars/black-label-trading-company/orthodox/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Cigar Coop reviewed the Toro (reportedly 90 points, later named to their 2025 Cigar of the Year countdown at #25) but returned HTTP 403 on every direct-fetch attempt, so the score was not used without confirmation. A Barrel Burner review also exists but that domain failed to resolve (DNS error) during this session.",
+    "sources_found": [
+      "https://cigar-coop.com/2025/01/black-label-trading-company-orthodox-toro-cigar-review.html",
+      "https://cigar-coop.com/2025/12/2025-cigar-of-the-year-countdown-coops-list-25-black-label-trading-company-orthodox-toro.html"
+    ],
+    "proposed_action": "Find a working route to Cigar Coop's content, or retry thebarrelburner.com later in case the DNS issue was transient.",
+    "decision": null
   }
 ]
