@@ -1698,5 +1698,37 @@
     "sources_found": [],
     "proposed_action": "No action needed — this entry documents why the conflicting submitted facts were rejected. Also note: a newer \"Epernay Tuonela\" reformulation exists (2025 reviews found for Tuonela Le Grande and Tuonela Le Monde) that is explicitly described by reviewers as different from \"classic\" Epernay — deliberately not used for any citation on the vitolas added here, and would need its own line if added later.",
     "decision": null
+  },
+  {
+    "item": "Room101 Johnny Tobacconaut Gordo — critic score",
+    "path": "/cigars/room101/johnny-tobacconaut/gordo/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. No distinct, direct-fetchable scored review found for this vitola specifically — search results only surfaced a recycled generic \"91-point\" claim without a fetchable source page.",
+    "sources_found": [],
+    "proposed_action": "Find and directly fetch a real rating URL for this specific vitola before citing any score.",
+    "decision": null
+  },
+  {
+    "item": "Room101 Johnny Tobacconaut Perfecto — critic score",
+    "path": "/cigars/room101/johnny-tobacconaut/perfecto/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Confirmed as halfwheel's #3 Cigar of the Year for 2023 (a real, well-corroborated placement), but halfwheel returned HTTP 402 on every direct-fetch attempt, so the exact numeric score behind that ranking could not be confirmed.",
+    "sources_found": [
+      "https://halfwheel.com/top25/3-room101-johnny-tobacconaut-perfecto/"
+    ],
+    "proposed_action": "Find a working route to halfwheel's content to confirm the exact score.",
+    "decision": null
+  },
+  {
+    "item": "Room101 Johnny Tobacconaut — submission repeated release_year and factory errors",
+    "path": "/cigars/room101/johnny-tobacconaut/",
+    "reason": "conflicting_facts",
+    "why_flagged": "A user submission claimed release_year 2025 and factory HATSA (Honduras) for Johnny Tobacconaut. Independent research shows a more complex history: the name dates to 2015 (an entirely different Nicaraguan-puro blend made in Honduras under Davidoff distribution), went on hiatus, returned in 2021 as a Luxury Cigar Club exclusive, and was reformulated into the current Connecticut Shade/Mexican/Nicaraguan blend as a core-line relaunch in 2023 after STG's 2022 acquisition — now made at Tabacalera A.J. Fernandez in Esteli, NICARAGUA, not HATSA. The submission's 2025 date actually belongs to a separate, limited-run \"10th Anniversary\" edition (itself a different Nicaraguan puro blend, badly affected by a factory fire that destroyed over half that release) which the submission itself correctly flagged as a distinct product. Set release_year to 2023 and factory to A.J. Fernandez/Nicaragua instead of the submitted values.",
+    "sources_found": [
+      "https://halfwheel.com/room101-celebrates-a-decade-of-johnny-tobacconaut-with-limited-edition-release/449613/",
+      "https://klarocigars.com/blogs/expert-reviews/room101-cigars-johnny-tobacconaut-review"
+    ],
+    "proposed_action": "No action needed — this entry documents why the submitted release_year/factory were corrected rather than used as-is.",
+    "decision": null
   }
 ]
