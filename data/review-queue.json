@@ -1571,5 +1571,14 @@
     "sources_found": [],
     "proposed_action": "Find and directly fetch a real rating URL for this specific vitola before citing any score for it.",
     "decision": null
+  },
+  {
+    "item": "H. Upmann The Banker Arbitrage — critic score",
+    "path": "/cigars/h-upmann/the-banker/arbitrage/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Currency and Annuity both have direct-fetched Cigar Aficionado citations from the same July 2014 review batch, but no equivalent Arbitrage-specific rating URL could be found despite trying several plausible sequential rating IDs near Annuity (17445) and Currency (17446). Search results only surfaced generic \"85+\" and recycled \"91\" claims without a distinct, fetchable source page.",
+    "sources_found": [],
+    "proposed_action": "Find the real Cigar Aficionado rating URL for Arbitrage (likely from the same July 2014 review batch as Currency/Annuity) and confirm score/date directly before citing.",
+    "decision": null
   }
 ]
