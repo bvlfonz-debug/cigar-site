@@ -1598,5 +1598,23 @@
     "sources_found": [],
     "proposed_action": "Re-search once these sizes have been reviewed by an accessible outlet, or find a working route to Cigar Coop's content.",
     "decision": null
+  },
+  {
+    "item": "Foundation Charter Oak Broadleaf Petit Corona / Toro / Lonsdale / Grande — critic scores",
+    "path": "/cigars/foundation-cigar-co/charter-oak-broadleaf/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Only Rothschild has a directly-verified citation (Cigar Dojo). No scored review found for the other 4 sizes in this specific wrapper expression despite searching.",
+    "sources_found": [],
+    "proposed_action": "Re-search once these sizes have been reviewed by an accessible outlet.",
+    "decision": null
+  },
+  {
+    "item": "Foundation Charter Oak Habano Rothschild / Petit Corona / Toro / Grande — critic scores",
+    "path": "/cigars/foundation-cigar-co/charter-oak-habano/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Only Lonsdale has directly-verified citations (Cigar Dojo, Blind Man's Puff). No scored review found for the other 4 sizes in this specific wrapper expression. Note: a Torpedo vitola also exists in this line per Foundation's own product page but was not in the user's submission, so it was not added.",
+    "sources_found": [],
+    "proposed_action": "Re-search once these sizes have been reviewed by an accessible outlet; consider adding the Torpedo vitola separately once sourced.",
+    "decision": null
   }
 ]
