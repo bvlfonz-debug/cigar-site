@@ -1808,5 +1808,26 @@
     ],
     "proposed_action": "Treat this submission source as unreliable — this is the second submission this session (after Aladino Cameroon) with a materially wrong award citation, and the first with the entire blend composition wrong. Flagged directly to the site owner.",
     "decision": null
+  },
+  {
+    "item": "Rocky Patel Decade Emperor — critic score",
+    "path": "/cigars/rocky-patel/decade/emperor/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. No distinct, direct-fetchable scored review found specifically for this vitola — search results only surfaced the generic \"95-point\" Decade-line claim, which was already shown to be inaccurate for the Torpedo specifically (see the queue entry documenting that correction) once directly verified.",
+    "sources_found": [],
+    "proposed_action": "Find and directly fetch a real rating URL for this specific vitola before citing any score.",
+    "decision": null
+  },
+  {
+    "item": "Rocky Patel Decade Torpedo — award score corrected (95 to 92)",
+    "path": "/cigars/rocky-patel/decade/torpedo/",
+    "reason": "conflicting_facts",
+    "why_flagged": "A user submission claimed a 95-point score for the Torpedo's #15 ranking on Cigar Aficionado's 2008 Top 25. Directly fetched both the Top 25 page itself and the Torpedo's own rating page — both independently show 92 points, not 95. The rank (#15), year (2008), and vitola (Torpedo) were all correct; only the score was wrong. The \"95\" figure appears to be a widely-repeated retailer/marketing claim for the Decade line generally, not something confirmable at the primary source. Used 92 instead.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/top25cigar/rocky-patel-decade-torpedo-2008",
+      "https://www.cigaraficionado.com/ratings/14106/name/rocky-patel-decade-torpedo"
+    ],
+    "proposed_action": "No action needed — this entry documents the score correction. Note this is a partial error (unlike the two prior submissions this session with wholly fabricated or entirely wrong awards) — the placement and vitola were both accurate, only the score was inflated.",
+    "decision": null
   }
 ]
