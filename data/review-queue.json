@@ -1426,5 +1426,30 @@
     "sources_found": [],
     "proposed_action": "Re-search for a scored Torpedo-specific review once more outlets have covered this size, or confirm none exists and leave permanently spec-only.",
     "decision": null
+  },
+  {
+    "item": "Plasencia Alma Fuerte Colorado Claro — needs its own line entry",
+    "path": "/cigars/plasencia/alma-fuerte/",
+    "reason": "insufficient_sources",
+    "why_flagged": "A user submission listed 8 Alma Fuerte vitolas as if they were one blend. 2 (Generación V, Néstor IV) already existed in our db under the original 2017 Natural-wrapper line. Robustus I was independently confirmed (3 sources, all pre-2023, wrapper described only as plain Nicaragua/Jalapa) as also belonging to that same Natural line and was added. But the other 5 — Robusto Corto, Robustus II, Eduardo I, Sixto I, Sixto II — are predominantly reviewed under a distinct \"Colorado Claro\" wrapper name (halfwheel, Cigar Coop, and Cigar Aficionado all title/URL these specifically as \"Colorado Claro\"), which per Plasencia's own site is a second, separate wrapper blend on a ten-year aging process, distinct from the original Criollo '98 Natural blend. At least one retailer (Atlantic Cigar Co.) also lists a \"Sixto I Hexagon Natural\" and Cigars Daily lists a \"Natural Robustus II\", suggesting some sizes may exist in BOTH wrapper variants under the same size name — real risk of misattributing a Colorado Claro review to the Natural line's wrapper/binder/filler if forced into the existing line record.",
+    "sources_found": [
+      "https://halfwheel.com/plasencia-alma-fuerte-colorado-claro-eduardo-i/415099/",
+      "https://halfwheel.com/plasencia-alma-fuerte-colorado-claro-robustus-ii/434883/",
+      "https://cigar-coop.com/2023/09/cigar-review-plasencia-alma-fuerte-colorado-claro-eduardo-i.html",
+      "https://cigar-coop.com/2025/03/plasencia-alma-fuerte-colorado-claro-robustus-ii-agile-cigar-review.html",
+      "https://www.cigaraficionado.com/rating/plasencia-alma-fuerte-colorado-claro-sixto-i",
+      "https://www.plasenciacigars.com/collection/alma-fuerte/"
+    ],
+    "proposed_action": "Research the Colorado Claro wrapper/binder/filler/release_year in enough depth to add it as its own line under the plasencia brand (mirroring how Perdomo Sun Grown and Maduro are modeled as two lines), then re-attempt Robusto Corto, Robustus II, Eduardo I, Sixto I, and Sixto II against whichever line (Natural or Colorado Claro) each specific reviewed cigar actually is, confirming wrapper variant per source rather than per size name.",
+    "decision": null
+  },
+  {
+    "item": "Plasencia Alma Fuerte (Natural) — release_year and strength submitted-vs-db conflict",
+    "path": "/cigars/plasencia/alma-fuerte/",
+    "reason": "conflicting_facts",
+    "why_flagged": "A user submission claimed release_year 2016 and strength Medium-Full for this line. Our existing db value (release_year 2017, strength full) predates this submission and is corroborated by 4 independently-dated critic reviews on Generación V/Néstor IV clustered in 2017-2018, plus the brand's own story_short (\"launching its own consumer-facing cigar line in 2017\"). Kept the existing 2017/full values and did not overwrite with the submission's claims. Not changed pending a stronger primary source.",
+    "sources_found": [],
+    "proposed_action": "If a future submission or source directly disputes 2017/full with strong primary-source backing, revisit; otherwise no action needed — this entry exists to document why the conflicting user-submitted values were rejected.",
+    "decision": null
   }
 ]
