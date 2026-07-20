@@ -485,3 +485,28 @@ side (see CLAUDE.md). Kept it light since it's a weekday.
 
 ## 2026-07-17 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
+
+## 2026-07-20 — Weekday run: lounges night
+Today was a "lounges" night on the 3-way rotation with cigars and
+accessories (see CLAUDE.md). Kept it light since it's a weekday. Lounges
+have no prices, so the Price refresh step doesn't apply on a lounges night —
+skipped, nothing to check.
+
+- **Ratings**: tried to push two lounges that already have 2 sources or
+  close to it over the 3-source minimum needed to publish a LoungeScore.
+  For BURN by Rocky Patel (Naples) — currently Google + TripAdvisor, needs
+  just 1 more — checked Yelp, Facebook, and a couple of aggregator sites for
+  a third independent number, but Yelp's real page blocked automated
+  fetching and the aggregator sites either didn't disclose where their
+  rating came from or gave inconsistent counts, so nothing was recorded
+  rather than guess. Also checked Casa de Montecristo (Manhattan 2nd Ave)
+  for a second source; same problem — Yelp shows 217 reviews but the actual
+  star number wasn't retrievable. Both stay at their current source counts,
+  still "insufficient data."
+- **New lounge proposed**: found Churchill's Fine Cigars in Phoenix, AZ (a
+  real, walk-in, indoor-smoking-welcomed cigar lounge — address, phone, and
+  hours confirmed from the lounge's own site) — Phoenix isn't in our
+  directory yet. Queued it for your review rather than adding it directly,
+  per the rules for a brand-new city. No ratings for it yet either way.
+- **Errors**: none. Site builds cleanly (12,981 pages). Stopping here for
+  tonight given the weekday budget.
