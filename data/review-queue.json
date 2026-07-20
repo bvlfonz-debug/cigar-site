@@ -1873,5 +1873,27 @@
     ],
     "proposed_action": "If desired, research the 2010 and 2013 Fifteenth Anniversary Top 25 appearances and add those citations too.",
     "decision": null
+  },
+  {
+    "item": "Disciple/White Label/Grand Reserve/Tavicusa — remaining vitolas need critic scores",
+    "path": "/brands/rocky-patel/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Each line has at least one cited vitola; the remaining 8 (Disciple Toro/Sixty; White Label Robusto/Churchill/Sixty; Grand Reserve Toro/Sixty; Tavicusa Robusto/Toro/Sixty) were not individually researched.",
+    "sources_found": [],
+    "proposed_action": "Research each remaining vitola individually for a scored, direct-fetchable review.",
+    "decision": null
+  },
+  {
+    "item": "Rocky Patel batch #3 — Disciple vitola fabrication and Grand Reserve factory error",
+    "path": "/brands/rocky-patel/",
+    "reason": "conflicting_facts",
+    "why_flagged": "Two real errors in this batch. (1) Disciple: the submission listed a \"Half Corona\" (3.5x46) as one of its 4 vitolas; no such size exists in the real lineup. The real 4th vitola is \"Bala\" (5.75 length, a figurado with ring gauge increasing from 50 at the head to 58 at the foot) — confirmed via halfwheel's PCA coverage and a Developing Palates review. Added Bala instead; also corrected Toro from the submission's claimed 6.5x52 to the confirmed 6x52. (2) Grand Reserve: the submission claimed TAVICUSA/Nicaragua production, but Grand Reserve's own Cigar Aficionado Top 25 citation states directly it's made at El Paraiso in Danli, HONDURAS (Nestor Plasencia's factory) — corrected. All other facts in this batch (White Label's #4/2022/92pt halfwheel award, Grand Reserve's #9/2021/93pt CA award, Tavicusa's full details) were independently confirmed accurate.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/top25cigar/rocky-patel-grand-reserve-robusto-2021",
+      "https://halfwheel.com/pca-2021-rocky-patel-premium-cigars/393979/",
+      "https://developingpalates.com/reviews/cigar-reviews/team-cigar-review-rocky-patel-disciple-bala/"
+    ],
+    "proposed_action": "No action needed — this entry documents the corrections applied.",
+    "decision": null
   }
 ]
