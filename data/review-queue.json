@@ -1510,5 +1510,17 @@
     "sources_found": [],
     "proposed_action": "No action needed — this entry documents the corrections made so a future submission doesn't reintroduce the same wrong names/dimensions.",
     "decision": null
+  },
+  {
+    "item": "Hoyo de Monterrey Epicure No. 2 (Cuban Habanos S.A.) — site scope decision needed",
+    "path": "/brands/hoyo-de-monterrey/",
+    "reason": "insufficient_sources",
+    "why_flagged": "A user submission proposed adding the real Cuban Habanos S.A. Hoyo de Monterrey Epicure No. 2. This would be the first genuinely Cuban Habanos product in the catalog: every other Cuban-named brand currently in the db (Cohiba, Partagas, H. Upmann, Montecristo, Romeo y Julieta, and this same Hoyo de Monterrey) exists only as its non-Cuban counterpart, with two (Cohiba, Partagas) explicitly labeled \"(General Cigar, non-Cuban)\" in the brand name to disambiguate — a deliberate scope pattern, not an oversight. The site also has price-tracking, deals, and affiliate-style retailer-link features (price_point table, add-price-point's affiliate_url) that assume the catalog is US-purchasable; Cuban Habanos cigars cannot legally be sold by any of the site's existing US retailer sources (JR Cigars, Cigars International, Holt's, Famous Smoke, etc.), so those features would have nothing to attach to for a Cuban entry. Asked the site owner directly; decision was to skip/hold for now rather than add it.",
+    "sources_found": [
+      "https://www.habanos.com/en/the-habanos-brands-academia/hoyo-de-monterrey-brand/",
+      "https://vitola.me/2023/02/23/hoyo-de-monterrey-epicure-no-2/"
+    ],
+    "proposed_action": "Do not add until the site owner decides whether to open the catalog to real Cuban Habanos products generally (which would also mean revisiting Cohiba, Partagas, H. Upmann, Montecristo, and Romeo y Julieta to potentially add their Cuban counterparts too) or to keep the catalog scoped to non-Cuban, US-purchasable cigars only.",
+    "decision": null
   }
 ]
