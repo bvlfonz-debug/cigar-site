@@ -1689,5 +1689,14 @@
     ],
     "proposed_action": "Find a working route to Cigar Coop content and confirm which vitola the 2016-05 review actually covers before citing a score.",
     "decision": null
+  },
+  {
+    "item": "Illusione Epernay — submission repeated a real factory error and a release_year discrepancy",
+    "path": "/cigars/illusione/epernay/",
+    "reason": "conflicting_facts",
+    "why_flagged": "A user submission claimed Epernay is manufactured by Aganorsa Leaf in Esteli, Nicaragua, and released in 2008. Independent research confirms this is wrong on the factory: Epernay has always been made at Raices Cubanas in Honduras — Dion Giolito deliberately kept Epernay there when he moved Illusione's CORE line to Aganorsa/TABSA in Nicaragua, per multiple independent trade sources. This matches our existing (unchanged) brand-level factory field. On release_year: our existing value (2009) matches the widely-cited \"Epernay Serie 2009\" naming and its earliest Top 25 citations (2009-2011); the submission's 2008 likely refers to a small, ECCJ-exclusive precursor release rather than the wider commercial launch. Kept both existing values (Honduras/Raices Cubanas factory, 2009 release_year) and did not change them.",
+    "sources_found": [],
+    "proposed_action": "No action needed — this entry documents why the conflicting submitted facts were rejected. Also note: a newer \"Epernay Tuonela\" reformulation exists (2025 reviews found for Tuonela Le Grande and Tuonela Le Monde) that is explicitly described by reviewers as different from \"classic\" Epernay — deliberately not used for any citation on the vitolas added here, and would need its own line if added later.",
+    "decision": null
   }
 ]
