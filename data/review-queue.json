@@ -1522,5 +1522,27 @@
     ],
     "proposed_action": "Do not add until the site owner decides whether to open the catalog to real Cuban Habanos products generally (which would also mean revisiting Cohiba, Partagas, H. Upmann, Montecristo, and Romeo y Julieta to potentially add their Cuban counterparts too) or to keep the catalog scoped to non-Cuban, US-purchasable cigars only.",
     "decision": null
+  },
+  {
+    "item": "Nub Connecticut 358 — critic score",
+    "path": "/cigars/nub/connecticut/358/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only from a user submission. Found a StogieReview piece (2012-04-01) but it gave no numeric score, focusing on price critique instead. No other established critic outlet review found with a numeric score for this specific size.",
+    "sources_found": [
+      "https://stogiereview.com/2012/04/01/nub-connecticut-358/"
+    ],
+    "proposed_action": "Re-search once more outlets have scored this size, or confirm none exists and leave permanently spec-only.",
+    "decision": null
+  },
+  {
+    "item": "Nub Connecticut 466 — critic score and \"466B\" naming",
+    "path": "/cigars/nub/connecticut/466/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only from a user submission that named this vitola \"466B\"; every independent retailer/reference found (Cigars International, CigarsDirect, Cigarwell, Atlantic Cigar) calls it plain \"466\" with no letter suffix, unlike the 464T which does carry a real shape-suffix (Torpedo). Added under \"466\" pending confirmation the \"B\" is real. No scored critic review found for this size from any established outlet.",
+    "sources_found": [
+      "https://cigarwell.com/cigars/1165/nub-connecticut-by-oliva-466-connecticut"
+    ],
+    "proposed_action": "Confirm whether Oliva's official SKU is \"466\" or \"466B\" before any customer-facing copy uses one over the other; find a scored review once available.",
+    "decision": null
   }
 ]
