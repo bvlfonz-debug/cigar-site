@@ -1852,5 +1852,26 @@
     ],
     "proposed_action": "No action needed — this entry documents the corrections applied across the batch. Recommend treating any future \"No. 2\" placement claim from this submission source with particular skepticism given this pattern.",
     "decision": null
+  },
+  {
+    "item": "Rocky Patel Vintage 1990/Edge Corojo/Number 6/Fifteenth Anniversary — remaining vitolas need critic scores",
+    "path": "/brands/rocky-patel/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Each line's award-winning vitola is already cited; the remaining 9 vitolas (Vintage 1990 Churchill/Torpedo; Edge Corojo Robusto/Torpedo/Missile; Number 6 Robusto/Toro/Sixty; Fifteenth Anniversary Robusto/Sixty) were not individually researched, given time was prioritized on verifying the award claims.",
+    "sources_found": [],
+    "proposed_action": "Research each remaining vitola individually for a scored, direct-fetchable review.",
+    "decision": null
+  },
+  {
+    "item": "Rocky Patel batch #2 — Fifteenth Anniversary score correction and repeated TAVICASA/TAVICUSA error",
+    "path": "/brands/rocky-patel/",
+    "reason": "conflicting_facts",
+    "why_flagged": "Of this batch's 4 award claims, 3 were fully accurate (Vintage 1990 Robusto #22/2004/90pts; Edge Corojo Toro Cigar Journal Honduras COTY 2014/94pts; Number 6 Corona #9/2020/95pts) — a much better hit rate than the prior Rocky Patel batch. One was close but wrong: Fifteenth Anniversary Toro was submitted as #20/2018/93pts; directly confirmed as #20/2018/92pts (rank and year correct, score off by one point; also this specific citation is for a \"Toro (Tubo)\" packaging variant at 6x50, slightly different from the submission's generic Toro 6.5x52 entry — used the citation on the general Toro vitola with a note). Also: this submission repeated the same wrong factory name as the prior batch (\"Tabacos Valle de Jalapa S.A. (TAVICASA)\" for Fifteenth Anniversary) — corrected again to TAVICUSA (Tabacalera Villa Cuba S.A.). Separately learned Fifteenth Anniversary actually appeared on the Top 25 four times total (2010, 2011, 2013, 2018), not just the two years the submission listed — the two extra appearances (2010, 2013) were not independently verified or added.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/top25cigar/rocky-patel-15th-anniversary-toro-tubo-2018",
+      "https://www.cigaraficionado.com/top25cigar/rocky-patel-vintage-1990-robusto-2004"
+    ],
+    "proposed_action": "If desired, research the 2010 and 2013 Fifteenth Anniversary Top 25 appearances and add those citations too.",
+    "decision": null
   }
 ]
