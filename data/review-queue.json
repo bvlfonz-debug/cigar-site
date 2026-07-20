@@ -1787,5 +1787,26 @@
     ],
     "proposed_action": "No action needed — this entry documents why the submitted release_year was corrected.",
     "decision": null
+  },
+  {
+    "item": "West Tampa Red Gigante — critic score",
+    "path": "/cigars/west-tampa-tobacco/red/gigante/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. No scored review found specifically for this vitola despite searching.",
+    "sources_found": [],
+    "proposed_action": "Re-search once this size has been reviewed by an accessible outlet.",
+    "decision": null
+  },
+  {
+    "item": "West Tampa Tobacco Co. Red — submission had wrong blend, wrong award details, and a fabricated vitola",
+    "path": "/cigars/west-tampa-tobacco/red/",
+    "reason": "conflicting_facts",
+    "why_flagged": "This submission had the most extensive blend errors seen this session. It claimed an Ecuadorian Habano wrapper, Mexican Sumatra binder, and Nicaraguan/Dominican filler. The actual, independently-confirmed blend (2+ sources) is a Mexican San Andres wrapper, Nicaraguan Condega binder, and all-Nicaraguan filler (Condega Viso, Esteli Viso and Ligero) — every single blend component was wrong. It also claimed a submitted \"Belicoso\" vitola (5.5x52) that does not exist anywhere in the real lineup (confirmed original 2023 sizes: Robusto, Toro, Gigante; a Lancero was added in 2024) — not added. The awards claim (No. 13, 95 points, 2024 Top 25) was also wrong on every count: directly fetching the real 2024 Top 25 list shows #13 that year was Viva La Vida Jester, not West Tampa. There IS a real West Tampa Red award, just different: Robusto ranked #25 in the 2023 Top 25 with a 93-point score — used that instead.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/top25/2024",
+      "https://www.cigaraficionado.com/top25cigar/west-tampa-red-robusto-2023"
+    ],
+    "proposed_action": "Treat this submission source as unreliable — this is the second submission this session (after Aladino Cameroon) with a materially wrong award citation, and the first with the entire blend composition wrong. Flagged directly to the site owner.",
+    "decision": null
   }
 ]
