@@ -1916,5 +1916,14 @@
     ],
     "proposed_action": "No action needed — this entry documents the corrections applied.",
     "decision": null
+  },
+  {
+    "item": "My Father No.1/Le Bijou 1922/The Judge/La Opulencia — remaining vitolas need critic scores",
+    "path": "/brands/my-father/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Each award-winning vitola across this submission is cited; the other 13 vitolas (My Father No.1 Belicoso/Crema/Lonsdale; Le Bijou 1922 Petite Robusto/Grand Robusto/Churchill; The Judge Toro/Toro Fino/Corona Gorda; La Opulencia Robusto/Petite/Torpedo) were not individually researched, and halfwheel 402'd on the two attempted (Judge Corona Gorda, La Opulencia Petite). Also note: La Opulencia actually has 3 more vitolas (Corona, Toro Gordo, Super Toro/Gordo) not included in this submission at all.",
+    "sources_found": [],
+    "proposed_action": "Research each remaining vitola individually, and consider adding La Opulencia's 3 missing sizes.",
+    "decision": null
   }
 ]
