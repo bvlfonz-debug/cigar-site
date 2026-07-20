@@ -1741,5 +1741,14 @@
     ],
     "proposed_action": "If approved, add-lounge with: name=\"Churchill's Fine Cigars\", city=Phoenix, state=AZ, country=USA, address=\"5041 N 44th Street, Phoenix, AZ 85018\", phone=\"(602) 840-9080\", website=https://churchillsaz.com/phoenix/, hours_text=\"Mon-Wed 10am-11pm, Thu-Sat 10am-12am, Sun 10am-10pm\", walk_in_or_membership=walk-in, indoor_smoking_status=allowed, indoor_smoking_note=\"Lounge states indoor cigar smoking is welcomed\", facts_source_url=https://churchillsaz.com/phoenix/. No external ratings found yet (would need 3 independent cited sources before a LoungeScore can publish).",
     "decision": null
+  },
+  {
+    "item": "BLACKENED S84 Shade to Black Corona — critic score",
+    "path": "/cigars/blackened/s84-shade-to-black/corona/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. halfwheel reviewed the Corona but returned HTTP 402 on every direct-fetch attempt, so its score could not be confirmed. Also corrected the submission's claimed dimensions (4.0x43) to the actually-confirmed 5x43 (9+ independent retailers agree, and the halfwheel review title/URL also references it as a 5-inch vitola).",
+    "sources_found": [],
+    "proposed_action": "Find a working route to halfwheel's content, or another accessible outlet's scored review for this specific vitola.",
+    "decision": null
   }
 ]
