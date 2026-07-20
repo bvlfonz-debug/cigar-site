@@ -1646,5 +1646,25 @@
     ],
     "proposed_action": "Research Mil Dias Maduro's blend/release details in depth and add it as its own line under the crowned-heads brand when there's a submission or bandwidth for it.",
     "decision": null
+  },
+  {
+    "item": "Warped La Colmena Amado No. 36 — critic score",
+    "path": "/cigars/warped/la-colmena/amado-no-36/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. A Cigar Coop review (91 pts, per search summary) and a StogieReview guest review (no numeric score) were found, but Cigar Coop returned HTTP 403 on direct fetch, so its score was not used without confirmation.",
+    "sources_found": [
+      "https://cigar-coop.com/2015/03/cigar-review-la-colmena-amado-no-36-by.html"
+    ],
+    "proposed_action": "Find a working route to Cigar Coop or another accessible outlet's scored review.",
+    "decision": null
+  },
+  {
+    "item": "Warped La Colmena Amado No. 40 — critic score",
+    "path": "/cigars/warped/la-colmena/amado-no-40/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. A halfwheel review exists but returned HTTP 402 on direct fetch. This is also an extremely limited DROP Cigar Club exclusive (2,000 total cigars made in 2024), so a scored review may never surface from a mainstream outlet.",
+    "sources_found": [],
+    "proposed_action": "Find a working route to halfwheel's review, or confirm no other outlet covered this DROP-exclusive run.",
+    "decision": null
   }
 ]
