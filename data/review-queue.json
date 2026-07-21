@@ -1996,5 +1996,26 @@
     ],
     "proposed_action": "No action needed for corrections already applied. New World Connecticut's 5th vitola (Churchill, 7x55) could not be independently confirmed as regular production — worth re-checking if it comes up again.",
     "decision": null
+  },
+  {
+    "item": "New World Cameroon/Bellas Artes Maduro/San Lotano Requiem Maduro — remaining vitolas need critic scores",
+    "path": "/brands/aj-fernandez/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Cigar Coop and halfwheel 403/402'd on direct-fetch attempts for New World Cameroon's Toro. None of the vitolas across these 3 lines besides Bellas Artes Maduro's Robusto (real, non-Top25 citation) have a confirmed scored review.",
+    "sources_found": [],
+    "proposed_action": "Find working routes to Cigar Coop/halfwheel content, or another accessible outlet's scored review for each vitola.",
+    "decision": null
+  },
+  {
+    "item": "AJ Fernandez batch #3 — Bellas Artes Maduro award FABRICATED",
+    "path": "/brands/aj-fernandez/",
+    "reason": "conflicting_facts",
+    "why_flagged": "This submission's Bellas Artes Maduro claimed a #17/2019 Cigar Aficionado Top 25 placement at 92 points. Directly fetched the actual 2019 Top 25 list — Bellas Artes Maduro does not appear on it anywhere; #17 that year was Hoyo de Monterrey Le Hoyo de Rio Seco. This is fabricated, matching the same pattern seen earlier this session with Aladino Cameroon and West Tampa Tobacco Red. The real recognition for Bellas Artes Maduro is a Cigar Journal Cigar of the Year 2019 award (different organization, exact placement not independently confirmed) plus a standard (non-Top-25) 89-point Cigar Aficionado rating from August 2020 — used the latter as the citation. Also corrected several dimension/naming errors: New World Cameroon's release_year (2019 submitted, actually 2018), its \"Robusto\" (renamed to the real \"Double Robusto\"), its Toro ring gauge (52 submitted, actually 50), and 2 real omitted vitolas (Torpedo, Petit Lancero). San Lotano Requiem Maduro's Robusto and Toro ring gauges (54 submitted for both, actually 52 for both), and a real omitted 5th vitola (Gran Toro, 6x60). Enclave Broadleaf's Churchill award score was off by one point (93 submitted, 92 confirmed) but otherwise accurate.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/top25/2019",
+      "https://www.cigaraficionado.com/rating/bellas-artes-maduro-robusto"
+    ],
+    "proposed_action": "Treat this submission source as unreliable for award claims specifically — this is the third fabricated/wrong-organization award this session from this general submission pattern. Flagged directly to the site owner.",
+    "decision": null
   }
 ]
