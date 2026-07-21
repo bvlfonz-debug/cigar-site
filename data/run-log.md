@@ -4,6 +4,30 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-07-21 — Weekday run: cigars night (in progress)
+
+Today is a "cigars" night on the 3-way rotation (see CLAUDE.md). Keeping it
+light for the weekday.
+
+- **News**: added one brief — halfwheel's report that General Cigar is
+  bringing the Cohiba Talismán (a 6 1/8 x 54 double toro with a pigtail cap)
+  back as a standing, regular-production release as part of Cohiba's 60th
+  anniversary celebrations, after previously only appearing in limited runs.
+- **Prices checked** (first-ever checks for all four, so nothing to compare
+  against and nothing flagged): Davidoff Yamasá Toro ($314.65/case of 12,
+  Binny's Beverage Depot), Perdomo 20th Anniversary Sun Grown Epicure
+  ($229.99/box of 24, Famous Smoke Shop), E.P. Carrillo Encore Majestic
+  ($205.00/box of 20, Windy City Cigars), La Flor Dominicana Double Ligero
+  Chisel ($216.97/box of 20, The Cigar Shop).
+- **Reviews / scores**: looked for a third source on the queued Padrón 1926
+  Serie No. 35 Maduro (currently only Cigar Aficionado). Found a 2011 Cigar
+  Coop review of "Padrón 1926 Serie Maduro" and a Leaf Enthusiast score, but
+  couldn't confirm the Cigar Coop review was specifically the No. 35 vitola
+  (the page returned a 403 to automated fetching) and Leaf Enthusiast isn't
+  one of our established sources — didn't use either rather than guess.
+  Stays queued.
+- Site builds cleanly (38,781 pages). Continuing tonight's run.
+
 ## 2026-07-19 — Sunday run, part 1: accessories night — 3 accessories crossed into a published score
 Today is an "accessories" night on the 3-way rotation with cigars and lounges
 (day-of-month mod 3 = 1, see CLAUDE.md). Since it's Sunday, a heavier catalog
