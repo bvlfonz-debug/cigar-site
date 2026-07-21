@@ -1955,5 +1955,26 @@
     ],
     "proposed_action": "No action needed for the corrections already applied — this entry documents them. Consider adding the real missing vitolas noted in each line's background text (Series JJ's Salmones; Vegas Cubanas' Invictos and Magnates).",
     "decision": null
+  },
+  {
+    "item": "Enclave/Bellas Artes/San Lotano Requiem/New World Dorado — remaining vitolas need critic scores",
+    "path": "/brands/aj-fernandez/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Enclave's other 3 vitolas, all 4 Bellas Artes vitolas, San Lotano Requiem's 3 new vitolas, and New World Dorado's other 3 vitolas were not individually researched — time was prioritized on resolving the New World/San Lotano Requiem variant-identity questions and verifying award claims across this 5-line batch.",
+    "sources_found": [],
+    "proposed_action": "Research each remaining vitola individually for a scored, direct-fetchable review.",
+    "decision": null
+  },
+  {
+    "item": "AJ Fernandez batch — New World/San Lotano Requiem variant identity, Enclave award misattribution, factory founding year conflict",
+    "path": "/brands/aj-fernandez/",
+    "reason": "conflicting_facts",
+    "why_flagged": "Several findings. (1) The submission proposed \"New World Oscuro\" as if it were a new line, but its dimensions (6.5x55 Toro, 5.5x55 Robusto) exactly match the existing \"New World\" line already in our catalog — independent research confirms New World Oscuro is real and won Cigar Journal's 2014 Cigar of the Year (94 points, not the submitted 93). Treated this as the SAME line rather than creating a duplicate; updated its background text to clarify the Oscuro naming and added 2 new vitolas (Gordo, Belicoso) plus the corrected award citation. (2) Similarly, \"San Lotano Requiem Habano\" matches the existing \"San Lotano Requiem\" line exactly (an existing citation URL literally contains \"-habano-\") — confirmed this line has 3 real wrapper variants (Connecticut, Habano, Maduro) and our existing entry is already the Habano one; added 3 new vitolas to it rather than duplicating. (3) Enclave: the submission attributed its #20/2016/92pt Cigar Aficionado award to the Figurado vitola, but the real award-winning vitola is the Churchill — corrected. (4) The submission's factory founded_year (2010) conflicts with our already-verified brand founded_year (2005, when AJ Fernandez opened his original Esteli factory); left the existing brand record unchanged and treated 2010 as possibly describing a later facility expansion, not challenged directly.",
+    "sources_found": [
+      "https://www.hilandscigars.com/shop/cigars/a-j-fernandez/a-j-fernandez-new-world/new-world-gobernador-toro/",
+      "https://www.cigaraficionado.com/top25cigar/enclave-churchill-2016"
+    ],
+    "proposed_action": "No action needed for corrections already applied. Consider directly confirming the New World Oscuro wrapper description and the factory founding-year discrepancy if a future submission touches this brand again.",
+    "decision": null
   }
 ]
