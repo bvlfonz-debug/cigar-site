@@ -4,7 +4,7 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
-## 2026-07-21 — Weekday run: cigars night (in progress)
+## 2026-07-21 — Weekday run: cigars night
 
 Today is a "cigars" night on the 3-way rotation (see CLAUDE.md). Keeping it
 light for the weekday.
@@ -26,7 +26,10 @@ light for the weekday.
   (the page returned a 403 to automated fetching) and Leaf Enthusiast isn't
   one of our established sources — didn't use either rather than guess.
   Stays queued.
-- Site builds cleanly (38,781 pages). Continuing tonight's run.
+- Site builds cleanly (38,781 pages). Stopping here for tonight given the
+  weekday turn budget — accessories and lounges sit out this rotation, and
+  no new brands/lines/scores needed the human review queue tonight beyond
+  what was already there. Nothing else needs your attention.
 
 ## 2026-07-19 — Sunday run, part 1: accessories night — 3 accessories crossed into a published score
 Today is an "accessories" night on the 3-way rotation with cigars and lounges
