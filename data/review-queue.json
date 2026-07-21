@@ -2017,5 +2017,25 @@
     ],
     "proposed_action": "Treat this submission source as unreliable for award claims specifically — this is the third fabricated/wrong-organization award this session from this general submission pattern. Flagged directly to the site owner.",
     "decision": null
+  },
+  {
+    "item": "San Lotano Requiem Connecticut/The Bull/Pinolero/Dias de Gloria Brazil — all vitolas need critic scores",
+    "path": "/brands/aj-fernandez/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only across all 4 lines (19 vitolas total). No scored, direct-fetchable review could be confirmed for any of them — Cigar Coop 403'd repeatedly, halfwheel 402'd, and search results for Pinolero specifically kept surfacing reviews of the separate Pinolero Maduro variant, which would misattribute if used here.",
+    "sources_found": [],
+    "proposed_action": "Find working routes to Cigar Coop/halfwheel content, or another accessible outlet's scored review for each vitola, being careful to confirm wrapper variant (e.g. Pinolero Sun Grown vs Maduro) before citing.",
+    "decision": null
+  },
+  {
+    "item": "AJ Fernandez batch #4 — extensive dimension and release_year corrections",
+    "path": "/brands/aj-fernandez/",
+    "reason": "conflicting_facts",
+    "why_flagged": "No fabricated awards this time (none were claimed), but a high rate of dimension/name errors. San Lotano Requiem Connecticut: Robusto and Toro ring gauges both submitted as 54, actually 52 for both; a real 5th vitola (Gran Toro, 6x60) was omitted. San Lotano The Bull: release_year submitted as 2016, but the line was soft-launched in 2013 and nationally released in 2014 (a 2015 Cigar Coop review already existed, ruling out 2016); a real 4th vitola (Torpedo, 6.5x54) was omitted. Pinolero by AJ Fernandez: Torpedo was submitted at 6.5x52, but the real Torpedo is an unusually short, wide 5.7x54; a real 6th vitola (Churchill, 7x52) was omitted. Dias de Gloria Brazil: directly fetched Cigar Aficionado's own announcement article — 4 of 5 submitted vitolas had wrong dimensions (Corona 6x44 vs real 6.5x44; Robusto 5.5x52 vs real 5.5x54; Figurado 5.5x52 vs real 6.5x52; Gordo 6x60 vs real 6.5x60); only the Toro (6.5x54) was correct as submitted.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/article/dias-de-gloria-by-a-j-fernandez-goes-brazil"
+    ],
+    "proposed_action": "No action needed for corrections already applied — this entry documents them for reference.",
+    "decision": null
   }
 ]
