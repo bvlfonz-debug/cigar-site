@@ -1934,5 +1934,26 @@
     "sources_found": [],
     "proposed_action": "Research each remaining vitola individually, and consider adding the 3 missing real sizes noted above.",
     "decision": null
+  },
+  {
+    "item": "Series JJ/Garcia y Garcia/Vegas Cubanas — all vitolas need critic scores",
+    "path": "/brands/my-father/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. No scored, direct-fetchable review could be confirmed for any of the 8 vitolas across these 3 lines (Series JJ Selectos/Sublime/Belicoso; Garcia y Garcia Toro Deluxe/Robusto Deluxe; Vegas Cubanas Generosos/Delicias/Coronas/Imperiales) — Cigar Coop and halfwheel 403/402'd on every attempt, and search results only surfaced vague \"85+\"/\"multiple 85+ point ratings\" claims without a specific, fetchable citation.",
+    "sources_found": [],
+    "proposed_action": "Find working routes to Cigar Coop/halfwheel content, or another accessible outlet's scored review for each vitola.",
+    "decision": null
+  },
+  {
+    "item": "Don Pepin Garcia submissions batch — multiple vitola/date corrections",
+    "path": "/brands/my-father/",
+    "reason": "conflicting_facts",
+    "why_flagged": "This 4-line batch had the most vitola-naming errors of any submission this session. Cuban Classic: the submission fabricated a \"Churchill 1922\" vitola that does not exist (no source confirms it, and \"1922\" duplicates the name of an unrelated My Father line, Le Bijou 1922) — replaced with the real 4th vitola, \"2001\" (Toro Gordo, 6x60). It also mis-named the Belicoso as \"Belicoso 1954\"; the real name is \"1970 Belicoso.\" Its awards array was empty despite a real, confirmed award (Robusto 1979, #17/2007 Top 25, 92pts). Series JJ: release_year was submitted as 2007, but the original line debuted in 2005 — 2007 is when a separate Maduro-wrapper variant launched. Vegas Cubanas: \"Delicias\" was submitted at 5.5x50, but the real Delicias is a 7x50 Churchill shape; \"Imperiales\" was submitted at 6.125x52, but the real Imperiales is a 5.125x52 Torpedo (likely a length transposition, 6 vs 5). Garcia y Garcia: Robusto Deluxe's length was submitted as 5.75; sources are split between 5.25 and 5.75, with 5.25 more commonly cited. Also two dead source URLs in this submission (Cuban Classic's and Series JJ's cited ratings pages both 404'd) had to be re-found via search.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/top25cigar/don-pepin-garcia-cuban-classic-1979-2007",
+      "https://www.cigaraficionado.com/ratings/19092/name/don-pepin-garcia-cuban-classic-1970-figurado"
+    ],
+    "proposed_action": "No action needed for the corrections already applied — this entry documents them. Consider adding the real missing vitolas noted in each line's background text (Series JJ's Salmones; Vegas Cubanas' Invictos and Magnates).",
+    "decision": null
   }
 ]
