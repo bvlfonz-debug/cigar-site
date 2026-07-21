@@ -1976,5 +1976,25 @@
     ],
     "proposed_action": "No action needed for corrections already applied. Consider directly confirming the New World Oscuro wrapper description and the factory founding-year discrepancy if a future submission touches this brand again.",
     "decision": null
+  },
+  {
+    "item": "Dias de Gloria/New World Puro Especial/New World Connecticut/San Lotano Oval/Ramon Allones — remaining vitolas need critic scores",
+    "path": "/brands/aj-fernandez/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Added spec-only. Each line's award-winning vitola (where one exists) is cited; the other ~19 vitolas across these 5 new lines were not individually researched given the size of this batch.",
+    "sources_found": [],
+    "proposed_action": "Research each remaining vitola individually for a scored, direct-fetchable review.",
+    "decision": null
+  },
+  {
+    "item": "AJ Fernandez batch #2 — award vitola misattributions and omissions",
+    "path": "/brands/aj-fernandez/",
+    "reason": "conflicting_facts",
+    "why_flagged": "Two of three award claims in this batch had the award attributed to the wrong vitola, and one also had the numbers wrong. New World Puro Especial: submission attributed its #12/2017/93pt award to the Robusto; the real winner is the Toro. Also, the submission omitted a real 4th vitola (Short Churchill) from its list entirely. San Lotano Oval: submission claimed #21/2012/92pts for a vitola not even in its own submitted list; the real award (#25/2012/91pts) is for a Corona (5.5x44), a size the submission omitted entirely — added it. Ramon Allones by AJ Fernandez was the one exception: its #25/2018/92pt Churchill award was confirmed exactly as submitted. Also corrected the existing New World line's wrapper field (was \"Nicaraguan Habano Rosado\", changed to \"Nicaraguan Oscuro\") to match its already-updated background text and avoid internal inconsistency.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/top25cigar/san-lotano-oval-corona-2012"
+    ],
+    "proposed_action": "No action needed for corrections already applied. New World Connecticut's 5th vitola (Churchill, 7x55) could not be independently confirmed as regular production — worth re-checking if it comes up again.",
+    "decision": null
   }
 ]

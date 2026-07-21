@@ -359,7 +359,19 @@ const commands = {
       sets.push('background_text = @background_text');
       params.background_text = payload.background_text;
     }
-    if (sets.length === 0) fail('update-line requires at least one of: release_year, background_text');
+    if (payload.wrapper != null) {
+      sets.push('wrapper = @wrapper');
+      params.wrapper = payload.wrapper;
+    }
+    if (payload.binder != null) {
+      sets.push('binder = @binder');
+      params.binder = payload.binder;
+    }
+    if (payload.filler != null) {
+      sets.push('filler = @filler');
+      params.filler = payload.filler;
+    }
+    if (sets.length === 0) fail('update-line requires at least one of: release_year, background_text, wrapper, binder, filler');
     db.prepare(`UPDATE line SET ${sets.join(', ')} WHERE id = @id`).run(at(params));
     return { ok: true };
   },
