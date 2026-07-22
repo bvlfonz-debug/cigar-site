@@ -2037,5 +2037,17 @@
     ],
     "proposed_action": "No action needed for corrections already applied — this entry documents them for reference.",
     "decision": null
+  },
+  {
+    "item": "Oliva Serie V Belicoso (5x54) — new vitola + 2017 Top 25 citation",
+    "path": "/cigars/oliva/serie-v/",
+    "reason": "vitola_award_mismatch",
+    "why_flagged": "Submission claimed a #3/2017/93pt Cigar Aficionado Top 25 award for the Churchill Extra (7x52). Directly fetched the actual 2017 Top 25 page (cigaraficionado.com/top25/2017) — the only Oliva entry that year is Serie V Belicoso at #3, 95 points, 5x54, a vitola not present in this line yet and not the one submitted. Churchill Extra was added to the catalog with correct dimensions but no award attached.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/top25cigar/oliva-serie-v-belicoso-2017",
+      "https://www.cigaraficionado.com/top25/2017"
+    ],
+    "proposed_action": "Add a Belicoso (5x54) vitola under oliva/serie-v and attach the confirmed #3/2017/95pt Cigar Aficionado citation to it.",
+    "decision": null
   }
 ]
