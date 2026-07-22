@@ -2060,24 +2060,34 @@
     "decision": null
   },
   {
-    "item": "Nub Cameroon — 464T (4x64 Torpedo) and 466BPT (4x66 Box Pressed Torpedo) vitolas",
-    "path": "/cigars/nub/cameroon/",
-    "reason": "unverified_vitola",
-    "why_flagged": "Submission listed a plain \"466\" (4x66) and a separate \"466 Torpedo\" (4x66) as two distinct vitolas at identical dimensions. Independent research found the real Nub Cameroon torpedo frontmarks are 464T (4x64) and 466BPT (4x66, box-pressed) — two genuinely distinct SKUs, neither matching the submission's duplicate-dimension pair. Left both out rather than guess which submitted entry maps to which real SKU.",
-    "sources_found": [
-      "https://www.neptunecigar.com/cigars/nub-cameroon-466bpt",
-      "https://mikescigars.com/nub-cameroon-464-torpedo"
-    ],
-    "proposed_action": "Add 464T (4x64) and 466BPT (4x66, box-pressed) as the two torpedo-shaped Nub Cameroon vitolas, confirming dimensions against a retailer product page first.",
-    "decision": null
-  },
-  {
     "item": "Oliva Monticello — Torpedo (submitted as 6x52) vitola",
     "path": "/cigars/oliva/monticello/",
     "reason": "unverified_vitola",
     "why_flagged": "Submission listed a Torpedo at 6x52. Independent research confirmed Robusto (5x50) and Churchill (7x50) but could not confirm the Torpedo at all (Holt's own product page returned an error on every fetch attempt). Every other Oliva-line Torpedo verified this session has been 6.5x52, not 6x52, making the submitted dimensions suspect. Left out rather than guessed.",
     "sources_found": [],
     "proposed_action": "Confirm the real Torpedo dimensions for Monticello via a working Holt's product page or another retailer before adding it.",
+    "decision": null
+  },
+  {
+    "item": "Nub Maduro — 466 (4x66) vitola",
+    "path": "/cigars/nub/maduro/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed a 466 (4x66) vitola for Nub Maduro. One retailer source explicitly ties 466 to the Habano wrapper variant only, and no source confirmed a 466 for Maduro specifically — only 358, 460, and 464 Torpedo were confirmed. Left out rather than assumed.",
+    "sources_found": [
+      "https://www.milantobacco.com/oliva_nub_cameroon_habano_cigars.htm"
+    ],
+    "proposed_action": "Confirm via a direct retailer product page whether Nub Maduro is sold in a 466 frontmark before adding it.",
+    "decision": null
+  },
+  {
+    "item": "Oliva Baptiste — Robusto/Presidente/Torpedo vitolas discrepancy",
+    "path": "/cigars/oliva/baptiste/",
+    "reason": "vitola_dimension_conflict",
+    "why_flagged": "Submission listed Robusto (5x50), Toro (6x50), Torpedo (5.5x54), Presidente (7x52). The line's own May 2016 launch press release lists a different 4-size lineup: Presidente (7x52, matches), Grand Robusto (6x60, not the submitted 5x50 Robusto), Toro (5.5x54, corrected and already added), Torpedo (5.5x54, matches submission). Only Toro (this submission's actual target) was corrected and added; the Robusto/Grand Robusto mismatch was left unresolved.",
+    "sources_found": [
+      "https://www.globenewswire.com/news-release/2016/05/13/1310779/0/en/Prominent-Cigar-Retailer-Introduces-Baptiste-by-Oliva-Cigars.html"
+    ],
+    "proposed_action": "Add a Grand Robusto (6x60) vitola in place of the submitted Robusto — the plain \"Robusto\" at 5x50 does not appear to exist in this line at all.",
     "decision": null
   }
 ]
