@@ -2122,5 +2122,27 @@
     ],
     "proposed_action": "Add Nacionales, Small Churchill, and Dinamicos with dimensions confirmed via a direct retailer product page.",
     "decision": null
+  },
+  {
+    "item": "E.P. Carrillo Capa de Sol — Piramides No. 5 (5.75x52) vitola",
+    "path": "/cigars/ep-carrillo/capa-de-sol/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed only 3 vitolas. Independent research found a real 4th vitola, Piramides No. 5 (5.75x52), not mentioned in the submission at all.",
+    "sources_found": [
+      "https://www.thompsoncigar.com/p/e-p-carrillo-capa-de-sol-robusto-royale-ecuador-robusto-royal/97264/"
+    ],
+    "proposed_action": "Add Piramides No. 5 (5.75x52) after confirming via a direct retailer product page.",
+    "decision": null
+  },
+  {
+    "item": "E.P. Carrillo INCH Nicaragua — No. 70 (7x70) vitola",
+    "path": "/cigars/ep-carrillo/inch-nicaragua/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed a No. 70 (7x70) vitola. The line's own official product page (casacarrillocigars.com/inch-nicaragua/) lists only 3 sizes — No. 60, No. 62, No. 64 — with no No. 70 mentioned. The submitted No. 70 may be carried over by assumption from the separate INCH Natural line, which does have one.",
+    "sources_found": [
+      "https://casacarrillocigars.com/inch-nicaragua/"
+    ],
+    "proposed_action": "Confirm whether INCH Nicaragua genuinely has a No. 70 SKU via another retailer source before adding it.",
+    "decision": null
   }
 ]
