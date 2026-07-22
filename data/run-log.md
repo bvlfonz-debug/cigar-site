@@ -537,3 +537,38 @@ skipped, nothing to check.
   per the rules for a brand-new city. No ratings for it yet either way.
 - **Errors**: none. Site builds cleanly (12,981 pages). Stopping here for
   tonight given the weekday budget.
+
+## 2026-07-22 — Weekday run: accessories night
+Today was an "accessories" night on the 3-way rotation with cigars and
+lounges (see CLAUDE.md). Kept it light since it's a weekday.
+
+- **Reviews / scores**: went looking for a third independent source on a
+  batch of accessories that already have 2 sources and just need 1 more to
+  clear the 3-source minimum (Xikar Volta, NewAir CC-300H humidor, Palio
+  Cutter, Boveda 65% RH Size 60, Colibri V-Cut). Found several candidate
+  review pages, but none held up: two gave only qualitative verdicts with no
+  numeric score to record (Blind Man's Puff on the Xikar Volta, SmokeDock and
+  CigarWeekly on the NewAir — the latter also blocked automated fetching),
+  one product-identity match was too uncertain to use (a "CAO Palio Cutter"
+  page that may or may not be the same item as our "Palio Cutter"), one only
+  had reviews for a different pack size (HumidorDiscount's Boveda 320g, not
+  our Size 60), and one looked like an automated sentiment-aggregator site of
+  uncertain credibility rather than a genuine editorial source (a "9.88/10"
+  figure on bestviewsreviews.com for the Colibri V-Cut). Didn't use any of
+  them rather than guess. All five stay at their current source counts,
+  still "insufficient data."
+- **Prices checked** (both first-ever checks for these two, so nothing to
+  compare against and nothing flagged): Xikar Xi1 cutter ($67.99, Cigars
+  International), Lotus Brawn torch lighter ($46.99, Cigars International).
+  Tried a few more (NewAir CC-300H, Zico ZD-60, Xikar EX) but couldn't get a
+  clean current price from a reachable page, so skipped them rather than
+  guess.
+- **News**: added one brief — Cigar Journal's coverage of Quality Importers'
+  April 2026 PCA trade-show lineup (redesigned Xikar Allume lighters, a $199
+  leather travel case, two new cabinet humidor models, new Stinky ashtray
+  colorways). No specific new SKUs added to the catalog yet since exact model
+  names and independent reviews aren't confirmed.
+- **Queue**: nothing new proposed tonight; no owner-approved items were
+  waiting to act on.
+- **Errors**: none. Site builds cleanly (67,819 pages). Stopping here for
+  tonight given the weekday budget.
