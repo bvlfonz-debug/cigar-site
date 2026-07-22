@@ -2058,5 +2058,26 @@
     "sources_found": [],
     "proposed_action": "Directly fetch a retailer product page for the full current Connecticut Reserve lineup to confirm or reject Petit Corona/Double Toro, and check whether a Lonsdale vitola should be added instead.",
     "decision": null
+  },
+  {
+    "item": "Nub Cameroon — 464T (4x64 Torpedo) and 466BPT (4x66 Box Pressed Torpedo) vitolas",
+    "path": "/cigars/nub/cameroon/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed a plain \"466\" (4x66) and a separate \"466 Torpedo\" (4x66) as two distinct vitolas at identical dimensions. Independent research found the real Nub Cameroon torpedo frontmarks are 464T (4x64) and 466BPT (4x66, box-pressed) — two genuinely distinct SKUs, neither matching the submission's duplicate-dimension pair. Left both out rather than guess which submitted entry maps to which real SKU.",
+    "sources_found": [
+      "https://www.neptunecigar.com/cigars/nub-cameroon-466bpt",
+      "https://mikescigars.com/nub-cameroon-464-torpedo"
+    ],
+    "proposed_action": "Add 464T (4x64) and 466BPT (4x66, box-pressed) as the two torpedo-shaped Nub Cameroon vitolas, confirming dimensions against a retailer product page first.",
+    "decision": null
+  },
+  {
+    "item": "Oliva Monticello — Torpedo (submitted as 6x52) vitola",
+    "path": "/cigars/oliva/monticello/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed a Torpedo at 6x52. Independent research confirmed Robusto (5x50) and Churchill (7x50) but could not confirm the Torpedo at all (Holt's own product page returned an error on every fetch attempt). Every other Oliva-line Torpedo verified this session has been 6.5x52, not 6x52, making the submitted dimensions suspect. Left out rather than guessed.",
+    "sources_found": [],
+    "proposed_action": "Confirm the real Torpedo dimensions for Monticello via a working Holt's product page or another retailer before adding it.",
+    "decision": null
   }
 ]
