@@ -2111,5 +2111,16 @@
     ],
     "proposed_action": "Add Regalias d'Celia at 5.875x58 as the line's 4th vitola, confirming via a direct retailer product page first.",
     "decision": null
+  },
+  {
+    "item": "E.P. Carrillo Seleccion Oscuro — Nacionales, Small Churchill, and Dinamicos vitolas",
+    "path": "/cigars/ep-carrillo/seleccion-oscuro/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed a \"Churchill Extra\" (7x54) that does not match anything in the real lineup. Independent research found the real 6-vitola line includes Nacionales (5.5x44), Small Churchill (5.5x50), and Dinamicos (6.875x49) instead — none matching the submitted Churchill Extra name or dimensions. Left out rather than guessed.",
+    "sources_found": [
+      "https://cigar-coop.com/2017/05/e-p-carrillo-seleccion-oscuro-piramides-royal.html"
+    ],
+    "proposed_action": "Add Nacionales, Small Churchill, and Dinamicos with dimensions confirmed via a direct retailer product page.",
+    "decision": null
   }
 ]
