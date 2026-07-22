@@ -2049,5 +2049,14 @@
     ],
     "proposed_action": "Add a Belicoso (5x54) vitola under oliva/serie-v and attach the confirmed #3/2017/95pt Cigar Aficionado citation to it.",
     "decision": null
+  },
+  {
+    "item": "Oliva Connecticut Reserve — Petit Corona (4x38) and Double Toro (6x60) vitolas",
+    "path": "/cigars/oliva/connecticut-reserve/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed Petit Corona (4x38) and Double Toro (6x60) alongside Robusto, Toro, Torpedo, and Churchill. Independent research (Neptune Cigar search results) turned up a 5-size lineup instead: Lonsdale (6.5x44), Robusto (5x50), Toro (6x50), Torpedo (6.5x52), Churchill (7x50) — no Petit Corona or Double Toro, and a Lonsdale not present in the submission at all. Only the Toro (confirmed matching) was added; Petit Corona and Double Toro could not be confirmed and were left out rather than added on faith.",
+    "sources_found": [],
+    "proposed_action": "Directly fetch a retailer product page for the full current Connecticut Reserve lineup to confirm or reject Petit Corona/Double Toro, and check whether a Lonsdale vitola should be added instead.",
+    "decision": null
   }
 ]
