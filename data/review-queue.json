@@ -2100,5 +2100,16 @@
     ],
     "proposed_action": "Confirm whether a box-pressed Toro (or any 5th vitola) genuinely exists for this line via a direct retailer product page before adding anything.",
     "decision": null
+  },
+  {
+    "item": "E.P. Carrillo La Historia — Regalias d'Celia (5.875x58) vitola",
+    "path": "/cigars/ep-carrillo/la-historia/",
+    "reason": "vitola_name_mismatch",
+    "why_flagged": "Submission listed a \"Regalias d'Alianza (Torpedo)\" at 6x52. Independent research found no vitola by that name; the real 4th vitola in the line is \"Regalias d'Celia\" (named for Perez-Carrillo's wife's grandmother), a belicoso/figurado at 5.875x58 — a different name and different dimensions entirely. Left out rather than added under either the wrong name or wrong dimensions.",
+    "sources_found": [
+      "https://cigar-coop.com/2015/06/cigar-pre-review-e-p-carrillo-perez-carrillo-la-historia-regalias-dcelia.html"
+    ],
+    "proposed_action": "Add Regalias d'Celia at 5.875x58 as the line's 4th vitola, confirming via a direct retailer product page first.",
+    "decision": null
   }
 ]
