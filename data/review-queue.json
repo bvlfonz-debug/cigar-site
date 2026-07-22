@@ -2089,5 +2089,16 @@
     ],
     "proposed_action": "Add a Grand Robusto (6x60) vitola in place of the submitted Robusto — the plain \"Robusto\" at 5x50 does not appear to exist in this line at all.",
     "decision": null
+  },
+  {
+    "item": "AJ Fernandez Dias de Gloria — possible \"Toro BP\" (box-pressed Toro) vitola",
+    "path": "/cigars/aj-fernandez/dias-de-gloria/",
+    "reason": "unverified_vitola",
+    "why_flagged": "A new submission for this already-catalogued line claimed a \"Box Pressed Figurado\" vitola at 5.5x52. Independent research found the real, confirmed 4-vitola lineup is Robusto (5.5x52), Toro (6x56), Short Churchill (6.5x48), and Gordo (6x58) — no figurado. A separate review title (\"AJ Fernandez Dias de Gloria Toro BP — Rated 92\") suggests there may be a box-pressed Toro variant, but its dimensions were not confirmed and don't match the submitted 5.5x52 either.",
+    "sources_found": [
+      "https://stogiepress.com/cigar-review-a-j-fernandez-dias-de-gloria-toro-bp-rated-92/"
+    ],
+    "proposed_action": "Confirm whether a box-pressed Toro (or any 5th vitola) genuinely exists for this line via a direct retailer product page before adding anything.",
+    "decision": null
   }
 ]
