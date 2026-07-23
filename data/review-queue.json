@@ -2173,5 +2173,17 @@
     ],
     "proposed_action": "Add Dobles and Drumstick LE after confirming dimensions via a direct retailer product page.",
     "decision": null
+  },
+  {
+    "item": "Boston Cigar Club & Shop (Charlestown/Boston)",
+    "path": "/lounges/boston/boston-cigar-club/",
+    "reason": "new_lounge_city",
+    "why_flagged": "Boston is not yet in the lounge directory. Found a real, established cigar lounge and shop (73 Main St, Charlestown, MA 02129 - a Boston neighborhood), but public sources are ambiguous on whether lounge access is walk-in or membership-only, and none explicitly confirm indoor cigar smoking is permitted (only that it has a separate walk-in humidor and a lounge area) - needs a quick confirmation call or a clearer source before publishing.",
+    "sources_found": [
+      "https://www.bostoncigarclub.com/",
+      "https://www.yellowpages.com/charlestown-ma/mip/boston-cigar-club-559546978"
+    ],
+    "proposed_action": "If approved, add-lounge with: name=\"Boston Cigar Club & Shop\", city=Boston, state=MA, country=USA, address=\"73 Main St, Charlestown, MA 02129\", phone=\"(617) 242-6010\", website=https://www.bostoncigarclub.com/, hours_text=\"Shop 11am-8pm; Lounge 3pm-1am, 7 days/week\", walk_in_or_membership=membership (site says \"Join Today\" for the lounge; shop appears walk-in - confirm before publishing), indoor_smoking_status=allowed-with-restrictions (unconfirmed - verify directly), facts_source_url=https://www.bostoncigarclub.com/. No external ratings found yet (would need 3 independent cited sources before a LoungeScore can publish).",
+    "decision": null
   }
 ]

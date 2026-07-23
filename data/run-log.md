@@ -4,6 +4,34 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-07-23 — Weekday run: lounges night
+
+Today was a "lounges" night on the 3-way rotation with cigars and
+accessories (see CLAUDE.md). Kept it light since it's a weekday. Lounges
+have no prices, so the Price refresh step doesn't apply — skipped.
+
+- **Ratings**: tried again to push BURN by Rocky Patel (Naples) — currently
+  Google + TripAdvisor, needs just 1 more independent source — over the
+  3-source minimum. Yelp and TripAdvisor's own pages both blocked automated
+  fetching (403s), and a "Postcard" aggregator site showing 4.5 stars from
+  960 reviewers didn't hold up as a genuine independent source since its
+  own methodology isn't disclosed (same caution as the Colibri V-Cut
+  sentiment-aggregator site skipped on accessories night). Also tried
+  Casa de Montecristo (Manhattan 2nd Ave) and Corona Cigar Company &
+  Diamond Crown Lounge (Orlando), both at 1 source and needing 2 more —
+  found TripAdvisor listings for both but couldn't retrieve the actual
+  star numbers (blocked). Nothing recorded rather than guess; all three
+  stay at their current source counts, still "insufficient data."
+- **New lounge proposed**: found Boston Cigar Club & Shop (73 Main St,
+  Charlestown, MA — a Boston neighborhood), a real cigar lounge and shop.
+  Boston isn't in our directory yet. Queued it for your review rather than
+  adding it directly, since it's a new city — and flagged in the queue item
+  itself that public sources are unclear on walk-in vs. membership access
+  and don't explicitly confirm indoor smoking is allowed, so that needs a
+  quick confirmation before publishing either way. No ratings for it yet.
+- **Errors**: none. Site builds cleanly (133,689 pages). Stopping here for
+  tonight given the weekday budget.
+
 ## 2026-07-21 — Weekday run: cigars night
 
 Today is a "cigars" night on the 3-way rotation (see CLAUDE.md). Keeping it
