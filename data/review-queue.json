@@ -2155,23 +2155,23 @@
     "decision": null
   },
   {
-    "item": "Crowned Heads Headley Grange Estupendo (5.5x52) — new line, real 2012 Top 25 award",
-    "path": null,
-    "reason": "vitola_award_mismatch",
-    "why_flagged": "A submission credited Crowned Heads Four Kicks Seleccion No. 5 with a #23/2012/91pt Cigar Aficionado Top 25 award. Directly confirmed the real #24/2012/91pt award belongs to a completely different, not-yet-catalogued Crowned Heads product: Headley Grange Estupendo (5.5x52). Not added to Four Kicks; Headley Grange itself is out of scope for this batch.",
-    "sources_found": [
-      "https://www.cigaraficionado.com/top25cigar/headley-grange-estupendo-2012"
-    ],
-    "proposed_action": "Add Headley Grange as a new Crowned Heads line with the Estupendo vitola (5.5x52) and its confirmed #24/2012/91pt citation, once independently researched.",
-    "decision": null
-  },
-  {
     "item": "Crowned Heads Four Kicks — Piramide (6.125x52) vitola",
     "path": "/cigars/crowned-heads/four-kicks/",
     "reason": "unverified_vitola",
     "why_flagged": "Submission listed 4 vitolas. Independent research found a real 5th vitola, Piramide (6.125x52), not mentioned in the submission at all.",
     "sources_found": [],
     "proposed_action": "Add Piramide (6.125x52) after confirming via a direct retailer product page.",
+    "decision": null
+  },
+  {
+    "item": "Crowned Heads Headley Grange — Dobles (6.125x50) and Drumstick LE (7.5x38) vitolas",
+    "path": "/cigars/crowned-heads/headley-grange/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed 4 vitolas. Independent research found the line also includes a Dobles (6.125x50) and a limited-edition Drumstick (7.5x38), neither mentioned in the submission.",
+    "sources_found": [
+      "https://halfwheel.com/review-headley-grange-drumstick/42857/"
+    ],
+    "proposed_action": "Add Dobles and Drumstick LE after confirming dimensions via a direct retailer product page.",
     "decision": null
   }
 ]
