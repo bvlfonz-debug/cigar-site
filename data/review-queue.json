@@ -2144,5 +2144,34 @@
     ],
     "proposed_action": "Confirm whether INCH Nicaragua genuinely has a No. 70 SKU via another retailer source before adding it.",
     "decision": null
+  },
+  {
+    "item": "E.P. Carrillo INCH Connecticut No. 60 — likely fabricated product",
+    "path": null,
+    "reason": "fabricated_product",
+    "why_flagged": "Submission's own cited source URL (famous-smoke.com/ep-carrillo-inch-connecticut-no-60-cigars) 404s. Independent research across halfwheel, Cigar Coop, and multiple retailers confirms the real INCH wrapper variants are Natural (Sumatra), Maduro (Connecticut Broadleaf, not Shade), Nicaragua, Ringmaster, and Colorado/C-99 — no \"INCH Connecticut\" (Ecuadorian Connecticut Shade) product turned up anywhere. Not added.",
+    "sources_found": [],
+    "proposed_action": "Do not add unless a genuine, independently-verifiable source for this specific product is found.",
+    "decision": null
+  },
+  {
+    "item": "Crowned Heads Headley Grange Estupendo (5.5x52) — new line, real 2012 Top 25 award",
+    "path": null,
+    "reason": "vitola_award_mismatch",
+    "why_flagged": "A submission credited Crowned Heads Four Kicks Seleccion No. 5 with a #23/2012/91pt Cigar Aficionado Top 25 award. Directly confirmed the real #24/2012/91pt award belongs to a completely different, not-yet-catalogued Crowned Heads product: Headley Grange Estupendo (5.5x52). Not added to Four Kicks; Headley Grange itself is out of scope for this batch.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/top25cigar/headley-grange-estupendo-2012"
+    ],
+    "proposed_action": "Add Headley Grange as a new Crowned Heads line with the Estupendo vitola (5.5x52) and its confirmed #24/2012/91pt citation, once independently researched.",
+    "decision": null
+  },
+  {
+    "item": "Crowned Heads Four Kicks — Piramide (6.125x52) vitola",
+    "path": "/cigars/crowned-heads/four-kicks/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed 4 vitolas. Independent research found a real 5th vitola, Piramide (6.125x52), not mentioned in the submission at all.",
+    "sources_found": [],
+    "proposed_action": "Add Piramide (6.125x52) after confirming via a direct retailer product page.",
+    "decision": null
   }
 ]
