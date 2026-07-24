@@ -2185,5 +2185,25 @@
     ],
     "proposed_action": "If approved, add-lounge with: name=\"Boston Cigar Club & Shop\", city=Boston, state=MA, country=USA, address=\"73 Main St, Charlestown, MA 02129\", phone=\"(617) 242-6010\", website=https://www.bostoncigarclub.com/, hours_text=\"Shop 11am-8pm; Lounge 3pm-1am, 7 days/week\", walk_in_or_membership=membership (site says \"Join Today\" for the lounge; shop appears walk-in - confirm before publishing), indoor_smoking_status=allowed-with-restrictions (unconfirmed - verify directly), facts_source_url=https://www.bostoncigarclub.com/. No external ratings found yet (would need 3 independent cited sources before a LoungeScore can publish).",
     "decision": null
+  },
+  {
+    "item": "La Aroma de Cuba (flagship line) — real citation for the 93pt rating",
+    "path": "/cigars/la-aroma-de-cuba/la-aroma-de-cuba/rothschild/",
+    "reason": "fabricated_award",
+    "why_flagged": "Submission claimed a #19/2009 Cigar Aficionado Top 25 placement (93pts) for Rothschild. Directly fetched the actual 2009 Top 25 list — La Aroma de Cuba does not appear on it at all. Multiple secondary sources mention a genuine 93-point Cigar Aficionado rating for this blend, but none supplied a specific vitola, date, or direct URL solid enough to cite. No citation was added.",
+    "sources_found": [],
+    "proposed_action": "Find the specific vitola, review date, and direct cigaraficionado.com URL for the real 93pt rating before adding a citation.",
+    "decision": null
+  },
+  {
+    "item": "La Aroma de Cuba Noblesse — Viceroy (6.25x52) vitola",
+    "path": "/cigars/la-aroma-de-cuba/noblesse/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed only 3 vitolas (Regency, Coronation, Monarchy). Cigar Aficionado's own coverage of the 2024 relaunch lists a 4th size, Viceroy (6.25x52), not mentioned in the submission at all.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/article/la-aroma-de-cuba-noblesse-gets-new-blend-and-packaging"
+    ],
+    "proposed_action": "Add Viceroy (6.25x52) after confirming via a direct retailer product page.",
+    "decision": null
   }
 ]
