@@ -2205,5 +2205,16 @@
     ],
     "proposed_action": "Add Viceroy (6.25x52) after confirming via a direct retailer product page.",
     "decision": null
+  },
+  {
+    "item": "J.C. Newman The American — Torpedo (6.125x52) vitola",
+    "path": "/cigars/jc-newman/the-american/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed 4 vitolas. Independent research found the original 2019 lineup also included a Torpedo (6.125x52), not mentioned in the submission at all.",
+    "sources_found": [
+      "https://halfwheel.com/the-american-double-robusto/404330/"
+    ],
+    "proposed_action": "Add Torpedo (6.125x52) after confirming via a direct retailer product page.",
+    "decision": null
   }
 ]
