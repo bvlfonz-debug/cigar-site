@@ -2236,5 +2236,63 @@
     "sources_found": [],
     "proposed_action": "Locate the actual Cigar & Spirits review/issue (print or web) to get a citable URL before adding this score.",
     "decision": null
+  },
+  {
+    "item": "Diamond Crown Maximus — Petite No. 6 (5x46) vitola",
+    "path": "/cigars/diamond-crown/maximus/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed a Petite No. 6 (5x46). Independent research confirmed only 5 standard vitolas (Double Corona No.1, Churchill No.2, Pyramid No.3, Toro No.4, Robusto No.5); one source mentioned a possible 6th size but as a Double Robusto at 5x56, not a Petite at 5x46. Left out rather than guessed.",
+    "sources_found": [],
+    "proposed_action": "Confirm via a direct retailer product page whether a 6th Maximus vitola exists and, if so, its real name/dimensions.",
+    "decision": null
+  },
+  {
+    "item": "Cuesta-Rey Centro Fino Sungrown — rejected \"Smoke Magazine 94pt/2012\" claim",
+    "path": "/cigars/cuesta-rey/centro-fino-sungrown/",
+    "reason": "fabricated_award",
+    "why_flagged": "Submission claimed a 94-point Smoke Magazine score (2012) for Centro Fino Sungrown. Independent research found a 94-point Smoke Magazine rating for a different Cuesta-Rey line, Centenario, with no equivalent score found for Centro Fino Sungrown specifically. Not added.",
+    "sources_found": [],
+    "proposed_action": "Confirm whether Centro Fino Sungrown genuinely has its own Smoke Magazine citation before adding one; otherwise this may belong on the separate Centenario line instead.",
+    "decision": null
+  },
+  {
+    "item": "Brick House Maduro Robusto — 91pt Cigar Aficionado citation",
+    "path": "/cigars/brick-house/maduro/robusto/",
+    "reason": "unverified_award",
+    "why_flagged": "Submission claimed a 91-point Cigar Aficionado rating with no specific vitola tied. J.C. Newman's own brand page references this score, but that page is not itself the Cigar Aficionado review, so it is not a valid citation for a \"Cigar Aficionado\" source per this catalog's citation standard. No genuine cigaraficionado.com URL for this rating was found.",
+    "sources_found": [
+      "https://www.jcnewman.com/company/brick-house-cigars/"
+    ],
+    "proposed_action": "Find the actual cigaraficionado.com rating page for Brick House Maduro (any vitola) before citing this score.",
+    "decision": null
+  },
+  {
+    "item": "Brick House Maduro — The Commodore (5.5x70?) vitola",
+    "path": "/cigars/brick-house/maduro/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed a \"The Commodore\" vitola at 5.5x70, tied to the line's claimed 2012 release. Research found a Cigar Coop article dated April 2026, \"J.C. Newman Adds Brick House Commodore Maduro,\" suggesting this size may be a 2026 addition rather than part of the original 2012 lineup — its exact dimensions could not be confirmed (source blocked). Left out rather than guessed.",
+    "sources_found": [
+      "https://cigar-coop.com/2026/04/j-c-newman-adds-brick-house-commodore-maduro-cigar-news.html"
+    ],
+    "proposed_action": "Confirm The Commodore's real release date and dimensions via a working source before adding it, and correct the line's background_text if it turns out to postdate 2012 significantly.",
+    "decision": null
+  },
+  {
+    "item": "Perla del Mar Corojo Toro — Cigar Insider 90pt/2021 citation",
+    "path": "/cigars/perla-del-mar/corojo/toro/",
+    "reason": "unverified_award",
+    "why_flagged": "Submission claimed a 90-point Cigar Insider rating (2021) with no direct source URL provided or found during verification.",
+    "sources_found": [],
+    "proposed_action": "Find the actual cigaraficionado.com/Cigar Insider rating page for Perla del Mar Corojo Toro before citing this score.",
+    "decision": null
+  },
+  {
+    "item": "Perla del Mar Corojo — Short Robusto (3.75x56) vitola",
+    "path": "/cigars/perla-del-mar/corojo/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed a Short Robusto (3.75x56), matching the confirmed Shade variant's size. Independent research on the Corojo variant specifically found only 4 vitolas (Robusto, Toro, Double Toro/Gordo, Corona Gorda) with no Short Robusto mentioned — this size may be exclusive to Shade. Left out rather than assumed shared.",
+    "sources_found": [],
+    "proposed_action": "Confirm via a direct retailer product page whether Perla del Mar Corojo genuinely comes in a Short Robusto size before adding it.",
+    "decision": null
   }
 ]
