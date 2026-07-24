@@ -2216,5 +2216,25 @@
     ],
     "proposed_action": "Add Torpedo (6.125x52) after confirming via a direct retailer product page.",
     "decision": null
+  },
+  {
+    "item": "Diamond Crown Classic — No. 1, No. 5, No. 7, No. 8, No. 9 vitola corrections/additions",
+    "path": "/cigars/diamond-crown/classic/",
+    "reason": "vitola_dimension_conflict",
+    "why_flagged": "Submission listed No. 1 (8.5x54), No. 5 (5x58), and No. 7/Pyramid (6.5x52) as Classic vitolas. Directly fetched J.C. Newman's own Diamond Crown Classic page — the real lineup runs No. 2 through No. 9 with NO No. 1 in this specific line (a differently-named \"Diamond Crown Robusto No. 1\" at 8.5x54 exists as a separate product). The real No. 5 is 4.5x54 (not 5x58) and the real No. 7 is 6.75x54, a parejo (not a 6.5x52 pyramid). Two real vitolas, No. 8 (5x58) and No. 9 (6x50), were omitted from the submission entirely. Only No. 2, No. 3, No. 4, and No. 6 (all confirmed exact matches) were added.",
+    "sources_found": [
+      "https://www.jcnewman.com/company/diamond-crown-cigars/"
+    ],
+    "proposed_action": "Add No. 8 (5x58) and No. 9 (6x50); correct or drop No. 1/No. 5/No. 7 per the official J.C. Newman lineup once double-checked against a second source.",
+    "decision": null
+  },
+  {
+    "item": "Diamond Crown Black Diamond Emerald — Cigar & Spirits 95pt citation",
+    "path": "/cigars/diamond-crown/black-diamond/emerald/",
+    "reason": "unverified_award",
+    "why_flagged": "Submission claimed a 95-point score from Cigar & Spirits Magazine (2017) for Emerald. Could not independently locate this specific rating or a citable URL during verification (Cigar & Spirits has limited web presence compared to Cigar Aficionado/halfwheel). Not fabricated as far as could be determined, but no citation was added without a real source URL.",
+    "sources_found": [],
+    "proposed_action": "Locate the actual Cigar & Spirits review/issue (print or web) to get a citable URL before adding this score.",
+    "decision": null
   }
 ]
