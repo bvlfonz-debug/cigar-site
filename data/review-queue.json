@@ -2294,5 +2294,25 @@
     "sources_found": [],
     "proposed_action": "Confirm via a direct retailer product page whether Perla del Mar Corojo genuinely comes in a Short Robusto size before adding it.",
     "decision": null
+  },
+  {
+    "item": "J.C. Newman Yagua — 91pt Cigar Aficionado citation",
+    "path": "/cigars/jc-newman/yagua/toro/",
+    "reason": "unverified_award",
+    "why_flagged": "Submission claimed a 91-point Cigar Aficionado score with no rank or URL given. A separate, unrelated search summary claimed Yagua ranked #11/93pts on the 2021 Top 25 — directly fetched the actual 2021 Top 25 list and confirmed Yagua does not appear on it at all, so that claim is false. The submission's own, more modest \"91 points\" claim could not be independently verified either.",
+    "sources_found": [
+      "https://www.cigaraficionado.com/top25/2021"
+    ],
+    "proposed_action": "Find the actual cigaraficionado.com rating page for Yagua before citing any score.",
+    "decision": null
+  },
+  {
+    "item": "Perla del Mar Maduro — Short Robusto (3.75x56) vitola",
+    "path": "/cigars/perla-del-mar/maduro/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed a Short Robusto (3.75x56), matching the confirmed Shade variant's size. Independent research on the Maduro variant found only 4 vitolas (Robusto, Toro, Double Toro, Corona Gorda) with no Short Robusto mentioned — same pattern as the Corojo variant in a prior batch, where this size also appears to be Shade-exclusive.",
+    "sources_found": [],
+    "proposed_action": "Confirm via a direct retailer product page whether Perla del Mar Maduro genuinely comes in a Short Robusto size before adding it.",
+    "decision": null
   }
 ]
