@@ -4,6 +4,36 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-07-24 — Weekday run: cigars night
+
+Today was a "cigars" night on the 3-way rotation with accessories and
+lounges (see CLAUDE.md). Kept it light since it's a weekday.
+
+- **News**: added one brief — halfwheel's coverage of J.C. Newman shipping
+  the fourth LeRoy Neiman Collector's Edition (a 6 1/2 x 56 toro grande,
+  same blend as the first three releases, new box art depicting Marilyn
+  Monroe serenading President Kennedy). Also logged it on the release
+  calendar and cross-linked the two, since J.C. Newman is already a brand
+  in our catalog (added a few nights back) — no matching "LeRoy Neiman"
+  line exists yet, so nothing to link to the main catalog.
+- **Prices checked**: Aging Room Quattro Nicaragua Maestro ($143.99/10-pack,
+  Thompson Cigar) and CAO Brazilia Gol! ($152.99/box of 20, Thompson Cigar)
+  — both first-ever checks, nothing to compare against, nothing flagged.
+  Also looked at Romeo y Julieta Añejo Piramide, but the only pricing found
+  online was for the Cuban Habanos "Piramides Añejados" line (a different
+  product from our domestic Altadis USA "Romeo Añejo"), so skipped it
+  rather than record a mismatched price. Couldn't find a size-matched price
+  for Plasencia Alma Fuerte Generación V either, so skipped that too.
+- **Scores**: no new critic reviews came in tonight, so nothing needed
+  recomputing. (Note for the owner: several queued items, like the Arturo
+  Fuente Añejo Reserva No. 48, show up with 3 total review rows but still
+  only 2 truly *independent* sources — Cigar Aficionado reviewed it twice.
+  That's why they're still sitting at "insufficient data" rather than a
+  bug.)
+- **Queue**: nothing new proposed tonight; no owner-approved items were
+  waiting to act on.
+- **Errors**: none. Site builds cleanly (174,073 pages).
+
 ## 2026-07-23 — Weekday run: lounges night
 
 Today was a "lounges" night on the 3-way rotation with cigars and
@@ -600,3 +630,6 @@ lounges (see CLAUDE.md). Kept it light since it's a weekday.
   waiting to act on.
 - **Errors**: none. Site builds cleanly (67,819 pages). Stopping here for
   tonight given the weekday budget.
+
+## 2026-07-24 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
