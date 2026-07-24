@@ -2314,5 +2314,14 @@
     "sources_found": [],
     "proposed_action": "Confirm via a direct retailer product page whether Perla del Mar Maduro genuinely comes in a Short Robusto size before adding it.",
     "decision": null
+  },
+  {
+    "item": "El Reloj — El Cuatro (5.25x44) and El Cinco (5.5x56) vitolas",
+    "path": "/cigars/jc-newman/el-reloj/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed El Cuatro and El Cinco alongside El Ocho. Independent research found only one regular-production El Reloj size currently exists — El Ocho (8x53) — with no evidence of El Cuatro or El Cinco anywhere. Left out rather than added on faith.",
+    "sources_found": [],
+    "proposed_action": "Confirm via a direct retailer product page whether El Cuatro/El Cinco genuinely exist as El Reloj vitolas before adding them.",
+    "decision": null
   }
 ]
