@@ -2341,5 +2341,25 @@
     "sources_found": [],
     "proposed_action": "Find the actual cigaraficionado.com rating page with a specific date for this 93pt score before adding it as a 4th citation.",
     "decision": null
+  },
+  {
+    "item": "Chateau Fuente Sun Grown — Cuban Belicoso vitola and King B 2012 Top 25 award",
+    "path": "/cigars/arturo-fuente/chateau-fuente-sun-grown/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed a Cuban Belicoso (5.75x52) vitola — not found in any independent source for this specific line (Chateau Fuente Sun Grown only turned up Chateau Fuente, Double Chateau, King B, and Royal Salute). Also could not independently confirm the claimed #6/2012 Top 25 award (93pts) for King B.",
+    "sources_found": [],
+    "proposed_action": "Confirm whether Cuban Belicoso exists as a Chateau Fuente Sun Grown vitola, and find a direct cigaraficionado.com URL for the King B award, before adding either.",
+    "decision": null
+  },
+  {
+    "item": "Padrón 1964 Anniversary Series — Natural-wrapper line (Torpedo #1/2021 Top 25 award)",
+    "path": "/cigars/padron/",
+    "reason": "vitola_award_mismatch",
+    "why_flagged": "Submission attached a #1/2021 Cigar of the Year award (97pts) to the Torpedo vitola of the 1964 Anniversary Series MADURO line. Directly confirmed this award is real, but it belongs specifically to \"Padron 1964 Anniversary Series Torpedo (NATURAL)\" — a separate wrapper variant with no equivalent line in the catalog yet. Not attached to the Maduro Torpedo (which already has its own separate, correct 89pt/2023 citation).",
+    "sources_found": [
+      "https://www.cigaraficionado.com/top25cigar/padron-1964-anniversary-series-torpedo-natural"
+    ],
+    "proposed_action": "Create a \"1964 Anniversary Series Natural\" line (or Natural-variant vitolas within a shared line, depending on schema conventions) and attach the #1/2021/97pt citation to its Torpedo vitola specifically.",
+    "decision": null
   }
 ]
