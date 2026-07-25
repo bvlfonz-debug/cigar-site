@@ -2323,5 +2323,23 @@
     "sources_found": [],
     "proposed_action": "Confirm via a direct retailer product page whether El Cuatro/El Cinco genuinely exist as El Reloj vitolas before adding them.",
     "decision": null
+  },
+  {
+    "item": "Arturo Fuente Hemingway — Short Story/Classic dimension conflict (informational, no action needed)",
+    "path": "/cigars/arturo-fuente/hemingway/",
+    "reason": "vitola_dimension_conflict",
+    "why_flagged": "A resubmission gave Short Story as 4x49 (existing DB entry, backed by 3 independent citations, has 4x48) and Classic as 7x48 (existing entry, backed by 2 independent citations, has 7x46). Retailer listings for both sizes are genuinely split across the market between these two figures. Left the existing, multiply-cited entries untouched rather than overwrite with an equally-unverifiable alternative.",
+    "sources_found": [],
+    "proposed_action": "No action needed unless a definitively authoritative source (e.g. Arturo Fuente's own current spec sheet) resolves the industry-wide inconsistency.",
+    "decision": null
+  },
+  {
+    "item": "Arturo Fuente Hemingway Short Story — additional 93pt Cigar Aficionado citation",
+    "path": "/cigars/arturo-fuente/hemingway/short-story/",
+    "reason": "unverified_award",
+    "why_flagged": "Submission claimed a 93-point Cigar Aficionado score (2021, no rank). A general 93pt CA rating for this cigar is referenced across multiple retailer sites, but none gave a specific review date or a direct cigaraficionado.com URL — the existing vitola already has 3 other independently-cited scores (2025, 2019, 2007) without this one.",
+    "sources_found": [],
+    "proposed_action": "Find the actual cigaraficionado.com rating page with a specific date for this 93pt score before adding it as a 4th citation.",
+    "decision": null
   }
 ]
