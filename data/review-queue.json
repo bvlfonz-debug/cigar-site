@@ -2442,5 +2442,51 @@
     "sources_found": [],
     "proposed_action": "Find the actual cigaraficionado.com rating page and specific vitola for this 93pt score before citing it.",
     "decision": null
+  },
+  {
+    "item": "Davidoff Grand Cru No. 1 — possible discontinuation",
+    "path": "/cigars/davidoff/grand-cru/no-1/",
+    "reason": "unclear_current_availability",
+    "why_flagged": "A German retailer (cigarworld.de) states Grand Cru No. 1 (and No. 4) were discontinued around 2017, and it does not appear on current major US retailer sites (Famous Smoke, JR Cigars) though Cigar Aficionado still lists a rating for it.",
+    "sources_found": [
+      "cigarworld.de product catalog",
+      "Famous Smoke (No. 1 absent)",
+      "JR Cigars (No. 1 absent)"
+    ],
+    "proposed_action": "Confirm current production status directly with Davidoff or a current retailer; if discontinued, consider a note on the vitola page rather than presenting it as an active current release.",
+    "decision": null
+  },
+  {
+    "item": "Davidoff Winston Churchill Limited Edition 2019 — The Traveler",
+    "path": null,
+    "reason": "new_line_candidate",
+    "why_flagged": "The submitted Winston Churchill batch included a fictional 'The Traveler (Belicoso) 4.5x46' vitola under the Original Collection. Research confirmed The Traveler is a real but entirely separate product: a Limited Edition 2019 release, Robusto format, 5x50 (with a 5x43 duty-free corona variant), rated 89pts by Cigar Aficionado (May 2019, Cigar Insider) — never packaged as part of the Original Collection.",
+    "sources_found": [
+      "cigaraficionado.com/rating/davidoff-winston-churchill-limited-edition-2019-the-traveler"
+    ],
+    "proposed_action": "If desired, add as its own line (Davidoff Winston Churchill Limited Edition 2019) with the correct 5x50 Robusto dimensions and the real citation, rather than folding it into the Original Collection.",
+    "decision": null
+  },
+  {
+    "item": "Davidoff Escurio Gran Perfecto — omitted vitola",
+    "path": null,
+    "reason": "omitted_from_submission",
+    "why_flagged": "Research surfaced a Gran Perfecto figurado vitola (5 x 61/50) in the core Escurio line that was not included in the submitted batch.",
+    "sources_found": [
+      "retailer spec listings for Davidoff Escurio Gran Perfecto"
+    ],
+    "proposed_action": "Verify exact dimensions and any citable award, then add via add-vitola if confirmed.",
+    "decision": null
+  },
+  {
+    "item": "Davidoff Signature 1000 and Exquisitos — omitted vitolas",
+    "path": null,
+    "reason": "omitted_from_submission",
+    "why_flagged": "Research surfaced two additional Signature-line vitolas not included in the submitted batch: 1000 (approx. 4.625 x 34) and Exquisitos (approx. 3.62 x 22).",
+    "sources_found": [
+      "retailer spec listings for Davidoff Signature line"
+    ],
+    "proposed_action": "Verify exact dimensions against a primary retailer/CA source, then add via add-vitola if confirmed.",
+    "decision": null
   }
 ]
