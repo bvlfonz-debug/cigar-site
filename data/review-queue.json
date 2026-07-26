@@ -2488,5 +2488,50 @@
     ],
     "proposed_action": "Verify exact dimensions against a primary retailer/CA source, then add via add-vitola if confirmed.",
     "decision": null
+  },
+  {
+    "item": "Perdomo Reserve 10th Anniversary Champagne Robusto — Cigar Journal 92pt rating, exact citation unconfirmed",
+    "path": "/cigars/perdomo/reserve-10th-anniversary-champagne/robusto/",
+    "reason": "unconfirmed_citation_details",
+    "why_flagged": "Research confirmed a real Cigar Journal expert-panel rating of 92 points exists specifically for the Robusto vitola of this line, separate from Cigar Journal's scoreless 'Best Brand Nicaragua 2018' reader-voted trophy (which the original submission had incorrectly merged into one 92pt/Best-Brand claim). The exact review date and URL for the 92pt rating were not confirmed.",
+    "sources_found": [
+      "Cigar Journal Best Brand Cigar Trophy Award 2018 page (brand-level, no score)",
+      "general confirmation of a separate 92pt Cigar Journal Robusto rating"
+    ],
+    "proposed_action": "Find the exact Cigar Journal review URL/date for the 92pt Robusto rating, then add via add-critic-review.",
+    "decision": null
+  },
+  {
+    "item": "Perdomo Reserve 10th Anniversary Maduro Epicure — Cigar Journal #1/2021 ranking, score not published as text",
+    "path": "/cigars/perdomo/reserve-10th-anniversary-box-pressed-maduro/epicure/",
+    "reason": "unconfirmed_citation_details",
+    "why_flagged": "The submission claimed a Cigar Aficionado #3/2021/93pt award for this vitola. No such CA rating exists anywhere (confirmed against CA's actual 2021 Top 25 list and their ratings database, which has no Epicure entry for this line at all). The real fact is that Cigar Journal ranked this Epicure #1 on their own Top 25 Cigar of the Year 2021 list, but their public write-up gives no numeric 100-point score (only a 7/10 strength figure), so no score can be cited without guessing.",
+    "sources_found": [
+      "cigarjournal.com Top 25 Cigar of the Year 2021 (#1, Perdomo Reserve 10th Anniversary Box-Pressed Epicure Maduro)"
+    ],
+    "proposed_action": "If Cigar Journal publishes a numeric score for this cigar elsewhere, add via add-critic-review; otherwise the #1 ranking could be noted in background_text without a fabricated score.",
+    "decision": null
+  },
+  {
+    "item": "Perdomo 20th Anniversary Sun Grown Epicure — submitted CA 93pt/2014 award is fabricated/misattributed",
+    "path": "/cigars/perdomo/20th-anniversary-sun-grown/epicure/",
+    "reason": "fabricated_or_misattributed_award",
+    "why_flagged": "Research found the real 93-point Cigar Aficionado rating with that exact score belongs to a different, much newer product: the Perdomo 30th Anniversary Sun Grown Epicure (Toro, 6x54), rated June 2024, #16 on CA's 2024 Top 25. No CA rating of any score exists for the 20th Anniversary line's Epicure vitola specifically.",
+    "sources_found": [
+      "cigaraficionado.com/ratings/25186/name/perdomo-30th-anniversary-sun-grown-epicure-toro (the real 93pt/2024 rating, wrong product)"
+    ],
+    "proposed_action": "No action needed unless a genuine CA rating for the 20th Anniversary Epicure surfaces later — do not attach the 30th Anniversary score to this vitola.",
+    "decision": null
+  },
+  {
+    "item": "Perdomo Habano Bourbon Barrel-Aged Sun Grown Epicure — Cigar Journal Top 25 2018 #5, exact score unpublished",
+    "path": "/cigars/perdomo/habano-bourbon-barrel-aged-sun-grown/epicure/",
+    "reason": "unconfirmed_citation_details",
+    "why_flagged": "Confirmed this cigar ranked #5 on Cigar Journal's Top 25 Cigars of 2018 (submission had claimed 2019/91pts/no rank — wrong year, and it does have a rank). Cigar Journal's public list only states all entries scored 90+ as a group; individual scores are rendered as images, not text, so the exact point figure could not be confirmed.",
+    "sources_found": [
+      "cigarjournal.com/cigar-journals-top-25-cigars-of-2018-7-to-2/ (#5 ranking confirmed)"
+    ],
+    "proposed_action": "If the exact score can be read off Cigar Journal's image/graphic or found in a secondary source, add via add-critic-review with the corrected 2018 date and #5 context.",
+    "decision": null
   }
 ]
