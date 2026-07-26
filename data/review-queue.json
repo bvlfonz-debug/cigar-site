@@ -2406,5 +2406,41 @@
     "sources_found": [],
     "proposed_action": "Find the actual cigaraficionado.com rating page for this 93pt/2014 score before adding it.",
     "decision": null
+  },
+  {
+    "item": "Ashton Classic — \"Prime Press\" vitola and vague 90pt/2020 award",
+    "path": "/cigars/ashton/classic/",
+    "reason": "vitola_dimension_conflict",
+    "why_flagged": "Submission listed a \"Prime Press\" (6x50). No such name was found; the closest real name, Prime Minister, measures 6.875x48 — a different size entirely. Also could not verify the vague 90pt/2020 Cigar Aficionado claim (no rank or URL).",
+    "sources_found": [],
+    "proposed_action": "Confirm whether \"Prime Press\" is meant to be Prime Minister (6.875x48) before adding it, and find a specific source for the 90pt claim.",
+    "decision": null
+  },
+  {
+    "item": "Ashton Cabinet Selection — \"Pyramid\"/\"Belicoso\" naming and vague 94pt/2019 award",
+    "path": "/cigars/ashton/cabinet-selection/",
+    "reason": "vitola_dimension_conflict",
+    "why_flagged": "Submission listed separate Pyramid (6x52) and Belicoso (5.25x52) vitolas. Independent research indicates No. 1/No. 2/No. 3 are themselves the line's perfecto-shaped vitolas, with no separately-named Pyramid or Belicoso confirmed. Also could not verify the vague 94pt/2019 Cigar Aficionado claim (no rank or URL).",
+    "sources_found": [],
+    "proposed_action": "Confirm whether Pyramid/Belicoso are genuine additional SKUs (vs. duplicates of No. 1/2/3 under different names) before adding, and find a specific source for the 94pt claim.",
+    "decision": null
+  },
+  {
+    "item": "Ashton Heritage Puro Sol — Double Corona (7x52) vitola",
+    "path": "/cigars/ashton/heritage-puro-sol/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed 5 vitolas. Independent research found a real 6th size, Double Corona (7x52), not mentioned in the submission at all.",
+    "sources_found": [],
+    "proposed_action": "Add Double Corona (7x52) after confirming via a direct retailer product page.",
+    "decision": null
+  },
+  {
+    "item": "Ashton ESG — vague 93pt/2014 citation",
+    "path": "/cigars/ashton/esg/",
+    "reason": "unverified_award",
+    "why_flagged": "Submission claimed a general 93-point Cigar Aficionado score (2014, no vitola or rank) with no direct source URL provided or found during verification.",
+    "sources_found": [],
+    "proposed_action": "Find the actual cigaraficionado.com rating page and specific vitola for this 93pt score before citing it.",
+    "decision": null
   }
 ]
