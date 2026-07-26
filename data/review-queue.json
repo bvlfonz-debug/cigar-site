@@ -2397,5 +2397,14 @@
     "sources_found": [],
     "proposed_action": "Confirm via a direct retailer product page whether a 6x60 Gordo genuinely exists before adding it.",
     "decision": null
+  },
+  {
+    "item": "My Father Original No. 1 — vague 93pt/2014 citation",
+    "path": "/cigars/my-father/no-1/robusto/",
+    "reason": "unverified_award",
+    "why_flagged": "Submission claimed a general 93-point Cigar Aficionado score (2014, no rank) with no direct source URL. The existing vitola already carries its well-documented #3/2009 Cigar of the Year citation (94pts) plus two other independent reviews; this would be a 4th, distinct citation if genuine.",
+    "sources_found": [],
+    "proposed_action": "Find the actual cigaraficionado.com rating page for this 93pt/2014 score before adding it.",
+    "decision": null
   }
 ]
