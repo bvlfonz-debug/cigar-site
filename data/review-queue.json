@@ -2361,5 +2361,41 @@
     ],
     "proposed_action": "Create a \"1964 Anniversary Series Natural\" line (or Natural-variant vitolas within a shared line, depending on schema conventions) and attach the #1/2021/97pt citation to its Torpedo vitola specifically.",
     "decision": null
+  },
+  {
+    "item": "Padrón 2000 Natural — vague \"90+ points 2017\" citation",
+    "path": "/cigars/padron/2000-natural/",
+    "reason": "unverified_award",
+    "why_flagged": "Submission claimed the line is \"consistently rated 90+ across various Thousand Series vitolas\" (2017, no specific vitola or rank). Too vague to attach to any single vitola without a direct source.",
+    "sources_found": [],
+    "proposed_action": "Find a specific vitola, score, and cigaraficionado.com URL before adding any citation.",
+    "decision": null
+  },
+  {
+    "item": "Padrón Dámaso — No. 32 (5.25x52) vitola",
+    "path": "/cigars/padron/damaso/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed 5 vitolas. Independent research found a real 6th size, No. 32 (5.25x52), not mentioned in the submission at all.",
+    "sources_found": [],
+    "proposed_action": "Add No. 32 (5.25x52) after confirming via a direct retailer product page.",
+    "decision": null
+  },
+  {
+    "item": "Padrón Dámaso No. 12 — vague 91pt/2016 citation",
+    "path": "/cigars/padron/damaso/no-12/",
+    "reason": "unverified_award",
+    "why_flagged": "Submission claimed a general 91-point Cigar Aficionado score (2016, no rank) with no direct source URL provided or found during verification.",
+    "sources_found": [],
+    "proposed_action": "Find the actual cigaraficionado.com rating page for Dámaso No. 12 before citing this score.",
+    "decision": null
+  },
+  {
+    "item": "My Father The Judge — unconfirmed \"Gordo\" (6x60) vitola",
+    "path": "/cigars/my-father/the-judge/",
+    "reason": "unverified_vitola",
+    "why_flagged": "Submission listed a Gordo at 6x60. Independent research found only two large-ring sizes for The Judge: Toro (6x56, already catalogued) and Grand Robusto (5x60, already catalogued) — no 6x60 size turned up anywhere. Likely a conflation of the two real sizes' dimensions rather than a genuine third SKU.",
+    "sources_found": [],
+    "proposed_action": "Confirm via a direct retailer product page whether a 6x60 Gordo genuinely exists before adding it.",
+    "decision": null
   }
 ]
