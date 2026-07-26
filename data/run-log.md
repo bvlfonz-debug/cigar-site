@@ -4,6 +4,39 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-07-26 — Sunday run: lounges night (heavier catalog pass)
+
+Today was a "lounges" night on the 3-way rotation (see CLAUDE.md). Since it's
+Sunday, I spent more time on this than a weekday run, focused on pushing
+existing lounges over the 3-source minimum for a real LoungeScore, or adding
+a first source to ones that had none.
+
+- **BURN by Rocky Patel (Naples, FL)**: added a Yelp rating (4.0/5, ~196
+  reviews) alongside its existing Google and TripAdvisor ratings. That's now
+  3 independent sources, so it has a real LoungeScore for the first time
+  (~84.7/100).
+- **The Debonair Cigar Lounge (Los Angeles)**: added its first rating —
+  Yelp, 4.8/5, 105 reviews. Still only 1 source, so it stays "insufficient
+  data" for now; needs 2 more independent sources before a score can publish.
+- Spent a good amount of research time trying to find clean, verifiable
+  second/third ratings for several other lounges that only have one source
+  today (Orlando's Corona Cigar/Diamond Crown, Mooresville's Casa de
+  Montecristo, Boca Raton's Casa de Montecristo, the Manhattan Casa de
+  Montecristo). Yelp and TripAdvisor block automated page fetches directly,
+  and search results for these gave inconsistent or unclear numbers (several
+  low-quality directory sites disagreed with each other on the same venue's
+  rating) — rather than guess, I left these alone tonight. Same for a
+  handful of "best cigar lounge" list sites (aicigarexplorer.com,
+  flavoredtimes.com, cigarworld.com) that turned up in search — I don't know
+  these publications well enough to vouch for them as credible, so I didn't
+  cite them; if the owner recognizes any of these as legitimate, that'd be
+  useful to know.
+- **New lounges/cities**: none proposed tonight — didn't find a candidate I
+  was confident enough in to write up properly given time spent above.
+- **Queue**: nothing new proposed tonight; no owner-approved items were
+  waiting to act on.
+- **Errors**: none. Site builds cleanly (301,819 pages).
+
 ## 2026-07-24 — Weekday run: cigars night
 
 Today was a "cigars" night on the 3-way rotation with accessories and
