@@ -648,3 +648,6 @@ The run exited with code 0. Check this run's logs in the Actions tab for details
 
 ## 2026-07-25 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 0. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-07-26 — NEEDS-ATTENTION: run did not finish cleanly
+This is a quota issue, not a bug: the nightly automation shares your Claude Pro usage limit with your own daytime use, and tonight's budget was already used up. Nothing to fix — it'll work again once your quota resets. Nothing was changed or committed tonight.
