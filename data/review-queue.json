@@ -2533,5 +2533,27 @@
     ],
     "proposed_action": "If the exact score can be read off Cigar Journal's image/graphic or found in a secondary source, add via add-critic-review with the corrected 2018 date and #5 context.",
     "decision": null
+  },
+  {
+    "item": "CAO Bones Blind Hughie — submitted CA 90pt/2021 award is unconfirmed/likely misattributed",
+    "path": "/cigars/cao/bones/blind-hughie/",
+    "reason": "unconfirmed_or_fabricated_award",
+    "why_flagged": "Cigar Aficionado's own CAO brand page (listing every CAO line they've rated) does not include Bones at all. The 90-point figure appears to trace to a different, unrelated outlet (\"The Cold Draw\", ~May 2021) or a conflation with Famous Smoke's own \"Cigar Advisor\" video series (also abbreviated \"CA\"), which explicitly assigns no numeric score.",
+    "sources_found": [
+      "cigaraficionado.com/brand/cao (Bones absent from rated-lines list)"
+    ],
+    "proposed_action": "If a real citation for CAO Bones can be found (from any publication, with an exact score/date/URL), add via add-critic-review with the correct source name — do not attribute to Cigar Aficionado without a real ratings-database URL.",
+    "decision": null
+  },
+  {
+    "item": "CAO Italia Positano — omitted vitola",
+    "path": null,
+    "reason": "omitted_from_submission",
+    "why_flagged": "Research surfaced a Positano (Toro format) vitola in the historical Italia line, rated 89 points by Cigar Aficionado, not included in the submitted batch.",
+    "sources_found": [
+      "Cigar Aficionado rating references to CAO Italia Positano, 89pts"
+    ],
+    "proposed_action": "Verify exact dimensions and confirm the 89pt citation's date/URL directly, then add via add-vitola/add-critic-review if confirmed.",
+    "decision": null
   }
 ]
