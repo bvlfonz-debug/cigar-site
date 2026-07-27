@@ -2613,5 +2613,21 @@
     ],
     "proposed_action": "If a subscription/alternate access method becomes available to confirm the halfwheel score, or Cigar Aficionado publishes a rating for this specific vitola, add via add-critic-review.",
     "decision": null
+  },
+  {
+    "item": "New factory profile: Graycliff Cigar Company (La Casa de Graycliff), Nassau, Bahamas",
+    "path": null,
+    "reason": "new_factory_and_brand_candidate",
+    "why_flagged": "A user submitted a full factory profile for Graycliff, a brand not yet in our catalog at all. Per CLAUDE.md, a new factory row is a new catalog entity requiring owner approval before add-factory is called, same tier as a new brand. The submission arrived with no citations, so every claim was independently verified via research first; two real errors were found and corrected below rather than being passed through as given.",
+    "sources_found": [
+      "graycliff.com/graycliff-history (building history, corroborates church-1666/pirate-1740/garrison-1776/hotel-1973 narrative)",
+      "cigaraficionado.com/article/the-man-who-created-cohiba-7672 (credits Eduardo Rivera Irizarri, not Avelino Lara, with creating the Cohiba blend)",
+      "cigaraficionado.com/article/former-cohiba-boss-avelino-lara-dies-3676 (Lara succeeded Rivera as El Laguito director in 1970, oversaw Cohiba production ~24 years)",
+      "bahamaslocal.com / PR Newswire (1997 founding, Enrico Garzaroli, 8-12 West Hill Street Nassau address)",
+      "cigarpass.com forum thread confirming Bahamas-vs-licensed-production split is real, ~500,000 cigars/year cap on the Nassau factory",
+      "cigarmonthclub.com and other retailer product pages (line names, band colors, price ranges)"
+    ],
+    "proposed_action": "If approved, call add-factory with: name 'Graycliff Cigar Company (La Casa de Graycliff)', city 'Nassau', country 'Bahamas', founded_year 1997, history_text synthesizing the verified building/founding history — with two corrections to the original submission: (1) Avelino Lara should be credited as El Laguito's longtime director (1970-1994) who oversaw Cohiba production, NOT as the blend's creator — Cigar Aficionado's own definitive origin-story piece credits Eduardo Rivera Irizarri with that; (2) the submission's 'Silver (30th Anniversary)' line is a conflation of two different real releases — Silver actually commemorates the buildings 300th anniversary (2012), while a separate, differently-named limited release marked the cigar companys own 30th anniversary. Also correct the outsourced-tier factory geography from 'Dominican Republic and Nicaragua' to 'primarily Honduras and Nicaragua' — no source confirms Dominican Republic as an actual rolling location for 1666, G2, G2 Habano, Vintage Series, or Turbo (DR shows up only as a filler-tobacco source); Turbo and G2 specifically trace to Nicaraguan contract manufacturing (one source names AJ Fernandez's factory), while 1666 and the 10-Year Vintage trace to Honduras. No Graycliff brand exists in our catalog yet, so this factory profile would currently have no brand.factory_id to link to — that link happens once/if Graycliff cigars are separately submitted and added as a brand.",
+    "decision": null
   }
 ]
