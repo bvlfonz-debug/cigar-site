@@ -4,6 +4,31 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-07-27 — Weekday run: cigars night (in progress)
+
+Today is a "cigars" night on the 3-way rotation (see CLAUDE.md). Keeping it
+light since it's a weekday.
+
+- **Prices checked**: seven Padrón 1964 Anniversary Series Maduro vitolas
+  that had never been price-checked before (Diplomatico, Hermoso, Imperial,
+  Monarca, Principe, Pyramide, Torpedo), all from Famous Smoke Shop. First
+  check for all seven, so nothing to compare against and nothing flagged.
+- **Reviews**: looked for a third independent source to clear the 3-source
+  StickScore minimum on two queued cigars — Rocky Patel Decade Toro and
+  Arturo Fuente Añejo Reserva No. 48 (both currently sit at 2 sources). Found
+  plenty of general coverage of both lines, but nothing that was a numeric
+  score for that *exact* vitola from a source we don't already have — close
+  matches were for different sizes (e.g. a Cigar Dojo review of the Añejo
+  No. 888, not the No. 48) or different products entirely (a Cigar Coop
+  review of a 2012 Limited Edition Decade, not the regular Toro). Didn't use
+  any of them rather than guess at a match. Both stay at 2 sources.
+- **News**: added one brief — halfwheel's report that Habanos S.A. is
+  moving the Cohiba Talismán into regular production as part of Cohiba's
+  60th anniversary. Note this is the Cuban Habanos S.A. Cohiba, a different
+  company from the General Cigar-made Cohiba already in our database, so no
+  existing catalog entry was linked.
+- Site builds cleanly (301,819 pages).
+
 ## 2026-07-26 — Sunday run: lounges night (heavier catalog pass)
 
 Today was a "lounges" night on the 3-way rotation (see CLAUDE.md). Since it's
