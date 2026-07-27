@@ -2555,5 +2555,40 @@
     ],
     "proposed_action": "Verify exact dimensions and confirm the 89pt citation's date/URL directly, then add via add-vitola/add-critic-review if confirmed.",
     "decision": null
+  },
+  {
+    "item": "CAO Arcana Mortal Coil Toro — halfwheel (86) and Cigar Coop (90) scores need direct verification",
+    "path": "/cigars/cao/arcana-mortal-coil/toro/",
+    "reason": "unconfirmed_citation_details",
+    "why_flagged": "Research surfaced two real critic scores (halfwheel 86/100, published Mar 12 2021; Cigar Coop 90/100, Standard of Excellence, published Sept 2021) but both source pages returned paywall/403 errors on direct fetch, so the exact figures could not be cleanly confirmed firsthand as our workflow requires before citing.",
+    "sources_found": [
+      "halfwheel.com/cao-arcana-mortal-coil/391009/ (402 paywall)",
+      "cigar-coop.com/2021/09/cigar-review-cao-arcana-mortal-coil-toro.html (403 forbidden)"
+    ],
+    "proposed_action": "Access these pages via a subscription/cache or alternate method to confirm the exact score before adding via add-critic-review.",
+    "decision": null
+  },
+  {
+    "item": "CAO Gold Torpedo — omitted vitola, real citation exists but dimensions unconfirmed",
+    "path": null,
+    "reason": "omitted_from_submission",
+    "why_flagged": "Research surfaced a real Cigar Aficionado rating (91pts, Dec 2019) for a CAO Gold Torpedo vitola not included in the submission, but exact dimensions were not confirmed during this pass.",
+    "sources_found": [
+      "cigaraficionado.com/ratings/21559/name/cao-gold-torpedo"
+    ],
+    "proposed_action": "Confirm exact length/ring gauge against a retailer spec page, then add via add-vitola and add-critic-review.",
+    "decision": null
+  },
+  {
+    "item": "CAO Pilón standard Robusto (5x50) — possible distinct/discontinued vitola with its own halfwheel and Cigar Coop reviews",
+    "path": null,
+    "reason": "unclear_current_availability",
+    "why_flagged": "halfwheel and Cigar Coop both published reviews titled simply 'CAO Pilón Robusto' (5x50, not 5x52) around September 2015 — this may be a separate, possibly discontinued vitola distinct from the current lineup's 'Robusto Extra' (5x52) which is what this submission covers. Exact scores could not be confirmed (both source pages 402/403'd on direct fetch).",
+    "sources_found": [
+      "halfwheel.com/cao-pilon-robusto/95976/ (403)",
+      "cigar-coop.com/2015/09/cigar-review-cao-pilon-robusto.html (403)"
+    ],
+    "proposed_action": "Confirm whether a distinct 5x50 Robusto ever existed alongside/before the current 5x52 Robusto Extra; if so and citations can be verified, add as its own vitola rather than conflating with Robusto Extra.",
+    "decision": null
   }
 ]
