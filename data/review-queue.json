@@ -2590,5 +2590,28 @@
     ],
     "proposed_action": "Confirm whether a distinct 5x50 Robusto ever existed alongside/before the current 5x52 Robusto Extra; if so and citations can be verified, add as its own vitola rather than conflating with Robusto Extra.",
     "decision": null
+  },
+  {
+    "item": "Nica Rustica (Broadleaf) Gordo — possible 2024 line addition, dimensions unconfirmed via direct fetch",
+    "path": null,
+    "reason": "omitted_from_submission",
+    "why_flagged": "Research surfaced a mention of a Gordo (6x60) added to the original Nica Rustica Broadleaf line around 2024, via a Cigar Coop reference, but this was not confirmed with a direct source fetch during this pass.",
+    "sources_found": [
+      "secondary/search-level reference to a 2024 Cigar Coop piece"
+    ],
+    "proposed_action": "Confirm directly against drewestate.com or a retailer spec page, then add via add-vitola if confirmed.",
+    "decision": null
+  },
+  {
+    "item": "Nica Rustica Shade Toro — no citable critic score found yet",
+    "path": "/cigars/drew-estate/nica-rustica-shade/toro/",
+    "reason": "insufficient_sources",
+    "why_flagged": "A Developing Palates team review exists but reports four individual panelist scores out of 10 rather than a single consensus 100-point score, which doesn't map cleanly to our critic_review schema. A halfwheel review of the Short Robusto in this line also exists but returned a 402 paywall error on direct fetch, so its score couldn't be confirmed firsthand.",
+    "sources_found": [
+      "developingpalates.com team review (panel scores, not a single score)",
+      "halfwheel.com Short Robusto review (402 paywall)"
+    ],
+    "proposed_action": "If a subscription/alternate access method becomes available to confirm the halfwheel score, or Cigar Aficionado publishes a rating for this specific vitola, add via add-critic-review.",
+    "decision": null
   }
 ]
