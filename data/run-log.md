@@ -4,7 +4,7 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
-## 2026-07-27 — Weekday run: cigars night (in progress)
+## 2026-07-27 — Weekday run: cigars night
 
 Today is a "cigars" night on the 3-way rotation (see CLAUDE.md). Keeping it
 light since it's a weekday.
@@ -27,7 +27,10 @@ light since it's a weekday.
   60th anniversary. Note this is the Cuban Habanos S.A. Cohiba, a different
   company from the General Cigar-made Cohiba already in our database, so no
   existing catalog entry was linked.
-- Site builds cleanly (301,819 pages).
+- **Queue**: skimmed data/review-queue.json (235 items) — nothing has an
+  owner decision yet, so nothing to action from it tonight.
+- **Errors**: none. Site builds cleanly (301,819 pages). Stopping here for
+  tonight given the weekday budget.
 
 ## 2026-07-26 — Sunday run: lounges night (heavier catalog pass)
 
