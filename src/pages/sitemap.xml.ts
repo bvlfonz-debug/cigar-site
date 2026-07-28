@@ -3,7 +3,6 @@ import {
   getAllCigarSlugs,
   getAllBrandSlugs,
   getSearchIndex,
-  getAllComparePairSlugs,
   getAllAccessoryCategories,
   getAllAccessorySlugs,
   getAllLoungeCitySlugs,
@@ -48,7 +47,10 @@ export const GET: APIRoute = ({ site }) => {
     ...new Set(index.map((c) => `/rankings/strength/${slugify(c.strength)}/`)),
   ];
 
-  const comparePaths = getAllComparePairSlugs().map((slug) => `/compare/${slug}/`);
+  // /compare/[pair] pages are now rendered on demand rather than pre-built
+  // (the full pairwise combination — 300,000+ at current catalog size — was
+  // pushing build time past Vercel's limit), so they're intentionally left
+  // out of the sitemap rather than enumerated.
 
   const accessoryCategoryPaths = getAllAccessoryCategories().map((c) => `/accessories/${c.slug}/`);
   const accessoryPaths = getAllAccessorySlugs().map(
@@ -65,7 +67,6 @@ export const GET: APIRoute = ({ site }) => {
     ...brandPaths,
     ...cigarPaths,
     ...rankingPaths,
-    ...comparePaths,
     ...accessoryCategoryPaths,
     ...accessoryPaths,
     ...guidePaths,

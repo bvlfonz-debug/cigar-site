@@ -600,21 +600,6 @@ export function getAllCigarsForCompare(): CompareCigarEntry[] {
     .all() as CompareCigarEntry[];
 }
 
-// Every unique cigar pair as a URL slug — shared by /compare/[pair]'s
-// getStaticPaths and the sitemap, so the two can never disagree.
-export function getAllComparePairSlugs(): string[] {
-  const cigars = getAllCigarsForCompare();
-  const slugs: string[] = [];
-  for (let i = 0; i < cigars.length; i++) {
-    for (let j = i + 1; j < cigars.length; j++) {
-      const a = cigars[i];
-      const b = cigars[j];
-      slugs.push(`${a.brandSlug}-${a.lineSlug}-${a.vitolaSlug}-vs-${b.brandSlug}-${b.lineSlug}-${b.vitolaSlug}`);
-    }
-  }
-  return slugs;
-}
-
 export function getSearchIndex(): SearchIndexEntry[] {
   const rows = getDb()
     .prepare(

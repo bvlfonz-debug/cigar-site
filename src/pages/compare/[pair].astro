@@ -5,34 +5,28 @@ import HumidorButton from '../../components/HumidorButton.astro';
 import { getAllCigarsForCompare, getCigarPage } from '../../lib/db';
 import type { CompareCigarEntry } from '../../lib/db';
 
+// Rendered on demand (Vercel serverless) rather than pre-built at compile
+// time. The catalog has grown past 800 vitolas — pre-rendering every pair
+// (300,000+ combinations) was pushing the build past Vercel's time limit.
+// Any two cigars are still comparable; the page is just computed per
+// request instead of ahead of time.
+export const prerender = false;
+
 function cigarLabel(c: CompareCigarEntry): string {
   return `${c.brandName} ${c.vitolaSizeName}`;
 }
 
-export function getStaticPaths() {
-  const cigars = getAllCigarsForCompare();
-  const paths = [];
-  // Every unique pair, pre-rendered — 25 cigars is a small enough catalog
-  // that this is cheap, and it means any two cigars can always be compared.
-  // (Key-building is inlined rather than calling a helper — Astro's
-  // getStaticPaths runs in an isolated scope that can't see sibling
-  // function declarations in the same frontmatter.)
-  for (let i = 0; i < cigars.length; i++) {
-    for (let j = i + 1; j < cigars.length; j++) {
-      const a = cigars[i];
-      const b = cigars[j];
-      const keyA = `${a.brandSlug}-${a.lineSlug}-${a.vitolaSlug}`;
-      const keyB = `${b.brandSlug}-${b.lineSlug}-${b.vitolaSlug}`;
-      paths.push({
-        params: { pair: `${keyA}-vs-${keyB}` },
-        props: { a, b },
-      });
-    }
-  }
-  return paths;
-}
+const { pair } = Astro.params;
+const [keyA, keyB] = (pair ?? '').split('-vs-');
 
-const { a, b } = Astro.props as { a: CompareCigarEntry; b: CompareCigarEntry };
+const cigars = getAllCigarsForCompare();
+const cigarByKey = new Map(cigars.map((c) => [`${c.brandSlug}-${c.lineSlug}-${c.vitolaSlug}`, c]));
+const a = cigarByKey.get(keyA ?? '');
+const b = cigarByKey.get(keyB ?? '');
+
+if (!a || !b) {
+  return new Response(null, { status: 404 });
+}
 
 const cigarA = getCigarPage(a.brandSlug, a.lineSlug, a.vitolaSlug)!;
 const cigarB = getCigarPage(b.brandSlug, b.lineSlug, b.vitolaSlug)!;
