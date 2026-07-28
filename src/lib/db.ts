@@ -600,6 +600,31 @@ export function getAllCigarsForCompare(): CompareCigarEntry[] {
     .all() as CompareCigarEntry[];
 }
 
+// Every same-brand cigar pair as a URL slug — shared by /compare/[pair]'s
+// getStaticPaths and the sitemap, so the two can never disagree. Bounded to
+// same-brand pairs (not the full cross-product) to keep page count and
+// build time predictable as the catalog grows.
+export function getAllComparePairSlugs(): string[] {
+  const cigars = getAllCigarsForCompare();
+  const byBrand = new Map<string, typeof cigars>();
+  for (const c of cigars) {
+    const list = byBrand.get(c.brandSlug) ?? [];
+    list.push(c);
+    byBrand.set(c.brandSlug, list);
+  }
+  const slugs: string[] = [];
+  for (const brandCigars of byBrand.values()) {
+    for (let i = 0; i < brandCigars.length; i++) {
+      for (let j = i + 1; j < brandCigars.length; j++) {
+        const a = brandCigars[i];
+        const b = brandCigars[j];
+        slugs.push(`${a.brandSlug}-${a.lineSlug}-${a.vitolaSlug}-vs-${b.brandSlug}-${b.lineSlug}-${b.vitolaSlug}`);
+      }
+    }
+  }
+  return slugs;
+}
+
 export function getSearchIndex(): SearchIndexEntry[] {
   const rows = getDb()
     .prepare(

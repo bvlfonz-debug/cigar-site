@@ -5,28 +5,46 @@ import HumidorButton from '../../components/HumidorButton.astro';
 import { getAllCigarsForCompare, getCigarPage } from '../../lib/db';
 import type { CompareCigarEntry } from '../../lib/db';
 
-// Rendered on demand (Vercel serverless) rather than pre-built at compile
-// time. The catalog has grown past 800 vitolas — pre-rendering every pair
-// (300,000+ combinations) was pushing the build past Vercel's time limit.
-// Any two cigars are still comparable; the page is just computed per
-// request instead of ahead of time.
-export const prerender = false;
-
 function cigarLabel(c: CompareCigarEntry): string {
   return `${c.brandName} ${c.vitolaSizeName}`;
 }
 
-const { pair } = Astro.params;
-const [keyA, keyB] = (pair ?? '').split('-vs-');
-
-const cigars = getAllCigarsForCompare();
-const cigarByKey = new Map(cigars.map((c) => [`${c.brandSlug}-${c.lineSlug}-${c.vitolaSlug}`, c]));
-const a = cigarByKey.get(keyA ?? '');
-const b = cigarByKey.get(keyB ?? '');
-
-if (!a || !b) {
-  return new Response(null, { status: 404 });
+export function getStaticPaths() {
+  const cigars = getAllCigarsForCompare();
+  // Every pair WITHIN the same brand, pre-rendered. Comparing across the
+  // full catalog (800+ vitolas) would mean 300,000+ pairs — the actual
+  // pairwise cross-product blew past Vercel's build time limit. Same-brand
+  // pairs (comparing sizes/lines within one brand's lineup) is the common
+  // real use case and keeps the page count bounded and predictable as the
+  // catalog grows.
+  // (Key-building is inlined rather than calling a helper — Astro's
+  // getStaticPaths runs in an isolated scope that can't see sibling
+  // function declarations in the same frontmatter.)
+  const byBrand = new Map<string, typeof cigars>();
+  for (const c of cigars) {
+    const list = byBrand.get(c.brandSlug) ?? [];
+    list.push(c);
+    byBrand.set(c.brandSlug, list);
+  }
+  const paths = [];
+  for (const brandCigars of byBrand.values()) {
+    for (let i = 0; i < brandCigars.length; i++) {
+      for (let j = i + 1; j < brandCigars.length; j++) {
+        const a = brandCigars[i];
+        const b = brandCigars[j];
+        const keyA = `${a.brandSlug}-${a.lineSlug}-${a.vitolaSlug}`;
+        const keyB = `${b.brandSlug}-${b.lineSlug}-${b.vitolaSlug}`;
+        paths.push({
+          params: { pair: `${keyA}-vs-${keyB}` },
+          props: { a, b },
+        });
+      }
+    }
+  }
+  return paths;
 }
+
+const { a, b } = Astro.props as { a: CompareCigarEntry; b: CompareCigarEntry };
 
 const cigarA = getCigarPage(a.brandSlug, a.lineSlug, a.vitolaSlug)!;
 const cigarB = getCigarPage(b.brandSlug, b.lineSlug, b.vitolaSlug)!;
