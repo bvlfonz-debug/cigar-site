@@ -712,3 +712,31 @@ The run exited with code 0. Check this run's logs in the Actions tab for details
 
 ## 2026-07-26 — NEEDS-ATTENTION: run did not finish cleanly
 This is a quota issue, not a bug: the nightly automation shares your Claude Pro usage limit with your own daytime use, and tonight's budget was already used up. Nothing to fix — it'll work again once your quota resets. Nothing was changed or committed tonight.
+
+## 2026-07-28 — Weekday run: accessories night
+Tonight was an "accessories" night on the 3-way rotation with cigars and
+lounges (see CLAUDE.md). Kept it light since it's a weekday.
+
+- **Scores**: looked for a genuine 3rd independent numeric-score source for
+  three accessories stuck at 2 sources (Xikar EX soft-flame lighter, Xikar
+  PuroTemp Digital Hygrometer — rectangular model, and Xikar Crystal Gel
+  Humidifier Jar 4oz). Retailer product pages (Neptune Cigar) didn't expose
+  ratings to an automated fetch, and Amazon blocked the request outright, so
+  none of the three could be confirmed tonight. All three stay "insufficient
+  data" rather than guessing at a number.
+- **Prices checked**: one clean price found and recorded — Zippo Yellow Flame
+  Butane Lighter Insert, $16.96 at Chicago Knife Works (first-ever check for
+  this item, so nothing to compare against). Also tried the Palio Cutter and
+  Visol Arnold Crystal 4-Cigar Ashtray, but couldn't get a clean current price
+  from a reachable page (and for Palio, couldn't confirm which specific Palio
+  cutter model our listing matches), so skipped both rather than guess.
+- **News**: no accessory news item added tonight. The one clearly-sourced
+  candidate found (Daniel Marshall's two humidor collaborations with Arnold
+  Schwarzenegger) turned out to be from October 2025, not new. A more recent
+  lead (CigarBros' FreshBox humidor system, via halfwheel) couldn't be
+  confirmed with a real publish date after the article itself returned a
+  paywall error, so it was left out rather than guessing at a date.
+- **Queue**: nothing new proposed tonight; no owner-approved items were
+  waiting to act on.
+- **Errors**: none. Site builds cleanly (334,507 pages). Stopping here for
+  tonight given the weekday budget.
