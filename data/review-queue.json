@@ -2613,5 +2613,26 @@
     ],
     "proposed_action": "If a subscription/alternate access method becomes available to confirm the halfwheel score, or Cigar Aficionado publishes a rating for this specific vitola, add via add-critic-review.",
     "decision": null
+  },
+  {
+    "item": "Graycliff Original — disputed fourth filler-leaf origin",
+    "path": "/cigars/graycliff/original/pirate/",
+    "reason": "conflicting_sources",
+    "why_flagged": "Two independent critic reviews (StogieReview, Cigar Coop) agree on Dominican, Nicaraguan, and Honduran filler components but disagree on a fourth: StogieReview names Brazil, Cigar Coop names Ecuador. Recorded the three agreed-upon countries only.",
+    "sources_found": [
+      "stogiereview.com/2009/08/05/graycliff-original-pirate-red-label/",
+      "cigar-coop.com/2011/02/cigar-review-graycliff-original-red.html"
+    ],
+    "proposed_action": "Find a third independent source to break the tie, then update-line if warranted.",
+    "decision": null
+  },
+  {
+    "item": "Graycliff catalog-tier vitolas without independent critic citations",
+    "path": null,
+    "reason": "insufficient_sources",
+    "why_flagged": "Original Pirate, Professionale PG Robusto, Chateau Grand Cru Pirate, 1666 Presidente, G2 PG Robusto, and Espresso Presidente were all added with no critic score found during this research pass (Espresso Elegante is the exception, with three real halfwheel citations). All six currently show insufficient data for a StickScore.",
+    "sources_found": [],
+    "proposed_action": "Revisit with fresh searches (halfwheel and several retailer sites blocked direct fetch with 402/403 errors during this pass, which may have hidden real reviews) and add via add-critic-review as sources are found.",
+    "decision": null
   }
 ]
