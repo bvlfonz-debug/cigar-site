@@ -2634,5 +2634,18 @@
     "sources_found": [],
     "proposed_action": "Revisit with fresh searches (halfwheel and several retailer sites blocked direct fetch with 402/403 errors during this pass, which may have hidden real reviews) and add via add-critic-review as sources are found.",
     "decision": null
+  },
+  {
+    "item": "The Smoking Cave (Highlands Ranch, CO)",
+    "path": "/lounges/highlands-ranch/the-smoking-cave/",
+    "reason": "new_lounge_city",
+    "why_flagged": "Highlands Ranch, CO (south Denver metro) is not yet in the lounge directory. Found a real, established cigar lounge/retailer (est. 2010-2011) with a walk-in humidor and members lounge, but public sources describe both a public lounge area and a private members lounge without a clear single walk-in-vs-membership classification, and no source explicitly confirms indoor cigar smoking is legally permitted beyond describing a large ventilation system - worth a quick confirmation before publishing, same caution as the pending Boston Cigar Club entry.",
+    "sources_found": [
+      "smokingcave.com (business website)",
+      "Chamber of Commerce business directory",
+      "Cigar Dojo (2012 lounge feature)"
+    ],
+    "proposed_action": "If approved, add-lounge with: name=\"The Smoking Cave\", city=\"Highlands Ranch\", state=CO, country=USA, address=\"5435 Boatworks Dr, Highlands Ranch, CO 80126\", phone=\"(303) 713-0022\", website=https://smokingcave.com/, hours_text=\"Mon-Sat 7:30am-10pm, Sun 10am-6pm\", walk_in_or_membership=both (public humidor/lounge plus a private members lounge), indoor_smoking_status=allowed-with-restrictions (unconfirmed - verify Colorado Clean Indoor Air Act cigar-tobacco-bar exemption applies at this address before publishing as fully allowed), facts_source_url=https://smokingcave.com/pages/about-us. No external ratings found yet (would need 3 independent cited sources before a LoungeScore can publish).",
+    "decision": null
   }
 ]

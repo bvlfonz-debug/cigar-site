@@ -4,6 +4,32 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-07-29 — Weekday run: lounges night
+
+Today is a "lounges" night on the 3-way rotation (see CLAUDE.md). Keeping it
+light since it's a weekday.
+
+- **Ratings research**: looked for new cited ratings on the five lounges
+  sitting at exactly 1 source (Debonair Cigar Lounge in LA, Casa de
+  Montecristo Manhattan 2nd Ave, Corona Cigar & Diamond Crown Lounge in
+  Orlando, Casa de Montecristo by JR Cigar in Mooresville NC, and Casa de
+  Montecristo Boca Raton) to try to push them over the 3-source minimum for a
+  LoungeScore. No new ratings were added tonight — Yelp and TripAdvisor both
+  blocked direct access to their pages, and the secondary sites that mirror
+  their numbers either didn't clearly say which platform (Google/Yelp/
+  TripAdvisor) their number came from, or turned out to just be repeating a
+  rating we'd already recorded. Rather than guess, nothing was written for
+  these five — they stay as-is until a source that can be confidently cited
+  turns up.
+- **New lounge queued**: found The Smoking Cave, a real cigar lounge and
+  retailer in Highlands Ranch, CO (south Denver metro), not yet in our
+  directory. Added it to the review queue for your approval rather than
+  publishing directly — a couple of details (exact walk-in vs. membership
+  split, and firm confirmation that indoor smoking is legally permitted
+  there) need a quick human check first. See `data/review-queue.json`.
+- **Nothing queued or skipped due to errors** beyond the above — the site
+  build was verified clean before this was pushed.
+
 ## 2026-07-27 — Weekday run: cigars night
 
 Today is a "cigars" night on the 3-way rotation (see CLAUDE.md). Keeping it
