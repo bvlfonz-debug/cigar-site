@@ -2678,5 +2678,38 @@
     "sources_found": [],
     "proposed_action": "If direct access to Cigar Aficionado's ratings database becomes available, search for this specific vitola and add via add-critic-review.",
     "decision": null
+  },
+  {
+    "item": "New factory profile: Diadema Cigars de Honduras (Danlí, Honduras)",
+    "path": null,
+    "reason": "new_factory_and_brand_candidate",
+    "why_flagged": "Baccarat, a brand-new brand added this batch, is produced here per halfwheel's own reporting: \"Diadema Cigars de Honduras S.A. is the home to the Camacho brand as well as the Baccarat, La Fontana, Legendario and National brands.\" This factory replaced Davidoff's older AgroIndustrias Laepe S.A. plant and opened publicly 2015-2017 (corroborated by Cigar Aficionado, Tobacco Reporter, Cigar Coop, Cigar Dojo). Per CLAUDE.md, a new factory row needs owner approval before add-factory is called, so Baccarat's brand record currently uses this as a plain-text factory field rather than a linked factory_id.",
+    "sources_found": [
+      "halfwheel factory coverage (direct quote confirming brand roster)",
+      "Cigar Aficionado, Tobacco Reporter, Cigar Coop, Cigar Dojo (factory opening coverage)"
+    ],
+    "proposed_action": "If approved, call add-factory with name 'Diadema Cigars de Honduras', city 'Danlí', country 'Honduras', then update-brand to link baccarat's factory_id (and camacho's, if/when that brand is added).",
+    "decision": null
+  },
+  {
+    "item": "Baccarat brand founding year — genuinely conflicting accounts",
+    "path": null,
+    "reason": "conflicting_sources",
+    "why_flagged": "Sources disagree on when the modern Honduran-made Baccarat line began: one blog cites 1978, while retailer brand-history copy (JR Cigars, thecigarstore.com) says Julio Eiroa relaunched it in 1989 under his 'Caribe Imported Cigars' banner. Older marketing lore claims a much earlier (1871 or 1920s) heritage that predates the Honduran era entirely and is unverifiable. Left founded_year null pending a source that resolves this.",
+    "sources_found": [
+      "StogiePro (1978 claim)",
+      "JR Cigars / thecigarstore.com brand history (1989 relaunch claim)"
+    ],
+    "proposed_action": "If a primary source (Camacho/Davidoff company history page, a book, or a dated trade press article) resolves this, add via update-brand.",
+    "decision": null
+  },
+  {
+    "item": "Several new Baccarat vitolas lack independent critic citations",
+    "path": null,
+    "reason": "insufficient_sources",
+    "why_flagged": "Belicoso, Gordo, Churchill (Maduro), and Nicaragua Toro all had no findable halfwheel/Cigar Aficionado/Cigar Coop score during this research pass. A widely-repeated '89 from Cigar Aficionado' figure for The Game line circulates in retailer marketing copy but could not be verified directly on cigaraficionado.com (the likely URL 404'd) and was deliberately not cited.",
+    "sources_found": [],
+    "proposed_action": "Revisit with fresh searches and add via add-critic-review as real sources are found; specifically try to directly locate the circulating 89pt CA score before ever citing it.",
+    "decision": null
   }
 ]
