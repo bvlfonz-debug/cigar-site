@@ -2669,5 +2669,14 @@
     "sources_found": [],
     "proposed_action": "Revisit with fresh searches (several retailer/critic sites blocked direct fetch with 403 errors during this pass) and add via add-critic-review as real sources are found.",
     "decision": null
+  },
+  {
+    "item": "Arturo Fuente Gran Reserva Flor Fina 8-5-8 — no verifiable critic score found",
+    "path": "/cigars/arturo-fuente/gran-reserva/flor-fina-8-5-8/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Search snippets surfaced three conflicting, unsourced scores (86, 87, 92) with no traceable URL. Cigar Aficionado's ratings database and cigarinspector.com both blocked direct verification, and halfwheel's only 8-5-8 coverage is the separate Rosado Sun Grown variant, not this Natural/Cameroon vitola.",
+    "sources_found": [],
+    "proposed_action": "If direct access to Cigar Aficionado's ratings database becomes available, search for this specific vitola and add via add-critic-review.",
+    "decision": null
   }
 ]
