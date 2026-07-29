@@ -2647,5 +2647,27 @@
     ],
     "proposed_action": "If approved, add-lounge with: name=\"The Smoking Cave\", city=\"Highlands Ranch\", state=CO, country=USA, address=\"5435 Boatworks Dr, Highlands Ranch, CO 80126\", phone=\"(303) 713-0022\", website=https://smokingcave.com/, hours_text=\"Mon-Sat 7:30am-10pm, Sun 10am-6pm\", walk_in_or_membership=both (public humidor/lounge plus a private members lounge), indoor_smoking_status=allowed-with-restrictions (unconfirmed - verify Colorado Clean Indoor Air Act cigar-tobacco-bar exemption applies at this address before publishing as fully allowed), facts_source_url=https://smokingcave.com/pages/about-us. No external ratings found yet (would need 3 independent cited sources before a LoungeScore can publish).",
     "decision": null
+  },
+  {
+    "item": "Graycliff 30-Year Vintage Pirate — mixed/unreliable critic reception, no citation added",
+    "path": "/cigars/graycliff/30-year-vintage/pirate/",
+    "reason": "conflicting_sources",
+    "why_flagged": "Research found three scores from lower-tier sources with a wide spread (Final Third Cigar 92, a 'Rare Cigar Club' panel 94, CigarScore.com only 2/5) rather than a halfwheel/Cigar Aficionado/Cigar Coop rating. Given the inconsistency, no critic_review was added.",
+    "sources_found": [
+      "Final Third Cigar (92)",
+      "Rare Cigar Club panel (94)",
+      "CigarScore.com (2/5)"
+    ],
+    "proposed_action": "If a major-outlet review turns up, add via add-critic-review; otherwise leave as insufficient data.",
+    "decision": null
+  },
+  {
+    "item": "Several new Graycliff vitolas lack independent critic citations",
+    "path": null,
+    "reason": "insufficient_sources",
+    "why_flagged": "Crystal Toro, G2 Habano Pirate, 10-Year Vintage Maduro Pirate, and Turbo Edición Limitada Toro all had no findable halfwheel/Cigar Aficionado/Cigar Coop score during this research pass — only in-house retailer 'panel ratings' (not independent critics), which were not cited per this project's sourcing standard.",
+    "sources_found": [],
+    "proposed_action": "Revisit with fresh searches (several retailer/critic sites blocked direct fetch with 403 errors during this pass) and add via add-critic-review as real sources are found.",
+    "decision": null
   }
 ]
