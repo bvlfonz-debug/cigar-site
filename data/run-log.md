@@ -766,3 +766,28 @@ lounges (see CLAUDE.md). Kept it light since it's a weekday.
   waiting to act on.
 - **Errors**: none. Site builds cleanly (334,507 pages). Stopping here for
   tonight given the weekday budget.
+
+## 2026-07-30 — Weekday run: cigars night (in progress)
+Today is a "cigars" night on the 3-way rotation with accessories and lounges
+(see CLAUDE.md). Kept it light since it's a weekday.
+
+- **News**: added one brief — Cigar Aficionado's coverage of My Father's new
+  Le Bijou 1922 100 Años Corona Especial, a 6 1/2 x 44 limited edition
+  ($14/cigar, boxes of 22, limited to 1,922 boxes, rolled in Estelí,
+  Nicaragua). Le Bijou 1922 is already in our database but this specific
+  limited-edition size isn't yet cataloged, so the brief stands alone with
+  no linked cigar page for now.
+- **Scores**: looked for a third independent source on the queued Liga
+  Privada T52 Toro (stuck at 1 source, Cigar Aficionado). Found only a
+  Cigar Coop piece confirming it was their 2009 Cigar of the Year, with no
+  numeric score attached, and no Cigar Dojo/Cigar Snob review of the Toro
+  size specifically — stays queued, nothing added.
+- **Prices checked**: picked three never-before-checked vitolas (Romeo y
+  Julieta Romeo Añejo Piramide, Plasencia Alma Fuerte Generación V, Crowned
+  Heads Le Carême Robusto) but retailer pages were unreachable tonight (403/
+  429 errors on Cigar Country, EGM Cigars, cigar.com, Neptune Cigar) or
+  returned data that looked like a fetch/parsing error (identical single and
+  box price on one Atlantic Cigar page) — skipped all three rather than
+  record unreliable numbers.
+- **Errors**: none blocking. Site builds cleanly (17,325 pages) after the
+  news item. Continuing to price refresh / score recompute next.
