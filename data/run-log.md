@@ -767,7 +767,7 @@ lounges (see CLAUDE.md). Kept it light since it's a weekday.
 - **Errors**: none. Site builds cleanly (334,507 pages). Stopping here for
   tonight given the weekday budget.
 
-## 2026-07-30 — Weekday run: cigars night (in progress)
+## 2026-07-30 — Weekday run: cigars night
 Today is a "cigars" night on the 3-way rotation with accessories and lounges
 (see CLAUDE.md). Kept it light since it's a weekday.
 
@@ -782,12 +782,15 @@ Today is a "cigars" night on the 3-way rotation with accessories and lounges
   Cigar Coop piece confirming it was their 2009 Cigar of the Year, with no
   numeric score attached, and no Cigar Dojo/Cigar Snob review of the Toro
   size specifically — stays queued, nothing added.
-- **Prices checked**: picked three never-before-checked vitolas (Romeo y
-  Julieta Romeo Añejo Piramide, Plasencia Alma Fuerte Generación V, Crowned
-  Heads Le Carême Robusto) but retailer pages were unreachable tonight (403/
-  429 errors on Cigar Country, EGM Cigars, cigar.com, Neptune Cigar) or
-  returned data that looked like a fetch/parsing error (identical single and
-  box price on one Atlantic Cigar page) — skipped all three rather than
-  record unreliable numbers.
-- **Errors**: none blocking. Site builds cleanly (17,325 pages) after the
-  news item. Continuing to price refresh / score recompute next.
+- **Prices checked**: picked three never-before-checked vitolas. Romeo y
+  Julieta Romeo Añejo Piramide was skipped — every retailer page tried
+  (Cigar Country, Atlantic Cigar) either 403'd or returned data that looked
+  like a fetch/parsing error (identical single and box price). The other
+  two came back clean, both first-ever checks so nothing to compare
+  against: Crowned Heads Le Carême Robusto, $238.99/box of 24 at JR Cigars
+  (currently listed as sold out, but that's a stock-status detail our price
+  history doesn't track); Plasencia Alma Fuerte Generación V, $247.99/box of
+  10 (their current sale price) at Famous Smoke Shop.
+- **Errors**: none. Site builds cleanly. Stopping here for tonight given the
+  weekday budget — score recompute had nothing new to act on since no new
+  critic reviews were confirmed tonight.
