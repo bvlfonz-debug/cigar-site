@@ -2777,5 +2777,21 @@
     ],
     "proposed_action": "Find a dated launch announcement or early critic review to pin down the exact year, then update-line if it differs from 2007.",
     "decision": null
+  },
+  {
+    "item": "New factory profile: Tabacos Cubanica S.A. (Estelí, Nicaragua) — Padrón's factory",
+    "path": null,
+    "reason": "new_factory_candidate",
+    "why_flagged": "Padrón (brand id 1) already exists in the catalog with this factory named in its plain-text 'factory' field, but it isn't yet a profiled factory entity. A user submitted a full profile with no citations; independently verified before queuing. One correction needed: the submitted '17 facilities, 75,000 sq ft' figure is real but describes a specific 2003 expansion milestone (the 17th building Padrón owned in Estelí at that time), not the current footprint — a May 2024 Cigar Snob interview with Jorge Padrón states the company now operates roughly 22 buildings, with no updated total square footage found. Everything else in the submission checked out: 1964 Miami founding, 1970 Estelí expansion under the Tabacos Cubanica name, vertical integration across owned farms in Jalapa/Estelí, the tiered aging standards (2.5yr Padrón Series / 5yr Serie 1926 / 10yr Family Reserve), the Feb 2001 serial-numbered security bands on premium lines, the factory's genuine destruction by arson during the May 24, 1978 Sandinista-era uprising (not exaggerated), and the mid-1980s shift of production to Danlí, Honduras during the US embargo (Padrón actually had Honduras operations running since 1979 as a contingency, predating the embargo; that Honduras factory closed in 2007).",
+    "sources_found": [
+      "cigaraficionado.com/article/50-years-of-padron-cigars-17777",
+      "cigaraficionado.com/article/the-padron-family-a-nicaraguan-legacy-7522",
+      "robbreport.com obituary of José Orlando Padrón",
+      "cigarsdirect.com Nicaraguan Revolution survivor piece",
+      "padron.com official vertical-integration and product-aging pages",
+      "cigarsnobmag.com May 2024 Jorge Padrón interview (current ~22 buildings)"
+    ],
+    "proposed_action": "If approved, call add-factory with name 'Tabacos Cubanica S.A.', city 'Estelí', country 'Nicaragua', founded_year 1970, then update-brand to link padron's factory_id. Use corrected history_text noting the 2003 '17 buildings, 75,000 sq ft' milestone as historical, with a note that the company has since grown to roughly 22 buildings as of 2024.",
+    "decision": null
   }
 ]
