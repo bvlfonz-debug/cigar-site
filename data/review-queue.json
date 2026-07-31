@@ -2732,5 +2732,39 @@
     "sources_found": [],
     "proposed_action": "Revisit with fresh access and add via add-critic-review as real sources are confirmed.",
     "decision": null
+  },
+  {
+    "item": "Joya de Nicaragua Silver — real vitolas (Ultra, Toro, Corona, Robusto) not yet cataloged",
+    "path": "/cigars/joya-de-nicaragua/silver/",
+    "reason": "omitted_from_submission",
+    "why_flagged": "The submitted 'Corona Gorda' vitola (5.25x48) for this line does not exist per the manufacturer's own announcement and every retailer checked — the real lineup is Ultra (6.25x46), Toro (6x52), Corona (5.25x42), and Robusto (5x50), none added yet since none were in this submission.",
+    "sources_found": [
+      "cigaraficionado.com/article/joya-de-nicaragua-unveils-joya-silver",
+      "cigardojo.com/2018/07/joya-de-nicaragua-announces-joya-silver/"
+    ],
+    "proposed_action": "Add the four real vitolas via add-vitola when submitted or when doing follow-up research.",
+    "decision": null
+  },
+  {
+    "item": "Joya de Nicaragua Antaño CT Robusto — real product, dimensions not yet confirmed",
+    "path": null,
+    "reason": "omitted_from_submission",
+    "why_flagged": "This vitola was named halfwheel's 2019 Cigar of the Year (92pts) but exact dimensions were not confirmed during this research pass, so it wasn't added to avoid guessing standard robusto measurements.",
+    "sources_found": [
+      "halfwheel 2019 Top 25 #1 / Cigar of the Year coverage"
+    ],
+    "proposed_action": "Confirm exact dimensions against a retailer spec page, then add via add-vitola and add-critic-review.",
+    "decision": null
+  },
+  {
+    "item": "Several Joya de Nicaragua vitolas lack independent critic citations",
+    "path": null,
+    "reason": "insufficient_sources",
+    "why_flagged": "Antaño CT Toro, Joya Black Toro, Joya Red Short Churchill, and Joya Cabinetta Corona Gorda all had no citation confirmed via direct source fetch during this pass. A Cigar Coop 90pt score circulates for Joya Black Toro but could only be corroborated via search snippet, not a direct page fetch, so it was not cited.",
+    "sources_found": [
+      "Cigar Coop review of Joya Black Toro (search-snippet only, direct fetch blocked)"
+    ],
+    "proposed_action": "Revisit with direct access and add via add-critic-review as sources are confirmed.",
+    "decision": null
   }
 ]
