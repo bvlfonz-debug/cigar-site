@@ -4,6 +4,35 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-07-31 — Weekday run: accessories night
+
+Today is an "accessories" night on the 3-way rotation with cigars and
+lounges (see CLAUDE.md). Kept it light since it's a weekday.
+
+- **Scores**: looked for a third independent scored source on four
+  accessories stuck at 2 reviews — NewAir CC-300H Humidor, Xikar Volta
+  table lighter, Palio Cutter, and Xikar PuroTemp Digital (Rectangle)
+  Hygrometer. Found real, on-topic editorial reviews for all four (Blind
+  Man's Puff on the Volta, Developing Palates on the Palio Cutter,
+  SmokeDock on the NewAir, Cigar Advisor on the PuroTemp) — but every one
+  of them gave a categorical verdict ("Great — Highly Recommend", an
+  enthusiastic writeup, etc.) rather than a numeric score. Since AccScore
+  requires a real number and inventing one isn't allowed, none were added.
+  All four stay at "insufficient data," same as before.
+- **Prices checked**: one clean price found and recorded — Xikar EX Single
+  Lighter (Black), $74.99 at Watch City Cigar, first-ever check for this
+  item so nothing to compare against yet. Cigars International, CIGAR.com,
+  and Best Cigar Prices all blocked the automated fetch (403) for the other
+  candidates tried (Palio Cutter, PuroTemp Hygrometer), so those were
+  skipped rather than guessed at.
+- **News**: no accessory news search done tonight — ran out of easy runway
+  after the score/price research above, so didn't start a new search this
+  late in the weekday budget.
+- **Queue**: nothing new proposed tonight; no owner-approved items were
+  waiting to act on.
+- **Errors**: none. Site builds cleanly (17,467 pages). Stopping here for
+  tonight given the weekday budget.
+
 ## 2026-07-29 — Weekday run: lounges night
 
 Today is a "lounges" night on the 3-way rotation (see CLAUDE.md). Keeping it
