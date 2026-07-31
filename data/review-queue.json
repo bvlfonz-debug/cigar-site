@@ -2793,5 +2793,14 @@
     ],
     "proposed_action": "If approved, call add-factory with name 'Tabacos Cubanica S.A.', city 'Estelí', country 'Nicaragua', founded_year 1970, then update-brand to link padron's factory_id. Use corrected history_text noting the 2003 '17 buildings, 75,000 sq ft' milestone as historical, with a note that the company has since grown to roughly 22 buildings as of 2024.",
     "decision": null
+  },
+  {
+    "item": "Four new Padrón Natural-wrapper vitolas lack independent critic citations",
+    "path": null,
+    "reason": "insufficient_sources",
+    "why_flagged": "1964 Anniversary Exclusivo Natural, 1926 Serie No. 2 Natural, 1926 Serie No. 90 Tubos Natural, and Family Reserve No. 50 Natural were all added this batch with dimensions/blend confirmed, but no critic score research was done this pass (focus was resolving Natural/Maduro pairing conflicts).",
+    "sources_found": [],
+    "proposed_action": "Research and add via add-critic-review when convenient — Padrón's core lines are heavily reviewed by Cigar Aficionado and halfwheel, so citations likely exist.",
+    "decision": null
   }
 ]
