@@ -2711,5 +2711,26 @@
     "sources_found": [],
     "proposed_action": "Revisit with fresh searches and add via add-critic-review as real sources are found; specifically try to directly locate the circulating 89pt CA score before ever citing it.",
     "decision": null
+  },
+  {
+    "item": "New factory profile: Fábrica de Tabacos Joya de Nicaragua S.A. (Estelí, Nicaragua)",
+    "path": null,
+    "reason": "new_factory_and_brand_candidate",
+    "why_flagged": "Joya de Nicaragua, a brand-new brand added this batch, is produced at its own eponymous factory in Estelí — confirmed via halfwheel, Cigar Dojo, and the company's own materials. Per CLAUDE.md, a new factory row needs owner approval before add-factory is called, so the brand currently uses this as a plain-text factory field rather than a linked factory_id.",
+    "sources_found": [
+      "halfwheel/Cigar Dojo company tagging",
+      "joyacigars.com company description (\"100% Nicaraguan owned and operated\")"
+    ],
+    "proposed_action": "If approved, call add-factory with name 'Fábrica de Tabacos Joya de Nicaragua S.A.', city 'Estelí', country 'Nicaragua', then update-brand to link joya-de-nicaragua's factory_id.",
+    "decision": null
+  },
+  {
+    "item": "Joya de Nicaragua Antaño 1970 Gran Perfecto and Clásico Original Churchill — no verifiable critic score found",
+    "path": null,
+    "reason": "insufficient_sources",
+    "why_flagged": "Neither vitola has a locatable halfwheel/Cigar Aficionado/Cigar Coop score. Clásico's reviews (Cigar Coop, Stogie Guys, halfwheel) cover the older Clásico Toro predating the 2023 Original relaunch, and several review pages returned paywall/certificate errors on direct fetch.",
+    "sources_found": [],
+    "proposed_action": "Revisit with fresh access and add via add-critic-review as real sources are confirmed.",
+    "decision": null
   }
 ]
