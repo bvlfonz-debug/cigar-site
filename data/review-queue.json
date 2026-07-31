@@ -2802,5 +2802,19 @@
     "sources_found": [],
     "proposed_action": "Research and add via add-critic-review when convenient — Padrón's core lines are heavily reviewed by Cigar Aficionado and halfwheel, so citations likely exist.",
     "decision": null
+  },
+  {
+    "item": "New factory profile: OK Cigars (Ok Cigar Corp. Inc.), Villa González, Santiago, Dominican Republic",
+    "path": null,
+    "reason": "new_factory_and_brand_candidate",
+    "why_flagged": "A user submitted a full factory profile for AVO's manufacturing site — AVO is not yet a brand in our catalog either. Submission arrived with no citations; independently verified before queuing. One important correction: the submission implied OK Cigars and Davidoff's own factory are the same facility (matching how Davidoff's existing brand record vaguely says \"Davidoff/Tabadom factory\"), but they are actually sister facilities — OK Cigars (Ok Cigar Corp. Inc.) makes AVO, The Griffin's, Zino, and Cusano/Private Stock, while Cidav (Cigars Davidoff) is a separate, dedicated building for the premium Davidoff line — both under the same corporate parent, Tabadom Holding Inc. (an Oettinger Davidoff AG subsidiary), in the same Villa González complex, and as of a 2025 expansion now sharing a new central Blending Center. Also corrected: the submission called the Dominican tobacco varieties (Piloto Cubano, San Vicente, Olor) \"proprietary\" — these are standard, industry-wide Dominican varieties used by many cigar makers, not exclusive to AVO or Kelner.",
+    "sources_found": [
+      "cigar-coop.com/2025/02/davidoff-opens-expanded-production-facilities... (confirms OK Cigars and Cidav as distinct sister facilities)",
+      "panjiva.com Ok Cigar Corp. Inc. business listing",
+      "oettingerdavidoff.com crop-to-shop Dominican Republic production page",
+      "cigaraficionado.com Kelner profile and AVO brand page"
+    ],
+    "proposed_action": "If approved, call add-factory with name 'OK Cigars (Ok Cigar Corp. Inc.)', city 'Villa González', country 'Dominican Republic', founded_year left null (exact factory founding vs. 1987 brand origin vs. 1988 commercial launch is ambiguous across sources), history_text noting the sister-facility relationship to Cidav and the shared Tabadom/Oettinger Davidoff AG ownership, corrected tobacco-variety wording (real but not proprietary), and a note that some recent AVO lines (e.g. AVO Expresivo) have moved production to Honduras. AVO itself would need to be added as a new brand separately once/if cigar submissions for it arrive, following the same research-then-write process as other new brands this session.",
+    "decision": null
   }
 ]
