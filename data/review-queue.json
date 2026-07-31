@@ -2766,5 +2766,16 @@
     ],
     "proposed_action": "Revisit with direct access and add via add-critic-review as sources are confirmed.",
     "decision": null
+  },
+  {
+    "item": "Tabak Especial — exact release year unconfirmed",
+    "path": "/cigars/drew-estate/tabak-especial/negra-toro/",
+    "reason": "conflicting_sources",
+    "why_flagged": "Drew Estate's own site frames its coffee-and-cigar \"brandmark\" as dating to 2002, which may or may not refer to this specific cigar line's actual launch. Kept the submitted 2007 since nothing directly contradicted it, but could not positively confirm it either.",
+    "sources_found": [
+      "drewestate.com/products/tabak-especial/ (\"Since 2002\" framing, ambiguous)"
+    ],
+    "proposed_action": "Find a dated launch announcement or early critic review to pin down the exact year, then update-line if it differs from 2007.",
+    "decision": null
   }
 ]
