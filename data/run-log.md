@@ -4,6 +4,29 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-08-01 — Weekday run: accessories night
+
+Today is another "accessories" night on the 3-way rotation with cigars and
+lounges (day-of-month 1, same slot as yesterday's 31 — this is expected,
+not a bug). Kept it light since it's a weekday.
+
+- **Scores**: chased a third independent numeric source for five accessories
+  stuck below the 3-source AccScore minimum — NewAir CC-300H Humidor, Xikar
+  Volta table lighter, Colibri Quasar Table Lighter, Xikar EX lighter, and
+  Palio Cutter. Found plenty of real editorial coverage (CigarWeekly, Cigar
+  Advisor, halfwheel, retailer pages) but nothing with an actual number
+  attached — several retailer pages (Cigar Advisor, halfwheel, Cigars
+  International) also blocked or paywalled the automated fetch. Since a
+  guessed number isn't allowed, none of these got a new review. All five
+  stay "insufficient data," still queued.
+- **Prices checked**: three fresh price points recorded, all first-ever
+  checks for these items so nothing to compare against yet — HUMI-CARE
+  Crystal Gel Humidification Jar ($10.49, Thompson Cigar), Xikar 10-Cigar
+  Travel Humidor ($47.49, Walmart), and Palio Cutter ($21.99, Thompson
+  Cigar). No swings to flag.
+- **Queue**: no new items added or resolved tonight.
+- Build passed cleanly before committing.
+
 ## 2026-07-31 — Weekday run: accessories night
 
 Today is an "accessories" night on the 3-way rotation with cigars and
