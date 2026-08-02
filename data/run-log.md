@@ -30,6 +30,10 @@ proposals (Phoenix, Boston, Highlands Ranch) have an owner decision yet.
   proposals (Phoenix, Boston, Highlands Ranch) and the two pending factory
   profiles (Padrón's Tabacos Cubanica, AVO's OK Cigars) — all still
   awaiting your review, nothing new added or changed.
+- One more found after that first pass: a Google rating (4.5/5, 1,008
+  reviews) for BURN by Rocky Patel (Atlanta), via a cigar-lounge directory
+  site that cited it — its first recorded source, still 2 away from
+  publishing.
 - Build passed cleanly before committing.
 
 ## 2026-08-01 — Weekday run: accessories night
