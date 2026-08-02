@@ -2973,5 +2973,57 @@
     ],
     "proposed_action": "Add Alex Cigar & Whisky Bar, Cigar One, and Residents Only cleanly, using the corrected addresses found during research. Do NOT add Cigar Divan at The Bamboo Bar as a separate lounge — it's almost certainly the same venue as the already-queued Mandarin Oriental La Casa del Habano entry, just described differently; if anything, use this submission's amenity details (Cohiba Behike, river views) to enrich that single entry rather than creating a duplicate.",
     "decision": null
+  },
+  {
+    "item": "Bangkok lounges update (4th submission): 3 new venues, 1 likely name conflation",
+    "path": null,
+    "reason": "new_lounges_with_one_naming_issue",
+    "why_flagged": "Fourth Thailand submission, same recurring source pattern. Researched directly (no subagents, per updated workflow).",
+    "sources_found": [
+      "Abandoned Mansion Bangkok (Gangsters Cigar Room): CONFIRMED real via Coconuts, Time Out Bangkok, and the venue's own site (abandonedmansion.com) — a 1930s gangster-themed speakeasy beneath the Coach Hotel on Soi Sukhumvit 14, with a genuine dedicated 'Gangster's Cigar Room' and balcony.",
+      "Finishing Post Cigar Bar: CONFIRMED real via the hotel's own site (Crowne Plaza Bangkok Lumpini Park) — exact address match (Level 23, 952 Rama IV Road).",
+      "The Diplomat Bar (Conrad Bangkok): the bar itself is real and address matches (Level One, All Seasons Place, 87/3 Wireless Rd), but NO source (Hilton's own page, Tripadvisor, Siam2nite) mentions cigars, a humidor, or any cigar offering — described purely as a champagne/spirits/jazz bar. Same pattern as a few venues flagged in earlier batches (Elephant Bar, Woobar) that may have been mislabeled as cigar lounges.",
+      "Fireplace Bar & Humidor (InterContinental Bangkok): LIKELY A NAME CONFLATION of two distinct, real venues at the same hotel. The hotel's actual cigar venue is called \"Balcony Lounge and Humidor Cigar Bar\" (marketed as \"Bangkok's first real cigar bar\"), while \"Fireplace Grill and Bar\" is explicitly described elsewhere as a SEPARATE dining outlet with no cigar connection. The submission appears to have merged the two into one venue name."
+    ],
+    "proposed_action": "Add Abandoned Mansion and Finishing Post cleanly. Hold The Diplomat Bar pending confirmation it actually offers cigars. Correct Fireplace Bar & Humidor to the real venue name, \"Balcony Lounge and Humidor Cigar Bar\" — do not add it under the submitted name.",
+    "decision": null
+  },
+  {
+    "item": "Pattaya lounges update: 3 new venues, 1 address correction needed",
+    "path": null,
+    "reason": "new_lounges_with_address_issue",
+    "why_flagged": "Researched directly. Three of three venues confirmed real; one has a significant address error.",
+    "sources_found": [
+      "Cigarista Pattaya: CONFIRMED real, a well-established (14-year) cigar shop/lounge with a walk-in humidor on Pattaya 2nd Road (Pattayasaisong = Thai for '2nd Road') near Tipp Plaza. Minor address discrepancy across sources — submission says 104 Pattayasaisong Rd, a Waze listing says 219 — exact street number needs owner confirmation, but the venue and general location are solid.",
+      "LUNA Coffee & Cigar: CONFIRMED real as 'Luna Cafe & Cigar Lounge,' near Jomtien Beach, with a dedicated upstairs cigar/spirits lounge above the cafe. Could not independently verify an exact street address (the venue's own domain did not resolve) — submission's general 'Jomtien Beach Area' description is consistent with what's findable.",
+      "The Empire Luxury Private Club & Cigar Lounge: CONFIRMED real and genuinely an official Habanos venue with a proper walk-in humidor. Submitted address is WRONG — it's described consistently as \"Pratumnak Hill / South Pattaya\" in the submission, but the real address is 2nd Floor, 306/64-68 Thappraya Road, Moo 12, Nongprue, Banglamung — the Jomtien side of Pattaya, a different area from Pratumnak Hill."
+    ],
+    "proposed_action": "Add Cigarista and LUNA Coffee & Cigar cleanly (confirm Cigarista's exact street number before publishing). Add Empire Luxury Private Club with the corrected Thappraya Road/Jomtien address, not Pratumnak Hill.",
+    "decision": null
+  },
+  {
+    "item": "Chiang Mai lounges update: 1 new venue (Puravida Latin Bar & Cigar Lounge) — genuinely distinct from the already-queued Service 1921 Brit Bar",
+    "path": null,
+    "reason": "new_lounges",
+    "why_flagged": "Both this venue and the already-queued \"The Service 1921 Brit Bar\" are located at Anantara Chiang Mai Resort — checked whether this was a duplicate. It is not: Puravida is a genuinely separate Latin-themed bar and dedicated cigar smoking room at the same riverside resort, confirmed via Wanderlog, Tripadvisor, and an active Facebook/Instagram presence — a large resort property having two distinct bars is normal.",
+    "sources_found": [
+      "Wanderlog and Tripadvisor listings for Puravida Latin Bar & Cigar Lounge, Anantara Chiang Mai",
+      "active Facebook page (cnxpuravidacigarlounge) and Instagram (puravida_onenimman)"
+    ],
+    "proposed_action": "Add Puravida cleanly as a second, distinct Anantara Chiang Mai venue alongside the already-queued Service 1921 Brit Bar.",
+    "decision": null
+  },
+  {
+    "item": "Phuket lounges update: Sea Salt Lounge & Grill's cigar offering is an occasional event, not a standing lounge",
+    "path": null,
+    "reason": "new_lounge_with_scope_question",
+    "why_flagged": "Sea Salt Lounge & Grill (Patong, real restaurant, address closer to 225 Phrabarami Rd than the submitted 172 Phrabaramee Rd) is confirmed to host cigar-paired dinner events, but the cigars are supplied by a THIRD PARTY, \"Luna Walk International,\" for periodic ticketed \"Cigar Dinner\" events (per wheretoeat-phuket.com event listings) rather than an ongoing in-house humidor program like every other lounge in this directory. Worth an owner judgment call on whether an event-based offering belongs in a directory of standing cigar lounges.",
+    "sources_found": [
+      "wheretoeat-phuket.com event listing for the Sea Salt cigar dinner series",
+      "seasaltpatong.com (restaurant's own site)",
+      "Tripadvisor/Phuket Insider restaurant listings"
+    ],
+    "proposed_action": "Owner to decide: add with a clear \"event-based cigar program, not a standing lounge\" note, or exclude as out of scope for this directory.",
+    "decision": null
   }
 ]
