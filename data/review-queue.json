@@ -2958,5 +2958,20 @@
     ],
     "proposed_action": "Add this as a new lounge in Krabi once the correct venue name is confirmed — likely \"Raitalay Terrace\" rather than \"Raitalay Lounge.\" The Habanos.com listing is strong enough sourcing that the underlying cigar offering itself is not in doubt, just the exact name.",
     "decision": null
+  },
+  {
+    "item": "Bangkok lounges update (3rd submission): 3 new venues confirmed, 1 likely duplicate, 1 repeat of already-queued Ledger Room",
+    "path": null,
+    "reason": "new_lounges_and_likely_duplicate",
+    "why_flagged": "Third Thailand submission from what appears to be the same recurring source — worth noting this source has now produced at least one stale/wrong entry (DUKE, in the 2nd batch) and several address errors across all three batches, so treat its data as a lead requiring verification, not a ready-to-publish fact sheet. This batch re-submits 'The Ledger Room' (SKYVIEW Hotel, Sukhumvit 24) identically to the version already confirmed and queued in the prior Bangkok update — no new action needed there, already covered.",
+    "sources_found": [
+      "Alex Cigar & Whisky Bar: CONFIRMED real via findglocal, Wanderlog, and multiple Bangkok cigar-bar listicles. Address needs correction — independent sources consistently give '88/1 Eight Thonglor Building, Level 1', not the submitted '88/36, 2nd Floor'.",
+      "Cigar One (Habanos Specialist): CONFIRMED via the OFFICIAL Habanos.com site, which lists it as an authorized 'Habanos Specialist' (a real, distinct retailer tier below La Casa del Habano) at Glass House, Siam Sindhorn Building — address matches submission closely. Strong sourcing.",
+      "The Brass at Brasserie 9: CONFIRMED real cigar lounge via the venue's own official site, which explicitly describes it as a 'cocktail bar & cigar lounge.' Address needs correction — official site lists '27 Soi Sathorn 6', not the submitted '9 Sathorn Soi 6' (the submitted '9' looks like it was carried over from the restaurant's name, 'Brasserie 9', rather than being the real street number).",
+      "Residents Only (Black Amber Social Club): CONFIRMED real, and the rename claim checks out — social media shows 'FKA Black Amber Social Club' branding alongside the new 'Residents Only' name at the same address, with a documented whiskey/cigar/barbershop concept.",
+      "Cigar Divan at The Bamboo Bar (Mandarin Oriental): LIKELY A DUPLICATE, not a distinct venue — same hotel, same address, and specifically the same physical space next to the Bamboo Bar as the already-queued 'La Casa del Habano (Mandarin Oriental)' entry. Mandarin Oriental's sister property in Kuala Lumpur uses the identical phrase 'cigar divan' as generic descriptive language for its own La Casa del Habano outlet, and a 2014 press piece on the Bamboo Bar renovation describes an 'adjacent Cigar Divan' consistent with LCDH's known layout there — no source describes two distinct, separately-branded cigar businesses coexisting at this hotel."
+    ],
+    "proposed_action": "Add Alex Cigar & Whisky Bar, Cigar One, and Residents Only cleanly, using the corrected addresses found during research. Do NOT add Cigar Divan at The Bamboo Bar as a separate lounge — it's almost certainly the same venue as the already-queued Mandarin Oriental La Casa del Habano entry, just described differently; if anything, use this submission's amenity details (Cohiba Behike, river views) to enrich that single entry rather than creating a duplicate.",
+    "decision": null
   }
 ]
