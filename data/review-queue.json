@@ -2816,5 +2816,60 @@
     ],
     "proposed_action": "If approved, call add-factory with name 'OK Cigars (Ok Cigar Corp. Inc.)', city 'Villa González', country 'Dominican Republic', founded_year left null (exact factory founding vs. 1987 brand origin vs. 1988 commercial launch is ambiguous across sources), history_text noting the sister-facility relationship to Cidav and the shared Tabadom/Oettinger Davidoff AG ownership, corrected tobacco-variety wording (real but not proprietary), and a note that some recent AVO lines (e.g. AVO Expresivo) have moved production to Honduras. AVO itself would need to be added as a new brand separately once/if cigar submissions for it arrive, following the same research-then-write process as other new brands this session.",
     "decision": null
+  },
+  {
+    "item": "New city + 6 lounges: Bangkok, Thailand cigar lounges",
+    "path": null,
+    "reason": "new_city_and_lounges",
+    "why_flagged": "First Thailand/international submission for the lounge directory — every existing lounge in the database is US-only, so Bangkok would be a new city entirely. Verified each venue independently.",
+    "sources_found": [
+      "Whisgars (Sukhumvit 23) — CONFIRMED open, address verified via whisgars23.com",
+      "La Casa del Habano (Mandarin Oriental) — CONFIRMED open AND confirmed as a genuine official Habanos S.A. licensed retailer via habanos.com's own directory (opened 1997, operated by Pacific Cigar Co.)",
+      "Cohiba Atmosphere & The Balvenie Lounge — CONFIRMED open, address matches (submission's '63/3' is a unit-level suffix on the verified '63 Soi Ruamrudee' address)",
+      "Duke Contemporary Art & Cigar Lounge — CONFIRMED PERMANENTLY CLOSED since August 5, 2023 (Foursquare, Tripadvisor both mark it closed) — recommend EXCLUDING from the directory rather than adding as current",
+      "Character Whisky & Cigar Bar (Anantara Siam) — CONFIRMED open, address matches",
+      "MOAT Cigar Club Bangkok — CONFIRMED open; submitted address is directionally correct but less precise than available detail (full address: 5F, 44/3-4 Thong Lo 13 Alley, Khlong Tan Nuea, Watthana, Bangkok 10110)"
+    ],
+    "proposed_action": "Approve adding Bangkok as a new city with 5 lounges (Whisgars, La Casa del Habano, Cohiba Atmosphere, Character, MOAT) — recommend using MOAT's more precise address found during research. Exclude Duke Contemporary Art & Cigar Lounge entirely (confirmed closed) unless the owner wants it flagged as a defunct historical entry instead. No ratings/citations were submitted for any of these, so all would launch as 'insufficient data' for LoungeScore pending real external ratings.",
+    "decision": null
+  },
+  {
+    "item": "New city + 1 lounge: Chiang Mai, Thailand — CNX Cigars",
+    "path": null,
+    "reason": "new_city_and_lounges",
+    "why_flagged": "New city for the directory. CNX Cigars (Cigars Chiang Mai) confirmed real and open via its official site (cnxcigars.com), Chiang Mai Citylife coverage, and an active Facebook/Tripadvisor presence. Submitted address (2nd Floor, 45 Nimmana Haeminda Rd Lane 11, Suthep, Mueang Chiang Mai 50200) matches the operator's own site exactly. Note: the operator may run a second related unit at 3 Nimmana Haeminda Rd Lane 13 per one listing — not a conflict, just worth knowing if a second Chiang Mai lounge is submitted later.",
+    "sources_found": [
+      "cnxcigars.com (official site)",
+      "Chiang Mai Citylife grand-opening coverage",
+      "Tripadvisor listing"
+    ],
+    "proposed_action": "Approve adding Chiang Mai as a new city with this one lounge — no issues found.",
+    "decision": null
+  },
+  {
+    "item": "New city + 4 lounges: Phuket, Thailand cigar lounges",
+    "path": null,
+    "reason": "new_city_and_lounges",
+    "why_flagged": "New city for the directory. Verified each venue independently; two need attention before approval.",
+    "sources_found": [
+      "MOAT Cigar Lounge Phuket — CONFIRMED open, address matches (Boat Avenue complex, Cherngtalay)",
+      "La Torcedora Retail & Lounge — CONFIRMED open and genuinely a DISTINCT business from MOAT despite sharing the Boat Avenue complex address — different unit, different owner, Habanos-affiliated Cuban/Latin American focus vs. MOAT's New World/Nicaragua focus. Both independently profiled side-by-side in a Cigar Inspector roundup of Phuket lounges.",
+      "Whisgars Tasting Room Phuket — FLAG: multiple sources indicate this venue closed and was replaced by a lounge called 'Churchill's' at the same Phuket Boat Lagoon address sometime in 2025. Needs owner confirmation before approval — may need to be added as 'Churchill's' instead, or excluded if fully closed.",
+      "Armania Phuket Cigar Lounge — CONFIRMED open and address matches, but it is primarily an upscale NIGHTCLUB (DJs, aerialists, bottle service) with a cigar program as one offering, not a dedicated cigar lounge in the way the other entries are. Real and citable, but the submission's framing (\"Luxury Nightlife Vibe\") undersells that this is fundamentally a nightclub — owner may want to adjust category/description or decide whether it belongs in this directory at all."
+    ],
+    "proposed_action": "Approve adding Phuket as a new city with MOAT and La Torcedora cleanly. Hold Whisgars Tasting Room Phuket pending confirmation of its current name/status (possibly now 'Churchill's'). Decide on Armania's fit/categorization before including it — it's real but arguably outside this directory's \"cigar lounge\" scope.",
+    "decision": null
+  },
+  {
+    "item": "New city + 1 lounge: Pattaya, Thailand — Havana Bar & Cigar Lounge",
+    "path": null,
+    "reason": "new_city_and_lounges",
+    "why_flagged": "New city for the directory. Confirmed real, long-running venue at the Holiday Inn Pattaya (address matches exactly: 463/68 Pattaya Sai 1 Rd, Nong Prue, Bang Lamung, Chon Buri 20150) via Pattaya Mail's historical coverage and a Tripadvisor listing. Minor naming note: the venue is more commonly listed as \"Havana Bar and Terrazzo\" rather than \"Havana Bar & Cigar Lounge\" — same venue, worth using the more commonly-recognized name.",
+    "sources_found": [
+      "Pattaya Mail coverage",
+      "Tripadvisor listing (as 'Havana Bar and Terrazzo')"
+    ],
+    "proposed_action": "Approve adding Pattaya as a new city with this lounge — recommend using the more commonly-cited name \"Havana Bar and Terrazzo\" rather than the submitted name.",
+    "decision": null
   }
 ]
