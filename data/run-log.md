@@ -4,6 +4,34 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-08-02 — Sunday run: lounges night
+
+Today is a "lounges" night on the 3-way rotation with cigars and accessories
+(day-of-month 2). Sunday, so a heavier catalog pass was allowed — spent it
+chasing a third independent rating source for lounges still stuck below the
+3-source LoungeScore minimum, since none of the pending lounge/city queue
+proposals (Phoenix, Boston, Highlands Ranch) have an owner decision yet.
+
+- **Scores**: found real TripAdvisor (4.5/5, 62 reviews) and Foursquare
+  (8.7/10, 169 ratings) ratings for Corona Cigar Company & Diamond Crown
+  Lounge (Orlando), joining its existing Google rating — that's 3
+  independent sources now, so it has a published LoungeScore (91) for the
+  first time. Also found a real Foursquare rating (8.1/10, 31 ratings) for
+  Casa de Montecristo by JR Cigar (Mooresville, NC), which now has 2 of the
+  3 needed sources — still "insufficient data," one more source away.
+- Tried the same for five more lounges close to the threshold (The
+  Debonair Cigar Lounge in LA, Casa de Montecristo's NYC 2nd Ave and Boca
+  Raton locations) and three at zero ratings (Iwan Ries in Chicago, Holt's
+  Cigar Company in Philadelphia, BURN by Rocky Patel in Atlanta) — Yelp and
+  TripAdvisor both blocked automated access tonight, and Foursquare needs a
+  login to show its rating page, so no usable numeric score came back for
+  any of those. No guessed numbers were recorded; they stay as they were.
+- **Queue**: checked for owner decisions on the three pending new-lounge
+  proposals (Phoenix, Boston, Highlands Ranch) and the two pending factory
+  profiles (Padrón's Tabacos Cubanica, AVO's OK Cigars) — all still
+  awaiting your review, nothing new added or changed.
+- Build passed cleanly before committing.
+
 ## 2026-08-01 — Weekday run: accessories night
 
 Today is another "accessories" night on the 3-way rotation with cigars and
