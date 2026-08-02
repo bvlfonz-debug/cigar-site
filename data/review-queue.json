@@ -3025,5 +3025,34 @@
     ],
     "proposed_action": "Owner to decide: add with a clear \"event-based cigar program, not a standing lounge\" note, or exclude as out of scope for this directory.",
     "decision": null
+  },
+  {
+    "item": "Bangkok lounges update (5th submission): 2 new venues confirmed (The P&L Club @ Grand Hyatt Erawan, Monopole Club)",
+    "path": null,
+    "reason": "new_lounges",
+    "why_flagged": "Fifth Thailand submission (9 venues total), but 7 of the 9 turned out to be duplicates of already-queued venues — see the companion queue note below. Only these two are genuinely new.",
+    "sources_found": [
+      "The P&L Club @ Grand Hyatt Erawan: CONFIRMED via the OFFICIAL Habanos.com site AND Pacific Cigar Co.'s own site — an official La Casa del Habano venue distributed by Pacific Cigar, at Lower Lobby, 494 Rajadamri Road. Named after Pacific Cigar's Asia-wide membership club but open to non-members. Strong, high-confidence sourcing.",
+      "Monopole Club (L'Escargot Brasserie): CONFIRMED real via Chope, KKday, and the restaurant's own social presence — a genuine private whisky/cigar member club adjacent to L'Escargot Brasserie, address matches exactly (72 Soi Sukhumvit 63)."
+    ],
+    "proposed_action": "Add both cleanly — well-sourced, no corrections needed.",
+    "decision": null
+  },
+  {
+    "item": "Note: 7 of 9 venues in the 5th Thailand submission are duplicates of already-queued lounges, not new",
+    "path": null,
+    "reason": "duplicate_detection",
+    "why_flagged": "Documenting this for the record so these aren't mistakenly added twice when working through the queue. This recurring source has now submitted the same handful of Bangkok/Phuket/Chiang Mai venues multiple times across five batches, sometimes with corroborating detail and sometimes with conflicting addresses — cross-checked each one directly.",
+    "sources_found": [
+      "Alex Cigar & Whiskey Bar — exact repeat of the venue confirmed in the 3rd submission (corrected address: 88/1 Eight Thonglor Building, Level 1); this submission's vague address adds nothing new.",
+      "\"MOAT Cigar Club / Top Cigar Hub (Cigar Emperor Flagship)\" — CONFIRMED to be the exact same venue as the already-queued \"MOAT Cigar Club Bangkok\" from the very first submission (identical address: 5F, 44/3-4 Thong Lo 13 Alley). Cigar Emperor's own site states directly: \"the flagship lounge is called MOAT.\" Not a second venue — just extra branding context on the same place.",
+      "The Ledger Room Cigar Lounge — exact repeat (third time submitted), already confirmed.",
+      "The Brass at Brasserie 9 — repeat, and this submission's address (27 Soi Pipat / Sathorn Soi 6) corroborates the correction already made from the 3rd submission.",
+      "La Torcedora Retail & Lounge (Phuket) — repeat of the venue confirmed in the very first submission.",
+      "Churchill's Cigar Lounge Phuket — repeat, and USEFULLY resolves an address left uncertain in earlier batches: this submission's \"Yaowarat Road, Talat Yai, Mueang Phuket\" matches the Old Phuket Town location found in prior research, adding confidence over the earlier, more tentative Vichit-subdistrict lead.",
+      "\"CNX Cigars Private Lounge\" — no independent source names a distinct 'private lounge' facility separate from the main CNX Cigars location already confirmed and queued; appears to be the same venue (45 Nimmana Haeminda Rd Lane 11) described with different emphasis, not a second venue."
+    ],
+    "proposed_action": "No action needed on these seven — they're already covered by earlier queue entries. Use Churchill's Phuket address confirmation to firm up that entry when reviewing the Phuket batch.",
+    "decision": null
   }
 ]
