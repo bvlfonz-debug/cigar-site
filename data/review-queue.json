@@ -2818,77 +2818,6 @@
     "decision": null
   },
   {
-    "item": "New city + 6 lounges: Bangkok, Thailand cigar lounges",
-    "path": null,
-    "reason": "new_city_and_lounges",
-    "why_flagged": "First Thailand/international submission for the lounge directory — every existing lounge in the database is US-only, so Bangkok would be a new city entirely. Verified each venue independently.",
-    "sources_found": [
-      "Whisgars (Sukhumvit 23) — CONFIRMED open, address verified via whisgars23.com",
-      "La Casa del Habano (Mandarin Oriental) — CONFIRMED open AND confirmed as a genuine official Habanos S.A. licensed retailer via habanos.com's own directory (opened 1997, operated by Pacific Cigar Co.)",
-      "Cohiba Atmosphere & The Balvenie Lounge — CONFIRMED open, address matches (submission's '63/3' is a unit-level suffix on the verified '63 Soi Ruamrudee' address)",
-      "Duke Contemporary Art & Cigar Lounge — CONFIRMED PERMANENTLY CLOSED since August 5, 2023 (Foursquare, Tripadvisor both mark it closed) — recommend EXCLUDING from the directory rather than adding as current",
-      "Character Whisky & Cigar Bar (Anantara Siam) — CONFIRMED open, address matches",
-      "MOAT Cigar Club Bangkok — CONFIRMED open; submitted address is directionally correct but less precise than available detail (full address: 5F, 44/3-4 Thong Lo 13 Alley, Khlong Tan Nuea, Watthana, Bangkok 10110)"
-    ],
-    "proposed_action": "Approve adding Bangkok as a new city with 5 lounges (Whisgars, La Casa del Habano, Cohiba Atmosphere, Character, MOAT) — recommend using MOAT's more precise address found during research. Exclude Duke Contemporary Art & Cigar Lounge entirely (confirmed closed) unless the owner wants it flagged as a defunct historical entry instead. No ratings/citations were submitted for any of these, so all would launch as 'insufficient data' for LoungeScore pending real external ratings.",
-    "decision": null
-  },
-  {
-    "item": "New city + 1 lounge: Chiang Mai, Thailand — CNX Cigars",
-    "path": null,
-    "reason": "new_city_and_lounges",
-    "why_flagged": "New city for the directory. CNX Cigars (Cigars Chiang Mai) confirmed real and open via its official site (cnxcigars.com), Chiang Mai Citylife coverage, and an active Facebook/Tripadvisor presence. Submitted address (2nd Floor, 45 Nimmana Haeminda Rd Lane 11, Suthep, Mueang Chiang Mai 50200) matches the operator's own site exactly. Note: the operator may run a second related unit at 3 Nimmana Haeminda Rd Lane 13 per one listing — not a conflict, just worth knowing if a second Chiang Mai lounge is submitted later.",
-    "sources_found": [
-      "cnxcigars.com (official site)",
-      "Chiang Mai Citylife grand-opening coverage",
-      "Tripadvisor listing"
-    ],
-    "proposed_action": "Approve adding Chiang Mai as a new city with this one lounge — no issues found.",
-    "decision": null
-  },
-  {
-    "item": "New city + 4 lounges: Phuket, Thailand cigar lounges",
-    "path": null,
-    "reason": "new_city_and_lounges",
-    "why_flagged": "New city for the directory. Verified each venue independently; two need attention before approval.",
-    "sources_found": [
-      "MOAT Cigar Lounge Phuket — CONFIRMED open, address matches (Boat Avenue complex, Cherngtalay)",
-      "La Torcedora Retail & Lounge — CONFIRMED open and genuinely a DISTINCT business from MOAT despite sharing the Boat Avenue complex address — different unit, different owner, Habanos-affiliated Cuban/Latin American focus vs. MOAT's New World/Nicaragua focus. Both independently profiled side-by-side in a Cigar Inspector roundup of Phuket lounges.",
-      "Whisgars Tasting Room Phuket — FLAG: multiple sources indicate this venue closed and was replaced by a lounge called 'Churchill's' at the same Phuket Boat Lagoon address sometime in 2025. Needs owner confirmation before approval — may need to be added as 'Churchill's' instead, or excluded if fully closed.",
-      "Armania Phuket Cigar Lounge — CONFIRMED open and address matches, but it is primarily an upscale NIGHTCLUB (DJs, aerialists, bottle service) with a cigar program as one offering, not a dedicated cigar lounge in the way the other entries are. Real and citable, but the submission's framing (\"Luxury Nightlife Vibe\") undersells that this is fundamentally a nightclub — owner may want to adjust category/description or decide whether it belongs in this directory at all."
-    ],
-    "proposed_action": "Approve adding Phuket as a new city with MOAT and La Torcedora cleanly. Hold Whisgars Tasting Room Phuket pending confirmation of its current name/status (possibly now 'Churchill's'). Decide on Armania's fit/categorization before including it — it's real but arguably outside this directory's \"cigar lounge\" scope.",
-    "decision": null
-  },
-  {
-    "item": "New city + 1 lounge: Pattaya, Thailand — Havana Bar & Cigar Lounge",
-    "path": null,
-    "reason": "new_city_and_lounges",
-    "why_flagged": "New city for the directory. Confirmed real, long-running venue at the Holiday Inn Pattaya (address matches exactly: 463/68 Pattaya Sai 1 Rd, Nong Prue, Bang Lamung, Chon Buri 20150) via Pattaya Mail's historical coverage and a Tripadvisor listing. Minor naming note: the venue is more commonly listed as \"Havana Bar and Terrazzo\" rather than \"Havana Bar & Cigar Lounge\" — same venue, worth using the more commonly-recognized name.",
-    "sources_found": [
-      "Pattaya Mail coverage",
-      "Tripadvisor listing (as 'Havana Bar and Terrazzo')"
-    ],
-    "proposed_action": "Approve adding Pattaya as a new city with this lounge — recommend using the more commonly-cited name \"Havana Bar and Terrazzo\" rather than the submitted name.",
-    "decision": null
-  },
-  {
-    "item": "Bangkok lounges update: 5 new venues, 1 confirmed-closed conflict, 1 address fix, 1 name flag",
-    "path": null,
-    "reason": "new_lounges_and_conflict_with_prior_queue_entry",
-    "why_flagged": "A second, larger Thailand submission both overlaps and conflicts with the already-queued 'Bangkok, Thailand cigar lounges' item. Notably, this new submission lists 'DUKE Contemporary Art Space & Cigar Lounge' (same Gaysorn Village address) as 'Operational' — but a fresh check confirms it remains PERMANENTLY CLOSED since August 2023 (Tripadvisor still shows a closed banner as of 2026). This looks like stale/scraped data in the new submission, not new information — the closure finding from the first batch stands.",
-    "sources_found": [
-      "La Casa del Habano - Sindhorn Kempinski: CONFIRMED real via habanos.com and LCDH's own site, but submitted address is WRONG — correct address is 80 Soi Tonson, Lumphini, Pathumwan, Bangkok 10330 (not 68/3 Sarasin Rd)",
-      "La Casa del Habano - Siam Kempinski: CONFIRMED real, address matches submission (991/9 Rama I Rd)",
-      "The Blind Pig at Hotel Muse: CONFIRMED real, 24th floor reservation-only speakeasy",
-      "The White Mulberry Whiskey & Cigar Bar: CONFIRMED real, 9th floor SILQ Hotel & Residence",
-      "The Ledger Room Cigar Lounge: CONFIRMED real, freshly opened (~Feb 2026), address matches exactly",
-      "Humidor Lounge at Kimpton Maa-Lai: UNCONFIRMED — no source names a venue by this name at this hotel. The hotel's real venues are Stock.Room, Ms.Jigger, Bar.Yard, CRAFT, Ruby's, AVANT; a cigar-review site identifies CRAFT as the cigar-friendly spot there. A differently-named 'Balcony Lounge and Humidor Cigar Bar' exists but is tied to the InterContinental Bangkok, a different hotel — likely conflation."
-    ],
-    "proposed_action": "Confirm this is Bangkok's THIRD La Casa del Habano location (Mandarin Oriental, Sindhorn Kempinski, Siam Kempinski all independently verified real) and add all three with corrected addresses. Add Blind Pig, White Mulberry, Ledger Room cleanly. Reject/exclude DUKE again (still closed). Hold Humidor Lounge at Kimpton Maa-Lai pending owner clarification — likely should be added as 'CRAFT' or dropped.",
-    "decision": null
-  },
-  {
     "item": "Chiang Mai lounges update: 1 new venue (The Service 1921 Brit Bar)",
     "path": null,
     "reason": "new_lounges",
@@ -2920,72 +2849,6 @@
       "Heavenly Pavilion Cigar Lounge: CONFIRMED real via Pattaya Mail and Pattaya Trader coverage — three-story pavilion at Sugar Hut Resort & Sun Sabella, opened 2021, genuine Cuban cigar offering."
     ],
     "proposed_action": "Add Heavenly Pavilion cleanly. Keep the original Havana Bar address (463/68 Pattaya Sai 1 Rd) — disregard the new submission's address for that venue.",
-    "decision": null
-  },
-  {
-    "item": "New city + 2 lounges: Hua Hin, Thailand",
-    "path": null,
-    "reason": "new_city_and_lounges",
-    "why_flagged": "New city for the directory. Both venues are real, but one has a naming/address mix-up and the other has no confirmed cigar offering.",
-    "sources_found": [
-      "\"Le Bar Hua Hin\" (submitted address: Naresdamri Road): likely conflates two different venues. The real cigar-friendly bar is \"Le Bar Francais\" at 12/3 Damnernkasem Road (Tripadvisor reviewers confirm a good cigar selection there). A separate, differently-owned bar also called \"Le Bar\" exists inside the Hilton Hua Hin on Naresdamri Road, with no confirmed cigar offering — likely the source of the address confusion.",
-      "\"Elephant Bar\" at Centara Grand Beach Resort: the resort and its 1920s colonial-style lounge are real, but no source (official Centara page, Tripadvisor, Facebook) mentions cigars, a humidor, or a cigar menu — consistently described as a cocktail/whisky lounge only."
-    ],
-    "proposed_action": "If adding Hua Hin, correct the first entry to \"Le Bar Francais\" at 12/3 Damnernkasem Road. Hold Elephant Bar pending confirmation it actually offers cigars — may not belong in this directory at all.",
-    "decision": null
-  },
-  {
-    "item": "New city + 2 lounges: Koh Samui, Thailand",
-    "path": null,
-    "reason": "new_city_and_lounges",
-    "why_flagged": "New city for the directory. One venue confirmed with cigars, one has no confirmed cigar offering.",
-    "sources_found": [
-      "\"Le Somm De La Maison (Godfather Icellar)\": CONFIRMED real and explicitly offers cigars per its own site (godfather-icellar.com/lesommsamui). Submitted address (\"Chaweng / Fisherman's Village Area\") is misleading — the real address is Plaza the Green Hotel, 86/11 Moo 5, Bophut, Koh Samui — Bophut/Fisherman's Village is correct, but Chaweng is a separate, distant part of the island and should be dropped from the description.",
-      "\"Woobar Lounge\" at W Koh Samui: hotel and bar are real, address matches, but no source mentions cigars or cigarillos — menu is described purely as cocktails/spirits/snacks with sunset DJ sets."
-    ],
-    "proposed_action": "Add Le Somm De La Maison with the corrected Bophut/Fisherman's Village address. Hold Woobar Lounge pending confirmation it actually offers cigars.",
-    "decision": null
-  },
-  {
-    "item": "New city + 1 lounge: Krabi, Thailand — Rayavadee's cigar venue (name likely wrong)",
-    "path": null,
-    "reason": "new_city_and_lounges",
-    "why_flagged": "New city for the directory. The cigar offering is strongly confirmed — Rayavadee Resort is listed on the OFFICIAL Habanos.com site as an authorized La Casa del Habano retailer at the submitted address (214 Moo 2, Ao-Nang, Muang Krabi), corroborated by Habanomag. However, the submitted venue name \"The Raitalay Lounge\" does not appear on Rayavadee's own venue list, which names Raya Dining, Krua Phranang, Raitalay Terrace, and The Grotto — the cigar offering is likely tied to \"Raitalay Terrace\" or a separate humidor, not a distinctly named \"lounge.\"",
-    "sources_found": [
-      "habanos.com official LCDH retailer directory (lists Rayavadee at this exact address)",
-      "habanomag.com corroboration",
-      "Rayavadee's own venue page (no \"Raitalay Lounge\" listed)"
-    ],
-    "proposed_action": "Add this as a new lounge in Krabi once the correct venue name is confirmed — likely \"Raitalay Terrace\" rather than \"Raitalay Lounge.\" The Habanos.com listing is strong enough sourcing that the underlying cigar offering itself is not in doubt, just the exact name.",
-    "decision": null
-  },
-  {
-    "item": "Bangkok lounges update (3rd submission): 3 new venues confirmed, 1 likely duplicate, 1 repeat of already-queued Ledger Room",
-    "path": null,
-    "reason": "new_lounges_and_likely_duplicate",
-    "why_flagged": "Third Thailand submission from what appears to be the same recurring source — worth noting this source has now produced at least one stale/wrong entry (DUKE, in the 2nd batch) and several address errors across all three batches, so treat its data as a lead requiring verification, not a ready-to-publish fact sheet. This batch re-submits 'The Ledger Room' (SKYVIEW Hotel, Sukhumvit 24) identically to the version already confirmed and queued in the prior Bangkok update — no new action needed there, already covered.",
-    "sources_found": [
-      "Alex Cigar & Whisky Bar: CONFIRMED real via findglocal, Wanderlog, and multiple Bangkok cigar-bar listicles. Address needs correction — independent sources consistently give '88/1 Eight Thonglor Building, Level 1', not the submitted '88/36, 2nd Floor'.",
-      "Cigar One (Habanos Specialist): CONFIRMED via the OFFICIAL Habanos.com site, which lists it as an authorized 'Habanos Specialist' (a real, distinct retailer tier below La Casa del Habano) at Glass House, Siam Sindhorn Building — address matches submission closely. Strong sourcing.",
-      "The Brass at Brasserie 9: CONFIRMED real cigar lounge via the venue's own official site, which explicitly describes it as a 'cocktail bar & cigar lounge.' Address needs correction — official site lists '27 Soi Sathorn 6', not the submitted '9 Sathorn Soi 6' (the submitted '9' looks like it was carried over from the restaurant's name, 'Brasserie 9', rather than being the real street number).",
-      "Residents Only (Black Amber Social Club): CONFIRMED real, and the rename claim checks out — social media shows 'FKA Black Amber Social Club' branding alongside the new 'Residents Only' name at the same address, with a documented whiskey/cigar/barbershop concept.",
-      "Cigar Divan at The Bamboo Bar (Mandarin Oriental): LIKELY A DUPLICATE, not a distinct venue — same hotel, same address, and specifically the same physical space next to the Bamboo Bar as the already-queued 'La Casa del Habano (Mandarin Oriental)' entry. Mandarin Oriental's sister property in Kuala Lumpur uses the identical phrase 'cigar divan' as generic descriptive language for its own La Casa del Habano outlet, and a 2014 press piece on the Bamboo Bar renovation describes an 'adjacent Cigar Divan' consistent with LCDH's known layout there — no source describes two distinct, separately-branded cigar businesses coexisting at this hotel."
-    ],
-    "proposed_action": "Add Alex Cigar & Whisky Bar, Cigar One, and Residents Only cleanly, using the corrected addresses found during research. Do NOT add Cigar Divan at The Bamboo Bar as a separate lounge — it's almost certainly the same venue as the already-queued Mandarin Oriental La Casa del Habano entry, just described differently; if anything, use this submission's amenity details (Cohiba Behike, river views) to enrich that single entry rather than creating a duplicate.",
-    "decision": null
-  },
-  {
-    "item": "Bangkok lounges update (4th submission): 3 new venues, 1 likely name conflation",
-    "path": null,
-    "reason": "new_lounges_with_one_naming_issue",
-    "why_flagged": "Fourth Thailand submission, same recurring source pattern. Researched directly (no subagents, per updated workflow).",
-    "sources_found": [
-      "Abandoned Mansion Bangkok (Gangsters Cigar Room): CONFIRMED real via Coconuts, Time Out Bangkok, and the venue's own site (abandonedmansion.com) — a 1930s gangster-themed speakeasy beneath the Coach Hotel on Soi Sukhumvit 14, with a genuine dedicated 'Gangster's Cigar Room' and balcony.",
-      "Finishing Post Cigar Bar: CONFIRMED real via the hotel's own site (Crowne Plaza Bangkok Lumpini Park) — exact address match (Level 23, 952 Rama IV Road).",
-      "The Diplomat Bar (Conrad Bangkok): the bar itself is real and address matches (Level One, All Seasons Place, 87/3 Wireless Rd), but NO source (Hilton's own page, Tripadvisor, Siam2nite) mentions cigars, a humidor, or any cigar offering — described purely as a champagne/spirits/jazz bar. Same pattern as a few venues flagged in earlier batches (Elephant Bar, Woobar) that may have been mislabeled as cigar lounges.",
-      "Fireplace Bar & Humidor (InterContinental Bangkok): LIKELY A NAME CONFLATION of two distinct, real venues at the same hotel. The hotel's actual cigar venue is called \"Balcony Lounge and Humidor Cigar Bar\" (marketed as \"Bangkok's first real cigar bar\"), while \"Fireplace Grill and Bar\" is explicitly described elsewhere as a SEPARATE dining outlet with no cigar connection. The submission appears to have merged the two into one venue name."
-    ],
-    "proposed_action": "Add Abandoned Mansion and Finishing Post cleanly. Hold The Diplomat Bar pending confirmation it actually offers cigars. Correct Fireplace Bar & Humidor to the real venue name, \"Balcony Lounge and Humidor Cigar Bar\" — do not add it under the submitted name.",
     "decision": null
   },
   {
@@ -3024,35 +2887,6 @@
       "Tripadvisor/Phuket Insider restaurant listings"
     ],
     "proposed_action": "Owner to decide: add with a clear \"event-based cigar program, not a standing lounge\" note, or exclude as out of scope for this directory.",
-    "decision": null
-  },
-  {
-    "item": "Bangkok lounges update (5th submission): 2 new venues confirmed (The P&L Club @ Grand Hyatt Erawan, Monopole Club)",
-    "path": null,
-    "reason": "new_lounges",
-    "why_flagged": "Fifth Thailand submission (9 venues total), but 7 of the 9 turned out to be duplicates of already-queued venues — see the companion queue note below. Only these two are genuinely new.",
-    "sources_found": [
-      "The P&L Club @ Grand Hyatt Erawan: CONFIRMED via the OFFICIAL Habanos.com site AND Pacific Cigar Co.'s own site — an official La Casa del Habano venue distributed by Pacific Cigar, at Lower Lobby, 494 Rajadamri Road. Named after Pacific Cigar's Asia-wide membership club but open to non-members. Strong, high-confidence sourcing.",
-      "Monopole Club (L'Escargot Brasserie): CONFIRMED real via Chope, KKday, and the restaurant's own social presence — a genuine private whisky/cigar member club adjacent to L'Escargot Brasserie, address matches exactly (72 Soi Sukhumvit 63)."
-    ],
-    "proposed_action": "Add both cleanly — well-sourced, no corrections needed.",
-    "decision": null
-  },
-  {
-    "item": "Note: 7 of 9 venues in the 5th Thailand submission are duplicates of already-queued lounges, not new",
-    "path": null,
-    "reason": "duplicate_detection",
-    "why_flagged": "Documenting this for the record so these aren't mistakenly added twice when working through the queue. This recurring source has now submitted the same handful of Bangkok/Phuket/Chiang Mai venues multiple times across five batches, sometimes with corroborating detail and sometimes with conflicting addresses — cross-checked each one directly.",
-    "sources_found": [
-      "Alex Cigar & Whiskey Bar — exact repeat of the venue confirmed in the 3rd submission (corrected address: 88/1 Eight Thonglor Building, Level 1); this submission's vague address adds nothing new.",
-      "\"MOAT Cigar Club / Top Cigar Hub (Cigar Emperor Flagship)\" — CONFIRMED to be the exact same venue as the already-queued \"MOAT Cigar Club Bangkok\" from the very first submission (identical address: 5F, 44/3-4 Thong Lo 13 Alley). Cigar Emperor's own site states directly: \"the flagship lounge is called MOAT.\" Not a second venue — just extra branding context on the same place.",
-      "The Ledger Room Cigar Lounge — exact repeat (third time submitted), already confirmed.",
-      "The Brass at Brasserie 9 — repeat, and this submission's address (27 Soi Pipat / Sathorn Soi 6) corroborates the correction already made from the 3rd submission.",
-      "La Torcedora Retail & Lounge (Phuket) — repeat of the venue confirmed in the very first submission.",
-      "Churchill's Cigar Lounge Phuket — repeat, and USEFULLY resolves an address left uncertain in earlier batches: this submission's \"Yaowarat Road, Talat Yai, Mueang Phuket\" matches the Old Phuket Town location found in prior research, adding confidence over the earlier, more tentative Vichit-subdistrict lead.",
-      "\"CNX Cigars Private Lounge\" — no independent source names a distinct 'private lounge' facility separate from the main CNX Cigars location already confirmed and queued; appears to be the same venue (45 Nimmana Haeminda Rd Lane 11) described with different emphasis, not a second venue."
-    ],
-    "proposed_action": "No action needed on these seven — they're already covered by earlier queue entries. Use Churchill's Phuket address confirmation to firm up that entry when reviewing the Phuket batch.",
     "decision": null
   }
 ]
