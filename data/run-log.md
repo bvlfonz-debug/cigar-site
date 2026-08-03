@@ -4,6 +4,18 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-08-03 — Weekday run: cigars night (in progress)
+Today is a "cigars" night on the 3-way rotation with accessories and lounges
+(see CLAUDE.md). Kept it light since it's a weekday.
+
+- **News**: added one brief — Micallef is adding an "Orange" cigar to its
+  Color Series (Connecticut wrapper, San Andrés binder, Nicaraguan/Dominican
+  filler), premiering at Two Guys Cigars on Aug. 27, 2026 and going
+  nationwide Sept. 5 in Robusto (5x52) and Toro (6x52). Micallef isn't yet
+  in our brand catalog, so this is news-only for now, no linked cigar page.
+  Also logged it on the release calendar (`/calendar`) since it's reporting
+  a specific upcoming release, cross-linked to the news brief.
+
 ## 2026-08-02 — Sunday run: lounges night
 
 Today is a "lounges" night on the 3-way rotation with cigars and accessories
