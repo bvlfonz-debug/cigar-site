@@ -2888,5 +2888,16 @@
     ],
     "proposed_action": "Owner to decide: add with a clear \"event-based cigar program, not a standing lounge\" note, or exclude as out of scope for this directory.",
     "decision": null
+  },
+  {
+    "item": "Les Fines Lames Le Petit — insufficient sources for AccScore",
+    "path": "/accessories/cutters/les-fines-lames-le-petit/",
+    "reason": "insufficient_sources",
+    "why_flagged": "Only one scoreable review found (the manufacturer's own direct-to-consumer store, 5.0/5) — short of the 3-independent-source minimum for AccScore. Two other reviews found in the original submission (Holt's Cigar Company, a search-blog citation) gave no numeric score, so they could not be added as citations.",
+    "sources_found": [
+      "lesfineslames.com (manufacturer store, 5.0/5)"
+    ],
+    "proposed_action": "Look for independent reviews (halfwheel, Cigar Aficionado, retailer user-review averages at Neptune Cigar/Holt's/etc.) with an actual numeric score, then add via add-accessory-review.",
+    "decision": null
   }
 ]
