@@ -17,13 +17,13 @@ function formatDate(iso: string): string {
 ---
 
 <Layout
-  title="StickScore — A Considered Record for the Discerning Smoker"
+  title="Cigar Codex — A Considered Record for the Discerning Smoker"
   description="An aggregate record of cigar reviews, ratings, and specifications, drawn from published critic sources and cited in full."
 >
   <div class="home-hero">
     <h1 class="home-hero__title">A considered record, not a sales pitch</h1>
     <p>
-      StickScore weighs published critic reviews and retailer ratings into a single, comparable
+      Codex Score weighs published critic reviews and retailer ratings into a single, comparable
       figure for each cigar — every source cited, nothing invented. {cigars.length} cigars are
       recorded so far; {scoredCount} have cleared the three-independent-source bar for a
       published score, and the rest are queued for more research rather than padded to look
@@ -38,7 +38,7 @@ function formatDate(iso: string): string {
         <div class="cigar-card__brand">{c.brand.name}</div>
         <div class="cigar-card__name">{c.line.name.replace(/ Maduro$| Natural$/, '')} {c.vitola.size_name}</div>
         <div class="cigar-card__score">
-          StickScore {c.vitola.stick_score != null ? Math.round(c.vitola.stick_score) : 'insufficient data'}
+          Codex Score {c.vitola.stick_score != null ? Math.round(c.vitola.stick_score) : 'insufficient data'}
         </div>
       </a>
     ))}

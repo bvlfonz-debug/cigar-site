@@ -14,7 +14,7 @@ const anyScored = sorted.some((a) => a.accScore != null);
 ---
 
 <Layout
-  title="Best Travel Cigar Cases | StickScore Guides"
+  title="Best Travel Cigar Cases | Cigar Codex Guides"
   description="Hard-shell vs. leather travel cases, and every candidate we've researched so far."
 >
   <div class="home-hero">
@@ -65,7 +65,7 @@ const anyScored = sorted.some((a) => a.accScore != null);
             <div class="cigar-card__brand">{a.brand}</div>
             <div class="cigar-card__name">{a.model}</div>
             <div class="cigar-card__score">
-              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+              Codex Score {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
             </div>
           </a>
         ))}

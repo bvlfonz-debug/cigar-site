@@ -53,8 +53,8 @@ function scoreOrNull(v: number | null): string {
   return v != null ? String(Math.round(v)) : 'insufficient data';
 }
 
-const pageTitle = `${cigarLabel(a)} vs ${cigarLabel(b)} | StickScore`;
-const pageDescription = `Side-by-side comparison of ${cigarLabel(a)} and ${cigarLabel(b)}: specs, StickScore, and tasting notes.`;
+const pageTitle = `${cigarLabel(a)} vs ${cigarLabel(b)} | Cigar Codex`;
+const pageDescription = `Side-by-side comparison of ${cigarLabel(a)} and ${cigarLabel(b)}: specs, Codex Score, and tasting notes.`;
 ---
 
 <Layout title={pageTitle} description={pageDescription}>
@@ -84,7 +84,7 @@ const pageDescription = `Side-by-side comparison of ${cigarLabel(a)} and ${cigar
           </tr>
         </thead>
         <tbody>
-          <tr><th class="row-label">StickScore</th><td>{scoreOrNull(cigarA.vitola.stick_score)}</td><td>{scoreOrNull(cigarB.vitola.stick_score)}</td></tr>
+          <tr><th class="row-label">Codex Score</th><td>{scoreOrNull(cigarA.vitola.stick_score)}</td><td>{scoreOrNull(cigarB.vitola.stick_score)}</td></tr>
           <tr><th class="row-label">Flavor</th><td>{scoreOrNull(cigarA.vitola.score_flavor)}</td><td>{scoreOrNull(cigarB.vitola.score_flavor)}</td></tr>
           <tr><th class="row-label">Construction</th><td>{scoreOrNull(cigarA.vitola.score_construction)}</td><td>{scoreOrNull(cigarB.vitola.score_construction)}</td></tr>
           <tr><th class="row-label">Complexity</th><td>{scoreOrNull(cigarA.vitola.score_complexity)}</td><td>{scoreOrNull(cigarB.vitola.score_complexity)}</td></tr>

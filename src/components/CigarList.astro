@@ -29,7 +29,7 @@ const sorted = [...cigars].sort((a, b) => {
       <div class="cigar-card__brand">{c.brandName}</div>
       <div class="cigar-card__name">{c.lineName.replace(/ Maduro$| Natural$/, '')} {c.vitolaSizeName}</div>
       <div class="cigar-card__score">
-        StickScore {c.stickScore != null ? Math.round(c.stickScore) : 'insufficient data'}
+        Codex Score {c.stickScore != null ? Math.round(c.stickScore) : 'insufficient data'}
       </div>
     </a>
   ))}

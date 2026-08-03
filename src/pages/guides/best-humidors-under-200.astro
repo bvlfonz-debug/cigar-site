@@ -13,7 +13,7 @@ const confirmed = withPrices.filter((a) => a.confirmedPrice != null);
 ---
 
 <Layout
-  title="Best Humidors Under $200 | StickScore Guides"
+  title="Best Humidors Under $200 | Cigar Codex Guides"
   description="What an extra $100 actually buys in a desktop humidor, with confirmed current prices where we've checked them."
 >
   <div class="home-hero">
@@ -58,7 +58,7 @@ const confirmed = withPrices.filter((a) => a.confirmedPrice != null);
             <div class="cigar-card__brand">{a.brand}</div>
             <div class="cigar-card__name">{a.model}</div>
             <div class="cigar-card__score">
-              ${a.confirmedPrice?.toFixed(2)} at {a.retailer} · AccScore{' '}
+              ${a.confirmedPrice?.toFixed(2)} at {a.retailer} · Codex Score{' '}
               {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
             </div>
           </a>

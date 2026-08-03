@@ -6,14 +6,14 @@ const index = getSearchIndex();
 ---
 
 <Layout
-  title="Search Cigars | StickScore"
-  description="Filter the StickScore catalog by wrapper, strength, country, and score."
+  title="Search Cigars | Cigar Codex"
+  description="Filter the Cigar Codex catalog by wrapper, strength, country, and score."
 >
   <div class="home-hero">
     <h1 class="home-hero__title">Search</h1>
     <p>
       Search by cigar, brand, or line name, or filter by wrapper, strength, country of origin, or
-      minimum StickScore. Price filtering will arrive once retailer price tracking begins.
+      minimum Codex Score. Price filtering will arrive once retailer price tracking begins.
     </p>
   </div>
 
@@ -41,7 +41,7 @@ const index = getSearchIndex();
         <select id="filter-country"><option value="">All</option></select>
       </label>
       <label>
-        Minimum StickScore
+        Minimum Codex Score
         <select id="filter-score">
           <option value="0">Any</option>
           <option value="90">90+</option>
@@ -136,7 +136,7 @@ const index = getSearchIndex();
       a.innerHTML = `
         <div class="cigar-card__brand">${e.brandName}</div>
         <div class="cigar-card__name">${e.lineName} ${e.vitolaSizeName}</div>
-        <div class="cigar-card__score">StickScore ${e.stickScore != null ? Math.round(e.stickScore) : 'insufficient data'}</div>
+        <div class="cigar-card__score">Codex Score ${e.stickScore != null ? Math.round(e.stickScore) : 'insufficient data'}</div>
       `;
       wrap.appendChild(a);
       // Mirrors src/components/HumidorButton.astro's exact markup — that

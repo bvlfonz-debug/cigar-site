@@ -6,7 +6,7 @@ const featured = getAccessoryPage('humidors', 'case-elegance-renzo');
 ---
 
 <Layout
-  title="Best Humidors for Beginners | StickScore Guides"
+  title="Best Humidors for Beginners | Cigar Codex Guides"
   description="What to actually look for in your first humidor, and our current top pick."
 >
   <div class="home-hero">
@@ -60,7 +60,7 @@ const featured = getAccessoryPage('humidors', 'case-elegance-renzo');
         <div class="cigar-card__brand">{featured.accessory.brand}</div>
         <div class="cigar-card__name">{featured.accessory.model}</div>
         <div class="cigar-card__score">
-          AccScore {featured.accessory.acc_score != null ? Math.round(featured.accessory.acc_score) : 'insufficient data'}
+          Codex Score {featured.accessory.acc_score != null ? Math.round(featured.accessory.acc_score) : 'insufficient data'}
         </div>
       </a>
     )}

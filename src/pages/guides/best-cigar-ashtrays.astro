@@ -14,7 +14,7 @@ const anyScored = sorted.some((a) => a.accScore != null);
 ---
 
 <Layout
-  title="Best Cigar Ashtrays | StickScore Guides"
+  title="Best Cigar Ashtrays | Cigar Codex Guides"
   description="What actually matters in a cigar ashtray — rest width and weight, not just material — and every candidate we've researched so far."
 >
   <div class="home-hero">
@@ -66,7 +66,7 @@ const anyScored = sorted.some((a) => a.accScore != null);
             <div class="cigar-card__brand">{a.brand}</div>
             <div class="cigar-card__name">{a.model}</div>
             <div class="cigar-card__score">
-              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+              Codex Score {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
             </div>
           </a>
         ))}

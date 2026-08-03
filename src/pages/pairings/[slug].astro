@@ -16,7 +16,7 @@ if (!topic) {
 
 const exampleCigars = getCigarsByProfile(topic.exampleStrengths, topic.exampleWrapperKeywords, 6);
 
-const pageTitle = `${topic.title} | StickScore Pairing Guides`;
+const pageTitle = `${topic.title} | Cigar Codex Pairing Guides`;
 
 // Never emit FAQPage JSON-LD with placeholder/invented copy — only when this
 // topic actually has real, owner-written FAQ content.
@@ -82,7 +82,7 @@ const jsonLd =
             <div class="cigar-card__brand">{c.brandName}</div>
             <div class="cigar-card__name">{c.lineName} {c.vitolaSizeName}</div>
             <div class="cigar-card__score">
-              StickScore {c.stickScore != null ? Math.round(c.stickScore) : 'insufficient data'}
+              Codex Score {c.stickScore != null ? Math.round(c.stickScore) : 'insufficient data'}
             </div>
           </a>
         ))}

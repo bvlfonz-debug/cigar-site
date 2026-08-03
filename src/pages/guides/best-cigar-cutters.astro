@@ -14,7 +14,7 @@ const anyScored = sorted.some((a) => a.accScore != null);
 ---
 
 <Layout
-  title="Best Cigar Cutters | StickScore Guides"
+  title="Best Cigar Cutters | Cigar Codex Guides"
   description="Guillotine, V-cut, and punch cutters compared, and every candidate we've researched so far."
 >
   <div class="home-hero">
@@ -64,7 +64,7 @@ const anyScored = sorted.some((a) => a.accScore != null);
             <div class="cigar-card__brand">{a.brand}</div>
             <div class="cigar-card__name">{a.model}</div>
             <div class="cigar-card__score">
-              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+              Codex Score {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
             </div>
           </a>
         ))}

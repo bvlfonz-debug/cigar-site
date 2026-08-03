@@ -19,7 +19,7 @@ const allVitolas = lines.flatMap((l) => l.vitolas);
 const scored = allVitolas.filter((v) => v.stick_score != null);
 const avgScore = scored.length > 0 ? scored.reduce((s, v) => s + (v.stick_score as number), 0) / scored.length : null;
 
-const pageTitle = `${brand.name} Cigars — Lines, Vitolas & Scores | StickScore`;
+const pageTitle = `${brand.name} Cigars — Lines, Vitolas & Scores | Cigar Codex`;
 const pageDescription = `${brand.name}: ${brand.story_short}`;
 
 function formatDate(iso: string): string {
@@ -51,7 +51,7 @@ const jsonLd = {
     <div class="brand-stats">
       <div><strong>{allVitolas.length}</strong> cigars recorded</div>
       <div><strong>{lines.length}</strong> line{lines.length === 1 ? '' : 's'}</div>
-      {avgScore != null && <div><strong>{Math.round(avgScore)}</strong> average StickScore</div>}
+      {avgScore != null && <div><strong>{Math.round(avgScore)}</strong> average Codex Score</div>}
       {brand.founded_year && <div><strong>{brand.founded_year}</strong> founded</div>}
     </div>
   </div>
@@ -98,7 +98,7 @@ const jsonLd = {
             <a class="cigar-card" href={`/cigars/${brand.slug}/${line.slug}/${v.slug}/`}>
               <div class="cigar-card__name">{v.size_name} ({v.length_in}&Prime; &times; {v.ring_gauge})</div>
               <div class="cigar-card__score">
-                StickScore {v.stick_score != null ? Math.round(v.stick_score) : 'insufficient data'}
+                Codex Score {v.stick_score != null ? Math.round(v.stick_score) : 'insufficient data'}
               </div>
             </a>
           ))}

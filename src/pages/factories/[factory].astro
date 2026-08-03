@@ -18,7 +18,7 @@ const { factory, brands, sources } = data;
 const totalCigars = brands.reduce((sum, b) => sum + b.lines.reduce((s, l) => s + l.vitolas.length, 0), 0);
 const locationLabel = factory.city ? `${factory.city}, ${factory.country}` : factory.country;
 
-const pageTitle = `${factory.name} — Cigar Factory Profile | StickScore`;
+const pageTitle = `${factory.name} — Cigar Factory Profile | Cigar Codex`;
 const pageDescription = `${factory.name} in ${locationLabel}: history, and every brand and cigar in our database rolled here.`;
 
 function formatDate(iso: string): string {
@@ -112,7 +112,7 @@ const jsonLd = {
                 <a class="cigar-card" href={`/cigars/${b.slug}/${line.slug}/${v.slug}/`}>
                   <div class="cigar-card__name">{line.name} {v.size_name}</div>
                   <div class="cigar-card__score">
-                    StickScore {v.stick_score != null ? Math.round(v.stick_score) : 'insufficient data'}
+                    Codex Score {v.stick_score != null ? Math.round(v.stick_score) : 'insufficient data'}
                   </div>
                 </a>
               )))}

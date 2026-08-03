@@ -64,8 +64,8 @@ const CIGAR_SIDE_PHRASING: Record<string, string> = {
 };
 const cigarSidePhrase = CIGAR_SIDE_PHRASING[category.slug] ?? 'Looking for cigars to pair with it?';
 
-const pageTitle = `${accessory.brand} ${accessory.model} Review | StickScore`;
-const pageDescription = `${accessory.brand} ${accessory.model}: AccScore ${accessory.acc_score != null ? Math.round(accessory.acc_score) : 'N/A'}/100 aggregated from ${reviews.length} published sources.`;
+const pageTitle = `${accessory.brand} ${accessory.model} Review | Cigar Codex`;
+const pageDescription = `${accessory.brand} ${accessory.model}: Codex Score ${accessory.acc_score != null ? Math.round(accessory.acc_score) : 'N/A'}/100 aggregated from ${reviews.length} published sources.`;
 
 const totalSources = reviews.length;
 const jsonLd = {
@@ -97,17 +97,17 @@ const jsonLd = {
     <div class="score-panel">
       <div class="score-panel__number">
         {accessory.acc_score != null ? Math.round(accessory.acc_score) : '—'}
-        <small>AccScore</small>
+        <small>Codex Score</small>
       </div>
       <div>
         <div class="score-panel__label">
           {accessory.acc_score != null
             ? <>Aggregate of {reviews.length} source{reviews.length === 1 ? '' : 's'}</>
-            : <>Insufficient data — {distinctSourceCount} of the 3 independent sources AccScore requires</>}
+            : <>Insufficient data — {distinctSourceCount} of the 3 independent sources Codex Score requires</>}
         </div>
         <div class="score-panel__meta">
           {accessory.acc_score != null
-            ? <>Dedicated reviews are weighted 70% and community/retailer ratings 30%; recent (≤5yr) sources count double. This is a computed aggregate, presented as such — never a first-hand StickScore review.</>
+            ? <>Dedicated reviews are weighted 70% and community/retailer ratings 30%; recent (≤5yr) sources count double. This is a computed aggregate, presented as such — never a first-hand Codex Score review.</>
             : <>We don't publish a score until at least 3 independent sources exist — padding the average with fewer would overstate how settled the consensus really is.</>}
         </div>
       </div>
@@ -210,7 +210,7 @@ const jsonLd = {
   <section class="section">
     <h2 class="section__heading">On the cigar side</h2>
     <p>
-      {cigarSidePhrase} Browse <a href="/rankings/">top-rated cigars</a> by StickScore, or use
+      {cigarSidePhrase} Browse <a href="/rankings/">top-rated cigars</a> by Codex Score, or use
       <a href="/search/">search</a> to filter by wrapper, strength, and price.
     </p>
   </section>

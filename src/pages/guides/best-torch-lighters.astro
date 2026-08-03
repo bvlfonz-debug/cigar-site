@@ -14,7 +14,7 @@ const anyScored = sorted.some((a) => a.accScore != null);
 ---
 
 <Layout
-  title="Best Torch Lighters | StickScore Guides"
+  title="Best Torch Lighters | Cigar Codex Guides"
   description="What separates a reliable torch lighter from a frustrating one, and every candidate we've researched so far."
 >
   <div class="home-hero">
@@ -53,14 +53,14 @@ const anyScored = sorted.some((a) => a.accScore != null);
     {anyScored ? (
       <p>
         One torch lighter has cleared our three-source bar so far: Colibri's Firebird Afterburner,
-        a budget-friendly triple-jet with a strong, well-agreeing AccScore. Everything else below is
+        a budget-friendly triple-jet with a strong, well-agreeing Codex Score. Everything else below is
         still building up independent review coverage — we're not ranking those against each other
         until they clear the same bar.
       </p>
     ) : (
       <p class="placeholder-note">
         None of the torch lighters we've researched yet have three independent review sources, so
-        we're not publishing an AccScore-backed "best" pick — we'd rather tell you that honestly
+        we're not publishing a Codex Score-backed "best" pick — we'd rather tell you that honestly
         than rank on thin data. Below is what we found on each, with sources linked on every page.
       </p>
     )}
@@ -71,7 +71,7 @@ const anyScored = sorted.some((a) => a.accScore != null);
             <div class="cigar-card__brand">{a.brand}</div>
             <div class="cigar-card__name">{a.model}</div>
             <div class="cigar-card__score">
-              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+              Codex Score {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
             </div>
           </a>
         ))}

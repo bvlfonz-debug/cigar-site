@@ -24,8 +24,8 @@ const sorted = [...accessories].sort((a, b) => {
 ---
 
 <Layout
-  title={`Best ${category.name} | StickScore`}
-  description={`${category.name} ranked by AccScore where enough independent sources exist.`}
+  title={`Best ${category.name} | Cigar Codex`}
+  description={`${category.name} ranked by Codex Score where enough independent sources exist.`}
 >
   <div class="home-hero">
     <h1 class="home-hero__title">{category.name}</h1>
@@ -40,7 +40,7 @@ const sorted = [...accessories].sort((a, b) => {
             <div class="cigar-card__brand">{a.brand}</div>
             <div class="cigar-card__name">{a.model}</div>
             <div class="cigar-card__score">
-              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+              Codex Score {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
             </div>
           </a>
         ))}

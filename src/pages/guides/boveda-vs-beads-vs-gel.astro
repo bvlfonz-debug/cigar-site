@@ -13,7 +13,7 @@ const sorted = [...accessories].sort((a, b) => {
 ---
 
 <Layout
-  title="Boveda vs Beads vs Gel: Humidification Compared | StickScore Guides"
+  title="Boveda vs Beads vs Gel: Humidification Compared | Cigar Codex Guides"
   description="Two-way packs, rechargeable beads, gel jars, and electronic systems — what each actually costs you in money and maintenance."
 >
   <div class="home-hero">
@@ -80,7 +80,7 @@ const sorted = [...accessories].sort((a, b) => {
   <section class="section">
     <h2 class="section__heading">What we've found so far</h2>
     <p class="placeholder-note">
-      None of these have three independent review sources yet, so there's no AccScore-backed pick
+      None of these have three independent review sources yet, so there's no Codex Score-backed pick
       within each method — but here's a real example of each type we've researched.
     </p>
     {sorted.length > 0 && (
@@ -90,7 +90,7 @@ const sorted = [...accessories].sort((a, b) => {
             <div class="cigar-card__brand">{a.brand}</div>
             <div class="cigar-card__name">{a.model}</div>
             <div class="cigar-card__score">
-              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+              Codex Score {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
             </div>
           </a>
         ))}

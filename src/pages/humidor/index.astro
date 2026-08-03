@@ -12,8 +12,8 @@ const index = getSearchIndex();
 ---
 
 <Layout
-  title="My Humidor | StickScore"
-  description="Your personal Smoked and Want to Try lists — private to your browser, never mixed with our official StickScore."
+  title="My Humidor | Cigar Codex"
+  description="Your personal Smoked and Want to Try lists — private to your browser, never mixed with our official Codex Score."
   noindex={true}
 >
   <div class="home-hero">
@@ -21,7 +21,7 @@ const index = getSearchIndex();
     <p>
       Your own "Smoked" and "Want to Try" lists, saved privately in this browser. Any private
       rating or note you add here is yours alone — it's never submitted publicly and never
-      counted toward a cigar's official StickScore.
+      counted toward a cigar's official Codex Score.
     </p>
   </div>
 
@@ -93,7 +93,7 @@ const index = getSearchIndex();
     const score = document.createElement('span');
     score.className = 'humidor-entry__score';
     score.textContent = cigar
-      ? `StickScore (ours): ${cigar.stickScore != null ? Math.round(cigar.stickScore) : 'insufficient data'}`
+      ? `Codex Score (ours): ${cigar.stickScore != null ? Math.round(cigar.stickScore) : 'insufficient data'}`
       : '';
     header.appendChild(score);
     card.appendChild(header);

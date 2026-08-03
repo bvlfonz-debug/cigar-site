@@ -14,7 +14,7 @@ const anyScored = sorted.some((a) => a.accScore != null);
 ---
 
 <Layout
-  title="Best Hygrometers (and How to Calibrate One) | StickScore Guides"
+  title="Best Hygrometers (and How to Calibrate One) | Cigar Codex Guides"
   description="Analog vs digital hygrometers, why calibration matters more than the price tag, and how to salt-test one yourself."
 >
   <div class="home-hero">
@@ -87,7 +87,7 @@ const anyScored = sorted.some((a) => a.accScore != null);
             <div class="cigar-card__brand">{a.brand}</div>
             <div class="cigar-card__name">{a.model}</div>
             <div class="cigar-card__score">
-              AccScore {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
+              Codex Score {a.accScore != null ? Math.round(a.accScore) : 'insufficient data'}
             </div>
           </a>
         ))}

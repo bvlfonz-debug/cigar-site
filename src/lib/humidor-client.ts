@@ -21,7 +21,7 @@ export interface HumidorEntry {
   cigarId: string; // the cigar's own path, e.g. "/cigars/brand/line/vitola/"
   list: HumidorList;
   addedAt: string; // ISO date
-  privateRating: number | null; // 1-5, the user's own — never public, never StickScore
+  privateRating: number | null; // 1-5, the user's own — never public, never Codex Score
   privateNote: string | null; // free text — never public
   source: HumidorSource;
 }

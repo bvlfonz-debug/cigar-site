@@ -36,7 +36,7 @@ const smokingLabel: Record<string, string> = {
   'allowed-with-restrictions': 'Indoor smoking allowed, with restrictions',
 };
 
-const pageTitle = `${lounge.name} — ${cityDisplay} | StickScore Lounge Directory`;
+const pageTitle = `${lounge.name} — ${cityDisplay} | Cigar Codex Lounge Directory`;
 const pageDescription = `${lounge.name} in ${cityDisplay}: address, hours, membership terms, and indoor smoking status — a factual directory listing, not a review.`;
 
 const jsonLd = {
@@ -76,17 +76,17 @@ const jsonLd = {
     <div class="score-panel">
       <div class="score-panel__number">
         {lounge.lounge_score != null ? Math.round(lounge.lounge_score) : '—'}
-        <small>LoungeScore</small>
+        <small>Codex Score</small>
       </div>
       <div>
         <div class="score-panel__label">
           {lounge.lounge_score != null
             ? <>Aggregate of {ratings.length} cited source{ratings.length === 1 ? '' : 's'}</>
-            : <>Insufficient data — {distinctSourceCount} of the 3 independent sources LoungeScore requires</>}
+            : <>Insufficient data — {distinctSourceCount} of the 3 independent sources Codex Score requires</>}
         </div>
         <div class="score-panel__meta">
           {lounge.lounge_score != null
-            ? <>Editorial rankings are weighted 70% and platform ratings (Google, Yelp, TripAdvisor-style) 30%; recent (≤5yr) sources count double. This is a computed aggregate of cited external sources, presented as such — StickScore never publishes a first-hand lounge rating.</>
+            ? <>Editorial rankings are weighted 70% and platform ratings (Google, Yelp, TripAdvisor-style) 30%; recent (≤5yr) sources count double. This is a computed aggregate of cited external sources, presented as such — Codex Score never publishes a first-hand lounge rating.</>
             : <>We don't publish a score until at least 3 independent, cited external sources exist — padding the average with fewer would overstate how settled the consensus really is.</>}
         </div>
       </div>
@@ -173,7 +173,7 @@ const jsonLd = {
   <section class="section">
     <h2 class="section__heading">What to bring</h2>
     <p>
-      Browse <a href="/rankings/">top-rated cigars</a> by StickScore, or use
+      Browse <a href="/rankings/">top-rated cigars</a> by Codex Score, or use
       <a href="/search/">search</a> to filter by wrapper, strength, and price before you go.
     </p>
   </section>

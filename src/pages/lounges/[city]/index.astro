@@ -24,7 +24,7 @@ const sorted = [...lounges].sort((a, b) => {
 ---
 
 <Layout
-  title={`Cigar Lounges in ${cityDisplay} | StickScore`}
+  title={`Cigar Lounges in ${cityDisplay} | Cigar Codex`}
   description={`A factual directory of cigar lounges in ${cityDisplay} — hours, membership terms, and indoor smoking status, sourced and cited.`}
 >
   <div class="home-hero">
@@ -39,7 +39,7 @@ const sorted = [...lounges].sort((a, b) => {
           <a class="cigar-card" href={`/lounges/${l.city_slug}/${l.slug}/`}>
             <div class="cigar-card__name">{l.name}</div>
             <div class="cigar-card__score">
-              LoungeScore {l.lounge_score != null ? Math.round(l.lounge_score) : 'insufficient data'}
+              Codex Score {l.lounge_score != null ? Math.round(l.lounge_score) : 'insufficient data'}
             </div>
           </a>
         ))}
