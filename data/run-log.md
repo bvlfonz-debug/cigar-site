@@ -4,7 +4,7 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
-## 2026-08-03 — Weekday run: cigars night (in progress)
+## 2026-08-03 — Weekday run: cigars night
 Today is a "cigars" night on the 3-way rotation with accessories and lounges
 (see CLAUDE.md). Kept it light since it's a weekday.
 
@@ -23,6 +23,13 @@ Today is a "cigars" night on the 3-way rotation with accessories and lounges
   Sobremesa Cervantes Fino — every retailer page tried (JR Cigars 404'd,
   Neptune/Caribbean Cigars/Tobaccology either blocked the fetch or didn't
   expose a price, Smokingpipes shows it sold out) so nothing clean to record.
+- **Scores**: no new critic reviews were confirmed tonight, so score recompute
+  had nothing to act on. The big review queue (266 items, none yet decided
+  by you) stayed untouched tonight — nothing new was proposed, and nothing
+  was added directly since nothing there is marked approved.
+- **Errors**: none. Site builds cleanly (18,040 pages). Stopping here for
+  tonight given the weekday budget — accessories and lounges get their turn
+  on the next two nights per the 3-way rotation.
 
 ## 2026-08-02 — Sunday run: lounges night
 
