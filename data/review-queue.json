@@ -1732,17 +1732,6 @@
     "decision": null
   },
   {
-    "item": "Churchill's Fine Cigars (Phoenix)",
-    "path": "/lounges/phoenix/churchills-fine-cigars/",
-    "reason": "new_lounge_city",
-    "why_flagged": "Phoenix, AZ is not yet in the lounge directory. Found a real, well-established cigar lounge with a walk-in humidor and indoor smoking welcomed.",
-    "sources_found": [
-      "https://churchillsaz.com/phoenix/"
-    ],
-    "proposed_action": "If approved, add-lounge with: name=\"Churchill's Fine Cigars\", city=Phoenix, state=AZ, country=USA, address=\"5041 N 44th Street, Phoenix, AZ 85018\", phone=\"(602) 840-9080\", website=https://churchillsaz.com/phoenix/, hours_text=\"Mon-Wed 10am-11pm, Thu-Sat 10am-12am, Sun 10am-10pm\", walk_in_or_membership=walk-in, indoor_smoking_status=allowed, indoor_smoking_note=\"Lounge states indoor cigar smoking is welcomed\", facts_source_url=https://churchillsaz.com/phoenix/. No external ratings found yet (would need 3 independent cited sources before a LoungeScore can publish).",
-    "decision": null
-  },
-  {
     "item": "BLACKENED S84 Shade to Black Corona — critic score",
     "path": "/cigars/blackened/s84-shade-to-black/corona/",
     "reason": "insufficient_sources",
@@ -2175,18 +2164,6 @@
     "decision": null
   },
   {
-    "item": "Boston Cigar Club & Shop (Charlestown/Boston)",
-    "path": "/lounges/boston/boston-cigar-club/",
-    "reason": "new_lounge_city",
-    "why_flagged": "Boston is not yet in the lounge directory. Found a real, established cigar lounge and shop (73 Main St, Charlestown, MA 02129 - a Boston neighborhood), but public sources are ambiguous on whether lounge access is walk-in or membership-only, and none explicitly confirm indoor cigar smoking is permitted (only that it has a separate walk-in humidor and a lounge area) - needs a quick confirmation call or a clearer source before publishing.",
-    "sources_found": [
-      "https://www.bostoncigarclub.com/",
-      "https://www.yellowpages.com/charlestown-ma/mip/boston-cigar-club-559546978"
-    ],
-    "proposed_action": "If approved, add-lounge with: name=\"Boston Cigar Club & Shop\", city=Boston, state=MA, country=USA, address=\"73 Main St, Charlestown, MA 02129\", phone=\"(617) 242-6010\", website=https://www.bostoncigarclub.com/, hours_text=\"Shop 11am-8pm; Lounge 3pm-1am, 7 days/week\", walk_in_or_membership=membership (site says \"Join Today\" for the lounge; shop appears walk-in - confirm before publishing), indoor_smoking_status=allowed-with-restrictions (unconfirmed - verify directly), facts_source_url=https://www.bostoncigarclub.com/. No external ratings found yet (would need 3 independent cited sources before a LoungeScore can publish).",
-    "decision": null
-  },
-  {
     "item": "La Aroma de Cuba (flagship line) — real citation for the 93pt rating",
     "path": "/cigars/la-aroma-de-cuba/la-aroma-de-cuba/rothschild/",
     "reason": "fabricated_award",
@@ -2457,17 +2434,6 @@
     "decision": null
   },
   {
-    "item": "Davidoff Winston Churchill Limited Edition 2019 — The Traveler",
-    "path": null,
-    "reason": "new_line_candidate",
-    "why_flagged": "The submitted Winston Churchill batch included a fictional 'The Traveler (Belicoso) 4.5x46' vitola under the Original Collection. Research confirmed The Traveler is a real but entirely separate product: a Limited Edition 2019 release, Robusto format, 5x50 (with a 5x43 duty-free corona variant), rated 89pts by Cigar Aficionado (May 2019, Cigar Insider) — never packaged as part of the Original Collection.",
-    "sources_found": [
-      "cigaraficionado.com/rating/davidoff-winston-churchill-limited-edition-2019-the-traveler"
-    ],
-    "proposed_action": "If desired, add as its own line (Davidoff Winston Churchill Limited Edition 2019) with the correct 5x50 Robusto dimensions and the real citation, rather than folding it into the Original Collection.",
-    "decision": null
-  },
-  {
     "item": "Davidoff Escurio Gran Perfecto — omitted vitola",
     "path": null,
     "reason": "omitted_from_submission",
@@ -2636,19 +2602,6 @@
     "decision": null
   },
   {
-    "item": "The Smoking Cave (Highlands Ranch, CO)",
-    "path": "/lounges/highlands-ranch/the-smoking-cave/",
-    "reason": "new_lounge_city",
-    "why_flagged": "Highlands Ranch, CO (south Denver metro) is not yet in the lounge directory. Found a real, established cigar lounge/retailer (est. 2010-2011) with a walk-in humidor and members lounge, but public sources describe both a public lounge area and a private members lounge without a clear single walk-in-vs-membership classification, and no source explicitly confirms indoor cigar smoking is legally permitted beyond describing a large ventilation system - worth a quick confirmation before publishing, same caution as the pending Boston Cigar Club entry.",
-    "sources_found": [
-      "smokingcave.com (business website)",
-      "Chamber of Commerce business directory",
-      "Cigar Dojo (2012 lounge feature)"
-    ],
-    "proposed_action": "If approved, add-lounge with: name=\"The Smoking Cave\", city=\"Highlands Ranch\", state=CO, country=USA, address=\"5435 Boatworks Dr, Highlands Ranch, CO 80126\", phone=\"(303) 713-0022\", website=https://smokingcave.com/, hours_text=\"Mon-Sat 7:30am-10pm, Sun 10am-6pm\", walk_in_or_membership=both (public humidor/lounge plus a private members lounge), indoor_smoking_status=allowed-with-restrictions (unconfirmed - verify Colorado Clean Indoor Air Act cigar-tobacco-bar exemption applies at this address before publishing as fully allowed), facts_source_url=https://smokingcave.com/pages/about-us. No external ratings found yet (would need 3 independent cited sources before a LoungeScore can publish).",
-    "decision": null
-  },
-  {
     "item": "Graycliff 30-Year Vintage Pirate — mixed/unreliable critic reception, no citation added",
     "path": "/cigars/graycliff/30-year-vintage/pirate/",
     "reason": "conflicting_sources",
@@ -2680,18 +2633,6 @@
     "decision": null
   },
   {
-    "item": "New factory profile: Diadema Cigars de Honduras (Danlí, Honduras)",
-    "path": null,
-    "reason": "new_factory_and_brand_candidate",
-    "why_flagged": "Baccarat, a brand-new brand added this batch, is produced here per halfwheel's own reporting: \"Diadema Cigars de Honduras S.A. is the home to the Camacho brand as well as the Baccarat, La Fontana, Legendario and National brands.\" This factory replaced Davidoff's older AgroIndustrias Laepe S.A. plant and opened publicly 2015-2017 (corroborated by Cigar Aficionado, Tobacco Reporter, Cigar Coop, Cigar Dojo). Per CLAUDE.md, a new factory row needs owner approval before add-factory is called, so Baccarat's brand record currently uses this as a plain-text factory field rather than a linked factory_id.",
-    "sources_found": [
-      "halfwheel factory coverage (direct quote confirming brand roster)",
-      "Cigar Aficionado, Tobacco Reporter, Cigar Coop, Cigar Dojo (factory opening coverage)"
-    ],
-    "proposed_action": "If approved, call add-factory with name 'Diadema Cigars de Honduras', city 'Danlí', country 'Honduras', then update-brand to link baccarat's factory_id (and camacho's, if/when that brand is added).",
-    "decision": null
-  },
-  {
     "item": "Baccarat brand founding year — genuinely conflicting accounts",
     "path": null,
     "reason": "conflicting_sources",
@@ -2710,18 +2651,6 @@
     "why_flagged": "Belicoso, Gordo, Churchill (Maduro), and Nicaragua Toro all had no findable halfwheel/Cigar Aficionado/Cigar Coop score during this research pass. A widely-repeated '89 from Cigar Aficionado' figure for The Game line circulates in retailer marketing copy but could not be verified directly on cigaraficionado.com (the likely URL 404'd) and was deliberately not cited.",
     "sources_found": [],
     "proposed_action": "Revisit with fresh searches and add via add-critic-review as real sources are found; specifically try to directly locate the circulating 89pt CA score before ever citing it.",
-    "decision": null
-  },
-  {
-    "item": "New factory profile: Fábrica de Tabacos Joya de Nicaragua S.A. (Estelí, Nicaragua)",
-    "path": null,
-    "reason": "new_factory_and_brand_candidate",
-    "why_flagged": "Joya de Nicaragua, a brand-new brand added this batch, is produced at its own eponymous factory in Estelí — confirmed via halfwheel, Cigar Dojo, and the company's own materials. Per CLAUDE.md, a new factory row needs owner approval before add-factory is called, so the brand currently uses this as a plain-text factory field rather than a linked factory_id.",
-    "sources_found": [
-      "halfwheel/Cigar Dojo company tagging",
-      "joyacigars.com company description (\"100% Nicaraguan owned and operated\")"
-    ],
-    "proposed_action": "If approved, call add-factory with name 'Fábrica de Tabacos Joya de Nicaragua S.A.', city 'Estelí', country 'Nicaragua', then update-brand to link joya-de-nicaragua's factory_id.",
     "decision": null
   },
   {
@@ -2779,114 +2708,12 @@
     "decision": null
   },
   {
-    "item": "New factory profile: Tabacos Cubanica S.A. (Estelí, Nicaragua) — Padrón's factory",
-    "path": null,
-    "reason": "new_factory_candidate",
-    "why_flagged": "Padrón (brand id 1) already exists in the catalog with this factory named in its plain-text 'factory' field, but it isn't yet a profiled factory entity. A user submitted a full profile with no citations; independently verified before queuing. One correction needed: the submitted '17 facilities, 75,000 sq ft' figure is real but describes a specific 2003 expansion milestone (the 17th building Padrón owned in Estelí at that time), not the current footprint — a May 2024 Cigar Snob interview with Jorge Padrón states the company now operates roughly 22 buildings, with no updated total square footage found. Everything else in the submission checked out: 1964 Miami founding, 1970 Estelí expansion under the Tabacos Cubanica name, vertical integration across owned farms in Jalapa/Estelí, the tiered aging standards (2.5yr Padrón Series / 5yr Serie 1926 / 10yr Family Reserve), the Feb 2001 serial-numbered security bands on premium lines, the factory's genuine destruction by arson during the May 24, 1978 Sandinista-era uprising (not exaggerated), and the mid-1980s shift of production to Danlí, Honduras during the US embargo (Padrón actually had Honduras operations running since 1979 as a contingency, predating the embargo; that Honduras factory closed in 2007).",
-    "sources_found": [
-      "cigaraficionado.com/article/50-years-of-padron-cigars-17777",
-      "cigaraficionado.com/article/the-padron-family-a-nicaraguan-legacy-7522",
-      "robbreport.com obituary of José Orlando Padrón",
-      "cigarsdirect.com Nicaraguan Revolution survivor piece",
-      "padron.com official vertical-integration and product-aging pages",
-      "cigarsnobmag.com May 2024 Jorge Padrón interview (current ~22 buildings)"
-    ],
-    "proposed_action": "If approved, call add-factory with name 'Tabacos Cubanica S.A.', city 'Estelí', country 'Nicaragua', founded_year 1970, then update-brand to link padron's factory_id. Use corrected history_text noting the 2003 '17 buildings, 75,000 sq ft' milestone as historical, with a note that the company has since grown to roughly 22 buildings as of 2024.",
-    "decision": null
-  },
-  {
     "item": "Four new Padrón Natural-wrapper vitolas lack independent critic citations",
     "path": null,
     "reason": "insufficient_sources",
     "why_flagged": "1964 Anniversary Exclusivo Natural, 1926 Serie No. 2 Natural, 1926 Serie No. 90 Tubos Natural, and Family Reserve No. 50 Natural were all added this batch with dimensions/blend confirmed, but no critic score research was done this pass (focus was resolving Natural/Maduro pairing conflicts).",
     "sources_found": [],
     "proposed_action": "Research and add via add-critic-review when convenient — Padrón's core lines are heavily reviewed by Cigar Aficionado and halfwheel, so citations likely exist.",
-    "decision": null
-  },
-  {
-    "item": "New factory profile: OK Cigars (Ok Cigar Corp. Inc.), Villa González, Santiago, Dominican Republic",
-    "path": null,
-    "reason": "new_factory_and_brand_candidate",
-    "why_flagged": "A user submitted a full factory profile for AVO's manufacturing site — AVO is not yet a brand in our catalog either. Submission arrived with no citations; independently verified before queuing. One important correction: the submission implied OK Cigars and Davidoff's own factory are the same facility (matching how Davidoff's existing brand record vaguely says \"Davidoff/Tabadom factory\"), but they are actually sister facilities — OK Cigars (Ok Cigar Corp. Inc.) makes AVO, The Griffin's, Zino, and Cusano/Private Stock, while Cidav (Cigars Davidoff) is a separate, dedicated building for the premium Davidoff line — both under the same corporate parent, Tabadom Holding Inc. (an Oettinger Davidoff AG subsidiary), in the same Villa González complex, and as of a 2025 expansion now sharing a new central Blending Center. Also corrected: the submission called the Dominican tobacco varieties (Piloto Cubano, San Vicente, Olor) \"proprietary\" — these are standard, industry-wide Dominican varieties used by many cigar makers, not exclusive to AVO or Kelner.",
-    "sources_found": [
-      "cigar-coop.com/2025/02/davidoff-opens-expanded-production-facilities... (confirms OK Cigars and Cidav as distinct sister facilities)",
-      "panjiva.com Ok Cigar Corp. Inc. business listing",
-      "oettingerdavidoff.com crop-to-shop Dominican Republic production page",
-      "cigaraficionado.com Kelner profile and AVO brand page"
-    ],
-    "proposed_action": "If approved, call add-factory with name 'OK Cigars (Ok Cigar Corp. Inc.)', city 'Villa González', country 'Dominican Republic', founded_year left null (exact factory founding vs. 1987 brand origin vs. 1988 commercial launch is ambiguous across sources), history_text noting the sister-facility relationship to Cidav and the shared Tabadom/Oettinger Davidoff AG ownership, corrected tobacco-variety wording (real but not proprietary), and a note that some recent AVO lines (e.g. AVO Expresivo) have moved production to Honduras. AVO itself would need to be added as a new brand separately once/if cigar submissions for it arrive, following the same research-then-write process as other new brands this session.",
-    "decision": null
-  },
-  {
-    "item": "Chiang Mai lounges update: 1 new venue (The Service 1921 Brit Bar)",
-    "path": null,
-    "reason": "new_lounges",
-    "why_flagged": "Adds to the already-queued Chiang Mai item (CNX Cigars). CNX also reappears in this new batch with a minor address addition (building name 'NPARC') — not a conflict, just more detail.",
-    "sources_found": [
-      "The Service 1921 Brit Bar: CONFIRMED real via Anantara Chiang Mai's own site plus Wallpaper* and Luxury Travel Magazine coverage — genuinely housed in the former British Consulate building (1921), cigar/whisky/wine collection on the ground floor."
-    ],
-    "proposed_action": "Add The Service 1921 Brit Bar cleanly alongside the already-queued CNX Cigars.",
-    "decision": null
-  },
-  {
-    "item": "Phuket lounges update: Churchills Cigar Lounge (wrong address given) and Silk Cigar Lounge (likely mislabeled), plus clarification on the Whisgars closure",
-    "path": null,
-    "reason": "new_lounges_with_address_and_naming_issues",
-    "why_flagged": "Follows up on the prior Phuket queue item, which flagged Whisgars Tasting Room Phuket as likely closed/replaced by 'Churchill's' in 2025. This new submission's 'Churchills Cigar Lounge Phuket' confirms Churchill's is real, but the relationship is more nuanced than a simple rename: Churchill's was a separate, pre-existing Old Phuket Town business that expanded in 2025 partly BECAUSE Whisgars closed — it did not simply move into the Boat Lagoon space. The submitted address (\"Cherngtalay / Phuket Town Area, Kathu\") is wrong on district; sources place it in Mueang Phuket (Old Town, historically 2 Yaowarat Rd), with one less-corroborated source suggesting a newer 2025 move to Vichit subdistrict.",
-    "sources_found": [
-      "Churchills Cigar Lounge: CONFIRMED real via churchills.asia, Cigar Inspector, and Tripadvisor, but exact current street address needs owner confirmation — not the submitted Kathu/Cherngtalay address",
-      "Silk Cigar Lounge at Andara Resort: UNCONFIRMED — Andara Resort is real and the address matches, but no source (the resort's own site, Cigar Inspector, Cigar Emperor) documents a cigar lounge there. The resort's actual venue is 'SILK Restaurant & Bar', cocktail-focused with no cigar offering found."
-    ],
-    "proposed_action": "Hold Churchills pending a confirmed current street address (Old Town/Vichit, not Kathu). Hold Silk Cigar Lounge pending proof a cigar offering actually exists at Andara — may need to be dropped.",
-    "decision": null
-  },
-  {
-    "item": "Pattaya lounges update: 1 new venue (Heavenly Pavilion), address conflict on Havana Bar resolved",
-    "path": null,
-    "reason": "new_lounges_and_address_conflict_resolved",
-    "why_flagged": "This new submission gives a different address for the already-queued Havana Bar & Cigar Lounge (Holiday Inn Pattaya): \"463/100 Pattaya Beach Rd\" vs. the original \"463/68 Pattaya Sai 1 Rd\". Checked directly against Holiday Inn Pattaya's official IHG contact page — the original address is correct; the new submission's address is wrong (wrong unit AND wrong road name).",
-    "sources_found": [
-      "Heavenly Pavilion Cigar Lounge: CONFIRMED real via Pattaya Mail and Pattaya Trader coverage — three-story pavilion at Sugar Hut Resort & Sun Sabella, opened 2021, genuine Cuban cigar offering."
-    ],
-    "proposed_action": "Add Heavenly Pavilion cleanly. Keep the original Havana Bar address (463/68 Pattaya Sai 1 Rd) — disregard the new submission's address for that venue.",
-    "decision": null
-  },
-  {
-    "item": "Pattaya lounges update: 3 new venues, 1 address correction needed",
-    "path": null,
-    "reason": "new_lounges_with_address_issue",
-    "why_flagged": "Researched directly. Three of three venues confirmed real; one has a significant address error.",
-    "sources_found": [
-      "Cigarista Pattaya: CONFIRMED real, a well-established (14-year) cigar shop/lounge with a walk-in humidor on Pattaya 2nd Road (Pattayasaisong = Thai for '2nd Road') near Tipp Plaza. Minor address discrepancy across sources — submission says 104 Pattayasaisong Rd, a Waze listing says 219 — exact street number needs owner confirmation, but the venue and general location are solid.",
-      "LUNA Coffee & Cigar: CONFIRMED real as 'Luna Cafe & Cigar Lounge,' near Jomtien Beach, with a dedicated upstairs cigar/spirits lounge above the cafe. Could not independently verify an exact street address (the venue's own domain did not resolve) — submission's general 'Jomtien Beach Area' description is consistent with what's findable.",
-      "The Empire Luxury Private Club & Cigar Lounge: CONFIRMED real and genuinely an official Habanos venue with a proper walk-in humidor. Submitted address is WRONG — it's described consistently as \"Pratumnak Hill / South Pattaya\" in the submission, but the real address is 2nd Floor, 306/64-68 Thappraya Road, Moo 12, Nongprue, Banglamung — the Jomtien side of Pattaya, a different area from Pratumnak Hill."
-    ],
-    "proposed_action": "Add Cigarista and LUNA Coffee & Cigar cleanly (confirm Cigarista's exact street number before publishing). Add Empire Luxury Private Club with the corrected Thappraya Road/Jomtien address, not Pratumnak Hill.",
-    "decision": null
-  },
-  {
-    "item": "Chiang Mai lounges update: 1 new venue (Puravida Latin Bar & Cigar Lounge) — genuinely distinct from the already-queued Service 1921 Brit Bar",
-    "path": null,
-    "reason": "new_lounges",
-    "why_flagged": "Both this venue and the already-queued \"The Service 1921 Brit Bar\" are located at Anantara Chiang Mai Resort — checked whether this was a duplicate. It is not: Puravida is a genuinely separate Latin-themed bar and dedicated cigar smoking room at the same riverside resort, confirmed via Wanderlog, Tripadvisor, and an active Facebook/Instagram presence — a large resort property having two distinct bars is normal.",
-    "sources_found": [
-      "Wanderlog and Tripadvisor listings for Puravida Latin Bar & Cigar Lounge, Anantara Chiang Mai",
-      "active Facebook page (cnxpuravidacigarlounge) and Instagram (puravida_onenimman)"
-    ],
-    "proposed_action": "Add Puravida cleanly as a second, distinct Anantara Chiang Mai venue alongside the already-queued Service 1921 Brit Bar.",
-    "decision": null
-  },
-  {
-    "item": "Phuket lounges update: Sea Salt Lounge & Grill's cigar offering is an occasional event, not a standing lounge",
-    "path": null,
-    "reason": "new_lounge_with_scope_question",
-    "why_flagged": "Sea Salt Lounge & Grill (Patong, real restaurant, address closer to 225 Phrabarami Rd than the submitted 172 Phrabaramee Rd) is confirmed to host cigar-paired dinner events, but the cigars are supplied by a THIRD PARTY, \"Luna Walk International,\" for periodic ticketed \"Cigar Dinner\" events (per wheretoeat-phuket.com event listings) rather than an ongoing in-house humidor program like every other lounge in this directory. Worth an owner judgment call on whether an event-based offering belongs in a directory of standing cigar lounges.",
-    "sources_found": [
-      "wheretoeat-phuket.com event listing for the Sea Salt cigar dinner series",
-      "seasaltpatong.com (restaurant's own site)",
-      "Tripadvisor/Phuket Insider restaurant listings"
-    ],
-    "proposed_action": "Owner to decide: add with a clear \"event-based cigar program, not a standing lounge\" note, or exclude as out of scope for this directory.",
     "decision": null
   },
   {
@@ -2898,6 +2725,33 @@
       "lesfineslames.com (manufacturer store, 5.0/5)"
     ],
     "proposed_action": "Look for independent reviews (halfwheel, Cigar Aficionado, retailer user-review averages at Neptune Cigar/Holt's/etc.) with an actual numeric score, then add via add-accessory-review.",
+    "decision": null
+  },
+  {
+    "item": "Factory \"Diadema Cigars de Honduras\" is missing founded_year",
+    "path": "/factories/diadema-cigars-de-honduras/",
+    "reason": "Missing sourced fact on a brand/factory profile",
+    "why_flagged": "founded_year was not provided when this factory was added.",
+    "sources_found": [],
+    "proposed_action": "Research a citable source and call add-brand-source/add-factory-source, then update-brand/update-factory to fill the field.",
+    "decision": null
+  },
+  {
+    "item": "Factory \"Fábrica de Tabacos Joya de Nicaragua S.A.\" is missing founded_year",
+    "path": "/factories/joya-de-nicaragua-factory/",
+    "reason": "Missing sourced fact on a brand/factory profile",
+    "why_flagged": "founded_year was not provided when this factory was added.",
+    "sources_found": [],
+    "proposed_action": "Research a citable source and call add-brand-source/add-factory-source, then update-brand/update-factory to fill the field.",
+    "decision": null
+  },
+  {
+    "item": "Factory \"OK Cigars (Ok Cigar Corp. Inc.)\" is missing founded_year",
+    "path": "/factories/ok-cigars/",
+    "reason": "Missing sourced fact on a brand/factory profile",
+    "why_flagged": "founded_year was not provided when this factory was added.",
+    "sources_found": [],
+    "proposed_action": "Research a citable source and call add-brand-source/add-factory-source, then update-brand/update-factory to fill the field.",
     "decision": null
   }
 ]
