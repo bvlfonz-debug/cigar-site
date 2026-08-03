@@ -63,6 +63,55 @@ blog. Confident, refined, professional. Typography and whitespace carry the
 design; data visualizations (score bars, price history) are clean and
 restrained, not flashy. No stock-photo cigar clichés, no gimmicks.
 
+## Cigar Codex Design System
+The site's brand is **Cigar Codex** — "the definitive reference," styled as a
+modern digital archive rather than a typical review blog. This is the visual
+identity every new page should default to. It changes presentation only —
+nothing here alters the data model, schema, nightly automation, review
+queue, affiliate config, age gate, or FTC disclosure logic.
+
+- **Site name vs. score name**: "Cigar Codex" is the site/brand name (nav
+  wordmark, page-title suffix, footer). "Codex Score" is the unified,
+  user-facing score label shown on every cigar/accessory/lounge card and
+  detail page — it replaced the old StickScore/AccScore/LoungeScore display
+  names site-wide (owner decision, since keeping three different display
+  names read as inconsistent once the rebrand happened). **Internal
+  identifiers are deliberately untouched**: the `stick_score`/`acc_score`/
+  `lounge_score` DB columns, the `computeStickScore`/`computeAccScore`/
+  `computeLoungeScore` functions in `scripts/lib/stickscore.mjs`, and the
+  `stickscore-age-verified`/`stickscore-humidor-v1` storage keys all keep
+  their original names — only the rendered text changed. When adding new
+  pages or automation output, write user-facing copy as "Codex Score," but
+  keep using the existing column/function names in code.
+- **Palette**: ivory `#f8f6f2` (primary background), stone gray `#e7e3dd`
+  (section backgrounds), charcoal `#171717` (primary text). Gold `#b68c43`
+  is decorative-only (borders, small accents) — it fails WCAG AA as text
+  (~2.85:1). Any gold used as text or a link uses the darkened `#8a6428`
+  ("gold ink," ~4.95:1, passes AA). Bronze `#8b6b45` is a secondary accent.
+  Tokens live in `src/styles/global.css`'s `:root` block
+  (`--color-ink`, `--color-parchment`, `--color-gold`, `--color-gold-deep`,
+  etc.) — always use the tokens, never a hardcoded hex value.
+- **Typography**: `--font-wordmark` (Cinzel Variable) for the nav
+  wordmark/logotype only; `--font-display` (Cormorant Garamond Variable) for
+  headings; `--font-body` (IBM Plex Sans Variable) for body text and UI.
+  All three are self-hosted via `@fontsource-variable/*` packages (no
+  external font CDN, keeps Core Web Vitals clean).
+- **Logo**: `src/components/Logo.astro` — an inline SVG carved-monogram "CC"
+  mark (stone-tablet/engraved-inscription feel). No smoke, cigar, flame, or
+  tobacco-leaf imagery anywhere in the mark, per the brand brief.
+- **Cigar imagery**: the site has never had a real photo pipeline, and
+  stock/scraped cigar photography was ruled out as both cheap-looking and a
+  rights risk. `src/components/CigarEmblem.astro` renders a typographic
+  placeholder (brand initial, vitola type, dimensions) in the image slot on
+  the cigar detail page instead — if licensed photography is sourced later,
+  that's the only place it needs to be dropped in.
+- **Navigation**: kept every real existing section (Manufacturers, Factories,
+  Rankings, News, Guides, Calendar, Accessories, Pairings, Lounges, Deals, My
+  Humidor). No "Sign In" link — the site has no authentication system
+  anywhere, so a login control would be a fake affordance.
+- **Icons**: Lucide only. **Motion**: subtle only (fade/soft elevation), and
+  the global stylesheet respects `prefers-reduced-motion: reduce`.
+
 ## Data model (SQLite)
 - **brand**: id, name, slug, country, factory (plain-text fallback), factory_id
   (nullable link to a profiled factory), founded_year, story_short
