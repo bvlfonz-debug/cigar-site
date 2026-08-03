@@ -1,0 +1,26 @@
+---
+// Deliberate answer to "what to do about images": this site has never had
+// a photo pipeline, and scraped/stock cigar photography is both cheap-
+// looking and a rights risk. Rather than silently bolt on stock images,
+// every cigar gets a consistent typographic emblem in their place — a
+// carved specimen-label treatment (initial + dimensions + vitola shape)
+// that reads as intentional archival design, not a missing photo. If
+// legitimately-licensed photography is sourced later, this slot is where
+// it would go — nothing else on the page needs to change.
+interface Props {
+  brandInitial: string;
+  vitolaType: string;
+  lengthIn: number;
+  ringGauge: number;
+}
+const { brandInitial, vitolaType, lengthIn, ringGauge } = Astro.props;
+---
+
+<div class="cigar-emblem" aria-hidden="true">
+  <div class="cigar-emblem__frame">
+    <span class="cigar-emblem__initial">{brandInitial}</span>
+    <span class="cigar-emblem__rule"></span>
+    <span class="cigar-emblem__vitola">{vitolaType}</span>
+    <span class="cigar-emblem__dims">{lengthIn}&Prime; &times; {ringGauge}</span>
+  </div>
+</div>

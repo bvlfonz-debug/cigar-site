@@ -1,8 +1,10 @@
 ---
-import '@fontsource-variable/fraunces/standard.css';
-import '@fontsource-variable/public-sans/wght.css';
+import '@fontsource-variable/cinzel/wght.css';
+import '@fontsource-variable/cormorant-garamond/wght.css';
+import '@fontsource-variable/ibm-plex-sans/wght.css';
 import '../styles/global.css';
 import AgeGate from '../components/AgeGate.astro';
+import Logo from '../components/Logo.astro';
 
 interface Props {
   title: string;
@@ -25,25 +27,30 @@ const { title, description, noindex = false } = Astro.props;
     <AgeGate />
     <header class="site-header">
       <div class="site-header__inner">
-        <a class="site-header__brand" href="/">StickScore</a>
+        <a class="site-header__brand-group" href="/">
+          <Logo class="site-header__mark" />
+          <span class="site-header__wordmark">
+            <span class="site-header__brand">Cigar Codex</span>
+            <span class="site-header__tagline">The Definitive Reference</span>
+          </span>
+        </a>
         <nav class="site-header__nav">
-          <a href="/brands/">Brands</a>
+          <a href="/brands/">Manufacturers</a>
           <a href="/factories/">Factories</a>
           <a href="/rankings/">Rankings</a>
-          <a href="/deals/">Deals</a>
           <a href="/news/">News</a>
+          <a href="/guides/">Guides</a>
           <a href="/calendar/">Calendar</a>
           <a href="/accessories/">Accessories</a>
-          <a href="/guides/">Guides</a>
           <a href="/pairings/">Pairings</a>
           <a href="/lounges/">Lounges</a>
+          <a href="/deals/">Deals</a>
           <a href="/humidor/">My Humidor</a>
         </nav>
         <form class="site-header__search" action="/search/" method="get">
-          <input type="search" name="q" placeholder="Search cigars…" aria-label="Search cigars by name" />
+          <input type="search" name="q" placeholder="Search the archive…" aria-label="Search cigars by name" />
           <button type="submit">Search</button>
         </form>
-        <span class="site-header__tagline">A Considered Record for the Discerning Smoker</span>
       </div>
     </header>
     <main>
@@ -51,7 +58,7 @@ const { title, description, noindex = false } = Astro.props;
     </main>
     <footer class="site-footer">
       <div class="site-footer__inner">
-        StickScore weighs published critic reviews and retailer ratings into a single,
+        Cigar Codex weighs published critic reviews and retailer ratings into a single,
         comparable figure per cigar. We do not sell cigars directly, and we do not present
         this aggregate as a first-hand account — every source is cited in full on its page.
       </div>

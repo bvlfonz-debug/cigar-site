@@ -1,25 +1,27 @@
+/* Cigar Codex design system.
+   Palette contrast verified against WCAG AA (4.5:1 body text) before use:
+     charcoal on ivory      ~16.6:1
+     gold-ink on ivory       ~4.9:1  (raw gold alone is only ~2.9:1 — decorative use only, never body/label text)
+     bronze on ivory         ~4.5:1  (right at the AA line — prefer charcoal for anything load-bearing)
+   See CLAUDE.md "Cigar Codex Design System" for the full rationale. */
 :root {
-  --color-ink: #1c1815;
-  --color-ink-soft: #3a332c;
-  --color-parchment: #faf7f0;
-  --color-parchment-dim: #f0ead9;
-  --color-rule: #ddd3bd;
-  --color-gold: #a9762f;
-  --color-gold-deep: #8a5f22;
+  --color-ink: #171717;           /* charcoal — primary text */
+  --color-ink-soft: #47443e;      /* softened charcoal — meta text, secondary copy */
+  --color-parchment: #f8f6f2;     /* ivory — page background */
+  --color-parchment-dim: #e7e3dd; /* stone — section/card backgrounds */
+  --color-white: #ffffff;
+  --color-rule: #d9d3c7;          /* hairline dividers */
+  --color-gold: #b68c43;          /* ancient gold — decorative accents ONLY (rules, underlines, large numerals). Fails AA as text on ivory. */
+  --color-gold-deep: #8a6428;     /* readable gold — the only gold safe for text/links (~4.9:1 on ivory) */
+  --color-bronze: #8b6b45;        /* secondary accent — labels/links, not body copy */
   --color-green: #4b5d45;
   --color-red: #8c3a2b;
 
-  --font-display: 'Fraunces Variable', Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif;
-  --font-body: 'Public Sans Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-wordmark: 'Cinzel Variable', Cambria, Georgia, serif;         /* engraved capitals — logo + the single most ceremonial headline only */
+  --font-display: 'Cormorant Garamond Variable', Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif; /* the everyday editorial serif — all other headings */
+  --font-body: 'IBM Plex Sans Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
 
-  /* Fraunces is a multi-axis variable font (weight + optical size); a higher
-     opsz at large display sizes brings out its characterful, high-contrast
-     serif detail, while text-sized headings stay closer to its quieter
-     default so small print never looks quirky. */
-  --display-opsz-large: 'opsz' 72, 'wght' 480;
-  --display-opsz-text: 'opsz' 18, 'wght' 500;
-
-  --shadow-card: 0 1px 2px rgba(28, 24, 21, 0.04), 0 4px 14px rgba(28, 24, 21, 0.05);
+  --shadow-card: 0 1px 2px rgba(23, 23, 23, 0.04), 0 4px 14px rgba(23, 23, 23, 0.05);
 
   --max-width: 46rem;
 }
@@ -47,39 +49,75 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 a {
   color: inherit;
 }
 
 .site-header {
-  background: var(--color-ink);
-  color: var(--color-parchment);
-  padding: 1.5rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--color-white);
+  color: var(--color-ink);
+  border-bottom: 1px solid var(--color-rule);
+  padding: 1.1rem 1.5rem;
 }
 
 .site-header__inner {
-  max-width: 64rem;
+  max-width: 72rem;
   margin: 0 auto;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
-  gap: 1.25rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
+}
+
+.site-header__brand-group {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: var(--color-ink);
+}
+
+.site-header__mark {
+  flex: none;
+  width: 2rem;
+  height: 2rem;
+}
+
+.site-header__wordmark {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
 }
 
 .site-header__nav {
   display: flex;
-  gap: 1.25rem;
+  gap: 1.5rem;
   font-size: 0.85rem;
 }
 
 .site-header__nav a {
   text-decoration: none;
-  color: var(--color-parchment);
+  color: var(--color-ink-soft);
   border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.site-header__nav a:hover {
+.site-header__nav a:hover,
+.site-header__nav a:focus-visible {
+  color: var(--color-ink);
   border-bottom-color: var(--color-gold);
 }
 
@@ -91,9 +129,9 @@ a {
 .site-header__search input {
   font-family: var(--font-body);
   font-size: 0.85rem;
-  padding: 0.4rem 0.6rem;
+  padding: 0.45rem 0.7rem;
   border: 1px solid var(--color-rule);
-  border-radius: 4px;
+  border-radius: 999px;
   background: var(--color-parchment);
   color: var(--color-ink);
   width: 12rem;
@@ -102,45 +140,47 @@ a {
 .site-header__search button {
   font-family: var(--font-body);
   font-size: 0.85rem;
-  padding: 0.4rem 0.75rem;
-  border: 1px solid var(--color-gold);
-  border-radius: 4px;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--color-ink);
+  border-radius: 999px;
   background: transparent;
-  color: var(--color-parchment);
+  color: var(--color-ink);
   cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
 }
 
 .site-header__search button:hover {
-  background: var(--color-gold);
-  color: var(--color-ink);
+  background: var(--color-ink);
+  color: var(--color-white);
 }
 
 .site-header__brand {
-  font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-text);
-  font-weight: 560;
-  font-size: 1.55rem;
-  letter-spacing: 0.01em;
+  font-family: var(--font-wordmark);
+  font-weight: 550;
+  font-size: 1.15rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   text-decoration: none;
-  color: var(--color-parchment);
+  color: var(--color-ink);
 }
 
 .site-header__tagline {
-  font-size: 0.8rem;
-  color: var(--color-rule);
-  letter-spacing: 0.04em;
+  font-size: 0.68rem;
+  color: var(--color-bronze);
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 main {
   max-width: 64rem;
   margin: 0 auto;
-  padding: 2.5rem 1.5rem 5rem;
+  padding: 3rem 1.5rem 5rem;
 }
 
 .site-footer {
   border-top: 1px solid var(--color-rule);
-  padding: 2rem 1.5rem;
+  background: var(--color-parchment-dim);
+  padding: 2.5rem 1.5rem;
   color: var(--color-ink-soft);
   font-size: 0.85rem;
 }
@@ -153,8 +193,26 @@ main {
 /* Cigar detail page */
 
 .cigar-hero {
-  max-width: var(--max-width);
+  max-width: 54rem;
   margin: 0 auto 3rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.cigar-hero__text {
+  min-width: 0;
+}
+
+@media (max-width: 40rem) {
+  .cigar-hero {
+    grid-template-columns: 1fr;
+  }
+  .cigar-hero__emblem {
+    order: -1;
+    margin: 0 auto 1.5rem;
+  }
 }
 
 .cigar-hero__eyebrow {
@@ -169,13 +227,56 @@ main {
 
 .cigar-hero__title {
   font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-large);
   font-weight: 480;
   font-size: 3.1rem;
   line-height: 1.05;
   letter-spacing: -0.01em;
   margin: 0.4rem 0 0.6rem;
   text-wrap: balance;
+}
+
+/* Typographic emblem — stands in for a product photo. See CigarEmblem.astro. */
+.cigar-emblem__frame {
+  width: 9rem;
+  height: 11.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-rule);
+  border-radius: 2px;
+  box-shadow: var(--shadow-card);
+  padding: 1rem;
+}
+
+.cigar-emblem__initial {
+  font-family: var(--font-wordmark);
+  font-size: 2.75rem;
+  font-weight: 500;
+  color: var(--color-gold-deep);
+  line-height: 1;
+}
+
+.cigar-emblem__rule {
+  width: 2rem;
+  height: 1px;
+  background: var(--color-gold);
+}
+
+.cigar-emblem__vitola {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-ink-soft);
+  text-align: center;
+}
+
+.cigar-emblem__dims {
+  font-size: 0.78rem;
+  color: var(--color-ink-soft);
+  font-variant-numeric: tabular-nums;
 }
 
 .cigar-hero__subtitle {
@@ -198,7 +299,6 @@ main {
 
 .score-panel__number {
   font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-large);
   font-weight: 520;
   font-size: 3.6rem;
   line-height: 1;
@@ -235,7 +335,6 @@ main {
 
 .section__heading {
   font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-text);
   font-weight: 560;
   font-size: 1.5rem;
   letter-spacing: -0.005em;
@@ -449,7 +548,6 @@ main {
 
 .home-hero__title {
   font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-large);
   font-weight: 480;
   font-size: 2.9rem;
   line-height: 1.08;
@@ -494,7 +592,6 @@ main {
 
 .cigar-card__name {
   font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-text);
   font-weight: 520;
   font-size: 1.45rem;
   margin: 0.3rem 0 0.35rem;
@@ -563,7 +660,6 @@ main {
 
 .age-gate__title {
   font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-text);
   font-weight: 560;
   font-size: 1.65rem;
   margin: 0 0 0.75rem;
@@ -679,7 +775,6 @@ main {
 
 .brand-hero__title {
   font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-large);
   font-weight: 480;
   font-size: 2.85rem;
   line-height: 1.08;
@@ -699,7 +794,6 @@ main {
 .brand-stats strong {
   display: block;
   font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-text);
   font-weight: 520;
   font-size: 1.45rem;
   color: var(--color-ink);
@@ -711,7 +805,6 @@ main {
 
 .line-group__name {
   font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-text);
   font-weight: 520;
   font-size: 1.25rem;
   margin: 0 0 0.5rem;
@@ -746,7 +839,6 @@ main {
 
 .news-item__title {
   font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-text);
   font-weight: 520;
   font-size: 1.45rem;
   margin: 0 0 0.5rem;
@@ -773,7 +865,6 @@ main {
 .news-teaser__item strong {
   display: block;
   font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-text);
   font-size: 1.15rem;
   font-weight: 500;
   margin-bottom: 0.15rem;
@@ -830,7 +921,6 @@ main {
 
 .compare-table thead th {
   font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-text);
   font-size: 1.25rem;
   font-weight: 500;
   border-bottom: 2px solid var(--color-ink);
@@ -859,7 +949,6 @@ main {
 .deal-card__pct {
   color: var(--color-gold-deep);
   font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-text);
   font-weight: 560;
   font-size: 1.6rem;
 }
@@ -920,7 +1009,6 @@ main {
 
 .pros-cons-heading {
   font-family: var(--font-display);
-  font-variation-settings: var(--display-opsz-text);
   font-size: 1.15rem;
   font-weight: 500;
   margin: 0 0 0.6rem;
