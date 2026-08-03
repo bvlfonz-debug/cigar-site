@@ -15,6 +15,14 @@ Today is a "cigars" night on the 3-way rotation with accessories and lounges
   in our brand catalog, so this is news-only for now, no linked cigar page.
   Also logged it on the release calendar (`/calendar`) since it's reporting
   a specific upcoming release, cross-linked to the news brief.
+- **Prices checked**: two clean prices found and recorded, both first-ever
+  checks for these vitolas so nothing to compare against yet — Crowned
+  Heads Le Pâtissier Canonazo, $11.50/stick ($207 box of 20) at Cigars
+  Direct; Viaje Honey & Hand Grenades The Shiv, $274/box of 25 at Atlantic
+  Cigar Company (no single-stick price listed there). Skipped Dunbarton
+  Sobremesa Cervantes Fino — every retailer page tried (JR Cigars 404'd,
+  Neptune/Caribbean Cigars/Tobaccology either blocked the fetch or didn't
+  expose a price, Smokingpipes shows it sold out) so nothing clean to record.
 
 ## 2026-08-02 — Sunday run: lounges night
 
