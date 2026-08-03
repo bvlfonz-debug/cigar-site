@@ -261,11 +261,25 @@ Steps in order:
   NEEDS-ATTENTION line in run-log.md rather than retrying in a loop.
 
 ## Human review loop
-The owner skims data/review-queue.json weekly (~20 min). Each queued item must
-include: what it is, why flagged, sources found, proposed action, and a simple
-approve/reject field the owner can edit. Applied on the next run. Rejected
-items are remembered and not re-proposed. Keep the queue small and readable —
-it is written for a non-technical human.
+Each queued item must include: what it is, why flagged, sources found,
+proposed action, and a simple approve/reject field the owner can edit at any
+time. If the owner marks an item approved (or rejected) themselves, that
+decision is applied/respected on the next run, same as always.
+
+As of 2026-08, the nightly automation also triages the queue itself every
+Sunday (see the "Weekly queue triage" step in .github/workflows/nightly.yml)
+rather than relying solely on the owner to skim it — informational
+tracking entries (insufficient_sources, conflicting_facts, etc.) are left
+alone since they don't need a decision, but genuinely-new-entity proposals
+(new brand/line/lounge/factory/accessory-category candidates) get
+independently re-verified and approved, rejected, or explicitly left for
+the owner's judgment on legal/scope calls the automation can't confidently
+make itself. Every decision is logged plainly in data/run-log.md so the
+owner can see, after the fact, exactly what was added or rejected on their
+behalf and why — this replaces manual weekly review as the primary way the
+queue gets worked down, not just a backstop for when the owner forgets.
+Keep the queue small and readable regardless of who's triaging it — it is
+written for a non-technical human to be able to follow either way.
 
 ## Accessories Expansion
 Humidors, torch/soft-flame lighters, cutters, ashtrays, hygrometers,
