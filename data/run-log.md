@@ -21,6 +21,23 @@ Today is an "accessories" night on the 3-way rotation with cigars and lounges
   Lester's cigar log book, Xikar PuroTemp hygrometer, CI Large Analog
   Hygrometer, Boveda 65% RH pack, Case Elegance Flint travel case) stay at 2
   sources — nothing usable and unambiguously-matching found tonight.
+- **Prices checked**: tried five never-before-checked accessories (Prestige
+  Import Group Onyx 50-Count Humidor, Boveda 65% RH Size 60 pack, Zico ZD-60
+  lighter) and none produced a clean, trustworthy price. Famous Smoke's page
+  for the Boveda pack showed $45.99 for what it labeled a single 60g pack —
+  far above the normal street price for that item, so likely a scraping/page
+  mismatch rather than a real single-pack price — skipped rather than record
+  a number that looks wrong. Shades of Havana (Onyx humidor) and Cigars
+  International (Boveda) returned 403/429 errors; Neptune Cigar's Boveda
+  page 404'd; no clean listing found for the Zico lighter. Nothing added to
+  price history tonight rather than guess.
+- **News**: no accessory news item added. Searches turned up only generic
+  "2026 trends" blog roundups, not a specific dated product launch from a
+  citable source, so nothing met the bar to add.
+- **Queue**: nothing owner-approved was waiting to act on tonight.
+- **Errors**: none fatal — several retailer pages blocked or 404'd (noted
+  above), each skipped rather than guessed at. Site builds cleanly (18,204
+  pages). Stopping here for tonight given the weekday budget.
 
 ## 2026-08-03 — Weekday run: cigars night
 Today is a "cigars" night on the 3-way rotation with accessories and lounges
