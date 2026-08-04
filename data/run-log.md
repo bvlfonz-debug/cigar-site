@@ -4,6 +4,24 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-08-04 — Weekday run: accessories night
+Today is an "accessories" night on the 3-way rotation with cigars and lounges
+(see CLAUDE.md). Kept it light since it's a weekday.
+
+- **Scores**: looked for a genuine third independent source for ten
+  accessories stuck at 2 sources. Most leads didn't pan out — Developing
+  Palates' and Cigar Advisor's Palio/PuroTemp write-ups turned out to be
+  pros/cons pieces with no numeric score, and a JR Cigars Boveda link
+  404'd — but Holt's Cigar Co.'s product page gave a clean customer-rating
+  average (4.75/5, 2 reviews) for the Palio Cutter, a source distinct from
+  its existing CigarInspector.com and Amazon entries. Added it and
+  recomputed: Palio Cutter now has a published AccScore of 85.25 (3
+  sources) instead of "insufficient data." The other nine (NewAir CC-300H
+  humidor, Xikar Volta, Colibri Quasar Table Lighter, Xikar EX, Nathan Scott
+  Lester's cigar log book, Xikar PuroTemp hygrometer, CI Large Analog
+  Hygrometer, Boveda 65% RH pack, Case Elegance Flint travel case) stay at 2
+  sources — nothing usable and unambiguously-matching found tonight.
+
 ## 2026-08-03 — Weekday run: cigars night
 Today is a "cigars" night on the 3-way rotation with accessories and lounges
 (see CLAUDE.md). Kept it light since it's a weekday.
