@@ -940,3 +940,27 @@ Today is a "cigars" night on the 3-way rotation with accessories and lounges
 - **Errors**: none. Site builds cleanly. Stopping here for tonight given the
   weekday budget — score recompute had nothing new to act on since no new
   critic reviews were confirmed tonight.
+
+## 2026-08-05 — Weekday run: lounges night
+Today is a "lounges" night on the 3-way rotation with cigars and accessories
+(see CLAUDE.md). Kept it light since it's a weekday. Not a Sunday, so no
+queue triage this run.
+
+- **Ratings**: tried to find a 3rd independent numeric-score source for
+  lounges sitting at 1-2 sources — closest was Casa de Montecristo by JR
+  Cigar (Mooresville, NC), already at 2 (Google, Foursquare) and just
+  needing one more. Yelp and TripAdvisor both blocked automated access
+  (403) for every lounge tried, same pattern as accessory retailer pages in
+  past runs, and search-summary tools gave inconsistent, unverifiable
+  numbers for the same listing on repeat queries — since a rating is a
+  factual claim I won't publish a number I can't confirm directly from the
+  source page. No lounge scores changed tonight.
+- **New lounge/city proposed**: Washington, DC has no lounges in our
+  directory yet. Found Shelly's Back Room, a well-known DC cigar lounge
+  covered by Cigar Aficionado, and confirmed its address/phone directly
+  from the business's own site plus DC's official tourism listing. Queued
+  it (reason: new_lounge_city) rather than adding it directly, since new
+  cities always need your sign-off first — hours, walk-in-vs-membership,
+  and smoking policy still need sourcing before it could actually be added.
+- **Errors**: none. Site builds cleanly (18,390 pages). Stopping here for
+  tonight given the weekday budget.
