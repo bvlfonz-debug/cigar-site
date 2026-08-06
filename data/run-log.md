@@ -4,6 +4,32 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-08-06 — Weekday run: cigars night
+Today is a "cigars" night on the 3-way rotation with accessories and lounges
+(see CLAUDE.md). Kept it light since it's a weekday. Not a Sunday, so no
+queue triage this run.
+
+- **News**: added one brief — AJ Fernandez's new Diesel Uncaged, a
+  full-time addition to the Diesel line (Nicaraguan habano criollo wrapper
+  over Nicaraguan binder/filler, medium-full body), launching in Robusto
+  (5.5x52), Toro (6x52), and Gigante (6x60) at roughly $6.29-$7.39/cigar,
+  via halfwheel. This specific line isn't in our database yet, so the brief
+  stands alone with no linked cigar page for now, same as past similar
+  briefs.
+- **Prices checked**: picked three never-before-checked vitolas. Brick
+  House Maduro Toro was skipped — every retailer page tried either 403'd
+  or wouldn't show an exact price/box-count. The other two came back
+  clean, both first-ever checks so nothing to compare against: Oliva Serie
+  O Maduro Double Toro, $80.42/box of 10 at Atlantic Cigar Company;
+  Padrón Family Reserve No. 44, $366.99/box of 10 at JR Cigar.
+- **Scores**: looked for a third independent source on the queued Ashton
+  VSG Robusto (stuck at 2 sources: Cigar Aficionado, Stogies on the Rocks).
+  Found a halfwheel review, but it's for the "Robusto Especial" size and
+  halfwheel blocked automated fetching (402 error) before I could confirm
+  whether that's the same vitola as our 5.5x50 Robusto or a distinct size —
+  left it queued rather than guess at a match.
+- **Errors**: none. Site builds cleanly (18,499 pages).
+
 ## 2026-08-04 — Weekday run: accessories night
 Today is an "accessories" night on the 3-way rotation with cigars and lounges
 (see CLAUDE.md). Kept it light since it's a weekday.
