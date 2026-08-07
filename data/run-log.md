@@ -21,7 +21,19 @@ so no queue triage this run.
   Neptune Cigar's pages didn't expose a review section in what was
   fetched, and Cigars International (403) and HumidorDiscount (404)
   blocked/removed the pages tried. Both stay queued for a future pass.
-- Site builds cleanly. More work below as the run continues.
+- **Prices checked**: picked two accessories with no price history yet.
+  Most retailer pages tried 403'd or 404'd (same pattern as recent runs),
+  but two came through clean: Xikar Ash Can (Portable Stainless Steel),
+  $26.99 at CigarsCrafter (marked down from $29.99); Prestige Import Group
+  Onyx 50-Count High Gloss Humidor, $94.95 at Humidor Enthusiast (currently
+  listed as backordered/unavailable there, but that's a stock-status
+  detail, not a price detail — recorded as usual).
+- **NEEDS-ATTENTION**: ran out of turns before reaching the news-ingest
+  step (looking for new accessory reviews/roundups to brief, and any
+  new-product/category candidates for the queue) and the broader page
+  regeneration pass. Nothing was left half-done — everything above is
+  fully committed. Site builds cleanly (18,499 pages). Stopping here for
+  tonight given the weekday budget.
 
 ## 2026-08-06 — Weekday run: cigars night
 Today is a "cigars" night on the 3-way rotation with accessories and lounges
