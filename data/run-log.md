@@ -4,6 +4,25 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-08-07 — Weekday run: accessories night
+Today is an "accessories" night on the 3-way rotation with cigars and
+lounges (see CLAUDE.md). Kept it light since it's a weekday. Not a Sunday,
+so no queue triage this run.
+
+- **Scores**: went looking for a 3rd independent source on accessories
+  stuck at exactly 2 sources. Found one clean hit: SmokeInn's product page
+  for the Boveda 65% RH Two-Way Humidification Pack (Size 60) shows a real
+  customer rating breakdown (141 reviews: 117 five-star, 17 four-star, 3
+  three-star, 3 two-star, 1 one-star — works out to about 4.7/5), giving it
+  a 3rd independent source alongside Boveda's own site and Cigars
+  International. AccScore is now live at 97.3/100 and the item is off the
+  review queue. Tried the same for Xikar Volta and Xikar PuroTemp
+  hygrometer (both also stuck at 2 sources) but couldn't confirm a 3rd —
+  Neptune Cigar's pages didn't expose a review section in what was
+  fetched, and Cigars International (403) and HumidorDiscount (404)
+  blocked/removed the pages tried. Both stay queued for a future pass.
+- Site builds cleanly. More work below as the run continues.
+
 ## 2026-08-06 — Weekday run: cigars night
 Today is a "cigars" night on the 3-way rotation with accessories and lounges
 (see CLAUDE.md). Kept it light since it's a weekday. Not a Sunday, so no

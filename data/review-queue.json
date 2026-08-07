@@ -475,18 +475,6 @@
     "decision": null
   },
   {
-    "item": "Boveda 65% RH Two-Way Humidification Pack (Size 60)",
-    "path": "/accessories/humidification-systems/boveda-65-rh-size-60/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
-    "sources_found": [
-      "Boveda (4.9/5)",
-      "Cigars International (5/5)"
-    ],
-    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
-    "decision": null
-  },
-  {
     "item": "Heartfelt Industries Humidity Beads (65% RH)",
     "path": "/accessories/humidification-systems/heartfelt-industries-humidity-beads-65-rh/",
     "reason": "insufficient_sources",
