@@ -4,6 +4,32 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-08-08 — Weekday run: lounges night
+Today is a "lounges" night on the 3-way rotation with cigars and
+accessories (see CLAUDE.md). Saturday, not Sunday, so no queue triage this
+run.
+
+- **Ratings**: worked through lounges sitting at 1-2 sources, trying to
+  push them over the 3-source publish threshold. Found one genuine new
+  citation: BURN by Rocky Patel (Atlanta) now has a confirmed Foursquare
+  rating, 7.9/10 from 10 ratings — recorded it. That brings Atlanta to 2
+  sources (Google + Foursquare), still short of 3, so no score published
+  yet. Tried hard for a 3rd source there and for Casa de Montecristo by JR
+  Cigar (Mooresville, already at 2) — Yelp and TripAdvisor both blocked
+  direct page access (403) for every lounge tried, same pattern as recent
+  nights, and search-result summaries for those two sites wouldn't
+  reliably surface the actual star number, just review counts — so nothing
+  guessed or published from an unconfirmed figure. Also checked a
+  Chamber-of-Commerce listing for Iwan Ries & Co. (Chicago) but skipped it
+  as a source since it appears to just re-publish Google's rating rather
+  than being independently sourced.
+- **New lounge/city**: nothing new queued tonight. Washington, DC (Shelly's
+  Back Room) is still sitting in the queue from 2026-08-05 awaiting your
+  decision — no update needed there, just a reminder it's still waiting on
+  you.
+- **Errors**: none. Site builds cleanly (18,499 pages). Stopping here for
+  tonight given the weekday budget.
+
 ## 2026-08-07 — Weekday run: accessories night
 Today is an "accessories" night on the 3-way rotation with cigars and
 lounges (see CLAUDE.md). Kept it light since it's a weekday. Not a Sunday,
