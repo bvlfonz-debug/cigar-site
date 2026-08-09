@@ -1082,3 +1082,27 @@ turn budget runs out.
   product's price).
 - **Score recompute**: nothing to recompute tonight — no new critic reviews
   were confirmed.
+- **Weekly queue triage** (Sundays only): the queue had 256 items, but only
+  one was a genuinely-new-entity proposal needing a decision — everything
+  else was informational (insufficient-sources gap notes, conflicting-facts
+  notes, etc.) and left alone as instructed. The one decision:
+  - **Approved and added**: Shelly's Back Room, a cigar tavern in
+    Washington, DC, queued last Sunday (2026-08-05). Re-checked all three
+    of that entry's sources tonight — the venue's own site, Cigar
+    Aficionado's feature, and DC's official tourism listing — and all
+    three are still live and still say what the queue entry claimed:
+    real address (1331 F Street NW), real phone, a genuine cigar lounge.
+    Nothing in git history or past run-log entries conflicts with adding
+    it. Added it as our first Washington, DC lounge with the facts that
+    were cleanly sourced (address, phone, website, overview, and indoor
+    smoking marked "allowed" — DC's tourism site describes the venue's own
+    ventilation system as built "for smokers & non-smokers alike," and
+    Cigar Aficionado's writer describes smoking there). Two things stayed
+    unset rather than guessed: hours and walk-in-vs-membership status —
+    the venue's own site doesn't state either, and two secondary listing
+    sites gave conflicting hours, so I queued a small follow-up note
+    (not a decision item, just a gap tracker, same pattern as a missing
+    factory founded_year) instead of picking one arbitrarily. No LoungeScore
+    yet — that needs 3 independent cited ratings, none gathered tonight.
+  - Nothing was rejected, and nothing was left for you to decide on tonight
+    — the one item was clear enough to act on directly.

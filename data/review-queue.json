@@ -2743,16 +2743,16 @@
     "decision": null
   },
   {
-    "item": "Shelly's Back Room — potential new lounge/city (Washington, DC)",
-    "path": null,
-    "reason": "new_lounge_city",
-    "why_flagged": "Washington, DC has no lounges in our directory yet. Shelly's Back Room (1331 F Street NW, Washington, DC, (202) 737-3003) is a well-known upscale cigar lounge featured by Cigar Aficionado, a block from Metro Center. Confirmed address/phone directly from the business' own site (shellysbackroom.com) and cross-checked against Washington.org's official DC tourism listing. Hours, walk-in-vs-membership status, and indoor smoking policy were NOT confirmed from a citable source tonight (the official site's homepage didn't state them and deeper pages weren't checked this pass), so those fields are still missing and would need to be sourced before add-lounge.",
+    "item": "Shelly's Back Room (Washington, DC) is missing hours and walk-in/membership status",
+    "path": "/lounges/washington-dc/shellys-back-room/",
+    "reason": "Missing sourced fact on a lounge profile",
+    "why_flagged": "Sources checked at add-time (own site, Cigar Aficionado feature, DC tourism listing) confirmed address, phone, and that indoor smoking is permitted, but none gave a clean statement of current hours or whether the venue is walk-in vs membership. Two secondary aggregator sites showed conflicting hours, so none were used rather than guess.",
     "sources_found": [
-      "https://shellysbackroom.com/ (official site — address/phone/amenities)",
-      "https://www.cigaraficionado.com/article/shellys-back-room-washington-dc-3785 (Cigar Aficionado feature)",
-      "https://washington.org/find-dc-listings/shellys-back-room (DC official tourism listing)"
+      "https://shellysbackroom.com/",
+      "https://www.cigaraficionado.com/article/shellys-back-room-washington-dc-3785",
+      "https://washington.org/find-dc-listings/shellys-back-room"
     ],
-    "proposed_action": "If approved, research hours, walk-in/membership status, and indoor smoking policy from the venue's own site or a phone/in-person check, then add via add-lounge with a real facts_source_url. No external ratings researched yet — those would come after via add-lounge-external-rating once independent numeric-score sources are found.",
+    "proposed_action": "Confirm current hours and walk-in/membership status directly from the venue (phone call or a clearer page on their own site), then call update-lounge-equivalent fields via a future add/update pass.",
     "decision": null
   }
 ]
