@@ -1072,4 +1072,13 @@ turn budget runs out.
   stock-status detail our price history doesn't track); Montecristo
   Classic Robusto, $309.99/box of 20 at JR Cigars; Rocky Patel Decade
   Robusto, $111.99 for a 10-count pack at JR Cigars (also currently sold
-  out there).
+  out there); My Father Flor de las Antillas Robusto, $161.99/box of 20 at
+  JR Cigars. Two more were attempted and skipped: Davidoff Nicaragua
+  Robusto (couldn't find a working current product page after several
+  tries) and Undercrown Maduro Corona Doble (the only "Corona Doble" page
+  found at JR was actually the Undercrown 10th Anniversary line — 7 x 50,
+  different wrapper spec from our catalog's 7 x 54 Mexican San Andrés
+  Corona Doble — so it was skipped rather than risk recording the wrong
+  product's price).
+- **Score recompute**: nothing to recompute tonight — no new critic reviews
+  were confirmed.
