@@ -1047,3 +1047,29 @@ queue triage this run.
   and smoking policy still need sourcing before it could actually be added.
 - **Errors**: none. Site builds cleanly (18,390 pages). Stopping here for
   tonight given the weekday budget.
+
+## 2026-08-09 — Sunday run: cigars night (heavier catalog pass, plus weekly queue triage)
+Today is a "cigars" night on the 3-way rotation with accessories and lounges
+(see CLAUDE.md). It's Sunday, so a heavier catalog pass was allowed, and
+this is also queue-triage day — more on that below. Writing this in pieces
+as the run goes, per tonight's instructions, so nothing gets lost if the
+turn budget runs out.
+
+- **News**: added one brief — Room101's 17th Anniversary cigar (an
+  AJ Fernandez-blended all-Nicaraguan puro, 6 x 52 toro, $15.89/cigar),
+  which began shipping August 7, 2026, confirmed via Cigar Snob Magazine.
+  Also logged it on the release calendar and linked the two together.
+- **Scores**: looked for a third independent source on Ashton VSG Robusto
+  (stuck at 2 sources). Found a halfwheel review and a Cigar Dojo review,
+  but on closer look the halfwheel one was for the "Robusto Especial" and
+  the Cigar Dojo one was for the Belicoso — different vitolas, so neither
+  could be counted without risking mixing data across products. Stays
+  queued, nothing added.
+- **Prices checked** (4 vitolas, all first-ever checks so nothing to
+  compare against yet): Liga Privada No. 9 Robusto, $406.99/box of 24 at JR
+  Cigars; Fuente Fuente OpusX Double Corona, $74.99 single / $2,399.99/box
+  of 32 at Cigars Direct (currently sold out there, but that's a
+  stock-status detail our price history doesn't track); Montecristo
+  Classic Robusto, $309.99/box of 20 at JR Cigars; Rocky Patel Decade
+  Robusto, $111.99 for a 10-count pack at JR Cigars (also currently sold
+  out there).
