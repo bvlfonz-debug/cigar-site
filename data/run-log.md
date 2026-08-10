@@ -4,7 +4,30 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
-## 2026-08-08 — Weekday run: lounges night
+## 2026-08-10 — Monday run: accessories night
+Today is an "accessories" night on the 3-way rotation with cigars and
+lounges (see CLAUDE.md). Monday, not Sunday, so no queue triage this run.
+Weekday, so kept it light.
+
+- **Reviews**: tried to push a handful of accessories sitting at 2 review
+  sources over the 3-source AccScore threshold (NewAir CC-300H humidor,
+  Xikar Volta lighter, Colibri Quasar lighter, Xikar EX, Nathan Scott
+  Lester's Cigar Log Book, Xikar PuroTemp hygrometer, Cigars International
+  HYG7 hygrometer, Case Elegance Flint travel case). No luck tonight —
+  candidate sites either didn't publish a numeric score (just prose), were
+  blocked from fetching, or would have duplicated a source already on file.
+  Nothing added; these stay at "insufficient data."
+- **Prices checked** (4 accessories, first-ever checks for all of them):
+  Colibri Julius lighter, $135.00 direct from colibri.com; Boveda 65% RH
+  Size 60 single humidification pack, $45.99 at Famous Smoke; Visol Legend
+  Leather 3-Finger Cigar Case (no cutter), $50.00 at eLighters.com; Cigar
+  Caddy 5-Count Travel Humidor, $35.99 at Northwoods Humidors. A 5th
+  attempt (Xikar PuroTemp rectangular hygrometer) was dropped after
+  several retailer pages either blocked fetching or didn't expose a price
+  in the page content.
+- **Errors**: none otherwise. Site builds cleanly (18,697 pages).
+
+
 Today is a "lounges" night on the 3-way rotation with cigars and
 accessories (see CLAUDE.md). Saturday, not Sunday, so no queue triage this
 run.
