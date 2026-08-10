@@ -1129,3 +1129,6 @@ turn budget runs out.
     yet — that needs 3 independent cited ratings, none gathered tonight.
   - Nothing was rejected, and nothing was left for you to decide on tonight
     — the one item was clear enough to act on directly.
+
+## 2026-08-10 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
