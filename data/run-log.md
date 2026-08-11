@@ -4,6 +4,30 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-08-11 — Tuesday run: lounges night
+Today is a "lounges" night on the 3-way rotation with cigars and
+accessories (see CLAUDE.md). Weekday, so kept it light. Not a Sunday, so no
+queue triage this run.
+
+- **Ratings**: tried again to push our two closest lounges (Casa de
+  Montecristo by JR Cigar, Mooresville NC, and BURN by Rocky Patel,
+  Atlanta GA — both sitting at 2 sources) over the 3-source LoungeScore
+  threshold. Yelp and TripAdvisor blocked automated access (403) on every
+  page tried for both, same pattern as recent lounge nights, and search
+  summaries gave numbers I couldn't confirm directly from the source page
+  itself — so nothing was recorded rather than publishing a guessed
+  number. Still no LoungeScore for either.
+- **New lounge/city proposed**: San Francisco has no lounges in our
+  directory yet. Found The Occidental Cigar Club, a well-known, long-
+  standing SF cigar bar — one of the few venues in the city legally
+  permitting indoor smoking. Confirmed its address, phone, hours, and
+  walk-in policy directly from its own site, plus independent editorial
+  coverage from Cigar Journal. Queued it (reason: new_lounge_city) rather
+  than adding it directly, per the new-city rule — still needs your
+  sign-off, and would need 3 independent cited ratings before any
+  LoungeScore could show.
+- **Errors**: none. Site builds cleanly (18,697 pages).
+
 ## 2026-08-10 — Monday run: accessories night
 Today is an "accessories" night on the 3-way rotation with cigars and
 lounges (see CLAUDE.md). Monday, not Sunday, so no queue triage this run.

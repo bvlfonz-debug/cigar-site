@@ -2754,5 +2754,17 @@
     ],
     "proposed_action": "Confirm current hours and walk-in/membership status directly from the venue (phone call or a clearer page on their own site), then call update-lounge-equivalent fields via a future add/update pass.",
     "decision": null
+  },
+  {
+    "item": "The Occidental Cigar Club (San Francisco, CA)",
+    "path": null,
+    "reason": "new_lounge_city",
+    "why_flagged": "San Francisco has no lounges in our directory yet. The Occidental Cigar Club is a well-known, long-standing San Francisco cigar bar — one of the few venues in the city legally permitting indoor smoking (structured as an owner-operated tobacconist to comply with SF smoking ordinances).",
+    "sources_found": [
+      "Occidental Cigar Club official site (occidentalcigarclub.com) — address, phone, hours, walk-in policy, smoking policy",
+      "Cigar Journal — editorial coverage describing it as \"almost the only place in San Francisco where you can legally smoke inside\""
+    ],
+    "proposed_action": "If approved, add as a new San Francisco lounge with: address 471 Pine Street, San Francisco, CA 94104; phone 415-834-0485; website occidentalcigarclub.com; hours Mon-Fri 12pm-1am, Sat-Sun 4pm-1am (last call 12:30am) per its own site; walk_in_or_membership: walk-in (site states no reservations needed, open to the public); indoor_smoking_status: allowed, with a note that it operates as an owner-operated tobacconist business structure to comply with SF smoking ordinances. Still needs the fixed lounge-page smoking disclaimer sentence and, before a LoungeScore can publish, 3 independent cited ratings (none gathered yet).",
+    "decision": null
   }
 ]
