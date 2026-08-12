@@ -4,6 +4,33 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-08-12 — Wednesday run: cigars night
+Today is a "cigars" night on the 3-way rotation with accessories and
+lounges (see CLAUDE.md). Weekday, so kept it light. Not a Sunday, so no
+queue triage this run.
+
+- **News/releases**: found a real halfwheel report that a new Diesel line,
+  "Diesel Uncaged," recently arrived at stores (Nicaraguan habano criollo
+  wrapper, three vitolas, roughly $6.29–$7.39 per cigar). Didn't add it to
+  the news feed or release calendar tonight — halfwheel's own pages
+  returned "payment required" errors when I tried to fetch the article
+  directly to confirm an exact date, and I won't publish a dated claim I
+  couldn't verify against the actual source page myself. Leaving this for
+  a future run to pick back up with a working fetch.
+- **Prices checked** (3 vitolas, all first-ever checks so nothing to
+  compare against yet): Punch Rare Corojo Magnum, $11.39/single at Famous
+  Smoke Shop; Sobremesa Cervantes Fino (Dunbarton Tobacco & Trust), $13.65/
+  single at Cigars Direct (currently sold out there, but that's a
+  stock-status detail, not a price change); Macanudo Café Hyde Park,
+  $15.00/single at El Cigar Shop. Two more were attempted and skipped:
+  Romeo Añejo Piramide (search results kept surfacing a different,
+  similarly-named "Romeo by Romeo y Julieta" product line — skipped rather
+  than risk recording the wrong product's price) and Hoyo de Monterrey
+  Excalibur No. III (the JR Cigars product page 404'd).
+- **Score recompute**: nothing to recompute tonight — no new critic
+  reviews were confirmed.
+- Site builds cleanly with these changes (`npm run build`, 18,697 pages).
+
 ## 2026-08-11 — Tuesday run: lounges night
 Today is a "lounges" night on the 3-way rotation with cigars and
 accessories (see CLAUDE.md). Weekday, so kept it light. Not a Sunday, so no
