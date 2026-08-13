@@ -1183,3 +1183,16 @@ turn budget runs out.
 
 ## 2026-08-10 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
+
+## 2026-08-13 — accessories night: 2 price checks
+Tonight's rotation focus (day-of-month 13 mod 3 = 1): accessories.
+
+**Price refresh:**
+- Case Elegance Renzo Glass Top Humidor — added a current price of $91.99 from the manufacturer's own site (caseelegance.com), a sale price off the $114.99 regular price.
+- Xikar 009 Punch Cutter — added a current price of $61.99 from CIGAR.com.
+
+Several other retailer pages (Thompson Cigar, Cigars International, Pipes and Cigars) blocked automated fetches (403), so those price checks were skipped rather than guessed at.
+
+**New sources (score recompute):** looked for a 3rd independent source to push the NewAir CC-300H Climate-Controlled Cabinet Humidor (currently 2 sources: Cigar Dojo, Amazon) over the 3-source AccScore minimum, and for a scoreable numeric rating on the Colibri Julius soft-flame lighter (currently qualitative-only sources). Neither turned up a source with a clear, confirmable numeric score — smaller review blogs found in search either gave no explicit rating or couldn't be verified by direct fetch. Both remain queued as insufficient_sources; no score published.
+
+No new brands/lines/categories proposed tonight, so nothing new went to the review queue. This is a lean weekday run — keeping it to price checks and source-hunting within budget.
