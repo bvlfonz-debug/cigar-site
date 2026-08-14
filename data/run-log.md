@@ -1196,3 +1196,38 @@ Several other retailer pages (Thompson Cigar, Cigars International, Pipes and Ci
 **New sources (score recompute):** looked for a 3rd independent source to push the NewAir CC-300H Climate-Controlled Cabinet Humidor (currently 2 sources: Cigar Dojo, Amazon) over the 3-source AccScore minimum, and for a scoreable numeric rating on the Colibri Julius soft-flame lighter (currently qualitative-only sources). Neither turned up a source with a clear, confirmable numeric score — smaller review blogs found in search either gave no explicit rating or couldn't be verified by direct fetch. Both remain queued as insufficient_sources; no score published.
 
 No new brands/lines/categories proposed tonight, so nothing new went to the review queue. This is a lean weekday run — keeping it to price checks and source-hunting within budget.
+
+## 2026-08-14 — Friday run: lounges night
+Today is a "lounges" night on the 3-way rotation with cigars and
+accessories (day-of-month 14 mod 3 = 2, see CLAUDE.md). Weekday, so kept
+it lean. Not a Sunday, so no queue triage this run.
+
+**Pushing existing lounges over the 3-source LoungeScore minimum:** looked
+for a new cited rating on the five lounges closest to the 3-source
+threshold — The Debonair Cigar Lounge (LA, 1 source), Casa de Montecristo
+Manhattan (1), Casa de Montecristo Boca Raton (1), Casa de Montecristo
+Mooresville (2), and BURN by Rocky Patel Atlanta (2). No luck tonight:
+Yelp and TripAdvisor both blocked automated fetches (403) for every one of
+these venues, same problem the accessories run hit with retailer sites two
+nights ago. Secondary aggregator sites (Wanderlog, RestaurantGuru,
+Chamber of Commerce listings) that did load turned out to just be
+re-reporting the same Google number already on file for that lounge, not
+an independent source, so nothing new was added. Cigar Aficionado has a
+real 2019 feature on BURN Atlanta but it doesn't carry a numeric score, so
+it's not usable for LoungeScore either. All five stay queued as
+insufficient_sources — nothing published, nothing lost.
+
+**New lounge/city proposal:** found that Casa de Montecristo (already in
+our directory in five other cities) has a real location in Southfield, MI
+(metro Detroit), a city we have no lounge for yet. Queued it rather than
+adding it directly, per the new-entity rule — item is "Casa de Montecristo
+Southfield (Southfield/Detroit, MI)" in the review queue, with the
+address/phone/hours sourced from the chain's own site. Left indoor-smoking
+status unset rather than guessing — the official page doesn't state it,
+and a secondary search surfaced an unsourced, conflicting claim not solid
+enough to record as fact. Only one rating source was found for it so far
+(a single review on CigarScore.com), well short of the 3 needed for a
+LoungeScore even after approval.
+
+No ratings added, no lounges added directly (both would need either your
+approval or Sunday triage first). Build checked clean before committing.

@@ -2766,5 +2766,17 @@
     ],
     "proposed_action": "If approved, add as a new San Francisco lounge with: address 471 Pine Street, San Francisco, CA 94104; phone 415-834-0485; website occidentalcigarclub.com; hours Mon-Fri 12pm-1am, Sat-Sun 4pm-1am (last call 12:30am) per its own site; walk_in_or_membership: walk-in (site states no reservations needed, open to the public); indoor_smoking_status: allowed, with a note that it operates as an owner-operated tobacconist business structure to comply with SF smoking ordinances. Still needs the fixed lounge-page smoking disclaimer sentence and, before a LoungeScore can publish, 3 independent cited ratings (none gathered yet).",
     "decision": null
+  },
+  {
+    "item": "Casa de Montecristo Southfield (Southfield/Detroit, MI)",
+    "path": "/lounges/southfield-mi/casa-de-montecristo-southfield/",
+    "reason": "new_lounge_city",
+    "why_flagged": "Southfield/Detroit metro has no lounges in our directory yet. Casa de Montecristo is an established national cigar-lounge chain (already in our directory in Austin, Boca Raton, Mooresville, New York, Dallas, Houston) with a real Southfield, MI location.",
+    "sources_found": [
+      "casademontecristo.com/southfield (official site: address, phone, hours, walk-in access, amenities)",
+      "cigarscore.com/places/michigan/southfield/casa-de-montecristo-southfield (only 1 review, not enough for a LoungeScore)"
+    ],
+    "proposed_action": "If approved, add as a new Southfield, MI lounge with: address 28815 Northwestern Hwy, Southfield, MI 48034; phone (248) 357-2340; website casademontecristo.com/southfield; hours Mon-Thu 10am-6pm, Fri 10am-7pm, Sat 10am-6pm, Sun closed, per its own site; walk_in_or_membership: walk-in (no membership requirement mentioned on the official page). indoor_smoking_status: leave unset for now — the official site does not state it, and a secondary aggregator search turned up an unverifiable, unsourced claim that conflicts with how this chain operates at its other locations; needs a direct check (call the venue or find a clearer primary source) before recording. Needs 3 independent cited ratings before a LoungeScore can publish (currently only 1 found).",
+    "decision": null
   }
 ]
