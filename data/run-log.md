@@ -1231,3 +1231,6 @@ LoungeScore even after approval.
 
 No ratings added, no lounges added directly (both would need either your
 approval or Sunday triage first). Build checked clean before committing.
+
+## 2026-08-15 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
