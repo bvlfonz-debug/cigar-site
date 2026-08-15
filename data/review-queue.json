@@ -43,36 +43,12 @@
     "decision": null
   },
   {
-    "item": "Decade Toro",
-    "path": "/cigars/rocky-patel/decade/toro/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Cigar Aficionado",
-      "CigarScore.com"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
     "item": "Liga Privada T52 Toro",
     "path": "/cigars/drew-estate/liga-privada-t52/toro/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 1 independent source found (StickScore requires 3).",
     "sources_found": [
       "Cigar Aficionado"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
-    "item": "New World Toro",
-    "path": "/cigars/aj-fernandez/new-world/toro/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Cigar Coop",
-      "CigarScore.com"
     ],
     "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
     "decision": null
