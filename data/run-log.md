@@ -1234,3 +1234,37 @@ approval or Sunday triage first). Build checked clean before committing.
 
 ## 2026-08-15 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
+
+## 2026-08-16 — Sunday: accessories night + weekly queue triage
+Today is an "accessories" night on the 3-way rotation (day-of-month 16 mod
+3 = 1, see CLAUDE.md). It's Sunday, so a heavier catalog pass plus the
+weekly queue triage is allowed — committing progress after each major
+step tonight since the turn budget is tight for everything on the list.
+
+**Price refresh:**
+- Case Elegance Flint Travel Leather Cigar Case — added a current price of
+  $99.77 from the manufacturer's own site (caseelegance.com).
+- Cigar Oasis Magna 3.0 Electronic Humidification System — added a current
+  price of $269.00 (sale price, down from $289.00) from the manufacturer's
+  own site (cigaroasis.com).
+
+Several other candidates were attempted (NewAir CC-300H, Xikar PuroTemp
+Digital Hygrometer, Xikar Executive Ashtray Can, Quality Importers
+Traveler 20, IM Corona Old Boy) but every retailer page either blocked the
+automated fetch (403), 404'd, or — for IM Corona — only showed prices for
+different finishes/variants that couldn't be confidently matched to our
+exact catalog entry, so those were skipped rather than guessed at.
+
+**New sources (score recompute):** looked for a 3rd independent review
+source on four accessories currently sitting at 2 sources each — NewAir
+CC-300H Humidor, Xikar Volta table lighter, Xikar EX lighter, and Cigars
+International Large Analog Hygrometer (HYG7). Found several real,
+independent review blogs (smokedock.com, cigarcraig.com, blindmanspuff.com)
+that hadn't been used as sources before, but none of them published an
+actual numeric or star rating — just qualitative writeups ("Great,
+Highly Recommend" with no number attached) — so nothing was added rather
+than inventing a score to match a qualitative verdict. knifecenter.com and
+thompsoncigar.com (candidates for the EX and HYG7) both blocked the fetch.
+All four remain at 2 sources, queued as insufficient_sources.
+
+Build checked clean (`npm run build`) before this commit.
