@@ -20,7 +20,7 @@
     "decision": null
   },
   {
-    "item": "Arturo Fuente Añejo Reserva No. 48",
+    "item": "Arturo Fuente A\u00f1ejo Reserva No. 48",
     "path": "/cigars/arturo-fuente/anejo-reserva/no-48/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
@@ -85,7 +85,7 @@
     "decision": null
   },
   {
-    "item": "Romeo Añejo Piramide",
+    "item": "Romeo A\u00f1ejo Piramide",
     "path": "/cigars/romeo-y-julieta/anejo/piramide/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 1 independent source found (StickScore requires 3).",
@@ -573,7 +573,7 @@
       "Cigar Aficionado (93/100)",
       "He Spoke Style (8.25/10)"
     ],
-    "proposed_action": "Two independent, numerically-scored, vitola-matched sources found (Cigar Aficionado, He Spoke Style). Other reviews found (The Cigar Authority, Cigar Reviews by the Katman) were for the Maduro-finish Chisel — a different wrapper blend — and were excluded to avoid mixing data between two distinct products.",
+    "proposed_action": "Two independent, numerically-scored, vitola-matched sources found (Cigar Aficionado, He Spoke Style). Other reviews found (The Cigar Authority, Cigar Reviews by the Katman) were for the Maduro-finish Chisel \u2014 a different wrapper blend \u2014 and were excluded to avoid mixing data between two distinct products.",
     "decision": null
   },
   {
@@ -584,7 +584,7 @@
     "sources_found": [
       "Cigar Aficionado (91/100)"
     ],
-    "proposed_action": "Only one independent, numerically-scored source found (Cigar Aficionado, 91/100). Holt’s and JR Cigars have published editorial coverage of this cigar but without a formal numeric rating.",
+    "proposed_action": "Only one independent, numerically-scored source found (Cigar Aficionado, 91/100). Holt\u2019s and JR Cigars have published editorial coverage of this cigar but without a formal numeric rating.",
     "decision": null
   },
   {
@@ -595,7 +595,7 @@
     "sources_found": [
       "Cigar Aficionado (96/100)"
     ],
-    "proposed_action": "Only one independently confirmed numeric source found so far (Cigar Aficionado, #1 Cigar of the Year 2019, 96/100). Two research passes have not yet confirmed halfwheel, Cigar Coop, Developing Palates, or retailer-average scores for this specific vitola — worth a focused follow-up pass. Note: Aging Room’s \"Quattro\" naming spans several distinct sub-lines and a 2025 relaunch reusing some vitola names — Quattro Nicaragua Maestro (the 2018 line) was chosen as the vitola with confirmed, unambiguous data.",
+    "proposed_action": "Only one independently confirmed numeric source found so far (Cigar Aficionado, #1 Cigar of the Year 2019, 96/100). Two research passes have not yet confirmed halfwheel, Cigar Coop, Developing Palates, or retailer-average scores for this specific vitola \u2014 worth a focused follow-up pass. Note: Aging Room\u2019s \"Quattro\" naming spans several distinct sub-lines and a 2025 relaunch reusing some vitola names \u2014 Quattro Nicaragua Maestro (the 2018 line) was chosen as the vitola with confirmed, unambiguous data.",
     "decision": null
   },
   {
@@ -609,7 +609,7 @@
       "Developing Palates (6.8/10)",
       "Developing Palates (7.4/10)"
     ],
-    "proposed_action": "Two independent, wrapper-matched numeric sources found (Cigar Aficionado, Developing Palates). Other reviews found (Cigar Dojo 88, Final Third Cigar 94) were for the Broadleaf and Habano wrapper finishes of this vitola — different blends — and were excluded to avoid mixing data between distinct products.",
+    "proposed_action": "Two independent, wrapper-matched numeric sources found (Cigar Aficionado, Developing Palates). Other reviews found (Cigar Dojo 88, Final Third Cigar 94) were for the Broadleaf and Habano wrapper finishes of this vitola \u2014 different blends \u2014 and were excluded to avoid mixing data between distinct products.",
     "decision": null
   },
   {
@@ -618,10 +618,10 @@
     "reason": "insufficient_sources",
     "why_flagged": "Only 2 independent source(s) found (StickScore requires 3) as of the 2026-07-14 research pass.",
     "sources_found": [
-      "Blind Man’s Puff (90/100)",
+      "Blind Man\u2019s Puff (90/100)",
       "The Stick Stickler (88/100)"
     ],
-    "proposed_action": "Two independent, numerically-scored sources found (Blind Man’s Puff, The Stick Stickler). A Cigars International retailer rating (4.5/5) was found but excluded as non-independent, since Diesel originated as a CI house brand. Cigar Inspector’s ~4.5/5 score is reported consistently across secondary sources but could not be independently confirmed by direct fetch, and had no confirmed date — excluded per the never-invent rule.",
+    "proposed_action": "Two independent, numerically-scored sources found (Blind Man\u2019s Puff, The Stick Stickler). A Cigars International retailer rating (4.5/5) was found but excluded as non-independent, since Diesel originated as a CI house brand. Cigar Inspector\u2019s ~4.5/5 score is reported consistently across secondary sources but could not be independently confirmed by direct fetch, and had no confirmed date \u2014 excluded per the never-invent rule.",
     "decision": null
   },
   {
@@ -634,7 +634,7 @@
       "The Cigar Authority (90/100)",
       "Loomis Cigar Cartel (93/100)"
     ],
-    "proposed_action": "Two independent, numerically-scored sources found (The Cigar Authority reviewed it twice — counted once — and a Loomis Cigar Cartel podcast panel). Short of the three-source minimum. Note: RoMa Craft fully reblended CroMagnon in March 2024 (Connecticut Broadleaf to Pennsylvania Broadleaf wrapper) — a CigarScore.com review of the new blend was found but excluded here since it describes a materially different product; cataloging the current blend would need fresh research rather than mixing old and new blend data.",
+    "proposed_action": "Two independent, numerically-scored sources found (The Cigar Authority reviewed it twice \u2014 counted once \u2014 and a Loomis Cigar Cartel podcast panel). Short of the three-source minimum. Note: RoMa Craft fully reblended CroMagnon in March 2024 (Connecticut Broadleaf to Pennsylvania Broadleaf wrapper) \u2014 a CigarScore.com review of the new blend was found but excluded here since it describes a materially different product; cataloging the current blend would need fresh research rather than mixing old and new blend data.",
     "decision": null
   },
   {
@@ -647,7 +647,7 @@
       "Cigar Aficionado (87/100)",
       "JR Cigars (4.4/5)"
     ],
-    "proposed_action": "Two independent, numerically-scored sources found (Cigar Aficionado, rated twice years apart, and JR Cigars). A CIGAR.com rating was found via search snippet but couldn’t be independently confirmed by direct fetch, so it was excluded rather than counted on unverified data.",
+    "proposed_action": "Two independent, numerically-scored sources found (Cigar Aficionado, rated twice years apart, and JR Cigars). A CIGAR.com rating was found via search snippet but couldn\u2019t be independently confirmed by direct fetch, so it was excluded rather than counted on unverified data.",
     "decision": null
   },
   {
@@ -658,7 +658,7 @@
     "sources_found": [
       "Cigar Aficionado (89/100)"
     ],
-    "proposed_action": "Only one cleanly-confirmed independent numeric source found (Cigar Aficionado, 89/100). A Stogie Guys review exists but for a vitola name (\"Excalibur Epicure\") that couldn’t be confirmed as the same product as the No. III. A cigarmonthclub.com panel rating (90/100) had no confirmed date. A JR Cigars retailer rating described a Connecticut Broadleaf Maduro wrapper, conflicting with the No. III’s natural Connecticut Shade spec — likely describes a different wrapper finish, so excluded rather than risk mixing data.",
+    "proposed_action": "Only one cleanly-confirmed independent numeric source found (Cigar Aficionado, 89/100). A Stogie Guys review exists but for a vitola name (\"Excalibur Epicure\") that couldn\u2019t be confirmed as the same product as the No. III. A cigarmonthclub.com panel rating (90/100) had no confirmed date. A JR Cigars retailer rating described a Connecticut Broadleaf Maduro wrapper, conflicting with the No. III\u2019s natural Connecticut Shade spec \u2014 likely describes a different wrapper finish, so excluded rather than risk mixing data.",
     "decision": null
   },
   {
@@ -670,11 +670,11 @@
       "Cigar Aficionado (88/100)",
       "The Stick Stickler (93/100)"
     ],
-    "proposed_action": "Two independent, dated numeric sources found (Cigar Aficionado, The Stick Stickler). Several retailer ratings were found but excluded — some belonged to a different SKU (the Crystal tubo variant), and Cigars International/CIGAR.com/Thompson Cigar ratings were excluded since those retailers share ownership (Scandinavian Tobacco Group) with Cohiba’s own manufacturer, General Cigar — not independent of the brand itself.",
+    "proposed_action": "Two independent, dated numeric sources found (Cigar Aficionado, The Stick Stickler). Several retailer ratings were found but excluded \u2014 some belonged to a different SKU (the Crystal tubo variant), and Cigars International/CIGAR.com/Thompson Cigar ratings were excluded since those retailers share ownership (Scandinavian Tobacco Group) with Cohiba\u2019s own manufacturer, General Cigar \u2014 not independent of the brand itself.",
     "decision": null
   },
   {
-    "item": "Macanudo Café Hyde Park",
+    "item": "Macanudo Caf\u00e9 Hyde Park",
     "path": "/cigars/macanudo/cafe/hyde-park/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 2 independent source(s) found (StickScore requires 3) as of the 2026-07-14 research pass.",
@@ -682,11 +682,11 @@
       "Cigar Aficionado (90/100)",
       "JR Cigars (4.12/5)"
     ],
-    "proposed_action": "Two independent, numerically-scored sources found (Cigar Aficionado, JR Cigars). Coverage of this exact vitola is thin — halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and Developing Palates have all reviewed other Macanudo Café vitolas (Portofino, Gigante) but not the Hyde Park specifically, so we didn’t mix that data in.",
+    "proposed_action": "Two independent, numerically-scored sources found (Cigar Aficionado, JR Cigars). Coverage of this exact vitola is thin \u2014 halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and Developing Palates have all reviewed other Macanudo Caf\u00e9 vitolas (Portofino, Gigante) but not the Hyde Park specifically, so we didn\u2019t mix that data in.",
     "decision": null
   },
   {
-    "item": "Partagás Classic No. 10",
+    "item": "Partag\u00e1s Classic No. 10",
     "path": "/cigars/partagas/classic/no-10/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 2 independent source(s) found (StickScore requires 3) as of the 2026-07-14 research pass.",
@@ -695,7 +695,7 @@
       "Cigar Aficionado (86/100)",
       "JR Cigars (4.23/5)"
     ],
-    "proposed_action": "Two independent, numerically-scored sources found (Cigar Aficionado, rated twice years apart, and JR Cigars). A widely-repeated retailer claim of a \"91-point\" Cigar Aficionado score couldn’t be traced to a stable, confirmed source, so it was not used.",
+    "proposed_action": "Two independent, numerically-scored sources found (Cigar Aficionado, rated twice years apart, and JR Cigars). A widely-repeated retailer claim of a \"91-point\" Cigar Aficionado score couldn\u2019t be traced to a stable, confirmed source, so it was not used.",
     "decision": null
   },
   {
@@ -797,7 +797,7 @@
     "decision": null
   },
   {
-    "item": "Factory \"Raíces Cubanas\" is missing founded_year",
+    "item": "Factory \"Ra\u00edces Cubanas\" is missing founded_year",
     "path": "/factories/raices-cubanas/",
     "reason": "Missing sourced fact on a brand/factory profile",
     "why_flagged": "founded_year was not provided when this factory was added.",
@@ -809,12 +809,12 @@
     "item": "Illusione brand.factory field appears outdated",
     "path": "/brands/illusione/",
     "reason": "conflicting_sources",
-    "why_flagged": "Our brand record lists factory as \"Fábrica de Tabacos Raíces Cubanas, Danlí\" — true historically, but multiple sources (halfwheel, Cigar Aficionado) report that Illusione production largely shifted to TABSA (Tabacos Valle de Jalapa S.A.) in Estelí, Nicaragua starting with the 2012 Singularé release, with only select lines occasionally remaining at Raíces Cubanas. Deliberately did NOT link Illusione to the new Raíces Cubanas factory profile given this uncertainty.",
+    "why_flagged": "Our brand record lists factory as \"F\u00e1brica de Tabacos Ra\u00edces Cubanas, Danl\u00ed\" \u2014 true historically, but multiple sources (halfwheel, Cigar Aficionado) report that Illusione production largely shifted to TABSA (Tabacos Valle de Jalapa S.A.) in Estel\u00ed, Nicaragua starting with the 2012 Singular\u00e9 release, with only select lines occasionally remaining at Ra\u00edces Cubanas. Deliberately did NOT link Illusione to the new Ra\u00edces Cubanas factory profile given this uncertainty.",
     "sources_found": [
       "halfwheel (New Illusione Has A New Factory)",
       "Cigar Aficionado"
     ],
-    "proposed_action": "Research Illusione's CURRENT factory situation (which lines are made where today) and either correct brand.factory's free text or set factory_id to the right profile — TABSA may be worth its own factory profile given AGANORSA/Fernández family ownership.",
+    "proposed_action": "Research Illusione's CURRENT factory situation (which lines are made where today) and either correct brand.factory's free text or set factory_id to the right profile \u2014 TABSA may be worth its own factory profile given AGANORSA/Fern\u00e1ndez family ownership.",
     "decision": null
   },
   {
@@ -852,7 +852,7 @@
     "decision": null
   },
   {
-    "item": "Crowned Heads Le Carême Hermoso No. 1",
+    "item": "Crowned Heads Le Car\u00eame Hermoso No. 1",
     "path": "/cigars/crowned-heads/le-careme/hermoso-no-1/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 1 independent source found (StickScore requires 3).",
@@ -863,7 +863,7 @@
     "decision": null
   },
   {
-    "item": "Padrón 1964 Anniversary Series Maduro Torpedo",
+    "item": "Padr\u00f3n 1964 Anniversary Series Maduro Torpedo",
     "path": "/cigars/padron/1964-anniversary-maduro/torpedo/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 1 independent source found (StickScore requires 3). A Cigar Inspector review gave category subscores (appearance, construction) but no confirmable overall composite score, so it was excluded rather than guessed.",
@@ -1046,7 +1046,7 @@
     "decision": null
   },
   {
-    "item": "Arturo Fuente Añejo Reserva No. 46",
+    "item": "Arturo Fuente A\u00f1ejo Reserva No. 46",
     "path": "/cigars/arturo-fuente/anejo-reserva/no-46/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
@@ -1058,10 +1058,10 @@
     "decision": null
   },
   {
-    "item": "Crowned Heads Le Pâtissier Senadores",
+    "item": "Crowned Heads Le P\u00e2tissier Senadores",
     "path": "/cigars/crowned-heads/le-patissier/senadores/",
     "reason": "insufficient_sources",
-    "why_flagged": "Only 1 independent source found (StickScore requires 3). A Blind Man's Puff score widely cited for \"Le Pâtissier\" was confirmed to actually be for the separate Lonsdale release, not Senadores - excluded to avoid conflation.",
+    "why_flagged": "Only 1 independent source found (StickScore requires 3). A Blind Man's Puff score widely cited for \"Le P\u00e2tissier\" was confirmed to actually be for the separate Lonsdale release, not Senadores - excluded to avoid conflation.",
     "sources_found": [
       "Cigar Aficionado"
     ],
@@ -1069,7 +1069,7 @@
     "decision": null
   },
   {
-    "item": "Davidoff Yamasá Robusto",
+    "item": "Davidoff Yamas\u00e1 Robusto",
     "path": "/cigars/davidoff/yamasa/robusto/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 1 independent source found (StickScore requires 3).",
@@ -1203,7 +1203,7 @@
     "decision": null
   },
   {
-    "item": "Macanudo Café Duke of Windsor",
+    "item": "Macanudo Caf\u00e9 Duke of Windsor",
     "path": "/cigars/macanudo/cafe/duke-of-windsor/",
     "reason": "insufficient_sources",
     "why_flagged": "Both confirmed reviews are from Cigar Aficionado (13 years apart) - only 1 truly independent source (StickScore requires 3).",
@@ -1214,7 +1214,7 @@
     "decision": null
   },
   {
-    "item": "Padrón 1926 Serie No. 9 Maduro",
+    "item": "Padr\u00f3n 1926 Serie No. 9 Maduro",
     "path": "/cigars/padron/1926-serie/no-9-maduro/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 1 independent source found (StickScore requires 3). A Cigar Aficionado 97-point review (2007 Cigar of the Year) exists for the No. 9 but is for the Natural-wrapper version - our 1926 Serie line is recorded as Nicaraguan Maduro, so that review was excluded rather than misattributed to the wrong wrapper.",
@@ -1270,7 +1270,7 @@
     "decision": null
   },
   {
-    "item": "Vertigo by Lotus Attaché 2",
+    "item": "Vertigo by Lotus Attach\u00e9 2",
     "path": "/accessories/soft-flame-lighters/attache-2/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 1 independent source with a numeric score found (StickScore/AccScore requires 3). Amazon and CigarPage.com reviews exist but are mixed/qualitative individual comments without a clear aggregate figure.",
@@ -1359,43 +1359,43 @@
     "item": "Liga Privada No. 9 Flying Pig",
     "path": "/cigars/drew-estate/liga-privada-no-9/flying-pig/",
     "reason": "insufficient_sources",
-    "why_flagged": "A halfwheel review (93 points) is real and well-corroborated in secondary sources, but its exact publish date could not be confirmed after repeated attempts (site returned paywall/402 errors), so no critic_review row was added rather than guessing a date. A separately-cited \"83 points, Cigar Aficionado\" figure could not be confirmed as being for this exact product (No. 9 Flying Pig) rather than a similarly-named Liga Privada T52 or Único Feral Flying Pig, so it was not used.",
+    "why_flagged": "A halfwheel review (93 points) is real and well-corroborated in secondary sources, but its exact publish date could not be confirmed after repeated attempts (site returned paywall/402 errors), so no critic_review row was added rather than guessing a date. A separately-cited \"83 points, Cigar Aficionado\" figure could not be confirmed as being for this exact product (No. 9 Flying Pig) rather than a similarly-named Liga Privada T52 or \u00danico Feral Flying Pig, so it was not used.",
     "sources_found": [],
-    "proposed_action": "Confirm the halfwheel review's publish date directly (https://halfwheel.com/liga-privada-9-flying-pig/62059/) and locate the correct Cigar Aficionado ratings page specifically for the No. 9 Flying Pig (not T52 or Único Feral) before adding either as a citation.",
+    "proposed_action": "Confirm the halfwheel review's publish date directly (https://halfwheel.com/liga-privada-9-flying-pig/62059/) and locate the correct Cigar Aficionado ratings page specifically for the No. 9 Flying Pig (not T52 or \u00danico Feral) before adding either as a citation.",
     "decision": null
   },
   {
-    "item": "Perdomo Reserve 10th Anniversary Box-Pressed Maduro Figurado — critic score",
+    "item": "Perdomo Reserve 10th Anniversary Box-Pressed Maduro Figurado \u2014 critic score",
     "path": "/cigars/perdomo/reserve-10th-anniversary-box-pressed-maduro/figurado/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only from a user submission. Searched for scored reviews (halfwheel, Cigar Coop, Blind Man's Puff, Cigar Aficionado) but found none specific to the Figurado (4.75x56) size — only retailer product listings and a passing unscored mention (\"a very tasty cigar\" with a \"near perfect draw\"). 0 of 3 required scored sources found.",
+    "why_flagged": "Added spec-only from a user submission. Searched for scored reviews (halfwheel, Cigar Coop, Blind Man's Puff, Cigar Aficionado) but found none specific to the Figurado (4.75x56) size \u2014 only retailer product listings and a passing unscored mention (\"a very tasty cigar\" with a \"near perfect draw\"). 0 of 3 required scored sources found.",
     "sources_found": [],
     "proposed_action": "Re-search for a scored Figurado-specific review once more outlets have covered this size, or confirm none exists and leave permanently spec-only.",
     "decision": null
   },
   {
-    "item": "Perdomo Reserve 10th Anniversary Box-Pressed Maduro Super Toro — critic score",
+    "item": "Perdomo Reserve 10th Anniversary Box-Pressed Maduro Super Toro \u2014 critic score",
     "path": "/cigars/perdomo/reserve-10th-anniversary-box-pressed-maduro/super-toro/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only from a user submission. Searched for scored reviews specific to the Super Toro (6x60) size — found only retailer listings (Gotham Cigars, Neptune, CigarPlace, Corona Cigar) with tasting-note blurbs but no critic outlet with a numeric score for this size specifically. 0 of 3 required scored sources found.",
+    "why_flagged": "Added spec-only from a user submission. Searched for scored reviews specific to the Super Toro (6x60) size \u2014 found only retailer listings (Gotham Cigars, Neptune, CigarPlace, Corona Cigar) with tasting-note blurbs but no critic outlet with a numeric score for this size specifically. 0 of 3 required scored sources found.",
     "sources_found": [],
     "proposed_action": "Re-search for a scored Super Toro-specific review once more outlets have covered this size, or confirm none exists and leave permanently spec-only.",
     "decision": null
   },
   {
-    "item": "Perdomo Reserve 10th Anniversary Box-Pressed Maduro Torpedo — critic score",
+    "item": "Perdomo Reserve 10th Anniversary Box-Pressed Maduro Torpedo \u2014 critic score",
     "path": "/cigars/perdomo/reserve-10th-anniversary-box-pressed-maduro/torpedo/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only from a user submission. Searched for scored reviews specific to the Torpedo (7x54) size across halfwheel, Cigar Coop, and Blind Man's Puff — all confirmed reviews found were for the Robusto, Epicure, or Churchill sizes instead. 0 of 3 required scored sources found.",
+    "why_flagged": "Added spec-only from a user submission. Searched for scored reviews specific to the Torpedo (7x54) size across halfwheel, Cigar Coop, and Blind Man's Puff \u2014 all confirmed reviews found were for the Robusto, Epicure, or Churchill sizes instead. 0 of 3 required scored sources found.",
     "sources_found": [],
     "proposed_action": "Re-search for a scored Torpedo-specific review once more outlets have covered this size, or confirm none exists and leave permanently spec-only.",
     "decision": null
   },
   {
-    "item": "Plasencia Alma Fuerte Colorado Claro — needs its own line entry",
+    "item": "Plasencia Alma Fuerte Colorado Claro \u2014 needs its own line entry",
     "path": "/cigars/plasencia/alma-fuerte/",
     "reason": "insufficient_sources",
-    "why_flagged": "A user submission listed 8 Alma Fuerte vitolas as if they were one blend. 2 (Generación V, Néstor IV) already existed in our db under the original 2017 Natural-wrapper line. Robustus I was independently confirmed (3 sources, all pre-2023, wrapper described only as plain Nicaragua/Jalapa) as also belonging to that same Natural line and was added. But the other 5 — Robusto Corto, Robustus II, Eduardo I, Sixto I, Sixto II — are predominantly reviewed under a distinct \"Colorado Claro\" wrapper name (halfwheel, Cigar Coop, and Cigar Aficionado all title/URL these specifically as \"Colorado Claro\"), which per Plasencia's own site is a second, separate wrapper blend on a ten-year aging process, distinct from the original Criollo '98 Natural blend. At least one retailer (Atlantic Cigar Co.) also lists a \"Sixto I Hexagon Natural\" and Cigars Daily lists a \"Natural Robustus II\", suggesting some sizes may exist in BOTH wrapper variants under the same size name — real risk of misattributing a Colorado Claro review to the Natural line's wrapper/binder/filler if forced into the existing line record.",
+    "why_flagged": "A user submission listed 8 Alma Fuerte vitolas as if they were one blend. 2 (Generaci\u00f3n V, N\u00e9stor IV) already existed in our db under the original 2017 Natural-wrapper line. Robustus I was independently confirmed (3 sources, all pre-2023, wrapper described only as plain Nicaragua/Jalapa) as also belonging to that same Natural line and was added. But the other 5 \u2014 Robusto Corto, Robustus II, Eduardo I, Sixto I, Sixto II \u2014 are predominantly reviewed under a distinct \"Colorado Claro\" wrapper name (halfwheel, Cigar Coop, and Cigar Aficionado all title/URL these specifically as \"Colorado Claro\"), which per Plasencia's own site is a second, separate wrapper blend on a ten-year aging process, distinct from the original Criollo '98 Natural blend. At least one retailer (Atlantic Cigar Co.) also lists a \"Sixto I Hexagon Natural\" and Cigars Daily lists a \"Natural Robustus II\", suggesting some sizes may exist in BOTH wrapper variants under the same size name \u2014 real risk of misattributing a Colorado Claro review to the Natural line's wrapper/binder/filler if forced into the existing line record.",
     "sources_found": [
       "https://halfwheel.com/plasencia-alma-fuerte-colorado-claro-eduardo-i/415099/",
       "https://halfwheel.com/plasencia-alma-fuerte-colorado-claro-robustus-ii/434883/",
@@ -1408,19 +1408,19 @@
     "decision": null
   },
   {
-    "item": "Plasencia Alma Fuerte (Natural) — release_year and strength submitted-vs-db conflict",
+    "item": "Plasencia Alma Fuerte (Natural) \u2014 release_year and strength submitted-vs-db conflict",
     "path": "/cigars/plasencia/alma-fuerte/",
     "reason": "conflicting_facts",
-    "why_flagged": "A user submission claimed release_year 2016 and strength Medium-Full for this line. Our existing db value (release_year 2017, strength full) predates this submission and is corroborated by 4 independently-dated critic reviews on Generación V/Néstor IV clustered in 2017-2018, plus the brand's own story_short (\"launching its own consumer-facing cigar line in 2017\"). Kept the existing 2017/full values and did not overwrite with the submission's claims. Not changed pending a stronger primary source.",
+    "why_flagged": "A user submission claimed release_year 2016 and strength Medium-Full for this line. Our existing db value (release_year 2017, strength full) predates this submission and is corroborated by 4 independently-dated critic reviews on Generaci\u00f3n V/N\u00e9stor IV clustered in 2017-2018, plus the brand's own story_short (\"launching its own consumer-facing cigar line in 2017\"). Kept the existing 2017/full values and did not overwrite with the submission's claims. Not changed pending a stronger primary source.",
     "sources_found": [],
-    "proposed_action": "If a future submission or source directly disputes 2017/full with strong primary-source backing, revisit; otherwise no action needed — this entry exists to document why the conflicting user-submitted values were rejected.",
+    "proposed_action": "If a future submission or source directly disputes 2017/full with strong primary-source backing, revisit; otherwise no action needed \u2014 this entry exists to document why the conflicting user-submitted values were rejected.",
     "decision": null
   },
   {
-    "item": "Romeo y Julieta Reserva Real \"Petit Corona\" — name/dimensions could not be confirmed",
+    "item": "Romeo y Julieta Reserva Real \"Petit Corona\" \u2014 name/dimensions could not be confirmed",
     "path": "/cigars/romeo-y-julieta/reserva-real/",
     "reason": "insufficient_sources",
-    "why_flagged": "A user submission listed a \"Petit Corona\" at 5.0x36 for this line. No retailer or review site found lists a Reserva Real size by that name or those dimensions. The closest real match is a plain \"Corona\" at 5.5x44 (JR Cigars, Neptune Cigar) — a different name AND different dimensions, so it isn't safe to assume they're the same product. Separately, a completely different Romeo y Julieta product (the classic, non-Reserva-Real line) does have its own \"Petit Corona\" with a real Cigar Aficionado rating (ratings/1971) — real risk the submission conflated that unrelated product with this line.",
+    "why_flagged": "A user submission listed a \"Petit Corona\" at 5.0x36 for this line. No retailer or review site found lists a Reserva Real size by that name or those dimensions. The closest real match is a plain \"Corona\" at 5.5x44 (JR Cigars, Neptune Cigar) \u2014 a different name AND different dimensions, so it isn't safe to assume they're the same product. Separately, a completely different Romeo y Julieta product (the classic, non-Reserva-Real line) does have its own \"Petit Corona\" with a real Cigar Aficionado rating (ratings/1971) \u2014 real risk the submission conflated that unrelated product with this line.",
     "sources_found": [
       "https://www.jrcigars.com/item/romeo-y-julieta-reserva-real/corona/JUCRR.html",
       "https://www.neptunecigar.com/cigars/romeo-y-julieta-reserva-real-corona"
@@ -1429,10 +1429,10 @@
     "decision": null
   },
   {
-    "item": "Romeo y Julieta Reserva Real \"Gigante\" — real name is Magnum, no scored review confirmed yet",
+    "item": "Romeo y Julieta Reserva Real \"Gigante\" \u2014 real name is Magnum, no scored review confirmed yet",
     "path": "/cigars/romeo-y-julieta/reserva-real/",
     "reason": "insufficient_sources",
-    "why_flagged": "A user submission listed a \"Gigante\" at 6.0x60. Dimensions are real (6x60), but every retailer found (Neptune, Best Cigar Prices, Corona Cigar, Cigar Luxury, Cigar King) calls this size \"Magnum\", not \"Gigante\" — and a separate \"Reserva Real Nicaragua Magnum\" variant also exists under the same size name, so the wrapper variant needs confirming too. A search summary claimed a 91 Cigar Aficionado rating for the Magnum but no direct-fetchable CA rating URL was found to confirm the exact score/date and which wrapper variant it's for.",
+    "why_flagged": "A user submission listed a \"Gigante\" at 6.0x60. Dimensions are real (6x60), but every retailer found (Neptune, Best Cigar Prices, Corona Cigar, Cigar Luxury, Cigar King) calls this size \"Magnum\", not \"Gigante\" \u2014 and a separate \"Reserva Real Nicaragua Magnum\" variant also exists under the same size name, so the wrapper variant needs confirming too. A search summary claimed a 91 Cigar Aficionado rating for the Magnum but no direct-fetchable CA rating URL was found to confirm the exact score/date and which wrapper variant it's for.",
     "sources_found": [
       "https://www.neptunecigar.com/cigars/romeo-y-julieta-reserva-real-magnum",
       "https://atlanticcigar.com/romeo-y-julieta-reserva-real-nicaragua-magnum-6x60/"
@@ -1441,7 +1441,7 @@
     "decision": null
   },
   {
-    "item": "Romeo y Julieta Reserva Real — submitted wrapper origin (US) conflicts with existing db (Ecuador)",
+    "item": "Romeo y Julieta Reserva Real \u2014 submitted wrapper origin (US) conflicts with existing db (Ecuador)",
     "path": "/cigars/romeo-y-julieta/reserva-real/",
     "reason": "conflicting_facts",
     "why_flagged": "A user submission claimed the wrapper is Connecticut Shade grown in the United States. Our existing db value (Ecuadorian Connecticut shade) predates this submission and was independently re-confirmed twice this session via direct-fetched Cigar Aficionado rating pages (Robusto, Churchill, Belicoso No. 2 all list wrapper origin as Ecuador) plus multiple independent retailer descriptions (\"silky, shade-grown Ecuadorian Connecticut wrapper\"). Kept the existing Ecuador-origin wrapper value and did not change it to the submission's claim.",
@@ -1450,14 +1450,14 @@
       "https://www.cigaraficionado.com/ratings/8964/name/romeo-y-julieta-reserva-real-churchill-churchill",
       "https://www.cigaraficionado.com/ratings/8965/name/romeo-y-julieta-reserva-real-no-2-belicoso"
     ],
-    "proposed_action": "No action needed — this entry documents why the submitted wrapper-origin claim was rejected in favor of the already-corroborated Ecuador origin.",
+    "proposed_action": "No action needed \u2014 this entry documents why the submitted wrapper-origin claim was rejected in favor of the already-corroborated Ecuador origin.",
     "decision": null
   },
   {
-    "item": "CAO Flathead Steel Horse — needs its own line entry",
+    "item": "CAO Flathead Steel Horse \u2014 needs its own line entry",
     "path": "/cigars/cao/flathead/",
     "reason": "insufficient_sources",
-    "why_flagged": "A user submission listed \"Steel Horse Apehanger (V554)\" at 5.5x54 and \"Steel Horse Roadkill (V660)\" at 6x60 as if they belonged to the original CAO Flathead line. Independent research shows Flathead Steel Horse is a separate, motorcycle-themed offshoot released in 2015 (two years after the original 2013 hot-rod-themed Flathead) with a DIFFERENT blend: Connecticut Habano Grueso wrapper and Brazilian Arapiraca binder, versus the original's Connecticut Broadleaf Maduro wrapper and Ecuadorian Connecticut binder. Steel Horse also does not use the original line's \"V\" + dimensions naming convention at all — its real vitola names are Apehanger, Bullneck (debut sizes), Handbrake (4.5x50), and Roadkill (5.5x54, NOT 6x60 as submitted). Given the different blend, adding these under the original Flathead line would misattribute wrapper/binder facts.",
+    "why_flagged": "A user submission listed \"Steel Horse Apehanger (V554)\" at 5.5x54 and \"Steel Horse Roadkill (V660)\" at 6x60 as if they belonged to the original CAO Flathead line. Independent research shows Flathead Steel Horse is a separate, motorcycle-themed offshoot released in 2015 (two years after the original 2013 hot-rod-themed Flathead) with a DIFFERENT blend: Connecticut Habano Grueso wrapper and Brazilian Arapiraca binder, versus the original's Connecticut Broadleaf Maduro wrapper and Ecuadorian Connecticut binder. Steel Horse also does not use the original line's \"V\" + dimensions naming convention at all \u2014 its real vitola names are Apehanger, Bullneck (debut sizes), Handbrake (4.5x50), and Roadkill (5.5x54, NOT 6x60 as submitted). Given the different blend, adding these under the original Flathead line would misattribute wrapper/binder facts.",
     "sources_found": [
       "https://www.cigaraficionado.com/article/cao-steel-horse-wheels-out-two-new-vitolas-18663",
       "https://halfwheel.com/cao-flathead-steel-horse-gets-two-new-vitolas/109434/",
@@ -1467,19 +1467,19 @@
     "decision": null
   },
   {
-    "item": "CAO Flathead — submission contained multiple wrong vitola names/dimensions",
+    "item": "CAO Flathead \u2014 submission contained multiple wrong vitola names/dimensions",
     "path": "/cigars/cao/flathead/",
     "reason": "conflicting_facts",
-    "why_flagged": "Beyond the Steel Horse conflation (see separate queue entry), the submission itself contained internal errors on the original line: \"Sparkplug (V342)\" at 3.5x42 does not match any source found — the real vitola is \"V450 Sparkplug\" at 4.5x50 (5+ independent retailers agree: Neptune, JR Cigars, Atlantic Cigar, Cigars Daily, Cigar Coop's original 2014 review). \"V642 Piston\" was submitted at 6x42 but is confirmed 6.5x42 by 3 independent sources (Neptune, JR Cigars, and a Cigar Aficionado rating page). The submission also listed the same real cigar as two different garbled entries in a few cases. Added the line using the corrected, independently-confirmed names and dimensions instead of the submission's values; release_year was also corrected from the submission's 2015 to 2013 (the line's actual IPCPR launch year, confirmed by multiple sources plus a Cigar Coop review of the Sparkplug dated June 2014).",
+    "why_flagged": "Beyond the Steel Horse conflation (see separate queue entry), the submission itself contained internal errors on the original line: \"Sparkplug (V342)\" at 3.5x42 does not match any source found \u2014 the real vitola is \"V450 Sparkplug\" at 4.5x50 (5+ independent retailers agree: Neptune, JR Cigars, Atlantic Cigar, Cigars Daily, Cigar Coop's original 2014 review). \"V642 Piston\" was submitted at 6x42 but is confirmed 6.5x42 by 3 independent sources (Neptune, JR Cigars, and a Cigar Aficionado rating page). The submission also listed the same real cigar as two different garbled entries in a few cases. Added the line using the corrected, independently-confirmed names and dimensions instead of the submission's values; release_year was also corrected from the submission's 2015 to 2013 (the line's actual IPCPR launch year, confirmed by multiple sources plus a Cigar Coop review of the Sparkplug dated June 2014).",
     "sources_found": [],
-    "proposed_action": "No action needed — this entry documents the corrections made so a future submission doesn't reintroduce the same wrong names/dimensions.",
+    "proposed_action": "No action needed \u2014 this entry documents the corrections made so a future submission doesn't reintroduce the same wrong names/dimensions.",
     "decision": null
   },
   {
-    "item": "Hoyo de Monterrey Epicure No. 2 (Cuban Habanos S.A.) — site scope decision needed",
+    "item": "Hoyo de Monterrey Epicure No. 2 (Cuban Habanos S.A.) \u2014 site scope decision needed",
     "path": "/brands/hoyo-de-monterrey/",
     "reason": "insufficient_sources",
-    "why_flagged": "A user submission proposed adding the real Cuban Habanos S.A. Hoyo de Monterrey Epicure No. 2. This would be the first genuinely Cuban Habanos product in the catalog: every other Cuban-named brand currently in the db (Cohiba, Partagas, H. Upmann, Montecristo, Romeo y Julieta, and this same Hoyo de Monterrey) exists only as its non-Cuban counterpart, with two (Cohiba, Partagas) explicitly labeled \"(General Cigar, non-Cuban)\" in the brand name to disambiguate — a deliberate scope pattern, not an oversight. The site also has price-tracking, deals, and affiliate-style retailer-link features (price_point table, add-price-point's affiliate_url) that assume the catalog is US-purchasable; Cuban Habanos cigars cannot legally be sold by any of the site's existing US retailer sources (JR Cigars, Cigars International, Holt's, Famous Smoke, etc.), so those features would have nothing to attach to for a Cuban entry. Asked the site owner directly; decision was to skip/hold for now rather than add it.",
+    "why_flagged": "A user submission proposed adding the real Cuban Habanos S.A. Hoyo de Monterrey Epicure No. 2. This would be the first genuinely Cuban Habanos product in the catalog: every other Cuban-named brand currently in the db (Cohiba, Partagas, H. Upmann, Montecristo, Romeo y Julieta, and this same Hoyo de Monterrey) exists only as its non-Cuban counterpart, with two (Cohiba, Partagas) explicitly labeled \"(General Cigar, non-Cuban)\" in the brand name to disambiguate \u2014 a deliberate scope pattern, not an oversight. The site also has price-tracking, deals, and affiliate-style retailer-link features (price_point table, add-price-point's affiliate_url) that assume the catalog is US-purchasable; Cuban Habanos cigars cannot legally be sold by any of the site's existing US retailer sources (JR Cigars, Cigars International, Holt's, Famous Smoke, etc.), so those features would have nothing to attach to for a Cuban entry. Asked the site owner directly; decision was to skip/hold for now rather than add it.",
     "sources_found": [
       "https://www.habanos.com/en/the-habanos-brands-academia/hoyo-de-monterrey-brand/",
       "https://vitola.me/2023/02/23/hoyo-de-monterrey-epicure-no-2/"
@@ -1488,7 +1488,7 @@
     "decision": null
   },
   {
-    "item": "Nub Connecticut 358 — critic score",
+    "item": "Nub Connecticut 358 \u2014 critic score",
     "path": "/cigars/nub/connecticut/358/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only from a user submission. Found a StogieReview piece (2012-04-01) but it gave no numeric score, focusing on price critique instead. No other established critic outlet review found with a numeric score for this specific size.",
@@ -1499,7 +1499,7 @@
     "decision": null
   },
   {
-    "item": "Nub Connecticut 466 — critic score and \"466B\" naming",
+    "item": "Nub Connecticut 466 \u2014 critic score and \"466B\" naming",
     "path": "/cigars/nub/connecticut/466/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only from a user submission that named this vitola \"466B\"; every independent retailer/reference found (Cigars International, CigarsDirect, Cigarwell, Atlantic Cigar) calls it plain \"466\" with no letter suffix, unlike the 464T which does carry a real shape-suffix (Torpedo). Added under \"466\" pending confirmation the \"B\" is real. No scored critic review found for this size from any established outlet.",
@@ -1510,34 +1510,34 @@
     "decision": null
   },
   {
-    "item": "San Cristobal Elegancia Robusto — critic score",
+    "item": "San Cristobal Elegancia Robusto \u2014 critic score",
     "path": "/cigars/san-cristobal/elegancia/robusto/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only. Searches repeatedly returned a claimed \"91-point\" Cigar Aficionado rating for this vitola, but every instance reused the exact same review-text snippet (\"three-seam cap... draws evenly\") that also got attached to the Pyramid and generic Elegancia searches — a sign the search engine is recycling one canned snippet rather than surfacing distinct page content. No actual Robusto-specific cigaraficionado.com/ratings URL could be found or direct-fetched to confirm a real score, and Pyramid's real, directly-confirmed score turned out to be 85 (not 91), reinforcing that the recycled \"91\" figure is unreliable.",
+    "why_flagged": "Added spec-only. Searches repeatedly returned a claimed \"91-point\" Cigar Aficionado rating for this vitola, but every instance reused the exact same review-text snippet (\"three-seam cap... draws evenly\") that also got attached to the Pyramid and generic Elegancia searches \u2014 a sign the search engine is recycling one canned snippet rather than surfacing distinct page content. No actual Robusto-specific cigaraficionado.com/ratings URL could be found or direct-fetched to confirm a real score, and Pyramid's real, directly-confirmed score turned out to be 85 (not 91), reinforcing that the recycled \"91\" figure is unreliable.",
     "sources_found": [],
     "proposed_action": "Find and directly fetch the real Cigar Aficionado (or other outlet) rating URL for this specific vitola before citing any score for it.",
     "decision": null
   },
   {
-    "item": "San Cristobal Elegancia Imperial — critic score",
+    "item": "San Cristobal Elegancia Imperial \u2014 critic score",
     "path": "/cigars/san-cristobal/elegancia/imperial/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only. Same recycled-snippet issue as the Robusto entry — no distinct, direct-fetchable citation found for this vitola specifically.",
+    "why_flagged": "Added spec-only. Same recycled-snippet issue as the Robusto entry \u2014 no distinct, direct-fetchable citation found for this vitola specifically.",
     "sources_found": [],
     "proposed_action": "Find and directly fetch a real rating URL for this specific vitola before citing any score for it.",
     "decision": null
   },
   {
-    "item": "San Cristobal Elegancia Grandioso — critic score",
+    "item": "San Cristobal Elegancia Grandioso \u2014 critic score",
     "path": "/cigars/san-cristobal/elegancia/grandioso/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only. Same recycled-snippet issue as the Robusto and Imperial entries — no distinct, direct-fetchable citation found for this vitola specifically.",
+    "why_flagged": "Added spec-only. Same recycled-snippet issue as the Robusto and Imperial entries \u2014 no distinct, direct-fetchable citation found for this vitola specifically.",
     "sources_found": [],
     "proposed_action": "Find and directly fetch a real rating URL for this specific vitola before citing any score for it.",
     "decision": null
   },
   {
-    "item": "H. Upmann The Banker Arbitrage — critic score",
+    "item": "H. Upmann The Banker Arbitrage \u2014 critic score",
     "path": "/cigars/h-upmann/the-banker/arbitrage/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. Currency and Annuity both have direct-fetched Cigar Aficionado citations from the same July 2014 review batch, but no equivalent Arbitrage-specific rating URL could be found despite trying several plausible sequential rating IDs near Annuity (17445) and Currency (17446). Search results only surfaced generic \"85+\" and recycled \"91\" claims without a distinct, fetchable source page.",
@@ -1546,7 +1546,7 @@
     "decision": null
   },
   {
-    "item": "Foundation Olmec Claro Corona Gorda / Grande / Double Corona — critic scores",
+    "item": "Foundation Olmec Claro Corona Gorda / Grande / Double Corona \u2014 critic scores",
     "path": "/cigars/foundation-cigar-co/olmec-claro/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. Claro's Robusto and Toro each have a directly-verified citation, but no scored review could be found for Corona Gorda, Grande, or Double Corona specifically despite searching. Two Cigar Coop reviews (Claro Toro, Maduro Toro) were also found but Cigar Coop returned HTTP 403 on every direct-fetch attempt, so their claimed scores were not used.",
@@ -1555,7 +1555,7 @@
     "decision": null
   },
   {
-    "item": "Foundation Olmec Maduro Corona Gorda / Toro / Grande — critic scores",
+    "item": "Foundation Olmec Maduro Corona Gorda / Toro / Grande \u2014 critic scores",
     "path": "/cigars/foundation-cigar-co/olmec-maduro/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. Maduro's Robusto and Double Corona each have a directly-verified citation, but no scored review could be found for Corona Gorda, Toro, or Grande specifically. Cigar Coop reviewed the Maduro Toro but 403'd on every direct-fetch attempt, so its claimed 89-point score was not used without confirmation.",
@@ -1564,7 +1564,7 @@
     "decision": null
   },
   {
-    "item": "Foundation Charter Oak Broadleaf Petit Corona / Toro / Lonsdale / Grande — critic scores",
+    "item": "Foundation Charter Oak Broadleaf Petit Corona / Toro / Lonsdale / Grande \u2014 critic scores",
     "path": "/cigars/foundation-cigar-co/charter-oak-broadleaf/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. Only Rothschild has a directly-verified citation (Cigar Dojo). No scored review found for the other 4 sizes in this specific wrapper expression despite searching.",
@@ -1573,7 +1573,7 @@
     "decision": null
   },
   {
-    "item": "Foundation Charter Oak Habano Rothschild / Petit Corona / Toro / Grande — critic scores",
+    "item": "Foundation Charter Oak Habano Rothschild / Petit Corona / Toro / Grande \u2014 critic scores",
     "path": "/cigars/foundation-cigar-co/charter-oak-habano/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. Only Lonsdale has directly-verified citations (Cigar Dojo, Blind Man's Puff). No scored review found for the other 4 sizes in this specific wrapper expression. Note: a Torpedo vitola also exists in this line per Foundation's own product page but was not in the user's submission, so it was not added.",
@@ -1582,7 +1582,7 @@
     "decision": null
   },
   {
-    "item": "Crowned Heads Mil Dias Sublime — critic score",
+    "item": "Crowned Heads Mil Dias Sublime \u2014 critic score",
     "path": "/cigars/crowned-heads/mil-dias/sublime/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. A halfwheel review of the Sublime exists but returned HTTP 402 on direct fetch. A Developing Palates \"Mil Dias Maduro Sublime\" review was also found, but that is the separate Maduro-wrapper expression and would misattribute if used here.",
@@ -1591,19 +1591,19 @@
     "decision": null
   },
   {
-    "item": "Crowned Heads Mil Dias Topes — critic score",
+    "item": "Crowned Heads Mil Dias Topes \u2014 critic score",
     "path": "/cigars/crowned-heads/mil-dias/topes/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only. Reviews of the Topes (added to the line in 2023) exist but are qualitative only — no numeric score found from an established outlet.",
+    "why_flagged": "Added spec-only. Reviews of the Topes (added to the line in 2023) exist but are qualitative only \u2014 no numeric score found from an established outlet.",
     "sources_found": [],
     "proposed_action": "Re-search once a scored review is published for this size.",
     "decision": null
   },
   {
-    "item": "Crowned Heads Mil Dias Maduro — needs its own line entry",
+    "item": "Crowned Heads Mil Dias Maduro \u2014 needs its own line entry",
     "path": "/cigars/crowned-heads/mil-dias/",
     "reason": "insufficient_sources",
-    "why_flagged": "A separate Mil Dias Maduro expression (2024) exists with its own wrapper and its own reviews (Cigar Coop, halfwheel, Developing Palates all review Maduro-labeled vitolas distinctly from the base line) — same pattern as other wrapper-variant splits this session (Perdomo, Plasencia, CAO, Foundation). Not part of the current submission, so not researched in depth.",
+    "why_flagged": "A separate Mil Dias Maduro expression (2024) exists with its own wrapper and its own reviews (Cigar Coop, halfwheel, Developing Palates all review Maduro-labeled vitolas distinctly from the base line) \u2014 same pattern as other wrapper-variant splits this session (Perdomo, Plasencia, CAO, Foundation). Not part of the current submission, so not researched in depth.",
     "sources_found": [
       "https://cigar-coop.com/2024/09/crowned-heads-mil-dias-maduro-edmundo-cigar-review.html",
       "https://halfwheel.com/mil-dias-maduro-sublime/438447/"
@@ -1612,7 +1612,7 @@
     "decision": null
   },
   {
-    "item": "Warped La Colmena Amado No. 36 — critic score",
+    "item": "Warped La Colmena Amado No. 36 \u2014 critic score",
     "path": "/cigars/warped/la-colmena/amado-no-36/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. A Cigar Coop review (91 pts, per search summary) and a StogieReview guest review (no numeric score) were found, but Cigar Coop returned HTTP 403 on direct fetch, so its score was not used without confirmation.",
@@ -1623,7 +1623,7 @@
     "decision": null
   },
   {
-    "item": "Warped La Colmena Amado No. 40 — critic score",
+    "item": "Warped La Colmena Amado No. 40 \u2014 critic score",
     "path": "/cigars/warped/la-colmena/amado-no-40/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. A halfwheel review exists but returned HTTP 402 on direct fetch. This is also an extremely limited DROP Cigar Club exclusive (2,000 total cigars made in 2024), so a scored review may never surface from a mainstream outlet.",
@@ -1632,7 +1632,7 @@
     "decision": null
   },
   {
-    "item": "Black Label Trading Co. Orthodox Toro — critic score",
+    "item": "Black Label Trading Co. Orthodox Toro \u2014 critic score",
     "path": "/cigars/black-label-trading-company/orthodox/toro/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. Cigar Coop reviewed the Toro (reportedly 90 points, later named to their 2025 Cigar of the Year countdown at #25) but returned HTTP 403 on every direct-fetch attempt, so the score was not used without confirmation. A Barrel Burner review also exists but that domain failed to resolve (DNS error) during this session.",
@@ -1644,10 +1644,10 @@
     "decision": null
   },
   {
-    "item": "Black Works Studio Killer Bee Robusto — critic score",
+    "item": "Black Works Studio Killer Bee Robusto \u2014 critic score",
     "path": "/cigars/black-works-studio/killer-bee/robusto/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only. Cigar Coop reviewed the original Killer Bee (reportedly 92 points, Box Worthy) but 403'd on every direct-fetch attempt, and the exact vitola reviewed could not be confirmed. A separate Cigar Coop review is specifically for the Green Hornet Robusto, a different variant not in this submission — real risk of misattributing that score to this base Robusto if used without confirmation.",
+    "why_flagged": "Added spec-only. Cigar Coop reviewed the original Killer Bee (reportedly 92 points, Box Worthy) but 403'd on every direct-fetch attempt, and the exact vitola reviewed could not be confirmed. A separate Cigar Coop review is specifically for the Green Hornet Robusto, a different variant not in this submission \u2014 real risk of misattributing that score to this base Robusto if used without confirmation.",
     "sources_found": [
       "https://cigar-coop.com/2016/05/cigar-review-black-works-studio-killer-bee.html"
     ],
@@ -1655,25 +1655,25 @@
     "decision": null
   },
   {
-    "item": "Illusione Epernay — submission repeated a real factory error and a release_year discrepancy",
+    "item": "Illusione Epernay \u2014 submission repeated a real factory error and a release_year discrepancy",
     "path": "/cigars/illusione/epernay/",
     "reason": "conflicting_facts",
-    "why_flagged": "A user submission claimed Epernay is manufactured by Aganorsa Leaf in Esteli, Nicaragua, and released in 2008. Independent research confirms this is wrong on the factory: Epernay has always been made at Raices Cubanas in Honduras — Dion Giolito deliberately kept Epernay there when he moved Illusione's CORE line to Aganorsa/TABSA in Nicaragua, per multiple independent trade sources. This matches our existing (unchanged) brand-level factory field. On release_year: our existing value (2009) matches the widely-cited \"Epernay Serie 2009\" naming and its earliest Top 25 citations (2009-2011); the submission's 2008 likely refers to a small, ECCJ-exclusive precursor release rather than the wider commercial launch. Kept both existing values (Honduras/Raices Cubanas factory, 2009 release_year) and did not change them.",
+    "why_flagged": "A user submission claimed Epernay is manufactured by Aganorsa Leaf in Esteli, Nicaragua, and released in 2008. Independent research confirms this is wrong on the factory: Epernay has always been made at Raices Cubanas in Honduras \u2014 Dion Giolito deliberately kept Epernay there when he moved Illusione's CORE line to Aganorsa/TABSA in Nicaragua, per multiple independent trade sources. This matches our existing (unchanged) brand-level factory field. On release_year: our existing value (2009) matches the widely-cited \"Epernay Serie 2009\" naming and its earliest Top 25 citations (2009-2011); the submission's 2008 likely refers to a small, ECCJ-exclusive precursor release rather than the wider commercial launch. Kept both existing values (Honduras/Raices Cubanas factory, 2009 release_year) and did not change them.",
     "sources_found": [],
-    "proposed_action": "No action needed — this entry documents why the conflicting submitted facts were rejected. Also note: a newer \"Epernay Tuonela\" reformulation exists (2025 reviews found for Tuonela Le Grande and Tuonela Le Monde) that is explicitly described by reviewers as different from \"classic\" Epernay — deliberately not used for any citation on the vitolas added here, and would need its own line if added later.",
+    "proposed_action": "No action needed \u2014 this entry documents why the conflicting submitted facts were rejected. Also note: a newer \"Epernay Tuonela\" reformulation exists (2025 reviews found for Tuonela Le Grande and Tuonela Le Monde) that is explicitly described by reviewers as different from \"classic\" Epernay \u2014 deliberately not used for any citation on the vitolas added here, and would need its own line if added later.",
     "decision": null
   },
   {
-    "item": "Room101 Johnny Tobacconaut Gordo — critic score",
+    "item": "Room101 Johnny Tobacconaut Gordo \u2014 critic score",
     "path": "/cigars/room101/johnny-tobacconaut/gordo/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only. No distinct, direct-fetchable scored review found for this vitola specifically — search results only surfaced a recycled generic \"91-point\" claim without a fetchable source page.",
+    "why_flagged": "Added spec-only. No distinct, direct-fetchable scored review found for this vitola specifically \u2014 search results only surfaced a recycled generic \"91-point\" claim without a fetchable source page.",
     "sources_found": [],
     "proposed_action": "Find and directly fetch a real rating URL for this specific vitola before citing any score.",
     "decision": null
   },
   {
-    "item": "Room101 Johnny Tobacconaut Perfecto — critic score",
+    "item": "Room101 Johnny Tobacconaut Perfecto \u2014 critic score",
     "path": "/cigars/room101/johnny-tobacconaut/perfecto/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. Confirmed as halfwheel's #3 Cigar of the Year for 2023 (a real, well-corroborated placement), but halfwheel returned HTTP 402 on every direct-fetch attempt, so the exact numeric score behind that ranking could not be confirmed.",
@@ -1684,19 +1684,19 @@
     "decision": null
   },
   {
-    "item": "Room101 Johnny Tobacconaut — submission repeated release_year and factory errors",
+    "item": "Room101 Johnny Tobacconaut \u2014 submission repeated release_year and factory errors",
     "path": "/cigars/room101/johnny-tobacconaut/",
     "reason": "conflicting_facts",
-    "why_flagged": "A user submission claimed release_year 2025 and factory HATSA (Honduras) for Johnny Tobacconaut. Independent research shows a more complex history: the name dates to 2015 (an entirely different Nicaraguan-puro blend made in Honduras under Davidoff distribution), went on hiatus, returned in 2021 as a Luxury Cigar Club exclusive, and was reformulated into the current Connecticut Shade/Mexican/Nicaraguan blend as a core-line relaunch in 2023 after STG's 2022 acquisition — now made at Tabacalera A.J. Fernandez in Esteli, NICARAGUA, not HATSA. The submission's 2025 date actually belongs to a separate, limited-run \"10th Anniversary\" edition (itself a different Nicaraguan puro blend, badly affected by a factory fire that destroyed over half that release) which the submission itself correctly flagged as a distinct product. Set release_year to 2023 and factory to A.J. Fernandez/Nicaragua instead of the submitted values.",
+    "why_flagged": "A user submission claimed release_year 2025 and factory HATSA (Honduras) for Johnny Tobacconaut. Independent research shows a more complex history: the name dates to 2015 (an entirely different Nicaraguan-puro blend made in Honduras under Davidoff distribution), went on hiatus, returned in 2021 as a Luxury Cigar Club exclusive, and was reformulated into the current Connecticut Shade/Mexican/Nicaraguan blend as a core-line relaunch in 2023 after STG's 2022 acquisition \u2014 now made at Tabacalera A.J. Fernandez in Esteli, NICARAGUA, not HATSA. The submission's 2025 date actually belongs to a separate, limited-run \"10th Anniversary\" edition (itself a different Nicaraguan puro blend, badly affected by a factory fire that destroyed over half that release) which the submission itself correctly flagged as a distinct product. Set release_year to 2023 and factory to A.J. Fernandez/Nicaragua instead of the submitted values.",
     "sources_found": [
       "https://halfwheel.com/room101-celebrates-a-decade-of-johnny-tobacconaut-with-limited-edition-release/449613/",
       "https://klarocigars.com/blogs/expert-reviews/room101-cigars-johnny-tobacconaut-review"
     ],
-    "proposed_action": "No action needed — this entry documents why the submitted release_year/factory were corrected rather than used as-is.",
+    "proposed_action": "No action needed \u2014 this entry documents why the submitted release_year/factory were corrected rather than used as-is.",
     "decision": null
   },
   {
-    "item": "BLACKENED S84 Shade to Black Corona — critic score",
+    "item": "BLACKENED S84 Shade to Black Corona \u2014 critic score",
     "path": "/cigars/blackened/s84-shade-to-black/corona/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. halfwheel reviewed the Corona but returned HTTP 402 on every direct-fetch attempt, so its score could not be confirmed. Also corrected the submission's claimed dimensions (4.0x43) to the actually-confirmed 5x43 (9+ independent retailers agree, and the halfwheel review title/URL also references it as a 5-inch vitola).",
@@ -1705,7 +1705,7 @@
     "decision": null
   },
   {
-    "item": "Aladino Cameroon Super Toro / Lancero / Elegante / Gordo / Queens Perfecto — critic scores",
+    "item": "Aladino Cameroon Super Toro / Lancero / Elegante / Gordo / Queens Perfecto \u2014 critic scores",
     "path": "/cigars/aladino/cameroon/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. Reviews exist for several of these (Cigar Advisor for Super Toro, halfwheel for Elegante and Gordo) but gave no numeric score, or the outlet (halfwheel) blocked direct fetch. No confirmed scored citation found for Lancero or Queens Perfecto either.",
@@ -1718,31 +1718,31 @@
     "decision": null
   },
   {
-    "item": "Aladino Cameroon — submission contained a FABRICATED award and multiple wrong facts",
+    "item": "Aladino Cameroon \u2014 submission contained a FABRICATED award and multiple wrong facts",
     "path": "/cigars/aladino/cameroon/",
     "reason": "conflicting_facts",
-    "why_flagged": "This submission's headline claim — a No. 2 Cigar of the Year (96 points) from Cigar Aficionado's 2022 Top 25 — is FALSE. Directly fetched the actual 2022 Top 25 list: Aladino Cameroon does not appear on it anywhere. The real #2 for 2022 was Rocky Patel Sixty Sixty; #1 was H. Upmann No. 2. No Aladino product of any kind appears on that list. This was not used. Additional errors: release_year was submitted as 2021, but the line actually launched May 2020 (confirmed via halfwheel/Cigar Coop coverage). The wrapper was described as \"authentic African Cameroon wrapper tobacco\" grown in Cameroon, but it is actually Honduran-GROWN Cameroon-SEED tobacco from the Eiroa family's own Jamastran Valley farms — never grown in Cameroon itself. Factory was given as \"Fabricas Unidas\"; the more specific and commonly-cited name is \"Fabrica de Puros Aladino,\" a converted vintage movie theater (Fabricas Unidas appears to be a related/parent entity). Vitola names and dimensions were also substantially wrong: \"Petit Corona\" (4.5x46) does not match the real \"Elegante\" (4.5x48); \"Toro\" (6x52) should be named \"Super Toro\"; \"Lonsdale\" was submitted at 6.5x44 but is actually 6x43; a \"Corona\" at 5.6x44 does not match any known Aladino Cameroon vitola at all and was not added. The submission also omitted 3 real vitolas (Lancero, Gordo, Queens Perfecto).",
+    "why_flagged": "This submission's headline claim \u2014 a No. 2 Cigar of the Year (96 points) from Cigar Aficionado's 2022 Top 25 \u2014 is FALSE. Directly fetched the actual 2022 Top 25 list: Aladino Cameroon does not appear on it anywhere. The real #2 for 2022 was Rocky Patel Sixty Sixty; #1 was H. Upmann No. 2. No Aladino product of any kind appears on that list. This was not used. Additional errors: release_year was submitted as 2021, but the line actually launched May 2020 (confirmed via halfwheel/Cigar Coop coverage). The wrapper was described as \"authentic African Cameroon wrapper tobacco\" grown in Cameroon, but it is actually Honduran-GROWN Cameroon-SEED tobacco from the Eiroa family's own Jamastran Valley farms \u2014 never grown in Cameroon itself. Factory was given as \"Fabricas Unidas\"; the more specific and commonly-cited name is \"Fabrica de Puros Aladino,\" a converted vintage movie theater (Fabricas Unidas appears to be a related/parent entity). Vitola names and dimensions were also substantially wrong: \"Petit Corona\" (4.5x46) does not match the real \"Elegante\" (4.5x48); \"Toro\" (6x52) should be named \"Super Toro\"; \"Lonsdale\" was submitted at 6.5x44 but is actually 6x43; a \"Corona\" at 5.6x44 does not match any known Aladino Cameroon vitola at all and was not added. The submission also omitted 3 real vitolas (Lancero, Gordo, Queens Perfecto).",
     "sources_found": [
       "https://www.cigaraficionado.com/top25/2022",
       "https://www.cigaraficionado.com/article/best-cigars-of-2022",
       "https://www.cigaraficionado.com/article/an-aladino-wrapped-in-honduran-cameroon"
     ],
-    "proposed_action": "Treat this submission's source as unreliable going forward — this is the first submission this session with a wholly fabricated award citation rather than a research/attribution error. Flagged directly to the site owner.",
+    "proposed_action": "Treat this submission's source as unreliable going forward \u2014 this is the first submission this session with a wholly fabricated award citation rather than a research/attribution error. Flagged directly to the site owner.",
     "decision": null
   },
   {
-    "item": "Highclere Castle Edwardian — release_year correction",
+    "item": "Highclere Castle Edwardian \u2014 release_year correction",
     "path": "/cigars/highclere-castle/edwardian/",
     "reason": "conflicting_facts",
     "why_flagged": "The submission claimed release_year 2019. Independent research (halfwheel's original partnership-announcement article, plus corroborating retailer/trade coverage) confirms the line was announced at the 2017 IPCPR trade show and released for regular production in September 2017. Set release_year to 2017 instead.",
     "sources_found": [
       "https://halfwheel.com/foundation-cigar-co-partners-highclere-castle-cigar-co-new-cigar/"
     ],
-    "proposed_action": "No action needed — this entry documents why the submitted release_year was corrected.",
+    "proposed_action": "No action needed \u2014 this entry documents why the submitted release_year was corrected.",
     "decision": null
   },
   {
-    "item": "West Tampa Red Gigante — critic score",
+    "item": "West Tampa Red Gigante \u2014 critic score",
     "path": "/cigars/west-tampa-tobacco/red/gigante/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. No scored review found specifically for this vitola despite searching.",
@@ -1751,63 +1751,63 @@
     "decision": null
   },
   {
-    "item": "West Tampa Tobacco Co. Red — submission had wrong blend, wrong award details, and a fabricated vitola",
+    "item": "West Tampa Tobacco Co. Red \u2014 submission had wrong blend, wrong award details, and a fabricated vitola",
     "path": "/cigars/west-tampa-tobacco/red/",
     "reason": "conflicting_facts",
-    "why_flagged": "This submission had the most extensive blend errors seen this session. It claimed an Ecuadorian Habano wrapper, Mexican Sumatra binder, and Nicaraguan/Dominican filler. The actual, independently-confirmed blend (2+ sources) is a Mexican San Andres wrapper, Nicaraguan Condega binder, and all-Nicaraguan filler (Condega Viso, Esteli Viso and Ligero) — every single blend component was wrong. It also claimed a submitted \"Belicoso\" vitola (5.5x52) that does not exist anywhere in the real lineup (confirmed original 2023 sizes: Robusto, Toro, Gigante; a Lancero was added in 2024) — not added. The awards claim (No. 13, 95 points, 2024 Top 25) was also wrong on every count: directly fetching the real 2024 Top 25 list shows #13 that year was Viva La Vida Jester, not West Tampa. There IS a real West Tampa Red award, just different: Robusto ranked #25 in the 2023 Top 25 with a 93-point score — used that instead.",
+    "why_flagged": "This submission had the most extensive blend errors seen this session. It claimed an Ecuadorian Habano wrapper, Mexican Sumatra binder, and Nicaraguan/Dominican filler. The actual, independently-confirmed blend (2+ sources) is a Mexican San Andres wrapper, Nicaraguan Condega binder, and all-Nicaraguan filler (Condega Viso, Esteli Viso and Ligero) \u2014 every single blend component was wrong. It also claimed a submitted \"Belicoso\" vitola (5.5x52) that does not exist anywhere in the real lineup (confirmed original 2023 sizes: Robusto, Toro, Gigante; a Lancero was added in 2024) \u2014 not added. The awards claim (No. 13, 95 points, 2024 Top 25) was also wrong on every count: directly fetching the real 2024 Top 25 list shows #13 that year was Viva La Vida Jester, not West Tampa. There IS a real West Tampa Red award, just different: Robusto ranked #25 in the 2023 Top 25 with a 93-point score \u2014 used that instead.",
     "sources_found": [
       "https://www.cigaraficionado.com/top25/2024",
       "https://www.cigaraficionado.com/top25cigar/west-tampa-red-robusto-2023"
     ],
-    "proposed_action": "Treat this submission source as unreliable — this is the second submission this session (after Aladino Cameroon) with a materially wrong award citation, and the first with the entire blend composition wrong. Flagged directly to the site owner.",
+    "proposed_action": "Treat this submission source as unreliable \u2014 this is the second submission this session (after Aladino Cameroon) with a materially wrong award citation, and the first with the entire blend composition wrong. Flagged directly to the site owner.",
     "decision": null
   },
   {
-    "item": "Rocky Patel Decade Emperor — critic score",
+    "item": "Rocky Patel Decade Emperor \u2014 critic score",
     "path": "/cigars/rocky-patel/decade/emperor/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only. No distinct, direct-fetchable scored review found specifically for this vitola — search results only surfaced the generic \"95-point\" Decade-line claim, which was already shown to be inaccurate for the Torpedo specifically (see the queue entry documenting that correction) once directly verified.",
+    "why_flagged": "Added spec-only. No distinct, direct-fetchable scored review found specifically for this vitola \u2014 search results only surfaced the generic \"95-point\" Decade-line claim, which was already shown to be inaccurate for the Torpedo specifically (see the queue entry documenting that correction) once directly verified.",
     "sources_found": [],
     "proposed_action": "Find and directly fetch a real rating URL for this specific vitola before citing any score.",
     "decision": null
   },
   {
-    "item": "Rocky Patel Decade Torpedo — award score corrected (95 to 92)",
+    "item": "Rocky Patel Decade Torpedo \u2014 award score corrected (95 to 92)",
     "path": "/cigars/rocky-patel/decade/torpedo/",
     "reason": "conflicting_facts",
-    "why_flagged": "A user submission claimed a 95-point score for the Torpedo's #15 ranking on Cigar Aficionado's 2008 Top 25. Directly fetched both the Top 25 page itself and the Torpedo's own rating page — both independently show 92 points, not 95. The rank (#15), year (2008), and vitola (Torpedo) were all correct; only the score was wrong. The \"95\" figure appears to be a widely-repeated retailer/marketing claim for the Decade line generally, not something confirmable at the primary source. Used 92 instead.",
+    "why_flagged": "A user submission claimed a 95-point score for the Torpedo's #15 ranking on Cigar Aficionado's 2008 Top 25. Directly fetched both the Top 25 page itself and the Torpedo's own rating page \u2014 both independently show 92 points, not 95. The rank (#15), year (2008), and vitola (Torpedo) were all correct; only the score was wrong. The \"95\" figure appears to be a widely-repeated retailer/marketing claim for the Decade line generally, not something confirmable at the primary source. Used 92 instead.",
     "sources_found": [
       "https://www.cigaraficionado.com/top25cigar/rocky-patel-decade-torpedo-2008",
       "https://www.cigaraficionado.com/ratings/14106/name/rocky-patel-decade-torpedo"
     ],
-    "proposed_action": "No action needed — this entry documents the score correction. Note this is a partial error (unlike the two prior submissions this session with wholly fabricated or entirely wrong awards) — the placement and vitola were both accurate, only the score was inflated.",
+    "proposed_action": "No action needed \u2014 this entry documents the score correction. Note this is a partial error (unlike the two prior submissions this session with wholly fabricated or entirely wrong awards) \u2014 the placement and vitola were both accurate, only the score was inflated.",
     "decision": null
   },
   {
-    "item": "Rocky Patel Royale/Sun Grown Maduro/Sixty/A.L.R. Second Edition — remaining vitolas need critic scores",
+    "item": "Rocky Patel Royale/Sun Grown Maduro/Sixty/A.L.R. Second Edition \u2014 remaining vitolas need critic scores",
     "path": "/brands/rocky-patel/",
     "reason": "insufficient_sources",
-    "why_flagged": "4 new Rocky Patel lines were added from a batch submission, each with one award-winning vitola already directly cited (Royale Toro, Sun Grown Maduro Robusto, Sixty Sixty, A.L.R. Second Edition Toro). The remaining 12 vitolas across these 4 lines (Royale Robusto/Torpedo/Sixty; Sun Grown Maduro Toro/Belicoso/Sixty; Sixty Robusto/Toro/Half Corona; A.L.R. Robusto/Sixty) were added spec-only without individual research — time was prioritized on verifying the award claims given this batch's pattern of wrong placements.",
+    "why_flagged": "4 new Rocky Patel lines were added from a batch submission, each with one award-winning vitola already directly cited (Royale Toro, Sun Grown Maduro Robusto, Sixty Sixty, A.L.R. Second Edition Toro). The remaining 12 vitolas across these 4 lines (Royale Robusto/Torpedo/Sixty; Sun Grown Maduro Toro/Belicoso/Sixty; Sixty Robusto/Toro/Half Corona; A.L.R. Robusto/Sixty) were added spec-only without individual research \u2014 time was prioritized on verifying the award claims given this batch's pattern of wrong placements.",
     "sources_found": [],
     "proposed_action": "Research each remaining vitola individually for a scored, direct-fetchable review.",
     "decision": null
   },
   {
-    "item": "Rocky Patel batch (4 lines) — systematic award-placement errors and wrong factory name",
+    "item": "Rocky Patel batch (4 lines) \u2014 systematic award-placement errors and wrong factory name",
     "path": "/brands/rocky-patel/",
     "reason": "conflicting_facts",
-    "why_flagged": "All 4 submissions in this batch claimed a Cigar Aficionado Top 25 placement of exactly \"No. 2\" — a striking pattern verified directly against the real Top 25 lists: Royale Toro claimed #2/2014, actually #5 (score 94 correct). Sun Grown Maduro Robusto claimed #2/2016 — actually correct, #2/95pts confirmed exactly. Sixty claimed #2/2022 for the Toro vitola — placement and score (96) were correct, but the real award is for the Sixty (6x60) vitola, not Toro. A.L.R. Second Edition claimed #2/2023 — actually #4 (score 96 correct). Pattern: score was right in all 4 cases, but placement was only genuinely #2 once (Sun Grown Maduro); it looks like \"#2\" was used as a default/generic \"very good\" placement rather than actually looked up for the other 3. Separately, all 4 submissions named the Nicaraguan factory \"Tabacos Valle de Jalapa S.A. (TAVICASA)\" — the real name is TAVICUSA (Tabacalera Villa Cuba S.A.), opened 2008; used the correct name throughout. A.L.R. Second Edition's claimed 3-year post-roll aging was also corrected to the confirmed 2 years.",
+    "why_flagged": "All 4 submissions in this batch claimed a Cigar Aficionado Top 25 placement of exactly \"No. 2\" \u2014 a striking pattern verified directly against the real Top 25 lists: Royale Toro claimed #2/2014, actually #5 (score 94 correct). Sun Grown Maduro Robusto claimed #2/2016 \u2014 actually correct, #2/95pts confirmed exactly. Sixty claimed #2/2022 for the Toro vitola \u2014 placement and score (96) were correct, but the real award is for the Sixty (6x60) vitola, not Toro. A.L.R. Second Edition claimed #2/2023 \u2014 actually #4 (score 96 correct). Pattern: score was right in all 4 cases, but placement was only genuinely #2 once (Sun Grown Maduro); it looks like \"#2\" was used as a default/generic \"very good\" placement rather than actually looked up for the other 3. Separately, all 4 submissions named the Nicaraguan factory \"Tabacos Valle de Jalapa S.A. (TAVICASA)\" \u2014 the real name is TAVICUSA (Tabacalera Villa Cuba S.A.), opened 2008; used the correct name throughout. A.L.R. Second Edition's claimed 3-year post-roll aging was also corrected to the confirmed 2 years.",
     "sources_found": [
       "https://www.cigaraficionado.com/top25cigar/rocky-patel-royale-toro-2014",
       "https://www.cigaraficionado.com/top25cigar/rocky-patel-sun-grown-maduro-robusto-2016",
       "https://www.cigaraficionado.com/top25cigar/rocky-patel-sixty-sixty-2022",
       "https://www.cigaraficionado.com/top25cigar/rocky-patel-a-l-r-second-edition-toro-2023"
     ],
-    "proposed_action": "No action needed — this entry documents the corrections applied across the batch. Recommend treating any future \"No. 2\" placement claim from this submission source with particular skepticism given this pattern.",
+    "proposed_action": "No action needed \u2014 this entry documents the corrections applied across the batch. Recommend treating any future \"No. 2\" placement claim from this submission source with particular skepticism given this pattern.",
     "decision": null
   },
   {
-    "item": "Rocky Patel Vintage 1990/Edge Corojo/Number 6/Fifteenth Anniversary — remaining vitolas need critic scores",
+    "item": "Rocky Patel Vintage 1990/Edge Corojo/Number 6/Fifteenth Anniversary \u2014 remaining vitolas need critic scores",
     "path": "/brands/rocky-patel/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. Each line's award-winning vitola is already cited; the remaining 9 vitolas (Vintage 1990 Churchill/Torpedo; Edge Corojo Robusto/Torpedo/Missile; Number 6 Robusto/Toro/Sixty; Fifteenth Anniversary Robusto/Sixty) were not individually researched, given time was prioritized on verifying the award claims.",
@@ -1816,10 +1816,10 @@
     "decision": null
   },
   {
-    "item": "Rocky Patel batch #2 — Fifteenth Anniversary score correction and repeated TAVICASA/TAVICUSA error",
+    "item": "Rocky Patel batch #2 \u2014 Fifteenth Anniversary score correction and repeated TAVICASA/TAVICUSA error",
     "path": "/brands/rocky-patel/",
     "reason": "conflicting_facts",
-    "why_flagged": "Of this batch's 4 award claims, 3 were fully accurate (Vintage 1990 Robusto #22/2004/90pts; Edge Corojo Toro Cigar Journal Honduras COTY 2014/94pts; Number 6 Corona #9/2020/95pts) — a much better hit rate than the prior Rocky Patel batch. One was close but wrong: Fifteenth Anniversary Toro was submitted as #20/2018/93pts; directly confirmed as #20/2018/92pts (rank and year correct, score off by one point; also this specific citation is for a \"Toro (Tubo)\" packaging variant at 6x50, slightly different from the submission's generic Toro 6.5x52 entry — used the citation on the general Toro vitola with a note). Also: this submission repeated the same wrong factory name as the prior batch (\"Tabacos Valle de Jalapa S.A. (TAVICASA)\" for Fifteenth Anniversary) — corrected again to TAVICUSA (Tabacalera Villa Cuba S.A.). Separately learned Fifteenth Anniversary actually appeared on the Top 25 four times total (2010, 2011, 2013, 2018), not just the two years the submission listed — the two extra appearances (2010, 2013) were not independently verified or added.",
+    "why_flagged": "Of this batch's 4 award claims, 3 were fully accurate (Vintage 1990 Robusto #22/2004/90pts; Edge Corojo Toro Cigar Journal Honduras COTY 2014/94pts; Number 6 Corona #9/2020/95pts) \u2014 a much better hit rate than the prior Rocky Patel batch. One was close but wrong: Fifteenth Anniversary Toro was submitted as #20/2018/93pts; directly confirmed as #20/2018/92pts (rank and year correct, score off by one point; also this specific citation is for a \"Toro (Tubo)\" packaging variant at 6x50, slightly different from the submission's generic Toro 6.5x52 entry \u2014 used the citation on the general Toro vitola with a note). Also: this submission repeated the same wrong factory name as the prior batch (\"Tabacos Valle de Jalapa S.A. (TAVICASA)\" for Fifteenth Anniversary) \u2014 corrected again to TAVICUSA (Tabacalera Villa Cuba S.A.). Separately learned Fifteenth Anniversary actually appeared on the Top 25 four times total (2010, 2011, 2013, 2018), not just the two years the submission listed \u2014 the two extra appearances (2010, 2013) were not independently verified or added.",
     "sources_found": [
       "https://www.cigaraficionado.com/top25cigar/rocky-patel-15th-anniversary-toro-tubo-2018",
       "https://www.cigaraficionado.com/top25cigar/rocky-patel-vintage-1990-robusto-2004"
@@ -1828,7 +1828,7 @@
     "decision": null
   },
   {
-    "item": "Disciple/White Label/Grand Reserve/Tavicusa — remaining vitolas need critic scores",
+    "item": "Disciple/White Label/Grand Reserve/Tavicusa \u2014 remaining vitolas need critic scores",
     "path": "/brands/rocky-patel/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. Each line has at least one cited vitola; the remaining 8 (Disciple Toro/Sixty; White Label Robusto/Churchill/Sixty; Grand Reserve Toro/Sixty; Tavicusa Robusto/Toro/Sixty) were not individually researched.",
@@ -1837,41 +1837,41 @@
     "decision": null
   },
   {
-    "item": "Rocky Patel batch #3 — Disciple vitola fabrication and Grand Reserve factory error",
+    "item": "Rocky Patel batch #3 \u2014 Disciple vitola fabrication and Grand Reserve factory error",
     "path": "/brands/rocky-patel/",
     "reason": "conflicting_facts",
-    "why_flagged": "Two real errors in this batch. (1) Disciple: the submission listed a \"Half Corona\" (3.5x46) as one of its 4 vitolas; no such size exists in the real lineup. The real 4th vitola is \"Bala\" (5.75 length, a figurado with ring gauge increasing from 50 at the head to 58 at the foot) — confirmed via halfwheel's PCA coverage and a Developing Palates review. Added Bala instead; also corrected Toro from the submission's claimed 6.5x52 to the confirmed 6x52. (2) Grand Reserve: the submission claimed TAVICUSA/Nicaragua production, but Grand Reserve's own Cigar Aficionado Top 25 citation states directly it's made at El Paraiso in Danli, HONDURAS (Nestor Plasencia's factory) — corrected. All other facts in this batch (White Label's #4/2022/92pt halfwheel award, Grand Reserve's #9/2021/93pt CA award, Tavicusa's full details) were independently confirmed accurate.",
+    "why_flagged": "Two real errors in this batch. (1) Disciple: the submission listed a \"Half Corona\" (3.5x46) as one of its 4 vitolas; no such size exists in the real lineup. The real 4th vitola is \"Bala\" (5.75 length, a figurado with ring gauge increasing from 50 at the head to 58 at the foot) \u2014 confirmed via halfwheel's PCA coverage and a Developing Palates review. Added Bala instead; also corrected Toro from the submission's claimed 6.5x52 to the confirmed 6x52. (2) Grand Reserve: the submission claimed TAVICUSA/Nicaragua production, but Grand Reserve's own Cigar Aficionado Top 25 citation states directly it's made at El Paraiso in Danli, HONDURAS (Nestor Plasencia's factory) \u2014 corrected. All other facts in this batch (White Label's #4/2022/92pt halfwheel award, Grand Reserve's #9/2021/93pt CA award, Tavicusa's full details) were independently confirmed accurate.",
     "sources_found": [
       "https://www.cigaraficionado.com/top25cigar/rocky-patel-grand-reserve-robusto-2021",
       "https://halfwheel.com/pca-2021-rocky-patel-premium-cigars/393979/",
       "https://developingpalates.com/reviews/cigar-reviews/team-cigar-review-rocky-patel-disciple-bala/"
     ],
-    "proposed_action": "No action needed — this entry documents the corrections applied.",
+    "proposed_action": "No action needed \u2014 this entry documents the corrections applied.",
     "decision": null
   },
   {
-    "item": "Vintage 1992/Edge Maduro/Sun Grown remaining vitolas — critic scores",
+    "item": "Vintage 1992/Edge Maduro/Sun Grown remaining vitolas \u2014 critic scores",
     "path": "/brands/rocky-patel/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only. Vintage 1992 Torpedo/Sixty, all 4 Edge Maduro vitolas, and all 4 Sun Grown vitolas were not individually researched — time was prioritized on verifying award claims across this large 5-line batch.",
+    "why_flagged": "Added spec-only. Vintage 1992 Torpedo/Sixty, all 4 Edge Maduro vitolas, and all 4 Sun Grown vitolas were not individually researched \u2014 time was prioritized on verifying award claims across this large 5-line batch.",
     "sources_found": [],
     "proposed_action": "Research each remaining vitola individually for a scored, direct-fetchable review.",
     "decision": null
   },
   {
-    "item": "Rocky Patel batch #4 — Olde World Reserve Maduro award misattribution and Vintage 1992 omitted award",
+    "item": "Rocky Patel batch #4 \u2014 Olde World Reserve Maduro award misattribution and Vintage 1992 omitted award",
     "path": "/brands/rocky-patel/",
     "reason": "conflicting_facts",
-    "why_flagged": "Two issues found. (1) Olde World Reserve Maduro: the submission attributed its #8/2009/92pt Cigar Aficionado award to the Toro vitola, but the real award-winning cigar is a Torpedo (5x54) — a vitola the submission omitted from its list entirely. Added the Torpedo and moved the citation there; the Toro does have its own separate, later 91-point 2019 review, which was also added. (2) Vintage 1992: the submission's awards array was empty, but a real, independently-confirmed award exists — Cigar Journal's #8 Cigar of the Year for 2015 (Robusto) — added. Conviction's #7/2024/95pt award was independently re-confirmed against the full 2024 Top 25 list already fetched earlier this session (during West Tampa Tobacco verification) and is accurate.",
+    "why_flagged": "Two issues found. (1) Olde World Reserve Maduro: the submission attributed its #8/2009/92pt Cigar Aficionado award to the Toro vitola, but the real award-winning cigar is a Torpedo (5x54) \u2014 a vitola the submission omitted from its list entirely. Added the Torpedo and moved the citation there; the Toro does have its own separate, later 91-point 2019 review, which was also added. (2) Vintage 1992: the submission's awards array was empty, but a real, independently-confirmed award exists \u2014 Cigar Journal's #8 Cigar of the Year for 2015 (Robusto) \u2014 added. Conviction's #7/2024/95pt award was independently re-confirmed against the full 2024 Top 25 list already fetched earlier this session (during West Tampa Tobacco verification) and is accurate.",
     "sources_found": [
       "https://www.cigaraficionado.com/top25cigar/rocky-patel-olde-world-reserve-maduro-torpedo-2009",
       "https://www.cigarjournal.com/rocky-patel-vintage-1992-robusto-is-8-of-top-25-cigars-of-2015/"
     ],
-    "proposed_action": "No action needed — this entry documents the corrections applied.",
+    "proposed_action": "No action needed \u2014 this entry documents the corrections applied.",
     "decision": null
   },
   {
-    "item": "My Father No.1/Le Bijou 1922/The Judge/La Opulencia — remaining vitolas need critic scores",
+    "item": "My Father No.1/Le Bijou 1922/The Judge/La Opulencia \u2014 remaining vitolas need critic scores",
     "path": "/brands/my-father/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. Each award-winning vitola across this submission is cited; the other 13 vitolas (My Father No.1 Belicoso/Crema/Lonsdale; Le Bijou 1922 Petite Robusto/Grand Robusto/Churchill; The Judge Toro/Toro Fino/Corona Gorda; La Opulencia Robusto/Petite/Torpedo) were not individually researched, and halfwheel 402'd on the two attempted (Judge Corona Gorda, La Opulencia Petite). Also note: La Opulencia actually has 3 more vitolas (Corona, Toro Gordo, Super Toro/Gordo) not included in this submission at all.",
@@ -1880,49 +1880,49 @@
     "decision": null
   },
   {
-    "item": "Flor de las Antillas/Jaime Garcia Reserva Especial/Fonseca/El Centurion — remaining vitolas need critic scores",
+    "item": "Flor de las Antillas/Jaime Garcia Reserva Especial/Fonseca/El Centurion \u2014 remaining vitolas need critic scores",
     "path": "/brands/my-father/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only. Flor de las Antillas Belicoso/Toro Grande, all 5 Jaime Garcia Reserva Especial vitolas, Fonseca Robusto/Cedros/Toro Gordo, and El Centurion Corona were not individually researched — time was prioritized on verifying award claims. Also noted real vitolas omitted by these submissions: Jaime Garcia Reserva Especial has a 6th size (Super Gordo, 5.75x66) and Fonseca has 2 more (Cosacos, Belicosos) not covered here.",
+    "why_flagged": "Added spec-only. Flor de las Antillas Belicoso/Toro Grande, all 5 Jaime Garcia Reserva Especial vitolas, Fonseca Robusto/Cedros/Toro Gordo, and El Centurion Corona were not individually researched \u2014 time was prioritized on verifying award claims. Also noted real vitolas omitted by these submissions: Jaime Garcia Reserva Especial has a 6th size (Super Gordo, 5.75x66) and Fonseca has 2 more (Cosacos, Belicosos) not covered here.",
     "sources_found": [],
     "proposed_action": "Research each remaining vitola individually, and consider adding the 3 missing real sizes noted above.",
     "decision": null
   },
   {
-    "item": "Series JJ/Garcia y Garcia/Vegas Cubanas — all vitolas need critic scores",
+    "item": "Series JJ/Garcia y Garcia/Vegas Cubanas \u2014 all vitolas need critic scores",
     "path": "/brands/my-father/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only. No scored, direct-fetchable review could be confirmed for any of the 8 vitolas across these 3 lines (Series JJ Selectos/Sublime/Belicoso; Garcia y Garcia Toro Deluxe/Robusto Deluxe; Vegas Cubanas Generosos/Delicias/Coronas/Imperiales) — Cigar Coop and halfwheel 403/402'd on every attempt, and search results only surfaced vague \"85+\"/\"multiple 85+ point ratings\" claims without a specific, fetchable citation.",
+    "why_flagged": "Added spec-only. No scored, direct-fetchable review could be confirmed for any of the 8 vitolas across these 3 lines (Series JJ Selectos/Sublime/Belicoso; Garcia y Garcia Toro Deluxe/Robusto Deluxe; Vegas Cubanas Generosos/Delicias/Coronas/Imperiales) \u2014 Cigar Coop and halfwheel 403/402'd on every attempt, and search results only surfaced vague \"85+\"/\"multiple 85+ point ratings\" claims without a specific, fetchable citation.",
     "sources_found": [],
     "proposed_action": "Find working routes to Cigar Coop/halfwheel content, or another accessible outlet's scored review for each vitola.",
     "decision": null
   },
   {
-    "item": "Don Pepin Garcia submissions batch — multiple vitola/date corrections",
+    "item": "Don Pepin Garcia submissions batch \u2014 multiple vitola/date corrections",
     "path": "/brands/my-father/",
     "reason": "conflicting_facts",
-    "why_flagged": "This 4-line batch had the most vitola-naming errors of any submission this session. Cuban Classic: the submission fabricated a \"Churchill 1922\" vitola that does not exist (no source confirms it, and \"1922\" duplicates the name of an unrelated My Father line, Le Bijou 1922) — replaced with the real 4th vitola, \"2001\" (Toro Gordo, 6x60). It also mis-named the Belicoso as \"Belicoso 1954\"; the real name is \"1970 Belicoso.\" Its awards array was empty despite a real, confirmed award (Robusto 1979, #17/2007 Top 25, 92pts). Series JJ: release_year was submitted as 2007, but the original line debuted in 2005 — 2007 is when a separate Maduro-wrapper variant launched. Vegas Cubanas: \"Delicias\" was submitted at 5.5x50, but the real Delicias is a 7x50 Churchill shape; \"Imperiales\" was submitted at 6.125x52, but the real Imperiales is a 5.125x52 Torpedo (likely a length transposition, 6 vs 5). Garcia y Garcia: Robusto Deluxe's length was submitted as 5.75; sources are split between 5.25 and 5.75, with 5.25 more commonly cited. Also two dead source URLs in this submission (Cuban Classic's and Series JJ's cited ratings pages both 404'd) had to be re-found via search.",
+    "why_flagged": "This 4-line batch had the most vitola-naming errors of any submission this session. Cuban Classic: the submission fabricated a \"Churchill 1922\" vitola that does not exist (no source confirms it, and \"1922\" duplicates the name of an unrelated My Father line, Le Bijou 1922) \u2014 replaced with the real 4th vitola, \"2001\" (Toro Gordo, 6x60). It also mis-named the Belicoso as \"Belicoso 1954\"; the real name is \"1970 Belicoso.\" Its awards array was empty despite a real, confirmed award (Robusto 1979, #17/2007 Top 25, 92pts). Series JJ: release_year was submitted as 2007, but the original line debuted in 2005 \u2014 2007 is when a separate Maduro-wrapper variant launched. Vegas Cubanas: \"Delicias\" was submitted at 5.5x50, but the real Delicias is a 7x50 Churchill shape; \"Imperiales\" was submitted at 6.125x52, but the real Imperiales is a 5.125x52 Torpedo (likely a length transposition, 6 vs 5). Garcia y Garcia: Robusto Deluxe's length was submitted as 5.75; sources are split between 5.25 and 5.75, with 5.25 more commonly cited. Also two dead source URLs in this submission (Cuban Classic's and Series JJ's cited ratings pages both 404'd) had to be re-found via search.",
     "sources_found": [
       "https://www.cigaraficionado.com/top25cigar/don-pepin-garcia-cuban-classic-1979-2007",
       "https://www.cigaraficionado.com/ratings/19092/name/don-pepin-garcia-cuban-classic-1970-figurado"
     ],
-    "proposed_action": "No action needed for the corrections already applied — this entry documents them. Consider adding the real missing vitolas noted in each line's background text (Series JJ's Salmones; Vegas Cubanas' Invictos and Magnates).",
+    "proposed_action": "No action needed for the corrections already applied \u2014 this entry documents them. Consider adding the real missing vitolas noted in each line's background text (Series JJ's Salmones; Vegas Cubanas' Invictos and Magnates).",
     "decision": null
   },
   {
-    "item": "Enclave/Bellas Artes/San Lotano Requiem/New World Dorado — remaining vitolas need critic scores",
+    "item": "Enclave/Bellas Artes/San Lotano Requiem/New World Dorado \u2014 remaining vitolas need critic scores",
     "path": "/brands/aj-fernandez/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only. Enclave's other 3 vitolas, all 4 Bellas Artes vitolas, San Lotano Requiem's 3 new vitolas, and New World Dorado's other 3 vitolas were not individually researched — time was prioritized on resolving the New World/San Lotano Requiem variant-identity questions and verifying award claims across this 5-line batch.",
+    "why_flagged": "Added spec-only. Enclave's other 3 vitolas, all 4 Bellas Artes vitolas, San Lotano Requiem's 3 new vitolas, and New World Dorado's other 3 vitolas were not individually researched \u2014 time was prioritized on resolving the New World/San Lotano Requiem variant-identity questions and verifying award claims across this 5-line batch.",
     "sources_found": [],
     "proposed_action": "Research each remaining vitola individually for a scored, direct-fetchable review.",
     "decision": null
   },
   {
-    "item": "AJ Fernandez batch — New World/San Lotano Requiem variant identity, Enclave award misattribution, factory founding year conflict",
+    "item": "AJ Fernandez batch \u2014 New World/San Lotano Requiem variant identity, Enclave award misattribution, factory founding year conflict",
     "path": "/brands/aj-fernandez/",
     "reason": "conflicting_facts",
-    "why_flagged": "Several findings. (1) The submission proposed \"New World Oscuro\" as if it were a new line, but its dimensions (6.5x55 Toro, 5.5x55 Robusto) exactly match the existing \"New World\" line already in our catalog — independent research confirms New World Oscuro is real and won Cigar Journal's 2014 Cigar of the Year (94 points, not the submitted 93). Treated this as the SAME line rather than creating a duplicate; updated its background text to clarify the Oscuro naming and added 2 new vitolas (Gordo, Belicoso) plus the corrected award citation. (2) Similarly, \"San Lotano Requiem Habano\" matches the existing \"San Lotano Requiem\" line exactly (an existing citation URL literally contains \"-habano-\") — confirmed this line has 3 real wrapper variants (Connecticut, Habano, Maduro) and our existing entry is already the Habano one; added 3 new vitolas to it rather than duplicating. (3) Enclave: the submission attributed its #20/2016/92pt Cigar Aficionado award to the Figurado vitola, but the real award-winning vitola is the Churchill — corrected. (4) The submission's factory founded_year (2010) conflicts with our already-verified brand founded_year (2005, when AJ Fernandez opened his original Esteli factory); left the existing brand record unchanged and treated 2010 as possibly describing a later facility expansion, not challenged directly.",
+    "why_flagged": "Several findings. (1) The submission proposed \"New World Oscuro\" as if it were a new line, but its dimensions (6.5x55 Toro, 5.5x55 Robusto) exactly match the existing \"New World\" line already in our catalog \u2014 independent research confirms New World Oscuro is real and won Cigar Journal's 2014 Cigar of the Year (94 points, not the submitted 93). Treated this as the SAME line rather than creating a duplicate; updated its background text to clarify the Oscuro naming and added 2 new vitolas (Gordo, Belicoso) plus the corrected award citation. (2) Similarly, \"San Lotano Requiem Habano\" matches the existing \"San Lotano Requiem\" line exactly (an existing citation URL literally contains \"-habano-\") \u2014 confirmed this line has 3 real wrapper variants (Connecticut, Habano, Maduro) and our existing entry is already the Habano one; added 3 new vitolas to it rather than duplicating. (3) Enclave: the submission attributed its #20/2016/92pt Cigar Aficionado award to the Figurado vitola, but the real award-winning vitola is the Churchill \u2014 corrected. (4) The submission's factory founded_year (2010) conflicts with our already-verified brand founded_year (2005, when AJ Fernandez opened his original Esteli factory); left the existing brand record unchanged and treated 2010 as possibly describing a later facility expansion, not challenged directly.",
     "sources_found": [
       "https://www.hilandscigars.com/shop/cigars/a-j-fernandez/a-j-fernandez-new-world/new-world-gobernador-toro/",
       "https://www.cigaraficionado.com/top25cigar/enclave-churchill-2016"
@@ -1931,7 +1931,7 @@
     "decision": null
   },
   {
-    "item": "Dias de Gloria/New World Puro Especial/New World Connecticut/San Lotano Oval/Ramon Allones — remaining vitolas need critic scores",
+    "item": "Dias de Gloria/New World Puro Especial/New World Connecticut/San Lotano Oval/Ramon Allones \u2014 remaining vitolas need critic scores",
     "path": "/brands/aj-fernandez/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. Each line's award-winning vitola (where one exists) is cited; the other ~19 vitolas across these 5 new lines were not individually researched given the size of this batch.",
@@ -1940,18 +1940,18 @@
     "decision": null
   },
   {
-    "item": "AJ Fernandez batch #2 — award vitola misattributions and omissions",
+    "item": "AJ Fernandez batch #2 \u2014 award vitola misattributions and omissions",
     "path": "/brands/aj-fernandez/",
     "reason": "conflicting_facts",
-    "why_flagged": "Two of three award claims in this batch had the award attributed to the wrong vitola, and one also had the numbers wrong. New World Puro Especial: submission attributed its #12/2017/93pt award to the Robusto; the real winner is the Toro. Also, the submission omitted a real 4th vitola (Short Churchill) from its list entirely. San Lotano Oval: submission claimed #21/2012/92pts for a vitola not even in its own submitted list; the real award (#25/2012/91pts) is for a Corona (5.5x44), a size the submission omitted entirely — added it. Ramon Allones by AJ Fernandez was the one exception: its #25/2018/92pt Churchill award was confirmed exactly as submitted. Also corrected the existing New World line's wrapper field (was \"Nicaraguan Habano Rosado\", changed to \"Nicaraguan Oscuro\") to match its already-updated background text and avoid internal inconsistency.",
+    "why_flagged": "Two of three award claims in this batch had the award attributed to the wrong vitola, and one also had the numbers wrong. New World Puro Especial: submission attributed its #12/2017/93pt award to the Robusto; the real winner is the Toro. Also, the submission omitted a real 4th vitola (Short Churchill) from its list entirely. San Lotano Oval: submission claimed #21/2012/92pts for a vitola not even in its own submitted list; the real award (#25/2012/91pts) is for a Corona (5.5x44), a size the submission omitted entirely \u2014 added it. Ramon Allones by AJ Fernandez was the one exception: its #25/2018/92pt Churchill award was confirmed exactly as submitted. Also corrected the existing New World line's wrapper field (was \"Nicaraguan Habano Rosado\", changed to \"Nicaraguan Oscuro\") to match its already-updated background text and avoid internal inconsistency.",
     "sources_found": [
       "https://www.cigaraficionado.com/top25cigar/san-lotano-oval-corona-2012"
     ],
-    "proposed_action": "No action needed for corrections already applied. New World Connecticut's 5th vitola (Churchill, 7x55) could not be independently confirmed as regular production — worth re-checking if it comes up again.",
+    "proposed_action": "No action needed for corrections already applied. New World Connecticut's 5th vitola (Churchill, 7x55) could not be independently confirmed as regular production \u2014 worth re-checking if it comes up again.",
     "decision": null
   },
   {
-    "item": "New World Cameroon/Bellas Artes Maduro/San Lotano Requiem Maduro — remaining vitolas need critic scores",
+    "item": "New World Cameroon/Bellas Artes Maduro/San Lotano Requiem Maduro \u2014 remaining vitolas need critic scores",
     "path": "/brands/aj-fernandez/",
     "reason": "insufficient_sources",
     "why_flagged": "Added spec-only. Cigar Coop and halfwheel 403/402'd on direct-fetch attempts for New World Cameroon's Toro. None of the vitolas across these 3 lines besides Bellas Artes Maduro's Robusto (real, non-Top25 citation) have a confirmed scored review.",
@@ -1960,42 +1960,42 @@
     "decision": null
   },
   {
-    "item": "AJ Fernandez batch #3 — Bellas Artes Maduro award FABRICATED",
+    "item": "AJ Fernandez batch #3 \u2014 Bellas Artes Maduro award FABRICATED",
     "path": "/brands/aj-fernandez/",
     "reason": "conflicting_facts",
-    "why_flagged": "This submission's Bellas Artes Maduro claimed a #17/2019 Cigar Aficionado Top 25 placement at 92 points. Directly fetched the actual 2019 Top 25 list — Bellas Artes Maduro does not appear on it anywhere; #17 that year was Hoyo de Monterrey Le Hoyo de Rio Seco. This is fabricated, matching the same pattern seen earlier this session with Aladino Cameroon and West Tampa Tobacco Red. The real recognition for Bellas Artes Maduro is a Cigar Journal Cigar of the Year 2019 award (different organization, exact placement not independently confirmed) plus a standard (non-Top-25) 89-point Cigar Aficionado rating from August 2020 — used the latter as the citation. Also corrected several dimension/naming errors: New World Cameroon's release_year (2019 submitted, actually 2018), its \"Robusto\" (renamed to the real \"Double Robusto\"), its Toro ring gauge (52 submitted, actually 50), and 2 real omitted vitolas (Torpedo, Petit Lancero). San Lotano Requiem Maduro's Robusto and Toro ring gauges (54 submitted for both, actually 52 for both), and a real omitted 5th vitola (Gran Toro, 6x60). Enclave Broadleaf's Churchill award score was off by one point (93 submitted, 92 confirmed) but otherwise accurate.",
+    "why_flagged": "This submission's Bellas Artes Maduro claimed a #17/2019 Cigar Aficionado Top 25 placement at 92 points. Directly fetched the actual 2019 Top 25 list \u2014 Bellas Artes Maduro does not appear on it anywhere; #17 that year was Hoyo de Monterrey Le Hoyo de Rio Seco. This is fabricated, matching the same pattern seen earlier this session with Aladino Cameroon and West Tampa Tobacco Red. The real recognition for Bellas Artes Maduro is a Cigar Journal Cigar of the Year 2019 award (different organization, exact placement not independently confirmed) plus a standard (non-Top-25) 89-point Cigar Aficionado rating from August 2020 \u2014 used the latter as the citation. Also corrected several dimension/naming errors: New World Cameroon's release_year (2019 submitted, actually 2018), its \"Robusto\" (renamed to the real \"Double Robusto\"), its Toro ring gauge (52 submitted, actually 50), and 2 real omitted vitolas (Torpedo, Petit Lancero). San Lotano Requiem Maduro's Robusto and Toro ring gauges (54 submitted for both, actually 52 for both), and a real omitted 5th vitola (Gran Toro, 6x60). Enclave Broadleaf's Churchill award score was off by one point (93 submitted, 92 confirmed) but otherwise accurate.",
     "sources_found": [
       "https://www.cigaraficionado.com/top25/2019",
       "https://www.cigaraficionado.com/rating/bellas-artes-maduro-robusto"
     ],
-    "proposed_action": "Treat this submission source as unreliable for award claims specifically — this is the third fabricated/wrong-organization award this session from this general submission pattern. Flagged directly to the site owner.",
+    "proposed_action": "Treat this submission source as unreliable for award claims specifically \u2014 this is the third fabricated/wrong-organization award this session from this general submission pattern. Flagged directly to the site owner.",
     "decision": null
   },
   {
-    "item": "San Lotano Requiem Connecticut/The Bull/Pinolero/Dias de Gloria Brazil — all vitolas need critic scores",
+    "item": "San Lotano Requiem Connecticut/The Bull/Pinolero/Dias de Gloria Brazil \u2014 all vitolas need critic scores",
     "path": "/brands/aj-fernandez/",
     "reason": "insufficient_sources",
-    "why_flagged": "Added spec-only across all 4 lines (19 vitolas total). No scored, direct-fetchable review could be confirmed for any of them — Cigar Coop 403'd repeatedly, halfwheel 402'd, and search results for Pinolero specifically kept surfacing reviews of the separate Pinolero Maduro variant, which would misattribute if used here.",
+    "why_flagged": "Added spec-only across all 4 lines (19 vitolas total). No scored, direct-fetchable review could be confirmed for any of them \u2014 Cigar Coop 403'd repeatedly, halfwheel 402'd, and search results for Pinolero specifically kept surfacing reviews of the separate Pinolero Maduro variant, which would misattribute if used here.",
     "sources_found": [],
     "proposed_action": "Find working routes to Cigar Coop/halfwheel content, or another accessible outlet's scored review for each vitola, being careful to confirm wrapper variant (e.g. Pinolero Sun Grown vs Maduro) before citing.",
     "decision": null
   },
   {
-    "item": "AJ Fernandez batch #4 — extensive dimension and release_year corrections",
+    "item": "AJ Fernandez batch #4 \u2014 extensive dimension and release_year corrections",
     "path": "/brands/aj-fernandez/",
     "reason": "conflicting_facts",
-    "why_flagged": "No fabricated awards this time (none were claimed), but a high rate of dimension/name errors. San Lotano Requiem Connecticut: Robusto and Toro ring gauges both submitted as 54, actually 52 for both; a real 5th vitola (Gran Toro, 6x60) was omitted. San Lotano The Bull: release_year submitted as 2016, but the line was soft-launched in 2013 and nationally released in 2014 (a 2015 Cigar Coop review already existed, ruling out 2016); a real 4th vitola (Torpedo, 6.5x54) was omitted. Pinolero by AJ Fernandez: Torpedo was submitted at 6.5x52, but the real Torpedo is an unusually short, wide 5.7x54; a real 6th vitola (Churchill, 7x52) was omitted. Dias de Gloria Brazil: directly fetched Cigar Aficionado's own announcement article — 4 of 5 submitted vitolas had wrong dimensions (Corona 6x44 vs real 6.5x44; Robusto 5.5x52 vs real 5.5x54; Figurado 5.5x52 vs real 6.5x52; Gordo 6x60 vs real 6.5x60); only the Toro (6.5x54) was correct as submitted.",
+    "why_flagged": "No fabricated awards this time (none were claimed), but a high rate of dimension/name errors. San Lotano Requiem Connecticut: Robusto and Toro ring gauges both submitted as 54, actually 52 for both; a real 5th vitola (Gran Toro, 6x60) was omitted. San Lotano The Bull: release_year submitted as 2016, but the line was soft-launched in 2013 and nationally released in 2014 (a 2015 Cigar Coop review already existed, ruling out 2016); a real 4th vitola (Torpedo, 6.5x54) was omitted. Pinolero by AJ Fernandez: Torpedo was submitted at 6.5x52, but the real Torpedo is an unusually short, wide 5.7x54; a real 6th vitola (Churchill, 7x52) was omitted. Dias de Gloria Brazil: directly fetched Cigar Aficionado's own announcement article \u2014 4 of 5 submitted vitolas had wrong dimensions (Corona 6x44 vs real 6.5x44; Robusto 5.5x52 vs real 5.5x54; Figurado 5.5x52 vs real 6.5x52; Gordo 6x60 vs real 6.5x60); only the Toro (6.5x54) was correct as submitted.",
     "sources_found": [
       "https://www.cigaraficionado.com/article/dias-de-gloria-by-a-j-fernandez-goes-brazil"
     ],
-    "proposed_action": "No action needed for corrections already applied — this entry documents them for reference.",
+    "proposed_action": "No action needed for corrections already applied \u2014 this entry documents them for reference.",
     "decision": null
   },
   {
-    "item": "Oliva Serie V Belicoso (5x54) — new vitola + 2017 Top 25 citation",
+    "item": "Oliva Serie V Belicoso (5x54) \u2014 new vitola + 2017 Top 25 citation",
     "path": "/cigars/oliva/serie-v/",
     "reason": "vitola_award_mismatch",
-    "why_flagged": "Submission claimed a #3/2017/93pt Cigar Aficionado Top 25 award for the Churchill Extra (7x52). Directly fetched the actual 2017 Top 25 page (cigaraficionado.com/top25/2017) — the only Oliva entry that year is Serie V Belicoso at #3, 95 points, 5x54, a vitola not present in this line yet and not the one submitted. Churchill Extra was added to the catalog with correct dimensions but no award attached.",
+    "why_flagged": "Submission claimed a #3/2017/93pt Cigar Aficionado Top 25 award for the Churchill Extra (7x52). Directly fetched the actual 2017 Top 25 page (cigaraficionado.com/top25/2017) \u2014 the only Oliva entry that year is Serie V Belicoso at #3, 95 points, 5x54, a vitola not present in this line yet and not the one submitted. Churchill Extra was added to the catalog with correct dimensions but no award attached.",
     "sources_found": [
       "https://www.cigaraficionado.com/top25cigar/oliva-serie-v-belicoso-2017",
       "https://www.cigaraficionado.com/top25/2017"
@@ -2004,16 +2004,16 @@
     "decision": null
   },
   {
-    "item": "Oliva Connecticut Reserve — Petit Corona (4x38) and Double Toro (6x60) vitolas",
+    "item": "Oliva Connecticut Reserve \u2014 Petit Corona (4x38) and Double Toro (6x60) vitolas",
     "path": "/cigars/oliva/connecticut-reserve/",
     "reason": "unverified_vitola",
-    "why_flagged": "Submission listed Petit Corona (4x38) and Double Toro (6x60) alongside Robusto, Toro, Torpedo, and Churchill. Independent research (Neptune Cigar search results) turned up a 5-size lineup instead: Lonsdale (6.5x44), Robusto (5x50), Toro (6x50), Torpedo (6.5x52), Churchill (7x50) — no Petit Corona or Double Toro, and a Lonsdale not present in the submission at all. Only the Toro (confirmed matching) was added; Petit Corona and Double Toro could not be confirmed and were left out rather than added on faith.",
+    "why_flagged": "Submission listed Petit Corona (4x38) and Double Toro (6x60) alongside Robusto, Toro, Torpedo, and Churchill. Independent research (Neptune Cigar search results) turned up a 5-size lineup instead: Lonsdale (6.5x44), Robusto (5x50), Toro (6x50), Torpedo (6.5x52), Churchill (7x50) \u2014 no Petit Corona or Double Toro, and a Lonsdale not present in the submission at all. Only the Toro (confirmed matching) was added; Petit Corona and Double Toro could not be confirmed and were left out rather than added on faith.",
     "sources_found": [],
     "proposed_action": "Directly fetch a retailer product page for the full current Connecticut Reserve lineup to confirm or reject Petit Corona/Double Toro, and check whether a Lonsdale vitola should be added instead.",
     "decision": null
   },
   {
-    "item": "Oliva Monticello — Torpedo (submitted as 6x52) vitola",
+    "item": "Oliva Monticello \u2014 Torpedo (submitted as 6x52) vitola",
     "path": "/cigars/oliva/monticello/",
     "reason": "unverified_vitola",
     "why_flagged": "Submission listed a Torpedo at 6x52. Independent research confirmed Robusto (5x50) and Churchill (7x50) but could not confirm the Torpedo at all (Holt's own product page returned an error on every fetch attempt). Every other Oliva-line Torpedo verified this session has been 6.5x52, not 6x52, making the submitted dimensions suspect. Left out rather than guessed.",
@@ -2022,10 +2022,10 @@
     "decision": null
   },
   {
-    "item": "Nub Maduro — 466 (4x66) vitola",
+    "item": "Nub Maduro \u2014 466 (4x66) vitola",
     "path": "/cigars/nub/maduro/",
     "reason": "unverified_vitola",
-    "why_flagged": "Submission listed a 466 (4x66) vitola for Nub Maduro. One retailer source explicitly ties 466 to the Habano wrapper variant only, and no source confirmed a 466 for Maduro specifically — only 358, 460, and 464 Torpedo were confirmed. Left out rather than assumed.",
+    "why_flagged": "Submission listed a 466 (4x66) vitola for Nub Maduro. One retailer source explicitly ties 466 to the Habano wrapper variant only, and no source confirmed a 466 for Maduro specifically \u2014 only 358, 460, and 464 Torpedo were confirmed. Left out rather than assumed.",
     "sources_found": [
       "https://www.milantobacco.com/oliva_nub_cameroon_habano_cigars.htm"
     ],
@@ -2033,21 +2033,21 @@
     "decision": null
   },
   {
-    "item": "Oliva Baptiste — Robusto/Presidente/Torpedo vitolas discrepancy",
+    "item": "Oliva Baptiste \u2014 Robusto/Presidente/Torpedo vitolas discrepancy",
     "path": "/cigars/oliva/baptiste/",
     "reason": "vitola_dimension_conflict",
     "why_flagged": "Submission listed Robusto (5x50), Toro (6x50), Torpedo (5.5x54), Presidente (7x52). The line's own May 2016 launch press release lists a different 4-size lineup: Presidente (7x52, matches), Grand Robusto (6x60, not the submitted 5x50 Robusto), Toro (5.5x54, corrected and already added), Torpedo (5.5x54, matches submission). Only Toro (this submission's actual target) was corrected and added; the Robusto/Grand Robusto mismatch was left unresolved.",
     "sources_found": [
       "https://www.globenewswire.com/news-release/2016/05/13/1310779/0/en/Prominent-Cigar-Retailer-Introduces-Baptiste-by-Oliva-Cigars.html"
     ],
-    "proposed_action": "Add a Grand Robusto (6x60) vitola in place of the submitted Robusto — the plain \"Robusto\" at 5x50 does not appear to exist in this line at all.",
+    "proposed_action": "Add a Grand Robusto (6x60) vitola in place of the submitted Robusto \u2014 the plain \"Robusto\" at 5x50 does not appear to exist in this line at all.",
     "decision": null
   },
   {
-    "item": "AJ Fernandez Dias de Gloria — possible \"Toro BP\" (box-pressed Toro) vitola",
+    "item": "AJ Fernandez Dias de Gloria \u2014 possible \"Toro BP\" (box-pressed Toro) vitola",
     "path": "/cigars/aj-fernandez/dias-de-gloria/",
     "reason": "unverified_vitola",
-    "why_flagged": "A new submission for this already-catalogued line claimed a \"Box Pressed Figurado\" vitola at 5.5x52. Independent research found the real, confirmed 4-vitola lineup is Robusto (5.5x52), Toro (6x56), Short Churchill (6.5x48), and Gordo (6x58) — no figurado. A separate review title (\"AJ Fernandez Dias de Gloria Toro BP — Rated 92\") suggests there may be a box-pressed Toro variant, but its dimensions were not confirmed and don't match the submitted 5.5x52 either.",
+    "why_flagged": "A new submission for this already-catalogued line claimed a \"Box Pressed Figurado\" vitola at 5.5x52. Independent research found the real, confirmed 4-vitola lineup is Robusto (5.5x52), Toro (6x56), Short Churchill (6.5x48), and Gordo (6x58) \u2014 no figurado. A separate review title (\"AJ Fernandez Dias de Gloria Toro BP \u2014 Rated 92\") suggests there may be a box-pressed Toro variant, but its dimensions were not confirmed and don't match the submitted 5.5x52 either.",
     "sources_found": [
       "https://stogiepress.com/cigar-review-a-j-fernandez-dias-de-gloria-toro-bp-rated-92/"
     ],
@@ -2055,10 +2055,10 @@
     "decision": null
   },
   {
-    "item": "E.P. Carrillo La Historia — Regalias d'Celia (5.875x58) vitola",
+    "item": "E.P. Carrillo La Historia \u2014 Regalias d'Celia (5.875x58) vitola",
     "path": "/cigars/ep-carrillo/la-historia/",
     "reason": "vitola_name_mismatch",
-    "why_flagged": "Submission listed a \"Regalias d'Alianza (Torpedo)\" at 6x52. Independent research found no vitola by that name; the real 4th vitola in the line is \"Regalias d'Celia\" (named for Perez-Carrillo's wife's grandmother), a belicoso/figurado at 5.875x58 — a different name and different dimensions entirely. Left out rather than added under either the wrong name or wrong dimensions.",
+    "why_flagged": "Submission listed a \"Regalias d'Alianza (Torpedo)\" at 6x52. Independent research found no vitola by that name; the real 4th vitola in the line is \"Regalias d'Celia\" (named for Perez-Carrillo's wife's grandmother), a belicoso/figurado at 5.875x58 \u2014 a different name and different dimensions entirely. Left out rather than added under either the wrong name or wrong dimensions.",
     "sources_found": [
       "https://cigar-coop.com/2015/06/cigar-pre-review-e-p-carrillo-perez-carrillo-la-historia-regalias-dcelia.html"
     ],
@@ -2066,10 +2066,10 @@
     "decision": null
   },
   {
-    "item": "E.P. Carrillo Seleccion Oscuro — Nacionales, Small Churchill, and Dinamicos vitolas",
+    "item": "E.P. Carrillo Seleccion Oscuro \u2014 Nacionales, Small Churchill, and Dinamicos vitolas",
     "path": "/cigars/ep-carrillo/seleccion-oscuro/",
     "reason": "unverified_vitola",
-    "why_flagged": "Submission listed a \"Churchill Extra\" (7x54) that does not match anything in the real lineup. Independent research found the real 6-vitola line includes Nacionales (5.5x44), Small Churchill (5.5x50), and Dinamicos (6.875x49) instead — none matching the submitted Churchill Extra name or dimensions. Left out rather than guessed.",
+    "why_flagged": "Submission listed a \"Churchill Extra\" (7x54) that does not match anything in the real lineup. Independent research found the real 6-vitola line includes Nacionales (5.5x44), Small Churchill (5.5x50), and Dinamicos (6.875x49) instead \u2014 none matching the submitted Churchill Extra name or dimensions. Left out rather than guessed.",
     "sources_found": [
       "https://cigar-coop.com/2017/05/e-p-carrillo-seleccion-oscuro-piramides-royal.html"
     ],
@@ -2077,7 +2077,7 @@
     "decision": null
   },
   {
-    "item": "E.P. Carrillo Capa de Sol — Piramides No. 5 (5.75x52) vitola",
+    "item": "E.P. Carrillo Capa de Sol \u2014 Piramides No. 5 (5.75x52) vitola",
     "path": "/cigars/ep-carrillo/capa-de-sol/",
     "reason": "unverified_vitola",
     "why_flagged": "Submission listed only 3 vitolas. Independent research found a real 4th vitola, Piramides No. 5 (5.75x52), not mentioned in the submission at all.",
@@ -2088,10 +2088,10 @@
     "decision": null
   },
   {
-    "item": "E.P. Carrillo INCH Nicaragua — No. 70 (7x70) vitola",
+    "item": "E.P. Carrillo INCH Nicaragua \u2014 No. 70 (7x70) vitola",
     "path": "/cigars/ep-carrillo/inch-nicaragua/",
     "reason": "unverified_vitola",
-    "why_flagged": "Submission listed a No. 70 (7x70) vitola. The line's own official product page (casacarrillocigars.com/inch-nicaragua/) lists only 3 sizes — No. 60, No. 62, No. 64 — with no No. 70 mentioned. The submitted No. 70 may be carried over by assumption from the separate INCH Natural line, which does have one.",
+    "why_flagged": "Submission listed a No. 70 (7x70) vitola. The line's own official product page (casacarrillocigars.com/inch-nicaragua/) lists only 3 sizes \u2014 No. 60, No. 62, No. 64 \u2014 with no No. 70 mentioned. The submitted No. 70 may be carried over by assumption from the separate INCH Natural line, which does have one.",
     "sources_found": [
       "https://casacarrillocigars.com/inch-nicaragua/"
     ],
@@ -2099,16 +2099,16 @@
     "decision": null
   },
   {
-    "item": "E.P. Carrillo INCH Connecticut No. 60 — likely fabricated product",
+    "item": "E.P. Carrillo INCH Connecticut No. 60 \u2014 likely fabricated product",
     "path": null,
     "reason": "fabricated_product",
-    "why_flagged": "Submission's own cited source URL (famous-smoke.com/ep-carrillo-inch-connecticut-no-60-cigars) 404s. Independent research across halfwheel, Cigar Coop, and multiple retailers confirms the real INCH wrapper variants are Natural (Sumatra), Maduro (Connecticut Broadleaf, not Shade), Nicaragua, Ringmaster, and Colorado/C-99 — no \"INCH Connecticut\" (Ecuadorian Connecticut Shade) product turned up anywhere. Not added.",
+    "why_flagged": "Submission's own cited source URL (famous-smoke.com/ep-carrillo-inch-connecticut-no-60-cigars) 404s. Independent research across halfwheel, Cigar Coop, and multiple retailers confirms the real INCH wrapper variants are Natural (Sumatra), Maduro (Connecticut Broadleaf, not Shade), Nicaragua, Ringmaster, and Colorado/C-99 \u2014 no \"INCH Connecticut\" (Ecuadorian Connecticut Shade) product turned up anywhere. Not added.",
     "sources_found": [],
     "proposed_action": "Do not add unless a genuine, independently-verifiable source for this specific product is found.",
     "decision": null
   },
   {
-    "item": "Crowned Heads Four Kicks — Piramide (6.125x52) vitola",
+    "item": "Crowned Heads Four Kicks \u2014 Piramide (6.125x52) vitola",
     "path": "/cigars/crowned-heads/four-kicks/",
     "reason": "unverified_vitola",
     "why_flagged": "Submission listed 4 vitolas. Independent research found a real 5th vitola, Piramide (6.125x52), not mentioned in the submission at all.",
@@ -2117,7 +2117,7 @@
     "decision": null
   },
   {
-    "item": "Crowned Heads Headley Grange — Dobles (6.125x50) and Drumstick LE (7.5x38) vitolas",
+    "item": "Crowned Heads Headley Grange \u2014 Dobles (6.125x50) and Drumstick LE (7.5x38) vitolas",
     "path": "/cigars/crowned-heads/headley-grange/",
     "reason": "unverified_vitola",
     "why_flagged": "Submission listed 4 vitolas. Independent research found the line also includes a Dobles (6.125x50) and a limited-edition Drumstick (7.5x38), neither mentioned in the submission.",
@@ -2128,16 +2128,16 @@
     "decision": null
   },
   {
-    "item": "La Aroma de Cuba (flagship line) — real citation for the 93pt rating",
+    "item": "La Aroma de Cuba (flagship line) \u2014 real citation for the 93pt rating",
     "path": "/cigars/la-aroma-de-cuba/la-aroma-de-cuba/rothschild/",
     "reason": "fabricated_award",
-    "why_flagged": "Submission claimed a #19/2009 Cigar Aficionado Top 25 placement (93pts) for Rothschild. Directly fetched the actual 2009 Top 25 list — La Aroma de Cuba does not appear on it at all. Multiple secondary sources mention a genuine 93-point Cigar Aficionado rating for this blend, but none supplied a specific vitola, date, or direct URL solid enough to cite. No citation was added.",
+    "why_flagged": "Submission claimed a #19/2009 Cigar Aficionado Top 25 placement (93pts) for Rothschild. Directly fetched the actual 2009 Top 25 list \u2014 La Aroma de Cuba does not appear on it at all. Multiple secondary sources mention a genuine 93-point Cigar Aficionado rating for this blend, but none supplied a specific vitola, date, or direct URL solid enough to cite. No citation was added.",
     "sources_found": [],
     "proposed_action": "Find the specific vitola, review date, and direct cigaraficionado.com URL for the real 93pt rating before adding a citation.",
     "decision": null
   },
   {
-    "item": "La Aroma de Cuba Noblesse — Viceroy (6.25x52) vitola",
+    "item": "La Aroma de Cuba Noblesse \u2014 Viceroy (6.25x52) vitola",
     "path": "/cigars/la-aroma-de-cuba/noblesse/",
     "reason": "unverified_vitola",
     "why_flagged": "Submission listed only 3 vitolas (Regency, Coronation, Monarchy). Cigar Aficionado's own coverage of the 2024 relaunch lists a 4th size, Viceroy (6.25x52), not mentioned in the submission at all.",
@@ -2148,7 +2148,7 @@
     "decision": null
   },
   {
-    "item": "J.C. Newman The American — Torpedo (6.125x52) vitola",
+    "item": "J.C. Newman The American \u2014 Torpedo (6.125x52) vitola",
     "path": "/cigars/jc-newman/the-american/",
     "reason": "unverified_vitola",
     "why_flagged": "Submission listed 4 vitolas. Independent research found the original 2019 lineup also included a Torpedo (6.125x52), not mentioned in the submission at all.",
@@ -2159,10 +2159,10 @@
     "decision": null
   },
   {
-    "item": "Diamond Crown Classic — No. 1, No. 5, No. 7, No. 8, No. 9 vitola corrections/additions",
+    "item": "Diamond Crown Classic \u2014 No. 1, No. 5, No. 7, No. 8, No. 9 vitola corrections/additions",
     "path": "/cigars/diamond-crown/classic/",
     "reason": "vitola_dimension_conflict",
-    "why_flagged": "Submission listed No. 1 (8.5x54), No. 5 (5x58), and No. 7/Pyramid (6.5x52) as Classic vitolas. Directly fetched J.C. Newman's own Diamond Crown Classic page — the real lineup runs No. 2 through No. 9 with NO No. 1 in this specific line (a differently-named \"Diamond Crown Robusto No. 1\" at 8.5x54 exists as a separate product). The real No. 5 is 4.5x54 (not 5x58) and the real No. 7 is 6.75x54, a parejo (not a 6.5x52 pyramid). Two real vitolas, No. 8 (5x58) and No. 9 (6x50), were omitted from the submission entirely. Only No. 2, No. 3, No. 4, and No. 6 (all confirmed exact matches) were added.",
+    "why_flagged": "Submission listed No. 1 (8.5x54), No. 5 (5x58), and No. 7/Pyramid (6.5x52) as Classic vitolas. Directly fetched J.C. Newman's own Diamond Crown Classic page \u2014 the real lineup runs No. 2 through No. 9 with NO No. 1 in this specific line (a differently-named \"Diamond Crown Robusto No. 1\" at 8.5x54 exists as a separate product). The real No. 5 is 4.5x54 (not 5x58) and the real No. 7 is 6.75x54, a parejo (not a 6.5x52 pyramid). Two real vitolas, No. 8 (5x58) and No. 9 (6x50), were omitted from the submission entirely. Only No. 2, No. 3, No. 4, and No. 6 (all confirmed exact matches) were added.",
     "sources_found": [
       "https://www.jcnewman.com/company/diamond-crown-cigars/"
     ],
@@ -2170,7 +2170,7 @@
     "decision": null
   },
   {
-    "item": "Diamond Crown Black Diamond Emerald — Cigar & Spirits 95pt citation",
+    "item": "Diamond Crown Black Diamond Emerald \u2014 Cigar & Spirits 95pt citation",
     "path": "/cigars/diamond-crown/black-diamond/emerald/",
     "reason": "unverified_award",
     "why_flagged": "Submission claimed a 95-point score from Cigar & Spirits Magazine (2017) for Emerald. Could not independently locate this specific rating or a citable URL during verification (Cigar & Spirits has limited web presence compared to Cigar Aficionado/halfwheel). Not fabricated as far as could be determined, but no citation was added without a real source URL.",
@@ -2179,7 +2179,7 @@
     "decision": null
   },
   {
-    "item": "Diamond Crown Maximus — Petite No. 6 (5x46) vitola",
+    "item": "Diamond Crown Maximus \u2014 Petite No. 6 (5x46) vitola",
     "path": "/cigars/diamond-crown/maximus/",
     "reason": "unverified_vitola",
     "why_flagged": "Submission listed a Petite No. 6 (5x46). Independent research confirmed only 5 standard vitolas (Double Corona No.1, Churchill No.2, Pyramid No.3, Toro No.4, Robusto No.5); one source mentioned a possible 6th size but as a Double Robusto at 5x56, not a Petite at 5x46. Left out rather than guessed.",
@@ -2188,7 +2188,7 @@
     "decision": null
   },
   {
-    "item": "Cuesta-Rey Centro Fino Sungrown — rejected \"Smoke Magazine 94pt/2012\" claim",
+    "item": "Cuesta-Rey Centro Fino Sungrown \u2014 rejected \"Smoke Magazine 94pt/2012\" claim",
     "path": "/cigars/cuesta-rey/centro-fino-sungrown/",
     "reason": "fabricated_award",
     "why_flagged": "Submission claimed a 94-point Smoke Magazine score (2012) for Centro Fino Sungrown. Independent research found a 94-point Smoke Magazine rating for a different Cuesta-Rey line, Centenario, with no equivalent score found for Centro Fino Sungrown specifically. Not added.",
@@ -2197,7 +2197,7 @@
     "decision": null
   },
   {
-    "item": "Brick House Maduro Robusto — 91pt Cigar Aficionado citation",
+    "item": "Brick House Maduro Robusto \u2014 91pt Cigar Aficionado citation",
     "path": "/cigars/brick-house/maduro/robusto/",
     "reason": "unverified_award",
     "why_flagged": "Submission claimed a 91-point Cigar Aficionado rating with no specific vitola tied. J.C. Newman's own brand page references this score, but that page is not itself the Cigar Aficionado review, so it is not a valid citation for a \"Cigar Aficionado\" source per this catalog's citation standard. No genuine cigaraficionado.com URL for this rating was found.",
@@ -2208,10 +2208,10 @@
     "decision": null
   },
   {
-    "item": "Brick House Maduro — The Commodore (5.5x70?) vitola",
+    "item": "Brick House Maduro \u2014 The Commodore (5.5x70?) vitola",
     "path": "/cigars/brick-house/maduro/",
     "reason": "unverified_vitola",
-    "why_flagged": "Submission listed a \"The Commodore\" vitola at 5.5x70, tied to the line's claimed 2012 release. Research found a Cigar Coop article dated April 2026, \"J.C. Newman Adds Brick House Commodore Maduro,\" suggesting this size may be a 2026 addition rather than part of the original 2012 lineup — its exact dimensions could not be confirmed (source blocked). Left out rather than guessed.",
+    "why_flagged": "Submission listed a \"The Commodore\" vitola at 5.5x70, tied to the line's claimed 2012 release. Research found a Cigar Coop article dated April 2026, \"J.C. Newman Adds Brick House Commodore Maduro,\" suggesting this size may be a 2026 addition rather than part of the original 2012 lineup \u2014 its exact dimensions could not be confirmed (source blocked). Left out rather than guessed.",
     "sources_found": [
       "https://cigar-coop.com/2026/04/j-c-newman-adds-brick-house-commodore-maduro-cigar-news.html"
     ],
@@ -2219,7 +2219,7 @@
     "decision": null
   },
   {
-    "item": "Perla del Mar Corojo Toro — Cigar Insider 90pt/2021 citation",
+    "item": "Perla del Mar Corojo Toro \u2014 Cigar Insider 90pt/2021 citation",
     "path": "/cigars/perla-del-mar/corojo/toro/",
     "reason": "unverified_award",
     "why_flagged": "Submission claimed a 90-point Cigar Insider rating (2021) with no direct source URL provided or found during verification.",
@@ -2228,19 +2228,19 @@
     "decision": null
   },
   {
-    "item": "Perla del Mar Corojo — Short Robusto (3.75x56) vitola",
+    "item": "Perla del Mar Corojo \u2014 Short Robusto (3.75x56) vitola",
     "path": "/cigars/perla-del-mar/corojo/",
     "reason": "unverified_vitola",
-    "why_flagged": "Submission listed a Short Robusto (3.75x56), matching the confirmed Shade variant's size. Independent research on the Corojo variant specifically found only 4 vitolas (Robusto, Toro, Double Toro/Gordo, Corona Gorda) with no Short Robusto mentioned — this size may be exclusive to Shade. Left out rather than assumed shared.",
+    "why_flagged": "Submission listed a Short Robusto (3.75x56), matching the confirmed Shade variant's size. Independent research on the Corojo variant specifically found only 4 vitolas (Robusto, Toro, Double Toro/Gordo, Corona Gorda) with no Short Robusto mentioned \u2014 this size may be exclusive to Shade. Left out rather than assumed shared.",
     "sources_found": [],
     "proposed_action": "Confirm via a direct retailer product page whether Perla del Mar Corojo genuinely comes in a Short Robusto size before adding it.",
     "decision": null
   },
   {
-    "item": "J.C. Newman Yagua — 91pt Cigar Aficionado citation",
+    "item": "J.C. Newman Yagua \u2014 91pt Cigar Aficionado citation",
     "path": "/cigars/jc-newman/yagua/toro/",
     "reason": "unverified_award",
-    "why_flagged": "Submission claimed a 91-point Cigar Aficionado score with no rank or URL given. A separate, unrelated search summary claimed Yagua ranked #11/93pts on the 2021 Top 25 — directly fetched the actual 2021 Top 25 list and confirmed Yagua does not appear on it at all, so that claim is false. The submission's own, more modest \"91 points\" claim could not be independently verified either.",
+    "why_flagged": "Submission claimed a 91-point Cigar Aficionado score with no rank or URL given. A separate, unrelated search summary claimed Yagua ranked #11/93pts on the 2021 Top 25 \u2014 directly fetched the actual 2021 Top 25 list and confirmed Yagua does not appear on it at all, so that claim is false. The submission's own, more modest \"91 points\" claim could not be independently verified either.",
     "sources_found": [
       "https://www.cigaraficionado.com/top25/2021"
     ],
@@ -2248,25 +2248,25 @@
     "decision": null
   },
   {
-    "item": "Perla del Mar Maduro — Short Robusto (3.75x56) vitola",
+    "item": "Perla del Mar Maduro \u2014 Short Robusto (3.75x56) vitola",
     "path": "/cigars/perla-del-mar/maduro/",
     "reason": "unverified_vitola",
-    "why_flagged": "Submission listed a Short Robusto (3.75x56), matching the confirmed Shade variant's size. Independent research on the Maduro variant found only 4 vitolas (Robusto, Toro, Double Toro, Corona Gorda) with no Short Robusto mentioned — same pattern as the Corojo variant in a prior batch, where this size also appears to be Shade-exclusive.",
+    "why_flagged": "Submission listed a Short Robusto (3.75x56), matching the confirmed Shade variant's size. Independent research on the Maduro variant found only 4 vitolas (Robusto, Toro, Double Toro, Corona Gorda) with no Short Robusto mentioned \u2014 same pattern as the Corojo variant in a prior batch, where this size also appears to be Shade-exclusive.",
     "sources_found": [],
     "proposed_action": "Confirm via a direct retailer product page whether Perla del Mar Maduro genuinely comes in a Short Robusto size before adding it.",
     "decision": null
   },
   {
-    "item": "El Reloj — El Cuatro (5.25x44) and El Cinco (5.5x56) vitolas",
+    "item": "El Reloj \u2014 El Cuatro (5.25x44) and El Cinco (5.5x56) vitolas",
     "path": "/cigars/jc-newman/el-reloj/",
     "reason": "unverified_vitola",
-    "why_flagged": "Submission listed El Cuatro and El Cinco alongside El Ocho. Independent research found only one regular-production El Reloj size currently exists — El Ocho (8x53) — with no evidence of El Cuatro or El Cinco anywhere. Left out rather than added on faith.",
+    "why_flagged": "Submission listed El Cuatro and El Cinco alongside El Ocho. Independent research found only one regular-production El Reloj size currently exists \u2014 El Ocho (8x53) \u2014 with no evidence of El Cuatro or El Cinco anywhere. Left out rather than added on faith.",
     "sources_found": [],
     "proposed_action": "Confirm via a direct retailer product page whether El Cuatro/El Cinco genuinely exist as El Reloj vitolas before adding them.",
     "decision": null
   },
   {
-    "item": "Arturo Fuente Hemingway — Short Story/Classic dimension conflict (informational, no action needed)",
+    "item": "Arturo Fuente Hemingway \u2014 Short Story/Classic dimension conflict (informational, no action needed)",
     "path": "/cigars/arturo-fuente/hemingway/",
     "reason": "vitola_dimension_conflict",
     "why_flagged": "A resubmission gave Short Story as 4x49 (existing DB entry, backed by 3 independent citations, has 4x48) and Classic as 7x48 (existing entry, backed by 2 independent citations, has 7x46). Retailer listings for both sizes are genuinely split across the market between these two figures. Left the existing, multiply-cited entries untouched rather than overwrite with an equally-unverifiable alternative.",
@@ -2275,28 +2275,28 @@
     "decision": null
   },
   {
-    "item": "Arturo Fuente Hemingway Short Story — additional 93pt Cigar Aficionado citation",
+    "item": "Arturo Fuente Hemingway Short Story \u2014 additional 93pt Cigar Aficionado citation",
     "path": "/cigars/arturo-fuente/hemingway/short-story/",
     "reason": "unverified_award",
-    "why_flagged": "Submission claimed a 93-point Cigar Aficionado score (2021, no rank). A general 93pt CA rating for this cigar is referenced across multiple retailer sites, but none gave a specific review date or a direct cigaraficionado.com URL — the existing vitola already has 3 other independently-cited scores (2025, 2019, 2007) without this one.",
+    "why_flagged": "Submission claimed a 93-point Cigar Aficionado score (2021, no rank). A general 93pt CA rating for this cigar is referenced across multiple retailer sites, but none gave a specific review date or a direct cigaraficionado.com URL \u2014 the existing vitola already has 3 other independently-cited scores (2025, 2019, 2007) without this one.",
     "sources_found": [],
     "proposed_action": "Find the actual cigaraficionado.com rating page with a specific date for this 93pt score before adding it as a 4th citation.",
     "decision": null
   },
   {
-    "item": "Chateau Fuente Sun Grown — Cuban Belicoso vitola and King B 2012 Top 25 award",
+    "item": "Chateau Fuente Sun Grown \u2014 Cuban Belicoso vitola and King B 2012 Top 25 award",
     "path": "/cigars/arturo-fuente/chateau-fuente-sun-grown/",
     "reason": "unverified_vitola",
-    "why_flagged": "Submission listed a Cuban Belicoso (5.75x52) vitola — not found in any independent source for this specific line (Chateau Fuente Sun Grown only turned up Chateau Fuente, Double Chateau, King B, and Royal Salute). Also could not independently confirm the claimed #6/2012 Top 25 award (93pts) for King B.",
+    "why_flagged": "Submission listed a Cuban Belicoso (5.75x52) vitola \u2014 not found in any independent source for this specific line (Chateau Fuente Sun Grown only turned up Chateau Fuente, Double Chateau, King B, and Royal Salute). Also could not independently confirm the claimed #6/2012 Top 25 award (93pts) for King B.",
     "sources_found": [],
     "proposed_action": "Confirm whether Cuban Belicoso exists as a Chateau Fuente Sun Grown vitola, and find a direct cigaraficionado.com URL for the King B award, before adding either.",
     "decision": null
   },
   {
-    "item": "Padrón 1964 Anniversary Series — Natural-wrapper line (Torpedo #1/2021 Top 25 award)",
+    "item": "Padr\u00f3n 1964 Anniversary Series \u2014 Natural-wrapper line (Torpedo #1/2021 Top 25 award)",
     "path": "/cigars/padron/",
     "reason": "vitola_award_mismatch",
-    "why_flagged": "Submission attached a #1/2021 Cigar of the Year award (97pts) to the Torpedo vitola of the 1964 Anniversary Series MADURO line. Directly confirmed this award is real, but it belongs specifically to \"Padron 1964 Anniversary Series Torpedo (NATURAL)\" — a separate wrapper variant with no equivalent line in the catalog yet. Not attached to the Maduro Torpedo (which already has its own separate, correct 89pt/2023 citation).",
+    "why_flagged": "Submission attached a #1/2021 Cigar of the Year award (97pts) to the Torpedo vitola of the 1964 Anniversary Series MADURO line. Directly confirmed this award is real, but it belongs specifically to \"Padron 1964 Anniversary Series Torpedo (NATURAL)\" \u2014 a separate wrapper variant with no equivalent line in the catalog yet. Not attached to the Maduro Torpedo (which already has its own separate, correct 89pt/2023 citation).",
     "sources_found": [
       "https://www.cigaraficionado.com/top25cigar/padron-1964-anniversary-series-torpedo-natural"
     ],
@@ -2304,7 +2304,7 @@
     "decision": null
   },
   {
-    "item": "Padrón 2000 Natural — vague \"90+ points 2017\" citation",
+    "item": "Padr\u00f3n 2000 Natural \u2014 vague \"90+ points 2017\" citation",
     "path": "/cigars/padron/2000-natural/",
     "reason": "unverified_award",
     "why_flagged": "Submission claimed the line is \"consistently rated 90+ across various Thousand Series vitolas\" (2017, no specific vitola or rank). Too vague to attach to any single vitola without a direct source.",
@@ -2313,7 +2313,7 @@
     "decision": null
   },
   {
-    "item": "Padrón Dámaso — No. 32 (5.25x52) vitola",
+    "item": "Padr\u00f3n D\u00e1maso \u2014 No. 32 (5.25x52) vitola",
     "path": "/cigars/padron/damaso/",
     "reason": "unverified_vitola",
     "why_flagged": "Submission listed 5 vitolas. Independent research found a real 6th size, No. 32 (5.25x52), not mentioned in the submission at all.",
@@ -2322,25 +2322,25 @@
     "decision": null
   },
   {
-    "item": "Padrón Dámaso No. 12 — vague 91pt/2016 citation",
+    "item": "Padr\u00f3n D\u00e1maso No. 12 \u2014 vague 91pt/2016 citation",
     "path": "/cigars/padron/damaso/no-12/",
     "reason": "unverified_award",
     "why_flagged": "Submission claimed a general 91-point Cigar Aficionado score (2016, no rank) with no direct source URL provided or found during verification.",
     "sources_found": [],
-    "proposed_action": "Find the actual cigaraficionado.com rating page for Dámaso No. 12 before citing this score.",
+    "proposed_action": "Find the actual cigaraficionado.com rating page for D\u00e1maso No. 12 before citing this score.",
     "decision": null
   },
   {
-    "item": "My Father The Judge — unconfirmed \"Gordo\" (6x60) vitola",
+    "item": "My Father The Judge \u2014 unconfirmed \"Gordo\" (6x60) vitola",
     "path": "/cigars/my-father/the-judge/",
     "reason": "unverified_vitola",
-    "why_flagged": "Submission listed a Gordo at 6x60. Independent research found only two large-ring sizes for The Judge: Toro (6x56, already catalogued) and Grand Robusto (5x60, already catalogued) — no 6x60 size turned up anywhere. Likely a conflation of the two real sizes' dimensions rather than a genuine third SKU.",
+    "why_flagged": "Submission listed a Gordo at 6x60. Independent research found only two large-ring sizes for The Judge: Toro (6x56, already catalogued) and Grand Robusto (5x60, already catalogued) \u2014 no 6x60 size turned up anywhere. Likely a conflation of the two real sizes' dimensions rather than a genuine third SKU.",
     "sources_found": [],
     "proposed_action": "Confirm via a direct retailer product page whether a 6x60 Gordo genuinely exists before adding it.",
     "decision": null
   },
   {
-    "item": "My Father Original No. 1 — vague 93pt/2014 citation",
+    "item": "My Father Original No. 1 \u2014 vague 93pt/2014 citation",
     "path": "/cigars/my-father/no-1/robusto/",
     "reason": "unverified_award",
     "why_flagged": "Submission claimed a general 93-point Cigar Aficionado score (2014, no rank) with no direct source URL. The existing vitola already carries its well-documented #3/2009 Cigar of the Year citation (94pts) plus two other independent reviews; this would be a 4th, distinct citation if genuine.",
@@ -2349,16 +2349,16 @@
     "decision": null
   },
   {
-    "item": "Ashton Classic — \"Prime Press\" vitola and vague 90pt/2020 award",
+    "item": "Ashton Classic \u2014 \"Prime Press\" vitola and vague 90pt/2020 award",
     "path": "/cigars/ashton/classic/",
     "reason": "vitola_dimension_conflict",
-    "why_flagged": "Submission listed a \"Prime Press\" (6x50). No such name was found; the closest real name, Prime Minister, measures 6.875x48 — a different size entirely. Also could not verify the vague 90pt/2020 Cigar Aficionado claim (no rank or URL).",
+    "why_flagged": "Submission listed a \"Prime Press\" (6x50). No such name was found; the closest real name, Prime Minister, measures 6.875x48 \u2014 a different size entirely. Also could not verify the vague 90pt/2020 Cigar Aficionado claim (no rank or URL).",
     "sources_found": [],
     "proposed_action": "Confirm whether \"Prime Press\" is meant to be Prime Minister (6.875x48) before adding it, and find a specific source for the 90pt claim.",
     "decision": null
   },
   {
-    "item": "Ashton Cabinet Selection — \"Pyramid\"/\"Belicoso\" naming and vague 94pt/2019 award",
+    "item": "Ashton Cabinet Selection \u2014 \"Pyramid\"/\"Belicoso\" naming and vague 94pt/2019 award",
     "path": "/cigars/ashton/cabinet-selection/",
     "reason": "vitola_dimension_conflict",
     "why_flagged": "Submission listed separate Pyramid (6x52) and Belicoso (5.25x52) vitolas. Independent research indicates No. 1/No. 2/No. 3 are themselves the line's perfecto-shaped vitolas, with no separately-named Pyramid or Belicoso confirmed. Also could not verify the vague 94pt/2019 Cigar Aficionado claim (no rank or URL).",
@@ -2367,7 +2367,7 @@
     "decision": null
   },
   {
-    "item": "Ashton Heritage Puro Sol — Double Corona (7x52) vitola",
+    "item": "Ashton Heritage Puro Sol \u2014 Double Corona (7x52) vitola",
     "path": "/cigars/ashton/heritage-puro-sol/",
     "reason": "unverified_vitola",
     "why_flagged": "Submission listed 5 vitolas. Independent research found a real 6th size, Double Corona (7x52), not mentioned in the submission at all.",
@@ -2376,7 +2376,7 @@
     "decision": null
   },
   {
-    "item": "Ashton ESG — vague 93pt/2014 citation",
+    "item": "Ashton ESG \u2014 vague 93pt/2014 citation",
     "path": "/cigars/ashton/esg/",
     "reason": "unverified_award",
     "why_flagged": "Submission claimed a general 93-point Cigar Aficionado score (2014, no vitola or rank) with no direct source URL provided or found during verification.",
@@ -2385,7 +2385,7 @@
     "decision": null
   },
   {
-    "item": "Davidoff Grand Cru No. 1 — possible discontinuation",
+    "item": "Davidoff Grand Cru No. 1 \u2014 possible discontinuation",
     "path": "/cigars/davidoff/grand-cru/no-1/",
     "reason": "unclear_current_availability",
     "why_flagged": "A German retailer (cigarworld.de) states Grand Cru No. 1 (and No. 4) were discontinued around 2017, and it does not appear on current major US retailer sites (Famous Smoke, JR Cigars) though Cigar Aficionado still lists a rating for it.",
@@ -2398,7 +2398,7 @@
     "decision": null
   },
   {
-    "item": "Davidoff Escurio Gran Perfecto — omitted vitola",
+    "item": "Davidoff Escurio Gran Perfecto \u2014 omitted vitola",
     "path": null,
     "reason": "omitted_from_submission",
     "why_flagged": "Research surfaced a Gran Perfecto figurado vitola (5 x 61/50) in the core Escurio line that was not included in the submitted batch.",
@@ -2409,7 +2409,7 @@
     "decision": null
   },
   {
-    "item": "Davidoff Signature 1000 and Exquisitos — omitted vitolas",
+    "item": "Davidoff Signature 1000 and Exquisitos \u2014 omitted vitolas",
     "path": null,
     "reason": "omitted_from_submission",
     "why_flagged": "Research surfaced two additional Signature-line vitolas not included in the submitted batch: 1000 (approx. 4.625 x 34) and Exquisitos (approx. 3.62 x 22).",
@@ -2420,7 +2420,7 @@
     "decision": null
   },
   {
-    "item": "Perdomo Reserve 10th Anniversary Champagne Robusto — Cigar Journal 92pt rating, exact citation unconfirmed",
+    "item": "Perdomo Reserve 10th Anniversary Champagne Robusto \u2014 Cigar Journal 92pt rating, exact citation unconfirmed",
     "path": "/cigars/perdomo/reserve-10th-anniversary-champagne/robusto/",
     "reason": "unconfirmed_citation_details",
     "why_flagged": "Research confirmed a real Cigar Journal expert-panel rating of 92 points exists specifically for the Robusto vitola of this line, separate from Cigar Journal's scoreless 'Best Brand Nicaragua 2018' reader-voted trophy (which the original submission had incorrectly merged into one 92pt/Best-Brand claim). The exact review date and URL for the 92pt rating were not confirmed.",
@@ -2432,7 +2432,7 @@
     "decision": null
   },
   {
-    "item": "Perdomo Reserve 10th Anniversary Maduro Epicure — Cigar Journal #1/2021 ranking, score not published as text",
+    "item": "Perdomo Reserve 10th Anniversary Maduro Epicure \u2014 Cigar Journal #1/2021 ranking, score not published as text",
     "path": "/cigars/perdomo/reserve-10th-anniversary-box-pressed-maduro/epicure/",
     "reason": "unconfirmed_citation_details",
     "why_flagged": "The submission claimed a Cigar Aficionado #3/2021/93pt award for this vitola. No such CA rating exists anywhere (confirmed against CA's actual 2021 Top 25 list and their ratings database, which has no Epicure entry for this line at all). The real fact is that Cigar Journal ranked this Epicure #1 on their own Top 25 Cigar of the Year 2021 list, but their public write-up gives no numeric 100-point score (only a 7/10 strength figure), so no score can be cited without guessing.",
@@ -2443,21 +2443,21 @@
     "decision": null
   },
   {
-    "item": "Perdomo 20th Anniversary Sun Grown Epicure — submitted CA 93pt/2014 award is fabricated/misattributed",
+    "item": "Perdomo 20th Anniversary Sun Grown Epicure \u2014 submitted CA 93pt/2014 award is fabricated/misattributed",
     "path": "/cigars/perdomo/20th-anniversary-sun-grown/epicure/",
     "reason": "fabricated_or_misattributed_award",
     "why_flagged": "Research found the real 93-point Cigar Aficionado rating with that exact score belongs to a different, much newer product: the Perdomo 30th Anniversary Sun Grown Epicure (Toro, 6x54), rated June 2024, #16 on CA's 2024 Top 25. No CA rating of any score exists for the 20th Anniversary line's Epicure vitola specifically.",
     "sources_found": [
       "cigaraficionado.com/ratings/25186/name/perdomo-30th-anniversary-sun-grown-epicure-toro (the real 93pt/2024 rating, wrong product)"
     ],
-    "proposed_action": "No action needed unless a genuine CA rating for the 20th Anniversary Epicure surfaces later — do not attach the 30th Anniversary score to this vitola.",
+    "proposed_action": "No action needed unless a genuine CA rating for the 20th Anniversary Epicure surfaces later \u2014 do not attach the 30th Anniversary score to this vitola.",
     "decision": null
   },
   {
-    "item": "Perdomo Habano Bourbon Barrel-Aged Sun Grown Epicure — Cigar Journal Top 25 2018 #5, exact score unpublished",
+    "item": "Perdomo Habano Bourbon Barrel-Aged Sun Grown Epicure \u2014 Cigar Journal Top 25 2018 #5, exact score unpublished",
     "path": "/cigars/perdomo/habano-bourbon-barrel-aged-sun-grown/epicure/",
     "reason": "unconfirmed_citation_details",
-    "why_flagged": "Confirmed this cigar ranked #5 on Cigar Journal's Top 25 Cigars of 2018 (submission had claimed 2019/91pts/no rank — wrong year, and it does have a rank). Cigar Journal's public list only states all entries scored 90+ as a group; individual scores are rendered as images, not text, so the exact point figure could not be confirmed.",
+    "why_flagged": "Confirmed this cigar ranked #5 on Cigar Journal's Top 25 Cigars of 2018 (submission had claimed 2019/91pts/no rank \u2014 wrong year, and it does have a rank). Cigar Journal's public list only states all entries scored 90+ as a group; individual scores are rendered as images, not text, so the exact point figure could not be confirmed.",
     "sources_found": [
       "cigarjournal.com/cigar-journals-top-25-cigars-of-2018-7-to-2/ (#5 ranking confirmed)"
     ],
@@ -2465,18 +2465,18 @@
     "decision": null
   },
   {
-    "item": "CAO Bones Blind Hughie — submitted CA 90pt/2021 award is unconfirmed/likely misattributed",
+    "item": "CAO Bones Blind Hughie \u2014 submitted CA 90pt/2021 award is unconfirmed/likely misattributed",
     "path": "/cigars/cao/bones/blind-hughie/",
     "reason": "unconfirmed_or_fabricated_award",
     "why_flagged": "Cigar Aficionado's own CAO brand page (listing every CAO line they've rated) does not include Bones at all. The 90-point figure appears to trace to a different, unrelated outlet (\"The Cold Draw\", ~May 2021) or a conflation with Famous Smoke's own \"Cigar Advisor\" video series (also abbreviated \"CA\"), which explicitly assigns no numeric score.",
     "sources_found": [
       "cigaraficionado.com/brand/cao (Bones absent from rated-lines list)"
     ],
-    "proposed_action": "If a real citation for CAO Bones can be found (from any publication, with an exact score/date/URL), add via add-critic-review with the correct source name — do not attribute to Cigar Aficionado without a real ratings-database URL.",
+    "proposed_action": "If a real citation for CAO Bones can be found (from any publication, with an exact score/date/URL), add via add-critic-review with the correct source name \u2014 do not attribute to Cigar Aficionado without a real ratings-database URL.",
     "decision": null
   },
   {
-    "item": "CAO Italia Positano — omitted vitola",
+    "item": "CAO Italia Positano \u2014 omitted vitola",
     "path": null,
     "reason": "omitted_from_submission",
     "why_flagged": "Research surfaced a Positano (Toro format) vitola in the historical Italia line, rated 89 points by Cigar Aficionado, not included in the submitted batch.",
@@ -2487,7 +2487,7 @@
     "decision": null
   },
   {
-    "item": "CAO Arcana Mortal Coil Toro — halfwheel (86) and Cigar Coop (90) scores need direct verification",
+    "item": "CAO Arcana Mortal Coil Toro \u2014 halfwheel (86) and Cigar Coop (90) scores need direct verification",
     "path": "/cigars/cao/arcana-mortal-coil/toro/",
     "reason": "unconfirmed_citation_details",
     "why_flagged": "Research surfaced two real critic scores (halfwheel 86/100, published Mar 12 2021; Cigar Coop 90/100, Standard of Excellence, published Sept 2021) but both source pages returned paywall/403 errors on direct fetch, so the exact figures could not be cleanly confirmed firsthand as our workflow requires before citing.",
@@ -2499,7 +2499,7 @@
     "decision": null
   },
   {
-    "item": "CAO Gold Torpedo — omitted vitola, real citation exists but dimensions unconfirmed",
+    "item": "CAO Gold Torpedo \u2014 omitted vitola, real citation exists but dimensions unconfirmed",
     "path": null,
     "reason": "omitted_from_submission",
     "why_flagged": "Research surfaced a real Cigar Aficionado rating (91pts, Dec 2019) for a CAO Gold Torpedo vitola not included in the submission, but exact dimensions were not confirmed during this pass.",
@@ -2510,10 +2510,10 @@
     "decision": null
   },
   {
-    "item": "CAO Pilón standard Robusto (5x50) — possible distinct/discontinued vitola with its own halfwheel and Cigar Coop reviews",
+    "item": "CAO Pil\u00f3n standard Robusto (5x50) \u2014 possible distinct/discontinued vitola with its own halfwheel and Cigar Coop reviews",
     "path": null,
     "reason": "unclear_current_availability",
-    "why_flagged": "halfwheel and Cigar Coop both published reviews titled simply 'CAO Pilón Robusto' (5x50, not 5x52) around September 2015 — this may be a separate, possibly discontinued vitola distinct from the current lineup's 'Robusto Extra' (5x52) which is what this submission covers. Exact scores could not be confirmed (both source pages 402/403'd on direct fetch).",
+    "why_flagged": "halfwheel and Cigar Coop both published reviews titled simply 'CAO Pil\u00f3n Robusto' (5x50, not 5x52) around September 2015 \u2014 this may be a separate, possibly discontinued vitola distinct from the current lineup's 'Robusto Extra' (5x52) which is what this submission covers. Exact scores could not be confirmed (both source pages 402/403'd on direct fetch).",
     "sources_found": [
       "halfwheel.com/cao-pilon-robusto/95976/ (403)",
       "cigar-coop.com/2015/09/cigar-review-cao-pilon-robusto.html (403)"
@@ -2522,7 +2522,7 @@
     "decision": null
   },
   {
-    "item": "Nica Rustica (Broadleaf) Gordo — possible 2024 line addition, dimensions unconfirmed via direct fetch",
+    "item": "Nica Rustica (Broadleaf) Gordo \u2014 possible 2024 line addition, dimensions unconfirmed via direct fetch",
     "path": null,
     "reason": "omitted_from_submission",
     "why_flagged": "Research surfaced a mention of a Gordo (6x60) added to the original Nica Rustica Broadleaf line around 2024, via a Cigar Coop reference, but this was not confirmed with a direct source fetch during this pass.",
@@ -2533,7 +2533,7 @@
     "decision": null
   },
   {
-    "item": "Nica Rustica Shade Toro — no citable critic score found yet",
+    "item": "Nica Rustica Shade Toro \u2014 no citable critic score found yet",
     "path": "/cigars/drew-estate/nica-rustica-shade/toro/",
     "reason": "insufficient_sources",
     "why_flagged": "A Developing Palates team review exists but reports four individual panelist scores out of 10 rather than a single consensus 100-point score, which doesn't map cleanly to our critic_review schema. A halfwheel review of the Short Robusto in this line also exists but returned a 402 paywall error on direct fetch, so its score couldn't be confirmed firsthand.",
@@ -2545,7 +2545,7 @@
     "decision": null
   },
   {
-    "item": "Graycliff Original — disputed fourth filler-leaf origin",
+    "item": "Graycliff Original \u2014 disputed fourth filler-leaf origin",
     "path": "/cigars/graycliff/original/pirate/",
     "reason": "conflicting_sources",
     "why_flagged": "Two independent critic reviews (StogieReview, Cigar Coop) agree on Dominican, Nicaraguan, and Honduran filler components but disagree on a fourth: StogieReview names Brazil, Cigar Coop names Ecuador. Recorded the three agreed-upon countries only.",
@@ -2566,7 +2566,7 @@
     "decision": null
   },
   {
-    "item": "Graycliff 30-Year Vintage Pirate — mixed/unreliable critic reception, no citation added",
+    "item": "Graycliff 30-Year Vintage Pirate \u2014 mixed/unreliable critic reception, no citation added",
     "path": "/cigars/graycliff/30-year-vintage/pirate/",
     "reason": "conflicting_sources",
     "why_flagged": "Research found three scores from lower-tier sources with a wide spread (Final Third Cigar 92, a 'Rare Cigar Club' panel 94, CigarScore.com only 2/5) rather than a halfwheel/Cigar Aficionado/Cigar Coop rating. Given the inconsistency, no critic_review was added.",
@@ -2582,13 +2582,13 @@
     "item": "Several new Graycliff vitolas lack independent critic citations",
     "path": null,
     "reason": "insufficient_sources",
-    "why_flagged": "Crystal Toro, G2 Habano Pirate, 10-Year Vintage Maduro Pirate, and Turbo Edición Limitada Toro all had no findable halfwheel/Cigar Aficionado/Cigar Coop score during this research pass — only in-house retailer 'panel ratings' (not independent critics), which were not cited per this project's sourcing standard.",
+    "why_flagged": "Crystal Toro, G2 Habano Pirate, 10-Year Vintage Maduro Pirate, and Turbo Edici\u00f3n Limitada Toro all had no findable halfwheel/Cigar Aficionado/Cigar Coop score during this research pass \u2014 only in-house retailer 'panel ratings' (not independent critics), which were not cited per this project's sourcing standard.",
     "sources_found": [],
     "proposed_action": "Revisit with fresh searches (several retailer/critic sites blocked direct fetch with 403 errors during this pass) and add via add-critic-review as real sources are found.",
     "decision": null
   },
   {
-    "item": "Arturo Fuente Gran Reserva Flor Fina 8-5-8 — no verifiable critic score found",
+    "item": "Arturo Fuente Gran Reserva Flor Fina 8-5-8 \u2014 no verifiable critic score found",
     "path": "/cigars/arturo-fuente/gran-reserva/flor-fina-8-5-8/",
     "reason": "insufficient_sources",
     "why_flagged": "Search snippets surfaced three conflicting, unsourced scores (86, 87, 92) with no traceable URL. Cigar Aficionado's ratings database and cigarinspector.com both blocked direct verification, and halfwheel's only 8-5-8 coverage is the separate Rosado Sun Grown variant, not this Natural/Cameroon vitola.",
@@ -2597,7 +2597,7 @@
     "decision": null
   },
   {
-    "item": "Baccarat brand founding year — genuinely conflicting accounts",
+    "item": "Baccarat brand founding year \u2014 genuinely conflicting accounts",
     "path": null,
     "reason": "conflicting_sources",
     "why_flagged": "Sources disagree on when the modern Honduran-made Baccarat line began: one blog cites 1978, while retailer brand-history copy (JR Cigars, thecigarstore.com) says Julio Eiroa relaunched it in 1989 under his 'Caribe Imported Cigars' banner. Older marketing lore claims a much earlier (1871 or 1920s) heritage that predates the Honduran era entirely and is unverifiable. Left founded_year null pending a source that resolves this.",
@@ -2618,19 +2618,19 @@
     "decision": null
   },
   {
-    "item": "Joya de Nicaragua Antaño 1970 Gran Perfecto and Clásico Original Churchill — no verifiable critic score found",
+    "item": "Joya de Nicaragua Anta\u00f1o 1970 Gran Perfecto and Cl\u00e1sico Original Churchill \u2014 no verifiable critic score found",
     "path": null,
     "reason": "insufficient_sources",
-    "why_flagged": "Neither vitola has a locatable halfwheel/Cigar Aficionado/Cigar Coop score. Clásico's reviews (Cigar Coop, Stogie Guys, halfwheel) cover the older Clásico Toro predating the 2023 Original relaunch, and several review pages returned paywall/certificate errors on direct fetch.",
+    "why_flagged": "Neither vitola has a locatable halfwheel/Cigar Aficionado/Cigar Coop score. Cl\u00e1sico's reviews (Cigar Coop, Stogie Guys, halfwheel) cover the older Cl\u00e1sico Toro predating the 2023 Original relaunch, and several review pages returned paywall/certificate errors on direct fetch.",
     "sources_found": [],
     "proposed_action": "Revisit with fresh access and add via add-critic-review as real sources are confirmed.",
     "decision": null
   },
   {
-    "item": "Joya de Nicaragua Silver — real vitolas (Ultra, Toro, Corona, Robusto) not yet cataloged",
+    "item": "Joya de Nicaragua Silver \u2014 real vitolas (Ultra, Toro, Corona, Robusto) not yet cataloged",
     "path": "/cigars/joya-de-nicaragua/silver/",
     "reason": "omitted_from_submission",
-    "why_flagged": "The submitted 'Corona Gorda' vitola (5.25x48) for this line does not exist per the manufacturer's own announcement and every retailer checked — the real lineup is Ultra (6.25x46), Toro (6x52), Corona (5.25x42), and Robusto (5x50), none added yet since none were in this submission.",
+    "why_flagged": "The submitted 'Corona Gorda' vitola (5.25x48) for this line does not exist per the manufacturer's own announcement and every retailer checked \u2014 the real lineup is Ultra (6.25x46), Toro (6x52), Corona (5.25x42), and Robusto (5x50), none added yet since none were in this submission.",
     "sources_found": [
       "cigaraficionado.com/article/joya-de-nicaragua-unveils-joya-silver",
       "cigardojo.com/2018/07/joya-de-nicaragua-announces-joya-silver/"
@@ -2639,7 +2639,7 @@
     "decision": null
   },
   {
-    "item": "Joya de Nicaragua Antaño CT Robusto — real product, dimensions not yet confirmed",
+    "item": "Joya de Nicaragua Anta\u00f1o CT Robusto \u2014 real product, dimensions not yet confirmed",
     "path": null,
     "reason": "omitted_from_submission",
     "why_flagged": "This vitola was named halfwheel's 2019 Cigar of the Year (92pts) but exact dimensions were not confirmed during this research pass, so it wasn't added to avoid guessing standard robusto measurements.",
@@ -2653,7 +2653,7 @@
     "item": "Several Joya de Nicaragua vitolas lack independent critic citations",
     "path": null,
     "reason": "insufficient_sources",
-    "why_flagged": "Antaño CT Toro, Joya Black Toro, Joya Red Short Churchill, and Joya Cabinetta Corona Gorda all had no citation confirmed via direct source fetch during this pass. A Cigar Coop 90pt score circulates for Joya Black Toro but could only be corroborated via search snippet, not a direct page fetch, so it was not cited.",
+    "why_flagged": "Anta\u00f1o CT Toro, Joya Black Toro, Joya Red Short Churchill, and Joya Cabinetta Corona Gorda all had no citation confirmed via direct source fetch during this pass. A Cigar Coop 90pt score circulates for Joya Black Toro but could only be corroborated via search snippet, not a direct page fetch, so it was not cited.",
     "sources_found": [
       "Cigar Coop review of Joya Black Toro (search-snippet only, direct fetch blocked)"
     ],
@@ -2661,7 +2661,7 @@
     "decision": null
   },
   {
-    "item": "Tabak Especial — exact release year unconfirmed",
+    "item": "Tabak Especial \u2014 exact release year unconfirmed",
     "path": "/cigars/drew-estate/tabak-especial/negra-toro/",
     "reason": "conflicting_sources",
     "why_flagged": "Drew Estate's own site frames its coffee-and-cigar \"brandmark\" as dating to 2002, which may or may not refer to this specific cigar line's actual launch. Kept the submitted 2007 since nothing directly contradicted it, but could not positively confirm it either.",
@@ -2672,19 +2672,19 @@
     "decision": null
   },
   {
-    "item": "Four new Padrón Natural-wrapper vitolas lack independent critic citations",
+    "item": "Four new Padr\u00f3n Natural-wrapper vitolas lack independent critic citations",
     "path": null,
     "reason": "insufficient_sources",
     "why_flagged": "1964 Anniversary Exclusivo Natural, 1926 Serie No. 2 Natural, 1926 Serie No. 90 Tubos Natural, and Family Reserve No. 50 Natural were all added this batch with dimensions/blend confirmed, but no critic score research was done this pass (focus was resolving Natural/Maduro pairing conflicts).",
     "sources_found": [],
-    "proposed_action": "Research and add via add-critic-review when convenient — Padrón's core lines are heavily reviewed by Cigar Aficionado and halfwheel, so citations likely exist.",
+    "proposed_action": "Research and add via add-critic-review when convenient \u2014 Padr\u00f3n's core lines are heavily reviewed by Cigar Aficionado and halfwheel, so citations likely exist.",
     "decision": null
   },
   {
-    "item": "Les Fines Lames Le Petit — insufficient sources for AccScore",
+    "item": "Les Fines Lames Le Petit \u2014 insufficient sources for AccScore",
     "path": "/accessories/cutters/les-fines-lames-le-petit/",
     "reason": "insufficient_sources",
-    "why_flagged": "Only one scoreable review found (the manufacturer's own direct-to-consumer store, 5.0/5) — short of the 3-independent-source minimum for AccScore. Two other reviews found in the original submission (Holt's Cigar Company, a search-blog citation) gave no numeric score, so they could not be added as citations.",
+    "why_flagged": "Only one scoreable review found (the manufacturer's own direct-to-consumer store, 5.0/5) \u2014 short of the 3-independent-source minimum for AccScore. Two other reviews found in the original submission (Holt's Cigar Company, a search-blog citation) gave no numeric score, so they could not be added as citations.",
     "sources_found": [
       "lesfineslames.com (manufacturer store, 5.0/5)"
     ],
@@ -2701,7 +2701,7 @@
     "decision": null
   },
   {
-    "item": "Factory \"Fábrica de Tabacos Joya de Nicaragua S.A.\" is missing founded_year",
+    "item": "Factory \"F\u00e1brica de Tabacos Joya de Nicaragua S.A.\" is missing founded_year",
     "path": "/factories/joya-de-nicaragua-factory/",
     "reason": "Missing sourced fact on a brand/factory profile",
     "why_flagged": "founded_year was not provided when this factory was added.",
@@ -2732,27 +2732,14 @@
     "decision": null
   },
   {
-    "item": "The Occidental Cigar Club (San Francisco, CA)",
-    "path": null,
-    "reason": "new_lounge_city",
-    "why_flagged": "San Francisco has no lounges in our directory yet. The Occidental Cigar Club is a well-known, long-standing San Francisco cigar bar — one of the few venues in the city legally permitting indoor smoking (structured as an owner-operated tobacconist to comply with SF smoking ordinances).",
-    "sources_found": [
-      "Occidental Cigar Club official site (occidentalcigarclub.com) — address, phone, hours, walk-in policy, smoking policy",
-      "Cigar Journal — editorial coverage describing it as \"almost the only place in San Francisco where you can legally smoke inside\""
-    ],
-    "proposed_action": "If approved, add as a new San Francisco lounge with: address 471 Pine Street, San Francisco, CA 94104; phone 415-834-0485; website occidentalcigarclub.com; hours Mon-Fri 12pm-1am, Sat-Sun 4pm-1am (last call 12:30am) per its own site; walk_in_or_membership: walk-in (site states no reservations needed, open to the public); indoor_smoking_status: allowed, with a note that it operates as an owner-operated tobacconist business structure to comply with SF smoking ordinances. Still needs the fixed lounge-page smoking disclaimer sentence and, before a LoungeScore can publish, 3 independent cited ratings (none gathered yet).",
-    "decision": null
-  },
-  {
-    "item": "Casa de Montecristo Southfield (Southfield/Detroit, MI)",
+    "item": "Casa de Montecristo Southfield \u2014 indoor smoking status unconfirmed",
     "path": "/lounges/southfield-mi/casa-de-montecristo-southfield/",
-    "reason": "new_lounge_city",
-    "why_flagged": "Southfield/Detroit metro has no lounges in our directory yet. Casa de Montecristo is an established national cigar-lounge chain (already in our directory in Austin, Boca Raton, Mooresville, New York, Dallas, Houston) with a real Southfield, MI location.",
+    "reason": "unconfirmed_citation_details",
+    "why_flagged": "The venue's own site does not state its indoor smoking policy, and Michigan's Dr. Ron Davis Smoke-Free Air Law exemptions for cigar bars/tobacco retailers were not independently confirmed for this specific location, unlike our other Casa de Montecristo locations which each have a researched jurisdiction-specific note.",
     "sources_found": [
-      "casademontecristo.com/southfield (official site: address, phone, hours, walk-in access, amenities)",
-      "cigarscore.com/places/michigan/southfield/casa-de-montecristo-southfield (only 1 review, not enough for a LoungeScore)"
+      "casademontecristo.com/southfield (no smoking-policy statement)"
     ],
-    "proposed_action": "If approved, add as a new Southfield, MI lounge with: address 28815 Northwestern Hwy, Southfield, MI 48034; phone (248) 357-2340; website casademontecristo.com/southfield; hours Mon-Thu 10am-6pm, Fri 10am-7pm, Sat 10am-6pm, Sun closed, per its own site; walk_in_or_membership: walk-in (no membership requirement mentioned on the official page). indoor_smoking_status: leave unset for now — the official site does not state it, and a secondary aggregator search turned up an unverifiable, unsourced claim that conflicts with how this chain operates at its other locations; needs a direct check (call the venue or find a clearer primary source) before recording. Needs 3 independent cited ratings before a LoungeScore can publish (currently only 1 found).",
+    "proposed_action": "Research Michigan's smoke-free air law cigar-bar/retail-tobacconist exemption for this specific location (or call the venue directly) and record indoor_smoking_status/indoor_smoking_note once confirmed. Note: db-tools.mjs currently has no update-lounge command for existing facts fields \u2014 that would need to be added, or the fields set directly, when this is picked up.",
     "decision": null
   }
 ]

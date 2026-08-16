@@ -1268,3 +1268,34 @@ thompsoncigar.com (candidates for the EX and HYG7) both blocked the fetch.
 All four remain at 2 sources, queued as insufficient_sources.
 
 Build checked clean (`npm run build`) before this commit.
+
+## 2026-08-16 — Sunday weekly queue triage
+The queue had 255 items after tonight's price-check commit, but only two
+were genuinely-new-entity proposals needing a decision — everything else
+was informational (insufficient-sources gap notes, conflicting-facts
+notes, unverified-award notes, etc.) and left alone, as instructed.
+
+Both decisions:
+- **Approved and added**: The Occidental Cigar Club, San Francisco, CA
+  (queued 2026-08-11). Re-checked both of its sources tonight — the
+  venue's own site and Cigar Journal's coverage — both still live and
+  still say what the queue entry claimed (real Financial District address,
+  legal indoor smoking as an owner-operated tobacconist business). Added
+  with the facts the sources supported. No LoungeScore yet — needs 3 cited
+  ratings, none gathered tonight.
+- **Approved and added**: Casa de Montecristo Southfield, MI (queued
+  2026-08-14). Re-checked the chain's own Southfield page and the
+  CigarScore.com listing tonight — both still live and matching. Added
+  with address/phone/hours/website sourced. Left indoor_smoking_status
+  unset, same as the original queue entry recommended — Michigan's
+  smoke-free law exemption for this specific venue wasn't independently
+  confirmed (our other Casa de Montecristo locations each have a
+  researched jurisdiction-specific note; this one doesn't yet). Queued a
+  small follow-up gap-note for that instead of guessing. No LoungeScore
+  yet either.
+
+Nothing was rejected, and nothing was left for you to decide on tonight —
+both items cleared the same live-source bar as everything else on the
+site and neither raised a legal/scope question only you could settle.
+
+Build checked clean (`npm run build`) before this commit.
