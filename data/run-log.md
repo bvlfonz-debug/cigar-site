@@ -1299,3 +1299,17 @@ both items cleared the same live-source bar as everything else on the
 site and neither raised a legal/scope question only you could settle.
 
 Build checked clean (`npm run build`) before this commit.
+
+## 2026-08-16 — news brief: XIKAR Allume 2/3 shipping
+One accessory news item added tonight: XIKAR has begun shipping its
+redesigned Allume 2 (double-jet, $69.99) and Allume 3 (triple-jet, $99.99)
+lighters, per an August 1, 2026 Cigar Journal report. A single-jet Allume 1
+is expected by end of month. This is a real product launch from an
+established outlet, so it's an auto-published news brief — not yet added
+as a full catalog accessory entry, since no independent review sources
+exist yet for a lighter that just started shipping (AccScore needs 3
+independent sources, and pros/cons need real review content to synthesize
+from, not just a manufacturer announcement). Worth revisiting once
+reviews start appearing.
+
+Build checked clean (`npm run build`) before this commit.
