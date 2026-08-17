@@ -1312,4 +1312,38 @@ independent sources, and pros/cons need real review content to synthesize
 from, not just a manufacturer announcement). Worth revisiting once
 reviews start appearing.
 
+## 2026-08-17 — lounge night: one LoungeScore published, two lounges nudged forward
+Tonight's rotation (day-of-month mod 3) landed on lounges. Weekday, so no
+weekly queue triage — that's Sundays only. Focus was the folding
+instruction: look for new cited ratings on existing lounges rather than
+propose new ones.
+
+- **The Occidental Cigar Club (San Francisco, CA)** — was sitting at zero
+  ratings. Found three independent, currently-live platform aggregates on
+  a single RestaurantGuru listing: Google (4.6/5, 550 reviews),
+  Foursquare (8.6/10, 106 reviews), and TripAdvisor (4/5, 45 reviews) —
+  skipped the same listing's Facebook figure since it only had 3 reviews
+  behind it, too thin to trust. That's 3 independent sources, so
+  LoungeScore is now live for this lounge: **86**.
+- **Boston Cigar Club & Shop (Boston, MA)** and **Churchill's Fine Cigars
+  (Phoenix, AZ)** — each got one verified Google rating added (4.8/5,
+  510 reviews via RestaurantGuru; 4.7/5, 191 reviews via Wanderlog,
+  respectively). Both still sit at "insufficient data" — only 1 of the
+  required 3 independent sources each so far. Left as-is rather than
+  guessing at more; worth another pass on a future lounge night.
+- Tried to find a third independent source for two lounges that were
+  already at 2 (BURN by Rocky Patel Atlanta, Casa de Montecristo
+  Mooresville) to push them over the line tonight. No luck: Yelp,
+  TripAdvisor, and Chamber of Commerce all blocked automated access
+  (403) for both, and the only extra numbers I could find (via search
+  summaries, not a verified page) weren't something I was willing to
+  record without confirming them directly. Left both as-is rather than
+  publish an unverified number — worth a retry with different sources
+  next lounge night.
+- No new lounges/cities were proposed to the queue tonight — turn budget
+  went to nudging existing thin entries forward instead, per tonight's
+  priority.
+
+Build checked clean (`npm run build`) before each commit tonight.
+
 Build checked clean (`npm run build`) before this commit.
