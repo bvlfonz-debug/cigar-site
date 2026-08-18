@@ -1347,3 +1347,39 @@ propose new ones.
 Build checked clean (`npm run build`) before each commit tonight.
 
 Build checked clean (`npm run build`) before this commit.
+
+## 2026-08-18 — Tuesday run: cigars night
+Day-of-month rotation (18 mod 3 = 0) landed on cigars tonight. Weekday, so
+kept this run lean, and today's turn budget was unusually small — spent it
+on a couple of small, real, fully-verified items rather than stretching
+thin across everything the cigars rotation normally covers.
+
+- **News**: added one auto-published brief — AJ Fernandez has launched a
+  new full-time Diesel line, "Uncaged," a Nicaraguan puro (habano criollo
+  wrapper, all Fernandez-grown leaf) in three sizes under $8, shipping to
+  stores this month. Sourced from halfwheel, cross-checked against Cigar
+  Aficionado, Cigar Coop, and Cigar Dojo coverage for the same facts before
+  writing it up. Diesel isn't yet a brand in our catalog, so this is a news
+  brief only — no catalog entry was added.
+- **Trying to clear queued "insufficient data" items**: looked for a third
+  independent source on the Fuente Fuente OpusX Robusto (queued at 0
+  sources) and a second/third on the My Father Le Bijou 1922 Toro (queued
+  at 1 source). For OpusX, every halfwheel/Cigar Coop review I could find
+  was for a different variant (Angel's Share, Rosado Oscuro Oro) — not the
+  standard Robusto our page is actually about, so nothing was added rather
+  than risk attributing the wrong cigar's review. For Le Bijou 1922, I
+  could only find matches for other sizes (Toro Fino, Torpedo, Robusto) or
+  sources outside the site's named critic list (Stogie Guys, CigarScore).
+  Left both queued as-is rather than force a match.
+- **Price refresh**: checked 2 vitolas against current retailer listings —
+  Padrón 1964 Anniversary Exclusivo Maduro (JR Cigar, $409.99/box of 25,
+  ~$16.40/stick) and Liga Privada T52 Toro (Famous Smoke Shop, $428.99/box
+  of 24, ~$17.87/stick). Both added as new price_point rows, no swing
+  flags. A third check (Romeo y Julieta 1875 Bully at Famous Smoke) turned
+  up a sale price with an ambiguous pack size on the page, so it was
+  skipped rather than recorded as a guess.
+- No score recomputes were needed tonight (no new critic reviews cleared
+  the sourcing bar). No new brands/lines/lounges/categories were queued or
+  added.
+
+Build checked clean (`npm run build`) before this commit.
