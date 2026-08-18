@@ -260,6 +260,57 @@ Steps in order:
 - Any run that can't finish cleanly commits partial progress with a
   NEEDS-ATTENTION line in run-log.md rather than retrying in a loop.
 
+### Autonomous cigar catalog growth
+As of 2026-08, catalog growth for **cigars specifically** no longer waits on
+owner approval — the owner found the review-queue-gating model was the
+actual bottleneck on growth (267 queued items, zero ever reviewed) and
+asked for cigars to keep growing on their own while they're away, with no
+per-item sign-off. This is a deliberate, scoped exception to the
+queue-gating rule below, not a general relaxation of it — see the
+"New cigar growth" step in .github/workflows/nightly.yml for the exact
+instruction the automation runs on.
+
+- **Cadence**: every other calendar day (even day-of-month — the automation
+  computes this itself), independent of the cigars/accessories/lounges
+  rotation below, so cigar growth isn't crowded out on an accessories or
+  lounges night. Every-other-day rather than nightly to keep this
+  additional, turn-hungry task from eating into the quota headroom the
+  existing rotation, weekly queue triage, and price/news work already need.
+- **Batch size**: target 3 new cigars on a weekday run, 6 on a Sunday run
+  (matching the existing 40/90 turn-budget split), with its own bounded
+  turn sub-allowance — same "stop rather than half-finish" discipline as
+  everywhere else in this file.
+- **What "new" means**: a real brand/line/vitola combination that does not
+  already exist in the catalog — checked directly against the database
+  first (cheap, no API cost) for exact slug collisions AND near-duplicates
+  (same brand+line with dimensions within ~0.25" length or a few ring-gauge
+  points of an existing vitola — repeatedly the actual failure mode seen in
+  manually-processed batches this project has taken in). When in doubt
+  that something might already be catalogued under a slightly different
+  name or spelling, skip it rather than risk a duplicate.
+- **What's authorized without queue-add**: `add-brand`, `add-line`,
+  `add-vitola` for cigars specifically, called directly once independently
+  verified — extending an existing brand's lineup is preferred (cheaper to
+  verify, lower duplicate risk) over introducing a brand-new brand, but
+  brand-new brands are fine too with the same sourcing rigor as "Brand &
+  Factory Profiles" below (real founding facts or leave `founded_year`/
+  `story_short` gaps null rather than guess). This exception is scoped to
+  cigars only — accessories, lounges, and factories still queue-gate,
+  same as always (aside from the Sunday triage below).
+- **Verification bar, unchanged from everywhere else in this file**: every
+  candidate must be confirmed real via at least one live search before
+  being added — never invent a brand, blend, wrapper, or tasting note.
+  `tasting_notes`/`summary_review` must come from something actually found
+  (a retailer page, a review) — if nothing describes the flavor profile,
+  write a plainer summary from the confirmed blend composition alone
+  rather than inventing descriptors. A critic citation is best-effort only
+  (don't burn more than a search or two chasing one per cigar) — a cigar
+  added without one simply shows "insufficient data," same as any other
+  freshly-catalogued vitola.
+- Log exactly what got added (and what candidates were skipped as likely
+  duplicates or unverifiable) in the same run's `data/run-log.md` entry —
+  this is the owner's only visibility into what was added on their behalf.
+
 ## Human review loop
 Each queued item must include: what it is, why flagged, sources found,
 proposed action, and a simple approve/reject field the owner can edit at any
