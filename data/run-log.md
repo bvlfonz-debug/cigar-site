@@ -1383,3 +1383,37 @@ thin across everything the cigars rotation normally covers.
   added.
 
 Build checked clean (`npm run build`) before this commit.
+
+## 2026-08-19 — Wednesday run: accessories night
+Day-of-month rotation (19 mod 3 = 1) landed on accessories tonight.
+Weekday, so kept it lean; not a Sunday, so no queue triage. Cigar-growth
+flag was off tonight, so no new cigars were added either.
+
+- **Price refresh**: checked live prices for three accessories. The Xikar
+  PuroTemp Digital Hygrometer (rectangular) had never had a price
+  recorded — confirmed $36.99 at Famous Smoke Shop and added it. Also
+  re-checked the Boveda 65% RH (Size 60) pack and the Colibri Quasar
+  Table Lighter; both matched their existing on-file prices exactly (a
+  search summary had suggested a much lower Boveda figure, but fetching
+  the actual retailer page directly confirmed the on-file $45.99 was
+  still correct — worth flagging that search snippets can be misleading
+  and the direct page fetch is what actually matters), so no new price
+  rows were needed for those two.
+- **Trying to clear "insufficient data" accessories**: several accessories
+  sit at 2 of the required 3 independent AccScore sources (Xikar Volta
+  table lighter, Xikar PuroTemp hygrometer, Case Elegance Flint travel
+  case, among others). Looked for a third source for each. Found real
+  editorial reviews for the Volta (Blind Man's Puff) and the PuroTemp
+  (Famous Smoke's Cigar Advisor), but neither gives a numeric score —
+  just a qualitative verdict — and AccScore requires a real numeric
+  score, so nothing was added rather than invent one. Retailer
+  star-rating pages that might have supplied a numeric third source
+  (Walmart, Neptune Cigar, Cigars International, Amazon) either blocked
+  automated access, 404'd, or had zero reviews yet on the specific page
+  checked. None of these three accessories moved off "insufficient data"
+  tonight — worth another pass with different sources on a future
+  accessories night.
+- No new accessory categories, accessories, or news items were queued or
+  added tonight — turn budget went to the price/review work above.
+
+Build checked clean (`npm run build`) before this commit.
