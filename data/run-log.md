@@ -1420,3 +1420,21 @@ Build checked clean (`npm run build`) before this commit.
 
 ## 2026-08-20 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
+
+## 2026-08-20 — Thursday run: lounges night + cigar growth
+Day-of-month rotation (20 mod 3 = 2) landed on lounges tonight. Weekday, so
+kept it lean; not a Sunday, so no queue triage. Cigar-growth flag was on
+(even day), so that ran independently too — see below. (Yesterday's run
+exited uncleanly with nothing committed; this is a fresh run.)
+
+- **Lounges — pushing thin entries over the 3-source line**: BURN by Rocky
+  Patel (Atlanta) was sitting at 2 independent sources (Google via
+  cigarlounges.co, Foursquare). Found a third, genuinely independent
+  platform aggregate — Restaurantji, 4.2/5 from 422 ratings — and added
+  it. That's enough to publish a LoungeScore for this lounge: **84.3**.
+  Tried the same for Casa de Montecristo by JR Cigar (Mooresville, NC),
+  also at 2 sources, but couldn't land a clean third: Yelp and TripAdvisor
+  both blocked automated fetches, and search snippets only offered vague
+  figures ("4.6 based on 58 reviews on another platform") without a
+  reliably attributable source page, so nothing was added there rather
+  than risk a fuzzy citation. Left for a future lounges night.
