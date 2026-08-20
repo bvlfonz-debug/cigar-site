@@ -1473,3 +1473,12 @@ exited uncleanly with nothing committed; this is a fresh run.)
     brand/lines, so no calendar links were needed.
 
 Build checked clean (`npm run build`) before this commit.
+
+**Stopping here for tonight.** Both of tonight's focus items (lounges
+rotation night, cigar growth) are done and pushed in the two commits
+above. Skipped the general price-refresh/news-ingest pass this run to
+stay within a lean weekday budget after the research/verification work
+above — no swings or brand-new news items were checked tonight. No
+errors, nothing left half-done. Next lounges-focus night: revisit Casa de
+Montecristo by JR Cigar (Mooresville) for a clean third source, and
+consider proposing a new lounge/city candidate via the queue.
