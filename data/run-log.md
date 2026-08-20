@@ -1417,3 +1417,6 @@ flag was off tonight, so no new cigars were added either.
   added tonight — turn budget went to the price/review work above.
 
 Build checked clean (`npm run build`) before this commit.
+
+## 2026-08-20 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
