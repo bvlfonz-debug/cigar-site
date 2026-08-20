@@ -1438,3 +1438,38 @@ exited uncleanly with nothing committed; this is a fresh run.)
   figures ("4.6 based on 58 reviews on another platform") without a
   reliably attributable source page, so nothing was added there rather
   than risk a fuzzy citation. Left for a future lounges night.
+
+- **New cigar growth (target 3, cigar-growth flag on tonight)**: added 3
+  new vitolas, each extending a brand already in the catalog with a real
+  size it actually offers that we didn't have on file — checked directly
+  against the DB first for exact-slug and near-duplicate collisions, then
+  verified each is real via live search before adding:
+  - **Alec Bradley Prensado Torpedo** (6⅛ x 52) — the brand's flagship
+    Honduran-puro-adjacent blend (Trojes Corojo wrapper, Nicaraguan
+    binder, Honduran/Nicaraguan filler); we already had the Robusto and
+    Churchill, this size was clearly missing. Tasting notes drawn from
+    retailer/reviewer consensus (cinnamon toast, dark chocolate, espresso,
+    leather). Also landed a real critic citation — Cigar Aficionado, 91/100
+    (Oct 2020) — though the vitola still shows "insufficient data" until
+    2 more independent sources are found, same rule as everywhere else.
+  - **AVO XO Preludio** (6 x 40) — a slim size in AVO's XO line (Dominican
+    filler/binder, Ecuadorian Connecticut wrapper); we only had the
+    Intermezzo (5 x 50) on file, and Preludio's dimensions are far enough
+    from it to be a clean, non-duplicate addition. Tasting notes from
+    reviewer consensus (earth, leather, toasted bread, cedar, sweet fruit).
+  - **Camacho Corojo Toro** (6 x 50) — we only had the Robusto (5 x 50);
+    Corojo is Camacho's three-priming Honduran puro. Tasting notes from
+    reviewer consensus (black/red pepper, cedar, leather, earth, cinnamon).
+    Found real Cigar Aficionado scores (93-94) for "Camacho Corojo" in
+    general but couldn't confirm they were rated for the Toro vitola
+    specifically, so no critic citation was added for this one rather than
+    risk attributing the wrong size's score.
+  - **Skipped as too close to an existing entry**: AVO XO "Notturno/Nocturne"
+    (5 x 54) — same 5" length as our existing Intermezzo (5 x 50) with only
+    a 4-ring-gauge difference, inside this project's near-duplicate risk
+    band, so left uncatalogued rather than risk it actually being a
+    tubos/packaging variant of Intermezzo rather than a distinct blend.
+  - No cigar_release entries were waiting on any of these three
+    brand/lines, so no calendar links were needed.
+
+Build checked clean (`npm run build`) before this commit.
