@@ -42,6 +42,19 @@ cigars-focused nightly work below.
 - **Score recompute**: no new critic reviews were added tonight, so no
   StickScores needed recomputing.
 
+- **Chasing insufficient-data cigars**: separately searched for extra
+  independent sources on 5 cigars that have been sitting at "insufficient
+  data" in the queue (Fuente Fuente OpusX Robusto, Padrón 1926 Serie No.
+  35 Maduro, My Father Le Bijou 1922 Toro, Liga Privada T52 Toro, Arturo
+  Fuente Añejo Reserva No. 48). Found and added two genuine, verified
+  retailer customer-review averages: JR Cigars (4.0/5 from 5 reviews) for
+  the Padrón 1926 No. 35 Maduro, and Atlantic Cigar Company (4.5/5 from 2
+  reviews) for the Liga Privada T52 Toro. Both now sit at 2 independent
+  sources — one more each and a StickScore will publish. Couldn't verify
+  an exact-vitola score for the other three (OpusX Robusto, Le Bijou 1922
+  Toro, Añejo Reserva No. 48) from any acceptable source this pass — left
+  as-is in the queue rather than guess.
+
 Build checked clean (`npm run build`) before committing. No errors,
 nothing left half-done — this is everything planned for tonight's lean
 weekday run.
