@@ -4,6 +4,48 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-08-21 — Friday run: cigars night
+Day-of-month rotation (21 mod 3 = 0) landed on cigars tonight. Weekday, so
+kept it lean; not a Sunday, so no queue triage. Cigar-growth flag was off
+tonight, so no new brand/line/vitola batch this run — just the regular
+cigars-focused nightly work below.
+
+- **News + release calendar**: found three genuine, currently-live
+  halfwheel reports on new releases and added all three as news briefs,
+  each cross-linked to a matching new release-calendar entry: Camacho's
+  "Boldly Built by Masters" Limited Edition 2026 perfecto (shelves Sept 3,
+  linked to the existing Camacho brand), HVC's Pan Caliente 10th
+  Anniversary blend (already shipping), and Lure Cigars' "The Fat Matt"
+  (already shipping). HVC and Lure Cigars aren't brands in our catalog yet,
+  so those two releases are recorded without a brand link for now — that's
+  fine, a release entry doesn't require one.
+- **Price refresh**: checked current prices for 12 well-known vitolas
+  across JR Cigars, Famous Smoke Shop, Neptune Cigar, and Atlantic Cigar
+  (smaller than the usual ~30 to stay lean on a weekday). 7 real prices
+  came back clean and were added: Montecristo White Series Churchill,
+  Arturo Fuente Hemingway Classic, Ashton VSG Torpedo, Perdomo 20th
+  Anniversary Sun Grown Churchill, Drew Estate Liga Privada T52 Flying
+  Pig, Drew Estate Undercrown Maduro Corona Doble, and Crowned Heads Le
+  Careme Hermoso No. 1 (this last one's JR Cigars listing shows sold out
+  right now, but the listed price itself was real, so it's on record for
+  price history). 5 were skipped rather than risk bad data: Cohiba Black
+  Robusto's Atlantic Cigar price looked like a listing error (a box
+  "sale" price wildly out of line with its own "was" price); Davidoff
+  Nicaragua Robusto and AJ Fernandez New World Robusto only turned up
+  different product variants (Box-Pressed and "Navegante" respectively),
+  not the exact vitolas we have catalogued; Romeo y Julieta Añejo
+  Piramide wasn't found at any of the four retailers; and H. Upmann 1844
+  Reserve Toro's Famous Smoke figure looked like it might be a mislabeled
+  multi-pack price rather than a true single-stick price. Neptune Cigar's
+  pages didn't return usable price data at all (JS-rendered), so it
+  contributed nothing tonight. No price swings over 25% were triggered.
+- **Score recompute**: no new critic reviews were added tonight, so no
+  StickScores needed recomputing.
+
+Build checked clean (`npm run build`) before committing. No errors,
+nothing left half-done — this is everything planned for tonight's lean
+weekday run.
+
 ## 2026-08-12 — Wednesday run: cigars night
 Today is a "cigars" night on the 3-way rotation with accessories and
 lounges (see CLAUDE.md). Weekday, so kept it light. Not a Sunday, so no
