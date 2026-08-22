@@ -1563,3 +1563,26 @@ Torpedo (6 1/8 x 52) — too close on both length and ring gauge to feel safe
 adding without a stronger differentiator.
 
 Build verified clean (`npm run build`) before committing.
+
+**Accessories (tonight's rotation focus — day-of-month 22 mod 3 = 1):**
+Tried to push a few 2-source accessories over the 3-source AccScore minimum
+(Xikar Volta, Colibri Quasar) and refresh stale prices on a couple of
+never-priced items (Mantello Royal Glass-Top Humidor, NewAir CC-300H
+Humidor). Search snippets turned up plausible extra sources (a halfwheel
+review of the Colibri Quasar, a CIGAR.com customer rating for the Xikar
+Volta, listed prices for the other two), but the actual pages returned
+402/403/expired-certificate errors on fetch, so none of it could be
+independently confirmed — per the "never invent a score/price, skip
+unreachable sources" rule, none of it was added. No accessory-side database
+changes tonight; still exactly where they were yesterday. Today's slice of
+the turn budget went entirely to research that didn't pan out — nothing
+broken, just no new accessory data to show for it.
+
+**Cigars/lounges rotation:** not this run's focus (day-of-month picked
+accessories); no cigar-side or lounge-side rotation work beyond the
+independent cigar-growth batch above.
+
+**Weekly queue triage:** skipped — today (Saturday) isn't Sunday.
+
+No errors, nothing queued tonight, no NEEDS-ATTENTION items. Turn budget
+mostly spent; stopping here rather than starting a new line of work.
