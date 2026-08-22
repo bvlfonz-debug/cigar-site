@@ -1537,3 +1537,29 @@ above — no swings or brand-new news items were checked tonight. No
 errors, nothing left half-done. Next lounges-focus night: revisit Casa de
 Montecristo by JR Cigar (Mooresville) for a clean third source, and
 consider proposing a new lounge/city candidate via the queue.
+
+## 2026-08-22 — nightly run
+
+**Cigar growth (independent of rotation):** Added 3 new vitolas, all extending
+brands already in the catalog (cheaper to verify, lower duplicate risk):
+- AVO XO Maestoso (7 x 48, churchill) — dimensions and consensus tasting notes
+  (cedar, earth, leather, toasted bread, dried fruit, vanilla) confirmed
+  against CigarObsession, Gotham Cigars, and JR Cigar listings.
+- Camacho Corojo Churchill (7 x 48) — confirmed via JR Cigar and Cigar
+  Aficionado; also found Cigar Aficionado rated it 94/100 (#5 in their Top 25
+  of 2010) but skipped adding that as a critic_review since no exact
+  publication date could be confirmed (only the year) — didn't want to guess
+  a day/month. Left as best-effort; still shows "insufficient data" until a
+  dated citation turns up.
+- Alec Bradley Prensado Corona Gorda (5 5/8 x 46) — confirmed via Famous
+  Smoke, Mike's Cigars, and Cigar Coop; flavor notes (dark-roasted coffee,
+  pepper, chocolate, leather, spice) drawn from those listings.
+
+Checked all three against existing vitolas on file for exact-slug and
+near-duplicate collisions (within ~0.25" length / a few ring-gauge points)
+before adding — none were close enough to flag. Skipped Alec Bradley
+Prensado "Gran Toro" (6 x 54) as a likely near-duplicate of the existing
+Torpedo (6 1/8 x 52) — too close on both length and ring gauge to feel safe
+adding without a stronger differentiator.
+
+Build verified clean (`npm run build`) before committing.
