@@ -4,6 +4,51 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-08-23 — Sunday run: lounges night (heavier catalog pass allowed)
+Day-of-month rotation (23 mod 3 = 2) landed on lounges tonight. Cigar-growth
+flag was off tonight, so no new brand/line/vitola batch. Sunday, so a
+weekly queue triage follows this section further down the log.
+
+- **Lounge ratings push**: went through existing lounges sitting at 0-2
+  cited external ratings (below the 3-source LoungeScore minimum) and
+  tried to push several over the line:
+  - **Shelly's Back Room (Washington, DC)** — found three independently
+    verifiable platform ratings: TripAdvisor (4.0/5, 261 reviews, fetched
+    and cross-checked via two separate searches), Restaurantji (4.4/5, 306
+    reviews, confirmed by direct page fetch), and Google as mirrored by
+    Sluurpy's aggregator page (4.5/5, 1,609 reviews, confirmed by direct
+    page fetch, which also independently cross-checked the TripAdvisor
+    number). That's 3 independent sources — **published its first
+    LoungeScore: 86.0.**
+  - **Boston Cigar Club & Shop** — added a second source (TripAdvisor,
+    5.0/5) alongside the existing Google rating. Still short of the
+    3-source minimum (couldn't find a genuinely independent third platform
+    — Restaurant Guru's number there looked like the same Google figure
+    re-mirrored, not a distinct source, so it wasn't counted separately) —
+    stays "insufficient data" for now, one source closer than before.
+  - **Casa de Montecristo by JR Cigar (Mooresville, NC)** — tried again
+    for a third source (has Google + Foursquare). Yelp and TripAdvisor
+    both returned blocked/403 fetches again, and a Chamber of Commerce
+    mirror with a plausible number also returned blocked. Same outcome as
+    last lounges night — nothing added, left for a future pass.
+  - **The Debonair Cigar Lounge (Los Angeles)** — turned out to be
+    ambiguous: search results surfaced what looks like two different LA
+    locations (La Brea and a newer Downtown LA spot) under similar names
+    with inconsistent rating figures between them, and Yelp/TripAdvisor/
+    Foursquare pages all returned blocked fetches. Skipped rather than
+    risk attributing the wrong location's rating.
+  - **Casa de Montecristo (Boca Raton, FL)** and **Casa de Montecristo
+    (Southfield, MI)** — found plausible Yelp figures in search snippets
+    but couldn't independently confirm them via a direct page fetch (both
+    blocked), so nothing added. Boca Raton's only other lead (Restaurant
+    Guru) also looked like a re-mirrored Google number, not independent.
+  - Recompute happens automatically when a rating call crosses the
+    3-source threshold — no separate step needed.
+
+Build checked clean (`npm run build`) before committing. Committed and
+pushed as its own commit right after this research pass, per tonight's
+"commit after each major step" instruction.
+
 ## 2026-08-21 — Friday run: cigars night
 Day-of-month rotation (21 mod 3 = 0) landed on cigars tonight. Weekday, so
 kept it lean; not a Sunday, so no queue triage. Cigar-growth flag was off
