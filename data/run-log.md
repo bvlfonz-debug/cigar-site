@@ -49,6 +49,25 @@ Build checked clean (`npm run build`) before committing. Committed and
 pushed as its own commit right after this research pass, per tonight's
 "commit after each major step" instruction.
 
+- **Weekly queue triage** (Sundays only): went through all 255 entries in
+  `data/review-queue.json` looking specifically for genuinely-new-entity
+  proposals (new brand/line/lounge/factory/accessory-category candidates)
+  — the kind that need an approve/reject/leave-for-owner decision. Found
+  **none**. Every single entry tonight falls into the informational/
+  gap-note category this triage explicitly skips: mostly
+  `insufficient_sources` (169 of them), plus `conflicting_facts`,
+  `vitola_dimension_conflict`, `unconfirmed_citation_details`,
+  `unverified_vitola`, `unverified_award`, `omitted_from_submission`,
+  missing-sourced-fact notes, and a handful of `fabricated_award`/
+  `fabricated_product`/`vitola_name_mismatch` entries documenting things
+  that were already correctly rejected and left out (not new items
+  waiting on a decision). Double-checked a sample of those last few by
+  hand to be sure they weren't disguised new-entity asks — they aren't,
+  they're records of "we checked, it wasn't real, nothing was added."
+  Nothing to approve, reject, or resolve tonight. No `queue-resolve` calls
+  made since none of tonight's items matched the triage's scope. Queue
+  stays at 255 informational entries, same as before.
+
 ## 2026-08-21 — Friday run: cigars night
 Day-of-month rotation (21 mod 3 = 0) landed on cigars tonight. Weekday, so
 kept it lean; not a Sunday, so no queue triage. Cigar-growth flag was off
