@@ -68,6 +68,17 @@ pushed as its own commit right after this research pass, per tonight's
   made since none of tonight's items matched the triage's scope. Queue
   stays at 255 informational entries, same as before.
 
+**Stopping here for tonight.** Tonight's rotation focus (lounges) and the
+Sunday queue triage are both done and pushed. No cigars/accessories
+rotation work tonight (day-of-month picked lounges) and no cigar-growth
+batch (flag was off). No errors, nothing newly queued, no
+NEEDS-ATTENTION items — just one published LoungeScore, one lounge moved
+a source closer, and several honest dead ends on sites that wouldn't let
+an automated fetch through. Next lounges-focus night: Boston Cigar Club
+still needs a genuinely independent 3rd source; Casa de Montecristo
+Mooresville, Boca Raton, and Southfield are all one or two verifiable
+sources away too, just blocked by 403s tonight.
+
 ## 2026-08-21 — Friday run: cigars night
 Day-of-month rotation (21 mod 3 = 0) landed on cigars tonight. Weekday, so
 kept it lean; not a Sunday, so no queue triage. Cigar-growth flag was off
