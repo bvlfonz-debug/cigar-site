@@ -1661,3 +1661,37 @@ independent cigar-growth batch above.
 
 No errors, nothing queued tonight, no NEEDS-ATTENTION items. Turn budget
 mostly spent; stopping here rather than starting a new line of work.
+
+## 2026-08-24 — nightly run
+
+**Cigar growth (independent of rotation, standing owner-approved exception):**
+Added 3 new vitolas, all extending brands already in the catalog (cheaper to
+verify, lower duplicate risk than a brand-new brand):
+- Tatuaje Black Label Robusto (5 x 50) — confirmed via Fox Cigar, Neptune
+  Cigar, and Stogie Guys listings/reviews; tasting notes (oak, cinnamon,
+  smoked almond, cocoa, black cherry, cedar, coffee, leather) drawn from
+  Holt's and Stogie Guys reviews.
+- Illusione Original Documents Corojo Robusto (5 x 52) — confirmed via
+  Neptune Cigar and Illusione's own site; tasting notes (leather, black
+  cherry, earthy spice, nuts, cedar, cream, white pepper, toffee, cocoa)
+  drawn from retailer/review copy. Found a Cigar Aficionado score (93) for
+  an Illusione Original Documents Corojo, but couldn't confirm it was
+  specifically for the Robusto vitola (vs. Corona Gorda/Toro) or pin an
+  exact review date, so skipped adding it as a critic_review rather than
+  guess — still shows "insufficient data" until a clearly-dated,
+  vitola-specific citation turns up.
+- Crowned Heads Le Carême Cosacos (5 3/8 x 42) — confirmed via Cigars.com
+  and Blind Man's Puff review; tasting notes (vegetal, caramel, leather,
+  espresso, cedar, burnt toast, bitter coffee) drawn from that review.
+
+Checked all three against existing vitolas on file for exact-slug and
+near-duplicate collisions (within ~0.25" length / a few ring-gauge points)
+before adding — none were close enough to flag (e.g. Le Carême Cosacos at
+5 3/8 x 42 is well clear of the existing Robusto at 5 x 50 and Hermoso No. 1
+at 6.5 x 48). Checked cigar_release for unlinked entries matching these
+brands — none found, nothing to link.
+
+Build verified clean (`npm run build`) before committing.
+
+**Cigars rotation (day-of-month 24 mod 3 = 0):** in progress — see next
+run-log entry for price refresh / news ingest results.
