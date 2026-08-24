@@ -1693,5 +1693,29 @@ brands — none found, nothing to link.
 
 Build verified clean (`npm run build`) before committing.
 
-**Cigars rotation (day-of-month 24 mod 3 = 0):** in progress — see next
-run-log entry for price refresh / news ingest results.
+**Cigars rotation (day-of-month 24 mod 3 = 0) — price refresh:** targeted a
+handful of never-priced vitolas rather than the full 30-vitola slice tonight,
+to leave headroom for the cigar-growth batch above on a lean weekday budget.
+Added one confirmed price: Diesel Unholy Cocktail (5 x 56) at $31.99 single
+from Famous Smoke Shop, dimensions and retailer both confirmed against the
+listing. Checked three more candidates but skipped all of them rather than
+risk bad data: Romeo y Julieta Añejo Piramide (the only price found was for
+a differently-sized 4½ x 52 pyramid, not our catalogued 6⅛ x 52 — dimension
+mismatch), RoMa Craft CroMagnon Knuckle Dragger (search results mixed
+several different wrapper variants — Aquitaine, PA Broadleaf, V2 — at
+different price points and couldn't confidently isolate the plain
+Connecticut Broadleaf Maduro blend actually on file), and Hoyo de Monterrey
+Excalibur No. III (no specific price surfaced in search results).
+
+**News ingest:** found real August 2026 cigar news via halfwheel search
+results (Camacho Limited Edition 2026, Creekside's Queen of the West launch,
+Tatuaje Creature Monster Series release, Undercrown 15th-anniversary LE,
+among others) but the halfwheel article page itself returned an HTTP 402
+error on fetch when trying to confirm an exact publish date and full
+details, so per the "skip unreachable sources, don't guess" rule, no
+news_item was added tonight — didn't want to invent a publish date. Worth
+another look on a future cigars-focus night.
+
+No errors otherwise. Nothing queued tonight beyond what was already in the
+queue. Turn budget spent conservatively on a weekday — stopping here with
+everything committed and pushed rather than starting new work.
