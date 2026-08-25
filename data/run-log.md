@@ -4,6 +4,38 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-08-25 — accessories night
+Tuesday (weekday, lean run). Day-of-month rotation (25 mod 3 = 1) landed on
+accessories tonight. Cigar-growth flag was off tonight (odd day-of-month),
+so no new cigar batch. Not Sunday, so no queue triage this run.
+
+- **Tried to push three near-3-source accessories over the AccScore line**
+  (NewAir CC-300H Humidor, Xikar Volta table lighter, Colibri Quasar table
+  lighter — each already had 2 independent sources on file): found several
+  more written reviews (Xikar Volta via Blind Man's Puff, NewAir CC-300H via
+  SmokeDock and CigarWeekly) but none of them gave an actual numeric score or
+  star rating — just qualitative verdicts like "Great, Highly Recommend" —
+  and the scoring system requires a real number to aggregate. A halfwheel
+  review of the Colibri Quasar and a couple of retailer rating-count pages
+  (Cigar.com, Neptune Cigar, CigarWeekly) also either errored out or didn't
+  expose their star rating in a fetchable way. Skipped all three rather than
+  invent a number — still sitting at 2 sources ("insufficient data") for now.
+- **Price refresh**: checked a handful of accessories that had never had a
+  price recorded. Confirmed and added two: Xikar Cigar Stand at $13.49 from
+  Xikar's own site, and the Colibri Quasar Cigar Ashtray at $195.00 from
+  Northwoods Humidors (this one had no price on file at all before tonight).
+  Checked three more (Mantello Royal Glass-Top Humidor, NewAir CC-300H
+  Humidor, Visol Arnold Crystal Ashtray) but skipped all of them — Mantello's
+  own site had an expired SSL certificate, the NewAir humidor had
+  conflicting prices across sources ($599.95 vs $549.99) with no single page
+  loading cleanly to settle it, and the ashtray retailer page didn't surface
+  a price for that specific item in the fetch.
+- No new brands/lines/accessory categories/lounges proposed tonight, so
+  nothing went to the review queue.
+
+Build verified clean (`npm run build`) before committing. No errors, nothing
+queued, no NEEDS-ATTENTION items.
+
 ## 2026-08-23 — Sunday run: lounges night (heavier catalog pass allowed)
 Day-of-month rotation (23 mod 3 = 2) landed on lounges tonight. Cigar-growth
 flag was off tonight, so no new brand/line/vitola batch. Sunday, so a
