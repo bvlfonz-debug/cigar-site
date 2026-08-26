@@ -1751,3 +1751,6 @@ another look on a future cigars-focus night.
 No errors otherwise. Nothing queued tonight beyond what was already in the
 queue. Turn budget spent conservatively on a weekday — stopping here with
 everything committed and pushed rather than starting new work.
+
+## 2026-08-26 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
