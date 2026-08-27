@@ -33,6 +33,24 @@ logged from a prior run — nothing else new needed adding.
 Build verified clean (`npm run build`) before committing. Committed and
 pushed in one batch so far; more to come below if turns allow.
 
+**Score recompute:** tried to push three thin-sourced cigars (Cohiba Black
+Robusto, Davidoff Nicaragua Robusto, H. Upmann 1844 Reserve Toro — each sat
+at 2 critic sources, one short of publishing) over the 3-source line with a
+fresh Cigar Aficionado citation for each. Caught myself before committing:
+all three "new" citations turned out to be the exact same Cigar Aficionado
+review (same score, date, and URL) already on file for that cigar — I
+hadn't checked existing citations before searching. Deleted the three
+duplicate rows and recomputed their scores back to their correct prior
+state (still "insufficient data," unchanged) rather than let inflated
+source counts slip through. No harm done — caught before anything was
+committed — but flagging it here for transparency. These three still need
+one genuinely new, independent source before they can publish a score.
+
+**Wrapping up:** stopping here on a lean weekday budget rather than
+starting new research. Nothing was queued tonight. No unreachable sources
+or errors beyond the citation mistake above, which was self-corrected.
+Build verified clean before this final commit.
+
 ## 2026-08-25 — accessories night
 Tuesday (weekday, lean run). Day-of-month rotation (25 mod 3 = 1) landed on
 accessories tonight. Cigar-growth flag was off tonight (odd day-of-month),
