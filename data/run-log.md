@@ -4,6 +4,35 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-08-27 — nightly run (in progress)
+
+Weekday, lean budget. Day-of-month rotation (27 mod 3 = 0) points at
+**cigars** tonight. Cigar-growth batch was flagged off for tonight, so no
+new brand/line/vitola additions this run — just refreshing existing catalog
+data.
+
+**Price refresh:** checked five never-priced vitolas (Room101 Farce It Is a
+Robusto, Cohiba Black Robusto, Partagas Classic No. 10, CAO Brazilia Amazon,
+Illusione Epernay Le Ferme). Only one had a price I was confident enough to
+publish: CAO Brazilia Amazon (6x60) at $10.89 single from Smoking Pipes,
+size confirmed against the listing. Skipped the rest: Room101 Farce (no
+price surfaced anywhere), Partagas No. 10 (only a vague "average price"
+figure, no specific retailer quote), Illusione Epernay Le Ferme (couldn't
+confirm whether the price I found was for this cigar or the newer "Tuonela"
+variant), Cohiba Black Robusto (the only listing was for a "Crystal"
+packaging variant, currently out of stock, and it wasn't clear if that's
+the same blend as our catalogued plain Robusto).
+
+**News ingest:** added one real news item — Emilio Suave Sumatra, a new
+two-vitola limited edition with an Indonesian Sumatra-seed wrapper, released
+August 25, 2026 (capped at 5,000 cigars per vitola), per halfwheel. Emilio
+isn't a brand in our catalog yet, so no related-cigar link. Checked for
+duplicates against Camacho's Limited Edition 2026 and other items already
+logged from a prior run — nothing else new needed adding.
+
+Build verified clean (`npm run build`) before committing. Committed and
+pushed in one batch so far; more to come below if turns allow.
+
 ## 2026-08-25 — accessories night
 Tuesday (weekday, lean run). Day-of-month rotation (25 mod 3 = 1) landed on
 accessories tonight. Cigar-growth flag was off tonight (odd day-of-month),
