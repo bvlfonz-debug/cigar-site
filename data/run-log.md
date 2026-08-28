@@ -1833,3 +1833,41 @@ price points on file before tonight.
 
 Build verified clean (`npm run build`). Committing this now; cigar-growth
 batch follows in a separate commit below.
+
+**Cigar growth (independent of rotation, standing owner-approved exception):**
+Targeted 3, landed 2 verified additions this run — stopped early on turn
+budget rather than rushing a third. Both extend brands already in the
+catalog (cheaper to verify, lower duplicate risk):
+- Southern Draw Jacob's Ladder Robusto (5.5 x 54) — confirmed via a Blind
+  Man's Puff review (Pennsylvania Broadleaf wrapper, Ecuadorian Maduro
+  binder, Nicaraguan filler); tasting notes (dark chocolate, espresso,
+  black pepper, cedar, rich leather) drawn from that review. The line
+  already had Toro (6x52) and Gordo (6.5x60) on file — checked both for
+  near-duplicate collision against this 5.5x54 Robusto and it's clear on
+  both length (0.5"+ ) and ring gauge. The review also gave the cigar a
+  score (92, "Great") but didn't include a specific review date, so per
+  the "never guess a date" rule no critic_review citation was added —
+  still shows "insufficient data" until a dated citation turns up.
+- Espinosa Murcielago Toro (6 x 52, box-pressed) — size corroborated by
+  three independent retailer listings (Neptune Cigar, Corona Cigar,
+  CigarCountry.com) though several of their full product pages returned
+  403/522 errors on fetch. Blend (Mexican San Andrés Capa Negra wrapper,
+  Nicaraguan binder/filler) is already recorded at the line level from the
+  existing Robusto vitola. No vitola-specific tasting notes could be
+  confirmed for the Toro specifically (sources describing flavor were all
+  unreachable), so per the "write a plainer summary from the confirmed
+  blend rather than invent descriptors" rule, this entry's summary
+  describes the blend/construction only, no invented tasting notes.
+  Checked against the existing Robusto (5x54) on file — clear on both
+  length (1") and ring gauge (2pt, plus the length gap already clears it).
+
+Checked cigar_release for unlinked entries matching Southern Draw or
+Espinosa — none found, nothing to link.
+
+Build verified clean (`npm run build`) before this commit.
+
+**Wrapping up:** stopping here on turn budget. No queue additions tonight
+(weekday, cigar-growth exception is the only unqueued catalog growth, both
+items independently verified per that exception's sourcing bar). No
+NEEDS-ATTENTION items — everything attempted either landed cleanly or was
+skipped with a documented reason above, nothing left half-finished.
