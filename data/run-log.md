@@ -1801,3 +1801,35 @@ everything committed and pushed rather than starting new work.
 
 ## 2026-08-26 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
+
+## 2026-08-28 — nightly run (in progress)
+
+Weekday, lean budget (40 turns). Day-of-month rotation (28 mod 3 = 1) points
+at **accessories** tonight. Cigar-growth flag is on (28 is even), so an
+independent cigar batch follows below regardless of rotation. Not Sunday, so
+no queue triage this run.
+
+**Accessories (tonight's rotation focus):** a rough night for new data,
+consistent with recent accessories nights — several sites that carry our
+thinner-sourced items (cigarsinternational.com, pipesandcigars.com) returned
+403s on fetch again tonight. Tried to push Xikar EX (2 reviews) over the
+3-source line — found plenty of customer commentary but no actual numeric
+score/star rating to aggregate, so skipped rather than invent one. Also
+checked "The Cigar Log Book" (2 reviews on file: Amazon.sg, Goodreads) —
+found an Amazon.com reviews page, but that's the same platform as the
+Amazon.sg citation already on file, not a genuinely independent source, so
+skipped it (learning from the duplicate-citation near-miss logged on
+2026-08-27). Checked prices for S.T. Dupont Ligne 2 (too many finish/price
+variants — $1,395 to $8,450+ — with no way to confirm which matches our
+catalogued item, skipped) and IM Corona Old Boy (same problem: $114-$170
+across untracked finish variants). Heartfelt Industries humidity beads: a
+search snippet suggested $43/4oz but the actual product page wouldn't
+surface a confirmed price on fetch, so skipped rather than guess.
+
+One accessory price point did land cleanly: **Vertigo by Lotus Attaché 2**
+(soft-flame lighter) at $17.99 from Lotus's own official site
+(lotuslighters.com), confirmed via direct fetch — this accessory had zero
+price points on file before tonight.
+
+Build verified clean (`npm run build`). Committing this now; cigar-growth
+batch follows in a separate commit below.
