@@ -1903,3 +1903,31 @@ skipped per the "never guess/never substitute" rule.
 Build verified clean (`npm run build`). Committing this now; lounge-focus
 work follows in a separate commit below.
 
+**Lounges (tonight's rotation focus):** tried to push two lounges that are
+just one source short of the 3-source minimum over the line — Casa de
+Montecristo by JR Cigar (Mooresville, NC; has Google + Foursquare) and
+Boston Cigar Club & Shop (has Google + TripAdvisor already). Neither
+landed: Yelp returned 403 Forbidden on direct fetch for both, and
+Foursquare's venue page required a login to see the actual score (only a
+"Log in to Foursquare" wall came back). Also tried Iwan Ries & Co.
+(Chicago) — currently zero ratings on file — hoping for an easy TripAdvisor
+or Yelp number; TripAdvisor's page also 403'd on fetch, and search-result
+snippets described individual reviews but never surfaced the actual
+aggregate star count, so nothing citable was captured. This is the same
+site-blocking pattern noted on recent accessories nights
+(cigarsinternational.com, pipesandcigars.com returning 403s) — tonight it
+hit the lounge platforms instead. No new lounge ratings added, no new
+lounges/cities queued (didn't get far enough to identify a good candidate
+before running low on turns).
+
+**NEEDS-ATTENTION: ran out of turns before finishing cigar news ingest.**
+With this much of the budget spent on price refresh and blocked lounge
+research, there wasn't enough left to safely start the news-ingest step
+without risking a hard cutoff mid-write. Skipping it cleanly tonight rather
+than starting something that might get killed half-done. No cigar-growth
+batch tonight (flag off, matching the every-other-day/even-day cadence —
+today is odd). No queue triage (not Sunday).
+
+Build verified clean (`npm run build`) before this commit. Everything
+above is committed and pushed; nothing is left half-written in the repo.
+
