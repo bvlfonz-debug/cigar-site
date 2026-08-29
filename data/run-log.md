@@ -1874,3 +1874,32 @@ skipped with a documented reason above, nothing left half-finished.
 
 ## 2026-08-29 — NEEDS-ATTENTION: run did not finish cleanly
 This is a quota issue, not a bug: the nightly automation shares your Claude Pro usage limit with your own daytime use, and tonight's budget was already used up. Nothing to fix — it'll work again once your quota resets. Nothing was changed or committed tonight.
+
+## 2026-08-29 — nightly run (retry, in progress)
+
+Weekday, lean budget (40 turns). This is a fresh attempt for tonight after
+the earlier quota-exhaustion entry above. Day-of-month rotation (29 mod 3 =
+2) points at **lounges** tonight. Cigar-growth flag is off tonight (29 is
+odd, matching the every-other-day cadence), so no independent cigar batch
+this run. Not Sunday, so no queue triage.
+
+**Price refresh:** kept small tonight since lounges is the focus. Checked
+five never-before-priced vitolas (Romeo Añejo Piramide, RoMa Craft
+CroMagnon Knuckle Dragger, Hoyo de Monterrey Excalibur No. III, Room101
+Farce "It Is a Robusto", Cohiba Black Robusto). Only one produced a clean,
+unambiguous single-retailer price: **Hoyo de Monterrey Excalibur No. III**
+— box of 20 for $151.92 at Atlantic Cigar (one of our tracked retailers),
+confirmed by direct fetch of their product page, matching our line's
+Connecticut Shade wrapper (their "Natural" listing). The other four were
+skipped: RoMa Craft's Neptune Cigar page loaded but didn't expose a price
+in the fetched content, and JR Cigars' CroMagnon listing 404'd; Room101
+Farce's Famous Smoke page confirmed the right size (5x52) but couldn't
+confirm whether their "Original" wrapper matches our line's Ecuadorian
+Habano-seed wrapper, so skipped rather than guess; Romeo Añejo Piramide and
+Cohiba Black Robusto only turned up prices from retailers outside our
+tracked list (JR Cigars, Famous Smoke, Neptune Cigar, Atlantic Cigar), so
+skipped per the "never guess/never substitute" rule.
+
+Build verified clean (`npm run build`). Committing this now; lounge-focus
+work follows in a separate commit below.
+
