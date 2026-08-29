@@ -1871,3 +1871,6 @@ Build verified clean (`npm run build`) before this commit.
 items independently verified per that exception's sourcing bar). No
 NEEDS-ATTENTION items — everything attempted either landed cleanly or was
 skipped with a documented reason above, nothing left half-finished.
+
+## 2026-08-29 — NEEDS-ATTENTION: run did not finish cleanly
+This is a quota issue, not a bug: the nightly automation shares your Claude Pro usage limit with your own daytime use, and tonight's budget was already used up. Nothing to fix — it'll work again once your quota resets. Nothing was changed or committed tonight.
