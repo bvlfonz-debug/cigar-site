@@ -1931,3 +1931,41 @@ today is odd). No queue triage (not Sunday).
 Build verified clean (`npm run build`) before this commit. Everything
 above is committed and pushed; nothing is left half-written in the repo.
 
+## 2026-08-30 — Sunday run: cigars night (heavier catalog pass + queue triage)
+
+Sunday, larger budget (90 turns). Day-of-month rotation (30 mod 3 = 0)
+points at **cigars** tonight. Cigar-growth flag is on tonight, so a
+new-cigar batch runs independently of the rotation too (target 6, Sunday
+size) — see below. Sunday also means the weekly queue triage runs after
+the regular work.
+
+**Price refresh:** checked a batch of never-before-priced vitolas against
+our four tracked retailers (JR Cigars, Famous Smoke Shop, Neptune Cigar,
+Atlantic Cigar). Landed clean, size/wrapper-confirmed prices on 10:
+
+- Illusione Epernay Le Ferme — box of 25, $267.75 (Atlantic Cigar)
+- Hoyo de Monterrey Excalibur No. II (Natural) — box of 20, $153.32 (Atlantic Cigar)
+- Partagás Classic No. 10 — box of 10, $88.99 (JR Cigars)
+- New World by AJ Fernandez Robusto (Oscuro) — box of 21, $101.87 (Atlantic Cigar)
+- Liga Privada No. 9 Belicoso — box of 24, $452.58 (Atlantic Cigar)
+- Crowned Heads Le Pâtissier Senadores — box of 20, $104.95 (Atlantic Cigar)
+- Padrón 1926 Series No. 9 Maduro — box of 10, $245.00 (Atlantic Cigar)
+- Dunbarton Tobacco & Trust Sobremesa Short Churchill — box of 14, $168.99 (Famous Smoke Shop)
+- Plasencia Alma Fuerte Nestor IV — box of 10, $224.99 (Famous Smoke Shop)
+- E.P. Carrillo Encore Celestial — box of 20, $259.99 (Famous Smoke Shop)
+
+All ten matched exact length/ring-gauge (and wrapper, where relevant)
+against what's already on file — no guessing on ambiguous sizes. Skipped
+Davidoff Nicaragua Robusto: the only listing found was a "Box-Pressed"
+variant at 5x48, while our line's vitola is a plain (non-box-pressed)
+5x50 — different product, not our SKU, so left alone rather than risk
+mixing data across two distinct Davidoff Nicaragua releases. H. Upmann
+1844 Reserve Toro also skipped: the only price surfaced ($46.95 "single")
+was implausible for a single stick and looked like a bundle price
+mislabeled by the search summary — not confident enough to publish.
+
+No price swung >25% off trailing averages, so nothing went to the queue
+from this step.
+
+Build verified clean (`npm run build`) before this commit.
+
