@@ -2013,3 +2013,38 @@ Left the queue entry as-is rather than resolve it without real confirmation.
 
 Build verified clean (`npm run build`) before this commit.
 
+**Score recompute:** found a real third independent source for
+Montecristo White Series Toro (a JR Cigars customer-review average, 4.45/5
+across 352 reviews) — it previously had only Cigar Aficionado and The
+Cigar Authority, one short of the 3-source minimum. Added it, which
+published a StickScore of 89.1 for the first time; also filled in sub-scores
+from the same review text (flavor/construction/complexity/value) and
+rewrote the summary to drop the old "insufficient data" framing. Removed
+the matching queue entry since the gap it flagged no longer exists. Tried
+the same move for Arturo Fuente Añejo Reserva No. 48 (also one source
+short) but couldn't find a usable third source — Famous Smoke's product
+page 404'd and no other tracked retailer showed a review average — so
+that one stays queued.
+
+**Weekly queue triage (Sunday):** read through all 253 items currently in
+data/review-queue.json looking specifically for genuinely-new-entity
+proposals (new brand/line/lounge/city/factory/accessory-category
+candidates) per this week's triage instructions. Found none — every item
+in the queue right now is one of: insufficient-source tracking notes,
+conflicting-fact notes, missing brand/factory citation gaps, or
+fact-verification flags from an old submission audit (unverified/
+mismatched vitolas and awards on cigars already in the catalog). None of
+those are "propose a new catalog entity" decisions — they're informational
+gap-tracking the way this file describes as fine to leave alone. So there
+was nothing to approve, reject, or explicitly bounce to the owner this
+week; the two resolutions above (Brick House Commodore, Montecristo White
+Series Toro) happened as part of the regular cigars work, not the triage
+pass. Queue count net change tonight: 255 → 253 (two resolved, as noted
+above; no new items added).
+
+Build verified clean (`npm run build`) before this commit — final check
+for tonight. Everything above is committed and pushed. No NEEDS-ATTENTION
+items: every step planned for tonight (ingest/news, price refresh, score
+recompute, cigar growth, weekly triage) was completed, not cut short by
+the turn budget.
+

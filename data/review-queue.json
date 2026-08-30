@@ -96,18 +96,6 @@
     "decision": null
   },
   {
-    "item": "Montecristo White Series Toro",
-    "path": "/cigars/montecristo/white-series/toro/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Cigar Aficionado",
-      "The Cigar Authority"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
     "item": "Montecristo Epic Toro",
     "path": "/cigars/montecristo/montecristo-epic/toro/",
     "reason": "insufficient_sources",
