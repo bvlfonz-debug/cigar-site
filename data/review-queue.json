@@ -2208,17 +2208,6 @@
     "decision": null
   },
   {
-    "item": "Brick House Maduro — The Commodore (5.5x70?) vitola",
-    "path": "/cigars/brick-house/maduro/",
-    "reason": "unverified_vitola",
-    "why_flagged": "Submission listed a \"The Commodore\" vitola at 5.5x70, tied to the line's claimed 2012 release. Research found a Cigar Coop article dated April 2026, \"J.C. Newman Adds Brick House Commodore Maduro,\" suggesting this size may be a 2026 addition rather than part of the original 2012 lineup — its exact dimensions could not be confirmed (source blocked). Left out rather than guessed.",
-    "sources_found": [
-      "https://cigar-coop.com/2026/04/j-c-newman-adds-brick-house-commodore-maduro-cigar-news.html"
-    ],
-    "proposed_action": "Confirm The Commodore's real release date and dimensions via a working source before adding it, and correct the line's background_text if it turns out to postdate 2012 significantly.",
-    "decision": null
-  },
-  {
     "item": "Perla del Mar Corojo Toro — Cigar Insider 90pt/2021 citation",
     "path": "/cigars/perla-del-mar/corojo/toro/",
     "reason": "unverified_award",

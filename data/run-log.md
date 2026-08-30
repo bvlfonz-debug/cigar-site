@@ -1969,3 +1969,47 @@ from this step.
 
 Build verified clean (`npm run build`) before this commit.
 
+**News + cigar growth (7 new vitolas, target was 6):** found four real,
+independently-sourced new products and added all of them — extending
+existing brands where possible, per the preference in CLAUDE.md:
+
+- **Brick House Maduro — The Commodore** (5.5x70 gordo, new widest vitola
+  for an existing line) — confirmed shipping via halfwheel; tasting notes
+  drawn from a June 2026 review (cocoa, charred wood, espresso, dark
+  tobacco, molasses-like sweetness, black pepper). This also resolved the
+  existing queue item that had flagged this exact vitola as unverified —
+  it's real, so the queue entry is now removed. Linked to a matching
+  release-calendar entry.
+- **Diesel Uncaged** (new line, 3 vitolas: Robusto 5.5x52, Toro 6x52,
+  Gigante 6x60) — a new full-time blend for the existing Diesel brand,
+  confirmed via halfwheel and Cigar Coop. Nicaraguan habano criollo
+  wrapper, made by A.J. Fernandez.
+- **Knuckle Sandwich Avant-Garde** (new line under the existing Espinosa
+  Premium Cigars brand, 1 vitola: Toro 6x54) — a deliberately milder blend
+  in Erik Espinosa's Guy Fieri collaboration, confirmed via halfwheel.
+- **United Cigars — Independence** (brand-new brand, 1 new line, 2
+  vitolas: Robusto 4.875x50, Toro 5.875x50) — United Cigars wasn't in our
+  catalog at all; confirmed the company's real background (owned by David
+  Garofalo of Two Guys Cigars, multi-factory) via Cigar Journal and
+  Premium Cigar Association coverage before adding it. `founded_year` left
+  null — no source gave a founding date for the modern company, so it's
+  not guessed. Independence began as a limited "Firecracker" tin and just
+  became a regular-production line; rolled at Magia Cubana, Dominican
+  Republic.
+
+Each addition got a matching news brief (citing halfwheel/Cigar Dojo) and
+a cigar_release entry linked to its vitola. Checked all four against
+existing catalog entries for exact and near-duplicate dimensions first —
+no collisions. None of these have a critic score yet (best-effort search
+for Brick House Commodore found no numeric rating from our tracked
+sources), so all show "insufficient data," same as any other
+freshly-added vitola — no invented scores.
+
+**Skipped as unverifiable:** the queued "Nub Maduro 466 (4x66)" candidate
+— couldn't find any source confirming this specific size exists, and even
+if it did, 4x66 sits within a few ring-gauge points of the already-catalogued
+464 Torpedo (4x64), the exact near-duplicate pattern this file warns about.
+Left the queue entry as-is rather than resolve it without real confirmation.
+
+Build verified clean (`npm run build`) before this commit.
+
