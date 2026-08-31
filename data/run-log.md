@@ -2048,3 +2048,40 @@ items: every step planned for tonight (ingest/news, price refresh, score
 recompute, cigar growth, weekly triage) was completed, not cut short by
 the turn budget.
 
+## 2026-08-31 — accessories night (price refresh + review sourcing)
+
+Weekday, lean run. Tonight's rotation slot (day-of-month mod 3) landed on
+**accessories**; the cigar-growth flag was off tonight so that batch was
+skipped entirely, and it's a weekday so no weekly queue triage either.
+
+**Price refresh:** added real, sourced current prices for three
+accessories that had never had a price checked before: Visol Arnold
+Crystal 4-Cigar Ashtray (Home Depot, $36.00), Cigars International Large
+Analog Hygrometer (CI's own site, $15.39, marked down from $21.99), and
+Mantello Royal Glass-Top Cigar Humidor (Walmart, $39.99 — Walmart shows it
+out of stock right now, but that's still the real listed price). All
+three are brand-new price_point rows, nothing overwritten.
+
+**Review sourcing — caught my own mistake before it shipped:** tried to
+push two accessories over the 3-source minimum (NewAir CC-300H humidor
+and the Colibri Quasar table lighter, both sitting at 2 sources). For
+both, the "new" source I found turned out to be the same retailer already
+on file under a slightly different name — JR Cigars' customer-review
+average for the Quasar was already recorded, and I nearly recorded it a
+second time as "JR Cigars (customer reviews)," which would have
+incorrectly counted as a third *independent* source when it's really the
+same citation twice. Caught it by checking the existing rows before
+trusting the search results, deleted both erroneous entries immediately
+(same run, before any commit — not touching real historical data), and
+recomputed both scores back to their correct "insufficient data" state.
+Also tried a genuine third source for the Case Elegance Flint Travel
+Leather Cigar Case and the Xikar PuroTemp hygrometer; found real editorial
+coverage (Blind Man's Puff) for two of tonight's candidates but neither
+gave an explicit numeric score/rating to record, and Amazon's page for the
+Case Elegance case wouldn't load for a star-rating check — so those stay
+queued at their current source count rather than guessing at a score. Net
+effect: no new reviews added tonight, but no bad data went in either.
+
+Build verified clean (`npm run build`) before this commit. Nothing left
+outstanding from tonight's slice — no NEEDS-ATTENTION.
+
