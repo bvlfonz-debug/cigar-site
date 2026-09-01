@@ -2097,3 +2097,6 @@ Day-of-month rotation (1 mod 3 = 1) picked **accessories** as tonight's focus ve
 - Zico ZD-60: no retailer listing with a clear price surfaced in search; skipped.
 
 Build verified clean (`npm run build`, 20,943 pages) before committing.
+
+## 2026-09-01 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
