@@ -2085,3 +2085,15 @@ effect: no new reviews added tonight, but no bad data went in either.
 Build verified clean (`npm run build`) before this commit. Nothing left
 outstanding from tonight's slice — no NEEDS-ATTENTION.
 
+
+## 2026-09-01 — nightly run (accessories focus, weekday)
+
+Day-of-month rotation (1 mod 3 = 1) picked **accessories** as tonight's focus vertical. Not Sunday, so no weekly queue triage. `cigar_growth_today` was false, so no new-cigar growth work this run.
+
+**Price refresh (accessories):**
+- Quality Importers Crystal Tobacco Leaf 4-Cigar Ashtray: added a price point from Cigars Boston ($55.99) — this item had never had a price checked before.
+- Western Humidor (Cigar Oasis) Caliber IV Digital Hygrometer: added a price point from HumidorPros.com ($29.00) — also never priced before.
+- Tried NewAir CC-300H Climate-Controlled Cabinet Humidor and IM Corona Old Boy lighter too: skipped both. NewAir appears to have renamed/restructured this product line on its own site (no longer listed under the "CC-300H" name), so I couldn't confirm a current price against the exact catalogued item with confidence. IM Corona Old Boy has many finish variants ($73–$200) and I couldn't confirm which finish matches our catalogued item, so I left it rather than guess.
+- Zico ZD-60: no retailer listing with a clear price surfaced in search; skipped.
+
+Build verified clean (`npm run build`, 20,943 pages) before committing.
