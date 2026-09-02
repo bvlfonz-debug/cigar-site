@@ -2100,3 +2100,19 @@ Build verified clean (`npm run build`, 20,943 pages) before committing.
 
 ## 2026-09-01 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
+
+## 2026-09-02 — lounges night (weekday)
+
+Day-of-month rotation (2 mod 3 = 2) picked **lounges** as tonight's focus. Not Sunday, so no weekly queue triage.
+
+**New cited ratings on existing lounges:** the directory has quite a few lounges (about 60) still sitting at zero ratings, more than this weekday's lean turn budget could meaningfully dent, so I picked four well-known ones and looked for real, currently-live platform ratings rather than spreading thin:
+- Iwan Ries & Co. (Chicago) — added a Yelp rating, 4.7/5 from 207 reviews.
+- Holt's Cigar Company (Philadelphia, Walnut St) — added a Yelp rating, 4.5/5 from 111 reviews.
+- King Corona Cigars Cafe and Bar (Tampa) — added a Google rating (via Wanderlog, which mirrors Google's live figure), 4.7/5 from 1,147 reviews.
+- Casa de Montecristo (Austin) — added a CigarScore.com rating, 3.0/5 from a single review.
+
+None of these clear the 3-source minimum yet (each only had 0 or 1 source before tonight), so all four still show "insufficient data" — this is real progress toward that bar, not a finished score. I tried to find a second citable number for Iwan Ries and Holt's beyond Yelp, but the other listings I found (Chamber of Commerce, Shisha.com) looked like they were just re-publishing the same underlying Yelp data rather than an independent source, so I left those out rather than double-count them.
+
+**cigar_growth_today was true** (day-of-month 2 is even) — see the entry below for that work, done in the same run.
+
+Build verified clean (`npm run build`, 20,943 pages) before this commit.
