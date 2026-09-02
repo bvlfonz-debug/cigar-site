@@ -2116,3 +2116,6 @@ None of these clear the 3-source minimum yet (each only had 0 or 1 source before
 **cigar_growth_today was true** (day-of-month 2 is even) — see the entry below for that work, done in the same run.
 
 Build verified clean (`npm run build`, 20,943 pages) before this commit.
+
+## 2026-09-02 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
