@@ -63,6 +63,10 @@ export interface LineRow {
   strength: string;
   release_year: number | null;
   background_text: string;
+  image_url: string | null;
+  image_source_name: string | null;
+  image_source_url: string | null;
+  image_checked_at: string | null;
 }
 
 export interface VitolaRow {

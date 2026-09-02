@@ -99,12 +99,21 @@ queue, affiliate config, age gate, or FTC disclosure logic.
 - **Logo**: `src/components/Logo.astro` — an inline SVG carved-monogram "CC"
   mark (stone-tablet/engraved-inscription feel). No smoke, cigar, flame, or
   tobacco-leaf imagery anywhere in the mark, per the brand brief.
-- **Cigar imagery**: the site has never had a real photo pipeline, and
-  stock/scraped cigar photography was ruled out as both cheap-looking and a
-  rights risk. `src/components/CigarEmblem.astro` renders a typographic
-  placeholder (brand initial, vitola type, dimensions) in the image slot on
-  the cigar detail page instead — if licensed photography is sourced later,
-  that's the only place it needs to be dropped in.
+- **Cigar imagery**: as of 2026-09, `line` carries optional `image_url` /
+  `image_source_name` / `image_source_url` / `image_checked_at` columns
+  (per-line, not per-vitola — one hero shot per blend, reused across all
+  sizes, matching what manufacturer sites actually provide).
+  `src/components/CigarEmblem.astro` renders that photo with a source credit
+  when set, falling back to its original typographic placeholder (brand
+  initial, vitola type, dimensions) for every line that doesn't have one yet.
+  Populated so far: 46 lines' worth of manufacturer product photography,
+  pulled from each brand's own official site and manually visually checked
+  against the actual product before being applied — filename/metadata
+  heuristics alone were not trustworthy (wrong sub-editions, third-party
+  watermarks/critic badges embedded in official uploads folders, and
+  non-product content all made it past automated confidence scoring in
+  practice). Any future addition to `line.image_url` should go through the
+  same manual visual check, not just a filename match, before being applied.
 - **Navigation**: kept every real existing section (Manufacturers, Factories,
   Rankings, News, Guides, Calendar, Accessories, Pairings, Lounges, Deals, My
   Humidor). No "Sign In" link — the site has no authentication system

@@ -279,6 +279,29 @@ main {
   font-variant-numeric: tabular-nums;
 }
 
+.cigar-emblem__frame--photo {
+  padding: 0;
+  overflow: hidden;
+}
+
+.cigar-emblem__frame--photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cigar-emblem__credit {
+  margin: 0.5rem 0 0;
+  font-size: 0.68rem;
+  color: var(--color-ink-soft);
+  text-align: center;
+}
+
+.cigar-emblem__credit a {
+  color: var(--color-gold-deep);
+}
+
 .cigar-hero__subtitle {
   color: var(--color-ink-soft);
   font-size: 1.15rem;
@@ -808,6 +831,18 @@ main {
   font-weight: 520;
   font-size: 1.25rem;
   margin: 0 0 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.line-group__thumb {
+  width: 2.25rem;
+  height: 2.25rem;
+  object-fit: cover;
+  border-radius: 2px;
+  border: 1px solid var(--color-rule);
+  flex-shrink: 0;
 }
 
 .brand-directory {

@@ -92,7 +92,10 @@ const jsonLd = {
     <h2 class="section__heading">Catalog</h2>
     {lines.map((line) => (
       <div class="line-group">
-        <h3 class="line-group__name">{line.name}</h3>
+        <h3 class="line-group__name">
+          {line.image_url && <img class="line-group__thumb" src={line.image_url} alt="" loading="lazy" />}
+          {line.name}
+        </h3>
         <div class="search-results">
           {line.vitolas.map((v) => (
             <a class="cigar-card" href={`/cigars/${brand.slug}/${line.slug}/${v.slug}/`}>
