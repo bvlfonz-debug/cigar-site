@@ -2142,3 +2142,25 @@ so per the "skip rather than guess" rule, none of those three got a price
 point tonight. Will retry on a future price-refresh night.
 
 Build verified clean (`npm run build`, 20,950 pages) before this commit.
+
+**News + release calendar:** added one news brief citing halfwheel —
+Espinosa Premium Cigars has begun shipping its new Laranja Hybrid blend
+(Ecuadorian habano oscuro wrapper, Nicaraguan binder, Brazilian/Nicaraguan
+filler). Since this brief is itself reporting a new release, also added a
+matching entry to the release calendar (`/calendar`), cross-linked to the
+news item. The Laranja Hybrid isn't a catalogued vitola yet (no specific
+size/pricing confirmed), so the release shows as "upcoming" for now with no
+linked cigar page — today's cigar-growth flag was off, so it wasn't added
+as a full catalog entry either.
+
+**Score recompute:** nothing to recompute tonight — no new critic reviews
+were added (only price points and a news/release entry), so no vitola's
+StickScore changed.
+
+**Stopping here for tonight** — this weekday run stayed within its lean
+turn budget by covering price refresh + news/release ingest and skipping
+everything else in the normal cigar-night scope (no brand/factory sourcing
+pass, no pairing-citation search, no push on the three-source-minimum queue
+items). Nothing was left half-done: every step above is fully committed and
+pushed, and `npm run build` passed after each change. No NEEDS-ATTENTION —
+this is a deliberate lean stop, not a failure.
