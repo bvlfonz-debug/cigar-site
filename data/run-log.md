@@ -2119,3 +2119,26 @@ Build verified clean (`npm run build`, 20,943 pages) before this commit.
 
 ## 2026-09-02 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-03 — cigars night (weekday, in progress)
+
+Day-of-month rotation (3 mod 3 = 0) picked **cigars** as tonight's focus. Not
+Sunday, so no weekly queue triage. Tonight's cigar-growth flag was off, so no
+new brand/line/vitola batch — just refreshing existing catalog data. Weekday,
+lean turn budget.
+
+**Price refresh:** added real, sourced prices for three vitolas that had
+never had a price checked before:
+- Romeo y Julieta Añejo Piramide — Cigar Country, box of 21 for $153.09.
+- Cohiba Black Robusto — Pipes and Cigars, $23.99 single.
+- H. Upmann 1844 Reserve Toro — Thompson Cigar, box of 25 for $238.99.
+
+Also tried three more never-priced vitolas (Aging Room Quattro Nicaragua
+Vibrato, Arturo Fuente Añejo Reserva No. 46, Davidoff Nicaragua Robusto) but
+every retailer page I tried for those three (CigarPlace, Best Cigar Prices,
+Neptune, Atlantic, Cigar Country, Cigars International, Thompson) either
+blocked the fetch (403) or returned a page with no price text extractable —
+so per the "skip rather than guess" rule, none of those three got a price
+point tonight. Will retry on a future price-refresh night.
+
+Build verified clean (`npm run build`, 20,950 pages) before this commit.
