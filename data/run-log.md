@@ -2164,3 +2164,17 @@ pass, no pairing-citation search, no push on the three-source-minimum queue
 items). Nothing was left half-done: every step above is fully committed and
 pushed, and `npm run build` passed after each change. No NEEDS-ATTENTION —
 this is a deliberate lean stop, not a failure.
+
+## 2026-09-04 — accessories night + cigar growth (weekday, in progress)
+
+Day-of-month rotation (4 mod 3 = 1) picked **accessories** as tonight's focus. Not Sunday, so no weekly queue triage. Day-of-month 4 is even, so `cigar_growth_today` is true — see the follow-up entry below for that batch.
+
+**Price refresh (accessories):** added real, sourced prices for two accessories that had never had a price checked before:
+- Visol Stinger (soft-flame lighter) — Visol's own official site, $30.00.
+- Xikar Crystal Gel Humidifier Jar, 4 oz — Walmart, $12.49.
+
+Tried Heartfelt Industries Humidity Beads (65% RH) too: the item is sold in several bag sizes (0.5-1 lb) and I couldn't pin a single current retailer price that clearly matched our catalogued size — the only concrete numbers I found were years-old forum posts, not a live listing — so per the "skip rather than guess" rule, no price point went in for it tonight.
+
+**Review sourcing:** tried to push Nathan Scott Lester's "The Cigar Log Book" (2 sources: Amazon, Goodreads) over the 3-source minimum. The only additional hits were Amazon's own regional storefronts (amazon.sg, amazon.in, amazon.com.au) mirroring the same underlying Amazon rating — not a genuinely independent third source, same trap flagged on 2026-08-31 — so nothing was added; it stays at 2 sources.
+
+Build verified clean (`npm run build`, 20,950 pages) before this commit.
