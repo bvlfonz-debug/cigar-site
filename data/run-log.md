@@ -2178,3 +2178,6 @@ Tried Heartfelt Industries Humidity Beads (65% RH) too: the item is sold in seve
 **Review sourcing:** tried to push Nathan Scott Lester's "The Cigar Log Book" (2 sources: Amazon, Goodreads) over the 3-source minimum. The only additional hits were Amazon's own regional storefronts (amazon.sg, amazon.in, amazon.com.au) mirroring the same underlying Amazon rating — not a genuinely independent third source, same trap flagged on 2026-08-31 — so nothing was added; it stays at 2 sources.
 
 Build verified clean (`npm run build`, 20,950 pages) before this commit.
+
+## 2026-09-04 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
