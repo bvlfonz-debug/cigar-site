@@ -2193,3 +2193,9 @@ Day-of-month rotation (5 mod 3 = 2) picked **lounges** as tonight's focus. Not S
 - Romeo y Julieta Reserva Real Belicoso No. 2 — JR Cigars, $40.80 for a 5-pack (size confirmed matching, 6.12 x 52).
 
 Build verified clean (`npm run build`, 20,954 pages) before this commit.
+
+**News + release calendar:** added one news brief citing halfwheel — Camacho has begun shipping its 2026 Limited Edition (part of the "Boldly Built by Masters" series), in the brand's signature 11/18 perfecto shape (6x56), Ecuadorian wrapper over a Honduran binder and Honduran/Nicaraguan/Dominican filler, medium-plus, limited to 4,000 boxes worldwide at $17 SRP. Cross-linked to a matching release-calendar entry (release date confirmed as 2026-09-03 via a corroborating industry roundup, since the halfwheel article itself is paywalled past the headline/snippet). Camacho already exists as a brand in the catalog but this specific limited edition isn't a catalogued vitola — today's cigar-growth flag was off, so it shows as "upcoming" on `/calendar` with no linked cigar page, same treatment as the Espinosa Laranja Hybrid brief on 2026-09-03.
+
+**Score recompute:** nothing to recompute tonight — no new critic reviews were added, only price points and a news/release entry.
+
+Build verified clean (`npm run build`, 20,954 pages) before this commit.
