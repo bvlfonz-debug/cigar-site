@@ -2199,3 +2199,6 @@ Build verified clean (`npm run build`, 20,954 pages) before this commit.
 **Score recompute:** nothing to recompute tonight — no new critic reviews were added, only price points and a news/release entry.
 
 Build verified clean (`npm run build`, 20,954 pages) before this commit.
+
+## 2026-09-05 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
