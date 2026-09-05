@@ -2181,3 +2181,15 @@ Build verified clean (`npm run build`, 20,950 pages) before this commit.
 
 ## 2026-09-04 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-05 — lounges night (weekday, in progress)
+
+Day-of-month rotation (5 mod 3 = 2) picked **lounges** as tonight's focus. Not Sunday, so no weekly queue triage. Today's cigar-growth flag was off, so no new brand/line/vitola batch.
+
+**Lounges (tonight's rotation focus):** tried to push two lounges that already sit at exactly 2 external ratings (Boston Cigar Club & Shop — Google + TripAdvisor; Casa de Montecristo by JR Cigar, Mooresville — Google + Foursquare) over the 3-source minimum with a genuinely independent third source. Every platform I tried to verify directly blocked the fetch tonight: Yelp (403 on both listings), TripAdvisor (403), Foursquare (login wall), the BBB page for Boston Cigar Club (has an A+ accreditation grade, not a comparable star rating), and a Wheree mirror (403). The only page that did load (Wanderlog, for the Mooresville listing) just mirrored the same Google figure already on file, so it wasn't independent and wasn't added. Per the "skip rather than guess" rule, no new lounge ratings went in tonight — both stay at 2 sources, still short of publishing a LoungeScore. Will retry with different platforms on a future lounge night. No new lounges/cities were proposed either — turn budget went to verifying these two first.
+
+**Price refresh (cigars):** added real, sourced prices for two vitolas that had never had a price checked before:
+- Ashton Classic Sovereign — Fox Cigar, $15.60 single / $350.99 box of 25 (size confirmed matching, 6¾ x 55).
+- Romeo y Julieta Reserva Real Belicoso No. 2 — JR Cigars, $40.80 for a 5-pack (size confirmed matching, 6.12 x 52).
+
+Build verified clean (`npm run build`, 20,954 pages) before this commit.
