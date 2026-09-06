@@ -2224,3 +2224,11 @@ No critic score found for either yet (checked halfwheel, Cigar Aficionado, and g
 **Skipped as likely duplicate/unverifiable tonight:** nothing else was seriously chased once 6 solid, well-sourced candidates were found — stopped there rather than reaching for weaker candidates.
 
 Build verified clean (`npm run build`, 21,082 pages) before this commit.
+
+**Price refresh (cigars):** added real, sourced prices for four vitolas that had never had a price checked before:
+- Arturo Fuente Don Carlos No. 4 — Cigars Direct, $11.55 single / $288.75 box of 25 (size confirmed matching, 5.125 x 43).
+- Rocky Patel White Label Robusto — Casa de Montecristo, $398.05 for a box of 20 (no single price listed on the page, so only the box price was recorded).
+- Nub Connecticut 354 — Mike's Cigars, $10.45 single / $185.50 box of 24 (size confirmed matching, 3.75 x 54).
+- Foundation Olmec Maduro Toro — Smoke Inn, $165.95 for a box of 12 (sale price; no single price listed).
+
+Build verified clean (`npm run build`, 21,082 pages) before this commit.
