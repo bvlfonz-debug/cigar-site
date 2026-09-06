@@ -13,14 +13,22 @@ interface Props {
   imageUrl?: string | null;
   imageSourceName?: string | null;
   imageSourceUrl?: string | null;
+  imageWidth?: number | null;
+  imageHeight?: number | null;
 }
-const { brandInitial, vitolaType, lengthIn, ringGauge, imageUrl, imageSourceName, imageSourceUrl } = Astro.props;
+const { brandInitial, vitolaType, lengthIn, ringGauge, imageUrl, imageSourceName, imageSourceUrl, imageWidth, imageHeight } = Astro.props;
 ---
 
 {imageUrl ? (
   <div class="cigar-emblem cigar-emblem--photo">
     <div class="cigar-emblem__frame cigar-emblem__frame--photo">
-      <img src={imageUrl} alt={`${vitolaType} cigar`} loading="lazy" />
+      <img
+        src={imageUrl}
+        width={imageWidth ?? undefined}
+        height={imageHeight ?? undefined}
+        alt={`${vitolaType} cigar`}
+        loading="lazy"
+      />
     </div>
     {imageSourceName && (
       <p class="cigar-emblem__credit">

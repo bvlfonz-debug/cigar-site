@@ -67,6 +67,8 @@ export interface LineRow {
   image_source_name: string | null;
   image_source_url: string | null;
   image_checked_at: string | null;
+  image_width: number | null;
+  image_height: number | null;
 }
 
 export interface VitolaRow {
