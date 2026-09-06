@@ -100,20 +100,37 @@ queue, affiliate config, age gate, or FTC disclosure logic.
   mark (stone-tablet/engraved-inscription feel). No smoke, cigar, flame, or
   tobacco-leaf imagery anywhere in the mark, per the brand brief.
 - **Cigar imagery**: as of 2026-09, `line` carries optional `image_url` /
-  `image_source_name` / `image_source_url` / `image_checked_at` columns
-  (per-line, not per-vitola — one hero shot per blend, reused across all
-  sizes, matching what manufacturer sites actually provide).
-  `src/components/CigarEmblem.astro` renders that photo with a source credit
-  when set, falling back to its original typographic placeholder (brand
-  initial, vitola type, dimensions) for every line that doesn't have one yet.
-  Populated so far: 46 lines' worth of manufacturer product photography,
-  pulled from each brand's own official site and manually visually checked
-  against the actual product before being applied — filename/metadata
-  heuristics alone were not trustworthy (wrong sub-editions, third-party
-  watermarks/critic badges embedded in official uploads folders, and
-  non-product content all made it past automated confidence scoring in
-  practice). Any future addition to `line.image_url` should go through the
-  same manual visual check, not just a filename match, before being applied.
+  `image_source_name` / `image_source_url` / `image_checked_at` /
+  `image_width` / `image_height` columns (per-line, not per-vitola — one
+  hero shot per blend, reused across all sizes, matching what manufacturer
+  sites actually provide). `src/components/CigarEmblem.astro` renders that
+  photo with a source credit when set, falling back to its original
+  typographic placeholder (brand initial, vitola type, dimensions) for every
+  line that doesn't have one yet.
+  - **Never add an image without visual verification first.** Filename/
+    metadata heuristics alone are not trustworthy — wrong sub-editions,
+    third-party watermarks/critic badges embedded in official uploads
+    folders, and non-product content (merch, lifestyle photos, infographics)
+    have all made it past automated confidence scoring in practice. A
+    candidate image must be opened and checked against the actual product
+    (right line/edition, no third-party marks, a genuine single-product
+    shot) before it's applied.
+  - **Never crop a photo to force a shape.** `scripts/lib/image-pipeline.mjs`
+    is the one place the resize parameters live (`MAX_LONG_EDGE` = 1200px,
+    `fit: 'inside'`) — every stored photo is scaled down to fit that box
+    while keeping its native aspect ratio; nothing is ever cropped, and nothing
+    is upscaled. `image_width`/`image_height` are the resized file's actual
+    pixel dimensions, used as native `<img>` attributes so the page can size
+    each photo's display box to its own shape (see `.cigar-emblem__frame--photo`
+    in `src/styles/global.css`, capped at 15.5rem × 12rem via `max-width`/
+    `max-height` + auto sizing — also never cropping).
+  - **Adding a photo**: `node scripts/add-line-image.mjs <sourceImagePath>
+    <lineId> <sourceSiteUrl>` for one line, or `node scripts/apply-line-images.mjs
+    <entries.json>` (array of `{file, line_id, brand_slug, line_slug, site}`)
+    for a batch — both call the same shared pipeline function, so there is
+    only one code path that resizes and writes these columns.
+  - Populated so far: 46 lines' worth of manufacturer product photography,
+    pulled from each brand's own official site.
 - **Navigation**: kept every real existing section (Manufacturers, Factories,
   Rankings, News, Guides, Calendar, Accessories, Pairings, Lounges, Deals, My
   Humidor). No "Sign In" link — the site has no authentication system

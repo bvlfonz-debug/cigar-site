@@ -1,34 +1,24 @@
 #!/usr/bin/env node
-// One-time apply: writes image_url/image_source_name/image_source_url/
-// image_checked_at for the set of (line, image) pairs that passed full
-// manual visual verification (see /private/tmp .../scratchpad/final_with_paths.json
-// for the review trail). Idempotent -- re-running overwrites the same rows
-// with the same values.
-import { DatabaseSync } from 'node:sqlite';
-import sharp from 'sharp';
+// Batch apply: for a JSON array of manually-verified (line, source image)
+// pairs, resizes each source image without cropping (see
+// scripts/lib/image-pipeline.mjs for the dimension rules), saves it under
+// public/, and writes image_url/image_width/image_height/image_source_name/
+// image_source_url/image_checked_at onto the matching line row. Idempotent --
+// re-running re-resizes from the same source and overwrites with the same
+// values.
+//
+// Usage: node scripts/apply-line-images.mjs <entries.json>
+// Each entry: { file: <source image path>, line_id, brand_slug, line_slug, site }
 import fs from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { openDb, resizeAndSaveCigarImage, writeLineImageRecord } from './lib/image-pipeline.mjs';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dbPath = path.join(__dirname, '..', 'data', 'cigars.db');
-const publicDir = path.join(__dirname, '..', 'public');
-const entries = JSON.parse(
-  fs.readFileSync(process.argv[2], 'utf8')
-);
-
-const db = new DatabaseSync(dbPath);
-const checkedAt = new Date().toISOString().slice(0, 10);
-
-const update = db.prepare(
-  `UPDATE line SET image_url = ?, image_source_name = ?, image_source_url = ?, image_checked_at = ?, image_width = ?, image_height = ? WHERE id = ?`
-);
+const entries = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
+const db = openDb();
 
 let count = 0;
 for (const e of entries) {
-  const domain = new URL(e.site).hostname.replace(/^www\./, '');
-  const meta = await sharp(path.join(publicDir, e.public_path)).metadata();
-  update.run(e.public_path, domain, e.site, checkedAt, meta.width, meta.height, e.line_id);
+  const { publicPath, width, height } = await resizeAndSaveCigarImage(e.file, e.brand_slug, e.line_slug);
+  writeLineImageRecord(db, { lineId: e.line_id, publicPath, width, height, siteUrl: e.site });
   count++;
 }
 
