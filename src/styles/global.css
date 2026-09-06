@@ -291,13 +291,13 @@ main {
   display: block;
   width: auto;
   height: auto;
-  max-width: 15.5rem;
-  max-height: 12rem;
+  max-width: 19rem;
+  max-height: 15rem;
 }
 
 @media (max-width: 40rem) {
   .cigar-emblem__frame--photo img {
-    max-width: min(15.5rem, 80vw);
+    max-width: min(19rem, 80vw);
   }
 }
 
