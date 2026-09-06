@@ -2202,3 +2202,15 @@ Build verified clean (`npm run build`, 20,954 pages) before this commit.
 
 ## 2026-09-05 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
+
+## 2026-09-06 — cigars night + cigar growth (Sunday, heavier pass)
+
+Day-of-month rotation (6 mod 3 = 0) picked **cigars** as tonight's focus. Today's cigar-growth flag is true (day-of-month 6 is even), so a 6-cigar growth batch runs too, and it's Sunday so a weekly queue triage follows the regular work.
+
+**News + cigar growth (first batch):** Cigar Coop and halfwheel both reported Perdomo is repackaging its 30th Anniversary line (Connecticut, Maduro, Sun Grown) from 30-count to 20-count boxes. Added a news brief citing Cigar Coop. Perdomo already exists as a brand but the 30th Anniversary line wasn't catalogued at all, so — since tonight's cigar-growth flag is on — added it properly: three new lines (one per wrapper variant, mirroring how the existing 20th Anniversary is already split into Maduro/Sun Grown lines), each with its Epicure (6x54) vitola, sourced from Perdomo's own official product page for blend/dimensions. Added real Cigar Coop critic scores where found: Maduro Epicure 92pts (later named Cigar Coop's #1 Cigar of the Year for 2024), Connecticut Epicure 91pts, Sun Grown Epicure 90pts — each still short of the 3-source minimum, so all three show "insufficient data" for now. That's 3 of tonight's 6 growth cigars.
+
+Also added the Camacho Limited Edition 2026 (11/18 Perfecto, 6x56) as a real catalog vitola — this was reported as upcoming news on 2026-09-05 but not catalogued yet. Re-verified specs tonight against five independent retailers (Neptune Cigar, Cigars Direct, Cigar Thief, Mardo Cigars, Vitola Fine Cigars) plus Cigar Aficionado: Ecuadorian wrapper, Honduran binder, Honduran/Nicaraguan/Dominican filler, medium-full, $17/stick, 15-count boxes, capped at 4,000 boxes worldwide. Linked both existing (previously-duplicated) release-calendar entries to the new vitola. That's cigar #4 of tonight's 6.
+
+While researching Camacho's factory, found a real citable source (halfwheel's 2018 factory-opening coverage, corroborated by Cigar Aficionado and Cigar Coop) confirming Camacho is rolled at Diadema Cigars de Honduras — a factory already profiled in our database but not yet linked to the Camacho brand record. Added the citation and linked brand.factory_id.
+
+Build verified clean (`npm run build`, 21,041 pages) before this commit. More growth cigars and price refresh to follow in this same run.
