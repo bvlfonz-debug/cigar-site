@@ -1380,22 +1380,6 @@
     "decision": null
   },
   {
-    "item": "Plasencia Alma Fuerte Colorado Claro — needs its own line entry",
-    "path": "/cigars/plasencia/alma-fuerte/",
-    "reason": "insufficient_sources",
-    "why_flagged": "A user submission listed 8 Alma Fuerte vitolas as if they were one blend. 2 (Generación V, Néstor IV) already existed in our db under the original 2017 Natural-wrapper line. Robustus I was independently confirmed (3 sources, all pre-2023, wrapper described only as plain Nicaragua/Jalapa) as also belonging to that same Natural line and was added. But the other 5 — Robusto Corto, Robustus II, Eduardo I, Sixto I, Sixto II — are predominantly reviewed under a distinct \"Colorado Claro\" wrapper name (halfwheel, Cigar Coop, and Cigar Aficionado all title/URL these specifically as \"Colorado Claro\"), which per Plasencia's own site is a second, separate wrapper blend on a ten-year aging process, distinct from the original Criollo '98 Natural blend. At least one retailer (Atlantic Cigar Co.) also lists a \"Sixto I Hexagon Natural\" and Cigars Daily lists a \"Natural Robustus II\", suggesting some sizes may exist in BOTH wrapper variants under the same size name — real risk of misattributing a Colorado Claro review to the Natural line's wrapper/binder/filler if forced into the existing line record.",
-    "sources_found": [
-      "https://halfwheel.com/plasencia-alma-fuerte-colorado-claro-eduardo-i/415099/",
-      "https://halfwheel.com/plasencia-alma-fuerte-colorado-claro-robustus-ii/434883/",
-      "https://cigar-coop.com/2023/09/cigar-review-plasencia-alma-fuerte-colorado-claro-eduardo-i.html",
-      "https://cigar-coop.com/2025/03/plasencia-alma-fuerte-colorado-claro-robustus-ii-agile-cigar-review.html",
-      "https://www.cigaraficionado.com/rating/plasencia-alma-fuerte-colorado-claro-sixto-i",
-      "https://www.plasenciacigars.com/collection/alma-fuerte/"
-    ],
-    "proposed_action": "Research the Colorado Claro wrapper/binder/filler/release_year in enough depth to add it as its own line under the plasencia brand (mirroring how Perdomo Sun Grown and Maduro are modeled as two lines), then re-attempt Robusto Corto, Robustus II, Eduardo I, Sixto I, and Sixto II against whichever line (Natural or Colorado Claro) each specific reviewed cigar actually is, confirming wrapper variant per source rather than per size name.",
-    "decision": null
-  },
-  {
     "item": "Plasencia Alma Fuerte (Natural) — release_year and strength submitted-vs-db conflict",
     "path": "/cigars/plasencia/alma-fuerte/",
     "reason": "conflicting_facts",
@@ -1461,18 +1445,6 @@
     "why_flagged": "Beyond the Steel Horse conflation (see separate queue entry), the submission itself contained internal errors on the original line: \"Sparkplug (V342)\" at 3.5x42 does not match any source found — the real vitola is \"V450 Sparkplug\" at 4.5x50 (5+ independent retailers agree: Neptune, JR Cigars, Atlantic Cigar, Cigars Daily, Cigar Coop's original 2014 review). \"V642 Piston\" was submitted at 6x42 but is confirmed 6.5x42 by 3 independent sources (Neptune, JR Cigars, and a Cigar Aficionado rating page). The submission also listed the same real cigar as two different garbled entries in a few cases. Added the line using the corrected, independently-confirmed names and dimensions instead of the submission's values; release_year was also corrected from the submission's 2015 to 2013 (the line's actual IPCPR launch year, confirmed by multiple sources plus a Cigar Coop review of the Sparkplug dated June 2014).",
     "sources_found": [],
     "proposed_action": "No action needed — this entry documents the corrections made so a future submission doesn't reintroduce the same wrong names/dimensions.",
-    "decision": null
-  },
-  {
-    "item": "Hoyo de Monterrey Epicure No. 2 (Cuban Habanos S.A.) — site scope decision needed",
-    "path": "/brands/hoyo-de-monterrey/",
-    "reason": "insufficient_sources",
-    "why_flagged": "A user submission proposed adding the real Cuban Habanos S.A. Hoyo de Monterrey Epicure No. 2. This would be the first genuinely Cuban Habanos product in the catalog: every other Cuban-named brand currently in the db (Cohiba, Partagas, H. Upmann, Montecristo, Romeo y Julieta, and this same Hoyo de Monterrey) exists only as its non-Cuban counterpart, with two (Cohiba, Partagas) explicitly labeled \"(General Cigar, non-Cuban)\" in the brand name to disambiguate — a deliberate scope pattern, not an oversight. The site also has price-tracking, deals, and affiliate-style retailer-link features (price_point table, add-price-point's affiliate_url) that assume the catalog is US-purchasable; Cuban Habanos cigars cannot legally be sold by any of the site's existing US retailer sources (JR Cigars, Cigars International, Holt's, Famous Smoke, etc.), so those features would have nothing to attach to for a Cuban entry. Asked the site owner directly; decision was to skip/hold for now rather than add it.",
-    "sources_found": [
-      "https://www.habanos.com/en/the-habanos-brands-academia/hoyo-de-monterrey-brand/",
-      "https://vitola.me/2023/02/23/hoyo-de-monterrey-epicure-no-2/"
-    ],
-    "proposed_action": "Do not add until the site owner decides whether to open the catalog to real Cuban Habanos products generally (which would also mean revisiting Cohiba, Partagas, H. Upmann, Montecristo, and Romeo y Julieta to potentially add their Cuban counterparts too) or to keep the catalog scoped to non-Cuban, US-purchasable cigars only.",
     "decision": null
   },
   {

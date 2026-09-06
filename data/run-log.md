@@ -2232,3 +2232,6 @@ Build verified clean (`npm run build`, 21,082 pages) before this commit.
 - Foundation Olmec Maduro Toro — Smoke Inn, $165.95 for a box of 12 (sale price; no single price listed).
 
 Build verified clean (`npm run build`, 21,082 pages) before this commit.
+
+## 2026-09-06 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
