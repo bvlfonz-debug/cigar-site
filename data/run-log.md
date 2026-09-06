@@ -2214,3 +2214,13 @@ Also added the Camacho Limited Edition 2026 (11/18 Perfecto, 6x56) as a real cat
 While researching Camacho's factory, found a real citable source (halfwheel's 2018 factory-opening coverage, corroborated by Cigar Aficionado and Cigar Coop) confirming Camacho is rolled at Diadema Cigars de Honduras — a factory already profiled in our database but not yet linked to the Camacho brand record. Added the citation and linked brand.factory_id.
 
 Build verified clean (`npm run build`, 21,041 pages) before this commit. More growth cigars and price refresh to follow in this same run.
+
+**Cigar growth (batch complete, 6/6):** Rounded out tonight's growth batch with two more real vitolas added to brands already in the catalog — cheaper to verify, lower duplicate risk, per the standing preference:
+- Macanudo Gold Label "Gold Bullion" — a new box-pressed toro gordo (6x54, ~$13.49, 20-count boxes) added for 2026, confirmed via Cigar Aficionado, Cigar Coop, Cigar Journal, and Cigar Snob Magazine. The existing Gold Label line only had the 5.25x54 Duke of York, so this isn't a near-duplicate (0.75" longer).
+- Diamond Crown Classic "No. 9" — a 6x50 belicoso that J.C. Newman had only ever given away for promotional purposes, now moved to regular production for the brand's 130th anniversary, confirmed via Cigar Aficionado and Cigar Coop (MSRP $17, same Connecticut Shade/Dominican/Dominican blend already on file for the rest of the Classic line, rolled at Tabacalera A. Fuente). Distinct from the existing No. 6 (6x64) by 14 ring-gauge points, so not a near-duplicate.
+
+No critic score found for either yet (checked halfwheel, Cigar Aficionado, and general review searches) — both show "insufficient data," same as any freshly-catalogued vitola.
+
+**Skipped as likely duplicate/unverifiable tonight:** nothing else was seriously chased once 6 solid, well-sourced candidates were found — stopped there rather than reaching for weaker candidates.
+
+Build verified clean (`npm run build`, 21,082 pages) before this commit.
