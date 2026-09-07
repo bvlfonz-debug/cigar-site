@@ -174,18 +174,6 @@
     "decision": null
   },
   {
-    "item": "Xikar Volta",
-    "path": "/accessories/torch-lighters/xikar-volta/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
-    "sources_found": [
-      "Holt's Cigar Co. (2.67/5)",
-      "Wayfair (4.6/5)"
-    ],
-    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
-    "decision": null
-  },
-  {
     "item": "Vertigo (by Lotus) Cyclone",
     "path": "/accessories/torch-lighters/vertigo-cyclone/",
     "reason": "insufficient_sources",

@@ -2235,3 +2235,19 @@ Build verified clean (`npm run build`, 21,082 pages) before this commit.
 
 ## 2026-09-06 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-07 — nightly run (accessories focus, weekday)
+
+Tonight's rotation pick: day-of-month 7 mod 3 = 1 → **accessories** focus.
+Cigar-growth flag was off tonight, so no new cigar catalog additions this run.
+Not a Sunday, so no queue triage pass.
+
+- **Xikar Volta (torch lighter)**: found a third independent source
+  (CIGAR.com customer rating, 5/5) to go with the two already on file
+  (Holt's Cigar Co. 2.67/5, Wayfair 4.6/5). That clears the 3-source
+  minimum, so AccScore is now published: **81.8**. Removed its
+  "insufficient_sources" queue entry since it's resolved.
+- Checked a few other queue items sitting at 2 sources (NewAir CC-300H
+  humidor, Palio Cutter, Xikar PuroTemp hygrometer) but couldn't find a
+  distinct third source with an actual verifiable numeric rating this
+  pass — left those queued rather than guess at a score.
