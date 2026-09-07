@@ -2260,3 +2260,9 @@ Not a Sunday, so no queue triage pass.
   and IM Corona Old Boy were checked too, but pricing across sources was
   too inconsistent/model-ambiguous to record with confidence, so skipped.
 - `npm run build` passed after each change tonight.
+- No cigar-side ingest/news/lounge work tonight — this run's rotation slot
+  was accessories, and staying focused on one vertical (rather than a
+  thin pass at all three) is the deliberate tradeoff behind the rotation.
+  Cigars and lounges will get their turn on upcoming rotation nights.
+- Nothing hit the review queue tonight beyond the one item resolved above.
+- Run finished cleanly, well under the 40-turn budget for tonight.
