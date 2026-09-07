@@ -2251,3 +2251,12 @@ Not a Sunday, so no queue triage pass.
   humidor, Palio Cutter, Xikar PuroTemp hygrometer) but couldn't find a
   distinct third source with an actual verifiable numeric rating this
   pass — left those queued rather than guess at a score.
+
+- **Price refresh (accessories, small slice)**: checked current prices for
+  two accessories that had never had one recorded — Xikar Executive
+  Ashtray Can (Leather Wrapped): $14.95 at Binny's, and Visol Iris Metal
+  and Wood Cigar Ashtray: $30.00 at Amazon (page will show "Check price on
+  Amazon" per the Amazon-pricing rule, not the dollar figure). Zico ZD-60
+  and IM Corona Old Boy were checked too, but pricing across sources was
+  too inconsistent/model-ambiguous to record with confidence, so skipped.
+- `npm run build` passed after each change tonight.
