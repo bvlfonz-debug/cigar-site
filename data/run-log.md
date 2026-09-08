@@ -2266,3 +2266,21 @@ Not a Sunday, so no queue triage pass.
   Cigars and lounges will get their turn on upcoming rotation nights.
 - Nothing hit the review queue tonight beyond the one item resolved above.
 - Run finished cleanly, well under the 40-turn budget for tonight.
+
+## 2026-09-08 — nightly run (lounges focus, weekday)
+
+Tonight's rotation pick: day-of-month 8 mod 3 = 2 → **lounges** focus.
+Cigar-growth flag is on tonight (even day-of-month), so that independent
+batch also runs this session. Not a Sunday, so no queue triage pass.
+
+- **Lounge ratings**: Boston Cigar Club & Shop (Boston) had two ratings on
+  file (Google 4.8/5, TripAdvisor 5.0/5) — one short of the 3-source
+  minimum. Found a genuine third, independent platform rating: OpenTable,
+  4.0/5 (1 review). That clears the threshold, so LoungeScore is now
+  published: **92**.
+- Checked Casa de Montecristo by JR Cigar (Mooresville, also at 2 sources)
+  for a third source too. A Chamber of Commerce directory page claimed a
+  rating but wouldn't load for verification (403), and Yelp/TripAdvisor
+  pages for it wouldn't return a clean star figure either — left it queued
+  at 2 sources rather than guess.
+- `npm run build` passed (21,248 pages) before this commit.
