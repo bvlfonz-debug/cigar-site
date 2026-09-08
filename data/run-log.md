@@ -2284,3 +2284,6 @@ batch also runs this session. Not a Sunday, so no queue triage pass.
   pages for it wouldn't return a clean star figure either — left it queued
   at 2 sources rather than guess.
 - `npm run build` passed (21,248 pages) before this commit.
+
+## 2026-09-08 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
