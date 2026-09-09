@@ -20,18 +20,6 @@
     "decision": null
   },
   {
-    "item": "Arturo Fuente Añejo Reserva No. 48",
-    "path": "/cigars/arturo-fuente/anejo-reserva/no-48/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Cigar Aficionado",
-      "Stogies on the Rocks"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
     "item": "Le Bijou 1922 Toro",
     "path": "/cigars/my-father/le-bijou-1922/toro/",
     "reason": "insufficient_sources",

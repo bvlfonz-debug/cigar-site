@@ -2287,3 +2287,38 @@ batch also runs this session. Not a Sunday, so no queue triage pass.
 
 ## 2026-09-08 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-09 — nightly run (cigars focus, weekday)
+
+Tonight's rotation pick: day-of-month 9 mod 3 = 0 → **cigars** focus.
+Cigar-growth flag is off tonight, so no new brand/line/vitola additions this
+run. Not a Sunday, so no queue triage pass.
+
+- **News**: Drew Estate opened a six-month "DE30" rewards program (Sept 2026
+  through March 2027) for its 30th anniversary, with two new limited samplers
+  (Box-Pressed Feral Flying Pig and Supremas) shipping late September. Added
+  a news brief citing Cigar Dojo.
+- **Score recompute**: Arturo Fuente Añejo Reserva No. 48 had only 2
+  independent sources (Cigar Aficionado, Stogies on the Rocks) and was sitting
+  in the review queue as "insufficient data." Found a third — Holt's Cigar
+  Company's staff review (97/100, published 2018, still live on their site) —
+  and added it. StickScore is now published: **93.2**. Removed its queue
+  entry.
+  - Also checked Ashton VSG Robusto for a third source; the only extra hit
+    (halfwheel's "Robusto Especial" review) is a different vitola than our
+    plain Robusto, so left it queued rather than risk mixing up two products.
+- **Price refresh (cigars, small slice)**: recorded first-ever prices for
+  three vitolas that had never had one checked:
+  - RoMa Craft CroMagnon Knuckle Dragger (4x52) — Binny's, $10.25 single /
+    $221.95 box of 24 (size confirmed matching).
+  - Cohiba Black Toro (6x54) — CigarsCity, $598.95 box of 25 (no single
+    price listed; size confirmed matching).
+  - Romeo y Julieta 1875 Churchill (7x50) — Binny's, $14.25 single / $320.95
+    box of 25 (size confirmed matching).
+  - Skipped Davidoff Nicaragua Robusto (5x50) — couldn't find a clean price
+    for the plain (non-tubo, non-box-pressed) version specifically, and
+    didn't want to risk recording a price for the wrong sub-variant.
+- `npm run build` passed (21,303 pages) before this commit.
+- No accessories or lounges work tonight — this run's rotation slot was
+  cigars, and staying focused on one vertical is the deliberate tradeoff
+  behind the rotation. Well under the 40-turn budget for tonight.
