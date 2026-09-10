@@ -273,18 +273,6 @@
     "decision": null
   },
   {
-    "item": "Colibri V-Cut Cutter",
-    "path": "/accessories/cutters/colibri-v-cut-cutter/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
-    "sources_found": [
-      "HumidorDiscount.com (4.9/5)",
-      "Amazon (4.7/5)"
-    ],
-    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
-    "decision": null
-  },
-  {
     "item": "Xikar 009 Punch Cutter",
     "path": "/accessories/cutters/xikar-009-punch-cutter/",
     "reason": "insufficient_sources",

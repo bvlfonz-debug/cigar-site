@@ -2322,3 +2322,32 @@ run. Not a Sunday, so no queue triage pass.
 - No accessories or lounges work tonight — this run's rotation slot was
   cigars, and staying focused on one vertical is the deliberate tradeoff
   behind the rotation. Well under the 40-turn budget for tonight.
+
+## 2026-09-10 — nightly run (accessories focus, weekday)
+
+Tonight's rotation pick: day-of-month 10 mod 3 = 1 → **accessories** focus.
+Cigar-growth flag is on tonight (even day-of-month), so that independent
+batch runs too — see below. Not a Sunday, so no weekly queue triage.
+
+- **Housekeeping**: the Colibri V-Cut Cutter was still sitting in the review
+  queue as "insufficient sources" from an old check, but it actually already
+  has 4 independent reviews on file now (HumidorDiscount, Amazon, Holt's,
+  Cigars Daily) and a published AccScore of 97.3. Removed the stale queue
+  entry — nothing to do here, just cleanup.
+- **Score research (accessories)**: spent some time trying to find a
+  genuine third numeric rating for several 2-source items still stuck at
+  "insufficient data" (NewAir CC-300H humidor, Colibri Quasar table
+  lighter, Xikar PuroTemp Digital Hygrometer, Nathan Scott Lester's *The
+  Cigar Log Book*). No luck tonight — the extra sources I found either had
+  no numeric score (just prose reviews), were paywalled, or turned out to
+  be a different product variant than what's on file. Left all of these
+  queued rather than force a mismatched or scoreless "source."
+- **Price refresh (accessories)**: recorded a first-ever price for the Les
+  Fines Lames Le Petit cigar cutter — $142.95 at Holt's Cigar Company
+  (currently marked down from its $159 MSRP; out of stock in most finishes
+  there, but the price itself is real and current). Tried a few other
+  never-priced accessories (NewAir CC-300H humidor, Zico ZD-60, Prestige
+  Import Group's 3-cigar leather travel case) but couldn't pull a reliable
+  current price — mostly Amazon listings whose pages didn't return price
+  data, so skipped rather than guess.
+- `npm run build` passed (21,303 pages) before this commit.
