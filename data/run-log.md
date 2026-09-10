@@ -2351,3 +2351,6 @@ batch runs too — see below. Not a Sunday, so no weekly queue triage.
   current price — mostly Amazon listings whose pages didn't return price
   data, so skipped rather than guess.
 - `npm run build` passed (21,303 pages) before this commit.
+
+## 2026-09-10 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
