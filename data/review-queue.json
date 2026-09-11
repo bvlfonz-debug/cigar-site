@@ -2654,5 +2654,17 @@
     ],
     "proposed_action": "Research Michigan's smoke-free air law cigar-bar/retail-tobacconist exemption for this specific location (or call the venue directly) and record indoor_smoking_status/indoor_smoking_note once confirmed. Note: db-tools.mjs currently has no update-lounge command for existing facts fields — that would need to be added, or the fields set directly, when this is picked up.",
     "decision": null
+  },
+  {
+    "item": "Stogies On Grand (St. Paul, MN) — new lounge/city candidate",
+    "path": "/lounges/st-paul-mn/stogies-on-grand",
+    "reason": "new_lounge_city",
+    "why_flagged": "St. Paul/Minneapolis, MN has no lounges in the directory yet. Stogies On Grand (961 Grand Ave, St Paul, MN 55105, (651) 222-8700) is a long-running, nationally recognized cigar lounge — a Diamond Crown Lounge award recipient from J.C. Newman, operating since 1998, confirmed still open via its official site.",
+    "sources_found": [
+      "https://www.cbsnews.com/minnesota/news/best-cigar-bars-in-minnesota/ (2014 editorial list, address/description)",
+      "http://stogiesongrand.com/ (official site, confirms still operating, \"Since 1998\")"
+    ],
+    "proposed_action": "Verify current hours/phone/walk-in-vs-membership status directly against the official site or a phone call, then add-lounge with city_slug computed for St Paul, MN, and search for 3+ independent cited ratings (Google/Yelp/TripAdvisor) before publishing a LoungeScore.",
+    "decision": null
   }
 ]

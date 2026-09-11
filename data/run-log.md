@@ -2354,3 +2354,38 @@ batch runs too — see below. Not a Sunday, so no weekly queue triage.
 
 ## 2026-09-10 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
+
+## 2026-09-11 — nightly run (lounges focus)
+
+Friday (weekday, lean budget). Day-of-month rotation (11 mod 3 = 2) points
+at **lounges** tonight. Cigar-growth batch was flagged off for tonight, so
+no new brand/line/vitola additions. Not a Sunday, so no queue triage pass.
+
+**Lounge ratings — no new ratings published tonight.** I tried to push a
+few thin lounges (only 1-2 cited sources today) over the 3-source minimum:
+Casa de Montecristo by JR Cigar (Mooresville, NC — has Google + Foursquare,
+needed one more independent platform) and Iwan Ries & Co. (Chicago — has
+Yelp only, needed two more). Both Yelp and TripAdvisor blocked every
+automated page fetch tonight (HTTP 403), so I couldn't read an actual
+star-rating number off either site — only vague search-summary text I
+didn't trust enough to record as a real score. A couple of aggregator
+sites (Wanderlog) turned out to just be re-displaying the same Google
+rating we've already got on file, not an independent source. I also found
+a 2011 Cigar Aficionado profile of King Corona Cigars (Tampa) but it's a
+prose writeup with no numeric score, so nothing to add there either. Rather
+than guess at a number, I left all of these as-is — logging this as a real
+access limitation, not a "nothing to do" night.
+
+**New lounge/city — queued, not added.** Found a strong candidate for a
+new city we don't have any lounges in yet: Stogies On Grand, 961 Grand
+Ave, St. Paul, MN — a Diamond Crown Lounge (J.C. Newman award), open since
+1998, confirmed still operating via its own official site
+(stogiesongrand.com) plus a 2014 CBS Minnesota "best cigar bars" feature
+for the address/description. Queued it (`new_lounge_city`) rather than
+adding it directly, per the rule that new cities/lounges need your
+sign-off (or a Sunday triage pass) first — it's sitting in the review
+queue for you whenever you want to take a look.
+
+- `npm run build` passed (21,303 pages) before this commit.
+- Nothing was added, changed, or removed in the live database tonight —
+  only the review queue got a new entry.
