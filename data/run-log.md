@@ -2389,3 +2389,58 @@ queue for you whenever you want to take a look.
 - `npm run build` passed (21,303 pages) before this commit.
 - Nothing was added, changed, or removed in the live database tonight —
   only the review queue got a new entry.
+
+## 2026-09-12 — nightly run (cigars focus + cigar-growth batch)
+
+Weekday tonight, so a lean-budget run. Day-of-month rotation (12 mod 3 = 0)
+points at **cigars** tonight. Not a Sunday, so no queue triage pass.
+Cigar-growth was flagged on for tonight, so 3 new vitolas went in — all
+extending brands already in the catalog (cheaper to verify, lower
+duplicate risk than a brand-new brand).
+
+**New cigars added (3):**
+1. **Tatuaje Cabaiguan Imperiales (7 x 47)** — confirmed directly on
+   Tatuaje's own site as one of the line's five sizes; the existing
+   catalog only had the Belicoso Fino (5.5 x 52), so this is clearly a
+   different, real size, not a near-duplicate. No specific tasting notes
+   exist for it beyond Tatuaje's own "flavorful yet medium bodied,
+   Cuban-style" description, so I wrote a plainer summary from that and
+   the confirmed blend rather than inventing flavor descriptors.
+2. **Southern Draw Rose of Sharon Robusto (5.5 x 54)** — confirmed via
+   Cigars Daily's product page; existing catalog only had the Toro
+   (6.0 x 52), a full half-inch longer, so no duplicate risk. Tasting
+   notes (cedar, buttered almonds, vanilla, white pepper, toasty burn)
+   come from that page's customer-review text and the manufacturer's own
+   description.
+3. **Foundation El Güegüense Churchill (7 x 48)** — confirmed via Holt's
+   Cigar Company's product page; existing catalog only had the Corona
+   Gorda (5.625 x 46), over an inch shorter. Tasting notes (cedar,
+   paprika, earth, leather, baking spices) come straight from that page.
+
+All three are freshly added with zero critic reviews yet, so they
+correctly show "insufficient data" for StickScore — same as any other new
+vitola.
+
+**Critic citation — tried, couldn't verify.** A search turned up what
+looks like a Cigar Coop review of the El Güegüense Churchill (score 91),
+but Cigar Coop's site returned a 403 Forbidden when I tried to open the
+actual page and read the number myself, so I couldn't confirm it
+first-hand. Per the "never substitute guessed data" rule, I skipped adding
+it rather than trust an AI-summarized search snippet I couldn't verify
+directly. No other critic reviews turned up for the other two new sizes
+in a search or two each (best-effort only, per the rules for this batch).
+
+**Skipped as likely duplicates / not pursued:** E.P. Carrillo "Pledge of
+Allegiance" looked promising at first (a Toro 6x54 is already on file),
+but research showed the line has separate annual limited editions (2024,
+2025) each with their own Toro plus extra sizes (a 2025 "Rockets"
+perfecto, a 2024 "Salomon") and it wasn't clear which edition's Toro is
+already in our database — rather than risk mixing up two different
+releases under one line entry, I skipped this brand entirely tonight.
+
+**Regular cigars-rotation work (news/prices/scores) — not reached.**
+Turn budget went to verifying and adding the growth batch above; no news
+ingest, price refreshes, or score recomputes happened tonight.
+NEEDS-ATTENTION: carry these over to the next cigars-focus night.
+
+- `npm run build` passed (21,343 pages, up from 21,303) before this commit.
