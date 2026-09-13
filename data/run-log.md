@@ -2480,3 +2480,40 @@ everywhere else), so it correctly shows "insufficient data" for now.
 Resolved the queue entry.
 
 `npm run build` passed (21,345 pages) before this commit.
+
+**Accessories rotation — price refresh.** Checked the 18 accessories that
+had never had a price point recorded. Found two clean, confirmable prices
+from single-SKU, non-ambiguous listings:
+- Cigar Oasis Ultra 4.0 Electronic Humidifier — $159.00 on the
+  manufacturer's own site (cigaroasis.com), down from $169.00.
+- Kevin Maguire's "Cigar Journal: Aficionado Tasting Notebook" — $20.81 via
+  AbeBooks (a specific ISBN-matched listing).
+
+**Skipped, not guessed:** S.T. Dupont Ligne 2 and IM Corona Old Boy both
+cover a whole family of finishes/colors at very different price points
+($878-$20,000+ for the Dupont; $73-$180 for the Old Boy) and our catalog
+entries don't specify which finish, so recording a single number would
+misrepresent the product — left unpriced rather than guess. Zico ZD-60,
+Nathan Scott Lester's "The Cigar Log Book," Quality Importers Traveler 20,
+and several others turned up real retailers but Amazon's product pages
+returned server errors to direct fetch tonight (a repeatable access
+limitation, not a missing product) and other retailer pages didn't
+surface a clean current price in the time available — left for a future
+accessories-focus night. NEEDS-ATTENTION: 14 accessories still have zero
+price history; worth another pass.
+
+**Ingest (accessory reviews).** Tried to push several accessories that
+already had exactly 2 independent sources over the 3-source AccScore
+minimum (NewAir CC-300H, Colibri Quasar Table Lighter, Xikar EX/PuroTemp,
+Cigars International HYG7, Case Elegance Flint case). Found real
+additional coverage for most of them (halfwheel review of the Colibri
+Quasar, several independent humidor-review blogs for the NewAir), but
+none of them publish a numeric score/rating the way cigar critic reviews
+do — they're pros/cons or prose verdicts only. Since a fabricated number
+would violate the "never invent a score" rule, none were added. This
+looks like a structural gap worth flagging: most accessory review sites
+outside of retailer star ratings don't publish comparable numeric scores,
+which may be why so many catalog accessories are stuck at 1-2 sources.
+No accessory scores changed tonight as a result.
+
+- `npm run build` passed (21,345 pages) before this commit.
