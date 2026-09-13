@@ -2444,3 +2444,39 @@ ingest, price refreshes, or score recomputes happened tonight.
 NEEDS-ATTENTION: carry these over to the next cigars-focus night.
 
 - `npm run build` passed (21,343 pages, up from 21,303) before this commit.
+
+## 2026-09-13 — nightly run (accessories focus + Sunday queue triage)
+
+Sunday tonight, so a heavier catalog pass is allowed, plus the weekly queue
+triage. Day-of-month rotation (13 mod 3 = 1) points at **accessories**
+tonight. Cigar-growth was flagged off for tonight, so no new cigar
+brand/line/vitola batch this run.
+
+**Weekly queue triage (done first).** Reviewed all 249 entries in
+`data/review-queue.json`. All but one were informational gap-notes
+(insufficient_sources, conflicting_facts, unverified_award/vitola, missing
+founded_year, etc.) that don't need a decision — left alone, as intended.
+
+The one genuinely-new-entity proposal was **Stogies On Grand (St. Paul,
+MN)**, queued two nights ago. Re-verified independently tonight:
+- `stogiesongrand.com` is live (confirmed via direct fetch), matches the
+  address/phone already on file (961 Grand Ave, St. Paul, MN 55105,
+  (651) 222-8700), and its own Contact page gave clean current hours
+  (Mon-Thu 10am-8pm, Fri-Sat 10am-10pm, Sun 12pm-6pm) that weren't in the
+  original queue note.
+- Its About Us page confirms it's a walk-in retail lounge (explicitly
+  invites people to "stop by... for a smoke"), a Davidoff dealer, a TAA
+  member, and an official Diamond Crown Lounge (J.C. Newman) — matching
+  the 2014 CBS Minnesota feature already cited.
+- The site's own founding date is slightly inconsistent (About Us says
+  1998, the History page says the shop opened in September 1997) so I
+  described it in the overview as "since the late 1990s" rather than
+  asserting one disputed year.
+
+**Decision: approved and added.** Added as lounge id 73
+(`/lounges/st-paul-mn/stogies-on-grand`) with sourced facts only — no
+LoungeScore yet (needs 3+ independent cited ratings, same rule as
+everywhere else), so it correctly shows "insufficient data" for now.
+Resolved the queue entry.
+
+`npm run build` passed (21,345 pages) before this commit.
