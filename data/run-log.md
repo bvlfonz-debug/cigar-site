@@ -2517,3 +2517,36 @@ which may be why so many catalog accessories are stuck at 1-2 sources.
 No accessory scores changed tonight as a result.
 
 - `npm run build` passed (21,345 pages) before this commit.
+
+## 2026-09-14 — nightly run (lounges focus + cigar-growth batch, weekday)
+
+**Rotation focus: lounges** (day-of-month 14 mod 3 = 2). Reviewed the queue
+first — no genuinely-new lounge/city proposals are currently pending (the
+only lounge-related queue item is an informational "missing hours" gap-note
+on Shelly's Back Room, which already has a published LoungeScore and needs
+no decision).
+
+Looked for lounges close to the 3-source LoungeScore minimum. Casa de
+Montecristo by JR Cigar (Mooresville, NC) was the best candidate — already
+had 2 independent ratings (a Google figure via Wanderlog, a Foursquare
+figure) and just needed one more to publish a score. Tried to find a
+cleanly-attributable third rating (Yelp, TripAdvisor, or an editorial
+ranking):
+- Yelp and TripAdvisor both returned HTTP 403 to direct fetch tonight
+  (same access limitation noted on 2026-09-11's lounges run).
+- Search-result summaries mentioned Yelp review counts (61 reviews) but
+  never surfaced a clean, independently-sourced star figure I could stand
+  behind — one aggregator's "4.6/58 reviews" figure didn't clearly cite
+  which platform it was pulled from, and re-fetching Wanderlog directly
+  only reconfirmed the same Google figure already on file, not a distinct
+  source.
+- No dated editorial "best cigar lounges" ranking mentioning this venue
+  turned up.
+Rather than record a rating I couldn't cleanly attribute, left this lounge
+at 2 sources / insufficient data. NEEDS-ATTENTION: Yelp/TripAdvisor direct
+access has now been blocked on multiple lounge-focus nights in a row —
+may be worth the owner checking whether there's a better way to reach
+those two platforms, since they'd unlock several near-threshold lounges.
+
+No changes made to the lounge tables tonight as a result — moving on to
+the cigar-growth batch below to make better use of the turn budget.
