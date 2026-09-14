@@ -2550,3 +2550,60 @@ those two platforms, since they'd unlock several near-threshold lounges.
 
 No changes made to the lounge tables tonight as a result — moving on to
 the cigar-growth batch below to make better use of the turn budget.
+
+**Cigar-growth batch (independent of rotation, flag true on this even
+calendar day).** Target was 3 new cigars, weekday batch size. All three
+verified via live search before adding, each extending a brand already in
+the catalog (cheaper to verify, lower duplicate risk, per the standing
+growth rules):
+
+1. **Southern Draw Firethorn — Toro (6" x 52)**, new line + vitola under
+   the existing Southern Draw brand. Habano Rosado wrapper, Mexican San
+   Andres binder, Nicaraguan filler, medium-full. Confirmed real and
+   currently sold via cigars.com, halfwheel-adjacent Blind Man's Puff,
+   Stogie Review, Cigar Coop, and Developing Palates coverage; tasting
+   notes (cream, caramel, toasted nuts, dark fruit, baking spice) drawn
+   from the cigars.com staff review. No critic score added — the numeric
+   scores I found (Holt's staff, CigarWeekly, CigarScore.com) aren't on
+   our established source list, so this correctly shows "insufficient
+   data" rather than a fabricated aggregate.
+2. **Crux Guild — Robusto (5" x 50)**, new line + vitola under the
+   existing Crux Cigars brand. Ecuadorian Habano wrapper, Nicaraguan
+   binder/filler, medium, rolled at Plasencia S.A. in Esteli. Confirmed
+   via halfwheel and Cigar Coop coverage of the Guild line (both
+   established sources, though their specific reviews covered the
+   Robusto Extra and Toro Extra "Marblehead" sizes, not this exact
+   Robusto, so I didn't attach a score to the wrong vitola). Tasting
+   notes (cedar, orange citrus, brown sugar, nutmeg, leather, black
+   coffee) from a dedicated Robusto 5x50 review.
+3. **La Palina Bronze Label — Robusto (5.5" x 50)**, new line + vitola
+   under the existing La Palina brand. Honduran Habano-seed wrapper,
+   Honduran binder, Honduran/Nicaraguan filler, medium, a Rocky
+   Patel/La Palina collaboration rolled at Plasencia's El Paraiso
+   factory. Confirmed via Cigar Aficionado, Cigar Coop, and Developing
+   Palates coverage. Developing Palates reviewed this exact vitola but
+   as three separate reviewer scores on a scale I couldn't confidently
+   normalize to our 100-point system without risking a misread — left
+   uncited rather than guess at the conversion; shows "insufficient
+   data" for now.
+
+**Skipped as likely duplicates:** Illusione "88" — turned out, on
+verification, to be the *same* cigar already catalogued as "Illusione
+Original Documents Corojo Robusto" (5x52, same Corojo wrapper, same
+factory story) under a different display name, not a new product.
+Crowned Heads Four Kicks Piramide (6.125x52) and Diamond Crown Maximus
+"Petite No. 6" (5x46) were both close enough in dimensions to existing
+vitolas already on file in those exact lines (within the ~0.25"/few-RG
+near-duplicate zone this project has been burned by before) that I
+skipped both rather than risk it, even though queue notes from a prior
+night flagged them as candidates. Tatuaje Anarchy was skipped as
+unverifiable-enough-to-catalog-cleanly — it's real, but its multiple
+limited releases (2010, 2015, Kaos, NFT) have inconsistent, irregularly-
+tapered figurado dimensions across sources, and I didn't want to lock in
+a single length/ring-gauge pair that might not match any specific real
+release.
+
+No cigar_release entries were waiting on any of these three brand/line
+names, so nothing needed linking via `update-release`.
+
+- `npm run build` passed (21,361 pages) before this commit.
