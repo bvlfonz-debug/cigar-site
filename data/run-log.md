@@ -2607,3 +2607,6 @@ No cigar_release entries were waiting on any of these three brand/line
 names, so nothing needed linking via `update-release`.
 
 - `npm run build` passed (21,361 pages) before this commit.
+
+## 2026-09-14 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
