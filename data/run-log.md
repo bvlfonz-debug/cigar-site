@@ -2610,3 +2610,43 @@ names, so nothing needed linking via `update-release`.
 
 ## 2026-09-14 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
+
+## 2026-09-15 — nightly run (cigars focus, weekday)
+
+Tonight's rotation pick: day-of-month 15 mod 3 = 0 → **cigars** focus.
+Cigar-growth flag is off tonight, so no new brand/line/vitola additions this
+run. Not a Sunday, so no queue triage pass.
+
+- **News**: J.C. Newman began shipping the 2026 edition of Brick House
+  Bricktoberfest on September 9 — an annual limited-release Churchill Extra
+  (7 3/4 x 48) that returns unchanged from its 2025 debut. Added a news
+  brief citing halfwheel, and logged it on the release calendar
+  (`brick-house-brick-house-bricktoberfest-2026`), cross-linked to the news
+  item. This is a new limited line under the existing Brick House brand with
+  no vitola in our catalog yet, so it's calendar-only for now — no line/vitola
+  added tonight since cigar-growth is off.
+- **Score recompute**: tried to push two long-queued "insufficient data"
+  items over the 3-source line — Liga Privada T52 Toro and Padrón 1926 Serie
+  No. 35 Maduro. Found plenty of coverage of both cigars in general, but
+  nothing that gave a clean, attributable numeric score for this *exact*
+  vitola from an established source I could confidently normalize — so both
+  stay queued rather than risk a misattributed score. No recompute performed.
+- **Price refresh (cigars, small slice)**: recorded first-ever prices for two
+  vitolas that had never had one checked:
+  - Arturo Fuente Añejo Reserva No. 46 (5 5/8 x 46) — Cigars.com, $8.47
+    single / $308.99 box of 20 (size and Connecticut Broadleaf Maduro wrapper
+    confirmed matching; note the listing currently shows sold out, but the
+    price itself is real and current).
+  - AJ Fernandez San Lotano Requiem Gran Toro, Habano wrapper (6 x 60) — El
+    Cigar Shop, $13.50 single / $225.00 box of 20 (wrapper and size confirmed
+    matching — this line also ships in Maduro/Connecticut, so I made sure not
+    to cross-attribute a price from the wrong wrapper).
+  - Checked four more never-priced vitolas but couldn't confirm a clean price
+    for the exact cataloged variant, so skipped rather than guess: Room101
+    Farce "It Is a Robusto" (5x52), Davidoff Nicaragua Robusto (5x50 — same
+    non-tubo/non-box-press ambiguity flagged on 2026-09-09), Aging Room
+    Quattro Nicaragua Vibrato (6x54), and Davidoff Yamasá Robusto (5x50 —
+    only a bundled "as low as" price found, not broken out by package size).
+- `npm run build` passed (21,361 pages) before this commit.
+- No accessories or lounges work tonight — cigars was tonight's rotation
+  slot. Well under the 40-turn budget for tonight.
