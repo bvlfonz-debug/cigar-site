@@ -2650,3 +2650,32 @@ run. Not a Sunday, so no queue triage pass.
 - `npm run build` passed (21,361 pages) before this commit.
 - No accessories or lounges work tonight — cigars was tonight's rotation
   slot. Well under the 40-turn budget for tonight.
+
+## 2026-09-16 — nightly run (accessories focus, weekday)
+
+Tonight's rotation pick: day-of-month 16 mod 3 = 1 → **accessories** focus.
+Cigar-growth is on its own every-other-day schedule (independent of the
+rotation) and today is an even day-of-month, so that ran too — see below.
+Not a Sunday, so no queue triage pass.
+
+- **Accessory price refresh** (small slice, weekday-lean): recorded
+  first-ever prices for two accessories that had never had one checked:
+  - 33 Books Co. 33 Cigars Pocket Journal — $7.00, straight from the
+    manufacturer's own site (33books.com).
+  - HUMI-CARE Rectangle Digital Hygrometer — $24.99, Thompson Cigar.
+  - Checked three more but skipped rather than guess: NewAir CC-300H
+    Humidor (search results kept conflating it with the older, cheaper
+    CC-300 model — didn't want to attribute the wrong model's price), Zico
+    ZD-60 and IM Corona Old Boy and S.T. Dupont Ligne 2 lighters (these
+    last three all come in multiple finishes at very different price
+    points, and our catalog entries don't record which finish — recording
+    a price would risk attaching the wrong variant's number, same reason
+    prior nights have skipped similarly ambiguous cigar wrapper variants).
+- **Accessory review sourcing**: tried to find a third independent review
+  for two items currently stuck on "insufficient data" (2 sources each) —
+  the Colibri Quasar Table Lighter and the Xikar PuroTemp Digital
+  Hygrometer. Found genuine independent write-ups for both (halfwheel
+  covers each), but halfwheel's site is paywalled and I couldn't get to
+  the actual numeric score behind it, so I didn't record anything rather
+  than guess at a number. Both stay queued as-is.
+- `npm run build` passed (21,361 pages) before this commit.
