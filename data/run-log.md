@@ -2679,3 +2679,6 @@ Not a Sunday, so no queue triage pass.
   the actual numeric score behind it, so I didn't record anything rather
   than guess at a number. Both stay queued as-is.
 - `npm run build` passed (21,361 pages) before this commit.
+
+## 2026-09-16 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
