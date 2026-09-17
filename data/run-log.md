@@ -2682,3 +2682,33 @@ Not a Sunday, so no queue triage pass.
 
 ## 2026-09-16 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-17 — nightly run (lounges focus, weekday)
+
+Tonight's rotation pick: day-of-month 17 mod 3 = 2 → **lounges** focus.
+Cigar-growth flag is off tonight, so no new brand/line/vitola additions.
+Not a Sunday, so no queue triage pass.
+
+- **Existing-lounge rating research**: tried to push three "insufficient
+  data" lounges (Iwan Ries & Co. in Chicago, The Debonair Cigar Lounge in
+  Los Angeles, King Corona Cigars Cafe and Bar in Tampa) toward the
+  3-source minimum with real Google/Yelp/TripAdvisor numbers. No ratings
+  were recorded tonight — Yelp and TripAdvisor both blocked direct,
+  verifiable access (403), and the numbers surfaced through general search
+  were inconsistent or ambiguous enough that I didn't trust them: Iwan
+  Ries showed two different total-review counts across sources, Debonair
+  has two separate Yelp listings for two different addresses (one marked
+  closed), and King Corona's numbers were a Facebook "94% recommend"
+  figure rather than a clean star score I could normalize. Rather than
+  guess at a number, all three stay queued as-is.
+- **New lounge candidate**: found a real 4th location of BURN by Rocky
+  Patel (already in our catalog for Naples, Atlanta, and Indianapolis) in
+  Pittsburgh, PA — confirmed address, phone, and hours directly from
+  their own site. Pittsburgh isn't yet one of our cities, so this went
+  through `queue-add` as a new-lounge-city proposal rather than being
+  added directly, with a note that the page didn't state an indoor
+  smoking policy, so that fact still needs a second source before
+  publishing.
+- `npm run build` passed (21,402 pages) before this commit.
+- No cigars or accessories work tonight — lounges was tonight's rotation
+  slot. Well under the 40-turn budget for tonight.
