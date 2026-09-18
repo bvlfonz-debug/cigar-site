@@ -2748,3 +2748,6 @@ an even day, so that ran too. Not a Sunday, so no queue triage pass.
 - `npm run build` passed (21,483 pages) after these additions.
 - Rest of tonight's cigars-rotation work (news ingest, price refresh, score
   recompute) still to come — continuing below in this same run.
+
+## 2026-09-18 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
