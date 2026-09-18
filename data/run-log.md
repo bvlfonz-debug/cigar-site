@@ -2712,3 +2712,39 @@ Not a Sunday, so no queue triage pass.
 - `npm run build` passed (21,402 pages) before this commit.
 - No cigars or accessories work tonight — lounges was tonight's rotation
   slot. Well under the 40-turn budget for tonight.
+
+## 2026-09-18 — nightly run (cigars focus, weekday)
+
+Tonight's rotation pick: day-of-month 18 mod 3 = 0 → **cigars** focus.
+Cigar-growth is on its own every-other-day schedule and today (the 18th) is
+an even day, so that ran too. Not a Sunday, so no queue triage pass.
+
+- **New cigar growth (3 added, extending brands already in the catalog)**:
+  checked the database directly for near-duplicates first, then verified
+  each candidate with a live search before adding — no brand-new brands,
+  all three are sizes an existing line genuinely offers that we didn't have
+  on file yet.
+  - Padrón 1926 Serie Natural — added the No. 6 (4.75x50), confirmed via
+    Neptune Cigar, Fox Cigar, and Casa de Montecristo. This is the size that
+    took the #2 spot on Cigar Aficionado's 2019 Top 25 (97 points) — added
+    that as its critic citation.
+  - Davidoff Nicaragua — added the Short Corona (3.75x46), confirmed via
+    Corona Cigar Co. and Neptune Cigar. Cigar Aficionado's original April
+    2014 review (89 points) added as its critic citation.
+  - Montecristo Classic — added the Churchill (7x54), confirmed via Casa de
+    Montecristo/Altadis USA. Cigar Aficionado's April 2017 review (87
+    points) added as its critic citation.
+  - All three show "insufficient data" for now (each has only the one
+    critic citation above — StickScore needs three independent sources)
+    — same as any other freshly-added vitola.
+  - Checked and skipped as too ambiguous to safely add: Rocky Patel Sun
+    Grown (couldn't pin down a clean, uncatalogued size — search results
+    kept surfacing sizes we already have), and an "Aganorsa Leaf
+    Connecticut" candidate (search results mixed up three different
+    sub-lines — Aniversario, Validación, and the original 2018 Connecticut
+    — with conflicting dimensions for the same size names, so I didn't
+    trust attaching a new size to our existing "connecticut" line without
+    real risk of it being the wrong sub-line's data).
+- `npm run build` passed (21,483 pages) after these additions.
+- Rest of tonight's cigars-rotation work (news ingest, price refresh, score
+  recompute) still to come — continuing below in this same run.
