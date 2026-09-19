@@ -2751,3 +2751,45 @@ an even day, so that ran too. Not a Sunday, so no queue triage pass.
 
 ## 2026-09-18 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-19 — nightly run (accessories focus, weekday)
+
+Tonight's rotation pick: day-of-month 19 mod 3 = 1 → **accessories** focus.
+Cigar-growth batch was flagged off for tonight, so no new cigar
+brand/line/vitola work. Not a Sunday, so no queue triage pass.
+
+**Reviews (pushing accessories toward the 3-source minimum):** checked every
+accessory sitting at exactly 2 sources and searched for a legitimate third.
+- NewAir CC-300H Climate-Controlled Cabinet Humidor: added a Cigars Daily
+  review (90/100, praised the precise 60-74°F dial-in and airtight door
+  seal) as its third source, joining the existing Cigar Dojo critic score
+  and Amazon community average. It now shows a real Codex Score (90.2)
+  instead of "insufficient data."
+- Checked and skipped (couldn't find a trustworthy third source): Colibri
+  Quasar Table Lighter (a halfwheel review exists but is paywalled — I
+  won't guess at a score I can't see; other retailer pages had no visible
+  rating data), Xikar EX (candidate blog reviews turned out to cover a
+  different Xikar model, and KnifeCenter's review page blocked access),
+  and Xikar PuroTemp Rectangular Hygrometer (the only detailed blog review
+  I found was for the wireless 837XI model, a different product from our
+  rectangular 833XI listing — didn't want to misattribute it). These stay
+  queued as insufficient data rather than risk an invented or
+  wrong-product score.
+
+**Price refresh (never-priced accessories):** picked four accessories with
+zero price history and looked for a real current price.
+- Heartfelt Industries 65% RH Humidity Beads: $62.58 from Heartfelt's own
+  site (official retailer for their own product).
+- IM Corona Old Boy: $145 (Black Matte & Chrome finish, the standard/base
+  model) from eLighters.com.
+- Skipped: Zico ZD-60 (found retailers carry it, but couldn't confirm a
+  specific current price from a page I could actually read) and S.T.
+  Dupont Ligne 2 (our catalog entry doesn't record which finish, and real
+  prices for this line range from about $1,000 to $20,000+ depending on
+  finish — too ambiguous to attach a number without risking a wildly wrong
+  price on a luxury item).
+
+`npm run build` passed (21,483 pages) after these changes.
+
+No lounges or cigar-brand/factory work tonight — accessories was tonight's
+rotation slot, and cigar-growth was off. Well under the 40-turn budget.
