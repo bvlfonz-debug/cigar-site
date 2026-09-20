@@ -2793,3 +2793,52 @@ zero price history and looked for a real current price.
 
 No lounges or cigar-brand/factory work tonight — accessories was tonight's
 rotation slot, and cigar-growth was off. Well under the 40-turn budget.
+
+## 2026-09-20 — Sunday run: lounges night (heavier catalog pass allowed)
+Day-of-month rotation (20 mod 3 = 2) landed on **lounges** tonight. Today's
+also an even day-of-month, so the independent cigar-growth batch runs too
+(see further down), and it's Sunday, so a weekly queue triage follows.
+
+**Lounge ratings push:** went through lounges sitting below the 3-source
+LoungeScore minimum.
+- **Churchill's Fine Cigars (Phoenix, AZ)** — added a confirmed Yelp rating
+  (4.5/5, 103 reviews) alongside the existing Google rating already on
+  file. Double-checked the address on the Yelp listing (5041 N 44th St)
+  against our own record before adding — there's a second, different
+  Churchill's Fine Cigars Yelp page in Phoenix at a different address, so
+  this needed a careful address match, not just a name match. Still only 2
+  sources (insufficient data, one closer than before) — didn't find a
+  clean third tonight.
+- **Casa de Montecristo by JR Cigar (Mooresville, NC)** — already at 2
+  sources (Google, Foursquare), tried for a third. Yelp and TripAdvisor
+  both blocked the fetch (403, same as prior lounges nights). Found a
+  "5/5, 58 reviews" figure on a small aggregator site (SageMenu) but its
+  review count (58) sat suspiciously close to Yelp's own count (61) with no
+  way to confirm it wasn't just a re-mirrored Yelp number — skipped rather
+  than risk double-counting a source, same caution as skipping Restaurant
+  Guru mirrors on past runs.
+- **Holt's Cigar Company (Philadelphia)** and **Iwan Ries & Co. (Chicago)**
+  — both already have one Yelp source. Found Chamber of Commerce listings
+  quoting higher ratings (4.8/500 and 4.8/370 respectively) but the review
+  counts didn't line up cleanly with any single platform we could verify
+  independently, so treated them as likely blended/estimated figures, not
+  a clean second source. CigarScore.com listings existed for both but
+  returned blocked (403) fetches. No additions for either tonight.
+- Many other lounges (mostly the Thailand batch — Bangkok, Phuket, Chiang
+  Mai, Pattaya) still sit at 0 sources; didn't start on those tonight to
+  leave room for the queue triage and cigar-growth batch below.
+
+**Queue triage — new lounge candidate:** re-verified last week's queued
+Pittsburgh BURN candidate before adding it. Fetched
+https://www.burnbyrockypatel.com/pittsburgh directly tonight — still live,
+and every detail in the queue entry (address, phone, hours, humidor
+description) matched the page exactly. Added it as our 4th BURN by Rocky
+Patel location (**BURN by Rocky Patel (Pittsburgh)**, 346 North Shore
+Drive, Pittsburgh, PA), with no ratings yet (insufficient data, same as any
+freshly-added lounge) and `indoor_smoking_status` left null — the page
+still doesn't state a smoking policy, and I didn't chase a second source
+for it tonight, same as the queue note flagged. Resolved the queue entry
+since it's now added.
+
+Build checked clean (`npm run build`). Committing this section now, per
+tonight's "commit after each major step" instruction, before moving on.

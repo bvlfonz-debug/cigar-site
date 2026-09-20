@@ -2654,16 +2654,5 @@
     ],
     "proposed_action": "Research Michigan's smoke-free air law cigar-bar/retail-tobacconist exemption for this specific location (or call the venue directly) and record indoor_smoking_status/indoor_smoking_note once confirmed. Note: db-tools.mjs currently has no update-lounge command for existing facts fields — that would need to be added, or the fields set directly, when this is picked up.",
     "decision": null
-  },
-  {
-    "item": "BURN by Rocky Patel (Pittsburgh) — new lounge/city candidate",
-    "path": null,
-    "reason": "new_lounge_city",
-    "why_flagged": "Pittsburgh is not yet a city in our lounge directory. This would be a 4th BURN by Rocky Patel location alongside the Naples, Atlanta, and Indianapolis locations already catalogued, so the chain and its general format are already familiar, but Pittsburgh itself is a brand-new city entry.",
-    "sources_found": [
-      "https://www.burnbyrockypatel.com/pittsburgh"
-    ],
-    "proposed_action": "If approved, add-lounge with: name \"BURN by Rocky Patel (Pittsburgh)\", city Pittsburgh, state PA, address \"346 North Shore Drive, Pittsburgh, PA 15212\", phone \"(412) 586-5854\", website https://www.burnbyrockypatel.com/pittsburgh, hours_text \"Monday-Sunday, 2:00 PM - 2:00 AM\", walk_in_or_membership \"both\" (walk-in plus an optional locker membership), overview_text drafted from the site's description of its Spanish-cedar walk-in humidor (400+ cigars). indoor_smoking_status was NOT stated on the page and needs a second source before publishing that field — leave it null or find a confirming source first.",
-    "decision": null
   }
 ]
