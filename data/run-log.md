@@ -2903,3 +2903,12 @@ unrelated AVO release ("EXPRESIVO", a different line) that didn't match
 any of tonight's additions, so nothing to link.
 
 `npm run build` passed (21,561 pages) after these additions.
+
+**Stopping here for tonight.** All of tonight's planned work is done and
+pushed: the lounges rotation (one new source, one new lounge from the
+queue), the Sunday queue triage (one item resolved, rest confirmed
+informational), and the cigar-growth batch (6 new vitolas, all sourced and
+duplicate-checked). No cigars/accessories price refresh or general news
+ingest tonight — lounges was this rotation's focus slot, matching how past
+lounges-focus nights have run. No errors, nothing left half-finished, no
+NEEDS-ATTENTION items.
