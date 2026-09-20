@@ -2842,3 +2842,19 @@ since it's now added.
 
 Build checked clean (`npm run build`). Committing this section now, per
 tonight's "commit after each major step" instruction, before moving on.
+
+**Weekly queue triage (Sundays only):** scanned all 249 entries in
+`data/review-queue.json` for genuinely-new-entity proposals (new brand/
+line/lounge/factory/accessory-category candidates needing a decision).
+Found exactly **one** — the Pittsburgh BURN lounge above, already handled
+(re-verified, added, and resolved). Every other entry falls into the
+informational/gap-note categories this triage explicitly skips:
+`insufficient_sources` (163), `conflicting_facts` (18), `unverified_vitola`
+(19), `unverified_award` (9), `omitted_from_submission` (7), missing-
+sourced-fact notes (7), `conflicting_sources` (5), `vitola_dimension_conflict`
+(5), `unconfirmed_citation_details` (5), `vitola_award_mismatch` (2),
+`fabricated_award`/`unclear_current_availability` (2 each), and a handful of
+single `fabricated_product`/`vitola_name_mismatch`/`fabricated_or_
+misattributed_award`/`unconfirmed_or_fabricated_award` entries documenting
+things already correctly rejected. No other `queue-resolve` calls made
+tonight. Queue now sits at 248 entries.
