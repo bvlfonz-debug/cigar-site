@@ -2858,3 +2858,48 @@ single `fabricated_product`/`vitola_name_mismatch`/`fabricated_or_
 misattributed_award`/`unconfirmed_or_fabricated_award` entries documenting
 things already correctly rejected. No other `queue-resolve` calls made
 tonight. Queue now sits at 248 entries.
+
+**Cigar growth (independent of tonight's rotation — today's an even
+day-of-month):** targeted 6 new cigars, all new sizes added to brands
+already in the catalog (cheaper to verify, lower duplicate risk than a
+brand-new brand). Checked each against existing sizes on file for
+near-duplicate dimensions (within ~0.25" length or a few ring-gauge points)
+before adding — all 6 below cleared that check by a comfortable margin.
+Verified each via live search first; added a critic citation where one
+surfaced without extra digging.
+
+- **H. Upmann 1844 Reserve Corona** (5.5" x 44) — confirmed via Neptune
+  Cigar and Windy City Cigars listings. Distinct from our existing Robusto
+  (5.0x50) and Toro (6.0x54).
+- **Montecristo Classic Especial No. 1** (6 5/8" x 44, lonsdale) —
+  confirmed via multiple retailers (Corona Cigar, Casa de Montecristo,
+  Mike's Cigars). Added its Cigar Aficionado citation too (88 points, Oct.
+  2022 issue) — found while verifying the size, so no extra searching
+  needed.
+- **Romeo y Julieta 1875 Exhibicion No. 3** (6.0" x 50, toro) — confirmed
+  via Neptune Cigar, Corona Cigar, and Cigar King. Sits cleanly between our
+  existing Bully (5.0x50) and Churchill (7.0x50).
+- **AVO Classic Piramides** (7.0" x 36, pyramid) — confirmed via multiple
+  retailers and Davidoff's own site. Distinct shape and dimensions from our
+  existing No. 2 (6.0x50).
+- **AVO Heritage Robusto** (5.0" x 50) — confirmed via Stogie Review and
+  Smoke Inn. Distinct from our existing Toro (6.0x50) by a full inch of
+  length.
+- **AVO Syncro Nicaragua Robusto** (5.0" x 50) — confirmed via Cigar Coop
+  and Cigar Dojo reviews. Distinct from our existing Toro (6.0x54).
+
+**Skipped as too risky:** AVO Classic "Robusto" (listed by retailers as
+6.0" x 48) — sits at the exact same length as our existing No. 2 (6.0x50)
+with only a 2-point ring-gauge difference, which is exactly the
+near-duplicate pattern this project has been burned by before, so left it
+out rather than risk it.
+
+All 6 additions still show "insufficient data" for StickScore (need 3
+independent sources) except none received extra citations beyond the one
+noted above — same as any other freshly-catalogued vitola. Checked for
+matching unlinked release-calendar entries for all three brands/lines
+touched (H. Upmann, Montecristo, Romeo y Julieta, AVO) — found one
+unrelated AVO release ("EXPRESIVO", a different line) that didn't match
+any of tonight's additions, so nothing to link.
+
+`npm run build` passed (21,561 pages) after these additions.
