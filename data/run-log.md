@@ -2912,3 +2912,55 @@ duplicate-checked). No cigars/accessories price refresh or general news
 ingest tonight — lounges was this rotation's focus slot, matching how past
 lounges-focus nights have run. No errors, nothing left half-finished, no
 NEEDS-ATTENTION items.
+
+## 2026-09-21 — nightly run
+
+Weekday, lean budget. Day-of-month rotation (21 mod 3 = 0) points at
+**cigars** tonight. Cigar-growth batch was flagged off for tonight, so no
+new brand/line/vitola additions this run — just news and price refresh on
+the existing catalog. Not a Sunday, so no queue triage tonight either.
+
+**News ingest:** two real items, both auto-published (established outlets,
+nothing new-brand or uncertain):
+- **Oliva "Year of the Goat"** — a new limited-edition Double Toro (6x60,
+  Cameroon wrapper) in Oliva's Lunar New Year series, unveiled at InterTabac
+  2026. Capped at 2,000 boxes worldwide, distributed in Asia/Europe/Middle
+  East only (not the U.S.). Source: Cigar Journal. Also added to the
+  `/calendar` release tracker since it's a real reported release with a
+  named brand already in our catalog — linked to its news brief.
+- **Plasencia "Born of This Land"** — a brand campaign (not a new blend)
+  marking 160 years of the Plasencia family growing tobacco, spotlighting
+  the people behind their tobacco and cigar operations. News-only, no
+  release-calendar entry since there's no new product attached. Source:
+  Cigar Journal.
+
+**Price refresh:** targeted a small slice of never-priced vitolas rather
+than the full 30, given tonight's tight turn budget — better to get a few
+right than rush many. Confirmed and published three:
+- **Liga Privada No. 9 Corona Doble** — $20.85 single / $475.38 box of 24,
+  Atlantic Cigar.
+- **Macanudo Café Duke of Windsor** — $269.99 box of 25 (no single-cigar
+  price listed), JR Cigars.
+- **Cohiba Black Churchill** — $668.03 box of 25 (no single-cigar price
+  listed), Casa de Montecristo.
+
+None of these tripped the 25% price-swing check (all were first-ever price
+points for their vitola, so there was no prior average to compare against).
+Skipped: Davidoff Nicaragua Robusto and RoMa Craft CroMagnon Anthropology
+(search results gave conflicting/ambiguous numbers I couldn't pin to one
+retailer with confidence) and Perdomo Reserve 10th Anniversary Box-Pressed
+Maduro Robusto (the retailer page I tried to check returned an access error).
+Left all three for a future price-refresh night rather than guess.
+
+**Score recompute:** nothing to recompute tonight — no new critic reviews
+were added this run, so no StickScores changed.
+
+**Accessories / lounges:** none tonight — cigars was this rotation's focus
+slot, matching the alternation rule (cover one vertical well per night
+rather than all three thinly).
+
+`npm run build` passed (21,561 pages) after each change tonight, committed
+and pushed in three steps (news, price refresh, this log entry) rather than
+in one batch at the end, per tonight's tighter turn budget. No errors, no
+NEEDS-ATTENTION items — everything planned for tonight's cigars-focus slot
+is done.
