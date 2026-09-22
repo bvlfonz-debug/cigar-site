@@ -2964,3 +2964,6 @@ and pushed in three steps (news, price refresh, this log entry) rather than
 in one batch at the end, per tonight's tighter turn budget. No errors, no
 NEEDS-ATTENTION items — everything planned for tonight's cigars-focus slot
 is done.
+
+## 2026-09-22 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
