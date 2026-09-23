@@ -2654,5 +2654,17 @@
     ],
     "proposed_action": "Research Michigan's smoke-free air law cigar-bar/retail-tobacconist exemption for this specific location (or call the venue directly) and record indoor_smoking_status/indoor_smoking_note once confirmed. Note: db-tools.mjs currently has no update-lounge command for existing facts fields — that would need to be added, or the fields set directly, when this is picked up.",
     "decision": null
+  },
+  {
+    "item": "The Louisville Cigar Company (Louisville, KY) — new lounge city",
+    "path": null,
+    "reason": "new_lounge_city",
+    "why_flagged": "Louisville is not yet a city in the lounge directory. Found a real, walk-in cigar lounge/tobacconist with bourbon bar via its official site: 967 Baxter Ave., Louisville, KY 40204, (502) 384-0226. Hours: Tue-Wed 4-9pm, Thu-Sat 1-11pm, closed Sun-Mon. Largest cigar/pipe selection in the area, bourbon bar, heated outdoor patio, complimentary rear parking, lounge seating. Indoor smoking status not explicitly stated on the site (Louisville has a citywide smoke-free ordinance per Cigar Aficionado, but retail tobacco stores are commonly exempt) — needs one more source before that field can be filled in rather than guessed.",
+    "sources_found": [
+      "https://www.thelouisvillecigarcompany.com/",
+      "https://www.cigaraficionado.com/article/smoking-in-and-around-louisville"
+    ],
+    "proposed_action": "If approved, call add-lounge with these facts (city Louisville, state KY, facts_source_url the official site), leaving indoor_smoking_status null until a source confirms the tobacco-retailer exemption explicitly, then add-lounge-external-rating once 3 independent cited ratings/rankings exist.",
+    "decision": null
   }
 ]

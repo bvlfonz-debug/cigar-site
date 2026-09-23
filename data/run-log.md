@@ -2967,3 +2967,42 @@ is done.
 
 ## 2026-09-22 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-23 — nightly run
+
+Weekday, lean budget. Day-of-month rotation (23 mod 3 = 2) points at
+**lounges** tonight. Cigar-growth batch was flagged off for tonight, so no
+new brand/line/vitola additions. Not a Sunday, so no queue triage either.
+
+**Pushing existing lounges over the 3-source line:** checked the two
+lounges closest to publishing a LoungeScore (each already had 2 cited
+sources) — Casa de Montecristo by JR Cigar (Mooresville, NC) and
+Churchill's Fine Cigars (Phoenix, AZ). Tried to find a real third
+platform rating for each (Yelp, TripAdvisor, Foursquare), but every one of
+those sites either blocked direct access in tonight's environment or gave
+a number that changed between two separate lookups of the same page
+(8.7 vs. 8.6 on one Foursquare listing) — not solid enough to write down
+as fact given the "never invent a score" rule, so I left both alone rather
+than guess. Re-confirmed their existing Google ratings are still live and
+roughly consistent with what's already on file. No new ratings added
+tonight.
+
+**New lounge/city proposal (queued, not added):** found a real, walk-in
+cigar lounge/tobacconist — The Louisville Cigar Company, 967 Baxter Ave.,
+Louisville, KY — via its official site. Louisville isn't in our directory
+yet, so per the rules this goes through the review queue rather than
+being added directly. Logged its address, phone, hours, and amenities
+(bourbon bar, heated patio, big humidor) with the official site as the
+source. Left indoor-smoking status blank on purpose — Louisville has a
+citywide smoke-free ordinance per a Cigar Aficionado piece I also cited,
+but tobacco retailers are commonly exempt and the lounge's own site
+doesn't say either way, so that's a fact for a future run to confirm
+rather than guess at. Sitting in data/review-queue.json for your review
+(or a future automated pass) whenever you get to it.
+
+**Cigars / accessories:** none tonight — lounges was this rotation's
+focus slot.
+
+`npm run build` passed (21,619 pages) after tonight's change. Committed
+and pushed once (the queue addition is the only database change tonight).
+No errors, no NEEDS-ATTENTION items.
