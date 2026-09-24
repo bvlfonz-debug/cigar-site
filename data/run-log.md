@@ -3071,3 +3071,6 @@ No price checks or news briefs tonight — next cigars-focus night can pick
 those up. No errors otherwise, nothing queued, no NEEDS-ATTENTION beyond
 the earlier failed attempt already noted above (unrelated to tonight's
 work, which completed and pushed cleanly).
+
+## 2026-09-24 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
