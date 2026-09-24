@@ -3009,3 +3009,65 @@ No errors, no NEEDS-ATTENTION items.
 
 ## 2026-09-24 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-24 — Thursday run: cigars night (re-run after the earlier failed attempt above)
+
+Weekday, lean budget. Day-of-month rotation (24 mod 3 = 0) points at
+**cigars** tonight. Cigar-growth batch was flagged ON for tonight (it runs
+on its own every-other-day cadence, independent of the rotation), so this
+run combined both: the regular cigars-focus work and the cigar-growth
+batch. Not a Sunday, so no queue triage.
+
+**Cigar growth (3 new vitolas, all extending brands already in the
+catalog rather than new brands — lower duplicate risk per the standing
+rule):**
+- **Alec Bradley Black Market — Gordo (6 x 60)**, new size added to a line
+  that only had the Toro (6 x 50) on file. Confirmed real via Cigar
+  Aficionado's own ratings page for this exact vitola, Neptune Cigar, and
+  Atlantic Cigar's 20-count listing. Tasting notes (cocoa, coffee, spice,
+  earth, white pepper) drawn from Bespoke Unit's and CigarsLover's written
+  reviews of this size specifically.
+- **AVO Classic Maduro — Robusto (5 x 50)**, new size added to a line that
+  only had the Piramides (7 x 54) on file. Confirmed via Cigar Dojo's
+  dedicated review of this size. Tasting notes (dark fruit, black pepper,
+  campfire smoke, cream) drawn from that review.
+- **AVO Syncro Caribe — Special Toro (6 x 60)**, new size added to a line
+  that only had the Toro (6 x 52) on file. Confirmed via Cigar Coop,
+  halfwheel, and JR Cigars listings for the Syncro Caribe range. No
+  review specifically of the Special Toro turned up, so its tasting notes
+  use the blend's consensus profile (cream, earth, cedar, citrus, toast)
+  drawn from halfwheel's and Cigar Dojo's reviews of the Toro/Robusto
+  sizes in the same blend, per the "write from the confirmed blend
+  composition" rule.
+- Checked all three against existing vitolas in their lines for the
+  near-duplicate pattern (same brand+line within ~0.25" length or a few
+  ring-gauge points) before adding — none were close enough to risk a
+  duplicate (ring-gauge gaps of 8-10 points from the nearest existing
+  size in each case).
+- **Critic citations**: did a best-effort search (a search or two each)
+  for a numeric critic score on all three exact vitolas. Found general
+  praise and a Cigar Aficionado ratings-page link for the Black Market
+  Gordo, but couldn't pull an actual number out of what came back — so
+  all three show "insufficient data" for now rather than a guessed score,
+  same as any other freshly-added vitola.
+- No unlinked release-calendar entries matched Alec Bradley or AVO, so
+  nothing needed linking there.
+- Skipped as candidates before settling on the three above: an "Aganorsa
+  Leaf Connecticut" size — turned out the search results kept surfacing a
+  separate "Aniversario Connecticut" and "La Validacion Connecticut"
+  sub-line instead, and I couldn't confirm those are the same product as
+  our catalogued "Connecticut" line rather than a different blend under a
+  similar name, so I left it alone rather than risk cataloguing the wrong
+  thing.
+
+`npm run build` passed cleanly (21,708 pages) after these additions.
+Committed and pushed right after this step.
+
+**Regular cigars-focus rotation work**: given the lean weekday turn
+budget was already substantially spent on the cigar-growth verification
+above, stopping here for tonight rather than starting a second research
+pass (price refresh / news ingest) that risked being left half-finished.
+No price checks or news briefs tonight — next cigars-focus night can pick
+those up. No errors otherwise, nothing queued, no NEEDS-ATTENTION beyond
+the earlier failed attempt already noted above (unrelated to tonight's
+work, which completed and pushed cleanly).
