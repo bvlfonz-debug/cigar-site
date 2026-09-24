@@ -3006,3 +3006,6 @@ focus slot.
 `npm run build` passed (21,619 pages) after tonight's change. Committed
 and pushed once (the queue addition is the only database change tonight).
 No errors, no NEEDS-ATTENTION items.
+
+## 2026-09-24 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
