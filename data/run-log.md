@@ -3074,3 +3074,48 @@ work, which completed and pushed cleanly).
 
 ## 2026-09-24 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+
+## 2026-09-25 — Friday run: accessories night
+
+Weekday, lean budget. Day-of-month rotation (25 mod 3 = 1) points at
+**accessories** tonight. Cigar-growth batch was flagged off for tonight
+(it runs every other day and today wasn't its day), so no cigar growth
+work. Not a Sunday, so no queue triage.
+
+**Accessories focus — pushed 3 queued items over the 3-source AccScore
+minimum**, all by finding one more genuinely independent, currently-live
+source for items that were already sitting at 1-2 sources in the review
+queue:
+- **Colibri Quasar Table Lighter** — added Northwoods Humidors' retailer
+  rating (5.0/5, 9 reviews) alongside the existing Walmart and JR Cigars
+  figures. AccScore now published at 95.3. Queue entry resolved.
+- **Xikar 009 Punch Cutter** — added Holt's Cigar Company's retailer
+  rating (4.67/5, 3 reviews) alongside the existing HumidorDiscount.com
+  and BestCigarPrices.com figures. AccScore now published at 95.2. Queue
+  entry resolved.
+- **Palio Cutter** — added Holt's Cigar Company's retailer rating
+  (4.75/5, 2 reviews) alongside the existing CigarInspector.com and
+  Amazon figures. AccScore now published at 85. Queue entry resolved.
+
+**Tried and couldn't find a 3rd source for:** NewAir CC-300H
+Climate-Controlled Cabinet Humidor — checked Cigar Aficionado, a
+dedicated humidor-review blog (SmokeDock), and CigarWeekly (blocked the
+automated fetch); none had an actual numeric score to add, only
+qualitative writeups, so this one stays queued at 2 sources rather than
+being force-published.
+
+There's still a long tail of accessories sitting at 1-2 sources in the
+queue (about a dozen at 2 sources, and many more at 0-1) — tonight's
+budget only allowed a few of those to be worked through; more can be
+picked up on the next accessories-focus night.
+
+**Skipped tonight to stay within the lean weekday budget:** accessory
+price refresh and news ingest. No lounges or cigars work (not tonight's
+rotation slot, and cigar-growth wasn't flagged on).
+
+`npm run build` passed cleanly (21,708 pages) after each change tonight.
+Committed and pushed twice, right after each batch of accessory reviews.
+No errors, nothing newly queued, no NEEDS-ATTENTION (the two
+NEEDS-ATTENTION notes above are from the prior failed run attempts on
+2026-09-24 and are unrelated to tonight's work).
