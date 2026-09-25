@@ -238,36 +238,12 @@
     "decision": null
   },
   {
-    "item": "Palio Cutter",
-    "path": "/accessories/cutters/palio-cutter/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
-    "sources_found": [
-      "CigarInspector.com (4/5)",
-      "Amazon (5/5)"
-    ],
-    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
-    "decision": null
-  },
-  {
     "item": "Xikar VX2 V-Cut",
     "path": "/accessories/cutters/xikar-vx2-v-cut/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
     "sources_found": [
       "HumidorDiscount.com (5/5)"
-    ],
-    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
-    "decision": null
-  },
-  {
-    "item": "Xikar 009 Punch Cutter",
-    "path": "/accessories/cutters/xikar-009-punch-cutter/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
-    "sources_found": [
-      "HumidorDiscount.com (4.7/5)",
-      "BestCigarPrices.com (5/5)"
     ],
     "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
     "decision": null
