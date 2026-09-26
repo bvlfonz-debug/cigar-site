@@ -3155,3 +3155,6 @@ Committed and pushed twice, right after each batch of accessory reviews.
 No errors, nothing newly queued, no NEEDS-ATTENTION (the two
 NEEDS-ATTENTION notes above are from the prior failed run attempts on
 2026-09-24 and are unrelated to tonight's work).
+
+## 2026-09-26 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
