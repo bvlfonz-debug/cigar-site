@@ -4,6 +4,42 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-09-26 — nightly run (in progress)
+
+Weekday, lean budget. Day-of-month rotation (26 mod 3 = 2) points at
+**lounges** tonight. Cigar-growth batch is flagged ON for tonight too (that
+runs independently of the rotation) — see below.
+
+**Lounges — pushing thin scores over the 3-source line:** two of our lounges
+had exactly 2 cited ratings (one short of the LoungeScore minimum): Casa de
+Montecristo by JR Cigar in Mooresville, NC, and Churchill's Fine Cigars in
+Phoenix, AZ.
+
+- **Mooresville**: found a real TripAdvisor listing for this exact address
+  (4.4/5 from 16 reviews, "#2 of 11 Nightlife in Mooresville"). Added it as a
+  third source — this lounge now has a published LoungeScore (88.3) for the
+  first time.
+- **Phoenix (Churchill's)**: could not find a genuine third *numeric* rating
+  for this specific location (there's a separate Churchill's location on E
+  Ray Rd and another in Scottsdale — different addresses, so their reviews
+  don't count for this one). Did find that this location was voted "Best
+  Cigar Bar" by Phoenix New Times, but that's a title/award with no numeric
+  score attached, so it can't be entered into a scored-source slot without
+  inventing a number. Left this one as-is (still 2 sources, still
+  "insufficient data") rather than guess.
+- Didn't get to the several lounges sitting at exactly 1 rating (Iwan Ries
+  Chicago, Debonair LA, Holt's Philadelphia, both Manhattan and Boca Raton
+  Casa de Montecristo locations, King Corona Tampa, Casa de Montecristo
+  Austin) — each of those needs two more sources, not one, so lower payoff
+  for tonight's lean budget. Good target for a future lounges night.
+- Didn't touch the Louisville, KY new-lounge-city proposal already sitting
+  in the review queue (`new_lounge_city`, undecided) — new cities/lounges
+  stay queue-gated even on a lounges-focus night; that one's still waiting
+  on the owner's decision, not something I can approve myself on a weekday.
+
+`npm run build` passed cleanly (21,708 pages) after this change. Committed
+and pushed right after this step.
+
 ## 2026-08-27 — nightly run (in progress)
 
 Weekday, lean budget. Day-of-month rotation (27 mod 3 = 0) points at
