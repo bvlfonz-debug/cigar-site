@@ -689,18 +689,6 @@
     "decision": null
   },
   {
-    "item": "E.P. Carrillo Encore Celestial",
-    "path": "/cigars/ep-carrillo/encore/celestial/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Cigar Aficionado",
-      "Cigar Dojo"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Developing Palates, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
     "item": "H. Upmann 1844 Reserve Toro",
     "path": "/cigars/h-upmann/1844-reserve/toro/",
     "reason": "insufficient_sources",
@@ -731,18 +719,6 @@
       "Cigar Aficionado"
     ],
     "proposed_action": "Research Illusione's CURRENT factory situation (which lines are made where today) and either correct brand.factory's free text or set factory_id to the right profile — TABSA may be worth its own factory profile given AGANORSA/Fernández family ownership.",
-    "decision": null
-  },
-  {
-    "item": "AJ Fernandez New World Robusto",
-    "path": "/cigars/aj-fernandez/new-world/robusto/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "He Spoke Style",
-      "The Cigar Authority"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
     "decision": null
   },
   {
