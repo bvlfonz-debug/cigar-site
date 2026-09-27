@@ -3158,3 +3158,77 @@ NEEDS-ATTENTION notes above are from the prior failed run attempts on
 
 ## 2026-09-26 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-27 — Sunday run: cigars night + weekly queue triage
+
+Day-of-month rotation (27 mod 3 = 0) points at **cigars** tonight.
+Cigar-growth batch was flagged off for tonight (today's flag was false),
+so no new brand/line/vitola growth work. Sunday, so a heavier catalog
+pass was allowed and the weekly queue triage ran too.
+
+**Queue cleanup**: found two `insufficient_sources` entries that were
+stale — E.P. Carrillo Encore Celestial and AJ Fernandez New World
+Robusto already had 3+ critic sources and a published StickScore from
+an earlier run, but nobody had cleared their queue entries. Resolved
+both.
+
+**News + release calendar**: added two cited news briefs, each linked
+to a matching `cigar_release` entry:
+- **Crowned Heads Starwood** — a 5x50 event-only Robusto honoring
+  Nashville's old Starwood Amphitheater (Ecuadorian Habano Oscuro
+  wrapper, Nicaraguan binder/filler, made at NACSA). Source: halfwheel,
+  2026-09-09. Sold only at select in-store Crowned Heads events; no
+  pricing or schedule announced yet.
+- **Fuente Fuente OpusX "Por Amor al Tío"** — a one-off charity
+  collaboration between Carlito Fuente Jr. and Romeo Santos (6 3/4x50,
+  500 twenty-count chests), honoring Santos's late uncle. Source: Cigar
+  Aficionado, 2026-09-23. Debuts at a December 3, 2026 gala in
+  Hollywood, FL benefiting the Los Santos Foundation and the Cigar
+  Family Charitable Foundation — fundraiser/auction only, not a normal
+  retail release.
+
+**Price refresh: skipped tonight.** Tried to check current prices for
+a slice of never-yet-priced vitolas (Room101 Farce, Davidoff Nicaragua,
+Aging Room Quattro Nicaragua, and others), but every retailer page
+loads its actual per-stick price through a JS pack-size selector
+(Single/5-pack/Box) that the fetch tooling couldn't read — several
+sites also returned 402/403 blocks outright. Rather than guess whether
+a number on the page was a single-stick or box price, I recorded
+nothing. Next cigars night should retry, ideally with a source that
+prints itemized pricing as plain text.
+
+**Tried and found no easy win on**: a same-source-name-twice quirk in
+the review queue meant several "2 sources" entries (Ashton VSG Robusto,
+Cohiba Black Robusto, Macanudo Café Hyde Park, H. Upmann 1844 Reserve
+Toro) are genuinely still short a *third independent* source, not just
+a bookkeeping gap. Searched for one more each; ran into a halfwheel
+paywall and no clean numeric score elsewhere for any of the four, so
+none were pushed over the line tonight. The cigar-side insufficient-
+sources backlog is still large (~90 entries) — most will need this same
+one-more-source treatment over future cigars nights.
+
+**Weekly queue triage** (Sundays only): scanned the full queue for
+genuinely-new-entity proposals — everything else (insufficient_sources,
+conflicting_facts, vitola_dimension_conflict, fabricated_product/award
+notes, etc.) is a gap-note, not a decision, so those were left alone.
+Only one new-entity item was pending: **The Louisville Cigar Company**
+(a proposed new lounge city). Re-verified both cited sources myself:
+- The venue's own site (address, phone, hours, walk-in, bourbon bar,
+  heated patio, parking) — still live and matches the queued facts.
+- Cigar Aficionado's piece on smoking in the Louisville area — still
+  live; it confirms Louisville's 2008 smoke-free ordinance bans indoor
+  cigar smoking citywide, but does **not** say whether a retail
+  tobacconist like this one carries an exemption.
+
+Added the lounge (`/lounges/louisville-ky/the-louisville-cigar-company/`)
+with `indoor_smoking_status` left null and a note explaining why —
+neither source settles it, so I didn't guess. Queue entry resolved.
+No other new-entity items were sitting in the queue, so nothing was
+left for the owner's judgment this week.
+
+No accessories or lounges rotation work otherwise (not tonight's slot).
+`npm run build` passed cleanly after each change tonight (21,815 pages
+after the lounge addition). Committed and pushed after each step: queue
+cleanup, news/calendar batch, and the lounge triage. No errors, no new
+NEEDS-ATTENTION — the two NEEDS-ATTENTION notes above are from prior
+runs on 2026-09-24 and 2026-09-26, unrelated to tonight.
