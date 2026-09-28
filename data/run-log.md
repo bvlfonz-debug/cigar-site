@@ -3232,3 +3232,60 @@ after the lounge addition). Committed and pushed after each step: queue
 cleanup, news/calendar batch, and the lounge triage. No errors, no new
 NEEDS-ATTENTION — the two NEEDS-ATTENTION notes above are from prior
 runs on 2026-09-24 and 2026-09-26, unrelated to tonight.
+
+## 2026-09-28 — weekday: accessories night + cigar growth batch
+
+Day-of-month rotation (28 mod 3 = 1) points at **accessories** tonight.
+Weekday, so this was a lean pass — no full ingest sweep, just a couple
+of focused, cheap wins plus the standing cigar-growth batch.
+
+**Cigar growth (3 of 3 targeted)** — all three extend lines already in
+the catalog rather than introducing brand-new brands, and all three
+were confirmed real via live search before adding:
+- **Foundation The Wise Man Corojo** — added the Toro (6 x 52). This
+  line already existed with real wrapper/blend data but zero vitolas
+  cataloged; the Toro size is confirmed across several retailer
+  listings, and Cigar Coop has reviewed this exact vitola, though I
+  couldn't pin down a clean numeric score from what I could see of
+  their review, so it shows "insufficient data" rather than a guess.
+- **Tatuaje El Triunfador Original** — added the Robusto (5 x 50),
+  another line that already existed with zero vitolas on file.
+  halfwheel and Blind Man's Puff have both reviewed this exact size,
+  again without a numeric score I could confidently cite.
+- **Tatuaje Havana VI** — added Verocu No. 2 (5 1/2 x 54), sitting
+  alongside the already-cataloged Verocu No. 1 (6 1/4 x 54 — a
+  genuinely different size, not a near-duplicate). Double-checked this
+  is the plain "Verocu No. 2," not the separate "Verocu Blue No. 2"
+  sub-line that several review sites cover instead — those are a
+  different blend and I kept them out.
+
+No critic scores were added this round: every review I found was
+qualitative commentary or star-review pages without a clean, confirmable
+composite number, and the rule here is never guess one. All three new
+vitolas show "insufficient data" until a real numeric score turns up.
+No candidates were skipped as likely duplicates tonight — the three I
+picked were specifically chosen because they were gaps in lines already
+verified, which kept duplicate risk low.
+
+**Accessories rotation** — found and cleared three stale review-queue
+entries: **NewAir CC-300H Climate-Controlled Cabinet Humidor**,
+**HUMI-CARE Crystal Gel Humidification Jar (4 oz)**, and **Xikar
+10-Cigar Travel Humidor** had all already crossed the 3-source minimum
+and had a live AccScore from an earlier run, but nobody had resolved
+their queue entries (same pattern as the stale cigar entries cleared on
+2026-09-27). Resolved all three.
+
+I also spent some effort trying to push a few more borderline
+accessories (Xikar PuroTemp Digital Hygrometer, Case Elegance Flint
+Travel Leather Cigar Case, Nathan Scott Lester's Cigar Log Book) over
+the 3-source line, and to refresh prices on two popular cutters
+(Colibri V-Cut, Xikar 009 Punch). None of that panned out cleanly —
+search turned up plenty of product pages but nothing with a clean,
+attributable numeric score or a confirmed current price at a named
+retailer, so rather than guess a number I left all of that as-is for a
+future pass.
+
+`npm run build` passed cleanly after both changes tonight (21,863 pages
+after the cigar-growth batch). Committed and pushed after each step:
+the cigar-growth batch, then the accessory queue cleanup. No errors, no
+lounges work tonight (not this rotation's slot), nothing new queued.
