@@ -3289,3 +3289,19 @@ future pass.
 after the cigar-growth batch). Committed and pushed after each step:
 the cigar-growth batch, then the accessory queue cleanup. No errors, no
 lounges work tonight (not this rotation's slot), nothing new queued.
+
+## 2026-09-29 — lounges rotation (weekday, lean run)
+
+Tonight was a lounges night (day 29, modulo 3 = 2). Cigar growth was
+off today, so no new cigars were added.
+
+I tried to find cited star ratings for Casa de Montecristo (Dallas) and
+Empire Social Lounge (Miami). Search confirmed both have Yelp and
+TripAdvisor pages (Casa de Montecristo: 126 Yelp reviews). Yelp refused
+to let me open the page (HTTP 403), and the search summaries never
+showed an actual star number. Since ratings must be real and cited, I
+added none. No lounge ratings, no new lounges, nothing queued.
+
+NEEDS-ATTENTION: none urgent. Lounge ratings remain hard to gather
+automatically because Yelp blocks page fetches.
+No database changes, so no build was needed.
