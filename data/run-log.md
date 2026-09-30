@@ -3305,3 +3305,20 @@ added none. No lounge ratings, no new lounges, nothing queued.
 NEEDS-ATTENTION: none urgent. Lounge ratings remain hard to gather
 automatically because Yelp blocks page fetches.
 No database changes, so no build was needed.
+
+## 2026-09-30 — cigars rotation (weekday, lean run)
+
+Tonight was a cigars night (day 30, modulo 3 = 0) and cigar growth was on.
+
+**Added 3 new verified vitolas**, all Alec Bradley (an existing brand), checked
+against the maker's own pages (alecbradley.com/cigars/prensado and
+/prensado-lost-art): **Prensado Double Toro (6 x 62)**, **Prensado Lost Art
+Robusto (5 x 52)** and **Prensado Lost Art Churchill (7 x 50)**. Summaries use
+only the maker's blend and flavor description. No critic citation was
+searched for, so they show "insufficient data".
+
+**Skipped:** Prensado Gran Toro (6 x 54) — real, but within 0.25" and 2 ring
+gauge of the existing Torpedo (6.125 x 52), so I treated it as a likely
+near-duplicate. Lost Art Torpedo and Double T were left for a later run.
+
+No prices, news, or score work tonight (kept lean). Nothing queued.
