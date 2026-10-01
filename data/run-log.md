@@ -3322,3 +3322,18 @@ gauge of the existing Torpedo (6.125 x 52), so I treated it as a likely
 near-duplicate. Lost Art Torpedo and Double T were left for a later run.
 
 No prices, news, or score work tonight (kept lean). Nothing queued.
+
+## 2026-10-01 — accessories rotation (weekday, lean run)
+
+Tonight was an accessories night (day 1, modulo 3 = 1). Cigar growth was
+off today, so no new cigars were added.
+
+**Xikar PuroTemp Digital Hygrometer now has a Codex Score (87.3).** It had two
+sources; I added a third, the Neptune Cigar customer rating (4.5/5 from 61
+reviews on the rectangular model), which meets the 3-source minimum.
+
+**Xikar EX cutter:** searched, but could not find any product by that name
+(only the XO, Xi1, Xi2 and X8), so I added nothing rather than guess. It
+still shows "insufficient data".
+
+No prices, news, or queue changes. No errors.
