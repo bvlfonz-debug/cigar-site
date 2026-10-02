@@ -3337,3 +3337,24 @@ reviews on the rectangular model), which meets the 3-source minimum.
 still shows "insufficient data".
 
 No prices, news, or queue changes. No errors.
+
+## 2026-10-02 — lounges rotation + cigar growth (weekday, lean run)
+
+Tonight was a lounges night (day 2, modulo 3 = 2) and cigar growth was on.
+
+**Lounges:** looked for a third rating for Churchill's Fine Cigars (Phoenix),
+which has Google and Yelp. Search turned up no TripAdvisor/Foursquare figure,
+so I added nothing rather than guess. No new lounges, nothing queued.
+
+**Added 3 new verified vitolas** (all Alec Bradley, checked against the
+maker's own pages): **Prensado Lost Art Double T (6 x 60)**, plus a new line,
+**Black Market Estelí**, with its **Robusto (5 x 52)** and **Toro (6 x 52)**.
+Summaries use only the maker's blend and flavor description. No critic
+citations were searched, so they show "insufficient data".
+
+**Skipped:** Lost Art Torpedo (6.5 x 52) — within 0.25" and the same ring
+gauge as the existing Lost Art Gran Toro, so a likely near-duplicate. Prensado
+Gran Toro (6 x 54) skipped again for the same reason as last time. Black
+Market Estelí Punk, Gordo, Torpedo, Churchill left for later runs.
+
+No prices, news, or score work tonight. No errors.
