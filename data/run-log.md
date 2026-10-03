@@ -3358,3 +3358,17 @@ Gran Toro (6 x 54) skipped again for the same reason as last time. Black
 Market Estelí Punk, Gordo, Torpedo, Churchill left for later runs.
 
 No prices, news, or score work tonight. No errors.
+
+## 2026-10-03 — cigars rotation (weekday, lean run)
+
+Tonight was a cigars night (day 3, modulo 3 = 0). Cigar growth was off, so
+no new cigars were added.
+
+**News:** added 2 briefs from halfwheel — Tatuaje The Jason Redux 6 (shipping
+early October) and Apostate Death Mask (limited edition, first made at Fábrica
+Oveja Negra). Both also went on the release calendar, linked to their briefs.
+The halfwheel pages themselves would not open for me (payment-required error),
+so the details come only from the search-result summaries. I kept them to the
+basics (size, wrapper, timing) and gave no exact ship date for Death Mask.
+
+No prices or score work tonight. Site builds cleanly. No errors.
