@@ -3372,3 +3372,32 @@ so the details come only from the search-result summaries. I kept them to the
 basics (size, wrapper, timing) and gave no exact ship date for Death Mask.
 
 No prices or score work tonight. Site builds cleanly. No errors.
+
+## 2026-10-04 — accessories rotation + cigar growth + queue triage (Sunday)
+
+Tonight was an accessories night (day 4, modulo 3 = 1), cigar growth was on,
+and it's Sunday so queue triage ran too.
+
+**Accessories:** the Case Elegance Flint Travel Leather Cigar Case had two
+sources; I added a third (Amazon buyer rating, 4.5 of 5 from 75 ratings, shown
+as a rating only, no price), so its Codex Score is now published (98.5). Note:
+the Amazon listing I cited is the Klaro-branded Flint case sold by Case
+Elegance — the same product, but a different color listing than the one on
+their own site. The Cigar Log Book only has Amazon and Goodreads, so no third
+independent source; Xikar EX still has two. Nothing else changed.
+
+**Added 6 new verified vitolas (Alec Bradley, checked on the maker's site):**
+Black Market Estelí Punk (4¼ x 42), Gordo (6 x 60), Torpedo (6½ x 52) and
+Churchill (7 x 50); Kintsugi Toro (6 x 52); Gatekeeper Toro (6 x 52). Summaries
+use only the maker's blend and flavor description; no critic citations were
+searched, so they show "insufficient data". Torpedo is 0.5" longer than the
+Toro, so I treated it as a different size. Skipped: Kintsugi Corona Gorda
+(5⅝ x 46) — Alec Bradley already has a Prensado one at that size, left for
+later; Kintsugi/Gatekeeper Gordo and Gatekeeper Robusto left for later runs.
+
+**Queue triage:** I went through the queue. There are no pending proposals
+for a brand-new brand, line, lounge, city, factory or accessory category right
+now — everything open is an informational gap note (missing sources, unverified
+facts) — so there was nothing to approve or reject. Nothing was left for you.
+
+No prices or news tonight. Site builds cleanly. No errors.
