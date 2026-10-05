@@ -3401,3 +3401,20 @@ now — everything open is an informational gap note (missing sources, unverifie
 facts) — so there was nothing to approve or reject. Nothing was left for you.
 
 No prices or news tonight. Site builds cleanly. No errors.
+
+## 2026-10-05 — lounges rotation (weekday, lean run)
+
+Tonight was a lounges night (day 5, modulo 3 = 2). Cigar growth was off today.
+
+**Empire Social Lounge (Miami):** added three cited ratings — Yelp 4.6/5
+(186 reviews), TripAdvisor 3.7/5 (only 7 reviews, so thin), and Google 4.5/5
+(252 votes, as reported by Restaurant Guru, not read from Google directly).
+It now has 3 sources, so its Codex Score is published (85.3). Note the
+TripAdvisor figure is much lower than the others but based on very few reviews.
+
+**Casa de Montecristo (Dallas):** added a Yelp rating, 4.5/5 (126 reviews).
+Only one source so far — still "insufficient data". The TripAdvisor pages
+I found were for other cities' locations, so I did not use them.
+
+No new lounges proposed, no prices, news, or queue changes. Site builds
+cleanly. No errors.
