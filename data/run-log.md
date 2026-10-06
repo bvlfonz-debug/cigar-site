@@ -3418,3 +3418,17 @@ I found were for other cities' locations, so I did not use them.
 
 No new lounges proposed, no prices, news, or queue changes. Site builds
 cleanly. No errors.
+
+## 2026-10-06 — cigars rotation + cigar growth (weekday, lean run)
+
+Tonight was a cigars night (day 6, modulo 3 = 0), and cigar growth was on.
+
+**Added 3 new verified vitolas (Alec Bradley, confirmed via retailer pages):**
+Kintsugi Gordo (6 x 60, blend only — no flavor descriptors found, so none
+given); Gatekeeper Robusto (5 x 50) and Gatekeeper Gordo (6 x 60), with
+flavor notes taken from retailer descriptions. No near-duplicates (existing
+sizes differ in ring gauge). I skipped adding critic citations: sources
+disagreed on the Gatekeeper's Cigar Aficionado score (87 vs 95), so I left
+all three as "insufficient data" rather than guess.
+
+No prices, news, queue changes or new brands tonight. No errors.
