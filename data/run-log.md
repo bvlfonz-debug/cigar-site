@@ -3432,3 +3432,17 @@ disagreed on the Gatekeeper's Cigar Aficionado score (87 vs 95), so I left
 all three as "insufficient data" rather than guess.
 
 No prices, news, queue changes or new brands tonight. No errors.
+
+## 2026-10-07 — accessories rotation (weekday, lean run)
+
+Tonight was an accessories night (day 7, modulo 3 = 1). Cigar growth was off today.
+
+I tried to find a third independent rating for the Xikar EX lighter (it has
+Amazon and Walmart ratings, needs one more to publish a Codex Score). A search
+summary mentioned a 4.1/5 average from 122 reviews, but I couldn't tell which
+retailer it came from (the page that might say was blocked, and Neptune's page
+showed no rating), so I did not record it. The only other result was a single
+eBay review, which isn't an aggregate. Nothing was added.
+
+No prices, news, queue changes or new items tonight. No errors. Site builds
+cleanly.
