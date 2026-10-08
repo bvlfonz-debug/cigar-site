@@ -3446,3 +3446,23 @@ eBay review, which isn't an aggregate. Nothing was added.
 
 No prices, news, queue changes or new items tonight. No errors. Site builds
 cleanly.
+
+## 2026-10-08 — lounges rotation + cigar growth (weekday, lean run)
+
+Tonight was a lounges night (day 8, modulo 3 = 2), and cigar growth was on.
+
+**Lounges:** I looked for a third rating for Churchill's Fine Cigars in
+Phoenix (it has Google and Yelp). Tripadvisor blocked my lookup and search
+found no listing, so nothing was added. The only other thing I found was an
+older Phoenix New Times "Best Cigar Bar" mention, which is an award, not a
+numeric score, so I didn't record it as a rating.
+
+**Cigar growth — added 2 verified vitolas (Crowned Heads Jericho Hill):**
+Willy Lee (6 x 54, flavor notes from reviews) and Jack Brown (5 x 56, added
+in the 2025 rebrand; blend only, no flavor notes since none were found).
+Skipped: Le Pâtissier No. 2 (6 1/8 x 52 is within a quarter-inch of the
+existing Canonazo, likely duplicate) and Le Pâtissier No. 50 / No. 54
+(sources disagree on their lengths, so I couldn't verify them). Target was 3;
+I stopped at 2 rather than guess.
+
+No prices, news, or queue changes. No errors.
