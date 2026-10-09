@@ -3466,3 +3466,15 @@ existing Canonazo, likely duplicate) and Le Pâtissier No. 50 / No. 54
 I stopped at 2 rather than guess.
 
 No prices, news, or queue changes. No errors.
+
+## 2026-10-09 — cigars rotation (weekday, lean run)
+
+Tonight was a cigars night (day 9, modulo 3 = 0). Cigar growth was off
+(odd day), so no new cigars were added.
+
+**News ingest:** I ran one news search. Results were mostly older trade-show
+(PCA) coverage with no clear October dates, and the one possible new item
+(a Hooten Young Midnight Hammer fall re-release) only appeared in a search
+summary with no article I could open and confirm. I didn't add anything
+rather than guess. **Prices / scores:** not refreshed tonight (lean run, no
+new reviews found). Nothing queued. No errors.
