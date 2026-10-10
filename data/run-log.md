@@ -3478,3 +3478,19 @@ Tonight was a cigars night (day 9, modulo 3 = 0). Cigar growth was off
 summary with no article I could open and confirm. I didn't add anything
 rather than guess. **Prices / scores:** not refreshed tonight (lean run, no
 new reviews found). Nothing queued. No errors.
+
+## 2026-10-10 — accessories rotation + cigar growth (weekday, lean run)
+
+Tonight was an accessories night (day 10, modulo 3 = 1), and cigar growth
+was on (even day).
+
+**Accessories:** I searched for a third source for the Xikar EX lighter (it
+has Amazon and Walmart). The search found nothing specific to the EX, only
+reviews of other Xikar lighters, so I didn't add a rating.
+
+**Cigar growth — added 0.** I checked Crowned Heads Mil Dias: all five
+regular sizes are already in the catalog, and the other sizes are limited
+editions, which I left alone. I didn't have a verified candidate beyond
+that, so I stopped rather than guess.
+
+No prices, news, or queue changes. No errors.
