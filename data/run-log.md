@@ -3494,3 +3494,22 @@ editions, which I left alone. I didn't have a verified candidate beyond
 that, so I stopped rather than guess.
 
 No prices, news, or queue changes. No errors.
+
+## 2026-10-11 — lounges rotation + Sunday queue triage
+
+Tonight was a lounges night (day 11, modulo 3 = 2). Cigar growth was off
+(odd day), so no new cigars were added.
+
+**Lounges:** I looked for a third cited rating for Churchill's Fine Cigars
+(Phoenix) and Casa de Montecristo (Boca Raton), the two that already had two
+sources. I found nothing usable. The only extra figures came from
+mall-directory pages resting on one vote, or from listings with a different
+address, so I added no ratings.
+
+**Queue triage:** I went through the whole queue. Every undecided item is a
+gap-note (missing sources, unverified vitolas or awards, missing founding
+years). There are no proposals for new brands, lines, lounges, factories or
+accessory categories, so there was nothing to approve or reject. No
+`queue-resolve` calls were needed.
+
+No prices, news, or score changes. No errors.
