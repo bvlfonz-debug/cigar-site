@@ -3513,3 +3513,18 @@ accessory categories, so there was nothing to approve or reject. No
 `queue-resolve` calls were needed.
 
 No prices, news, or score changes. No errors.
+
+## 2026-10-12 — cigars rotation + cigar growth (weekday, lean run)
+
+Tonight was a cigars night (day 12, modulo 3 = 0), and cigar growth was on
+(even day).
+
+**Cigar growth — added 0.** I searched for new October releases. Two leads
+came up: Crowned Heads Las Calaveras Décimo 2026 and the Hooten Young
+Midnight Hammer fall re-release. Neither is in the catalog. The halfwheel
+article for Las Calaveras returned an error when I opened it, and the
+Midnight Hammer lead only appeared in a search summary. I couldn't confirm
+blend or sizes for either, so I added nothing rather than guess. Both are
+limited editions anyway.
+
+No prices, news, scores, or queue changes. Only this log changed. No errors.
