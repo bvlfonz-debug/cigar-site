@@ -20,18 +20,6 @@
     "decision": null
   },
   {
-    "item": "Arturo Fuente Añejo Reserva No. 48",
-    "path": "/cigars/arturo-fuente/anejo-reserva/no-48/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Cigar Aficionado",
-      "Stogies on the Rocks"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
     "item": "Le Bijou 1922 Toro",
     "path": "/cigars/my-father/le-bijou-1922/toro/",
     "reason": "insufficient_sources",
@@ -151,36 +139,12 @@
     "decision": null
   },
   {
-    "item": "NewAir CC-300H Climate-Controlled Cabinet Humidor",
-    "path": "/accessories/humidors/newair-cc-300h-humidor/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
-    "sources_found": [
-      "Cigar Dojo (94/100)",
-      "Amazon (4.3/5)"
-    ],
-    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
-    "decision": null
-  },
-  {
     "item": "Mantello Royal Glass-Top Cigar Humidor",
     "path": "/accessories/humidors/mantello-royal-glass-top-humidor/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
     "sources_found": [
       "Walmart (4.5/5)"
-    ],
-    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
-    "decision": null
-  },
-  {
-    "item": "Xikar Volta",
-    "path": "/accessories/torch-lighters/xikar-volta/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
-    "sources_found": [
-      "Holt's Cigar Co. (2.67/5)",
-      "Wayfair (4.6/5)"
     ],
     "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
     "decision": null
@@ -203,18 +167,6 @@
     "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
     "sources_found": [
       "Simrell Collection (3.75/5)"
-    ],
-    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
-    "decision": null
-  },
-  {
-    "item": "Colibri Quasar Table Lighter",
-    "path": "/accessories/torch-lighters/colibri-quasar/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
-    "sources_found": [
-      "Walmart (4.3/5)",
-      "JR Cigars (5/5)"
     ],
     "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
     "decision": null
@@ -274,48 +226,12 @@
     "decision": null
   },
   {
-    "item": "Palio Cutter",
-    "path": "/accessories/cutters/palio-cutter/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
-    "sources_found": [
-      "CigarInspector.com (4/5)",
-      "Amazon (5/5)"
-    ],
-    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
-    "decision": null
-  },
-  {
     "item": "Xikar VX2 V-Cut",
     "path": "/accessories/cutters/xikar-vx2-v-cut/",
     "reason": "insufficient_sources",
     "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
     "sources_found": [
       "HumidorDiscount.com (5/5)"
-    ],
-    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
-    "decision": null
-  },
-  {
-    "item": "Colibri V-Cut Cutter",
-    "path": "/accessories/cutters/colibri-v-cut-cutter/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
-    "sources_found": [
-      "HumidorDiscount.com (4.9/5)",
-      "Amazon (4.7/5)"
-    ],
-    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
-    "decision": null
-  },
-  {
-    "item": "Xikar 009 Punch Cutter",
-    "path": "/accessories/cutters/xikar-009-punch-cutter/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
-    "sources_found": [
-      "HumidorDiscount.com (4.7/5)",
-      "BestCigarPrices.com (5/5)"
     ],
     "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
     "decision": null
@@ -454,30 +370,6 @@
     "why_flagged": "Only 1 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
     "sources_found": [
       "Cigar Oasis (4.7/5)"
-    ],
-    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
-    "decision": null
-  },
-  {
-    "item": "HUMI-CARE Crystal Gel Humidification Jar (4 oz)",
-    "path": "/accessories/humidification-systems/humi-care-crystal-gel-jar-4oz/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
-    "sources_found": [
-      "CIGAR.com (4.5/5)",
-      "Pipes and Cigars (5/5)"
-    ],
-    "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
-    "decision": null
-  },
-  {
-    "item": "Xikar 10-Cigar Travel Humidor",
-    "path": "/accessories/travel-cases/xikar-10-cigar-travel-humidor/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent source(s) found (AccScore requires 3) as of the 2026-07-12 research pass.",
-    "sources_found": [
-      "Humidor Discount (4.5/5)",
-      "Plush Cigars (4.8/5)"
     ],
     "proposed_action": "Keep checking for a 3rd independent source on future automation passes; do not publish a score until then.",
     "decision": null
@@ -761,18 +653,6 @@
     "decision": null
   },
   {
-    "item": "E.P. Carrillo Encore Celestial",
-    "path": "/cigars/ep-carrillo/encore/celestial/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "Cigar Aficionado",
-      "Cigar Dojo"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Developing Palates, and retailer user-rating averages for additional independent coverage of this exact vitola.",
-    "decision": null
-  },
-  {
     "item": "H. Upmann 1844 Reserve Toro",
     "path": "/cigars/h-upmann/1844-reserve/toro/",
     "reason": "insufficient_sources",
@@ -803,18 +683,6 @@
       "Cigar Aficionado"
     ],
     "proposed_action": "Research Illusione's CURRENT factory situation (which lines are made where today) and either correct brand.factory's free text or set factory_id to the right profile — TABSA may be worth its own factory profile given AGANORSA/Fernández family ownership.",
-    "decision": null
-  },
-  {
-    "item": "AJ Fernandez New World Robusto",
-    "path": "/cigars/aj-fernandez/new-world/robusto/",
-    "reason": "insufficient_sources",
-    "why_flagged": "Only 2 independent sources found (StickScore requires 3).",
-    "sources_found": [
-      "He Spoke Style",
-      "The Cigar Authority"
-    ],
-    "proposed_action": "Search halfwheel, Cigar Coop, Cigar Snob, Cigar Dojo, and retailer user-rating averages for additional independent coverage of this exact vitola.",
     "decision": null
   },
   {

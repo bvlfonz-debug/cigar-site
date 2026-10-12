@@ -4,6 +4,42 @@ This file is your window into what the automation does each night. Each entry
 is dated, plain English, and short — no code, no jargon. Skim it whenever
 you're curious; you don't need to check it daily.
 
+## 2026-09-26 — nightly run (in progress)
+
+Weekday, lean budget. Day-of-month rotation (26 mod 3 = 2) points at
+**lounges** tonight. Cigar-growth batch is flagged ON for tonight too (that
+runs independently of the rotation) — see below.
+
+**Lounges — pushing thin scores over the 3-source line:** two of our lounges
+had exactly 2 cited ratings (one short of the LoungeScore minimum): Casa de
+Montecristo by JR Cigar in Mooresville, NC, and Churchill's Fine Cigars in
+Phoenix, AZ.
+
+- **Mooresville**: found a real TripAdvisor listing for this exact address
+  (4.4/5 from 16 reviews, "#2 of 11 Nightlife in Mooresville"). Added it as a
+  third source — this lounge now has a published LoungeScore (88.3) for the
+  first time.
+- **Phoenix (Churchill's)**: could not find a genuine third *numeric* rating
+  for this specific location (there's a separate Churchill's location on E
+  Ray Rd and another in Scottsdale — different addresses, so their reviews
+  don't count for this one). Did find that this location was voted "Best
+  Cigar Bar" by Phoenix New Times, but that's a title/award with no numeric
+  score attached, so it can't be entered into a scored-source slot without
+  inventing a number. Left this one as-is (still 2 sources, still
+  "insufficient data") rather than guess.
+- Didn't get to the several lounges sitting at exactly 1 rating (Iwan Ries
+  Chicago, Debonair LA, Holt's Philadelphia, both Manhattan and Boca Raton
+  Casa de Montecristo locations, King Corona Tampa, Casa de Montecristo
+  Austin) — each of those needs two more sources, not one, so lower payoff
+  for tonight's lean budget. Good target for a future lounges night.
+- Didn't touch the Louisville, KY new-lounge-city proposal already sitting
+  in the review queue (`new_lounge_city`, undecided) — new cities/lounges
+  stay queue-gated even on a lounges-focus night; that one's still waiting
+  on the owner's decision, not something I can approve myself on a weekday.
+
+`npm run build` passed cleanly (21,708 pages) after this change. Committed
+and pushed right after this step.
+
 ## 2026-08-27 — nightly run (in progress)
 
 Weekday, lean budget. Day-of-month rotation (27 mod 3 = 0) points at
@@ -2235,3 +2271,1260 @@ Build verified clean (`npm run build`, 21,082 pages) before this commit.
 
 ## 2026-09-06 — NEEDS-ATTENTION: run did not finish cleanly
 The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-07 — nightly run (accessories focus, weekday)
+
+Tonight's rotation pick: day-of-month 7 mod 3 = 1 → **accessories** focus.
+Cigar-growth flag was off tonight, so no new cigar catalog additions this run.
+Not a Sunday, so no queue triage pass.
+
+- **Xikar Volta (torch lighter)**: found a third independent source
+  (CIGAR.com customer rating, 5/5) to go with the two already on file
+  (Holt's Cigar Co. 2.67/5, Wayfair 4.6/5). That clears the 3-source
+  minimum, so AccScore is now published: **81.8**. Removed its
+  "insufficient_sources" queue entry since it's resolved.
+- Checked a few other queue items sitting at 2 sources (NewAir CC-300H
+  humidor, Palio Cutter, Xikar PuroTemp hygrometer) but couldn't find a
+  distinct third source with an actual verifiable numeric rating this
+  pass — left those queued rather than guess at a score.
+
+- **Price refresh (accessories, small slice)**: checked current prices for
+  two accessories that had never had one recorded — Xikar Executive
+  Ashtray Can (Leather Wrapped): $14.95 at Binny's, and Visol Iris Metal
+  and Wood Cigar Ashtray: $30.00 at Amazon (page will show "Check price on
+  Amazon" per the Amazon-pricing rule, not the dollar figure). Zico ZD-60
+  and IM Corona Old Boy were checked too, but pricing across sources was
+  too inconsistent/model-ambiguous to record with confidence, so skipped.
+- `npm run build` passed after each change tonight.
+- No cigar-side ingest/news/lounge work tonight — this run's rotation slot
+  was accessories, and staying focused on one vertical (rather than a
+  thin pass at all three) is the deliberate tradeoff behind the rotation.
+  Cigars and lounges will get their turn on upcoming rotation nights.
+- Nothing hit the review queue tonight beyond the one item resolved above.
+- Run finished cleanly, well under the 40-turn budget for tonight.
+
+## 2026-09-08 — nightly run (lounges focus, weekday)
+
+Tonight's rotation pick: day-of-month 8 mod 3 = 2 → **lounges** focus.
+Cigar-growth flag is on tonight (even day-of-month), so that independent
+batch also runs this session. Not a Sunday, so no queue triage pass.
+
+- **Lounge ratings**: Boston Cigar Club & Shop (Boston) had two ratings on
+  file (Google 4.8/5, TripAdvisor 5.0/5) — one short of the 3-source
+  minimum. Found a genuine third, independent platform rating: OpenTable,
+  4.0/5 (1 review). That clears the threshold, so LoungeScore is now
+  published: **92**.
+- Checked Casa de Montecristo by JR Cigar (Mooresville, also at 2 sources)
+  for a third source too. A Chamber of Commerce directory page claimed a
+  rating but wouldn't load for verification (403), and Yelp/TripAdvisor
+  pages for it wouldn't return a clean star figure either — left it queued
+  at 2 sources rather than guess.
+- `npm run build` passed (21,248 pages) before this commit.
+
+## 2026-09-08 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-09 — nightly run (cigars focus, weekday)
+
+Tonight's rotation pick: day-of-month 9 mod 3 = 0 → **cigars** focus.
+Cigar-growth flag is off tonight, so no new brand/line/vitola additions this
+run. Not a Sunday, so no queue triage pass.
+
+- **News**: Drew Estate opened a six-month "DE30" rewards program (Sept 2026
+  through March 2027) for its 30th anniversary, with two new limited samplers
+  (Box-Pressed Feral Flying Pig and Supremas) shipping late September. Added
+  a news brief citing Cigar Dojo.
+- **Score recompute**: Arturo Fuente Añejo Reserva No. 48 had only 2
+  independent sources (Cigar Aficionado, Stogies on the Rocks) and was sitting
+  in the review queue as "insufficient data." Found a third — Holt's Cigar
+  Company's staff review (97/100, published 2018, still live on their site) —
+  and added it. StickScore is now published: **93.2**. Removed its queue
+  entry.
+  - Also checked Ashton VSG Robusto for a third source; the only extra hit
+    (halfwheel's "Robusto Especial" review) is a different vitola than our
+    plain Robusto, so left it queued rather than risk mixing up two products.
+- **Price refresh (cigars, small slice)**: recorded first-ever prices for
+  three vitolas that had never had one checked:
+  - RoMa Craft CroMagnon Knuckle Dragger (4x52) — Binny's, $10.25 single /
+    $221.95 box of 24 (size confirmed matching).
+  - Cohiba Black Toro (6x54) — CigarsCity, $598.95 box of 25 (no single
+    price listed; size confirmed matching).
+  - Romeo y Julieta 1875 Churchill (7x50) — Binny's, $14.25 single / $320.95
+    box of 25 (size confirmed matching).
+  - Skipped Davidoff Nicaragua Robusto (5x50) — couldn't find a clean price
+    for the plain (non-tubo, non-box-pressed) version specifically, and
+    didn't want to risk recording a price for the wrong sub-variant.
+- `npm run build` passed (21,303 pages) before this commit.
+- No accessories or lounges work tonight — this run's rotation slot was
+  cigars, and staying focused on one vertical is the deliberate tradeoff
+  behind the rotation. Well under the 40-turn budget for tonight.
+
+## 2026-09-10 — nightly run (accessories focus, weekday)
+
+Tonight's rotation pick: day-of-month 10 mod 3 = 1 → **accessories** focus.
+Cigar-growth flag is on tonight (even day-of-month), so that independent
+batch runs too — see below. Not a Sunday, so no weekly queue triage.
+
+- **Housekeeping**: the Colibri V-Cut Cutter was still sitting in the review
+  queue as "insufficient sources" from an old check, but it actually already
+  has 4 independent reviews on file now (HumidorDiscount, Amazon, Holt's,
+  Cigars Daily) and a published AccScore of 97.3. Removed the stale queue
+  entry — nothing to do here, just cleanup.
+- **Score research (accessories)**: spent some time trying to find a
+  genuine third numeric rating for several 2-source items still stuck at
+  "insufficient data" (NewAir CC-300H humidor, Colibri Quasar table
+  lighter, Xikar PuroTemp Digital Hygrometer, Nathan Scott Lester's *The
+  Cigar Log Book*). No luck tonight — the extra sources I found either had
+  no numeric score (just prose reviews), were paywalled, or turned out to
+  be a different product variant than what's on file. Left all of these
+  queued rather than force a mismatched or scoreless "source."
+- **Price refresh (accessories)**: recorded a first-ever price for the Les
+  Fines Lames Le Petit cigar cutter — $142.95 at Holt's Cigar Company
+  (currently marked down from its $159 MSRP; out of stock in most finishes
+  there, but the price itself is real and current). Tried a few other
+  never-priced accessories (NewAir CC-300H humidor, Zico ZD-60, Prestige
+  Import Group's 3-cigar leather travel case) but couldn't pull a reliable
+  current price — mostly Amazon listings whose pages didn't return price
+  data, so skipped rather than guess.
+- `npm run build` passed (21,303 pages) before this commit.
+
+## 2026-09-10 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
+
+## 2026-09-11 — nightly run (lounges focus)
+
+Friday (weekday, lean budget). Day-of-month rotation (11 mod 3 = 2) points
+at **lounges** tonight. Cigar-growth batch was flagged off for tonight, so
+no new brand/line/vitola additions. Not a Sunday, so no queue triage pass.
+
+**Lounge ratings — no new ratings published tonight.** I tried to push a
+few thin lounges (only 1-2 cited sources today) over the 3-source minimum:
+Casa de Montecristo by JR Cigar (Mooresville, NC — has Google + Foursquare,
+needed one more independent platform) and Iwan Ries & Co. (Chicago — has
+Yelp only, needed two more). Both Yelp and TripAdvisor blocked every
+automated page fetch tonight (HTTP 403), so I couldn't read an actual
+star-rating number off either site — only vague search-summary text I
+didn't trust enough to record as a real score. A couple of aggregator
+sites (Wanderlog) turned out to just be re-displaying the same Google
+rating we've already got on file, not an independent source. I also found
+a 2011 Cigar Aficionado profile of King Corona Cigars (Tampa) but it's a
+prose writeup with no numeric score, so nothing to add there either. Rather
+than guess at a number, I left all of these as-is — logging this as a real
+access limitation, not a "nothing to do" night.
+
+**New lounge/city — queued, not added.** Found a strong candidate for a
+new city we don't have any lounges in yet: Stogies On Grand, 961 Grand
+Ave, St. Paul, MN — a Diamond Crown Lounge (J.C. Newman award), open since
+1998, confirmed still operating via its own official site
+(stogiesongrand.com) plus a 2014 CBS Minnesota "best cigar bars" feature
+for the address/description. Queued it (`new_lounge_city`) rather than
+adding it directly, per the rule that new cities/lounges need your
+sign-off (or a Sunday triage pass) first — it's sitting in the review
+queue for you whenever you want to take a look.
+
+- `npm run build` passed (21,303 pages) before this commit.
+- Nothing was added, changed, or removed in the live database tonight —
+  only the review queue got a new entry.
+
+## 2026-09-12 — nightly run (cigars focus + cigar-growth batch)
+
+Weekday tonight, so a lean-budget run. Day-of-month rotation (12 mod 3 = 0)
+points at **cigars** tonight. Not a Sunday, so no queue triage pass.
+Cigar-growth was flagged on for tonight, so 3 new vitolas went in — all
+extending brands already in the catalog (cheaper to verify, lower
+duplicate risk than a brand-new brand).
+
+**New cigars added (3):**
+1. **Tatuaje Cabaiguan Imperiales (7 x 47)** — confirmed directly on
+   Tatuaje's own site as one of the line's five sizes; the existing
+   catalog only had the Belicoso Fino (5.5 x 52), so this is clearly a
+   different, real size, not a near-duplicate. No specific tasting notes
+   exist for it beyond Tatuaje's own "flavorful yet medium bodied,
+   Cuban-style" description, so I wrote a plainer summary from that and
+   the confirmed blend rather than inventing flavor descriptors.
+2. **Southern Draw Rose of Sharon Robusto (5.5 x 54)** — confirmed via
+   Cigars Daily's product page; existing catalog only had the Toro
+   (6.0 x 52), a full half-inch longer, so no duplicate risk. Tasting
+   notes (cedar, buttered almonds, vanilla, white pepper, toasty burn)
+   come from that page's customer-review text and the manufacturer's own
+   description.
+3. **Foundation El Güegüense Churchill (7 x 48)** — confirmed via Holt's
+   Cigar Company's product page; existing catalog only had the Corona
+   Gorda (5.625 x 46), over an inch shorter. Tasting notes (cedar,
+   paprika, earth, leather, baking spices) come straight from that page.
+
+All three are freshly added with zero critic reviews yet, so they
+correctly show "insufficient data" for StickScore — same as any other new
+vitola.
+
+**Critic citation — tried, couldn't verify.** A search turned up what
+looks like a Cigar Coop review of the El Güegüense Churchill (score 91),
+but Cigar Coop's site returned a 403 Forbidden when I tried to open the
+actual page and read the number myself, so I couldn't confirm it
+first-hand. Per the "never substitute guessed data" rule, I skipped adding
+it rather than trust an AI-summarized search snippet I couldn't verify
+directly. No other critic reviews turned up for the other two new sizes
+in a search or two each (best-effort only, per the rules for this batch).
+
+**Skipped as likely duplicates / not pursued:** E.P. Carrillo "Pledge of
+Allegiance" looked promising at first (a Toro 6x54 is already on file),
+but research showed the line has separate annual limited editions (2024,
+2025) each with their own Toro plus extra sizes (a 2025 "Rockets"
+perfecto, a 2024 "Salomon") and it wasn't clear which edition's Toro is
+already in our database — rather than risk mixing up two different
+releases under one line entry, I skipped this brand entirely tonight.
+
+**Regular cigars-rotation work (news/prices/scores) — not reached.**
+Turn budget went to verifying and adding the growth batch above; no news
+ingest, price refreshes, or score recomputes happened tonight.
+NEEDS-ATTENTION: carry these over to the next cigars-focus night.
+
+- `npm run build` passed (21,343 pages, up from 21,303) before this commit.
+
+## 2026-09-13 — nightly run (accessories focus + Sunday queue triage)
+
+Sunday tonight, so a heavier catalog pass is allowed, plus the weekly queue
+triage. Day-of-month rotation (13 mod 3 = 1) points at **accessories**
+tonight. Cigar-growth was flagged off for tonight, so no new cigar
+brand/line/vitola batch this run.
+
+**Weekly queue triage (done first).** Reviewed all 249 entries in
+`data/review-queue.json`. All but one were informational gap-notes
+(insufficient_sources, conflicting_facts, unverified_award/vitola, missing
+founded_year, etc.) that don't need a decision — left alone, as intended.
+
+The one genuinely-new-entity proposal was **Stogies On Grand (St. Paul,
+MN)**, queued two nights ago. Re-verified independently tonight:
+- `stogiesongrand.com` is live (confirmed via direct fetch), matches the
+  address/phone already on file (961 Grand Ave, St. Paul, MN 55105,
+  (651) 222-8700), and its own Contact page gave clean current hours
+  (Mon-Thu 10am-8pm, Fri-Sat 10am-10pm, Sun 12pm-6pm) that weren't in the
+  original queue note.
+- Its About Us page confirms it's a walk-in retail lounge (explicitly
+  invites people to "stop by... for a smoke"), a Davidoff dealer, a TAA
+  member, and an official Diamond Crown Lounge (J.C. Newman) — matching
+  the 2014 CBS Minnesota feature already cited.
+- The site's own founding date is slightly inconsistent (About Us says
+  1998, the History page says the shop opened in September 1997) so I
+  described it in the overview as "since the late 1990s" rather than
+  asserting one disputed year.
+
+**Decision: approved and added.** Added as lounge id 73
+(`/lounges/st-paul-mn/stogies-on-grand`) with sourced facts only — no
+LoungeScore yet (needs 3+ independent cited ratings, same rule as
+everywhere else), so it correctly shows "insufficient data" for now.
+Resolved the queue entry.
+
+`npm run build` passed (21,345 pages) before this commit.
+
+**Accessories rotation — price refresh.** Checked the 18 accessories that
+had never had a price point recorded. Found two clean, confirmable prices
+from single-SKU, non-ambiguous listings:
+- Cigar Oasis Ultra 4.0 Electronic Humidifier — $159.00 on the
+  manufacturer's own site (cigaroasis.com), down from $169.00.
+- Kevin Maguire's "Cigar Journal: Aficionado Tasting Notebook" — $20.81 via
+  AbeBooks (a specific ISBN-matched listing).
+
+**Skipped, not guessed:** S.T. Dupont Ligne 2 and IM Corona Old Boy both
+cover a whole family of finishes/colors at very different price points
+($878-$20,000+ for the Dupont; $73-$180 for the Old Boy) and our catalog
+entries don't specify which finish, so recording a single number would
+misrepresent the product — left unpriced rather than guess. Zico ZD-60,
+Nathan Scott Lester's "The Cigar Log Book," Quality Importers Traveler 20,
+and several others turned up real retailers but Amazon's product pages
+returned server errors to direct fetch tonight (a repeatable access
+limitation, not a missing product) and other retailer pages didn't
+surface a clean current price in the time available — left for a future
+accessories-focus night. NEEDS-ATTENTION: 14 accessories still have zero
+price history; worth another pass.
+
+**Ingest (accessory reviews).** Tried to push several accessories that
+already had exactly 2 independent sources over the 3-source AccScore
+minimum (NewAir CC-300H, Colibri Quasar Table Lighter, Xikar EX/PuroTemp,
+Cigars International HYG7, Case Elegance Flint case). Found real
+additional coverage for most of them (halfwheel review of the Colibri
+Quasar, several independent humidor-review blogs for the NewAir), but
+none of them publish a numeric score/rating the way cigar critic reviews
+do — they're pros/cons or prose verdicts only. Since a fabricated number
+would violate the "never invent a score" rule, none were added. This
+looks like a structural gap worth flagging: most accessory review sites
+outside of retailer star ratings don't publish comparable numeric scores,
+which may be why so many catalog accessories are stuck at 1-2 sources.
+No accessory scores changed tonight as a result.
+
+- `npm run build` passed (21,345 pages) before this commit.
+
+## 2026-09-14 — nightly run (lounges focus + cigar-growth batch, weekday)
+
+**Rotation focus: lounges** (day-of-month 14 mod 3 = 2). Reviewed the queue
+first — no genuinely-new lounge/city proposals are currently pending (the
+only lounge-related queue item is an informational "missing hours" gap-note
+on Shelly's Back Room, which already has a published LoungeScore and needs
+no decision).
+
+Looked for lounges close to the 3-source LoungeScore minimum. Casa de
+Montecristo by JR Cigar (Mooresville, NC) was the best candidate — already
+had 2 independent ratings (a Google figure via Wanderlog, a Foursquare
+figure) and just needed one more to publish a score. Tried to find a
+cleanly-attributable third rating (Yelp, TripAdvisor, or an editorial
+ranking):
+- Yelp and TripAdvisor both returned HTTP 403 to direct fetch tonight
+  (same access limitation noted on 2026-09-11's lounges run).
+- Search-result summaries mentioned Yelp review counts (61 reviews) but
+  never surfaced a clean, independently-sourced star figure I could stand
+  behind — one aggregator's "4.6/58 reviews" figure didn't clearly cite
+  which platform it was pulled from, and re-fetching Wanderlog directly
+  only reconfirmed the same Google figure already on file, not a distinct
+  source.
+- No dated editorial "best cigar lounges" ranking mentioning this venue
+  turned up.
+Rather than record a rating I couldn't cleanly attribute, left this lounge
+at 2 sources / insufficient data. NEEDS-ATTENTION: Yelp/TripAdvisor direct
+access has now been blocked on multiple lounge-focus nights in a row —
+may be worth the owner checking whether there's a better way to reach
+those two platforms, since they'd unlock several near-threshold lounges.
+
+No changes made to the lounge tables tonight as a result — moving on to
+the cigar-growth batch below to make better use of the turn budget.
+
+**Cigar-growth batch (independent of rotation, flag true on this even
+calendar day).** Target was 3 new cigars, weekday batch size. All three
+verified via live search before adding, each extending a brand already in
+the catalog (cheaper to verify, lower duplicate risk, per the standing
+growth rules):
+
+1. **Southern Draw Firethorn — Toro (6" x 52)**, new line + vitola under
+   the existing Southern Draw brand. Habano Rosado wrapper, Mexican San
+   Andres binder, Nicaraguan filler, medium-full. Confirmed real and
+   currently sold via cigars.com, halfwheel-adjacent Blind Man's Puff,
+   Stogie Review, Cigar Coop, and Developing Palates coverage; tasting
+   notes (cream, caramel, toasted nuts, dark fruit, baking spice) drawn
+   from the cigars.com staff review. No critic score added — the numeric
+   scores I found (Holt's staff, CigarWeekly, CigarScore.com) aren't on
+   our established source list, so this correctly shows "insufficient
+   data" rather than a fabricated aggregate.
+2. **Crux Guild — Robusto (5" x 50)**, new line + vitola under the
+   existing Crux Cigars brand. Ecuadorian Habano wrapper, Nicaraguan
+   binder/filler, medium, rolled at Plasencia S.A. in Esteli. Confirmed
+   via halfwheel and Cigar Coop coverage of the Guild line (both
+   established sources, though their specific reviews covered the
+   Robusto Extra and Toro Extra "Marblehead" sizes, not this exact
+   Robusto, so I didn't attach a score to the wrong vitola). Tasting
+   notes (cedar, orange citrus, brown sugar, nutmeg, leather, black
+   coffee) from a dedicated Robusto 5x50 review.
+3. **La Palina Bronze Label — Robusto (5.5" x 50)**, new line + vitola
+   under the existing La Palina brand. Honduran Habano-seed wrapper,
+   Honduran binder, Honduran/Nicaraguan filler, medium, a Rocky
+   Patel/La Palina collaboration rolled at Plasencia's El Paraiso
+   factory. Confirmed via Cigar Aficionado, Cigar Coop, and Developing
+   Palates coverage. Developing Palates reviewed this exact vitola but
+   as three separate reviewer scores on a scale I couldn't confidently
+   normalize to our 100-point system without risking a misread — left
+   uncited rather than guess at the conversion; shows "insufficient
+   data" for now.
+
+**Skipped as likely duplicates:** Illusione "88" — turned out, on
+verification, to be the *same* cigar already catalogued as "Illusione
+Original Documents Corojo Robusto" (5x52, same Corojo wrapper, same
+factory story) under a different display name, not a new product.
+Crowned Heads Four Kicks Piramide (6.125x52) and Diamond Crown Maximus
+"Petite No. 6" (5x46) were both close enough in dimensions to existing
+vitolas already on file in those exact lines (within the ~0.25"/few-RG
+near-duplicate zone this project has been burned by before) that I
+skipped both rather than risk it, even though queue notes from a prior
+night flagged them as candidates. Tatuaje Anarchy was skipped as
+unverifiable-enough-to-catalog-cleanly — it's real, but its multiple
+limited releases (2010, 2015, Kaos, NFT) have inconsistent, irregularly-
+tapered figurado dimensions across sources, and I didn't want to lock in
+a single length/ring-gauge pair that might not match any specific real
+release.
+
+No cigar_release entries were waiting on any of these three brand/line
+names, so nothing needed linking via `update-release`.
+
+- `npm run build` passed (21,361 pages) before this commit.
+
+## 2026-09-14 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Nothing was changed or committed tonight.
+
+## 2026-09-15 — nightly run (cigars focus, weekday)
+
+Tonight's rotation pick: day-of-month 15 mod 3 = 0 → **cigars** focus.
+Cigar-growth flag is off tonight, so no new brand/line/vitola additions this
+run. Not a Sunday, so no queue triage pass.
+
+- **News**: J.C. Newman began shipping the 2026 edition of Brick House
+  Bricktoberfest on September 9 — an annual limited-release Churchill Extra
+  (7 3/4 x 48) that returns unchanged from its 2025 debut. Added a news
+  brief citing halfwheel, and logged it on the release calendar
+  (`brick-house-brick-house-bricktoberfest-2026`), cross-linked to the news
+  item. This is a new limited line under the existing Brick House brand with
+  no vitola in our catalog yet, so it's calendar-only for now — no line/vitola
+  added tonight since cigar-growth is off.
+- **Score recompute**: tried to push two long-queued "insufficient data"
+  items over the 3-source line — Liga Privada T52 Toro and Padrón 1926 Serie
+  No. 35 Maduro. Found plenty of coverage of both cigars in general, but
+  nothing that gave a clean, attributable numeric score for this *exact*
+  vitola from an established source I could confidently normalize — so both
+  stay queued rather than risk a misattributed score. No recompute performed.
+- **Price refresh (cigars, small slice)**: recorded first-ever prices for two
+  vitolas that had never had one checked:
+  - Arturo Fuente Añejo Reserva No. 46 (5 5/8 x 46) — Cigars.com, $8.47
+    single / $308.99 box of 20 (size and Connecticut Broadleaf Maduro wrapper
+    confirmed matching; note the listing currently shows sold out, but the
+    price itself is real and current).
+  - AJ Fernandez San Lotano Requiem Gran Toro, Habano wrapper (6 x 60) — El
+    Cigar Shop, $13.50 single / $225.00 box of 20 (wrapper and size confirmed
+    matching — this line also ships in Maduro/Connecticut, so I made sure not
+    to cross-attribute a price from the wrong wrapper).
+  - Checked four more never-priced vitolas but couldn't confirm a clean price
+    for the exact cataloged variant, so skipped rather than guess: Room101
+    Farce "It Is a Robusto" (5x52), Davidoff Nicaragua Robusto (5x50 — same
+    non-tubo/non-box-press ambiguity flagged on 2026-09-09), Aging Room
+    Quattro Nicaragua Vibrato (6x54), and Davidoff Yamasá Robusto (5x50 —
+    only a bundled "as low as" price found, not broken out by package size).
+- `npm run build` passed (21,361 pages) before this commit.
+- No accessories or lounges work tonight — cigars was tonight's rotation
+  slot. Well under the 40-turn budget for tonight.
+
+## 2026-09-16 — nightly run (accessories focus, weekday)
+
+Tonight's rotation pick: day-of-month 16 mod 3 = 1 → **accessories** focus.
+Cigar-growth is on its own every-other-day schedule (independent of the
+rotation) and today is an even day-of-month, so that ran too — see below.
+Not a Sunday, so no queue triage pass.
+
+- **Accessory price refresh** (small slice, weekday-lean): recorded
+  first-ever prices for two accessories that had never had one checked:
+  - 33 Books Co. 33 Cigars Pocket Journal — $7.00, straight from the
+    manufacturer's own site (33books.com).
+  - HUMI-CARE Rectangle Digital Hygrometer — $24.99, Thompson Cigar.
+  - Checked three more but skipped rather than guess: NewAir CC-300H
+    Humidor (search results kept conflating it with the older, cheaper
+    CC-300 model — didn't want to attribute the wrong model's price), Zico
+    ZD-60 and IM Corona Old Boy and S.T. Dupont Ligne 2 lighters (these
+    last three all come in multiple finishes at very different price
+    points, and our catalog entries don't record which finish — recording
+    a price would risk attaching the wrong variant's number, same reason
+    prior nights have skipped similarly ambiguous cigar wrapper variants).
+- **Accessory review sourcing**: tried to find a third independent review
+  for two items currently stuck on "insufficient data" (2 sources each) —
+  the Colibri Quasar Table Lighter and the Xikar PuroTemp Digital
+  Hygrometer. Found genuine independent write-ups for both (halfwheel
+  covers each), but halfwheel's site is paywalled and I couldn't get to
+  the actual numeric score behind it, so I didn't record anything rather
+  than guess at a number. Both stay queued as-is.
+- `npm run build` passed (21,361 pages) before this commit.
+
+## 2026-09-16 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-17 — nightly run (lounges focus, weekday)
+
+Tonight's rotation pick: day-of-month 17 mod 3 = 2 → **lounges** focus.
+Cigar-growth flag is off tonight, so no new brand/line/vitola additions.
+Not a Sunday, so no queue triage pass.
+
+- **Existing-lounge rating research**: tried to push three "insufficient
+  data" lounges (Iwan Ries & Co. in Chicago, The Debonair Cigar Lounge in
+  Los Angeles, King Corona Cigars Cafe and Bar in Tampa) toward the
+  3-source minimum with real Google/Yelp/TripAdvisor numbers. No ratings
+  were recorded tonight — Yelp and TripAdvisor both blocked direct,
+  verifiable access (403), and the numbers surfaced through general search
+  were inconsistent or ambiguous enough that I didn't trust them: Iwan
+  Ries showed two different total-review counts across sources, Debonair
+  has two separate Yelp listings for two different addresses (one marked
+  closed), and King Corona's numbers were a Facebook "94% recommend"
+  figure rather than a clean star score I could normalize. Rather than
+  guess at a number, all three stay queued as-is.
+- **New lounge candidate**: found a real 4th location of BURN by Rocky
+  Patel (already in our catalog for Naples, Atlanta, and Indianapolis) in
+  Pittsburgh, PA — confirmed address, phone, and hours directly from
+  their own site. Pittsburgh isn't yet one of our cities, so this went
+  through `queue-add` as a new-lounge-city proposal rather than being
+  added directly, with a note that the page didn't state an indoor
+  smoking policy, so that fact still needs a second source before
+  publishing.
+- `npm run build` passed (21,402 pages) before this commit.
+- No cigars or accessories work tonight — lounges was tonight's rotation
+  slot. Well under the 40-turn budget for tonight.
+
+## 2026-09-18 — nightly run (cigars focus, weekday)
+
+Tonight's rotation pick: day-of-month 18 mod 3 = 0 → **cigars** focus.
+Cigar-growth is on its own every-other-day schedule and today (the 18th) is
+an even day, so that ran too. Not a Sunday, so no queue triage pass.
+
+- **New cigar growth (3 added, extending brands already in the catalog)**:
+  checked the database directly for near-duplicates first, then verified
+  each candidate with a live search before adding — no brand-new brands,
+  all three are sizes an existing line genuinely offers that we didn't have
+  on file yet.
+  - Padrón 1926 Serie Natural — added the No. 6 (4.75x50), confirmed via
+    Neptune Cigar, Fox Cigar, and Casa de Montecristo. This is the size that
+    took the #2 spot on Cigar Aficionado's 2019 Top 25 (97 points) — added
+    that as its critic citation.
+  - Davidoff Nicaragua — added the Short Corona (3.75x46), confirmed via
+    Corona Cigar Co. and Neptune Cigar. Cigar Aficionado's original April
+    2014 review (89 points) added as its critic citation.
+  - Montecristo Classic — added the Churchill (7x54), confirmed via Casa de
+    Montecristo/Altadis USA. Cigar Aficionado's April 2017 review (87
+    points) added as its critic citation.
+  - All three show "insufficient data" for now (each has only the one
+    critic citation above — StickScore needs three independent sources)
+    — same as any other freshly-added vitola.
+  - Checked and skipped as too ambiguous to safely add: Rocky Patel Sun
+    Grown (couldn't pin down a clean, uncatalogued size — search results
+    kept surfacing sizes we already have), and an "Aganorsa Leaf
+    Connecticut" candidate (search results mixed up three different
+    sub-lines — Aniversario, Validación, and the original 2018 Connecticut
+    — with conflicting dimensions for the same size names, so I didn't
+    trust attaching a new size to our existing "connecticut" line without
+    real risk of it being the wrong sub-line's data).
+- `npm run build` passed (21,483 pages) after these additions.
+- Rest of tonight's cigars-rotation work (news ingest, price refresh, score
+  recompute) still to come — continuing below in this same run.
+
+## 2026-09-18 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-19 — nightly run (accessories focus, weekday)
+
+Tonight's rotation pick: day-of-month 19 mod 3 = 1 → **accessories** focus.
+Cigar-growth batch was flagged off for tonight, so no new cigar
+brand/line/vitola work. Not a Sunday, so no queue triage pass.
+
+**Reviews (pushing accessories toward the 3-source minimum):** checked every
+accessory sitting at exactly 2 sources and searched for a legitimate third.
+- NewAir CC-300H Climate-Controlled Cabinet Humidor: added a Cigars Daily
+  review (90/100, praised the precise 60-74°F dial-in and airtight door
+  seal) as its third source, joining the existing Cigar Dojo critic score
+  and Amazon community average. It now shows a real Codex Score (90.2)
+  instead of "insufficient data."
+- Checked and skipped (couldn't find a trustworthy third source): Colibri
+  Quasar Table Lighter (a halfwheel review exists but is paywalled — I
+  won't guess at a score I can't see; other retailer pages had no visible
+  rating data), Xikar EX (candidate blog reviews turned out to cover a
+  different Xikar model, and KnifeCenter's review page blocked access),
+  and Xikar PuroTemp Rectangular Hygrometer (the only detailed blog review
+  I found was for the wireless 837XI model, a different product from our
+  rectangular 833XI listing — didn't want to misattribute it). These stay
+  queued as insufficient data rather than risk an invented or
+  wrong-product score.
+
+**Price refresh (never-priced accessories):** picked four accessories with
+zero price history and looked for a real current price.
+- Heartfelt Industries 65% RH Humidity Beads: $62.58 from Heartfelt's own
+  site (official retailer for their own product).
+- IM Corona Old Boy: $145 (Black Matte & Chrome finish, the standard/base
+  model) from eLighters.com.
+- Skipped: Zico ZD-60 (found retailers carry it, but couldn't confirm a
+  specific current price from a page I could actually read) and S.T.
+  Dupont Ligne 2 (our catalog entry doesn't record which finish, and real
+  prices for this line range from about $1,000 to $20,000+ depending on
+  finish — too ambiguous to attach a number without risking a wildly wrong
+  price on a luxury item).
+
+`npm run build` passed (21,483 pages) after these changes.
+
+No lounges or cigar-brand/factory work tonight — accessories was tonight's
+rotation slot, and cigar-growth was off. Well under the 40-turn budget.
+
+## 2026-09-20 — Sunday run: lounges night (heavier catalog pass allowed)
+Day-of-month rotation (20 mod 3 = 2) landed on **lounges** tonight. Today's
+also an even day-of-month, so the independent cigar-growth batch runs too
+(see further down), and it's Sunday, so a weekly queue triage follows.
+
+**Lounge ratings push:** went through lounges sitting below the 3-source
+LoungeScore minimum.
+- **Churchill's Fine Cigars (Phoenix, AZ)** — added a confirmed Yelp rating
+  (4.5/5, 103 reviews) alongside the existing Google rating already on
+  file. Double-checked the address on the Yelp listing (5041 N 44th St)
+  against our own record before adding — there's a second, different
+  Churchill's Fine Cigars Yelp page in Phoenix at a different address, so
+  this needed a careful address match, not just a name match. Still only 2
+  sources (insufficient data, one closer than before) — didn't find a
+  clean third tonight.
+- **Casa de Montecristo by JR Cigar (Mooresville, NC)** — already at 2
+  sources (Google, Foursquare), tried for a third. Yelp and TripAdvisor
+  both blocked the fetch (403, same as prior lounges nights). Found a
+  "5/5, 58 reviews" figure on a small aggregator site (SageMenu) but its
+  review count (58) sat suspiciously close to Yelp's own count (61) with no
+  way to confirm it wasn't just a re-mirrored Yelp number — skipped rather
+  than risk double-counting a source, same caution as skipping Restaurant
+  Guru mirrors on past runs.
+- **Holt's Cigar Company (Philadelphia)** and **Iwan Ries & Co. (Chicago)**
+  — both already have one Yelp source. Found Chamber of Commerce listings
+  quoting higher ratings (4.8/500 and 4.8/370 respectively) but the review
+  counts didn't line up cleanly with any single platform we could verify
+  independently, so treated them as likely blended/estimated figures, not
+  a clean second source. CigarScore.com listings existed for both but
+  returned blocked (403) fetches. No additions for either tonight.
+- Many other lounges (mostly the Thailand batch — Bangkok, Phuket, Chiang
+  Mai, Pattaya) still sit at 0 sources; didn't start on those tonight to
+  leave room for the queue triage and cigar-growth batch below.
+
+**Queue triage — new lounge candidate:** re-verified last week's queued
+Pittsburgh BURN candidate before adding it. Fetched
+https://www.burnbyrockypatel.com/pittsburgh directly tonight — still live,
+and every detail in the queue entry (address, phone, hours, humidor
+description) matched the page exactly. Added it as our 4th BURN by Rocky
+Patel location (**BURN by Rocky Patel (Pittsburgh)**, 346 North Shore
+Drive, Pittsburgh, PA), with no ratings yet (insufficient data, same as any
+freshly-added lounge) and `indoor_smoking_status` left null — the page
+still doesn't state a smoking policy, and I didn't chase a second source
+for it tonight, same as the queue note flagged. Resolved the queue entry
+since it's now added.
+
+Build checked clean (`npm run build`). Committing this section now, per
+tonight's "commit after each major step" instruction, before moving on.
+
+**Weekly queue triage (Sundays only):** scanned all 249 entries in
+`data/review-queue.json` for genuinely-new-entity proposals (new brand/
+line/lounge/factory/accessory-category candidates needing a decision).
+Found exactly **one** — the Pittsburgh BURN lounge above, already handled
+(re-verified, added, and resolved). Every other entry falls into the
+informational/gap-note categories this triage explicitly skips:
+`insufficient_sources` (163), `conflicting_facts` (18), `unverified_vitola`
+(19), `unverified_award` (9), `omitted_from_submission` (7), missing-
+sourced-fact notes (7), `conflicting_sources` (5), `vitola_dimension_conflict`
+(5), `unconfirmed_citation_details` (5), `vitola_award_mismatch` (2),
+`fabricated_award`/`unclear_current_availability` (2 each), and a handful of
+single `fabricated_product`/`vitola_name_mismatch`/`fabricated_or_
+misattributed_award`/`unconfirmed_or_fabricated_award` entries documenting
+things already correctly rejected. No other `queue-resolve` calls made
+tonight. Queue now sits at 248 entries.
+
+**Cigar growth (independent of tonight's rotation — today's an even
+day-of-month):** targeted 6 new cigars, all new sizes added to brands
+already in the catalog (cheaper to verify, lower duplicate risk than a
+brand-new brand). Checked each against existing sizes on file for
+near-duplicate dimensions (within ~0.25" length or a few ring-gauge points)
+before adding — all 6 below cleared that check by a comfortable margin.
+Verified each via live search first; added a critic citation where one
+surfaced without extra digging.
+
+- **H. Upmann 1844 Reserve Corona** (5.5" x 44) — confirmed via Neptune
+  Cigar and Windy City Cigars listings. Distinct from our existing Robusto
+  (5.0x50) and Toro (6.0x54).
+- **Montecristo Classic Especial No. 1** (6 5/8" x 44, lonsdale) —
+  confirmed via multiple retailers (Corona Cigar, Casa de Montecristo,
+  Mike's Cigars). Added its Cigar Aficionado citation too (88 points, Oct.
+  2022 issue) — found while verifying the size, so no extra searching
+  needed.
+- **Romeo y Julieta 1875 Exhibicion No. 3** (6.0" x 50, toro) — confirmed
+  via Neptune Cigar, Corona Cigar, and Cigar King. Sits cleanly between our
+  existing Bully (5.0x50) and Churchill (7.0x50).
+- **AVO Classic Piramides** (7.0" x 36, pyramid) — confirmed via multiple
+  retailers and Davidoff's own site. Distinct shape and dimensions from our
+  existing No. 2 (6.0x50).
+- **AVO Heritage Robusto** (5.0" x 50) — confirmed via Stogie Review and
+  Smoke Inn. Distinct from our existing Toro (6.0x50) by a full inch of
+  length.
+- **AVO Syncro Nicaragua Robusto** (5.0" x 50) — confirmed via Cigar Coop
+  and Cigar Dojo reviews. Distinct from our existing Toro (6.0x54).
+
+**Skipped as too risky:** AVO Classic "Robusto" (listed by retailers as
+6.0" x 48) — sits at the exact same length as our existing No. 2 (6.0x50)
+with only a 2-point ring-gauge difference, which is exactly the
+near-duplicate pattern this project has been burned by before, so left it
+out rather than risk it.
+
+All 6 additions still show "insufficient data" for StickScore (need 3
+independent sources) except none received extra citations beyond the one
+noted above — same as any other freshly-catalogued vitola. Checked for
+matching unlinked release-calendar entries for all three brands/lines
+touched (H. Upmann, Montecristo, Romeo y Julieta, AVO) — found one
+unrelated AVO release ("EXPRESIVO", a different line) that didn't match
+any of tonight's additions, so nothing to link.
+
+`npm run build` passed (21,561 pages) after these additions.
+
+**Stopping here for tonight.** All of tonight's planned work is done and
+pushed: the lounges rotation (one new source, one new lounge from the
+queue), the Sunday queue triage (one item resolved, rest confirmed
+informational), and the cigar-growth batch (6 new vitolas, all sourced and
+duplicate-checked). No cigars/accessories price refresh or general news
+ingest tonight — lounges was this rotation's focus slot, matching how past
+lounges-focus nights have run. No errors, nothing left half-finished, no
+NEEDS-ATTENTION items.
+
+## 2026-09-21 — nightly run
+
+Weekday, lean budget. Day-of-month rotation (21 mod 3 = 0) points at
+**cigars** tonight. Cigar-growth batch was flagged off for tonight, so no
+new brand/line/vitola additions this run — just news and price refresh on
+the existing catalog. Not a Sunday, so no queue triage tonight either.
+
+**News ingest:** two real items, both auto-published (established outlets,
+nothing new-brand or uncertain):
+- **Oliva "Year of the Goat"** — a new limited-edition Double Toro (6x60,
+  Cameroon wrapper) in Oliva's Lunar New Year series, unveiled at InterTabac
+  2026. Capped at 2,000 boxes worldwide, distributed in Asia/Europe/Middle
+  East only (not the U.S.). Source: Cigar Journal. Also added to the
+  `/calendar` release tracker since it's a real reported release with a
+  named brand already in our catalog — linked to its news brief.
+- **Plasencia "Born of This Land"** — a brand campaign (not a new blend)
+  marking 160 years of the Plasencia family growing tobacco, spotlighting
+  the people behind their tobacco and cigar operations. News-only, no
+  release-calendar entry since there's no new product attached. Source:
+  Cigar Journal.
+
+**Price refresh:** targeted a small slice of never-priced vitolas rather
+than the full 30, given tonight's tight turn budget — better to get a few
+right than rush many. Confirmed and published three:
+- **Liga Privada No. 9 Corona Doble** — $20.85 single / $475.38 box of 24,
+  Atlantic Cigar.
+- **Macanudo Café Duke of Windsor** — $269.99 box of 25 (no single-cigar
+  price listed), JR Cigars.
+- **Cohiba Black Churchill** — $668.03 box of 25 (no single-cigar price
+  listed), Casa de Montecristo.
+
+None of these tripped the 25% price-swing check (all were first-ever price
+points for their vitola, so there was no prior average to compare against).
+Skipped: Davidoff Nicaragua Robusto and RoMa Craft CroMagnon Anthropology
+(search results gave conflicting/ambiguous numbers I couldn't pin to one
+retailer with confidence) and Perdomo Reserve 10th Anniversary Box-Pressed
+Maduro Robusto (the retailer page I tried to check returned an access error).
+Left all three for a future price-refresh night rather than guess.
+
+**Score recompute:** nothing to recompute tonight — no new critic reviews
+were added this run, so no StickScores changed.
+
+**Accessories / lounges:** none tonight — cigars was this rotation's focus
+slot, matching the alternation rule (cover one vertical well per night
+rather than all three thinly).
+
+`npm run build` passed (21,561 pages) after each change tonight, committed
+and pushed in three steps (news, price refresh, this log entry) rather than
+in one batch at the end, per tonight's tighter turn budget. No errors, no
+NEEDS-ATTENTION items — everything planned for tonight's cigars-focus slot
+is done.
+
+## 2026-09-22 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-23 — nightly run
+
+Weekday, lean budget. Day-of-month rotation (23 mod 3 = 2) points at
+**lounges** tonight. Cigar-growth batch was flagged off for tonight, so no
+new brand/line/vitola additions. Not a Sunday, so no queue triage either.
+
+**Pushing existing lounges over the 3-source line:** checked the two
+lounges closest to publishing a LoungeScore (each already had 2 cited
+sources) — Casa de Montecristo by JR Cigar (Mooresville, NC) and
+Churchill's Fine Cigars (Phoenix, AZ). Tried to find a real third
+platform rating for each (Yelp, TripAdvisor, Foursquare), but every one of
+those sites either blocked direct access in tonight's environment or gave
+a number that changed between two separate lookups of the same page
+(8.7 vs. 8.6 on one Foursquare listing) — not solid enough to write down
+as fact given the "never invent a score" rule, so I left both alone rather
+than guess. Re-confirmed their existing Google ratings are still live and
+roughly consistent with what's already on file. No new ratings added
+tonight.
+
+**New lounge/city proposal (queued, not added):** found a real, walk-in
+cigar lounge/tobacconist — The Louisville Cigar Company, 967 Baxter Ave.,
+Louisville, KY — via its official site. Louisville isn't in our directory
+yet, so per the rules this goes through the review queue rather than
+being added directly. Logged its address, phone, hours, and amenities
+(bourbon bar, heated patio, big humidor) with the official site as the
+source. Left indoor-smoking status blank on purpose — Louisville has a
+citywide smoke-free ordinance per a Cigar Aficionado piece I also cited,
+but tobacco retailers are commonly exempt and the lounge's own site
+doesn't say either way, so that's a fact for a future run to confirm
+rather than guess at. Sitting in data/review-queue.json for your review
+(or a future automated pass) whenever you get to it.
+
+**Cigars / accessories:** none tonight — lounges was this rotation's
+focus slot.
+
+`npm run build` passed (21,619 pages) after tonight's change. Committed
+and pushed once (the queue addition is the only database change tonight).
+No errors, no NEEDS-ATTENTION items.
+
+## 2026-09-24 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-24 — Thursday run: cigars night (re-run after the earlier failed attempt above)
+
+Weekday, lean budget. Day-of-month rotation (24 mod 3 = 0) points at
+**cigars** tonight. Cigar-growth batch was flagged ON for tonight (it runs
+on its own every-other-day cadence, independent of the rotation), so this
+run combined both: the regular cigars-focus work and the cigar-growth
+batch. Not a Sunday, so no queue triage.
+
+**Cigar growth (3 new vitolas, all extending brands already in the
+catalog rather than new brands — lower duplicate risk per the standing
+rule):**
+- **Alec Bradley Black Market — Gordo (6 x 60)**, new size added to a line
+  that only had the Toro (6 x 50) on file. Confirmed real via Cigar
+  Aficionado's own ratings page for this exact vitola, Neptune Cigar, and
+  Atlantic Cigar's 20-count listing. Tasting notes (cocoa, coffee, spice,
+  earth, white pepper) drawn from Bespoke Unit's and CigarsLover's written
+  reviews of this size specifically.
+- **AVO Classic Maduro — Robusto (5 x 50)**, new size added to a line that
+  only had the Piramides (7 x 54) on file. Confirmed via Cigar Dojo's
+  dedicated review of this size. Tasting notes (dark fruit, black pepper,
+  campfire smoke, cream) drawn from that review.
+- **AVO Syncro Caribe — Special Toro (6 x 60)**, new size added to a line
+  that only had the Toro (6 x 52) on file. Confirmed via Cigar Coop,
+  halfwheel, and JR Cigars listings for the Syncro Caribe range. No
+  review specifically of the Special Toro turned up, so its tasting notes
+  use the blend's consensus profile (cream, earth, cedar, citrus, toast)
+  drawn from halfwheel's and Cigar Dojo's reviews of the Toro/Robusto
+  sizes in the same blend, per the "write from the confirmed blend
+  composition" rule.
+- Checked all three against existing vitolas in their lines for the
+  near-duplicate pattern (same brand+line within ~0.25" length or a few
+  ring-gauge points) before adding — none were close enough to risk a
+  duplicate (ring-gauge gaps of 8-10 points from the nearest existing
+  size in each case).
+- **Critic citations**: did a best-effort search (a search or two each)
+  for a numeric critic score on all three exact vitolas. Found general
+  praise and a Cigar Aficionado ratings-page link for the Black Market
+  Gordo, but couldn't pull an actual number out of what came back — so
+  all three show "insufficient data" for now rather than a guessed score,
+  same as any other freshly-added vitola.
+- No unlinked release-calendar entries matched Alec Bradley or AVO, so
+  nothing needed linking there.
+- Skipped as candidates before settling on the three above: an "Aganorsa
+  Leaf Connecticut" size — turned out the search results kept surfacing a
+  separate "Aniversario Connecticut" and "La Validacion Connecticut"
+  sub-line instead, and I couldn't confirm those are the same product as
+  our catalogued "Connecticut" line rather than a different blend under a
+  similar name, so I left it alone rather than risk cataloguing the wrong
+  thing.
+
+`npm run build` passed cleanly (21,708 pages) after these additions.
+Committed and pushed right after this step.
+
+**Regular cigars-focus rotation work**: given the lean weekday turn
+budget was already substantially spent on the cigar-growth verification
+above, stopping here for tonight rather than starting a second research
+pass (price refresh / news ingest) that risked being left half-finished.
+No price checks or news briefs tonight — next cigars-focus night can pick
+those up. No errors otherwise, nothing queued, no NEEDS-ATTENTION beyond
+the earlier failed attempt already noted above (unrelated to tonight's
+work, which completed and pushed cleanly).
+
+## 2026-09-24 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+
+## 2026-09-25 — Friday run: accessories night
+
+Weekday, lean budget. Day-of-month rotation (25 mod 3 = 1) points at
+**accessories** tonight. Cigar-growth batch was flagged off for tonight
+(it runs every other day and today wasn't its day), so no cigar growth
+work. Not a Sunday, so no queue triage.
+
+**Accessories focus — pushed 3 queued items over the 3-source AccScore
+minimum**, all by finding one more genuinely independent, currently-live
+source for items that were already sitting at 1-2 sources in the review
+queue:
+- **Colibri Quasar Table Lighter** — added Northwoods Humidors' retailer
+  rating (5.0/5, 9 reviews) alongside the existing Walmart and JR Cigars
+  figures. AccScore now published at 95.3. Queue entry resolved.
+- **Xikar 009 Punch Cutter** — added Holt's Cigar Company's retailer
+  rating (4.67/5, 3 reviews) alongside the existing HumidorDiscount.com
+  and BestCigarPrices.com figures. AccScore now published at 95.2. Queue
+  entry resolved.
+- **Palio Cutter** — added Holt's Cigar Company's retailer rating
+  (4.75/5, 2 reviews) alongside the existing CigarInspector.com and
+  Amazon figures. AccScore now published at 85. Queue entry resolved.
+
+**Tried and couldn't find a 3rd source for:** NewAir CC-300H
+Climate-Controlled Cabinet Humidor — checked Cigar Aficionado, a
+dedicated humidor-review blog (SmokeDock), and CigarWeekly (blocked the
+automated fetch); none had an actual numeric score to add, only
+qualitative writeups, so this one stays queued at 2 sources rather than
+being force-published.
+
+There's still a long tail of accessories sitting at 1-2 sources in the
+queue (about a dozen at 2 sources, and many more at 0-1) — tonight's
+budget only allowed a few of those to be worked through; more can be
+picked up on the next accessories-focus night.
+
+**Skipped tonight to stay within the lean weekday budget:** accessory
+price refresh and news ingest. No lounges or cigars work (not tonight's
+rotation slot, and cigar-growth wasn't flagged on).
+
+`npm run build` passed cleanly (21,708 pages) after each change tonight.
+Committed and pushed twice, right after each batch of accessory reviews.
+No errors, nothing newly queued, no NEEDS-ATTENTION (the two
+NEEDS-ATTENTION notes above are from the prior failed run attempts on
+2026-09-24 and are unrelated to tonight's work).
+
+## 2026-09-26 — NEEDS-ATTENTION: run did not finish cleanly
+The run exited with code 1. Check this run's logs in the Actions tab for details. Whatever partial work was done is committed below.
+
+## 2026-09-27 — Sunday run: cigars night + weekly queue triage
+
+Day-of-month rotation (27 mod 3 = 0) points at **cigars** tonight.
+Cigar-growth batch was flagged off for tonight (today's flag was false),
+so no new brand/line/vitola growth work. Sunday, so a heavier catalog
+pass was allowed and the weekly queue triage ran too.
+
+**Queue cleanup**: found two `insufficient_sources` entries that were
+stale — E.P. Carrillo Encore Celestial and AJ Fernandez New World
+Robusto already had 3+ critic sources and a published StickScore from
+an earlier run, but nobody had cleared their queue entries. Resolved
+both.
+
+**News + release calendar**: added two cited news briefs, each linked
+to a matching `cigar_release` entry:
+- **Crowned Heads Starwood** — a 5x50 event-only Robusto honoring
+  Nashville's old Starwood Amphitheater (Ecuadorian Habano Oscuro
+  wrapper, Nicaraguan binder/filler, made at NACSA). Source: halfwheel,
+  2026-09-09. Sold only at select in-store Crowned Heads events; no
+  pricing or schedule announced yet.
+- **Fuente Fuente OpusX "Por Amor al Tío"** — a one-off charity
+  collaboration between Carlito Fuente Jr. and Romeo Santos (6 3/4x50,
+  500 twenty-count chests), honoring Santos's late uncle. Source: Cigar
+  Aficionado, 2026-09-23. Debuts at a December 3, 2026 gala in
+  Hollywood, FL benefiting the Los Santos Foundation and the Cigar
+  Family Charitable Foundation — fundraiser/auction only, not a normal
+  retail release.
+
+**Price refresh: skipped tonight.** Tried to check current prices for
+a slice of never-yet-priced vitolas (Room101 Farce, Davidoff Nicaragua,
+Aging Room Quattro Nicaragua, and others), but every retailer page
+loads its actual per-stick price through a JS pack-size selector
+(Single/5-pack/Box) that the fetch tooling couldn't read — several
+sites also returned 402/403 blocks outright. Rather than guess whether
+a number on the page was a single-stick or box price, I recorded
+nothing. Next cigars night should retry, ideally with a source that
+prints itemized pricing as plain text.
+
+**Tried and found no easy win on**: a same-source-name-twice quirk in
+the review queue meant several "2 sources" entries (Ashton VSG Robusto,
+Cohiba Black Robusto, Macanudo Café Hyde Park, H. Upmann 1844 Reserve
+Toro) are genuinely still short a *third independent* source, not just
+a bookkeeping gap. Searched for one more each; ran into a halfwheel
+paywall and no clean numeric score elsewhere for any of the four, so
+none were pushed over the line tonight. The cigar-side insufficient-
+sources backlog is still large (~90 entries) — most will need this same
+one-more-source treatment over future cigars nights.
+
+**Weekly queue triage** (Sundays only): scanned the full queue for
+genuinely-new-entity proposals — everything else (insufficient_sources,
+conflicting_facts, vitola_dimension_conflict, fabricated_product/award
+notes, etc.) is a gap-note, not a decision, so those were left alone.
+Only one new-entity item was pending: **The Louisville Cigar Company**
+(a proposed new lounge city). Re-verified both cited sources myself:
+- The venue's own site (address, phone, hours, walk-in, bourbon bar,
+  heated patio, parking) — still live and matches the queued facts.
+- Cigar Aficionado's piece on smoking in the Louisville area — still
+  live; it confirms Louisville's 2008 smoke-free ordinance bans indoor
+  cigar smoking citywide, but does **not** say whether a retail
+  tobacconist like this one carries an exemption.
+
+Added the lounge (`/lounges/louisville-ky/the-louisville-cigar-company/`)
+with `indoor_smoking_status` left null and a note explaining why —
+neither source settles it, so I didn't guess. Queue entry resolved.
+No other new-entity items were sitting in the queue, so nothing was
+left for the owner's judgment this week.
+
+No accessories or lounges rotation work otherwise (not tonight's slot).
+`npm run build` passed cleanly after each change tonight (21,815 pages
+after the lounge addition). Committed and pushed after each step: queue
+cleanup, news/calendar batch, and the lounge triage. No errors, no new
+NEEDS-ATTENTION — the two NEEDS-ATTENTION notes above are from prior
+runs on 2026-09-24 and 2026-09-26, unrelated to tonight.
+
+## 2026-09-28 — weekday: accessories night + cigar growth batch
+
+Day-of-month rotation (28 mod 3 = 1) points at **accessories** tonight.
+Weekday, so this was a lean pass — no full ingest sweep, just a couple
+of focused, cheap wins plus the standing cigar-growth batch.
+
+**Cigar growth (3 of 3 targeted)** — all three extend lines already in
+the catalog rather than introducing brand-new brands, and all three
+were confirmed real via live search before adding:
+- **Foundation The Wise Man Corojo** — added the Toro (6 x 52). This
+  line already existed with real wrapper/blend data but zero vitolas
+  cataloged; the Toro size is confirmed across several retailer
+  listings, and Cigar Coop has reviewed this exact vitola, though I
+  couldn't pin down a clean numeric score from what I could see of
+  their review, so it shows "insufficient data" rather than a guess.
+- **Tatuaje El Triunfador Original** — added the Robusto (5 x 50),
+  another line that already existed with zero vitolas on file.
+  halfwheel and Blind Man's Puff have both reviewed this exact size,
+  again without a numeric score I could confidently cite.
+- **Tatuaje Havana VI** — added Verocu No. 2 (5 1/2 x 54), sitting
+  alongside the already-cataloged Verocu No. 1 (6 1/4 x 54 — a
+  genuinely different size, not a near-duplicate). Double-checked this
+  is the plain "Verocu No. 2," not the separate "Verocu Blue No. 2"
+  sub-line that several review sites cover instead — those are a
+  different blend and I kept them out.
+
+No critic scores were added this round: every review I found was
+qualitative commentary or star-review pages without a clean, confirmable
+composite number, and the rule here is never guess one. All three new
+vitolas show "insufficient data" until a real numeric score turns up.
+No candidates were skipped as likely duplicates tonight — the three I
+picked were specifically chosen because they were gaps in lines already
+verified, which kept duplicate risk low.
+
+**Accessories rotation** — found and cleared three stale review-queue
+entries: **NewAir CC-300H Climate-Controlled Cabinet Humidor**,
+**HUMI-CARE Crystal Gel Humidification Jar (4 oz)**, and **Xikar
+10-Cigar Travel Humidor** had all already crossed the 3-source minimum
+and had a live AccScore from an earlier run, but nobody had resolved
+their queue entries (same pattern as the stale cigar entries cleared on
+2026-09-27). Resolved all three.
+
+I also spent some effort trying to push a few more borderline
+accessories (Xikar PuroTemp Digital Hygrometer, Case Elegance Flint
+Travel Leather Cigar Case, Nathan Scott Lester's Cigar Log Book) over
+the 3-source line, and to refresh prices on two popular cutters
+(Colibri V-Cut, Xikar 009 Punch). None of that panned out cleanly —
+search turned up plenty of product pages but nothing with a clean,
+attributable numeric score or a confirmed current price at a named
+retailer, so rather than guess a number I left all of that as-is for a
+future pass.
+
+`npm run build` passed cleanly after both changes tonight (21,863 pages
+after the cigar-growth batch). Committed and pushed after each step:
+the cigar-growth batch, then the accessory queue cleanup. No errors, no
+lounges work tonight (not this rotation's slot), nothing new queued.
+
+## 2026-09-29 — lounges rotation (weekday, lean run)
+
+Tonight was a lounges night (day 29, modulo 3 = 2). Cigar growth was
+off today, so no new cigars were added.
+
+I tried to find cited star ratings for Casa de Montecristo (Dallas) and
+Empire Social Lounge (Miami). Search confirmed both have Yelp and
+TripAdvisor pages (Casa de Montecristo: 126 Yelp reviews). Yelp refused
+to let me open the page (HTTP 403), and the search summaries never
+showed an actual star number. Since ratings must be real and cited, I
+added none. No lounge ratings, no new lounges, nothing queued.
+
+NEEDS-ATTENTION: none urgent. Lounge ratings remain hard to gather
+automatically because Yelp blocks page fetches.
+No database changes, so no build was needed.
+
+## 2026-09-30 — cigars rotation (weekday, lean run)
+
+Tonight was a cigars night (day 30, modulo 3 = 0) and cigar growth was on.
+
+**Added 3 new verified vitolas**, all Alec Bradley (an existing brand), checked
+against the maker's own pages (alecbradley.com/cigars/prensado and
+/prensado-lost-art): **Prensado Double Toro (6 x 62)**, **Prensado Lost Art
+Robusto (5 x 52)** and **Prensado Lost Art Churchill (7 x 50)**. Summaries use
+only the maker's blend and flavor description. No critic citation was
+searched for, so they show "insufficient data".
+
+**Skipped:** Prensado Gran Toro (6 x 54) — real, but within 0.25" and 2 ring
+gauge of the existing Torpedo (6.125 x 52), so I treated it as a likely
+near-duplicate. Lost Art Torpedo and Double T were left for a later run.
+
+No prices, news, or score work tonight (kept lean). Nothing queued.
+
+## 2026-10-01 — accessories rotation (weekday, lean run)
+
+Tonight was an accessories night (day 1, modulo 3 = 1). Cigar growth was
+off today, so no new cigars were added.
+
+**Xikar PuroTemp Digital Hygrometer now has a Codex Score (87.3).** It had two
+sources; I added a third, the Neptune Cigar customer rating (4.5/5 from 61
+reviews on the rectangular model), which meets the 3-source minimum.
+
+**Xikar EX cutter:** searched, but could not find any product by that name
+(only the XO, Xi1, Xi2 and X8), so I added nothing rather than guess. It
+still shows "insufficient data".
+
+No prices, news, or queue changes. No errors.
+
+## 2026-10-02 — lounges rotation + cigar growth (weekday, lean run)
+
+Tonight was a lounges night (day 2, modulo 3 = 2) and cigar growth was on.
+
+**Lounges:** looked for a third rating for Churchill's Fine Cigars (Phoenix),
+which has Google and Yelp. Search turned up no TripAdvisor/Foursquare figure,
+so I added nothing rather than guess. No new lounges, nothing queued.
+
+**Added 3 new verified vitolas** (all Alec Bradley, checked against the
+maker's own pages): **Prensado Lost Art Double T (6 x 60)**, plus a new line,
+**Black Market Estelí**, with its **Robusto (5 x 52)** and **Toro (6 x 52)**.
+Summaries use only the maker's blend and flavor description. No critic
+citations were searched, so they show "insufficient data".
+
+**Skipped:** Lost Art Torpedo (6.5 x 52) — within 0.25" and the same ring
+gauge as the existing Lost Art Gran Toro, so a likely near-duplicate. Prensado
+Gran Toro (6 x 54) skipped again for the same reason as last time. Black
+Market Estelí Punk, Gordo, Torpedo, Churchill left for later runs.
+
+No prices, news, or score work tonight. No errors.
+
+## 2026-10-03 — cigars rotation (weekday, lean run)
+
+Tonight was a cigars night (day 3, modulo 3 = 0). Cigar growth was off, so
+no new cigars were added.
+
+**News:** added 2 briefs from halfwheel — Tatuaje The Jason Redux 6 (shipping
+early October) and Apostate Death Mask (limited edition, first made at Fábrica
+Oveja Negra). Both also went on the release calendar, linked to their briefs.
+The halfwheel pages themselves would not open for me (payment-required error),
+so the details come only from the search-result summaries. I kept them to the
+basics (size, wrapper, timing) and gave no exact ship date for Death Mask.
+
+No prices or score work tonight. Site builds cleanly. No errors.
+
+## 2026-10-04 — accessories rotation + cigar growth + queue triage (Sunday)
+
+Tonight was an accessories night (day 4, modulo 3 = 1), cigar growth was on,
+and it's Sunday so queue triage ran too.
+
+**Accessories:** the Case Elegance Flint Travel Leather Cigar Case had two
+sources; I added a third (Amazon buyer rating, 4.5 of 5 from 75 ratings, shown
+as a rating only, no price), so its Codex Score is now published (98.5). Note:
+the Amazon listing I cited is the Klaro-branded Flint case sold by Case
+Elegance — the same product, but a different color listing than the one on
+their own site. The Cigar Log Book only has Amazon and Goodreads, so no third
+independent source; Xikar EX still has two. Nothing else changed.
+
+**Added 6 new verified vitolas (Alec Bradley, checked on the maker's site):**
+Black Market Estelí Punk (4¼ x 42), Gordo (6 x 60), Torpedo (6½ x 52) and
+Churchill (7 x 50); Kintsugi Toro (6 x 52); Gatekeeper Toro (6 x 52). Summaries
+use only the maker's blend and flavor description; no critic citations were
+searched, so they show "insufficient data". Torpedo is 0.5" longer than the
+Toro, so I treated it as a different size. Skipped: Kintsugi Corona Gorda
+(5⅝ x 46) — Alec Bradley already has a Prensado one at that size, left for
+later; Kintsugi/Gatekeeper Gordo and Gatekeeper Robusto left for later runs.
+
+**Queue triage:** I went through the queue. There are no pending proposals
+for a brand-new brand, line, lounge, city, factory or accessory category right
+now — everything open is an informational gap note (missing sources, unverified
+facts) — so there was nothing to approve or reject. Nothing was left for you.
+
+No prices or news tonight. Site builds cleanly. No errors.
+
+## 2026-10-05 — lounges rotation (weekday, lean run)
+
+Tonight was a lounges night (day 5, modulo 3 = 2). Cigar growth was off today.
+
+**Empire Social Lounge (Miami):** added three cited ratings — Yelp 4.6/5
+(186 reviews), TripAdvisor 3.7/5 (only 7 reviews, so thin), and Google 4.5/5
+(252 votes, as reported by Restaurant Guru, not read from Google directly).
+It now has 3 sources, so its Codex Score is published (85.3). Note the
+TripAdvisor figure is much lower than the others but based on very few reviews.
+
+**Casa de Montecristo (Dallas):** added a Yelp rating, 4.5/5 (126 reviews).
+Only one source so far — still "insufficient data". The TripAdvisor pages
+I found were for other cities' locations, so I did not use them.
+
+No new lounges proposed, no prices, news, or queue changes. Site builds
+cleanly. No errors.
+
+## 2026-10-06 — cigars rotation + cigar growth (weekday, lean run)
+
+Tonight was a cigars night (day 6, modulo 3 = 0), and cigar growth was on.
+
+**Added 3 new verified vitolas (Alec Bradley, confirmed via retailer pages):**
+Kintsugi Gordo (6 x 60, blend only — no flavor descriptors found, so none
+given); Gatekeeper Robusto (5 x 50) and Gatekeeper Gordo (6 x 60), with
+flavor notes taken from retailer descriptions. No near-duplicates (existing
+sizes differ in ring gauge). I skipped adding critic citations: sources
+disagreed on the Gatekeeper's Cigar Aficionado score (87 vs 95), so I left
+all three as "insufficient data" rather than guess.
+
+No prices, news, queue changes or new brands tonight. No errors.
+
+## 2026-10-07 — accessories rotation (weekday, lean run)
+
+Tonight was an accessories night (day 7, modulo 3 = 1). Cigar growth was off today.
+
+I tried to find a third independent rating for the Xikar EX lighter (it has
+Amazon and Walmart ratings, needs one more to publish a Codex Score). A search
+summary mentioned a 4.1/5 average from 122 reviews, but I couldn't tell which
+retailer it came from (the page that might say was blocked, and Neptune's page
+showed no rating), so I did not record it. The only other result was a single
+eBay review, which isn't an aggregate. Nothing was added.
+
+No prices, news, queue changes or new items tonight. No errors. Site builds
+cleanly.
+
+## 2026-10-08 — lounges rotation + cigar growth (weekday, lean run)
+
+Tonight was a lounges night (day 8, modulo 3 = 2), and cigar growth was on.
+
+**Lounges:** I looked for a third rating for Churchill's Fine Cigars in
+Phoenix (it has Google and Yelp). Tripadvisor blocked my lookup and search
+found no listing, so nothing was added. The only other thing I found was an
+older Phoenix New Times "Best Cigar Bar" mention, which is an award, not a
+numeric score, so I didn't record it as a rating.
+
+**Cigar growth — added 2 verified vitolas (Crowned Heads Jericho Hill):**
+Willy Lee (6 x 54, flavor notes from reviews) and Jack Brown (5 x 56, added
+in the 2025 rebrand; blend only, no flavor notes since none were found).
+Skipped: Le Pâtissier No. 2 (6 1/8 x 52 is within a quarter-inch of the
+existing Canonazo, likely duplicate) and Le Pâtissier No. 50 / No. 54
+(sources disagree on their lengths, so I couldn't verify them). Target was 3;
+I stopped at 2 rather than guess.
+
+No prices, news, or queue changes. No errors.
+
+## 2026-10-09 — cigars rotation (weekday, lean run)
+
+Tonight was a cigars night (day 9, modulo 3 = 0). Cigar growth was off
+(odd day), so no new cigars were added.
+
+**News ingest:** I ran one news search. Results were mostly older trade-show
+(PCA) coverage with no clear October dates, and the one possible new item
+(a Hooten Young Midnight Hammer fall re-release) only appeared in a search
+summary with no article I could open and confirm. I didn't add anything
+rather than guess. **Prices / scores:** not refreshed tonight (lean run, no
+new reviews found). Nothing queued. No errors.
+
+## 2026-10-10 — accessories rotation + cigar growth (weekday, lean run)
+
+Tonight was an accessories night (day 10, modulo 3 = 1), and cigar growth
+was on (even day).
+
+**Accessories:** I searched for a third source for the Xikar EX lighter (it
+has Amazon and Walmart). The search found nothing specific to the EX, only
+reviews of other Xikar lighters, so I didn't add a rating.
+
+**Cigar growth — added 0.** I checked Crowned Heads Mil Dias: all five
+regular sizes are already in the catalog, and the other sizes are limited
+editions, which I left alone. I didn't have a verified candidate beyond
+that, so I stopped rather than guess.
+
+No prices, news, or queue changes. No errors.
+
+## 2026-10-11 — lounges rotation + Sunday queue triage
+
+Tonight was a lounges night (day 11, modulo 3 = 2). Cigar growth was off
+(odd day), so no new cigars were added.
+
+**Lounges:** I looked for a third cited rating for Churchill's Fine Cigars
+(Phoenix) and Casa de Montecristo (Boca Raton), the two that already had two
+sources. I found nothing usable. The only extra figures came from
+mall-directory pages resting on one vote, or from listings with a different
+address, so I added no ratings.
+
+**Queue triage:** I went through the whole queue. Every undecided item is a
+gap-note (missing sources, unverified vitolas or awards, missing founding
+years). There are no proposals for new brands, lines, lounges, factories or
+accessory categories, so there was nothing to approve or reject. No
+`queue-resolve` calls were needed.
+
+No prices, news, or score changes. No errors.
+
+## 2026-10-12 — cigars rotation + cigar growth (weekday, lean run)
+
+Tonight was a cigars night (day 12, modulo 3 = 0), and cigar growth was on
+(even day).
+
+**Cigar growth — added 0.** I searched for new October releases. Two leads
+came up: Crowned Heads Las Calaveras Décimo 2026 and the Hooten Young
+Midnight Hammer fall re-release. Neither is in the catalog. The halfwheel
+article for Las Calaveras returned an error when I opened it, and the
+Midnight Hammer lead only appeared in a search summary. I couldn't confirm
+blend or sizes for either, so I added nothing rather than guess. Both are
+limited editions anyway.
+
+No prices, news, scores, or queue changes. Only this log changed. No errors.
