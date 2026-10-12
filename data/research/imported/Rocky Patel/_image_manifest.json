@@ -1,0 +1,143 @@
+{
+  "brand": "Rocky Patel Premium Cigars",
+  "brand_slug": "rocky-patel",
+  "note": "Paths are relative to 'Cigar Images/Rocky Patel/' in the connected folder on the user's Mac (Desktop/Cigar Images). This schema's cigar/line records do not carry a photo field, so this manifest is a companion file mapping each researched line to its available product photos for a separate image-upload step.",
+  "lines": {
+    "30th-anniversary": {
+      "folder": "Cigar Images/Rocky Patel/Rocky Patel 30th Anniversary",
+      "photo_count": 19,
+      "files": [
+        "Rocky-Patel_30th-Anniversary_01.jpg",
+        "Rocky-Patel_30th-Anniversary_02.jpg",
+        "Rocky-Patel_30th-Anniversary_03.jpg",
+        "Rocky-Patel_30th-Anniversary_04.jpg",
+        "Rocky-Patel_30th-Anniversary_05.jpg",
+        "Rocky-Patel_30th-Anniversary_06.jpg",
+        "Rocky-Patel_30th-Anniversary_07.jpg",
+        "Rocky-Patel_30th-Anniversary_08.jpg",
+        "Rocky-Patel_30th-Anniversary_09.jpg",
+        "Rocky-Patel_30th-Anniversary_Box-Closed_01.jpg",
+        "Rocky-Patel_30th-Anniversary_Box-Closed_02.jpg",
+        "Rocky-Patel_30th-Anniversary_Box-Open_01.jpg",
+        "Rocky-Patel_30th-Anniversary_Box-Open_02.jpg",
+        "Rocky-Patel_30th-Anniversary_Box-Open_03.jpg",
+        "Rocky-Patel_30th-Anniversary_Box-Open_04.jpg",
+        "Rocky-Patel_30th-Anniversary_Box-Open_05.jpg",
+        "Rocky-Patel_30th-Anniversary_Group_01.jpg",
+        "Rocky-Patel_30th-Anniversary_Group_02.jpg",
+        "Rocky-Patel_30th-Anniversary_Group_03.jpg"
+      ]
+    },
+    "bold": {
+      "folder": "Cigar Images/Rocky Patel/Rocky Patel Bold",
+      "photo_count": 3,
+      "files": [
+        "Rocky-Patel_Bold_01.jpg",
+        "Rocky-Patel_Bold_02.jpg",
+        "Rocky-Patel_Bold_03.jpg"
+      ]
+    },
+    "dark-star": {
+      "folder": "Cigar Images/Rocky Patel/Rocky Patel Dark Star",
+      "photo_count": 2,
+      "files": [
+        "Rocky-Patel_Dark-Star_01.jpg",
+        "Rocky-Patel_Dark-Star_02.jpg"
+      ]
+    },
+    "emerald": {
+      "folder": "Cigar Images/Rocky Patel/Rocky Patel Emerald",
+      "photo_count": 4,
+      "files": [
+        "Rocky-Patel_Emerald_01.jpg",
+        "Rocky-Patel_Emerald_Box-Open_01.jpg",
+        "Rocky-Patel_Emerald_Group_01.jpeg",
+        "Rocky-Patel_Emerald_Group_02.jpg"
+      ]
+    },
+    "gold-label": {
+      "folder": "Cigar Images/Rocky Patel/Rocky Patel Gold Label",
+      "photo_count": 15,
+      "files": [
+        "Rocky-Patel_Gold-Label_Box-Closed_01.jpg",
+        "Rocky-Patel_Gold-Label_Box-Closed_02.jpg",
+        "Rocky-Patel_Gold-Label_Box-Closed_03.jpg",
+        "Rocky-Patel_Gold-Label_Box-Closed_04.jpg",
+        "Rocky-Patel_Gold-Label_Box-Closed_05.jpg",
+        "Rocky-Patel_Gold-Label_Box-Closed_06.jpg",
+        "Rocky-Patel_Gold-Label_Box-Closed_07.jpg",
+        "Rocky-Patel_Gold-Label_Box-Closed_08.jpg",
+        "Rocky-Patel_Gold-Label_Box-Closed_09.jpg",
+        "Rocky-Patel_Gold-Label_Box-Closed_10.jpg",
+        "Rocky-Patel_Gold-Label_Box-Closed_11.jpg",
+        "Rocky-Patel_Gold-Label_Box-Closed_12.jpg",
+        "Rocky-Patel_Gold-Label_Box-Closed_13.jpg",
+        "Rocky-Patel_Gold-Label_Box-Closed_14.jpg",
+        "Rocky-Patel_Gold-Label_Box-Open_01.jpg"
+      ]
+    },
+    "quarter-century": {
+      "folder": "Cigar Images/Rocky Patel/Rocky Patel Quarter Century",
+      "photo_count": 1,
+      "files": [
+        "Rocky-Patel_Quarter-Century_01.png"
+      ]
+    },
+    "sapphire": {
+      "folder": "Cigar Images/Rocky Patel/Rocky Patel Sapphire",
+      "photo_count": 7,
+      "files": [
+        "Rocky-Patel_Sapphire_01.jpg",
+        "Rocky-Patel_Sapphire_Box-Closed_01.jpg",
+        "Rocky-Patel_Sapphire_Box-Closed_02.jpg",
+        "Rocky-Patel_Sapphire_Box-Open_01.jpg",
+        "Rocky-Patel_Sapphire_Box-Open_02.jpg",
+        "Rocky-Patel_Sapphire_Box-Open_03.jpg",
+        "Rocky-Patel_Sapphire_Box-Open_04.jpg"
+      ]
+    },
+    "twentieth-anniversary": {
+      "folder": "Cigar Images/Rocky Patel/Rocky Patel Twentieth Anniversary",
+      "photo_count": 1,
+      "files": [
+        "Rocky-Patel_Twentieth-Anniversary_Group_01.png"
+      ]
+    },
+    "vintage-1999": {
+      "folder": "Cigar Images/Rocky Patel/Rocky Patel Vintage 1999",
+      "photo_count": 2,
+      "files": [
+        "Rocky-Patel_Vintage-1999_01.jpg",
+        "Rocky-Patel_Vintage-1999_Group_01.jpg"
+      ]
+    },
+    "year-of-the-dragon": {
+      "folder": "Cigar Images/Rocky Patel/Rocky Patel Year of Dragon",
+      "photo_count": 15,
+      "files": [
+        "Rocky-Patel_Year-of-Dragon_01.jpg",
+        "Rocky-Patel_Year-of-Dragon_02.jpg",
+        "Rocky-Patel_Year-of-Dragon_03.jpg",
+        "Rocky-Patel_Year-of-Dragon_04.jpg",
+        "Rocky-Patel_Year-of-Dragon_05.jpg",
+        "Rocky-Patel_Year-of-Dragon_06.jpg",
+        "Rocky-Patel_Year-of-Dragon_Band-Detail_01.jpg",
+        "Rocky-Patel_Year-of-Dragon_Box-Closed_01.jpg",
+        "Rocky-Patel_Year-of-Dragon_Box-Closed_02.jpg",
+        "Rocky-Patel_Year-of-Dragon_Box-Closed_03.jpg",
+        "Rocky-Patel_Year-of-Dragon_Box-Open_01.jpg",
+        "Rocky-Patel_Year-of-Dragon_Box-Open_02.jpg",
+        "Rocky-Patel_Year-of-Dragon_Box-Open_03.jpg",
+        "Rocky-Patel_Year-of-Dragon_Group_01.jpg",
+        "Rocky-Patel_Year-of-Dragon_Group_02.jpg"
+      ]
+    },
+    "year-of-the-snake": {
+      "folder": "Cigar Images/Rocky Patel/Rocky Patel Year of Snake",
+      "photo_count": 1,
+      "files": [
+        "Rocky-Patel_Year-of-Snake_Box-Open_01.jpg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "not_added_flag": {
+    "item": "4 JFR Mac photos with ambiguous or unmatched vitola names",
+    "issue": "1) 'JFR_20-St_01.jpg' - no vitola abbreviating to 'St' (Stout/Short/Salomon, etc.) was found anywhere in the confirmed 4-size JFR 20th Anniversary lineup (Gordito/770/Titan/Toro). Possibly a 5th SKU not yet covered in press, or an unrelated product. NOT published as a confirmed vitola.\n\n2) 'JFR_Luna-Hab-Rob_01.jpg' and 'JFR_Luna-Hab-Short_01.jpg' - both 'Short Robusto' (4.25x52) and 'Short Titan' (4.25-4.75x60) exist for JFR Lunatic Habano; 'Rob' and 'Short' alone don't disambiguate with certainty which file is which.\n\n3) 'JFR_Luna-Mad-El_01.jpg' - ambiguous between 'El Chiquito' (4.7x70) and 'El Grande' (5.5x80), both real JFR Lunatic Maduro vitolas starting with 'El.'\n\n4) 'JFR_Luna-Mad-Short_01.jpg' - same Short Robusto vs. Short Titan ambiguity as (2), for the Maduro line."
+  },
+  "mac_photo_reference": [
+    "Cigar Images/JFR/JFR_20-St_01.jpg",
+    "Cigar Images/JFR/JFR_Luna-Hab-Rob_01.jpg",
+    "Cigar Images/JFR/JFR_Luna-Hab-Short_01.jpg",
+    "Cigar Images/JFR/JFR_Luna-Mad-El_01.jpg",
+    "Cigar Images/JFR/JFR_Luna-Mad-Short_01.jpg"
+  ],
+  "research_sources": [
+    "https://www.cigaraficionado.com/ratings/20946/name/jfr-lunatic-short-robusto-habano",
+    "https://thecigarauthority.com/jfr-lunatic-habano-short-titan-cigar-review",
+    "https://cigar-coop.com/2016/08/cigar-news-casa-fernandez-launches-jfr-maduro-short-robusto-and-short-titan-at-2016-ipcpr.html"
+  ]
+}

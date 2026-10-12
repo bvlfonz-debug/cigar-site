@@ -1,0 +1,48 @@
+{
+  "line": {
+    "name": "H. Upmann 1844 Classic",
+    "slug": "h-upmann-1844-classic",
+    "description": "Not on the site. Released 2021 by Altadis USA as part of the '1844' portfolio (named for H. Upmann's 1844 founding year), positioned as a tribute to the brand's Cuban heritage. Medium-bodied; notes of leather, nutmeg, spice, coffee, toast, sweet cream. FLAG: vitola list is single-sourced to JR Cigars - not independently cross-verified against a second retailer in this research pass.",
+    "wrapper": "Ecuadorian-seed Connecticut Shade",
+    "binder": "Aged Honduran",
+    "filler": "Long-filler Honduran",
+    "factory": "Flor de Copan, Honduras",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Corona",
+      "size": "5 x 44",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-1844-classic/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 52",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-1844-classic/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-1844-classic/"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 50",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-1844-classic/"
+      ]
+    }
+  ],
+  "research_notes": "All 4 vitolas come from a single retailer (JR Cigars) - not cross-confirmed elsewhere in this pass. Flagging for a future verification pass rather than treating as fully settled.",
+  "research_sources": [
+    "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-1844-classic/",
+    "https://blindmanspuff.com/cigar-news-altadis-u-s-a-announces-h-upmann-1844-classic/"
+  ]
+}

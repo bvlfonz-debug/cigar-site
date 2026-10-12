@@ -1,0 +1,136 @@
+{
+  "brand": {
+    "name": "La Gianna Havana",
+    "description": "United Cigars brand (David Garofalo), originally released in 1994, named to commemorate the birth of Garofalo's daughter. Handcrafted at Diadema Cigars de Honduras S.A. in Danlí, Honduras.",
+    "origin_country": "Honduras",
+    "founded": "1994"
+  },
+  "lines": [
+    {
+      "line": {
+        "name": "La Gianna Havana Natural",
+        "wrapper": "Ecuador Connecticut",
+        "binder": "Honduran",
+        "filler": "Honduran",
+        "strength": "Mild-bodied"
+      },
+      "vitolas": [
+        {
+          "name": "Bambino",
+          "size": "4 x 44"
+        },
+        {
+          "name": "Corona",
+          "size": "5.5 x 44"
+        },
+        {
+          "name": "Robusto",
+          "size": "5 x 50"
+        },
+        {
+          "name": "Churchill",
+          "size": "7 x 48"
+        },
+        {
+          "name": "Toro",
+          "size": "6 x 54"
+        },
+        {
+          "name": "Torpedo",
+          "size": "6 x 52"
+        }
+      ]
+    },
+    {
+      "line": {
+        "name": "La Gianna Havana Maduro",
+        "wrapper": null,
+        "binder": null,
+        "filler": null,
+        "strength": null,
+        "notes": "Wrapper/binder/filler not independently confirmed for the Maduro sub-blend (presumed Mexican San Andrés, consistent with other lines in the brand, but not verified). Sizes presumed to mirror the Natural line."
+      },
+      "vitolas": [
+        {
+          "name": "Bambino",
+          "size": "4 x 44 (presumed, not independently confirmed)"
+        },
+        {
+          "name": "Corona",
+          "size": "5.5 x 44 (presumed)"
+        },
+        {
+          "name": "Robusto",
+          "size": "5 x 50 (presumed)"
+        },
+        {
+          "name": "Churchill",
+          "size": "7 x 48 (presumed)"
+        },
+        {
+          "name": "Toro",
+          "size": "6 x 54 (presumed)"
+        },
+        {
+          "name": "Torpedo",
+          "size": "6 x 52 (presumed)"
+        }
+      ]
+    },
+    {
+      "line": {
+        "name": "La Gianna Havana Angelic",
+        "wrapper": "Ecuador Connecticut (Sweet Tip)",
+        "binder": "Honduran",
+        "filler": "Honduran",
+        "strength": "Medium-bodied",
+        "notes": "Distinct sweet-tip blend, separate SKU from Natural/Maduro."
+      },
+      "vitolas": [
+        {
+          "name": "Corona",
+          "size": "5.5 x 44"
+        },
+        {
+          "name": "Robusto",
+          "size": "5 x 50"
+        },
+        {
+          "name": "Toro",
+          "size": "6 x 50"
+        },
+        {
+          "name": "Churchill",
+          "size": "7 x 48"
+        },
+        {
+          "name": "Torpedo",
+          "size": "6.125 x 54"
+        }
+      ]
+    },
+    {
+      "line": {
+        "name": "La Gianna Havana 30th Anniversary",
+        "wrapper": "Barber pole: Ecuadorian Connecticut-seed + Mexican San Andrés",
+        "binder": "Habano criollo (Honduras)",
+        "filler": "Dominican Republic, Honduras, and U.S. tobaccos",
+        "strength": null,
+        "notes": "Celebrates the brand's 1994 origin; PCA 2024 release."
+      },
+      "vitolas": [
+        {
+          "name": "30th Anniversary",
+          "size": "6 x 54"
+        }
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://unitedcigargroup.com/la-gianna-havana-angelic/",
+    "https://unitedcigargroup.com/la-gianna-havana-natural/",
+    "https://halfwheel.com/united-cigars-schedules-la-gianna-havana-30th-anniversary-for-pca-2024/436233/",
+    "https://halfwheel.com/united-cigar-ships-updated-la-gianna/298480/",
+    "https://www.cigaraficionado.com/article/la-gianna-havana-30th-anniversary-cigars-made-with-a-twist"
+  ]
+}

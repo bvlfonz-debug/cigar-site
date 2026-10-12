@@ -1,0 +1,47 @@
+{
+  "line": {
+    "name": "El Baton",
+    "slug": "el-baton",
+    "description": "Not on the site. Originally created by founder Julius Caesar 'J.C.' Newman in 1914 as a nickel cigar hand-rolled in Cleveland, Ohio using Cuban tobacco; disappeared from the market in the 1920s as machine-made cigars took over. Revived in 2008 by 4th-generation Eric and Bobby Newman as the company's first all-Nicaraguan puro, then relaunched again in 2022/2024 with a bolder blend, higher-grade wrapper, and redesigned bands/boxes. Earned a 91 rating from Cigar Aficionado and was Cigar Journal's #2 Cigar of the Year (2023).",
+    "wrapper": "Ecuadorian ('Ecuadorian Havana')",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (all-Nicaraguan puro)",
+    "status": "current",
+    "factory": "PENSA, Esteli, Nicaragua"
+  },
+  "vitolas": [
+    {
+      "name": "Belicoso",
+      "size": "5 x 56",
+      "sources": [
+        "https://www.jcnewman.com/company/el-baton-cigars/"
+      ]
+    },
+    {
+      "name": "Double Toro",
+      "size": "6 x 60",
+      "sources": [
+        "https://www.jcnewman.com/company/el-baton-cigars/"
+      ]
+    },
+    {
+      "name": "Double Torpedo",
+      "size": "6.25 x 56",
+      "sources": [
+        "https://www.jcnewman.com/company/el-baton-cigars/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 54",
+      "sources": [
+        "https://www.jcnewman.com/company/el-baton-cigars/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.jcnewman.com/company/el-baton-cigars/",
+    "https://halfwheel.com/revamped-el-baton-heads-to-stores/412836/",
+    "https://www.cigaraficionado.com/article/j-c-newman-relaunches-el-baton"
+  ]
+}

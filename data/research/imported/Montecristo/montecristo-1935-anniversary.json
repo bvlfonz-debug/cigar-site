@@ -1,0 +1,66 @@
+{
+  "line": {
+    "name": "Montecristo 1935 Anniversary",
+    "slug": "montecristo-1935-anniversary",
+    "description": "Not on the site. A family of releases, not one blend - includes 'Edicion Diamante' and a newer 'Edicion Doble Diamante' sub-release (a separate blend/price tier, not a vitola name).",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Edicion Diamante - Icon",
+      "size": "4.75 x 48",
+      "notes": "All-Nicaraguan: hybrid-seed Jalapa wrapper, criollo Ometepe binder, Esteli filler.",
+      "sources": [
+        "https://halfwheel.com/montecristo-1935-anniversary-edicion-diamante-debuting-in-may/421542/"
+      ]
+    },
+    {
+      "name": "Edicion Diamante - Robusto",
+      "size": "5 x 54",
+      "sources": [
+        "https://halfwheel.com/montecristo-1935-anniversary-edicion-diamante-debuting-in-may/421542/"
+      ]
+    },
+    {
+      "name": "Edicion Diamante - Toro",
+      "size": "6 x 55",
+      "sources": [
+        "https://halfwheel.com/montecristo-1935-anniversary-edicion-diamante-debuting-in-may/421542/"
+      ]
+    },
+    {
+      "name": "Edicion Diamante - No. 2",
+      "size": "6.5 x 56",
+      "sources": [
+        "https://halfwheel.com/montecristo-1935-anniversary-edicion-diamante-debuting-in-may/421542/"
+      ]
+    },
+    {
+      "name": "Edicion Diamante - Grande",
+      "size": "6 x 60",
+      "sources": [
+        "https://halfwheel.com/montecristo-1935-anniversary-edicion-diamante-debuting-in-may/421542/"
+      ]
+    },
+    {
+      "name": "Edicion Diamante - Churchill",
+      "size": "7 x 54",
+      "sources": [
+        "https://halfwheel.com/montecristo-1935-anniversary-edicion-diamante-debuting-in-may/421542/"
+      ]
+    },
+    {
+      "name": "Edicion Doble Diamante - Toro",
+      "size": "6.5 x 54",
+      "notes": "Mac photo filename 'Dia-Tor' matches this. Only this one vitola confirmed for Doble Diamante in research - full lineup unverified, not fabricated.",
+      "sources": [
+        "https://halfwheel.com/150-montecristo-1935-anniversary-edicion-doble-diamante-debuting-at-pca-2024/435882/"
+      ]
+    }
+  ],
+  "research_notes": "Doble Diamante's full vitola range beyond the Toro is unconfirmed - flagged rather than guessed.",
+  "research_sources": [
+    "https://halfwheel.com/montecristo-1935-anniversary-edicion-diamante-debuting-in-may/421542/",
+    "https://halfwheel.com/150-montecristo-1935-anniversary-edicion-doble-diamante-debuting-at-pca-2024/435882/"
+  ]
+}

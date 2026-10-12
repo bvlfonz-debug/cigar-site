@@ -1,0 +1,55 @@
+{
+  "brand": "DBL (Dominican Big Leaguer)",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/DBL",
+  "note": "DBL is not on the site at all - full new brand object included. 3 lines added plus 1 unresolved wrapper-variant flag, found in the (flat, unrenamed) Mac folder. Confirmed NOT related to the separately-listed 'Dunbarton Tobacco & Trust.' No file renames performed.",
+  "mappings": [
+    {
+      "json_file": "dbl-12th-anniversary.json",
+      "line_slug": "dbl-12th-anniversary",
+      "mac_folder": "Cigar Images/DBL",
+      "files": [
+        "DBL_12th-Hab_01.jpg",
+        "DBL_12th-Mad_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "dbl-chengo.json",
+      "line_slug": "dbl-chengo",
+      "mac_folder": "Cigar Images/DBL",
+      "files": [
+        "DBL_Chen-Mad_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "dbl-baseball-bat.json",
+      "line_slug": "dbl-baseball-bat",
+      "mac_folder": "Cigar Images/DBL",
+      "files": [
+        "DBL_Bat-Ct_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "_dbl-chengo-clar-UNRESOLVED.json",
+      "line_slug": null,
+      "mac_folder": "Cigar Images/DBL",
+      "files": [
+        "DBL_Cheng-Clar_Box-Open_01.jpg"
+      ],
+      "notes": "No source confirms a 'Claro' Chengo wrapper variant exists - see the flag file."
+    }
+  ],
+  "not_added": [
+    {
+      "mac_folder": "Cigar Images/DBL",
+      "files": [
+        "DBL_Cheng-Clar_Box-Open_01.jpg"
+      ],
+      "reason": "See _dbl-chengo-clar-UNRESOLVED.json - no source confirms what 'Clar' refers to."
+    }
+  ],
+  "already_on_site_no_action": []
+}

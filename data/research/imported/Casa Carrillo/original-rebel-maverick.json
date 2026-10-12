@@ -1,0 +1,89 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo Original Rebel Maverick",
+    "slug": "original-rebel-maverick",
+    "wrapper": "Ecuadorian",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": "Medium",
+    "release_year": 2016,
+    "background_text": "'Maverick' is the natural-wrapper vitola family within E.P. Carrillo's 'Original Rebel' line, launched at the 2016 IPCPR trade show as part of the large-ring-gauge Dimension Series. The name originated when Alan Rubin of Alec Bradley called Ernesto Perez-Carrillo 'the original rebel.' NOTE: Maverick and Rebellious are both vitola/wrapper families within ONE 'Original Rebel' line (natural vs. maduro), not two fully independent blends - see research_notes."
+  },
+  "vitolas": [
+    {
+      "size_name": "52",
+      "slug": "52",
+      "length_in": 5.5,
+      "ring_gauge": 52,
+      "vitola_type": "Robusto",
+      "summary_review": "Competent, oak/cedar/earth/caramel profile.",
+      "tasting_notes": [
+        "oak",
+        "cedar",
+        "earth",
+        "caramel",
+        "cream",
+        "spice"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "54",
+      "slug": "54",
+      "length_in": 6.5,
+      "ring_gauge": 54,
+      "vitola_type": "Toro",
+      "summary_review": "Well-rated; earthy, complex, reliable construction.",
+      "tasting_notes": [
+        "oak",
+        "cedar",
+        "earth",
+        "caramel",
+        "cream",
+        "spice"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "56",
+      "slug": "56",
+      "length_in": 7.5,
+      "ring_gauge": 56,
+      "vitola_type": "Presidente",
+      "summary_review": null,
+      "tasting_notes": [
+        "oak",
+        "cedar",
+        "earth",
+        "caramel",
+        "cream",
+        "spice"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "'Maverick' is always sold/labeled as 'E.P. Carrillo Original Rebel Maverick,' never a standalone line - it's the natural-wrapper counterpart to 'Rebellious' (maduro) within the single 'Original Rebel' line. Written as its own file here since the Mac folder separates them, but flagging for the database curator's judgment on whether to merge into one 'Original Rebel' line record with two vitola families instead.",
+  "research_sources": [
+    {
+      "url": "https://cigar-coop.com/2016/08/cigar-news-original-rebel-by-e-p-carrillo-launched-at-2016-ipcpr.html",
+      "supports": "background, release year, blend, vitola sizes/pricing"
+    },
+    {
+      "url": "https://mikescigars.com/cigars/brands/epcarrillo/ep-carrillo-original-rebel-maverick",
+      "supports": "sizes, blend, tasting descriptors"
+    }
+  ]
+}

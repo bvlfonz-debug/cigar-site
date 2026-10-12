@@ -7,14 +7,14 @@ import { slugify } from '../../../lib/slugify';
 export function getStaticPaths() {
   const index = getSearchIndex();
   const seen = new Map<string, string>();
-  for (const c of index) seen.set(slugify(c.strength), c.strength);
+  for (const c of index) if (c.strength) seen.set(slugify(c.strength), c.strength);
   return [...seen.entries()].map(([slug, strength]) => ({ params: { strength: slug }, props: { strengthLabel: strength } }));
 }
 
 const { strength: strengthSlug } = Astro.params;
 const { strengthLabel } = Astro.props as { strengthLabel: string };
 
-const cigars = getSearchIndex().filter((c) => slugify(c.strength) === strengthSlug);
+const cigars = getSearchIndex().filter((c) => c.strength != null && slugify(c.strength) === strengthSlug);
 ---
 
 <Layout

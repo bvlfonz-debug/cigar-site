@@ -1,0 +1,44 @@
+{
+  "line": {
+    "brand_slug": "joya-de-nicaragua",
+    "name": "Joya de Nicaragua Cuatro Cinco Edición Europa",
+    "slug": "cuatro-cinco-edicion-europa",
+    "wrapper": "Nicaraguan Criollo (Jalapa)",
+    "binder": "Dominican Volado",
+    "filler": "Nicaraguan, including 5-year-old ligero aged in spent rum barrels",
+    "strength": null,
+    "release_year": 2022,
+    "background_text": "Cuatro Cinco Edición Europa is a European-market-exclusive regional variant of JDN's Cuatro Cinco line, announced September 2022 at Intertabac in Germany - the third regional exclusive in the Cuatro Cinco family, following an Asian exclusive (2020) and an American edition (2021). The original Cuatro Cinco debuted in 2013 as an all-Nicaraguan puro limited edition celebrating JDN's 45th anniversary; the blend was later modified (Dominican binder added) into the ongoing 'Reserva Especial,' and Edición Europa builds on that modified recipe with rum-barrel-aged ligero filler."
+  },
+  "vitolas": [
+    {
+      "size_name": "Doble Corona",
+      "slug": "doble-corona",
+      "length_in": 7,
+      "ring_gauge": 52,
+      "vitola_type": "Double Corona (box-pressed)",
+      "summary_review": "Limited European-exclusive release, box-pressed doble corona format.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "CONFIRMED distinct from Pata Negra and Secret Cask: Edición Europa has its own wrapper (Nicaraguan Criollo from Jalapa), format (7x52 box-pressed double corona), and rum-barrel-aged filler component. Production limited to 500 boxes of 10. Pricing/exact release date and strength rating not disclosed in available sources.",
+  "research_sources": [
+    {
+      "url": "https://halfwheel.com/joya-de-nicaragua-announces-cuatro-cinco-edicion-europa/417453/",
+      "supports": "wrapper/binder/filler, vitola size, box count/production limit, release timeline"
+    },
+    {
+      "url": "https://www.cigarjournal.com/joya-de-nicaragua-presents-cuatro-cinco-edicion-europa/",
+      "supports": "Corroborates Edición Europa announcement"
+    },
+    {
+      "url": "https://joyacigars.com/cigars/cuatro-cinco/",
+      "supports": "Base Cuatro Cinco line blend and history for comparison"
+    }
+  ]
+}

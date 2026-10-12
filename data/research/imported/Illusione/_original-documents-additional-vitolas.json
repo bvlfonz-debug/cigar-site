@@ -1,0 +1,53 @@
+{
+  "line_slug": "illusione-original-documents",
+  "note": "The site currently lists only 2 Original Documents vitolas (Corojo Robusto 5x52, MJ12). Research confirms Original Documents is actually a family of 5+ wrapper editions (Candela, Corojo, Habano, Maduro, Ultra), each with its own multi-size lineup sold by Illusione directly (illusionecigars.com). The Mac photos have exactly one representative photo per wrapper edition with no vitola specified in the filename, so only the Robusto (5x52) size - confirmed as a standard SKU across every wrapper edition researched - is added here per new wrapper. The full additional sizes per wrapper (Churchill, Corona Gorda, Corona Minor, Gordo, Lancero, etc.) exist per illusionecigars.com's own site but are not added individually since no photo evidence ties a specific size to a specific Mac photo - recommend reviewing illusionecigars.com directly if you want the full per-wrapper size catalog. 'MJ12' as currently listed on the site has no wrapper attached; research shows MJ12 is a vitola (6x54/6x56, 'Toro Gordo' class) sold across multiple wrappers (at least Corojo and Maduro), not a standalone wrapper-less product - worth pairing it with a wrapper in your data if possible.",
+  "additional_vitolas": [
+    {
+      "name": "Candela Robusto",
+      "size": "5 x 52",
+      "sources": [
+        "illusionecigars.com/product-category/book-of-brands/original-documents-candela/",
+        "atlanticcigar.com/illusione-original-documents-candela-88-robusto-5x52/"
+      ]
+    },
+    {
+      "name": "Habano Robusto",
+      "size": "5 x 52",
+      "notes": "Habano edition also comes in Corona Minor, Corona Gorda, Churchill, Tubos, Gordo, and Lancero per illusionecigars.com, not individually added here.",
+      "sources": [
+        "illusionecigars.com/product/original-documents-habano/",
+        "neptunecigar.com/cigars/illusione-original-documents-habano-gordo"
+      ]
+    },
+    {
+      "name": "Maduro Robusto",
+      "size": "5 x 52",
+      "sources": [
+        "illusionecigars.com/product-category/book-of-brands/original-documents-maduro/",
+        "smokezone.com/product/illusione-original-documents-maduro-robusto-5-x-52/"
+      ]
+    },
+    {
+      "name": "Original Documents Ultra Robusto",
+      "size": "5 x 52",
+      "notes": "IMPORTANT: this is a DIFFERENT product from the site's existing separate 'Illusione Ultra' line entry (OP No. 9, 5.5x56, Colorado maduro wrapper, box-pressed). 'Original Documents Ultra' is a Corojo/Cafe Colorado wrapper edition within the Original Documents family (Criollo '98 + Corojo '99 Nicaraguan filler blend), sold in Churchill, Corona Gorda, Corona Minor, Gorda, Lancero, Robusto, and 'MK ULTRA' sizes. The Mac's photo for this was found filed in a separate top-level 'Illusione Ultra' folder (not inside 'Illusione Original Documents'), but the filename itself is 'Illusione_Original-Documents_Ultra_02.png' - confirming it depicts this product, not the standalone OP No. 9 line. See _image_manifest.json.",
+      "sources": [
+        "illusionecigars.com/product/odu/",
+        "illusionecigars.com/product-category/book-of-brands/original-documents-ultra/",
+        "coronacigar.com/illusione-original-documents-ultra-corojo-robusto/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.illusionecigars.com/product-category/book-of-brands/original-documents-candela/",
+    "https://www.illusionecigars.com/product-category/book-of-brands/original-documents-corojo/",
+    "https://www.illusionecigars.com/product/original-documents-habano/",
+    "https://www.illusionecigars.com/product-category/book-of-brands/original-documents-maduro/",
+    "https://www.illusionecigars.com/product/odu/",
+    "https://www.illusionecigars.com/product-category/book-of-brands/original-documents-ultra/",
+    "https://cigar-coop.com/2016/04/agile-cigar-review-illusione-original-documents-mj12.html",
+    "https://www.coronacigar.com/illusione-original-documents-corojo-robusto/",
+    "https://www.neptunecigar.com/cigars/illusione-original-documents-habano-gordo",
+    "https://www.coronacigar.com/illusione-original-documents-ultra-corojo-robusto/"
+  ]
+}

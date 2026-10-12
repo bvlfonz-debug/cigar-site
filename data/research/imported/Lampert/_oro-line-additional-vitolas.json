@@ -1,0 +1,73 @@
+{
+  "line_slug": "lampert-oro-line",
+  "note": "Lampert Oro Line already exists as a line on the site catalog (currently listing 'Don Patron' and 'El Gringo'). This file is NOT a new line - it's supplementary vitola-level data for Claude Code to merge into the existing site record.",
+  "additional_vitolas": [
+    {
+      "size_name": "Señorito",
+      "slug": "senorito",
+      "length_in": null,
+      "ring_gauge": null,
+      "vitola_type": "Half Corona",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [25, 100],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Gatsby",
+      "slug": "gatsby",
+      "length_in": null,
+      "ring_gauge": null,
+      "vitola_type": "Torpedo",
+      "summary_review": null,
+      "tasting_notes": ["creamy", "aromatic", "grassy", "spicy", "woody", "nutty", "roasted (finish)"],
+      "smoke_time_min": null,
+      "box_counts": [10],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Small Batch Short Perfecto",
+      "slug": "small-batch-short-perfecto",
+      "length_in": 4.5,
+      "ring_gauge": 62,
+      "vitola_type": "Short Perfecto",
+      "summary_review": null,
+      "tasting_notes": ["savory", "med-strong nicotine intensity", "layered aromas"],
+      "smoke_time_min": 60,
+      "box_counts": [],
+      "critic_reviews": []
+    }
+  ],
+  "flagged_as_possibly_distinct_blend": [
+    {
+      "size_name": "Kingpin",
+      "slug": "kingpin",
+      "length_in": 4,
+      "ring_gauge": 62,
+      "vitola_type": "Double Perfecto (Flying Pig)",
+      "summary_review": "One of the better-reviewed Lampert cigars; consistent richness, though shows typical Flying Pig burn issues.",
+      "tasting_notes": ["richness"],
+      "smoke_time_min": null,
+      "box_counts": [],
+      "critic_reviews": [
+        {"source_name": "halfwheel", "source_type": "critic", "score": null, "score_scale": null, "review_date": null,
+         "url": "https://halfwheel.com/lampert-oro-kingpin/445586/",
+         "key_notes_text": "Praised for richness; uses a different wrapper (Ecuadorian criollo vs. Connecticut on standard Oro vitolas), different bands, and longer-aged filler than the rest of the Oro Line."}
+      ],
+      "note": "Marketed under the Oro banner but halfwheel confirms it is a genuinely distinct sub-blend (different wrapper, bands, aging), not just another shape of the same blend as Don Patron/El Gringo/Señorito/Gatsby. Flagging separately rather than folding it into the plain vitola list - may warrant its own line entry depending on how Claude Code's loader wants to model 'same blend, different shape' vs 'different blend, same family name'."
+    }
+  ],
+  "unverified_not_added": ["Continental-52 (appears tied to Lampert's separate 'Black Card' membership program, not confirmed as standard Oro Line)", "Platino / Oro Platino (same Black Card caveat)", "Corona", "Culebra", "El-Jefe", "Emperador", "La-Senora", "Maduro", "Toro-Grande (as an Oro Line item)"],
+  "research_notes": "Photo-library names 'Short-Perfecto' and 'Small-Batch' refer to ONE vitola, officially named 'Small Batch Short Perfecto' - not two separate items. Continental-52 and Platino appear associated with Lampert's separate 'Black Card' exclusive membership program per a retailer listing, but Lampert's own Black Card page gives no blend/vitola specs, so these could not be confirmed as Oro Line catalogue items - excluded rather than guessed. No evidence at all was found for Corona, Culebra, El-Jefe, Emperador, La-Senora, Maduro, or a plain 'Toro-Grande' as Oro Line products via any retailer, review site, or the official site - these could reflect mislabeled photos, unreleased/prototype names, or a different sub-line (Black Card or an Edición series) not yet documented online. RECOMMEND the user double-check these specific photo files before uploading.",
+  "research_sources": [
+    {"url": "https://lampertcigars.com/cigars/oro-line/", "supports": "Official vitola list: Señorito, El Gringo, Don Patron; blend specs"},
+    {"url": "https://lampertcigars.com/oro/", "supports": "Official page confirms four standard vitolas: Señorito, El Gringo, Don Patron, Gatsby"},
+    {"url": "https://halfwheel.com/lampert-oro-kingpin/445586/", "supports": "Kingpin dimensions, wrapper, distinct-blend status within Oro line"},
+    {"url": "https://oxfordcigarcompany.com/lampert-oro-small-batch-short-perfecto/", "supports": "Small Batch Short Perfecto exact name, dimensions, wrapper"},
+    {"url": "https://cigarspots.com/lampert-oro-gatsby-torpedo/", "supports": "Gatsby Torpedo profile, box count, price"},
+    {"url": "https://cigar-coop.com/2024/09/lampert-cigars-to-introduce-oro-senorito-at-intertabac-2024-cigar-news.html", "supports": "Señorito introduction as new Oro Line vitola"},
+    {"url": "https://secretocigarbar.com/collections/lampert-cigars", "supports": "Listing showing Continental 52 and Oro Platino as 'Lampert Black Card' member-only items"},
+    {"url": "https://lampertcigars.com/black-card/", "supports": "Confirms Black Card is a membership program, not a disclosed blend/line"}
+  ]
+}

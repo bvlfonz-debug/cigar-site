@@ -1,0 +1,29 @@
+{
+  "line": {
+    "name": "Camacho Limited Edition 2025",
+    "slug": "camacho-limited-edition-2025",
+    "description": "CORRECTION TO AN INITIAL ASSUMPTION: Mac filenames '25-Le'/'Cam-Le-25' were assumed to mean a 25th-anniversary release - research found '25' instead refers to the year 2025, not a milestone anniversary. No verified 25th-anniversary Camacho release exists. This is Davidoff/Camacho's annual limited-edition release, the successor to Camacho's long-running 'Liberty Series' (2002-2024) - billed as 'a Camacho limited edition without a fancy name,' focused on tobacco blending over a thematic concept.",
+    "wrapper": "Mexican San Andres",
+    "binder": "Honduran",
+    "filler": "Dominican and Honduran",
+    "factory": "Diadema Cigars de Honduras, S.A., Honduras",
+    "status": "limited edition (2025 run, ~2,300 metallic canisters of 20)"
+  },
+  "vitolas": [
+    {
+      "name": "Toro",
+      "size": "6 x 52",
+      "notes": "Matches the Mac photo. Single size only - this release has no other vitolas.",
+      "sources": [
+        "https://cigar-coop.com/2026/02/camacho-limited-edition-2025-cigar-review.html",
+        "https://www.zigarren.zone/en/camacho-limited-edition-25/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://cigar-coop.com/2026/02/camacho-limited-edition-2025-cigar-review.html",
+    "https://www.zigarren.zone/en/camacho-limited-edition-25/",
+    "https://halfwheel.com/camacho-limited-edition-2026-coming-in-early-september/477115/",
+    "https://cigardojo.com/2025/11/camacho-limited-edition-2025"
+  ]
+}

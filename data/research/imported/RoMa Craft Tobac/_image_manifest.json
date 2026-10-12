@@ -1,0 +1,26 @@
+{
+  "brand": "RoMa Craft Tobac",
+  "brand_slug": "roma-craft-tobac",
+  "note": "Paths are relative to 'Cigar Images/RoMa Craft Tobac/' in the connected folder on the user's Mac. The 2 photos in the 'Cromagnon' subfolder are actually the 'Aquitaine' sub-blend (a distinct, differently-wrappered product from plain CroMagnon) - filed under supplements for the site's existing standalone 'RoMa Craft Aquitaine' line rather than under CroMagnon. All 11 files across both subfolders were renamed from cryptic shorthand to their real decoded vitola names. The untouched press-magazine PNG (RoMaCraftNeanderthalCigar_CigarPressEsentials.png) was left as-is.",
+  "gap_fill_supplements": {
+    "_aquitaine-additional-vitolas": {
+      "source_folder": "Cigar Images/RoMa Craft Tobac/Cromagnon",
+      "note": "Despite the folder name, these are Aquitaine sub-blend photos, not plain CroMagnon"
+    },
+    "_intemperance-ba-xxi-additional-vitolas": {
+      "source_folder": "Cigar Images/RoMa Craft Tobac/Intemperance"
+    }
+  },
+  "new_lines": {
+    "intemperance-ec-xviii": {
+      "source_folder": "Cigar Images/RoMa Craft Tobac/Intemperance"
+    },
+    "intemperance-whiskey-rebellion-1794": {
+      "source_folder": "Cigar Images/RoMa Craft Tobac/Intemperance"
+    }
+  },
+  "unresolved_flags": [
+    "Intemperance BA XXI 'Intrigue' and Intemperance EC XVIII 'The Faith' - both confirmed as real vitola names via halfwheel, but exact dimensions could not be found in this research pass. Flagged as UNVERIFIED in the renamed filenames and JSON rather than guessed.",
+    "Aquitaine 'Knuckle Dragger' shares its exact name and size with the site's existing plain CroMagnon 'Knuckle Dragger' entry - these are different wrapper blends under the same vitola name, not a duplicate. Recommend a visual check before merging in the database."
+  ]
+}

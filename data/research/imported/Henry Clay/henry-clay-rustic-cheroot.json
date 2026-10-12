@@ -1,0 +1,27 @@
+{
+  "line": {
+    "name": "Henry Clay Rustic Cheroot",
+    "slug": "henry-clay-rustic-cheroot",
+    "description": "A cheroot format (closed footer with a pigtail cap, unlike traditional open-ended cheroots). Blend name 'Capa Dura,' described by Altadis as producing 'a rich, stronger blend.' Includes 'reborn' (recycled/repurposed) leaf in the filler. Announced March 1, 2018; national rollout April 2018. At launch: 20-count boxes, $4.25/cigar.",
+    "wrapper": "Broadleaf",
+    "binder": "Honduran",
+    "filler": "Dominican, including recycled/repurposed ('reborn') leaf",
+    "factory": "Not stated in sources found - unverified",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Rustic Cheroot",
+      "size": "5.625 x 38",
+      "notes": "Single size only - no other vitolas in this line.",
+      "sources": [
+        "https://cigar-coop.com/2018/03/cigar-news-altadis-u-s-a-rolling-out-henry-clay-cheroot-in-april.html"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://cigar-coop.com/2018/03/cigar-news-altadis-u-s-a-rolling-out-henry-clay-cheroot-in-april.html",
+    "https://www.cigaraficionado.com/articles/henry-clay-rustic-cheroot-coming-in-april",
+    "https://halfwheel.com/henry-clay-rustic-cheroot-gets-national-distribution"
+  ]
+}

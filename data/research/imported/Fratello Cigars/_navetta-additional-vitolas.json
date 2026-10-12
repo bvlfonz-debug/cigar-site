@@ -1,0 +1,41 @@
+{
+  "note": "Supplementary file - NOT new blends, but a significant correction. 'Fratello Navetta' already exists on the site listing 'Discovery' (5x50) and 'Inception' (6x54). Research found NO evidence 'Inception' is a real Fratello Navetta product anywhere (halfwheel, Cigar Coop, CigarScore, Fratello's own site, retailers) - flagging it as a likely data error on the site, possibly confused with the unrelated 'Navetta Inverso' wrapper-swapped line. Meanwhile 3 genuine, real editions the site is missing were found: Atlantis, Endeavour, Enterprise. All 4 real editions (Discovery + these 3) share ONE blend and were launched together at IPCPR 2017 as regular production, each simply named after a real NASA Space Shuttle (line creator Omar de Frias is a former NASA engineer). This is NOT an annual/vintage series.",
+  "line_name": "Fratello Navetta",
+  "flagged_site_entry": "Inception (6x54) - could not verify this product exists at all under any source; recommend the user double-check whether this should instead be a corrected size for one of the real editions, or removed.",
+  "shared_blend": {
+    "wrapper": "Ecuadorian Habano Oscuro",
+    "binder": "Dominican (Viso)",
+    "filler": "Nicaraguan",
+    "strength": "Medium, building to medium-full"
+  },
+  "additional_vitolas": [
+    {
+      "name": "Atlantis",
+      "size": "6.25 x 52 (box-pressed Torpedo)",
+      "release_year": 2017,
+      "notes": "Regular production; halfwheel Top 25 2017 (#23)."
+    },
+    {
+      "name": "Endeavour",
+      "size": "6.25 x 54 (Toro)",
+      "release_year": 2017,
+      "notes": "Regular production."
+    },
+    {
+      "name": "Enterprise",
+      "size": "6 x 60 (sources conflict: also listed as 6.25x54 'toro gordo' in halfwheel's 2024 discontinuation piece)",
+      "release_year": 2017,
+      "notes": "DISCONTINUED as of a 2024 halfwheel article ('Fratello Dropping Four Cigars From Its Portfolio'), cited by founder Omar de Frias as due to low demand/production cost. Included here for completeness/database accuracy even though no longer in current production - flag status accordingly."
+    }
+  ],
+  "research_notes": "A separate 'Navetta Inverso' line (2018, wrapper-inverted: Nicaraguan Habano wrapper, Ecuadorian binder, Dominican/Nicaraguan filler) also exists but wasn't found in your photo library - its Corona Gorda vitola was also discontinued in the 2024 cutback. Not written up as a separate file since no photos exist for it.",
+  "research_sources": [
+    "https://fratellocigar.com/navetta/",
+    "https://halfwheel.com/fratello-pays-tribute-nasa-navetta/",
+    "https://halfwheel.com/fratello-navetta-atlantis/212276/",
+    "https://halfwheel.com/top-25-cigars-2017/top-25-2017-23/",
+    "https://cigar-coop.com/2017/12/cigar-review-fratello-navetta-discovery.html",
+    "https://halfwheel.com/fratello-dropping-four-cigars-from-its-portfolio/423298/",
+    "https://halfwheel.com/fratello-announces-navetta-inverso/271071/"
+  ]
+}

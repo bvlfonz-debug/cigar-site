@@ -1,0 +1,27 @@
+{
+  "line_slug": "camacho-connecticut",
+  "note": "Site lists Connecticut with only Robusto (5x50). Mac photos show 2 additional vitolas.",
+  "additional_vitolas": [
+    {
+      "name": "Churchill",
+      "size": "7 x 48",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.cigarsinternational.com/p/camacho-connecticut-cigars/1475230/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.coronacigar.com/camacho-connecticut-toro/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.cigarsinternational.com/p/camacho-connecticut-cigars/1475230/",
+    "https://www.coronacigar.com/camacho-connecticut-toro/",
+    "https://www.cigarplace.biz/all-brands/camacho-cigars/camacho-connecticut.html"
+  ]
+}

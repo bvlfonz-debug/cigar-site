@@ -1,0 +1,45 @@
+{
+  "line": {
+    "name": "Saint Luis Rey Tabacales",
+    "slug": "saint-luis-rey-tabacales",
+    "description": "Billed as 'the first regular-production Dominican Saint Luis Rey' - the first time in the brand's history a premium SLR has been made in the Dominican Republic, rather than Honduras. A tribute to the tobacco harvest ritual in the Dominican Republic's Cibao Valley. Blend created by Rafael Nodal and the Grupo de Maestros team; described as reduced-strength versus the traditional Honduran-made SLR. Released first week of August 2025, previewed at the 2025 Altadis Traveling Road Show. IMPORTANT: unlike every other line in this batch, Tabacales does NOT share the brand's default Honduran origin/factory - confirmed consistently across 3 independent sources.",
+    "wrapper": "Nicaraguan",
+    "binder": "Cameroon",
+    "filler": "Dominican (Navarrete) and Nicaraguan",
+    "factory": "Tabacalera de Garcia, La Romana, Dominican Republic",
+    "origin_country_override": "Dominican Republic (overrides the brand's default Honduran origin for this line only)",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Rothchilde",
+      "size": "5 x 54",
+      "notes": "$7.70 SRP.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-tabacales/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "notes": "$8.25 SRP. Matches the Mac photo.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-tabacales/",
+        "https://cigar-coop.com/2026/09/saint-luis-rey-tabacales-toro-cigar-review.html"
+      ]
+    },
+    {
+      "name": "Titan",
+      "size": "6 x 60",
+      "notes": "$8.95 SRP.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-tabacales/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-tabacales/",
+    "https://cigar-coop.com/2026/09/saint-luis-rey-tabacales-toro-cigar-review.html",
+    "https://www.cigaraficionado.com/article/a-saint-luis-rey-from-the-dominican-republic"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "note": "Supplementary file - NOT a new line. 'Fratello Bianco' already exists on the site (just 'Bianco I', 6.25x44). Adding 2 genuine additional vitolas the site is missing.",
+  "line_name": "Fratello Bianco",
+  "additional_vitolas": [
+    {
+      "name": "Bianco Nero Riserva",
+      "size": "6 x 58 (box-pressed Perfecto)",
+      "wrapper": "Mexican San Andrés (maduro)",
+      "binder": "Indonesian",
+      "filler": "Nicaraguan (Condega and Jalapa)",
+      "strength": "Medium (medium-to-full per official copy)",
+      "notes": "A limited reimagining of the Bianco blend in a maduro wrapper, not the standard Connecticut-style Bianco. Debuted at InterTabac; shipped to U.S. retailers December 16, 2024. Limited to 500 boxes of 10 (5,000 cigars total). Fratello has said it could become regular production later."
+    },
+    {
+      "name": "Bianco Fuoco",
+      "size": "3.5 x 50 (short robusto, closed foot, pigtail)",
+      "wrapper": null,
+      "binder": null,
+      "filler": null,
+      "strength": null,
+      "notes": "'Fuoco' is a shared short-robusto vitola/format Fratello released simultaneously across 3 lines (Bianco, Classico, Oro) using each line's own existing blend - not a standalone 4th line. First offered to European retailers 2019; U.S. retail ~2021-2022 (shown at PCA 2021). Sold in 30-count boxes, ~$7.50/cigar."
+    }
+  ],
+  "research_sources": [
+    "https://fratellocigar.com/bianco-nero/",
+    "https://halfwheel.com/fratello-bianco-nero-riserva/451552/",
+    "https://cigar-coop.com/2025/09/fratello-bianco-nero-riserva-cigar-review.html",
+    "https://fratellocigar.com/fuoco/",
+    "https://halfwheel.com/fratello-ships-fuoco-vitolas/400001/"
+  ]
+}

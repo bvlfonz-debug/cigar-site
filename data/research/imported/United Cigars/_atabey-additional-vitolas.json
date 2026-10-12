@@ -1,0 +1,106 @@
+{
+  "note": "Supplementary file - NOT a new line. 'Atabey' already exists on the site (https://cigar-site.vercel.app/brands/atabey/), which currently lists Delirios, Divinos, Ritos, Sabios, and Spiritus. These are ADDITIONAL vitolas found in the Mac photo library that the site's catalog is missing, to be merged into the existing Atabey line record.",
+  "line_name": "Atabey",
+  "site_brand_url": "https://cigar-site.vercel.app/brands/atabey/",
+  "already_on_site": [
+    "Delirios (5.75 x 55)",
+    "Divinos (4.4 x 50)",
+    "Ritos (6.125 x 55)",
+    "Sabios (5.25 x 52)",
+    "Spiritus (7.5 x 40)"
+  ],
+  "additional_vitolas": [
+    {
+      "name": "Dioses",
+      "size": "8 x 50",
+      "notes": "Not on site. Part of the 12-vitola Atabey Classic collection by Selected Tobacco, Costa Rica.",
+      "sources": [
+        "https://unitedcigargroup.com/atabey/"
+      ]
+    },
+    {
+      "name": "Duendes",
+      "size": "6 x 54 (torpedo)",
+      "notes": "Not on site. Confirmed real, including Duendes tubos per Cigar Aficionado. Mac folder's 'Duendas' filename is a typo of Duendes.",
+      "sources": [
+        "https://www.cigaraficionado.com/article/selected-tobacco-releases-elegant-atabey-tubos"
+      ]
+    },
+    {
+      "name": "Hechizos",
+      "size": "4 x 40",
+      "notes": "Not on site. Smallest vitola in the line; MSRP $15, $376/box of 25; released July 2018.",
+      "sources": [
+        "https://halfwheel.com/atabey-hechizos/283342/"
+      ]
+    },
+    {
+      "name": "Idolos",
+      "size": "4 x 55",
+      "notes": "Not on site. 2019 line extension, 25-count boxes.",
+      "sources": [
+        "https://cigar-coop.com/2019/07/cigar-news-selected-tobacco-launches-atabey-idolos-and-sabios-line-extensions.html"
+      ]
+    },
+    {
+      "name": "Misticos",
+      "size": "6.75 x 56",
+      "notes": "Not on site.",
+      "sources": [
+        "https://unitedcigargroup.com/atabey/"
+      ]
+    },
+    {
+      "name": "Benditos",
+      "size": "7.25 x 58",
+      "notes": "Not on site.",
+      "sources": [
+        "https://unitedcigargroup.com/atabey/"
+      ]
+    },
+    {
+      "name": "Brujos",
+      "size": "5 x 52",
+      "notes": "Not on site. Confirmed vitola name on unitedcigargroup.com's Atabey page.",
+      "sources": [
+        "https://unitedcigargroup.com/atabey/"
+      ]
+    }
+  ],
+  "additional_lines": [
+    {
+      "line_name": "Atabey Black (Black Ritos)",
+      "description": "Separate maduro-wrapped Atabey line, a distinct blend (not just a wrapper variant of standard Ritos). Released 2020/2024.",
+      "vitolas": [
+        {
+          "name": "Black Ritos",
+          "size": "6.125 x 55"
+        }
+      ],
+      "wrapper": "Ecuador Habano Maduro",
+      "binder": "Dominican",
+      "filler": "Nicaragua & Peru",
+      "strength": "Full-bodied",
+      "notes": "Not on site at all (neither as a vitola nor a sub-line).",
+      "sources": [
+        "https://halfwheel.com/atabey-black-ritos-2025/448554/",
+        "https://cigar-coop.com/2024/09/atabey-black-ritos-by-selected-tobacco-cigar-review.html",
+        "https://unitedcigargroup.com/atabey-black/"
+      ]
+    }
+  ],
+  "unresolved_filenames": [
+    "UC-Atabey_Atabay-Ritos_Box-Open_01.jpg - likely a typo of 'Atabey Ritos' (already on site), not a new vitola",
+    "UC-Atabey_Stabeybrujos_Box-Open_01.jpg - likely a filename concatenation glitch, possibly 'Atabey Brujos'; not added as a separate product"
+  ],
+  "research_sources": [
+    "https://cigar-site.vercel.app/brands/atabey/",
+    "https://unitedcigargroup.com/atabey/",
+    "https://unitedcigargroup.com/atabey-black/",
+    "https://cigar-coop.com/2019/07/cigar-news-selected-tobacco-launches-atabey-idolos-and-sabios-line-extensions.html",
+    "https://halfwheel.com/atabey-hechizos/283342/",
+    "https://halfwheel.com/atabey-black-ritos-2025/448554/",
+    "https://cigar-coop.com/2024/09/atabey-black-ritos-by-selected-tobacco-cigar-review.html",
+    "https://www.cigaraficionado.com/article/selected-tobacco-releases-elegant-atabey-tubos"
+  ]
+}

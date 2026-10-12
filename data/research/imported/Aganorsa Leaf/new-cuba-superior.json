@@ -1,0 +1,36 @@
+{
+  "line": {
+    "name": "New Cuba Superior",
+    "description": "Connecticut-wrapped, box-pressed premium expansion of Aganorsa's older 'New Cuba' brand. 'New Cuba' refers to a Cuban-seed tobacco varietal Aganorsa grows, used as the line's namesake/base filler. Launched at the 2023 PCA trade show.",
+    "origin_country": "Nicaragua",
+    "wrapper": "Ecuadorian Connecticut",
+    "binder": "Nicaragua (Aganorsa-grown)",
+    "filler": "Nicaragua (Aganorsa-grown, long filler)",
+    "strength": "Mild to medium"
+  },
+  "vitolas": [
+    {
+      "name": "Corona",
+      "size": "5 x 44 (some sources: 5.5 x 44)"
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 50"
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 50"
+    },
+    {
+      "name": "Titan",
+      "size": "6 x 60"
+    }
+  ],
+  "research_notes": "Not on the site at all. Note: the site's separate 'Connecticut' entry (Toro 6.5x52) appears to be a different, non-New-Cuba Aganorsa Connecticut product - do not conflate the two.",
+  "research_sources": [
+    "https://aganorsaleaf.com/cigars/new-cuba-superior/",
+    "https://cigar-coop.com/2024/09/new-cuba-superior-toro-by-aganorsa-leaf-cigar-review.html",
+    "https://cigar-coop.com/2024/04/aganorsa-leaf-adds-new-cuba-superior-titan-cigar-news.html",
+    "https://www.coronacigar.com/brands/aganorsa-leaf/new-cuba-superior-connecticut/"
+  ]
+}

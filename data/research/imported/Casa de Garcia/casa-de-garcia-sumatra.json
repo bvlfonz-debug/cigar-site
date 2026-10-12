@@ -1,0 +1,33 @@
+{
+  "line": {
+    "name": "Casa de Garcia Sumatra",
+    "slug": "casa-de-garcia-sumatra",
+    "description": "A wrapper variant of the core Casa de Garcia blend. FLAG: the full vitola list is not fully consistent across retailers in this research pass - only Robusto and Toro are confirmed on a primary retailer page, though other retailers list additional sizes (Churchill, Belicoso, Corona) matching the other wrapper variants' size runs. Not added without a matching manufacturer confirmation.",
+    "wrapper": "Sumatra",
+    "binder": "Black Connecticut Broadleaf",
+    "filler": "Dominican and Honduran",
+    "factory": "Dominican Republic (one retailer additionally mentions Honduras - unresolved)",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "4.75 x 50",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/casa-de-garcia-cigars/casa-de-garcia-sumatra/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "5.5 x 50",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/casa-de-garcia-cigars/casa-de-garcia-sumatra/"
+      ]
+    }
+  ],
+  "research_notes": "Full vitola range thinly and inconsistently sourced across retailers - only the two vitolas above are confirmed on a primary retailer product page.",
+  "research_sources": [
+    "https://www.jrcigars.com/cigars/handmade-cigars/casa-de-garcia-cigars/casa-de-garcia-sumatra/",
+    "https://www.cigarcentury.com/en/cigars/casa-garcia-sumatra-blend-robusto"
+  ]
+}

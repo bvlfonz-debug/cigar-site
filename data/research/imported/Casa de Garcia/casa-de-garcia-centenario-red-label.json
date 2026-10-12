@@ -1,0 +1,34 @@
+{
+  "line": {
+    "name": "Casa de Garcia Centenario Red Label",
+    "slug": "casa-de-garcia-centenario-red-label",
+    "description": "A genuinely distinct, newer sub-line - a 'modern reinterpretation' made at a different factory/family than the core 4 lines.",
+    "wrapper": "Ecuadorian Habano",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "factory": "Plasencia family factory, Esteli, Nicaragua",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.cigars.com/item/casa-de-garcia-centenario-red-label/toro/GACRT.html"
+      ]
+    },
+    {
+      "name": "Magnum",
+      "size": "6 x 60",
+      "notes": "Full vitola range not confirmed from one single authoritative source.",
+      "sources": [
+        "https://www.cigars.com/item/casa-de-garcia-centenario-red-label/toro/GACRT.html"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/casa-de-garcia/",
+    "https://www.cigars.com/item/casa-de-garcia-centenario-red-label/toro/GACRT.html"
+  ]
+}

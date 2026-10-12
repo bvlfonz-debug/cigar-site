@@ -1,0 +1,74 @@
+{
+  "brand_group": "United Cigars (parent distribution company, owned by David Garofalo / Two Guys Cigars, NH)",
+  "note": "Paths are relative to 'Cigar Images/United Cigars/' in the connected folder on the user's Mac. IMPORTANT STRUCTURE NOTE: unlike previous batches, the Mac's 'United Cigars' folder is NOT one brand's line photos - it's an umbrella distributor folder containing 14 distinct sub-brands, each with its own subfolder. Two of those sub-brands (Atabey, Byron) already exist as their OWN standalone brands on the site and got '_*-additional-vitolas.json' supplement files instead of new brand/line files. Three (Abuelo, Alfonso x2, United) are new LINES that nest under the existing 'United Cigars' brand entry on the site (which currently only lists 'Independence'). The remaining sub-brands (Bandolero, Firecracker, Garofalo, Gold Star, Hightower, La Gianna, Montosa, Red Anchor, Terra Nova, YaYa) do not exist on the site at all and were written as full new brand+line files, since the nested schema's 'brand' object can't be omitted for a brand the site doesn't have yet. This schema has no photo field, so this manifest maps each researched file to its available product photos folder for a separate image-upload step - it does NOT map individual photos to individual vitolas (folders are flat, unsorted mixes of vitola shots).",
+  "photo_folders": {
+    "abuelo": {
+      "folder": "Cigar Images/United Cigars/United Cigars - Abuelo",
+      "photo_count": 5
+    },
+    "alfonso-extra-anejo": {
+      "folder": "Cigar Images/United Cigars/United Cigars - Alfonso",
+      "photo_count": 29
+    },
+    "alfonso-gran-seleccion": {
+      "folder": "Cigar Images/United Cigars/United Cigars - Alfonso",
+      "photo_count": 29
+    },
+    "atabey-additional-vitolas": {
+      "folder": "Cigar Images/United Cigars/United Cigars - Atabey",
+      "photo_count": 37
+    },
+    "bandolero": {
+      "folder": "Cigar Images/United Cigars/United Cigars - Bandolero",
+      "photo_count": 23
+    },
+    "byron-additional-vitolas": {
+      "folder": "Cigar Images/United Cigars/United Cigars - Byron",
+      "photo_count": 30
+    },
+    "firecracker": {
+      "folder": "Cigar Images/United Cigars/United Cigars - Firecracker",
+      "photo_count": 2
+    },
+    "garofalo-la-famiglia": {
+      "folder": "Cigar Images/United Cigars/United Cigars - Garofalo",
+      "photo_count": 13
+    },
+    "gold-star": {
+      "folder": "Cigar Images/United Cigars/United Cigars - Gold Star",
+      "photo_count": 6
+    },
+    "hightower": {
+      "folder": "Cigar Images/United Cigars/United Cigars - Hightower",
+      "photo_count": 4
+    },
+    "la-gianna": {
+      "folder": "Cigar Images/United Cigars/United Cigars - La Gianna",
+      "photo_count": 19
+    },
+    "montosa": {
+      "folder": "Cigar Images/United Cigars/United Cigars - Montosa",
+      "photo_count": 12
+    },
+    "red-anchor": {
+      "folder": "Cigar Images/United Cigars/United Cigars - Red Anchor",
+      "photo_count": 5
+    },
+    "terra-nova": {
+      "folder": "Cigar Images/United Cigars/United Cigars - Terra Nova",
+      "photo_count": 8
+    },
+    "united-flagship": {
+      "folder": "Cigar Images/United Cigars/United Cigars - United",
+      "photo_count": 14
+    },
+    "yaya": {
+      "folder": "Cigar Images/United Cigars/United Cigars - YaYa",
+      "photo_count": 4
+    }
+  },
+  "total_photos_covered": 240,
+  "excluded": {
+    "hightower": "Written and included, but flagged in hightower.json as an UNCERTAIN United Cigars attribution - every independent source ties this brand to 'Jose Dominguez' rather than United Cigars/David Garofalo. Recommend double-checking before merging into the United Cigars family in your database."
+  }
+}

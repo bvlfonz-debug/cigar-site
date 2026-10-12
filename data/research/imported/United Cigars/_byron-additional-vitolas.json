@@ -1,0 +1,151 @@
+{
+  "note": "Supplementary file - NOT new lines. 'Byron' already exists on the site (https://cigar-site.vercel.app/brands/byron/), which currently lists Grand Poemas (19th Century), Venecianos (20th Century), Elegantes (21st Century). These are ADDITIONAL vitolas/editions found in the Mac photo library that the site's catalog is missing.",
+  "line_name": "Byron",
+  "site_brand_url": "https://cigar-site.vercel.app/brands/byron/",
+  "already_on_site": [
+    "Grand Poemas (19th Century)",
+    "Venecianos (20th Century)",
+    "Elegantes (21st Century)"
+  ],
+  "additional_lines_or_editions": [
+    {
+      "name": "1850 No.1",
+      "size": "8 x 54",
+      "wrapper": "Ecuador",
+      "binder": "Peru",
+      "filler": "Dominican/Nicaraguan",
+      "strength": "Medium",
+      "notes": "Seleccion 1850 line, regular production"
+    },
+    {
+      "name": "1850 No.2",
+      "size": "7 x 56 (torpedo)",
+      "wrapper": "Ecuador",
+      "binder": "Peru",
+      "filler": "Dominican/Nicaraguan",
+      "strength": "Medium"
+    },
+    {
+      "name": "1850 No.3",
+      "size": "6 x 52",
+      "wrapper": "Ecuador",
+      "binder": "Peru",
+      "filler": "Dominican/Nicaraguan",
+      "strength": "Medium",
+      "notes": "Also in the 175th Anniversary humidor set"
+    },
+    {
+      "name": "1850 No.4",
+      "size": "5 x 50",
+      "wrapper": "Ecuador",
+      "binder": "Peru",
+      "filler": "Dominican/Nicaraguan",
+      "strength": "Medium"
+    },
+    {
+      "name": "1850 Grand Bouquet",
+      "size": "6 x 58 (perfecto)",
+      "wrapper": "Ecuador",
+      "binder": "Peru",
+      "filler": "Dominican/Nicaraguan",
+      "strength": "Medium",
+      "notes": "Limited-production event size, 150 boxes"
+    },
+    {
+      "name": "1850 Liricos",
+      "size": "9.25 x 55 (Salomon)",
+      "wrapper": "Ecuador",
+      "binder": "Peru",
+      "filler": "Dominican/Nicaraguan",
+      "strength": "Medium",
+      "notes": "Limited-production event size, 150 boxes"
+    },
+    {
+      "name": "19th Century Petit Poemas",
+      "size": "4 x 50",
+      "wrapper": "Ecuador",
+      "binder": "Ecuador",
+      "filler": "Nicaraguan/Peruvian"
+    },
+    {
+      "name": "19th Century Poemas",
+      "size": "5 x 52",
+      "wrapper": "Ecuador",
+      "binder": "Ecuador",
+      "filler": "Nicaraguan/Peruvian",
+      "notes": "Smaller-format sibling of the site's existing 'Grand Poemas'"
+    },
+    {
+      "name": "19th Century Epique Poemas",
+      "size": "7 x 54",
+      "wrapper": "Ecuador",
+      "binder": "Ecuador",
+      "filler": "Nicaraguan/Peruvian",
+      "notes": "Also released as its own limited humidor"
+    },
+    {
+      "name": "20th Century Londinenses",
+      "size": "5.5 x 54"
+    },
+    {
+      "name": "20th Century Habaneros",
+      "size": "6 x 54 (one retailer lists 6x56)",
+      "notes": "Also in the 175th Anniversary humidor set"
+    },
+    {
+      "name": "20th Century Honorables",
+      "size": null,
+      "notes": "Exact size unverified"
+    },
+    {
+      "name": "20th Century Meslongus",
+      "size": null,
+      "notes": "Exact size unverified"
+    },
+    {
+      "name": "21st Century Aristocratas",
+      "size": null,
+      "notes": "Confirmed real (Tobacconist of Greenwich, Robustos.com); exact size unverified"
+    },
+    {
+      "name": "21st Century Distinguidos",
+      "size": "6 x 55",
+      "notes": "Confirmed via Corona Cigar"
+    },
+    {
+      "name": "175th Anniversary Tribute Set",
+      "size": "Assorted: 1850 No.3 (6x52), 19th Grand Poemas (6x56), 20th Habaneros (6x54), 21st Elegantes (6.125x55)",
+      "notes": "175th anniversary of the Byron brand itself (founded ~1850s). Limited to 175 sets (60 cigars, 15 each of 4 vitolas); PCA 2025 debut, shipped ~Feb 2026."
+    },
+    {
+      "name": "10th Anniversary (United Cigars era)",
+      "size": null,
+      "notes": "Could not verify exact release details for a Byron '10th' anniversary edition"
+    }
+  ],
+  "not_gaps": [
+    "UC-Byron_19th-Grand-Poemas_02.png - alt image of already-listed Grand Poemas",
+    "UC-Byron_Elegante_Box-Open_01.jpg - box-open image of already-listed Elegantes",
+    "UC-Byron_Venicianos_Box-Open_01.jpg - alt spelling/box photo of already-listed Venecianos",
+    "UC-Byron_Sel1850-No2/No3/No4_Box-Open_01.jpg - box-photo variants of 1850 No.2-4 above, not separate products",
+    "UC-Byron_Grand-Poemas-Box21_Box-Open_01.jpg - same vitola as the site's existing Grand Poemas, different packaging count (21-count box)"
+  ],
+  "unresolved_filenames": [
+    "UC-Byron_Sel1950-No1_Box-Open_01.jpg - '1950' could not be verified as a distinct line; likely a typo for '1850'"
+  ],
+  "research_sources": [
+    "https://cigar-site.vercel.app/brands/byron/",
+    "https://unitedcigargroup.com/byron-1850/",
+    "https://unitedcigargroup.com/byron-19th-century/",
+    "https://halfwheel.com/byron-1850-no-2/419963/",
+    "https://cigar-coop.com/2023/07/cigar-review-byron-seleccion-1850-grand-bouquet-by-selected-tobacco.html",
+    "https://halfwheel.com/byron-175th-anniversary-to-debut-at-pca-2025/449513/",
+    "https://cigar-coop.com/2026/04/byron-175th-anniversary-humidor-shipping-to-retailers-cigar-news.html",
+    "https://www.cigaraficionado.com/article/byron-celebrates-175th-anniversary-with-lavish-humidor",
+    "https://www.coronacigar.com/byron-distinguidos-21st/",
+    "https://www.coronacigar.com/byron-londineses-20th/",
+    "https://www.coronacigar.com/byron-habaneros-20th/",
+    "https://tobacconistofgreenwich.com/product/byron-aristocratas-21st-century",
+    "https://blindmanspuff.com/united-cigar-announces-19th-century-byron-epique-poemas-humidor-cigar-news/"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "line": {
+    "name": "JFR Lunatic Habano",
+    "description": "A Habano-wrapped JFR Lunatic sub-line, handmade at the Aganorsa Leaf factory in Estelí, Nicaragua. Distinct from JFR Corojo, JFR Lunatic Maduro, and JFR Lunatic Torch (all already on the site) - the site's JFR family list is missing this variant entirely.",
+    "origin_country": "Nicaragua",
+    "wrapper": "Ecuadoran Habano (natural)",
+    "binder": "Nicaraguan Aganorsa Leaf",
+    "filler": "Nicaraguan Aganorsa Leaf",
+    "strength": "Medium-bodied"
+  },
+  "vitolas": [
+    {
+      "name": "Hombre Libre",
+      "size": "6 x 54 (Toro)",
+      "notes": "Flagship/only widely-sold vitola in this sub-line."
+    }
+  ],
+  "research_sources": [
+    "https://www.neptunecigar.com/cigars/jfr-lunatic-habano-hombre-libre",
+    "https://atlanticcigar.com/jfr-lunatic-habano-hombre-libre-6x54/",
+    "https://www.cigarsinternational.com/p/aganorsa-jfr-lunatic-habano/2022056/"
+  ]
+}

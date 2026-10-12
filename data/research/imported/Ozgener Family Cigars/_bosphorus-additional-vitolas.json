@@ -1,0 +1,42 @@
+{
+  "line_slug": "ozgener-bosphorus",
+  "note": "Site lists only B52 (5x52). Mac box photos show 3 more. FLAG: my working notes initially had B55 as 6.5x55, but independent sources (halfwheel, Neptune Cigar) consistently give B55 = 5.5x55, and B54 = 6.5x54 - the two sizes may have gotten transposed somewhere upstream. Used the verified sizes below; recommend double-checking against the box photo itself if you want to be certain.",
+  "additional_vitolas": [
+    {
+      "name": "B50",
+      "size": "4 x 50",
+      "sources": [
+        "neptunecigar.com/cigars/ozgener-bosphorus-b50"
+      ]
+    },
+    {
+      "name": "B54 (Toro)",
+      "size": "6.5 x 54",
+      "sources": [
+        "atlanticcigar.com/copy-of-ozgener-family-cigar-bosphorus-b52-5x52/"
+      ]
+    },
+    {
+      "name": "B55 (Robusto Extra)",
+      "size": "5.5 x 55",
+      "notes": "See flag above re: possible size transposition with B54.",
+      "sources": [
+        "halfwheel.com/ozgener-family-cigars-bosphorus-b-55/414140/"
+      ]
+    }
+  ],
+  "line_details_for_reference": {
+    "wrapper": "Varies by vitola - Ecuador Sumatra-seed and 'Havana 2000' (B52), Ecuadorian Habano (B54)",
+    "binder": "Varies by vitola - Ecuador Connecticut + Nicaragua Jalapa (B55), Ecuador/Nicaragua (B54)",
+    "filler": "Nicaragua (Esteli, Jalapa, Ometepe)",
+    "strength": "Medium to medium-full",
+    "factory": "Tabacalera La Alianza (Ernesto Perez-Carrillo), Dominican Republic",
+    "release": "The company's first blend, debuted 2022; B55 shipped August 2022"
+  },
+  "research_sources": [
+    "https://www.cigaraficionado.com/top25cigar/ozgener-family-cigars-bosphorus-b52-2023",
+    "https://halfwheel.com/ozgener-family-cigars-bosphorus-b-55/414140/",
+    "https://atlanticcigar.com/copy-of-ozgener-family-cigar-bosphorus-b52-5x52/",
+    "https://www.neptunecigar.com/cigars/ozgener-bosphorus-b50"
+  ]
+}

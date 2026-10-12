@@ -1,0 +1,29 @@
+{
+  "line": {
+    "name": "Deadwood Sweet Jane Dia de los Muertos Limited Edition 2024",
+    "slug": "deadwood-sweet-jane-dia-de-los-muertos-le-2024",
+    "description": "DECODE: 'Dia-24' = Dia de los Muertos (Day of the Dead), 2024 release. A limited-edition variant of the Sweet Jane blend (one of Deadwood's 4 core 'Wild Bunch' blends). Originally a Drew Estate Lounge exclusive (2019), returned nationally as a limited edition in 2024, and again in 2025. FLAG: a separate 'Dia De Los Muertos LE Maduro 2025' also exists per at least one retailer - confirm the exact box/year printed on the actual photographed box matches '2024' before treating this as settled, since the two years' releases were not independently distinguished in this pass.",
+    "wrapper": null,
+    "binder": null,
+    "filler": null,
+    "factory": null,
+    "status": "limited edition (2024 run)"
+  },
+  "vitolas": [
+    {
+      "name": "Toro (box-pressed)",
+      "size": "6 x 50",
+      "notes": "Matches the Mac photo. 20 cigars/box, ~$12.00/cigar MSRP.",
+      "sources": [
+        "https://cigar-coop.com/2024/08/deadwood-sweet-jane-dia-d-los-muertos-to-return-cigar-news.html",
+        "https://coronacigar.com/deadwood-sweet-jane-dia-de-los-muertos-le-2024"
+      ]
+    }
+  ],
+  "research_notes": "Wrapper, binder, filler, and factory not found in any source checked - left null rather than guessed.",
+  "research_sources": [
+    "https://cigar-coop.com/2024/08/deadwood-sweet-jane-dia-d-los-muertos-to-return-cigar-news.html",
+    "https://coronacigar.com/deadwood-sweet-jane-dia-de-los-muertos-le-2024",
+    "https://halfwheel.com/deadwood-sweet-jane-dia-de-los-muertos-returns-for-2025/455005/"
+  ]
+}

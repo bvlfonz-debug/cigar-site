@@ -1,0 +1,101 @@
+{
+  "line": {
+    "brand_slug": "lampert",
+    "name": "Lampert Family Reserve",
+    "slug": "lampert-family-reserve",
+    "wrapper": "Ecuadorian Connecticut",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic",
+    "strength": "Medium",
+    "release_year": 2022,
+    "background_text": "Lampert Family Reserve is an annually-dated limited release produced in partnership with Hendrik Kelner Jr. at the Kelner Boutique Factory (KBF) in Santiago de los Caballeros, Dominican Republic. First shipped as 'Family Reserve 2021' in July 2022, packaged in okoume-wood boxes (the same wood used by Davidoff). A 'Family Reserve 2023' edition followed in December 2023 with new banding but the same underlying blend."
+  },
+  "vitolas": [
+    {
+      "size_name": "Robusto (2021)",
+      "slug": "family-reserve-2021-robusto",
+      "length_in": 5.0,
+      "ring_gauge": 52,
+      "vitola_type": "Robusto",
+      "summary_review": "Halfwheel rated the Family Reserve 2021 89 points, describing a progression from toasty pepper and graham cracker to rich earth, cookie dough, and crisp finish.",
+      "tasting_notes": [
+        "graham cracker",
+        "black pepper",
+        "earth",
+        "cookie dough",
+        "cane sugar",
+        "cedar",
+        "dark roasted coffee",
+        "vanilla",
+        "hay"
+      ],
+      "smoke_time_min": 105,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "halfwheel",
+          "source_type": "critic",
+          "score": 89,
+          "score_scale": "100",
+          "review_date": null,
+          "url": "https://halfwheel.com/lampert-family-reserve-2021/413628/",
+          "key_notes_text": "Toasty, peppery, graham cracker opening; rich earth and black pepper in final third; cookie dough and crisp earthiness finish."
+        },
+        {
+          "source_name": "Whiskey & Whitetails",
+          "source_type": "retailer",
+          "score": null,
+          "score_scale": null,
+          "review_date": null,
+          "url": "https://whiskeyandwhitetails.com/blogs/news/lampert-cigars-family-reserve-2021-review",
+          "key_notes_text": "Cane sugar and cedar on the nose, grain/wood at first light, dark roasted coffee mid-smoke, finishing with cane sugar, vanilla, earth, and hay."
+        }
+      ]
+    },
+    {
+      "size_name": "Toro (2023)",
+      "slug": "family-reserve-2023-toro",
+      "length_in": 6.0,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": "The 2023 edition kept the same Family Reserve blend as prior years in a 6x52 Toro, with new artwork/banding; limited to 600 boxes of 10.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Cigar Coop",
+          "source_type": "critic",
+          "score": null,
+          "score_scale": null,
+          "review_date": "2023-12-12",
+          "url": "https://cigar-coop.com/2023/12/lampert-family-reserve-2023-heading-to-retailers-cigar-news.html",
+          "key_notes_text": "6x52 Toro, $18/cigar, 8,000 cigars (600 boxes of 10), same blend as prior Family Reserve releases, new banding, Kelner-produced."
+        }
+      ]
+    }
+  ],
+  "research_notes": "Two dated editions verified: Family Reserve 2021 (July 2022, 5x52 Robusto, 89pts halfwheel) and Family Reserve 2023 (Dec 2023, 6x52 Toro). No 2022, 2024, or 2025 edition was found - absence is not confirmed non-existence for a small brand with thin coverage.",
+  "research_sources": [
+    {
+      "url": "https://halfwheel.com/lampert-family-reserve-2021/413628/",
+      "supports": "Vitola, wrapper/binder/filler, factory, box count, price, release date, tasting notes, 89-point score, background"
+    },
+    {
+      "url": "https://halfwheel.com/pca-2022-lampert-cigars/412043/",
+      "supports": "Confirms Family Reserve 2021 specs and okoume wood box detail at PCA 2022"
+    },
+    {
+      "url": "https://cigar-coop.com/2023/12/lampert-family-reserve-2023-heading-to-retailers-cigar-news.html",
+      "supports": "Family Reserve 2023 vitola, price, box count, background"
+    },
+    {
+      "url": "https://whiskeyandwhitetails.com/blogs/news/lampert-cigars-family-reserve-2021-review",
+      "supports": "Additional tasting notes and smoke time for Family Reserve 2021"
+    }
+  ]
+}

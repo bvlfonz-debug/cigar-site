@@ -1,0 +1,118 @@
+{
+  "line": {
+    "brand_slug": "rocky-patel",
+    "name": "Emerald",
+    "slug": "emerald",
+    "wrapper": "Ecuadorian Habano",
+    "binder": "Mexican and Nicaraguan (dual binder)",
+    "filler": "Nicaraguan and Honduran (including leaf from the Jamastran Valley)",
+    "strength": "Mild-Medium",
+    "release_year": 2024,
+    "background_text": "Emerald is Rocky Patel's first box-pressed line built specifically to stay on the lighter side of medium-bodied, answering customer demand for a milder option from a brand best known for medium-to-full smokes. It was first shown as an upcoming release at the 2024 Traveling Road Show Tour and began shipping to retailers in December 2024, produced at the TAVICUSA factory in Esteli, Nicaragua."
+  },
+  "vitolas": [
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5.5,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [
+        "ground coffee",
+        "leather",
+        "hickory",
+        "black pepper"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Cigar Aficionado",
+          "source_type": "critic",
+          "score": 95,
+          "score_scale": 100,
+          "review_date": "2025-01-01",
+          "url": "https://www.cigaraficionado.com/top25cigar/rocky-patel-emerald-robusto-2025",
+          "key_notes_text": "Ranked #6 on Cigar Aficionado's 2025 Top 25, praised for balanced ground coffee, leather, hickory, and light black pepper notes at an approachable medium-full strength and low price point."
+        }
+      ]
+    },
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6.5,
+      "ring_gauge": 54,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [
+        "coffee",
+        "earth",
+        "fruit sweetness",
+        "hay",
+        "pepper",
+        "tannin"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Cigar Coop",
+          "source_type": "critic",
+          "score": 86,
+          "score_scale": 100,
+          "review_date": "2025-08-01",
+          "url": "https://cigar-coop.com/2025/08/rocky-patel-emerald-toro-cigar-review.html",
+          "key_notes_text": "Medium-bodied smoke with coffee, earth, fruit sweetness, and hay notes plus secondary pepper and tannin; solid construction but flavor combination felt underwhelming, rated Not Recommended for value."
+        }
+      ]
+    },
+    {
+      "size_name": "Sixty",
+      "slug": "sixty",
+      "length_in": 6.0,
+      "ring_gauge": 60,
+      "vitola_type": "Gordo",
+      "summary_review": null,
+      "tasting_notes": [
+        "malted milk",
+        "baking spices",
+        "light leather",
+        "mocha",
+        "caramel",
+        "dark chocolate"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_sources": [
+    {
+      "source_name": "Cigar Coop",
+      "source_url": "https://cigar-coop.com/2025/08/rocky-patel-emerald-toro-cigar-review.html",
+      "fact_note": "Emerald blend, background, Toro review and score"
+    },
+    {
+      "source_name": "Cigar Aficionado",
+      "source_url": "https://www.cigaraficionado.com/top25cigar/rocky-patel-emerald-robusto-2025",
+      "fact_note": "Emerald Robusto blend, strength, tasting notes, score 95"
+    },
+    {
+      "source_name": "Klaro Cigars",
+      "source_url": "https://klarocigars.com/blogs/expert-reviews/rocky-patel-emerald-review",
+      "fact_note": "Emerald blend, background as first box-pressed mild line, tasting notes"
+    },
+    {
+      "source_name": "Cigar Coop",
+      "source_url": "https://cigar-coop.com/2024/12/rocky-patel-emerald-released-cigar-news.html",
+      "fact_note": "Emerald release date confirmation (December 2024)"
+    }
+  ]
+}

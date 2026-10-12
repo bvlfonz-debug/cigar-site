@@ -1,0 +1,42 @@
+{
+  "brand": {
+    "name": "Asylum",
+    "slug": "asylum",
+    "description": "Not on the site at all - no 'Asylum' brand entry exists in the site's brand index. Created in 2012 by Tom Lazuka (a former Camacho/Davidoff sales rep), in partnership with Christian Eiroa shortly after Eiroa's Davidoff non-compete expired. Lazuka pitched oversized 60-80 ring gauge cigars after seeing retailers sell out of them; Eiroa reportedly called the idea 'the worst idea he had ever heard' and named the brand Asylum as a joke at Lazuka's expense, but agreed to produce it anyway. Asylum is sold as its own standalone brand (not badged 'CLE'), but is made at Christian Eiroa's own factory - The CLE Factory (a converted 1975 movie theater) in Danli, Honduras. Blend philosophy is practical/value-driven rather than 'masterpiece' blending - Lazuka has said they started by asking what tobacco they had enough of to make a million cigars - reflected in very large ring gauges (50-80) and bold, spicy, full-flavored profiles at aggressive price points.",
+    "founded_year": 2012,
+    "origin": "Honduras",
+    "research_sources": [
+      "https://halfwheel.com/asylum-13-70-x-7-box-pressed/175494/",
+      "https://halfwheel.com/asylum-seven-11-18/374418/"
+    ]
+  },
+  "line": {
+    "name": "Asylum 13 \"Split Personality\"",
+    "slug": "asylum-13-split-personality",
+    "description": "Released June 2025. Despite the 'split personality' name/premise implying two blends, halfwheel's review found it is actually ONE blend - a Honduran puro flavored to taste like a banana split (banana, butterscotch, vanilla notes).",
+    "wrapper": "Honduran",
+    "binder": "Honduran",
+    "filler": "Honduran",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "https://halfwheel.com/asylum-13-split-personality-50x5/453751/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "sources": [
+        "https://www.neptunecigar.com"
+      ]
+    }
+  ],
+  "research_notes": "Full line also comes in 4x40, 6x60, and 7x70 per retailer listings - not photographed on the Mac, not added as formal entries here.",
+  "research_sources": [
+    "https://halfwheel.com/asylum-13-split-personality-50x5/453751/"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "line": {
+    "brand_slug": "joya-de-nicaragua",
+    "name": "Joya de Nicaragua Clásico Medio Siglo",
+    "slug": "clasico-medio-siglo",
+    "wrapper": "Connecticut-Ecuador (Nicaraguan H. Criollo per JDN official site)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": "Medium",
+    "release_year": 2019,
+    "background_text": "Clásico Medio Siglo (\"half century\") is JDN's modern evolution of its original, most popular cigar, first rolled in Nicaragua over fifty years ago. It was added for international markets circa 2019-2020 and later brought to the U.S. It delivers an intensified Nicaraguan flavor profile of woody, leathery, cocoa and earthy-sweet notes versus the original Clásico. NOTE: 'Pata Negra' is NOT a separate product line - it is a special Spain-exclusive annual edition/variant WITHIN this line (see research_notes)."
+  },
+  "vitolas": [
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6,
+      "ring_gauge": 50,
+      "vitola_type": "Toro",
+      "summary_review": "Cigar Coop rated it 89, calling out cocoa, wood, hay and natural tobacco notes with medium strength/body and medium-plus complexity.",
+      "tasting_notes": [
+        "cocoa",
+        "wood",
+        "hay",
+        "natural tobacco",
+        "herbal",
+        "cedar",
+        "pepper"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        null
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Cigar Coop",
+          "source_type": "critic",
+          "score": 89,
+          "score_scale": "100",
+          "review_date": "2025-12-01",
+          "url": "https://cigar-coop.com/2025/12/joya-de-nicaragua-clasico-medio-siglo-toro-cigar-review.html",
+          "key_notes_text": "Cocoa, wood, hay, natural tobacco; medium strength/body; excellent draw; 'Buy One' value rating."
+        }
+      ]
+    },
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        null
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "No. 6",
+      "slug": "no-6",
+      "length_in": 6,
+      "ring_gauge": 41,
+      "vitola_type": "Corona",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        null
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Selección B",
+      "slug": "seleccion-b",
+      "length_in": 5.5,
+      "ring_gauge": 42,
+      "vitola_type": "Corona",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        null
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Gordito",
+      "slug": "gordito",
+      "length_in": null,
+      "ring_gauge": null,
+      "vitola_type": "Gordito",
+      "summary_review": "Released for Spain per halfwheel (2022).",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        null
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Pata Negra",
+      "slug": "pata-negra",
+      "length_in": null,
+      "ring_gauge": null,
+      "vitola_type": "Special edition/variant (not a standard shape category)",
+      "summary_review": "Spain-exclusive 2023 special edition within the Clásico Medio Siglo line, using an extra-matured wrapper for a more intense profile of bitter cacao and aged wood versus the standard line.",
+      "tasting_notes": [
+        "bitter cacao",
+        "aged wood"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        null
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "CONFIRMED: 'Pata Negra' is NOT a separate product line - it is listed by retailers as one of the variants/vitolas within Clásico Medio Siglo, and independently confirmed by Cigar Coop as the name of JDN's annual Spain-exclusive prestige series, of which the 2023 installment reimagined the Clásico Medio Siglo blend specifically. Exact length/ring gauge for the Pata Negra and Gordito variants could not be verified. Box counts not confirmed for any vitola. Release year approximate (~2019).",
+  "research_sources": [
+    {
+      "url": "https://joyacigars.com/cigars/clasico-medio-siglo/",
+      "supports": "wrapper/binder/filler, strength, background text, base vitola list"
+    },
+    {
+      "url": "https://cigarsmokerclub.com/joya-de-nicaragua-clasico-medio-siglo/",
+      "supports": "vitola list including Pata Negra and Gordito"
+    },
+    {
+      "url": "https://cigar-coop.com/2025/12/joya-de-nicaragua-clasico-medio-siglo-toro-cigar-review.html",
+      "supports": "Toro review score, tasting notes"
+    },
+    {
+      "url": "https://cigar-coop.com/2025/08/joya-de-nicaragua-releases-antano-ct-pata-negra-2025.html",
+      "supports": "Confirmation Pata Negra is JDN's annual Spain-exclusive prestige series"
+    },
+    {
+      "url": "https://halfwheel.com/joya-de-nicaragua-clasico-medio-siglo-coming-to-the-u-s-this-summer/436076/",
+      "supports": "U.S. market timeline"
+    },
+    {
+      "url": "https://halfwheel.com/joya-de-nicaragua-adds-clasico-medio-siglo-for-international-markets/396884/",
+      "supports": "Approximate introduction period"
+    }
+  ]
+}

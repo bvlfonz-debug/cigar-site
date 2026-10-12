@@ -1,0 +1,35 @@
+{
+  "line_slug": "la-aurora-107",
+  "note": "Site lists only 'Ecuador Robusto' (5x50). '107' commemorates La Aurora's 107th anniversary (founded 1903; cigar launched 2010) - the line comes in three wrapper sub-lines (107 Ecuador, 107 Nicaragua, 107 USA). Mac photos are a generic variety-pack group shot plus one single-cigar photo whose specific vitola could not be confirmed (best guess: Gran Toro, based on the filename's '6' - flagged as unverified in the renamed file). Given the line's existence is well-photographed even without a clean per-vitola match, the additional vitolas below reflect the verified current lineup per Cigars International's product listings, cross-checked against other sources.",
+  "additional_vitolas": [
+    {
+      "name": "Toro",
+      "size": "5.5 x 54",
+      "sources": [
+        "https://www.cigarsinternational.com/product/la-aurora-107/LAD-PM.html"
+      ]
+    },
+    {
+      "name": "Gran Toro",
+      "size": "6 x 58",
+      "notes": "Possibly what the Mac's unconfirmed single-cigar photo depicts, based on filename shorthand - not independently confirmed.",
+      "sources": [
+        "https://www.cigarsinternational.com/product/la-aurora-107/LAD-PM.html"
+      ]
+    },
+    {
+      "name": "Belicoso",
+      "size": "6.25 x 52",
+      "sources": [
+        "https://www.cigarsinternational.com/product/la-aurora-107/LAD-PM.html"
+      ]
+    }
+  ],
+  "sub_line_specific_not_added": "Lancero (6.875x40) and Zeppelin (5.5x42) appear to be specific to the '107 Ecuador' sub-line only per older listings - not added as general-line entries since sub-line attribution isn't fully confirmed current. An older 2012 Cigar Coop review also references a 'Corona' (5.5x43) and 'Gran 107' (7x58) not found in current retailer listings - likely discontinued, not added.",
+  "research_sources": [
+    "https://www.laaurora.com.do/la-aurora-107-the-reflection-of-over-one-hundred-years-experience/?lang=en",
+    "https://cigar-coop.com/2012/02/cigar-review-la-aurora-107.html",
+    "https://www.cigarsinternational.com/product/la-aurora-107/LAD-PM.html",
+    "https://www.jrcigars.com/cigars/handmade-cigars/la-aurora-cigars/la-aurora-107-ecuador/"
+  ]
+}

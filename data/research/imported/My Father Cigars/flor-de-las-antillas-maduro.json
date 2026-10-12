@@ -1,0 +1,54 @@
+{
+  "line": {
+    "name": "Flor de las Antillas Maduro",
+    "slug": "flor-de-las-antillas-maduro",
+    "description": "Maduro-wrapped expression of My Father's Flor de las Antillas line. Debuted April 2015 as a Federal Cigar retailer exclusive, then expanded to regular production by the November 2016 IPCPR trade show.",
+    "wrapper": "Ecuadorian Habano Sun Grown Oscuro (maduro)",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": "Medium to full",
+    "release_year": 2015,
+    "notes": "Sourced from photos physically filed in the Mac's 'Flor de Selva Maduro' folder (under the separate 'Flor de Selva' top-level folder) - every filename in that folder is prefixed 'Flor_de_las_Antillas_Maduro_*', not 'Flor_de_Selva_*'. This appears to be a folder-naming/misfiling error on the Mac side; see README and image manifest."
+  },
+  "vitolas": [
+    {
+      "name": "Corona",
+      "size": "5.625 x 46",
+      "sources": [
+        "myfathercigars.com/cigar/flor-de-las-antillas-maduro/",
+        "halfwheel.com"
+      ]
+    },
+    {
+      "name": "Petit Robusto",
+      "size": "4.5 x 50",
+      "sources": [
+        "myfathercigars.com/cigar/flor-de-las-antillas-maduro/",
+        "cigarsinternational.com"
+      ]
+    },
+    {
+      "name": "Toro Gordo",
+      "size": "6.5 x 56",
+      "sources": [
+        "myfathercigars.com/cigar/flor-de-las-antillas-maduro/",
+        "jrcigars.com"
+      ]
+    },
+    {
+      "name": "Torpedo",
+      "size": "6.125 x 52",
+      "sources": [
+        "myfathercigars.com/cigar/flor-de-las-antillas-maduro/",
+        "casademontecristo.com"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://myfathercigars.com/cigar/flor-de-las-antillas-maduro/",
+    "https://halfwheel.com",
+    "https://cigarsinternational.com",
+    "https://jrcigars.com",
+    "https://casademontecristo.com"
+  ]
+}

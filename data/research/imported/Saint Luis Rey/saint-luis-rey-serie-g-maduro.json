@@ -1,0 +1,41 @@
+{
+  "line": {
+    "name": "Saint Luis Rey Serie G Maduro",
+    "slug": "saint-luis-rey-serie-g-maduro",
+    "description": "'G' reportedly stands for 'gigante' (large ring gauges, 54-60). Fuller-bodied maduro line with a hand-selected Connecticut Broadleaf maduro wrapper. A separate natural-wrapper 'Serie G Natural' SKU also exists per Altadis USA's site but was not independently fetched for full specs in this pass.",
+    "wrapper": "Connecticut Broadleaf (maduro)",
+    "binder": "Connecticut Broadleaf",
+    "filler": "Nicaraguan",
+    "factory": "Honduras",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Rothchilde",
+      "size": "5 x 56",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-serie-g-maduro/"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 58",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-serie-g-maduro/"
+      ]
+    },
+    {
+      "name": "No. 6",
+      "size": "6 x 60",
+      "notes": "Matches the Mac photo ('Maduro No.6'). Same size-ordering caveat as Saint Luis Rey Original - source text formatting was ambiguous, normalized to conventional length x ring-gauge, re-verify before final load.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-serie-g-maduro/"
+      ]
+    }
+  ],
+  "research_notes": "A companion 'Serie G Natural' SKU exists but was not independently fetched for full specs in this pass - flagged as a candidate for a future research pass.",
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-serie-g-maduro/",
+    "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-serie-g-natural/"
+  ]
+}

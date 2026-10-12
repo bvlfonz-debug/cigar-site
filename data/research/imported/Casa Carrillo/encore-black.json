@@ -1,0 +1,40 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo Encore Black",
+    "slug": "encore-black",
+    "wrapper": "Connecticut Broadleaf Maduro",
+    "binder": "Mexican San Andres",
+    "filler": "Nicaraguan (Condega, Esteli, Jalapa)",
+    "strength": "Medium-Full",
+    "release_year": 2024,
+    "background_text": "One of three 2024 line extensions that elevated Encore from a sub-line of the Perez-Carrillo portfolio into its own standalone brand. Swaps the original Encore's all-Nicaraguan, medium-bodied blend for a dark Connecticut Broadleaf maduro wrapper over San Andres binder, produced at Casa Carrillo (formerly Tabacalera La Alianza)."
+  },
+  "vitolas": [
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 5.375,
+      "ring_gauge": 52,
+      "vitola_type": "Box-pressed Toro",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Genuinely distinct from plain Encore (different wrapper/binder, fuller profile). Sources disagree slightly on exact length (5 3/8\" vs 5 3/4\") - treated as approximate. Only one vitola offered as of Sept 2026.",
+  "research_sources": [
+    {
+      "url": "https://www.cigaraficionado.com/article/e-p-carrillo-ships-encore-black",
+      "supports": "wrapper/binder/filler, size, release date, price, box count"
+    },
+    {
+      "url": "https://cigar-coop.com/2024/10/e-p-carrillo-encore-black-cigar-review.html",
+      "supports": "wrapper/binder/filler, strength/body, background"
+    }
+  ]
+}

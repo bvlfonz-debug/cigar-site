@@ -1,0 +1,34 @@
+{
+  "is_sampler": true,
+  "sampler_details": {
+    "name": "Joya de Nicaragua The Ultimate Jewel Collection",
+    "slug": "jewel-collection",
+    "description": "A limited-edition 14-cigar sampler conceptualized by JDN master bonchero Aristo Torres, presenting one best-selling vitola from each of JDN's major lines, spanning five decades of the brand's history (1968-2023) including the 55th Anniversary blend. First shown at the March 2024 PCA trade show.",
+    "contains": [
+      "Cuatro Cinco (Toro)",
+      "Cinco Decadas (Diademas)",
+      "Numero Uno (L'Ambassadeur)",
+      "Cinco de Cinco (Robusto Gordo)",
+      "Antano Original (Robusto Grande)",
+      "Antano Dark Corojo (El Martillo)",
+      "Antano Gran Reserva (GT20)",
+      "Antano CT (Toro)",
+      "Joya Cabinetta (Toro)",
+      "Joya Red (Toro)",
+      "Joya Black (Toro)",
+      "Joya Silver (Toro)",
+      "Clasico (Medio Siglo Robusto)",
+      "Clasico Original (Toro)"
+    ],
+    "release_year": 2024
+  },
+  "research_notes": "This is NOT a distinct blend - it is a sampler/bundle box containing one vitola drawn from each of 14 existing JDN lines (most of which are already on the site catalog under their own names). Confirmed via JDN's own site and multiple retailers (Cigars International, Cigar.com, CigarPage, Best Cigar Prices, No6Cavendish). Does not fit the standard line/vitolas schema - flagged here separately rather than forced into a normal line record. Our Mac library has 3 photos of the sampler box/packaging itself (see _image_manifest.json) but no per-cigar photos beyond what's already covered by the individual line folders.",
+  "research_sources": [
+    {"url": "https://joyacigars.com/the-ultimate-jewel-collection/", "supports": "Official JDN page confirming sampler concept, 14 cigars, five-decade retrospective, March 2024 release, PCA debut"},
+    {"url": "https://www.cigarsinternational.com/p/joya-de-nicaragua-the-ultimate-jewel-collection-sampler/2056311/", "supports": "Retailer listing full breakdown of the 14 lines/vitolas included in the sampler"},
+    {"url": "https://www.cigar.com/p/joya-de-nicaragua-the-ultimate-jewel-collection-sampler/2046005/", "supports": "Additional retailer confirmation this is sold as a sampler product"},
+    {"url": "https://www.cigarpage.com/joya-de-nicaragua-ultimate-jewel-collection-14-cigars.html", "supports": "Confirms 14-cigar sampler naming"},
+    {"url": "https://www.bestcigarprices.com/blog/joya-de-nicaragua-ultimate-jewel-collection/", "supports": "Blog coverage corroborating sampler nature"},
+    {"url": "https://www.no6cavendish.com/products/joya-de-nicaragua-limited-edition-ultimate-jewel-collection", "supports": "Retailer listing confirming 'Limited Edition' sampler framing"}
+  ]
+}

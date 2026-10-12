@@ -1,0 +1,52 @@
+{
+  "brand": {
+    "name": "Omar Ortez",
+    "slug": "omar-ortez",
+    "description": "Not on the site at all - confirmed absent from the site's full brand index. Distributed by Altadis USA (confirmed via official altadisusa.com/cigars/omar-ortez/ URL structure and a July 2025 Cigar Coop article about a new 'Omar Ortez 3-Count Fresh Pack' at that year's Altadis Traveling Road Show, confirming the brand is still active). Biography of the namesake blender and brand founding year could not be confirmed this session. RESEARCH LIMITATION THIS BATCH: this session's WebFetch tool hit a session-wide usage cap partway through research on this brand, preventing full-page reads of the Altadis USA official page and most retailer spec pages. Only facts confirmed via search-result titles/metadata or independently-fetched pages before the cap are included below. Wrapper/binder/filler and full vitola lists could not be confirmed and are left null/flagged rather than filled from general knowledge, per this project's no-fabrication policy. RECOMMEND a follow-up research pass once full page fetches are available.",
+    "founded": null,
+    "founded_note": "Not confirmed this session - flagged as unknown rather than guessed.",
+    "origin_country": "Honduras (per general retailer categorization and the Altadis product URL slug 'omar-ortez-honduran-maduro'; not independently confirmed for every line - one line, Connecticut, appears to have been reblended at some point with Nicaraguan-sourced tobacco per Cigar Aficionado/halfwheel headlines, unconfirmed in detail this session)",
+    "distributor": "Altadis USA",
+    "status": "current"
+  },
+  "line": {
+    "name": "Omar Ortez Connecticut",
+    "slug": "omar-ortez-connecticut",
+    "description": "FLAG: Cigar Aficionado ('Omar Ortez Connecticuts Coming From Nicaragua Next Month') and halfwheel ('Reblended Omar Ortez Connecticuts Arriving in Mid-July') headlines suggest this line was reblended at some point with Nicaraguan-sourced tobacco, conflicting with a purely-Honduran origin assumption for this specific line. Not resolved this session - full articles could not be read due to the WebFetch cap.",
+    "wrapper": null,
+    "binder": null,
+    "filler": null,
+    "factory": null,
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Toro",
+      "size": "UNVERIFIED - vitola name confirmed via retailer SKU listings, size not confirmed this session",
+      "sources": [
+        "https://www.cigars.com/cigars/handmade-cigars/omar-ortez-cigars/omar-ortez-connecticut/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "UNVERIFIED - vitola name confirmed via retailer SKU listings, size not confirmed this session",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/omar-ortez-cigars/omar-ortez-connecticut/"
+      ]
+    },
+    {
+      "name": "Magnum",
+      "size": "UNVERIFIED - vitola name confirmed via a retailer SKU (OOCM/OOCM20, 20-count packs), size not confirmed this session",
+      "sources": [
+        "https://mikescigars.com/cigars/brands/omarortez/omar-ortez-connecticut"
+      ]
+    }
+  ],
+  "research_notes": "RESEARCH LIMITATION THIS BATCH: this session's WebFetch tool hit a session-wide usage cap partway through research on this brand, preventing full-page reads of the Altadis USA official page and most retailer spec pages. Only facts confirmed via search-result titles/metadata or independently-fetched pages before the cap are included below. Wrapper/binder/filler and full vitola lists could not be confirmed and are left null/flagged rather than filled from general knowledge, per this project's no-fabrication policy. RECOMMEND a follow-up research pass once full page fetches are available.",
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/omar-ortez/",
+    "https://www.cigaraficionado.com/article/omar-ortez-connecticuts-coming-from-nicaragua-next-month",
+    "https://halfwheel.com/reblended-omar-ortez-connecticuts-arriving-in-mid-july/410110/",
+    "https://www.cigars.com/cigars/handmade-cigars/omar-ortez-cigars/omar-ortez-connecticut/"
+  ]
+}

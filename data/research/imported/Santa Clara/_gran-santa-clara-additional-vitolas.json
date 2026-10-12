@@ -1,0 +1,33 @@
+{
+  "line_slug": "gran-santa-clara",
+  "note": "Site lists only 'Special Edition Magnum' (6x60) for Gran Santa Clara - a different product from what the Mac photo shows. The Mac folder has the manufacturer's own official Vitolario chart for the 'Gran Reserva' sub-line specifically (Vitolario-Santa-Clara-Gran-Reserva.jpg), listing 3 vitolas not on the site at all.",
+  "additional_vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "notes": "Gran Reserva sub-line.",
+      "sources": [
+        "Manufacturer's own Vitolario chart, Mac folder"
+      ]
+    },
+    {
+      "name": "Number Four",
+      "size": "5 x 44",
+      "notes": "Gran Reserva sub-line.",
+      "sources": [
+        "Manufacturer's own Vitolario chart, Mac folder"
+      ]
+    },
+    {
+      "name": "Quino",
+      "size": "4.25 x 30",
+      "notes": "Gran Reserva sub-line.",
+      "sources": [
+        "Manufacturer's own Vitolario chart, Mac folder"
+      ]
+    }
+  ],
+  "research_sources": [
+    "Manufacturer's own Vitolario chart graphic, viewed directly from the Mac photo collection"
+  ]
+}

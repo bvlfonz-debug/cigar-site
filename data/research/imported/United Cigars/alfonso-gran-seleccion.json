@@ -1,0 +1,54 @@
+{
+  "line": {
+    "name": "Alfonso Gran Selección",
+    "description": "Companion/darker blend to the Extra Añejo, using extended cedar + French oak aging. Produced at Tabacos de Costa Rica. 25 cigars/box.",
+    "origin_country": "Costa Rica",
+    "wrapper": "Ecuador Habano",
+    "binder": "Peruvian",
+    "filler": "Dominican & Nicaraguan (one source: Dominican & Peruvian - minor cross-source discrepancy)",
+    "strength": "Medium to full-bodied"
+  },
+  "vitolas": [
+    {
+      "name": "Estelares",
+      "size": "5.5 x 54",
+      "sources": [
+        "https://unitedcigargroup.com/alfonso-gran-seleccion/"
+      ]
+    },
+    {
+      "name": "Exclusivos",
+      "size": "6 x 54 (torpedo)",
+      "sources": [
+        "https://cigar-coop.com/2024/06/alfonso-gran-seleccion-exclusivos-by-selected-tobacco-cigar-review.html"
+      ]
+    },
+    {
+      "name": "Enormes",
+      "size": "6.5 x 60",
+      "sources": [
+        "https://unitedcigargroup.com/alfonso-gran-seleccion/"
+      ]
+    },
+    {
+      "name": "Preciosos",
+      "size": "7.5 x 40",
+      "sources": [
+        "https://halfwheel.com/alfonso-gran-seleccion-preciosos/433065/"
+      ]
+    },
+    {
+      "name": "Grandiosos",
+      "size": "8 x 50",
+      "sources": [
+        "https://unitedcigargroup.com/alfonso-gran-seleccion/"
+      ]
+    }
+  ],
+  "research_notes": "Mac folder's 'Gc-*' filenames (Gc-Enormes, Gc-Estelares, Gc-Exclusivos, Gc-Preciosos, Alf-Gc-Gran) could not be tied to any confirmed official sub-name - no source uses a term like 'Gran Clásico'. Treated as duplicate single-cigar/pack photography of the same Gran Selección vitolas (as opposed to the box-open photos), not a separate line. Flagged as moderate-confidence, not certain.",
+  "research_sources": [
+    "https://unitedcigargroup.com/alfonso-gran-seleccion/",
+    "https://halfwheel.com/alfonso-gran-seleccion-preciosos/433065/",
+    "https://cigar-coop.com/2024/06/alfonso-gran-seleccion-exclusivos-by-selected-tobacco-cigar-review.html"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "line_slug": "arturo-fuente-gran-reserva",
+  "note": "Site lists only 'Flor Fina 8-5-8' (6x47). Mac folder has 9 vitola-labeled photos; all 8 additional names/spellings checked out as real, currently-catalogued Gran Reserva natural-wrapper vitolas per Arturo Fuente's own site, cross-confirmed at major retailers. None appear to be discontinued.",
+  "additional_vitolas": [
+    {
+      "name": "Rothschild",
+      "size": "4.5 x 50",
+      "sources": [
+        "https://arturofuente.com/our-cigars/gran2/",
+        "https://www.neptunecigar.com/cigars/arturo-fuente-rothschild"
+      ]
+    },
+    {
+      "name": "Petit Corona",
+      "size": "5 x 38",
+      "sources": [
+        "https://arturofuente.com/our-cigars/gran2/"
+      ]
+    },
+    {
+      "name": "Cuban Corona",
+      "size": "5.25 x 45",
+      "sources": [
+        "https://arturofuente.com/our-cigars/gran2/"
+      ]
+    },
+    {
+      "name": "Spanish Lonsdale",
+      "size": "6.5 x 42",
+      "sources": [
+        "https://arturofuente.com/our-cigars/gran2/"
+      ]
+    },
+    {
+      "name": "Corona Imperial",
+      "size": "6.5 x 46",
+      "sources": [
+        "https://arturofuente.com/our-cigars/gran2/"
+      ]
+    },
+    {
+      "name": "Seleccion Privada No. 1",
+      "size": "6.75 x 44",
+      "notes": "Official designation includes 'No. 1'; a historical 'No. 2' variant may have existed but current availability unverified.",
+      "sources": [
+        "https://arturofuente.com/our-cigars/gran2/",
+        "https://www.neptunecigar.com/cigars/arturo-fuente-natural-seleccion-privada-no-1"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7.25 x 48",
+      "sources": [
+        "https://arturofuente.com/our-cigars/gran2/"
+      ]
+    },
+    {
+      "name": "Canones (Canoñes)",
+      "size": "8.5 x 52",
+      "notes": "Largest size in the line; appears limited-stock at some retailers but still catalogued as current.",
+      "sources": [
+        "https://arturofuente.com/our-cigars/gran2/",
+        "https://www.neptunecigar.com/cigars/arturo-fuente-canones"
+      ]
+    }
+  ],
+  "not_added_unverified": "Additional Gran Reserva vitolas referenced on cigarcountry.com - Brevas Royale, Exquisitos, Cazadores, Curly Head Deluxe - could not be dimension-verified against a manufacturer/major-retailer primary source, and none appear in the Mac photo collection, so not added here.",
+  "research_sources": [
+    "https://arturofuente.com/our-cigars/gran2/",
+    "https://www.neptunecigar.com/cigars/arturo-fuente-rothschild",
+    "https://www.neptunecigar.com/cigars/arturo-fuente-canones",
+    "https://www.coronacigar.com/arturo-fuente-gran-reserva-natural-canones/"
+  ]
+}

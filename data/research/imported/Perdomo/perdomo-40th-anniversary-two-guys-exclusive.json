@@ -1,0 +1,28 @@
+{
+  "line": {
+    "name": "Perdomo Two Guys Smoke Shop 40th Anniversary",
+    "slug": "perdomo-40th-anniversary-two-guys-exclusive",
+    "description": "A retailer-exclusive limited edition released August 4, 2025 to commemorate the retailer Two Guys Smoke Shop's 40th anniversary - NOT a Perdomo-company anniversary release. Limited to 400 ten-count boxes. Flagging clearly since this is a one-off retailer exclusive rather than a standing catalog line - your call whether this belongs in a general product database.",
+    "wrapper": "Nicaraguan Sun Grown",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "release_year": 2025,
+    "limited_edition": true,
+    "limited_edition_notes": "400 ten-count boxes, retailer-exclusive to Two Guys Smoke Shop."
+  },
+  "vitolas": [
+    {
+      "name": "Figurado",
+      "size": "4.75 x 56",
+      "sources": [
+        "cigar-coop.com/2025/08/perdomo-two-guys-smoke-shop-40th-anniversary-limited-edition-announced-cigar-news.html",
+        "cigarsnobmag.com/news/2025/08/05/perdomo-honors-two-guys-smoke-shop-with-40th-anniversary-cigar/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://cigar-coop.com/2025/08/perdomo-two-guys-smoke-shop-40th-anniversary-limited-edition-announced-cigar-news.html",
+    "https://www.cigarsnobmag.com/news/2025/08/05/perdomo-honors-two-guys-smoke-shop-with-40th-anniversary-cigar/",
+    "https://thecigarauthority.com/perdomo-two-guys-smoke-shop-40th-anniversary-coming-friday/"
+  ]
+}

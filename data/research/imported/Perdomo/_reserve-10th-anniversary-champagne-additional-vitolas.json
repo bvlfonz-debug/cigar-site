@@ -1,0 +1,31 @@
+{
+  "line_slug": "perdomo-reserve-10th-anniversary-champagne",
+  "note": "Site lists 6 vitolas (Churchill, Epicure, Figurado, Robusto, Super Toro, Torpedo). Mac photos show 2 more confirmed vitolas. A 3rd photo, labeled 'Supremo,' could not be matched to any verified current or past Perdomo 10th Anniversary Champagne vitola name in any source - excluded from output, flagged as unresolved rather than guessed.",
+  "additional_vitolas": [
+    {
+      "name": "Corona Extra",
+      "size": "5.625 x 46",
+      "sources": [
+        "neptunecigar.com/cigars/perdomo-reserve-champagne-corona-extra",
+        "gothamcigars.com/perdomo-reserve-champagne-10th-anniversary-corona-extra/"
+      ]
+    },
+    {
+      "name": "Magnum 50 Tubo",
+      "size": "6 x 50",
+      "notes": "Sold in an individual glass/wood tube. Genuinely distinct from Super Toro (6x60) despite similar length - different ring gauge and packaging.",
+      "sources": [
+        "neptunecigar.com/cigar/perdomo-reserve-champagne-connecticut"
+      ]
+    }
+  ],
+  "unresolved": {
+    "supremo_vitola": "A Mac photo is labeled 'Supremo' but no source found lists a 'Supremo' vitola in this or any other current Perdomo line. Excluded from output. Recommend checking the physical band/box art on that photo.",
+    "puritos_vitola": "One source (unconfirmed by a second) mentions a 'Puritos' (4x38) vitola in this line. Not added since it couldn't be cross-verified, but worth checking if you have interest."
+  },
+  "research_sources": [
+    "https://www.neptunecigar.com/cigars/perdomo-reserve-champagne-corona-extra",
+    "https://www.gothamcigars.com/perdomo-reserve-champagne-10th-anniversary-corona-extra/",
+    "https://www.neptunecigar.com/cigar/perdomo-reserve-champagne-connecticut"
+  ]
+}

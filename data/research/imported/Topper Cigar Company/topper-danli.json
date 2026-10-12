@@ -1,0 +1,37 @@
+{
+  "brand": {
+    "name": "Topper Cigar Company",
+    "slug": "topper-cigar-company",
+    "description": "Not on the site at all - and IMPORTANT CORRECTION: these photos were originally filed on the Mac under the 'J.C. Newman' folder, but research confirmed Topper is an independent, unrelated manufacturer - a 4th-generation family business founded 1896 in McSherrystown, Pennsylvania, currently run by Chris Topper. J.C. Newman's own brand list (Cuesta-Rey, Diamond Crown, El Baton, Brick House, etc.) does not include Topper anywhere, and J.C. Newman's own Wikipedia page doesn't list it either. I've moved the Mac folder out of 'J.C. Newman' into its own top-level 'Topper Cigar Company' folder to reflect this correctly.",
+    "founded_year": 1896,
+    "origin": "United States (McSherrystown, PA) - manufactured in Danli, Honduras",
+    "research_sources": [
+      "https://en.wikipedia.org/wiki/J._C._Newman_Cigar_Company",
+      "https://cigar-coop.com/2018/08/feature-story-spotlight-on-topper-cigar-company-at-the-2018-ipcpr.html"
+    ]
+  },
+  "line": {
+    "name": "Topper Danli",
+    "slug": "topper-danli",
+    "description": "A sub-blend within Topper's lineup, distinct from the flagship 'Topper 1894' line, named for Danli, Honduras where it's produced.",
+    "wrapper": "Connecticut Broadleaf (maduro)",
+    "binder": "Pennsylvania",
+    "filler": "Dominican, Honduran, and American",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "sources": [
+        "https://cigarstorehouse.com/index.php?product_id=4792&route=product%2Fproduct"
+      ]
+    }
+  ],
+  "research_notes": "Other Topper Danli vitolas confirmed at retail but not photographed on the Mac: Robusto (5x50), Churchill (7x50), Belicoso (6x54) - not added as formal entries here.",
+  "research_sources": [
+    "https://www.famous-smoke.com/brand/topper-danli-cigars",
+    "https://cigarstorehouse.com/index.php?product_id=4792&route=product%2Fproduct",
+    "https://www.bestcigarprices.com/blog/cigar-review-topper-danli-toro/"
+  ]
+}

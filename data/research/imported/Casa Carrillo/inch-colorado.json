@@ -1,0 +1,107 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo INCH Colorado",
+    "slug": "inch-colorado",
+    "wrapper": "Ecuadorian Colorado",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan and Dominican",
+    "strength": "Medium",
+    "release_year": 2016,
+    "background_text": "Launched at the 2016 IPCPR Trade Show, the fourth blend added to E.P. Carrillo's INCH line (debuted 2012), replacing the discontinued C-99 blend. Higher-priming Ecuadorian Colorado wrapper gives lower strength than INCH Maduro/Natural while retaining comparable body. Produced at Tabacalera La Alianza."
+  },
+  "vitolas": [
+    {
+      "size_name": "No. 58",
+      "slug": "no-58",
+      "length_in": 8,
+      "ring_gauge": 58,
+      "vitola_type": "Gordo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        24
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "No. 60",
+      "slug": "no-60",
+      "length_in": 5.875,
+      "ring_gauge": 60,
+      "vitola_type": "Gordo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        24
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "No. 62",
+      "slug": "no-62",
+      "length_in": 5,
+      "ring_gauge": 62,
+      "vitola_type": "Gordo",
+      "summary_review": "Cedar and classic wood notes with early sweet spice, building to woodier spice; creamy throughout, slightly lower strength than Maduro/Natural.",
+      "tasting_notes": [
+        "cedar",
+        "wood",
+        "sweet spice",
+        "cream"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        24
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Cigar Coop",
+          "source_type": "critic",
+          "score": 88,
+          "score_scale": "100",
+          "review_date": "2016-09-01",
+          "url": "https://cigar-coop.com/2016/09/cigar-review-e-p-carrillo-inch-colorado-no-62.html",
+          "key_notes_text": "Cedar, wood, sweet spice, medium strength, medium-to-full body, $8.00."
+        }
+      ]
+    },
+    {
+      "size_name": "No. 64",
+      "slug": "no-64",
+      "length_in": 6.125,
+      "ring_gauge": 64,
+      "vitola_type": "Gordo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        24
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "No. 70",
+      "slug": "no-70",
+      "length_in": 7,
+      "ring_gauge": 70,
+      "vitola_type": "Gordo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        24
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Confirmed genuinely distinct, currently-sold wrapper variant within INCH not currently on the site. Only No. 62 has a located critic review with score.",
+  "research_sources": [
+    {
+      "url": "https://cigar-coop.com/2016/09/cigar-review-e-p-carrillo-inch-colorado-no-62.html",
+      "supports": "blend, vitola lineup, release history, tasting notes, score"
+    }
+  ]
+}

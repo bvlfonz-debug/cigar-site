@@ -1,0 +1,45 @@
+{
+  "line": {
+    "name": "H. Upmann 1844 Añejo",
+    "slug": "h-upmann-1844-anejo",
+    "description": "Not on the site. The third selection in the '1844' portfolio alongside the site's existing 1844 Reserve and the newly-researched 1844 Classic. All tobaccos aged a minimum of 5 years ('anejo' = aged/old). Medium-to-full-bodied; notes of earth, cocoa, cinnamon, leather, dark fruit/citrus.",
+    "wrapper": "Ecuadorian Habano (described as dark, oily, double-fermented)",
+    "binder": "Pennsylvania Broadleaf (USA)",
+    "filler": "Honduran, Nicaraguan, and Dominican (Pilotico)",
+    "factory": "Flor de Copan, Honduras",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-1844-anejo/",
+        "https://www.famous-smoke.com/cigaradvisor/cigar-reviews/nowsmoking-h-upmann-1844-anejo-cigar-review"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-1844-anejo/",
+        "https://atlanticcigar.com/h-upmann-1844-anejo-toro-6x54-10-pack/"
+      ]
+    },
+    {
+      "name": "Magnum",
+      "size": "6 x 60",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-1844-anejo/",
+        "https://www.famous-smoke.com/cigaradvisor/cigar-reviews/nowsmoking-h-upmann-1844-anejo-cigar-review"
+      ]
+    }
+  ],
+  "research_notes": "One Neptune Cigar page claimed a Dominican Republic origin, conflicting with Honduras/Flor de Copan confirmed independently by 3 other sources - treated as the outlier and not used.",
+  "research_sources": [
+    "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-1844-anejo/",
+    "https://www.famous-smoke.com/cigaradvisor/cigar-reviews/nowsmoking-h-upmann-1844-anejo-cigar-review",
+    "https://atlanticcigar.com/h-upmann-1844-anejo-toro-6x54-10-pack/"
+  ]
+}

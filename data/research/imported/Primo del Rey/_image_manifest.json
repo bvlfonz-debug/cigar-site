@@ -1,0 +1,20 @@
+{
+  "brand": "Primo del Rey",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/Primo del Rey",
+  "note": "Part of the Altadis USA reorganization; folder was already top-level (flat, 1 vitola photographed). Confirmed absent from the site's brand index. IMPORTANT: research found the brand is Honduran-made with an unconfirmed distributor - contradicts an initial assumption of Dominican/Altadis USA. Recorded as unknown distributor rather than asserting the unconfirmed attribution.",
+  "mappings": [
+    {
+      "json_file": "primo-del-rey.json",
+      "line_slug": "primo-del-rey",
+      "mac_folder": "Cigar Images/Primo del Rey",
+      "files": [
+        "PrimoDelRey_02.png",
+        "PrimoDelRey_Toro_Box-Closed_01.jpg"
+      ],
+      "notes": "Toro vitola matches the photographed product directly."
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": []
+}

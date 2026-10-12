@@ -1,0 +1,89 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo Original Rebel Rebellious",
+    "slug": "original-rebel-rebellious",
+    "wrapper": "Connecticut Broadleaf",
+    "binder": "Ecuadorian",
+    "filler": "Nicaraguan",
+    "strength": "Medium-Full",
+    "release_year": 2016,
+    "background_text": "The maduro-wrapped counterpart to Maverick within E.P. Carrillo's 'Original Rebel' line, launched at the 2016 IPCPR trade show as part of the Dimension Series (alongside Cardinal Impact and INCH). CONFIRMED correct spelling is 'Rebellious', not 'Revellious'/'Revelious' (our Mac folder name appears to have a typo)."
+  },
+  "vitolas": [
+    {
+      "size_name": "52",
+      "slug": "52",
+      "length_in": 5.5,
+      "ring_gauge": 52,
+      "vitola_type": "Robusto",
+      "summary_review": "Part of a family generally rated medium-full, well-constructed.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "54",
+      "slug": "54",
+      "length_in": 6.5,
+      "ring_gauge": 54,
+      "vitola_type": "Toro",
+      "summary_review": "Good but unexceptional, medium-full strength, strong construction (halfwheel).",
+      "tasting_notes": [
+        "burnt popcorn",
+        "steak-like meatiness",
+        "lemon cracker",
+        "manure",
+        "mild woods",
+        "charcoal",
+        "sawdust",
+        "creaminess",
+        "sweet potatoes",
+        "nuttiness"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "halfwheel",
+          "source_type": "critic",
+          "score": null,
+          "score_scale": "100",
+          "review_date": "2017-10-01",
+          "url": "https://halfwheel.com/e-p-carrillo-original-rebel-rebellious-54/137887/",
+          "key_notes_text": "Burnt popcorn, steak-like meatiness, lemon cracker, manure, charcoal, sawdust; medium-full peaking full mid-way."
+        }
+      ]
+    },
+    {
+      "size_name": "56",
+      "slug": "56",
+      "length_in": 7.5,
+      "ring_gauge": 56,
+      "vitola_type": "Presidente",
+      "summary_review": "Reviewed by Cigar Coop as an Agile Cigar Review in 2020.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Confirmed spelling correction: 'Rebellious' not 'Revellious'. Please rename the Mac folder to match if you want the naming consistent. Numeric score for the halfwheel 54 review wasn't extracted from the fetched summary - left null rather than guessed.",
+  "research_sources": [
+    {
+      "url": "https://halfwheel.com/e-p-carrillo-original-rebel-rebellious-54/137887/",
+      "supports": "tasting notes, strength, blend, background"
+    },
+    {
+      "url": "https://cigar-coop.com/2016/08/cigar-news-original-rebel-by-e-p-carrillo-launched-at-2016-ipcpr.html",
+      "supports": "background, blend, vitola sizes"
+    }
+  ]
+}

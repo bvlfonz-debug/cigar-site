@@ -1,0 +1,85 @@
+{
+  "brand": {
+    "name": "VegaFina",
+    "slug": "vegafina",
+    "description": "Not on the site at all - confirmed absent from the site's full brand index. Named for its 1998 founding year. Historically much stronger in Europe (priced near half of comparable Cuban cigars in Germany) than in the US, where it launched more recently. Brand owner is Tabacalera USA; current US distributor is Altadis USA. FLAG - OWNERSHIP SITUATION UNSTABLE AS OF THIS RESEARCH (Sept 2026): Altadis USA is now majority-owned by Turmeric Capital following Imperial Brands' 2020 divestiture of its global premium cigar business. The factory that physically makes VegaFina, Tabacalera de Garcia, was caught up in US sanctions announced October 2025 against its majority shareholder; Altadis USA temporarily paused business and shifted production to AJ Fernandez/Plasencia before shipments resumed under temporary licenses. Current factory of record for any specific SKU should be treated as unverified/in flux rather than a fixed fact.",
+    "founded": 1998,
+    "origin_country": "Dominican Republic (historical/primary factory: Tabacalera de Garcia; production temporarily diversified amid 2025-26 sanctions disruption - see description)",
+    "distributor": "Altadis USA",
+    "status": "current"
+  },
+  "line": {
+    "name": "VegaFina Original",
+    "slug": "vegafina-original",
+    "description": "The core/original line. Positioned as an affordable, widely-popular cigar in Europe; smooth, aromatic, medium-bodied.",
+    "wrapper": "Ecuadorian Connecticut",
+    "binder": "Indonesian TBN",
+    "filler": "Colombian, Dominican, and Honduran",
+    "factory": "Dominican Republic",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/vegafina/vegafina-original/",
+        "https://www.jrcigars.com/cigars/handmade-cigars/vegafina-cigars/vegafina/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/vegafina/vegafina-original/",
+        "https://www.jrcigars.com/cigars/handmade-cigars/vegafina-cigars/vegafina/"
+      ]
+    },
+    {
+      "name": "Torpedo",
+      "size": "6 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/vegafina/vegafina-original/",
+        "https://www.jrcigars.com/cigars/handmade-cigars/vegafina-cigars/vegafina/"
+      ]
+    },
+    {
+      "name": "Corona",
+      "size": "5.75 x 43",
+      "sources": [
+        "https://www.altadisusa.com/cigars/vegafina/vegafina-original/",
+        "https://www.jrcigars.com/cigars/handmade-cigars/vegafina-cigars/vegafina/"
+      ]
+    },
+    {
+      "name": "Lonsdale",
+      "size": "6.5 x 43",
+      "notes": "Listed by the manufacturer only, not independently cross-confirmed by a retailer in this research pass.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/vegafina/vegafina-original/"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7.5 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/vegafina/vegafina-original/",
+        "https://www.jrcigars.com/cigars/handmade-cigars/vegafina-cigars/vegafina/"
+      ]
+    },
+    {
+      "name": "Magnum",
+      "size": "6 x 60",
+      "sources": [
+        "https://www.altadisusa.com/cigars/vegafina/vegafina-original/",
+        "https://www.jrcigars.com/cigars/handmade-cigars/vegafina-cigars/vegafina/"
+      ]
+    }
+  ],
+  "research_notes": "All vitolas except Lonsdale are confirmed by both manufacturer and retailer sources.",
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/vegafina/vegafina-original/",
+    "https://www.jrcigars.com/cigars/handmade-cigars/vegafina-cigars/vegafina/",
+    "https://www.altadisusa.com/cigars/vegafina/"
+  ]
+}

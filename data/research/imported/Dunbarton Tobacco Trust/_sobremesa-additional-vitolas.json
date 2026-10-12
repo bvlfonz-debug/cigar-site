@@ -1,0 +1,20 @@
+{
+  "line_slug": "dunbarton-sobremesa",
+  "note": "ADDENDUM (found during the Foundation Cigar Co batch): 3 photos were misfiled on the Mac under 'Foundation Cigar Co/Sobremesa/' - moved here to 'Dunbarton Tobacco & Trust Sobremesa/' where they belong. Two were Sobremesa Brulee Robusto and Toro (already covered in sobremesa-brulee.json from this brand's earlier batch - now with actual per-vitola photos instead of just a banner). The third is a genuine new addition to the plain/core Sobremesa line (not Brulee): 'Gran Imperiales'.",
+  "additional_vitolas": [
+    {
+      "name": "Gran Imperiales",
+      "size": "7 x 54 (figurado)",
+      "notes": "Core Sobremesa line - site previously listed only Cervantes Fino (6.25x46) and Short Churchill (4.75x48).",
+      "sources": [
+        "https://www.coronacigar.com/dunbarton-sobremesa-gran-imperiales/",
+        "https://www.casademontecristo.com/item/sobremesa/gran-imperiales/SOBRGI.html",
+        "http://www.stogieguys.com/2016/01/01182016-cigar-review-sobremesa-gran-imperiales.html"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.coronacigar.com/dunbarton-sobremesa-gran-imperiales/",
+    "https://www.casademontecristo.com/item/sobremesa/gran-imperiales/SOBRGI.html"
+  ]
+}

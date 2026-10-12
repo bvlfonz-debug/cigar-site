@@ -1,0 +1,86 @@
+{
+  "brand": "H. Upmann",
+  "batch_date": "2026-09-30",
+  "mac_source_root": "Cigar Images/H. Upmann",
+  "note": "H. Upmann was part of the Altadis USA distributor-umbrella reorganization; its folder was already top-level. No file renames were needed - existing filenames were already clear enough to map to lines.",
+  "mappings": [
+    {
+      "json_file": "h-upmann-by-ajf.json",
+      "line_slug": "h-upmann-by-ajf",
+      "mac_folder": "Cigar Images/H. Upmann/H. Upmann by AJF",
+      "files": [
+        "HUpmann-by-AJF_Toro_01.png",
+        "HUpmann-by-AJF_Toro_Box-Open_01.jpg"
+      ],
+      "notes": "Toro vitola - exact size disputed between 2017 trade-press specs and current retailer listing, see JSON notes."
+    },
+    {
+      "json_file": "h-upmann-1844-anejo.json",
+      "line_slug": "h-upmann-1844-anejo",
+      "mac_folder": "Cigar Images/H. Upmann/H. Upmann Anejo",
+      "files": [
+        "HUpmann_Anejo_01.png",
+        "HUpmann_Anejo_Box-Open_01.jpg"
+      ],
+      "notes": "Folder name 'Anejo' confirmed via research to be the full line 'H. Upmann 1844 Añejo.'"
+    },
+    {
+      "json_file": "h-upmann-1844-classic.json",
+      "line_slug": "h-upmann-1844-classic",
+      "mac_folder": "Cigar Images/H. Upmann/H. Upmann Classic",
+      "files": [
+        "HUpmann_Classic_01.png",
+        "HUpmann_Classic_Box-Open_01.jpg"
+      ],
+      "notes": "Folder name 'Classic' confirmed via research to be the full line 'H. Upmann 1844 Classic.'"
+    },
+    {
+      "json_file": "h-upmann-nicaragua-ajf-heritage.json",
+      "line_slug": "h-upmann-nicaragua-ajf-heritage",
+      "mac_folder": "Cigar Images/H. Upmann/H. Upmann Nicaragua AJF Heritage",
+      "files": [
+        "HUpmann_Nicaragua-AJF-Heritage_01.png",
+        "HUpmann_Nicaragua-AJF-Heritage_Box-Open_01.jpg"
+      ],
+      "notes": "Toro vitola matches the photographed product directly."
+    },
+    {
+      "json_file": "h-upmann-vintage-cameroon.json",
+      "line_slug": "h-upmann-vintage-cameroon",
+      "mac_folder": "Cigar Images/H. Upmann/H. Upmann Vintage Cameroon",
+      "files": [
+        "HUpmann_Vintage-Cameroon_01.png",
+        "HUpmann_Vintage-Cameroon_Box-Open_01.jpg"
+      ],
+      "notes": "Production status flagged as ambiguous in the JSON - possibly legacy/old inventory rather than active production."
+    },
+    {
+      "json_file": "_the-banker-additional-vitolas.json",
+      "line_slug": "the-banker",
+      "mac_folder": "Cigar Images/H. Upmann/H. Upmann The Banker Day Trader",
+      "files": [
+        "HUpmann_The-Banker-DayTrader_01.png",
+        "HUpmann_The-Banker-DayTrader_Box-Open_01.jpg"
+      ],
+      "notes": "Day Trader is a sub-release of the already-existing 'The Banker' line, not a standalone line - filed as an additional-vitolas supplement rather than a new line."
+    }
+  ],
+  "already_on_site_no_action": [
+    {
+      "mac_folder": "Cigar Images/H. Upmann/H. Upmann 1844 Reserve",
+      "files": [
+        "HUpmann_1844-Reserve_01.png",
+        "HUpmann_1844-Reserve_Box-Open_01.jpg"
+      ],
+      "reason": "1844 Reserve is already listed on the site (Corona, Robusto, Toro) - not re-researched for gaps in this pass."
+    },
+    {
+      "mac_folder": "Cigar Images/H. Upmann/H. Upmann The Banker",
+      "files": [
+        "HUpmann_The-Banker_01.png",
+        "HUpmann_The-Banker_Box-Open_01.jpg"
+      ],
+      "reason": "The Banker's core vitolas (Annuity, Arbitrage, Currency) are already listed on the site. These photos appear to depict the core line, not Day Trader - no gap identified beyond the Day Trader sub-release documented separately."
+    }
+  ]
+}

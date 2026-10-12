@@ -1,0 +1,73 @@
+{
+  "line_slug": "santa-clara-1830",
+  "note": "Site lists only 'San Andres Robusto' (5x50). The Mac folder includes the manufacturer's own official 'Vitolario' size chart graphic for this line (Vitolario-Santa-Clara-1830.jpg) - I viewed it directly rather than relying on retailer listings, so these 9 additional vitolas are sourced straight from Santa Clara's own marketing material. All names/sizes below are read directly off that chart.",
+  "additional_vitolas": [
+    {
+      "name": "Churchill",
+      "size": "7 x 50",
+      "sources": [
+        "Manufacturer's own Vitolario chart, Mac folder"
+      ]
+    },
+    {
+      "name": "Gran Bolero",
+      "size": "7.5 x 52",
+      "sources": [
+        "Manufacturer's own Vitolario chart, Mac folder"
+      ]
+    },
+    {
+      "name": "Number 1",
+      "size": "7.5 x 52",
+      "sources": [
+        "Manufacturer's own Vitolario chart, Mac folder"
+      ]
+    },
+    {
+      "name": "Number 3",
+      "size": "6.625 x 42",
+      "sources": [
+        "Manufacturer's own Vitolario chart, Mac folder"
+      ]
+    },
+    {
+      "name": "Number 4",
+      "size": "5 x 44",
+      "sources": [
+        "Manufacturer's own Vitolario chart, Mac folder"
+      ]
+    },
+    {
+      "name": "Number 5",
+      "size": "6 x 44",
+      "sources": [
+        "Manufacturer's own Vitolario chart, Mac folder"
+      ]
+    },
+    {
+      "name": "Number 6",
+      "size": "6 x 50",
+      "sources": [
+        "Manufacturer's own Vitolario chart, Mac folder"
+      ]
+    },
+    {
+      "name": "Quino TT",
+      "size": "4.25 x 30",
+      "sources": [
+        "Manufacturer's own Vitolario chart, Mac folder"
+      ]
+    },
+    {
+      "name": "Bolero",
+      "size": "6.5 x 42",
+      "sources": [
+        "Manufacturer's own Vitolario chart, Mac folder"
+      ]
+    }
+  ],
+  "research_notes": "Wrapper for the core line is San Andres (Mexico) per the site's existing 'San Andres Robusto' entry name - not independently re-verified beyond that, consistent naming assumed across the whole line.",
+  "research_sources": [
+    "Manufacturer's own Vitolario chart graphic, viewed directly from the Mac photo collection"
+  ]
+}

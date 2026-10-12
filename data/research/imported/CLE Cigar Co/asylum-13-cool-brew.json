@@ -1,0 +1,44 @@
+{
+  "brand": {
+    "name": "Asylum",
+    "slug": "asylum",
+    "description": "Not on the site at all - no 'Asylum' brand entry exists in the site's brand index. Created in 2012 by Tom Lazuka (a former Camacho/Davidoff sales rep), in partnership with Christian Eiroa shortly after Eiroa's Davidoff non-compete expired. Lazuka pitched oversized 60-80 ring gauge cigars after seeing retailers sell out of them; Eiroa reportedly called the idea 'the worst idea he had ever heard' and named the brand Asylum as a joke at Lazuka's expense, but agreed to produce it anyway. Asylum is sold as its own standalone brand (not badged 'CLE'), but is made at Christian Eiroa's own factory - The CLE Factory (a converted 1975 movie theater) in Danli, Honduras. Blend philosophy is practical/value-driven rather than 'masterpiece' blending - Lazuka has said they started by asking what tobacco they had enough of to make a million cigars - reflected in very large ring gauges (50-80) and bold, spicy, full-flavored profiles at aggressive price points.",
+    "founded_year": 2012,
+    "origin": "Honduras",
+    "research_sources": [
+      "https://halfwheel.com/asylum-13-70-x-7-box-pressed/175494/",
+      "https://halfwheel.com/asylum-seven-11-18/374418/"
+    ]
+  },
+  "line": {
+    "name": "Asylum 13 Cool Brew",
+    "slug": "asylum-13-cool-brew",
+    "description": "A coffee/cold-brew flavor-infused variant of Asylum 13.",
+    "wrapper": "Maduro",
+    "binder": "Honduran",
+    "filler": "Honduran (long-filler)",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "sources": [
+        "https://www.coronacigar.com/asylum-13-cool-brew-toro/",
+        "https://www.cigarsinternational.com/product/asylum-13-cool-brew/T39-PM.html"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 50 (by pattern with the line's other sizes - not independently dimension-confirmed for this specific flavor variant)",
+      "sources": [
+        "https://www.cigarscore.com/cigar-review-asylum-13-cool-brew-robusto/"
+      ]
+    }
+  ],
+  "research_notes": "Line also lists Gordo (6x60) and Gordo Extra (7x70) at some retailers - not photographed on the Mac, not added as formal entries. Strength not published by manufacturer or retailers.",
+  "research_sources": [
+    "https://www.coronacigar.com/asylum-13-cool-brew-toro/",
+    "https://www.cigarsinternational.com/product/asylum-13-cool-brew/T39-PM.html"
+  ]
+}

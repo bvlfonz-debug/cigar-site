@@ -1,0 +1,29 @@
+{
+  "line": {
+    "name": "DBL Baseball Bat",
+    "slug": "dbl-baseball-bat",
+    "description": "A bat-shaped figurado, '100% smokable,' double-wrapped. Wrapper-composition details conflict slightly between sources on which tobacco is 'primary' vs. 'accent' - recorded as found rather than resolved by guessing. One variant was explicitly marketed as a June 2019 limited edition; a Connecticut listing was noted as 'currently unavailable' at one retailer.",
+    "wrapper": "Connecticut with Maduro accents, or San Andres Maduro with Connecticut accents (per the brand's own site); a separate 2019 'Maduro L.E.' review instead describes Maduro with Habano and Connecticut accents - flagged as a source discrepancy.",
+    "binder": "Dominican, grown on DBL's own farm",
+    "filler": "Dominican, grown on DBL's own farm",
+    "factory": "Dominican Republic",
+    "status": "current (Connecticut variant); the Maduro 'L.E.' variant was explicitly limited edition (June 2019)"
+  },
+  "vitolas": [
+    {
+      "name": "Baseball Bat (Connecticut)",
+      "size": "7 x 64",
+      "notes": "Matches the Mac photo. ~$25-30/cigar across retailers (prices varied: $24.99 brand site, $28-30 review site, EUR 25.50 German retailer).",
+      "sources": [
+        "http://www.dblcigars.com/cigar-baseball-bat/",
+        "https://www.2guyscigars.com/dbl-baseball-bat-cigars"
+      ]
+    }
+  ],
+  "research_sources": [
+    "http://www.dblcigars.com/cigar-baseball-bat/",
+    "https://www.2guyscigars.com/dbl-baseball-bat-cigars",
+    "https://kohnhed.com/2025/09/29/dbl-cigars-baseball-bat-maduro-l-e-cigar-reviews-by-the-katman/",
+    "https://www.cigarworld.de/en/zigarren/dominikanische-republik/dbl-specials-baseball-bat-connecticut-1er-90015175_39455"
+  ]
+}

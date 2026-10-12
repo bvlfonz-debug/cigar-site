@@ -1,0 +1,63 @@
+{
+  "line": {
+    "name": "La Duena",
+    "slug": "la-duena",
+    "description": "Originally released around 2011, named as a tribute to Janny Garcia, blended by Jaime Garcia in collaboration with Pete Johnson of Tatuaje. Photos were found misfiled inside the Mac's 'My Father La Opulencia' folder; this is a genuinely separate line.",
+    "wrapper": "Connecticut Broadleaf",
+    "binder": "Connecticut Broadleaf and Nicaragua",
+    "filler": "Nicaragua (Garcia farm, Esteli)",
+    "strength": "Medium to full",
+    "release_year": 2011
+  },
+  "vitolas": [
+    {
+      "name": "No. 5 Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "myfathercigars.com/cigar/la-duena/"
+      ]
+    },
+    {
+      "name": "No. 2 Belicoso",
+      "size": "5.5 x 54",
+      "sources": [
+        "halfwheel.com"
+      ]
+    },
+    {
+      "name": "No. 7 Petit Lancero",
+      "size": "6 x 42",
+      "sources": [
+        "jrcigars.com"
+      ]
+    },
+    {
+      "name": "No. 9 Petit Belicoso",
+      "size": "4.75 x 48",
+      "sources": [
+        "neptunecigar.com"
+      ]
+    },
+    {
+      "name": "No. 11 Petit Robusto",
+      "size": "4.5 x 52",
+      "sources": [
+        "thecigarauthority.com"
+      ]
+    },
+    {
+      "name": "No. 13 Toro Gordo (Box-Pressed)",
+      "size": "6 x 56",
+      "sources": [
+        "halfwheel.com"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://myfathercigars.com/cigar/la-duena/",
+    "https://halfwheel.com",
+    "https://jrcigars.com",
+    "https://neptunecigar.com",
+    "https://thecigarauthority.com"
+  ]
+}

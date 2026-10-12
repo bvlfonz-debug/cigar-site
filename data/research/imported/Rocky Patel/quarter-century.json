@@ -1,0 +1,115 @@
+{
+  "line": {
+    "brand_slug": "rocky-patel",
+    "name": "Quarter Century",
+    "slug": "quarter-century",
+    "wrapper": "Mexican San Andres",
+    "binder": "Honduran",
+    "filler": "Nicaraguan (Esteli, Jalapa, Jamastran) and Honduran, plus an undisclosed component",
+    "strength": "Medium to Medium-Full",
+    "release_year": 2020,
+    "background_text": "Quarter Century is confirmed to be Rocky Patel's 25th Anniversary line, released in 2020 (shipping began August 17, 2020) to mark 25 years since Rocky Patel entered the cigar business in 1995 with Indian Tabac Cigar Co. The blend uses tobacco aged roughly 10 years before rolling and an additional 2+ years after rolling, and was billed by the company as 'the greatest cigar we've ever created.'"
+  },
+  "vitolas": [
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5.5,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": "Cigar Coop scored the Robusto 92, a Cigar Coop 'Standard of Excellence' recommended for box purchase, citing milk chocolate, cedar, fruit and white pepper notes.",
+      "tasting_notes": [
+        "milk chocolate",
+        "natural tobacco",
+        "cedar",
+        "fruit",
+        "white pepper",
+        "earth"
+      ],
+      "smoke_time_min": 75,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Cigar Coop",
+          "source_type": "critic",
+          "score": 92,
+          "score_scale": 100,
+          "review_date": "2021-06-08",
+          "url": "https://cigar-coop.com/2021/06/cigar-review-rocky-patel-quarter-century-robusto.html",
+          "key_notes_text": "Cigar Coop gave the Robusto a 92 ('Standard of Excellence'), highlighting milk chocolate, cedar, fruit and white pepper that shift toward earthiness in the second third."
+        }
+      ]
+    },
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6.5,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": "Halfwheel reviewed the Toro (released Aug 17, 2020) noting popcorn, walnut, acorn, earth, white pepper, raspberry, meat and mushroom notes over ~1h50m, but did not publish a numeric score in the available excerpt.",
+      "tasting_notes": [
+        "popcorn",
+        "walnut",
+        "acorn",
+        "earthy",
+        "white pepper",
+        "raspberry"
+      ],
+      "smoke_time_min": 110,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Sixty",
+      "slug": "sixty",
+      "length_in": 6.0,
+      "ring_gauge": 60,
+      "vitola_type": "Gordo",
+      "summary_review": "JR Cigars' product description (no independent critic score found) describes a full-bodied smoke of cocoa, earth, pepper, creamy caramel, leather and tobacco sweetness.",
+      "tasting_notes": [
+        "cocoa",
+        "earth",
+        "pepper",
+        "creamy caramel",
+        "leather",
+        "tobacco sweetness"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_sources": [
+    {
+      "source_name": "Rocky Patel official site",
+      "source_url": "https://www.rockypatel.com/quarter-century/",
+      "fact_note": "Background story, filler regions, aging claims"
+    },
+    {
+      "source_name": "Halfwheel",
+      "source_url": "https://halfwheel.com/rocky-patel-celebrates-25-years-with-quarter-century/377454/",
+      "fact_note": "Wrapper/binder/filler, release year 2020, vitola sizes and pricing"
+    },
+    {
+      "source_name": "Halfwheel",
+      "source_url": "https://halfwheel.com/rocky-patel-quarter-century-toro/382278/",
+      "fact_note": "Toro tasting notes, size, smoke time"
+    },
+    {
+      "source_name": "JR Cigars",
+      "source_url": "https://www.jrcigars.com/cigars/handmade-cigars/rocky-patel-cigars/rocky-patel-quarter-century/",
+      "fact_note": "Sixty vitola tasting notes and box count/price"
+    },
+    {
+      "source_name": "Cigar Coop",
+      "source_url": "https://cigar-coop.com/2021/06/cigar-review-rocky-patel-quarter-century-robusto.html",
+      "fact_note": "92-point score, tasting notes, smoke time for Robusto"
+    }
+  ]
+}

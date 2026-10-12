@@ -1,0 +1,58 @@
+{
+  "line": {
+    "name": "Saint Luis Rey Original",
+    "slug": "saint-luis-rey-original",
+    "description": "Altadis USA's official product-page title for the base/core Saint Luis Rey line (the Mac photo, labeled just 'Churchill,' is presumed to depict this core line rather than a named sub-line). Full-bodied, crafted in Honduras.",
+    "wrapper": "Nicaraguan",
+    "binder": "Nicaraguan",
+    "filler": "Honduran, Nicaraguan, and Peruvian",
+    "factory": "Flor de Copan, Santa Rosa de Copan, Honduras",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "notes": "UNVERIFIED size ordering - source page rendering was ambiguous about length-vs-ring-gauge order; re-check before treating as final.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-original/"
+      ]
+    },
+    {
+      "name": "Belicoso",
+      "size": "6.125 x 52",
+      "notes": "Same size-ordering caveat as Toro above.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-original/"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 52",
+      "notes": "Matches the Mac photo. Same size-ordering caveat as Toro above.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-original/"
+      ]
+    },
+    {
+      "name": "Rothchilde",
+      "size": "5 x 54",
+      "notes": "Same size-ordering caveat as Toro above.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-original/"
+      ]
+    },
+    {
+      "name": "Titan",
+      "size": "5.5 x 60",
+      "notes": "Same size-ordering caveat as Toro above.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-original/"
+      ]
+    }
+  ],
+  "research_notes": "The source page's extracted text presented dimensions ambiguously (possibly ring-gauge-first); normalized here to the conventional length x ring-gauge format, but this is unverified and should be cross-checked against a retailer listing before treating as final.",
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-original/"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "line": {
+    "brand_slug": "joya-de-nicaragua",
+    "name": "Joya de Nicaragua Rosalones Reserva",
+    "slug": "rosalones-reserva",
+    "wrapper": "Nicaragua Habano Criollo Colorado",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": "Medium",
+    "release_year": 2026,
+    "background_text": "Rosalones Reserva is the fuller-bodied, all-Nicaraguan-leaf counterpart within the Rosalones family, wrapped in Nicaraguan Habano Criollo Colorado versus the Connecticut-seed wrapper of standard Rosalones (CT). It made its first official U.S. market debut alongside Rosalones CT in 2026, sold as a genuinely separate blend rather than a packaging variant. An earlier/international 'Rosalones Reserva' (vitola codes R546, R650, RR444) has also circulated via European retailers with a Nicaraguan Habano wrapper, consistent in character with the 2026 U.S. version."
+  },
+  "vitolas": [
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [
+        "woody",
+        "refined spice"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6,
+      "ring_gauge": 50,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "R546 (Corona Gorda, legacy/international sizing)",
+      "slug": "r546",
+      "length_in": 5.5,
+      "ring_gauge": 46,
+      "vitola_type": "Corona Gorda",
+      "summary_review": "Blind Man's Puff scored this Good (89/100), with a flavor arc from black tea/spice/honey through peppery earth to dark bitter chocolate and black licorice.",
+      "tasting_notes": [
+        "black tea",
+        "spices",
+        "honey",
+        "peppery earth",
+        "dark bitter chocolate",
+        "black licorice"
+      ],
+      "smoke_time_min": 52,
+      "box_counts": [],
+      "critic_reviews": [
+        {
+          "source_name": "Blind Man's Puff",
+          "source_type": "critic",
+          "score": 89,
+          "score_scale": "100",
+          "review_date": null,
+          "url": "https://blindmanspuff.com/blind-cigar-review-joya-de-nicaragua-rosalones-reserva-r546/",
+          "key_notes_text": "Good (89/100); Nicaraguan Habano wrapper/binder/filler; appearance 91, aroma 91, draw 90, burn 93, construction 89."
+        }
+      ]
+    }
+  ],
+  "research_notes": "CONFIRMED SEPARATE BLEND from plain Rosalones - Cigar Aficionado and halfwheel both explicitly describe them as two different blends: Reserva uses Nicaraguan Habano Criollo Colorado wrapper over Nicaraguan binder/filler (medium-bodied), while standard Rosalones (CT) uses Ecuador Connecticut-seed wrapper (milder). Only one photo exists in our library for this line specifically (JDN_Rosalones-Reserva_01.png), mixed into the general Rosalones folder rather than its own subfolder - see image manifest.",
+  "research_sources": [
+    {
+      "url": "https://joyacigars.com/cigars/rosalones-reserva/",
+      "supports": "Official wrapper/binder/filler, strength, sizes, background/tagline text"
+    },
+    {
+      "url": "https://halfwheel.com/joya-de-nicaragua-shipping-red-white-blue-new-rosalones-lines-tomorrow/472719/",
+      "supports": "2026 U.S. launch, Robusto/Toro sizes, box counts of 20, wrapper distinction vs Rosalones CT"
+    },
+    {
+      "url": "https://www.cigaraficionado.com/article/joya-de-nicaragua-rosalones-coming-to-u-s-market",
+      "supports": "Explicit confirmation Reserva and CT are separate blends"
+    },
+    {
+      "url": "https://blindmanspuff.com/blind-cigar-review-joya-de-nicaragua-rosalones-reserva-r546/",
+      "supports": "R546 vitola review"
+    }
+  ]
+}

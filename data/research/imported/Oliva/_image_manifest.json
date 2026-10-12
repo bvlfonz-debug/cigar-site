@@ -1,0 +1,32 @@
+{
+  "brand": "Oliva",
+  "brand_slug": "oliva",
+  "note": "Paths are relative to 'Cigar Images/Oliva/' in the connected folder on the user's Mac. This brand's folder was mostly well organized already; before this research batch I did light cleanup: grouped 8 loose 'Oliva_Oli-O-*' files (top level) into a new 'Oliva O' subfolder with clearer names, and moved 2 misfiled Serie V Melanio photos (banner + a Maduro Churchill infocard) out of the plain 'Serie V' folder into 'Serie V Melanio' where they belong.",
+  "gap_fill_supplements": {
+    "_connecticut-reserve-additional-vitolas": {
+      "source_folder": "Cigar Images/Oliva/Connecticut Reserve"
+    },
+    "_serie-o-additional-vitolas": {
+      "source_folder": "Cigar Images/Oliva/Serie O"
+    }
+  },
+  "new_lines": {
+    "serie-g-maduro": {
+      "source_folder": "Cigar Images/Oliva/Serie G"
+    }
+  },
+  "already_matched_no_gap": [
+    "Flor de Oliva Corojo/Gold/Maduro (all 4 vitolas each)",
+    "Master Blends 3 (Churchill, Robusto, Torpedo)",
+    "Serie G (Belicoso, Churchill, Robusto, Special Corona, Toro)",
+    "Serie O Maduro (Churchill, Double Toro, Robusto, Toro, Torpedo)",
+    "Serie V (all 6 vitolas - see note on 'Churchill' below)",
+    "Serie V Maduro (Double Robusto, Double Toro, Toro, Torpedo)",
+    "Serie V Melanio (Edicion Ano 2026 Perfecto, Figurado, Robusto)",
+    "Serie V Melanio Maduro (Churchill, Double Toro, Robusto, Toro, Torpedo)",
+    "Oliva O (all 8 photos matched existing Serie O / Serie O Maduro vitolas - Churchill, Double Toro, Perfecto, Robusto, Toro in regular wrapper; Churchill, Double Toro, Robusto in Maduro - no new file needed)"
+  ],
+  "resolved_non_gaps": {
+    "serie_v_churchill_photo": "An infocard photo in the 'Serie V' folder is labeled just 'Churchill' (no 'Extra'). Research confirmed this is the same product as the site's existing 'Churchill Extra' (7x52) - 'Churchill' is the vitola-shape name, 'Extra' is part of the marketed product name, not a separate size. No new vitola added; this photo maps to the existing site entry."
+  }
+}

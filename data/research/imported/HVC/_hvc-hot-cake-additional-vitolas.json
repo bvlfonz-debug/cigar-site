@@ -1,0 +1,30 @@
+{
+  "line_slug": "hvc-hot-cake",
+  "note": "Site lists Hot Cake with only Laguito No. 4 (4.5x52). Mac photos show 2 additional Half Corona wrapper-variant releases within the broader Hot Cake family.",
+  "additional_vitolas": [
+    {
+      "name": "Half Corona (Maduro - San Andres)",
+      "size": "3.5 x 44",
+      "notes": "Matches the Mac photo. Wrapper San Andres Maduro, binder/filler Nicaraguan. $4.80/cigar, boxes of 25. 5th regular-production size in the Hot Cake Maduro line, shipped December 2023. FLAG: factory attribution conflicts within the same source article (body text names Fabrica de Tabacos HVC S.A.; the article's own 'Blend and Origin' box names Tabacos Valle de Jalapa S.A./TABSA) - recorded as an open discrepancy, not resolved by guessing.",
+      "sources": [
+        "https://cigar-coop.com/2023/11/cigar-news-hvc-hot-cake-maduro-half-corona-coming-in-december.html",
+        "https://cigardojo.com/2023/11/half-corona-hvc-hot-calke-maduro-announced-by-hvc/"
+      ]
+    },
+    {
+      "name": "Half Corona 'Fresh Out the Oven' Broadleaf",
+      "size": "3.5 x 44",
+      "notes": "DECODE: Mac filename fragment 'Oven' is literally part of the product's own marketing name ('Fresh Out the Oven'), not a mis-transcription. Wrapper Connecticut Broadleaf, binder/filler Nicaraguan. $5.60/cigar, limited run of 300 boxes of 25. Shipped to select retailers starting March 25, 2025.",
+      "sources": [
+        "https://cigar-coop.com/2025/03/hvc-hot-cake-fresh-out-the-oven-broadleaf-half-corona.html",
+        "https://halfwheel.com/hvc-hot-cake-fresh-out-of-the-oven-broadleaf-half-corona-shipping-next-week/448518/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://cigar-coop.com/2023/11/cigar-news-hvc-hot-cake-maduro-half-corona-coming-in-december.html",
+    "https://cigardojo.com/2023/11/half-corona-hvc-hot-calke-maduro-announced-by-hvc/",
+    "https://cigar-coop.com/2025/03/hvc-hot-cake-fresh-out-the-oven-broadleaf-half-corona.html",
+    "https://halfwheel.com/hvc-hot-cake-fresh-out-of-the-oven-broadleaf-half-corona-shipping-next-week/448518/"
+  ]
+}

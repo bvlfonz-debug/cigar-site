@@ -1,0 +1,22 @@
+{
+  "note": "Supplementary file - NOT a new line. 'JFR Lunatic Maduro' already exists on the site (Short Titan, 4.25x60). Adding genuine additional oversized vitolas the site is missing - this line is known for large ring gauges.",
+  "line_name": "JFR Lunatic Maduro",
+  "additional_vitolas": [
+    {
+      "name": "El Grande",
+      "size": "5.5 x 80 (torpedo)",
+      "notes": "Launched initially through PCA retail members ~March 2021, later went wide."
+    },
+    {
+      "name": "Bellicoso",
+      "size": "8 x 80 (torpedo/belicoso format)",
+      "notes": "Confirmed across multiple current retailer listings; no dedicated halfwheel/Cigar Coop launch article found, sourcing rests on retailer product pages (standard for this line's smaller SKUs)."
+    }
+  ],
+  "research_sources": [
+    "https://www.cigaraficionado.com/article/aganorsa-adds-immense-torpedo-to-jfr-lunatic-maduro-line",
+    "https://www.neptunecigar.com/cigars/jfr-lunatic-maduro-el-grande",
+    "https://cupojoes.com/jfr-lunatic-maduro-bellicoso-cigar/",
+    "https://cigar-coop.com/2023/11/cigar-review-jfr-lunatic-maduro-10-x-100-by-aganorsa-leaf.html"
+  ]
+}

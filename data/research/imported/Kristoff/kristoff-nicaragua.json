@@ -1,0 +1,43 @@
+{
+  "line": {
+    "name": "Kristoff Nicaragua",
+    "slug": "kristoff-nicaragua",
+    "description": "Confirmed as a distinct regular-production line from the site's already-listed Kristoff San Andres - debuted at 2023 PCA, shipped September 2023.",
+    "wrapper": "Nicaraguan Habano",
+    "binder": "Nicaraguan Corojo",
+    "filler": "Nicaraguan (Condega, Esteli, Jalapa)",
+    "factory": "Tabacalera von Eicken, Dominican Republic (rolled; all-Nicaraguan tobacco)",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "notes": "Matches the Mac photo. $9.50/$190 box of 20.",
+      "sources": [
+        "https://halfwheel.com/kristoff-nicaragua-robusto/432223/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6.25 x 54",
+      "notes": "$10.50/$210 box of 20.",
+      "sources": [
+        "https://cigar-coop.com/2024/06/kristoff-nicaragua-toro-cigar-review.html"
+      ]
+    },
+    {
+      "name": "6x60",
+      "size": "6 x 60",
+      "notes": "$10.75/$215 box of 20.",
+      "sources": [
+        "https://cigar-coop.com/2023/07/cigar-news-kristoff-nicaragua-to-debut-at-2023-pca-trade-show.html"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/kristoff-nicaragua-robusto/432223/",
+    "https://cigar-coop.com/2023/07/cigar-news-kristoff-nicaragua-to-debut-at-2023-pca-trade-show.html",
+    "https://cigar-coop.com/2024/06/kristoff-nicaragua-toro-cigar-review.html"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "brand": {
+    "name": "Trinidad",
+    "slug": "trinidad",
+    "description": "Not on the site at all - confirmed absent from the site's full brand index, not just a slug issue. Originally created in 1969 at the El Laguito factory in Havana, Cuba, as a diplomatic-gift-only brand distributed by the Cuban government (not sold commercially). The Cuban 'Trinidad' (Habanos S.A.) went to public commercial release in 1998 and remains a separate, embargoed product not covered here. This entry covers the non-Cuban 'Trinidad' distributed by Altadis USA (a subsidiary of Imperial Brands) in the US market - a 'resurrection' of the brand driven by Altadis's Rafael Nodal starting with Trinidad Santiago in 2017, described in trade coverage as the first regular-production Trinidad release since 2012's limited 'Trinidad Paradox.' No single confirmed founding year exists for this non-Cuban version specifically - recording 1969 as the historical origin (Cuban original) with a note that the Altadis relaunch began circa 2017.",
+    "founded": 1969,
+    "founded_note": "1969 is the Cuban original's founding year. The non-Cuban Altadis USA version has no single documented founding year - its modern relaunch began circa 2017 with Trinidad Santiago.",
+    "origin_country": "Cuba (historical origin); current non-Cuban lines manufactured in the Dominican Republic and Nicaragua depending on line",
+    "distributor": "Altadis USA",
+    "status": "current"
+  },
+  "line": {
+    "name": "Trinidad Espiritu Series No. 1",
+    "slug": "trinidad-espiritu-series-no1",
+    "description": "Created 2019 by master blender A.J. Fernandez and Rafael Nodal; first entry in a three-part numbered series, each pairing Trinidad's heritage image with a single-country-themed wrapper showcase. Positioned as a modern tribute to 'golden age' (1960s-70s) Trinidad-style cigars. 'Trinidad Espiritu' with no series number (matching the Mac photo labeled just 'Espiritu') refers to this base/Series No.1 release. Full-to-medium-full-bodied.",
+    "wrapper": "Nicaraguan",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "factory": "Tabacalera A.J. Fernandez, Esteli, Nicaragua",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 52 (one source: 5x50)",
+      "sources": [
+        "https://www.jrcigars.com/blending-room/university/cigar-buying-guide/trinidad-espiritu-series-overview/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 52 (UNVERIFIED - one source gives 6x54; unresolved discrepancy between JR Cigars and Cigar Coop, possibly reused boilerplate on the Cigar Coop side)",
+      "sources": [
+        "https://www.jrcigars.com/blending-room/university/cigar-buying-guide/trinidad-espiritu-series-overview/",
+        "https://cigar-coop.com/2019/11/cigar-review-trinidad-espiritu-series-no-1-toro-by-altadis-u-s-a.html"
+      ]
+    },
+    {
+      "name": "Belicoso",
+      "size": "6.125 x 52",
+      "sources": [
+        "https://cigar-coop.com/2019/11/cigar-review-trinidad-espiritu-series-no-1-toro-by-altadis-u-s-a.html"
+      ]
+    },
+    {
+      "name": "Magnum",
+      "size": "6 x 60",
+      "sources": [
+        "https://cigar-coop.com/2019/11/cigar-review-trinidad-espiritu-series-no-1-toro-by-altadis-u-s-a.html"
+      ]
+    },
+    {
+      "name": "Fundador",
+      "size": "7.5 x 40",
+      "notes": "Event-only lancero release.",
+      "sources": [
+        "https://cigar-coop.com/2019/11/cigar-review-trinidad-espiritu-series-no-1-toro-by-altadis-u-s-a.html"
+      ]
+    }
+  ],
+  "research_notes": "Toro size conflicts between two sources (6x52 vs 6x54) - not resolved without a box label or Altadis spec sheet in hand.",
+  "research_sources": [
+    "https://www.jrcigars.com/blending-room/university/cigar-buying-guide/trinidad-espiritu-series-overview/",
+    "https://cigar-coop.com/2019/11/cigar-review-trinidad-espiritu-series-no-1-toro-by-altadis-u-s-a.html",
+    "https://www.cigaraficionado.com/article/the-tale-of-trinidad"
+  ]
+}

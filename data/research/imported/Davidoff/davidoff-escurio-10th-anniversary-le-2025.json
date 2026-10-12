@@ -1,0 +1,28 @@
+{
+  "line": {
+    "name": "Davidoff Escurio 10th Anniversary Limited Edition 2025",
+    "slug": "davidoff-escurio-10th-anniversary-le-2025",
+    "description": "A one-off limited-edition blend marking 10 years since Escurio's 2015 debut (the 2nd Black Label release). Site already lists 'Escurio' as a line - this uses a materially different blend (added Ecuadorian wrapper, Brazilian binder, bourbon-cask-aged filler) from the standard Escurio, so it is recorded as its own limited-edition entry rather than folded silently into the base line.",
+    "wrapper": "Ecuadorian",
+    "binder": "Brazilian",
+    "filler": "Dominican and Brazilian, combined age 45 years; one Dominican filler aged in a bourbon cask",
+    "factory": "TABADOM, Dominican Republic",
+    "status": "limited edition (2025 run)"
+  },
+  "vitolas": [
+    {
+      "name": "Gran Toro",
+      "size": "6 x 56",
+      "notes": "Matches the Mac photo. Box of 12. Production quantity and MSRP not disclosed in sources found.",
+      "sources": [
+        "https://cigar-coop.com/2025/03/davidoff-escurio-10th-anniversary-limited-edition-2025-announced-cigar-news.html",
+        "https://www.cigaraficionado.com/article/davidoff-celebrates-10-years-of-escurio-with-limited-edition-cigar"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://cigar-coop.com/2025/03/davidoff-escurio-10th-anniversary-limited-edition-2025-announced-cigar-news.html",
+    "https://www.cigaraficionado.com/article/davidoff-celebrates-10-years-of-escurio-with-limited-edition-cigar",
+    "https://cigar-coop.com/2025/09/davidoff-escurio-10th-anniversary-limited-edition-2025-cigar-review.html"
+  ]
+}

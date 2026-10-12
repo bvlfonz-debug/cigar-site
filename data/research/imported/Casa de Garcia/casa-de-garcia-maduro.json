@@ -1,0 +1,53 @@
+{
+  "line": {
+    "name": "Casa de Garcia Maduro",
+    "slug": "casa-de-garcia-maduro",
+    "description": "A wrapper variant of the core Casa de Garcia blend (not a separately-blended sub-line).",
+    "wrapper": "Connecticut Broadleaf (maduro)",
+    "binder": "Connecticut Broadleaf",
+    "filler": "Dominican and Honduran",
+    "factory": "Dominican Republic",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Corona",
+      "size": "5.5 x 44",
+      "sources": [
+        "https://www.altadisusa.com/cigars/casa-de-garcia/casa-de-garcia-maduro-blend/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "4.75 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/casa-de-garcia/casa-de-garcia-maduro-blend/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "5.5 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/casa-de-garcia/casa-de-garcia-maduro-blend/"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "6.5 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/casa-de-garcia/casa-de-garcia-maduro-blend/"
+      ]
+    },
+    {
+      "name": "Belicoso",
+      "size": "6.125 x 52",
+      "sources": [
+        "https://www.altadisusa.com/cigars/casa-de-garcia/casa-de-garcia-maduro-blend/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/casa-de-garcia/casa-de-garcia-maduro-blend/",
+    "https://www.cigars.com/cigars/handmade-cigars/casa-de-garcia-cigars/casa-de-garcia-maduro/"
+  ]
+}

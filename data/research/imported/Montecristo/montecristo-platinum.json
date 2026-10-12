@@ -1,0 +1,58 @@
+{
+  "line": {
+    "name": "Montecristo Platinum Series",
+    "slug": "montecristo-platinum",
+    "description": "Not on the site.",
+    "wrapper": "San Andres Cubano (Mexico)",
+    "binder": "Dominican",
+    "filler": "Dominican, Nicaraguan, Peruvian",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "No. 3",
+      "size": "5.5 x 44",
+      "sources": [
+        "https://www.altadisusa.com/cigars/montecristo/montecristo-platinum-series/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/montecristo/montecristo-platinum-series/"
+      ]
+    },
+    {
+      "name": "Rothschild en Tubo",
+      "size": "5 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/montecristo/montecristo-platinum-series/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/montecristo/montecristo-platinum-series/"
+      ]
+    },
+    {
+      "name": "Churchill en Tubo",
+      "size": "7 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/montecristo/montecristo-platinum-series/"
+      ]
+    },
+    {
+      "name": "No. 2",
+      "size": "6.125 x 52",
+      "sources": [
+        "https://www.altadisusa.com/cigars/montecristo/montecristo-platinum-series/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/montecristo/montecristo-platinum-series/"
+  ]
+}

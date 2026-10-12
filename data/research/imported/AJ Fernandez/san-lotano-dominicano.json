@@ -1,0 +1,36 @@
+{
+  "line": {
+    "name": "San Lotano Dominicano",
+    "description": "Genuine, separate San Lotano sub-line made at Tabacalera Palma (Jose 'Jochy' Blanco's Dominican factory), distributed by Abdel Fernandez. Explicitly Dominican-made, contrasting with the Nicaraguan-made San Lotano Requiem line. Not currently listed on the site at all (site has Requiem, Requiem Connecticut, Requiem Maduro, The Bull, Oval, but not Dominicano).",
+    "origin_country": "Dominican Republic",
+    "wrapper": "Brazilian (Cuban-seed)",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic & Nicaragua",
+    "strength": "Medium-full"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50"
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 50"
+    },
+    {
+      "name": "Torpedo (Box-Press)",
+      "size": "6.5 x 52"
+    },
+    {
+      "name": "Gordo",
+      "size": "6.25 x 60"
+    }
+  ],
+  "research_notes": "Confirmed by halfwheel and multiple retailer listings (CigarsDirect, Neptune Cigar, Holt's, Gotham, Smoke Inn).",
+  "research_sources": [
+    "https://halfwheel.com/san-lotano-dominicano-robusto/335792/",
+    "https://www.cigarsdirect.com/collections/aj-fernandez-san-lotano-dominicano",
+    "https://www.neptunecigar.com/cigar/san-lotano-dominicano",
+    "https://www.holts.com/cigars/all-cigar-brands/san-lotano-dominicano.html"
+  ]
+}

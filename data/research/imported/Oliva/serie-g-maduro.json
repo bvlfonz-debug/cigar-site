@@ -1,0 +1,71 @@
+{
+  "line": {
+    "name": "Oliva Serie G Maduro",
+    "slug": "serie-g-maduro",
+    "description": "A full parallel Maduro-wrapper line to the site's existing Serie G entry, not a wrapper flag on the same 5 vitolas - its vitola lineup is genuinely different (7 vitolas here vs. 5 in the standard line, with some names/sizes not overlapping 1:1).",
+    "wrapper": "Connecticut Broadleaf (per halfwheel and Cigar Aficionado spec data)",
+    "binder": "Nicaraguan Cuban-seed Habano",
+    "filler": "Nicaraguan Habano",
+    "notes": "Some retailer/manufacturer marketing copy (olivacigar.com, cigarsinternational.com) describes the wrapper as Mexican or a blended 'Connecticut Broadleaf Mexican San Andres' descriptor - treated as loose marketing language rather than a factual contradiction; Connecticut Broadleaf is used here per the more rigorous halfwheel/Cigar Aficionado spec sheets."
+  },
+  "vitolas": [
+    {
+      "name": "Presidente",
+      "size": "8 x 52",
+      "sources": [
+        "cigaraficionado.com/ratings/22006/name/oliva-serie-g-maduro-churchill-churchill"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 50",
+      "sources": [
+        "cigaraficionado.com/ratings/22006/name/oliva-serie-g-maduro-churchill-churchill"
+      ]
+    },
+    {
+      "name": "Torpedo",
+      "size": "6 x 52 (some retailers list 6.5 x 52 - not resolved)",
+      "sources": [
+        "halfwheel.com/review-oliva-serie-g-maduro-belicoso/35530/",
+        "cigarsinternational.com/product/FMA-PM.html"
+      ]
+    },
+    {
+      "name": "Perfecto",
+      "size": "5.5 x 54",
+      "sources": [
+        "famous-smoke.com/brand-oliva-serie-g-maduro"
+      ]
+    },
+    {
+      "name": "Belicoso (Round)",
+      "size": "5 x 52",
+      "sources": [
+        "halfwheel.com/review-oliva-serie-g-maduro-belicoso/35530/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "4.5 x 50",
+      "sources": [
+        "famous-smoke.com/brand-oliva-serie-g-maduro"
+      ]
+    },
+    {
+      "name": "Special G",
+      "size": "3.75 x 48",
+      "sources": [
+        "famous-smoke.com/brand-oliva-serie-g-maduro"
+      ]
+    }
+  ],
+  "research_notes": "Only 'Maduro' is confirmed by direct Mac photo evidence (filename didn't specify a vitola); the full 7-vitola lineup is from independent research since Serie G Maduro is a distinct, well-documented product. Worth double-checking the site's plain 'Serie G' vitola list too - Serie G Maduro's lineup doesn't map 1:1 to it (Torpedo and Presidente appear only in Maduro; Special Corona/Toro from the standard line don't have obvious Maduro equivalents), suggesting the two lines' compositions may have diverged over time rather than being a clean wrapper-only split.",
+  "research_sources": [
+    "https://halfwheel.com/review-oliva-serie-g-maduro-belicoso/35530/",
+    "https://www.cigaraficionado.com/ratings/22006/name/oliva-serie-g-maduro-churchill-churchill",
+    "https://www.cigarsinternational.com/product/FMA-PM.html",
+    "https://olivacigar.com/cigars/serie-6-maduro/",
+    "https://www.famous-smoke.com/brand-oliva-serie-g-maduro"
+  ]
+}

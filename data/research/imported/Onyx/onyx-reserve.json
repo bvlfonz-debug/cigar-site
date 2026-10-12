@@ -1,0 +1,63 @@
+{
+  "brand": {
+    "name": "Onyx",
+    "slug": "onyx",
+    "description": "Not on the site at all - confirmed absent from the site's full brand index. Founded 2000, named for its original dark, near-black Connecticut Broadleaf wrapper. Currently distributed/manufactured by Altadis USA, and has expanded from a single Dominican maduro line into a 3-line portfolio spanning Dominican and Nicaraguan-puro expressions. FLAG: the brand's pre-Altadis corporate origin (whether it launched under Consolidated Cigar Corp, Altadis's Dominican predecessor, or directly under Altadis USA) could not be confirmed.",
+    "founded": 2000,
+    "origin_country": "Dominican Republic (Onyx Reserve); Nicaragua (Onyx Bold Nicaragua and Onyx Vintage Nicaragua)",
+    "distributor": "Altadis USA",
+    "status": "current"
+  },
+  "line": {
+    "name": "Onyx Reserve",
+    "slug": "onyx-reserve",
+    "description": "The original/legacy blend. Rich, medium-to-full-bodied maduro; several vitolas are square-pressed.",
+    "wrapper": "Blackened Connecticut Broadleaf (maduro)",
+    "binder": "Nicaraguan",
+    "filler": "Dominican, Nicaraguan, and Peruvian",
+    "factory": "Tabacalera de Garcia, Dominican Republic",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto (Square Pressed)",
+      "size": "5 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/onyx/onyx-reserve/"
+      ]
+    },
+    {
+      "name": "Toro (Square Pressed)",
+      "size": "6 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/onyx/onyx-reserve/"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/onyx/onyx-reserve/"
+      ]
+    },
+    {
+      "name": "No. 2 Belicoso (Square Pressed)",
+      "size": "6.125 x 52",
+      "sources": [
+        "https://www.altadisusa.com/cigars/onyx/onyx-reserve/"
+      ]
+    },
+    {
+      "name": "Torbusto (Square Pressed)",
+      "size": "5.5 x 60",
+      "sources": [
+        "https://www.altadisusa.com/cigars/onyx/onyx-reserve/"
+      ]
+    }
+  ],
+  "research_notes": "Older retailer listings/reviews (e.g. a 2007 review) reference additional legacy vitolas not on the current official site (e.g. a 'No. 4') - treated as discontinued/unverified for the current catalog rather than added.",
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/onyx/onyx-reserve/",
+    "https://stogiereview.com/2007/02/12/onyx-reserve/"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "line": {
+    "name": "Deadwood Fat Bottom Betty",
+    "slug": "deadwood-fat-bottom-betty",
+    "description": "One of the 4 core Deadwood 'Wild Bunch' blends, debuted 2013 per founder Vaughn Boyd. The Gordito size is a size extension (added October 2019), not a separate blend.",
+    "wrapper": "Maduro",
+    "binder": null,
+    "filler": null,
+    "factory": "Drew Estate - likely La Gran Fabrica Drew Estate, Esteli, Nicaragua, consistent with other Deadwood blends, but this specific attribution for Fat Bottom Betty is an inference, not independently confirmed for this SKU.",
+    "status": "current as of its 2019 release; current (2026) availability not independently confirmed this session."
+  },
+  "vitolas": [
+    {
+      "name": "Gordito",
+      "size": "6 x 60",
+      "notes": "Matches the Mac photo. 10-count box, ~$102.50/box MSRP. Released Oct 28, 2019.",
+      "sources": [
+        "https://cigar-coop.com/2019/10/cigar-news-drew-estate-adds-fat-bottom-betty-gordito.html",
+        "https://www.cigarsdirect.com/products/drew-estate-deadwood-tobacco-fat-bottom-betty-gordito"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 54",
+      "notes": "Found in sourcing but has no matching Mac photo this batch - included for lineup completeness.",
+      "sources": [
+        "https://cigar-coop.com/2019/10/cigar-news-drew-estate-adds-fat-bottom-betty-gordito.html"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "notes": "Found in sourcing but has no matching Mac photo this batch - included for lineup completeness.",
+      "sources": [
+        "https://cigar-coop.com/2019/10/cigar-news-drew-estate-adds-fat-bottom-betty-gordito.html"
+      ]
+    }
+  ],
+  "research_notes": "Binder/filler not disclosed in sources checked - left null. Current production status as of 2026 not independently confirmed.",
+  "research_sources": [
+    "https://cigar-coop.com/2019/10/cigar-news-drew-estate-adds-fat-bottom-betty-gordito.html",
+    "https://drewestate.prezly.com/drew-estate-revs-the-motor-on-deadwood-by-unleashing-fat-bottom-betty-gordito",
+    "https://www.cigarsdirect.com/products/drew-estate-deadwood-tobacco-fat-bottom-betty-gordito"
+  ]
+}

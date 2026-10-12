@@ -1,0 +1,128 @@
+{
+  "line": {
+    "brand_slug": "lampert",
+    "name": "Lampert Limitada",
+    "slug": "lampert-limitada",
+    "wrapper": null,
+    "binder": null,
+    "filler": null,
+    "strength": "Full",
+    "release_year": 2022,
+    "background_text": "Limitada is Lampert Cigars' annual limited-edition retailer-exclusive series, launched in 2022 as part of the 'Golden Retailer Program' with a Salomones vitola. Founder Dr. Stefan Lampert releases a new Limitada blend most years for the brand's top retail accounts, each edition typically using a different wrapper/binder/filler combination and vitola. CONFIRMED as a genuinely distinct, standalone line from Ocean Breeze - no source describes Limitada as a variant/edition of Ocean Breeze; both are documented on lampertcigars.com as separate product pages with different blends, vitolas, and release cadences. (A few 'Limitada_Pack-Sleeve' photo files are mixed into our Mac's Ocean Breeze folder - likely just an asset-organization quirk, not evidence of a product relationship.)"
+  },
+  "vitolas": [
+    {
+      "size_name": "Salomones (2022)",
+      "slug": "limitada-2022-salomones",
+      "length_in": 7.5,
+      "ring_gauge": 58,
+      "vitola_type": "Salomones",
+      "summary_review": "Debuted July 2022 as part of the Golden Retailer Program, aged at least a year before release; 500 boxes (5,000 cigars) produced.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "halfwheel",
+          "source_type": "critic",
+          "score": null,
+          "score_scale": null,
+          "review_date": null,
+          "url": "https://halfwheel.com/pca-2022-lampert-cigars/412043/",
+          "key_notes_text": "PCA 2022: 7.5x58 Salomones, Ecuador Habano wrapper, Nicaraguan binder/filler, $30/cigar, aged at least a year, 500 boxes."
+        }
+      ]
+    },
+    {
+      "size_name": "Toro (2023)",
+      "slug": "limitada-2023-toro",
+      "length_in": null,
+      "ring_gauge": null,
+      "vitola_type": "Toro",
+      "summary_review": "Handmade in Costa Rica using Ecuador Criollo 98 wrapper and Brazilian binder/filler; billed as a full-bodied international debut shown at PCA 2024.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Toro Box-Pressed (2025)",
+      "slug": "limitada-2025-toro-box-press",
+      "length_in": 6.0,
+      "ring_gauge": 54,
+      "vitola_type": "Toro",
+      "summary_review": "The brand's first box-pressed release; Ecuadorian Habano Vuelta Abajo dark wrapper over Ecuadorian Habano 2000 binder with Brazil/Dominican/Nicaragua filler, limited to 500 boxes.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "halfwheel",
+          "source_type": "critic",
+          "score": null,
+          "score_scale": null,
+          "review_date": null,
+          "url": "https://halfwheel.com/lampert-releasing-limitada-2025-this-month/451689/",
+          "key_notes_text": "6x54 box-pressed Toro, $18/cigar, 500 boxes of 10 (200 US / 300 international), rolled at Tabacos de Costa Rica."
+        }
+      ]
+    },
+    {
+      "size_name": "Toro Box-Pressed (2026)",
+      "slug": "limitada-2026-toro-box-press",
+      "length_in": 6.0,
+      "ring_gauge": 54,
+      "vitola_type": "Toro",
+      "summary_review": "2026 edition: Ecuadorian Connecticut-seed wrapper, Habano 2000 binder, DR/Ecuador/Nicaragua (Jalapa) filler; $19.50/cigar, released August 2026.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "halfwheel",
+          "source_type": "critic",
+          "score": null,
+          "score_scale": null,
+          "review_date": "2026-08-10",
+          "url": "https://halfwheel.com/lampert-limitada-2026-heads-to-stores/476613/",
+          "key_notes_text": "6x54 box-pressed Toro, $19.50/cigar, Tabacos de Costa Rica factory, released Aug 10 2026."
+        }
+      ]
+    }
+  ],
+  "research_notes": "Investigated the Ocean Breeze/Limitada overlap specifically: Ocean Breeze's own vitolas (Gordito, Robusto Grande, Toro Grande) do NOT match any Limitada vitola/blend, and no source describes Limitada as a variant of Ocean Breeze. Conclusion: Limitada is a genuinely separate, standalone line. Exact length/ring gauge for the 2023 Toro could not be confirmed beyond the size name.",
+  "research_sources": [
+    {
+      "url": "https://lampertcigars.com/cigars/limitada-2023/",
+      "supports": "Limitada 2023 blend, production, box format, strength"
+    },
+    {
+      "url": "https://lampertcigars.com/cigars/limitada-2025/",
+      "supports": "Limitada 2025 vitola, wrapper/binder/filler, box count"
+    },
+    {
+      "url": "https://halfwheel.com/lampert-limitada-2026-heads-to-stores/476613/",
+      "supports": "Limitada 2026 specs, pricing, release date, series launch history"
+    },
+    {
+      "url": "https://halfwheel.com/lampert-releasing-limitada-2025-this-month/451689/",
+      "supports": "Limitada 2025 pricing, box allocation, factory, timeline"
+    },
+    {
+      "url": "https://halfwheel.com/pca-2022-lampert-cigars/412043/",
+      "supports": "Limitada 2022 vitola, wrapper/binder/filler, price, box count"
+    },
+    {
+      "url": "https://lampertcigars.com/cigars/ocean-breeze/",
+      "supports": "Ocean Breeze vitola lineup for the overlap check"
+    }
+  ]
+}

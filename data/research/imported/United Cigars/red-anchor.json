@@ -1,0 +1,48 @@
+{
+  "brand": {
+    "name": "Red Anchor",
+    "description": "Nautical/naval-rank themed line under United Cigars, made at Kelner Boutique Factory (KBF). 25 cigars per box. The Admiral released 2022; Captain, Commodore, Gunner, Cooper launched/announced at PCA 2023.",
+    "origin_country": "Dominican Republic"
+  },
+  "lines": [
+    {
+      "line": {
+        "name": "Red Anchor",
+        "wrapper": "Ecuador Habano 2000",
+        "binder": "Dominican Monte Plata (Kelner family farm)",
+        "filler": "Dominican San Vicente, Dominican Habano '92, Pennsylvania tobacco",
+        "strength": "Medium, building to medium-full",
+        "notes": "Single blend across all vitolas, differing only in shape/size."
+      },
+      "vitolas": [
+        {
+          "name": "Admiral",
+          "size": "6 x 52"
+        },
+        {
+          "name": "Captain",
+          "size": "5 x 50"
+        },
+        {
+          "name": "Gunner",
+          "size": "6.5 x 43"
+        },
+        {
+          "name": "Commodore",
+          "size": "7 x 55 (event-only per some listings)"
+        },
+        {
+          "name": "Cooper",
+          "size": "4.5 x 43 (event-only)"
+        }
+      ]
+    }
+  ],
+  "research_notes": "UC-RedAnchor_Anch-Cap_01.jpg likely refers to the Captain vitola but wasn't fully confirmed. Only 5 photos exist for this brand.",
+  "research_sources": [
+    "https://cigar-coop.com/2023/06/cigar-review-red-anchor-admiral-by-united-cigars.html",
+    "https://halfwheel.com/red-anchor-the-admiral/417080/",
+    "https://unitedcigargroup.com/red-anchor-2/",
+    "https://premiumcigars.org/the-blend-united-cigars-red-anchor-captain/"
+  ]
+}

@@ -1,0 +1,1421 @@
+{
+  "newBrands": [],
+  "newLines": [],
+  "newVitolas": 0,
+  "appended": [],
+  "skipped": [
+    {
+      "file": "Aganorsa Leaf/_guardian-of-the-farm-additional-vitolas.json",
+      "why": "unrecognised shape (keys: note, guardian_of_the_farm_additional_vitolas, guardian_nightwatch_additional_vitolas, research_notes, research_sources)"
+    },
+    {
+      "file": "Aganorsa Leaf/mi-querida.json",
+      "why": "Mi Querida is already a line under Dunbarton Tobacco & Trust (mi-querida, mi-querida-black, mi-querida-triqui-traca); not creating a duplicate brand"
+    },
+    {
+      "file": "Charter Oak/charter-oak-connecticut-broadleaf.json",
+      "why": "Already on the site as Foundation's Charter Oak Broadleaf (same Toro 6x52); not creating a separate Charter Oak brand"
+    },
+    {
+      "file": "Charter Oak/charter-oak-connecticut-shade.json",
+      "why": "Already on the site as Foundation's Charter Oak line; only the missing Toro 6x52 was added to it by hand"
+    },
+    {
+      "file": "Fratello Cigars/_camo-corrected-line.json",
+      "why": "unrecognised shape (keys: note, line_name, site_entry_flagged_as_likely_wrong, corrected_variants, binder_filler, pack_counts)"
+    },
+    {
+      "file": "Joya de Nicaragua/jewel-collection.json",
+      "why": "unrecognised shape (keys: is_sampler, sampler_details, research_notes, research_sources)"
+    },
+    {
+      "file": "My Father Cigars/_my-father-connecticut-corrected-line.json",
+      "why": "unrecognised shape (keys: note, likely_correct_line, research_sources)"
+    },
+    {
+      "file": "United Cigars/_atabey-additional-vitolas.json",
+      "why": "supplement: line \"Atabey\" not found under united-cigars"
+    },
+    {
+      "file": "United Cigars/_byron-additional-vitolas.json",
+      "why": "unrecognised shape (keys: note, line_name, site_brand_url, already_on_site, additional_lines_or_editions, not_gaps)"
+    },
+    {
+      "file": "Aganorsa Leaf/_aniversario-maduro-additional-vitolas.json :: Aniversario 25 Years (Edición Limitada)",
+      "why": "size not confirmed/parseable: \"Toro, 6.25 x 52\""
+    },
+    {
+      "file": "Aganorsa Leaf/_jfr-maduro-additional-vitolas.json :: JFR 20th Anniversary (JFR 20 Years)",
+      "why": "size not confirmed/parseable: \"Multiple: Gordo BP 4.75x70, Titan BP 6x60, Super Toro BP 6.5x52, Gordo Extra BP \""
+    },
+    {
+      "file": "Aganorsa Leaf/_signature-selection-additional-vitolas.json :: Signature Corojo (wrapper variant)",
+      "why": "size not confirmed/parseable: \"undefined\""
+    },
+    {
+      "file": "Aganorsa Leaf/la-validacion.json",
+      "why": "line \"La Validación\" has no importable vitolas"
+    },
+    {
+      "file": "Aganorsa Leaf/rare-leaf.json",
+      "why": "line \"Rare Leaf\" has no description/background_text"
+    },
+    {
+      "file": "Arturo Fuente/_opusx-additional-vitolas.json :: The Undefeated",
+      "why": "size not confirmed/parseable: \"Approximately 6 x 56 (halfwheel's estimate only - Fuente never published an offi\""
+    },
+    {
+      "file": "CLE Cigar Co/asylum-eleven.json :: 11/18",
+      "why": "size not parseable: \"UNCONFIRMED - Mac folder/filenames say '7x70' but no source found documents an Asylum Elev\""
+    },
+    {
+      "file": "CLE Cigar Co/asylum-eleven.json",
+      "why": "line \"Asylum Eleven (11/18)\" has no importable vitolas"
+    },
+    {
+      "file": "Deadwood/deadwood-crazy-alice.json :: Short Pyramid (decoded from Mac filename 'Crazy')",
+      "why": "size not parseable: \"Reported inconsistently across retailers: 4.5x46 (original 2016 release per Drew Estate) v\""
+    },
+    {
+      "file": "Deadwood/deadwood-crazy-alice.json",
+      "why": "line \"Deadwood Crazy Alice\" has no importable vitolas"
+    },
+    {
+      "file": "Illusione/_epernay-additional-vitolas.json :: Le Voyage",
+      "why": "size not confirmed/parseable: \"9.25 x 48 or 49 (sources disagree on ring gauge - not resolved)\""
+    },
+    {
+      "file": "Joya de Nicaragua/rosalones-seleccion-bodegas-2023.json :: Corona Gorda",
+      "why": "size not parseable: \"null\""
+    },
+    {
+      "file": "Joya de Nicaragua/rosalones-seleccion-bodegas-2023.json",
+      "why": "line \"Joya de Nicaragua Rosalones Selección Bodegas Edición 2023\" has no importable vitolas"
+    },
+    {
+      "file": "Lampert/_oro-line-additional-vitolas.json :: Señorito",
+      "why": "size not confirmed/parseable: \"null\""
+    },
+    {
+      "file": "Lampert/_oro-line-additional-vitolas.json :: Gatsby",
+      "why": "size not confirmed/parseable: \"null\""
+    },
+    {
+      "file": "Las Cabrillas/las-cabrillas-balboa-maduro.json :: Maduro (Churchill shape)",
+      "why": "size not parseable: \"UNVERIFIED - no retailer lists exact length x ring gauge for the Maduro specifically. Matc\""
+    },
+    {
+      "file": "Las Cabrillas/las-cabrillas-balboa-maduro.json",
+      "why": "line \"Las Cabrillas Balboa\" has no importable vitolas"
+    },
+    {
+      "file": "Montecristo/_montecristo-classic-additional-vitolas.json :: Toro",
+      "why": "size not confirmed/parseable: \"UNVERIFIED size - photo confirms a Toro-format product exists, but no independen\""
+    },
+    {
+      "file": "My Father Cigars/_jaime-garcia-reserva-especial-additional-vitolas.json :: Figurado J.G.",
+      "why": "size not confirmed/parseable: \"5.625 x 48/52\""
+    },
+    {
+      "file": "Omar Ortez/omar-ortez-connecticut.json :: Toro",
+      "why": "size not parseable: \"UNVERIFIED - vitola name confirmed via retailer SKU listings, size not confirmed this sess\""
+    },
+    {
+      "file": "Omar Ortez/omar-ortez-connecticut.json :: Robusto",
+      "why": "size not parseable: \"UNVERIFIED - vitola name confirmed via retailer SKU listings, size not confirmed this sess\""
+    },
+    {
+      "file": "Omar Ortez/omar-ortez-connecticut.json :: Magnum",
+      "why": "size not parseable: \"UNVERIFIED - vitola name confirmed via a retailer SKU (OOCM/OOCM20, 20-count packs), size \""
+    },
+    {
+      "file": "Omar Ortez/omar-ortez-connecticut.json",
+      "why": "line \"Omar Ortez Connecticut\" has no importable vitolas"
+    },
+    {
+      "file": "Perdomo/perdomo-fresco.json :: Robusto",
+      "why": "size not parseable: \"null\""
+    },
+    {
+      "file": "Perdomo/perdomo-fresco.json :: Toro",
+      "why": "size not parseable: \"null\""
+    },
+    {
+      "file": "Perdomo/perdomo-fresco.json",
+      "why": "line \"Perdomo Fresco\" has no importable vitolas"
+    },
+    {
+      "file": "Perdomo/perdomo-legacy-father-and-son.json :: Gran Figurado Connecticut",
+      "why": "size not parseable: \"6 x 48/60/52\""
+    },
+    {
+      "file": "Perdomo/perdomo-legacy-father-and-son.json :: Gran Figurado Maduro",
+      "why": "size not parseable: \"6 x 48/60/52\""
+    },
+    {
+      "file": "Perdomo/perdomo-legacy-father-and-son.json :: Gran Figurado Shade Grown",
+      "why": "size not parseable: \"6 x 48/60/52\""
+    },
+    {
+      "file": "Perdomo/perdomo-legacy-father-and-son.json",
+      "why": "line \"Perdomo Legacy Father and Son\" has no importable vitolas"
+    },
+    {
+      "file": "RoMa Craft Tobac/_intemperance-ba-xxi-additional-vitolas.json :: Intrigue",
+      "why": "size not confirmed/parseable: \"UNVERIFIED - confirmed as a real vitola name via a halfwheel review, but no reta\""
+    }
+  ],
+  "flags": [
+    {
+      "file": "AJ Fernandez/_bellas-artes-maduro-additional-vitolas.json :: Lancero",
+      "why": "skipped: collides/near-duplicates existing vitola \"Lancero\" (7 x 40) in Bellas Artes Maduro"
+    },
+    {
+      "file": "AJ Fernandez/_last-call-additional-vitolas.json :: Chiquitas",
+      "why": "skipped: collides/near-duplicates existing vitola \"Chiquitas\" (3.5 x 50) in Last Call by AJ Fernandez"
+    },
+    {
+      "file": "AJ Fernandez/_last-call-additional-vitolas.json :: Corticas",
+      "why": "skipped: collides/near-duplicates existing vitola \"Corticas\" (4 x 52) in Last Call by AJ Fernandez"
+    },
+    {
+      "file": "AJ Fernandez/_last-call-additional-vitolas.json :: Pequeñas",
+      "why": "skipped: collides/near-duplicates existing vitola \"Pequeñas\" (5 x 46) in Last Call by AJ Fernandez"
+    },
+    {
+      "file": "AJ Fernandez/_last-call-additional-vitolas.json :: Flaquitas",
+      "why": "skipped: collides/near-duplicates existing vitola \"Flaquitas\" (6 x 46) in Last Call by AJ Fernandez"
+    },
+    {
+      "file": "AJ Fernandez/_new-world-cameroon-additional-vitolas.json :: Torpedo",
+      "why": "skipped: collides/near-duplicates existing vitola \"Torpedo\" (6.5 x 52) in New World Cameroon"
+    },
+    {
+      "file": "AJ Fernandez/enclave-connecticut.json",
+      "why": "slug/name collision: line \"Enclave Connecticut\" (enclave-connecticut) vs existing \"Enclave Connecticut\" (enclave-connecticut) under aj-fernandez — not imported"
+    },
+    {
+      "file": "AJ Fernandez/new-world-oscuro.json",
+      "why": "slug/name collision: line \"New World Oscuro\" (new-world-oscuro) vs existing \"New World Oscuro\" (new-world-oscuro) under aj-fernandez — not imported"
+    },
+    {
+      "file": "AJ Fernandez/san-lotano-dominicano.json",
+      "why": "slug/name collision: line \"San Lotano Dominicano\" (san-lotano-dominicano) vs existing \"San Lotano Dominicano\" (san-lotano-dominicano) under aj-fernandez — not imported"
+    },
+    {
+      "file": "AVO/avo-expresivo.json",
+      "why": "slug/name collision: line \"AVO Expresivo\" (avo-expresivo) vs existing \"AVO Expresivo\" (avo-expresivo) under avo — not imported"
+    },
+    {
+      "file": "AVO/avo-syncro-10th-anniversary-le.json",
+      "why": "slug/name collision: line \"AVO Syncro 10th Anniversary Limited Edition\" (avo-syncro-10th-anniversary-le) vs existing \"AVO Syncro 10th Anniversary Limited Edition\" (avo-syncro-10th-anniversary-le) under avo — not imported"
+    },
+    {
+      "file": "Aganorsa Leaf/_jfr-corojo-additional-vitolas.json :: JFR Corojo 770",
+      "why": "skipped: collides/near-duplicates existing vitola \"JFR Corojo 770\" (7 x 70) in Aganorsa Leaf JFR Corojo"
+    },
+    {
+      "file": "Aganorsa Leaf/_jfr-lunatic-maduro-additional-vitolas.json :: El Grande",
+      "why": "skipped: collides/near-duplicates existing vitola \"El Grande\" (5.5 x 80) in Aganorsa Leaf JFR Lunatic Maduro"
+    },
+    {
+      "file": "Aganorsa Leaf/_jfr-lunatic-maduro-additional-vitolas.json :: Bellicoso",
+      "why": "skipped: collides/near-duplicates existing vitola \"Bellicoso\" (8 x 80) in Aganorsa Leaf JFR Lunatic Maduro"
+    },
+    {
+      "file": "Aganorsa Leaf/_jfr-maduro-additional-vitolas.json :: JFR 770 / 770 Limited Edition",
+      "why": "skipped: collides/near-duplicates existing vitola \"JFR 770 / 770 Limited Edition\" (7 x 70) in Aganorsa Leaf JFR Maduro"
+    },
+    {
+      "file": "Aganorsa Leaf/_rare-leaf-reserve-additional-vitolas.json :: Lonsdale (Corojo)",
+      "why": "skipped: collides/near-duplicates existing vitola \"Lonsdale (Corojo)\" (6 x 44) in Aganorsa Leaf Rare Leaf Reserve"
+    },
+    {
+      "file": "Aganorsa Leaf/_signature-selection-additional-vitolas.json :: Robusto",
+      "why": "skipped: collides/near-duplicates existing vitola \"Robusto\" (5 x 52) in Aganorsa Leaf Signature Selection"
+    },
+    {
+      "file": "Aganorsa Leaf/_supreme-leaf-additional-vitolas.json :: Corona Gorda",
+      "why": "skipped: collides/near-duplicates existing vitola \"Corona Gorda\" (6 x 46) in Aganorsa Leaf Supreme Leaf"
+    },
+    {
+      "file": "Aganorsa Leaf/_supreme-leaf-additional-vitolas.json :: Gran Toro",
+      "why": "skipped: collides/near-duplicates existing vitola \"Toro\" (6 x 54) in Aganorsa Leaf Supreme Leaf"
+    },
+    {
+      "file": "Aganorsa Leaf/jfr-lunatic-habano.json",
+      "why": "slug/name collision: line \"JFR Lunatic Habano\" (jfr-lunatic-habano) vs existing \"JFR Lunatic Habano\" (jfr-lunatic-habano) under aganorsa-leaf — not imported"
+    },
+    {
+      "file": "Aganorsa Leaf/new-cuba-superior.json",
+      "why": "slug/name collision: line \"New Cuba Superior\" (new-cuba-superior) vs existing \"New Cuba Superior\" (new-cuba-superior) under aganorsa-leaf — not imported"
+    },
+    {
+      "file": "Arturo Fuente/_casa-cuba-additional-vitolas.json :: Doble Cuatro",
+      "why": "skipped: collides/near-duplicates existing vitola \"Doble Cuatro\" (4.5 x 54) in Arturo Fuente Casa Cuba"
+    },
+    {
+      "file": "Arturo Fuente/_casa-cuba-additional-vitolas.json :: Doble Tres",
+      "why": "skipped: collides/near-duplicates existing vitola \"Doble Tres\" (5.5 x 44) in Arturo Fuente Casa Cuba"
+    },
+    {
+      "file": "Arturo Fuente/_casa-cuba-additional-vitolas.json :: Doble Seis",
+      "why": "skipped: collides/near-duplicates existing vitola \"Doble Seis\" (6 x 52) in Arturo Fuente Casa Cuba"
+    },
+    {
+      "file": "Arturo Fuente/_casa-cuba-additional-vitolas.json :: Divine Inspiration",
+      "why": "skipped: collides/near-duplicates existing vitola \"Divine Inspiration\" (6.125 x 47) in Arturo Fuente Casa Cuba"
+    },
+    {
+      "file": "Arturo Fuente/_casa-cuba-additional-vitolas.json :: Doble Dos",
+      "why": "skipped: collides/near-duplicates existing vitola \"Doble Dos\" (6.75 x 42) in Arturo Fuente Casa Cuba"
+    },
+    {
+      "file": "Arturo Fuente/_gran-reserva-additional-vitolas.json :: Rothschild",
+      "why": "skipped: collides/near-duplicates existing vitola \"Rothschild\" (4.5 x 50) in Arturo Fuente Gran Reserva"
+    },
+    {
+      "file": "Arturo Fuente/_gran-reserva-additional-vitolas.json :: Petit Corona",
+      "why": "skipped: collides/near-duplicates existing vitola \"Petit Corona\" (5 x 38) in Arturo Fuente Gran Reserva"
+    },
+    {
+      "file": "Arturo Fuente/_gran-reserva-additional-vitolas.json :: Cuban Corona",
+      "why": "skipped: collides/near-duplicates existing vitola \"Cuban Corona\" (5.25 x 45) in Arturo Fuente Gran Reserva"
+    },
+    {
+      "file": "Arturo Fuente/_gran-reserva-additional-vitolas.json :: Spanish Lonsdale",
+      "why": "skipped: collides/near-duplicates existing vitola \"Spanish Lonsdale\" (6.5 x 42) in Arturo Fuente Gran Reserva"
+    },
+    {
+      "file": "Arturo Fuente/_gran-reserva-additional-vitolas.json :: Corona Imperial",
+      "why": "skipped: collides/near-duplicates existing vitola \"Corona Imperial\" (6.5 x 46) in Arturo Fuente Gran Reserva"
+    },
+    {
+      "file": "Arturo Fuente/_gran-reserva-additional-vitolas.json :: Seleccion Privada No. 1",
+      "why": "skipped: collides/near-duplicates existing vitola \"Spanish Lonsdale\" (6.5 x 42) in Arturo Fuente Gran Reserva"
+    },
+    {
+      "file": "Arturo Fuente/_gran-reserva-additional-vitolas.json :: Churchill",
+      "why": "skipped: collides/near-duplicates existing vitola \"Churchill\" (7.25 x 48) in Arturo Fuente Gran Reserva"
+    },
+    {
+      "file": "Arturo Fuente/_gran-reserva-additional-vitolas.json :: Canones (Canoñes)",
+      "why": "skipped: collides/near-duplicates existing vitola \"Canones (Canoñes)\" (8.5 x 52) in Arturo Fuente Gran Reserva"
+    },
+    {
+      "file": "Arturo Fuente/_opusx-additional-vitolas.json :: Angel's Share Robusto",
+      "why": "skipped: collides/near-duplicates existing vitola \"Robusto\" (5.25 x 50) in Fuente Fuente OpusX"
+    },
+    {
+      "file": "Arturo Fuente/_opusx-additional-vitolas.json :: Belicoso XXX (\"Belicoso xXx\")",
+      "why": "skipped: collides/near-duplicates existing vitola \"Belicoso XXX (\"Belicoso xXx\")\" (4.625 x 49) in Fuente Fuente OpusX"
+    },
+    {
+      "file": "Arturo Fuente/_opusx-additional-vitolas.json :: 25th Anniversary (\"25th Aniversario Tributo\")",
+      "why": "skipped: collides/near-duplicates existing vitola \"Reserva d'Chateau\" (7 x 48) in Fuente Fuente OpusX"
+    },
+    {
+      "file": "Blue Eyed Jack/adventura-blue-eyed-jacks-revenge.json",
+      "why": "slug/name collision: line \"ADVentura Blue Eyed Jack's Revenge\" (adventura-blue-eyed-jacks-revenge) vs existing \"ADVentura Blue Eyed Jack's Revenge\" (adventura-blue-eyed-jacks-revenge) under adventura — not imported"
+    },
+    {
+      "file": "CLE Cigar Co/asylum-13-cool-brew.json",
+      "why": "slug/name collision: line \"Asylum 13 Cool Brew\" (asylum-13-cool-brew) vs existing \"Asylum 13 Cool Brew\" (asylum-13-cool-brew) under asylum — not imported"
+    },
+    {
+      "file": "CLE Cigar Co/asylum-13-split-personality.json",
+      "why": "slug/name collision: line \"Asylum 13 \"Split Personality\"\" (asylum-13-split-personality) vs existing \"Asylum 13 \"Split Personality\"\" (asylum-13-split-personality) under asylum — not imported"
+    },
+    {
+      "file": "CLE Cigar Co/asylum-13-the-ogre.json",
+      "why": "slug/name collision: line \"Asylum 13 \"The Ogre\"\" (asylum-13-the-ogre) vs existing \"Asylum 13 \"The Ogre\"\" (asylum-13-the-ogre) under asylum — not imported"
+    },
+    {
+      "file": "CLE Cigar Co/asylum-13.json",
+      "why": "slug/name collision: line \"Asylum 13\" (asylum-13) vs existing \"Asylum 13\" (asylum-13) under asylum — not imported"
+    },
+    {
+      "file": "CLE Cigar Co/asylum-serenity-now-insanity-later.json",
+      "why": "slug/name collision: line \"Asylum \"Serenity Now, Insanity Later\"\" (asylum-serenity-now-insanity-later) vs existing \"Asylum \"Serenity Now, Insanity Later\"\" (asylum-serenity-now-insanity-later) under asylum — not imported"
+    },
+    {
+      "file": "CLE Cigar Co/cle-connecticut.json",
+      "why": "slug/name collision: line \"CLE Connecticut\" (cle-connecticut) vs existing \"CLE Connecticut\" (cle-connecticut) under cle-cigar-company — not imported"
+    },
+    {
+      "file": "CLE Cigar Co/cle-corojo.json",
+      "why": "slug/name collision: line \"CLE Corojo\" (cle-corojo) vs existing \"CLE Corojo\" (cle-corojo) under cle-cigar-company — not imported"
+    },
+    {
+      "file": "CLE Cigar Co/cle-maduro.json",
+      "why": "slug/name collision: line \"CLE Maduro\" (cle-maduro) vs existing \"CLE Maduro\" (cle-maduro) under cle-cigar-company — not imported"
+    },
+    {
+      "file": "Camacho/_camacho-connecticut-additional-vitolas.json :: Churchill",
+      "why": "skipped: collides/near-duplicates existing vitola \"Churchill\" (7 x 48) in Camacho Connecticut"
+    },
+    {
+      "file": "Camacho/_camacho-connecticut-additional-vitolas.json :: Toro",
+      "why": "skipped: collides/near-duplicates existing vitola \"Toro\" (6 x 50) in Camacho Connecticut"
+    },
+    {
+      "file": "Camacho/_camacho-corojo-additional-vitolas.json :: Corojo BXP Toro (Box Press)",
+      "why": "skipped: collides/near-duplicates existing vitola \"Toro\" (6 x 50) in Camacho Corojo"
+    },
+    {
+      "file": "Camacho/_camacho-corojo-additional-vitolas.json :: Gigante",
+      "why": "skipped: collides/near-duplicates existing vitola \"Gigante\" (6.5 x 54) in Camacho Corojo"
+    },
+    {
+      "file": "Camacho/_camacho-triple-maduro-additional-vitolas.json :: Gordo",
+      "why": "skipped: collides/near-duplicates existing vitola \"Gordo\" (6 x 60) in Camacho Triple Maduro"
+    },
+    {
+      "file": "Camacho/_camacho-triple-maduro-additional-vitolas.json :: Toro",
+      "why": "skipped: collides/near-duplicates existing vitola \"Toro\" (6 x 50) in Camacho Triple Maduro"
+    },
+    {
+      "file": "Camacho/camacho-broadleaf.json",
+      "why": "slug/name collision: line \"Camacho Broadleaf\" (camacho-broadleaf) vs existing \"Camacho Broadleaf\" (camacho-broadleaf) under camacho — not imported"
+    },
+    {
+      "file": "Camacho/camacho-limited-edition-2025.json",
+      "why": "slug/name collision: line \"Camacho Limited Edition 2025\" (camacho-limited-edition-2025) vs existing \"Camacho Limited Edition 2025\" (camacho-limited-edition-2025) under camacho — not imported"
+    },
+    {
+      "file": "Casa Carrillo/5-year-anniversary.json",
+      "why": "slug/name collision: line \"E.P. Carrillo 5 Year Anniversary\" (5-year-anniversary) vs existing \"E.P. Carrillo 5 Year Anniversary\" (5-year-anniversary) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/battleborn.json",
+      "why": "slug/name collision: line \"E.P. Carrillo Battleborn\" (battleborn) vs existing \"E.P. Carrillo Battleborn\" (battleborn) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/cardinal-impact-maduro.json",
+      "why": "slug/name collision: line \"E.P. Carrillo Cardinal Impact Maduro\" (cardinal-impact-maduro) vs existing \"E.P. Carrillo Cardinal Impact Maduro\" (cardinal-impact-maduro) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/encore-black.json",
+      "why": "slug/name collision: line \"E.P. Carrillo Encore Black\" (encore-black) vs existing \"E.P. Carrillo Encore Black\" (encore-black) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/encore-el-futuro.json",
+      "why": "slug/name collision: line \"E.P. Carrillo Encore El Futuro\" (encore-el-futuro) vs existing \"E.P. Carrillo Encore El Futuro\" (encore-el-futuro) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/encore-taa-exclusive.json",
+      "why": "slug/name collision: line \"E.P. Carrillo Encore TAA Exclusive (Encore TAA 656)\" (encore-taa-exclusive) vs existing \"E.P. Carrillo Encore TAA Exclusive (Encore TAA 656)\" (encore-taa-exclusive) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/essence-connecticut.json",
+      "why": "slug/name collision: line \"E.P. Carrillo Essence Connecticut\" (essence-connecticut) vs existing \"E.P. Carrillo Essence Connecticut\" (essence-connecticut) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/grand-prize-by-ep-carrillo.json",
+      "why": "slug/name collision: line \"Grand Prize by E.P. Carrillo\" (grand-prize-by-ep-carrillo) vs existing \"Grand Prize by E.P. Carrillo\" (grand-prize-by-ep-carrillo) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/inch-colorado.json",
+      "why": "slug/name collision: line \"E.P. Carrillo INCH Colorado\" (inch-colorado) vs existing \"E.P. Carrillo INCH Colorado\" (inch-colorado) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/inch-limited-edition-2019.json",
+      "why": "slug/name collision: line \"E.P. Carrillo INCH Limited Edition 2019\" (inch-limited-edition-2019) vs existing \"E.P. Carrillo INCH Limited Edition 2019\" (inch-limited-edition-2019) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/interlude-maduro.json",
+      "why": "slug/name collision: line \"E.P. Carrillo Interlude Maduro\" (interlude-maduro) vs existing \"E.P. Carrillo Interlude Maduro\" (interlude-maduro) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/interlude-natural.json",
+      "why": "slug/name collision: line \"E.P. Carrillo Interlude Natural\" (interlude-natural) vs existing \"E.P. Carrillo Interlude Natural\" (interlude-natural) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/la-alianza-natural.json",
+      "why": "slug/name collision: line \"Tabacalera La Alianza Natural\" (la-alianza-natural) vs existing \"Tabacalera La Alianza Natural\" (la-alianza-natural) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/la-alianza-rosado.json",
+      "why": "slug/name collision: line \"Tabacalera La Alianza Rosado\" (la-alianza-rosado) vs existing \"Tabacalera La Alianza Rosado\" (la-alianza-rosado) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/la-historia-taa-656.json",
+      "why": "slug/name collision: line \"E.P. Carrillo La Historia TAA 656\" (la-historia-taa-656) vs existing \"E.P. Carrillo La Historia TAA 656\" (la-historia-taa-656) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/original-rebel-maverick.json",
+      "why": "slug/name collision: line \"E.P. Carrillo Original Rebel Maverick\" (original-rebel-maverick) vs existing \"E.P. Carrillo Original Rebel Maverick\" (original-rebel-maverick) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/original-rebel-rebellious.json",
+      "why": "slug/name collision: line \"E.P. Carrillo Original Rebel Rebellious\" (original-rebel-rebellious) vs existing \"E.P. Carrillo Original Rebel Rebellious\" (original-rebel-rebellious) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/short-run-2016-edicion-nicaragua.json",
+      "why": "slug/name collision: line \"E.P. Carrillo Short Run 2016 Edicion Nicaragua\" (short-run-2016-edicion-nicaragua) vs existing \"E.P. Carrillo Short Run 2016 Edicion Nicaragua\" (short-run-2016-edicion-nicaragua) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/short-run-2016.json",
+      "why": "slug/name collision: line \"E.P. Carrillo Short Run 2016\" (short-run-2016) vs existing \"E.P. Carrillo Short Run 2016\" (short-run-2016) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa Carrillo/taa-exclusive-2023.json",
+      "why": "slug/name collision: line \"E.P. Carrillo TAA Exclusive 2023\" (taa-exclusive-2023) vs existing \"E.P. Carrillo TAA Exclusive 2023\" (taa-exclusive-2023) under ep-carrillo — not imported"
+    },
+    {
+      "file": "Casa de Garcia/casa-de-garcia-centenario-gold-label.json",
+      "why": "slug/name collision: line \"Casa de Garcia Centenario Gold Label\" (casa-de-garcia-centenario-gold-label) vs existing \"Casa de Garcia Centenario Gold Label\" (casa-de-garcia-centenario-gold-label) under casa-de-garcia — not imported"
+    },
+    {
+      "file": "Casa de Garcia/casa-de-garcia-centenario-red-label.json",
+      "why": "slug/name collision: line \"Casa de Garcia Centenario Red Label\" (casa-de-garcia-centenario-red-label) vs existing \"Casa de Garcia Centenario Red Label\" (casa-de-garcia-centenario-red-label) under casa-de-garcia — not imported"
+    },
+    {
+      "file": "Casa de Garcia/casa-de-garcia-connecticut.json",
+      "why": "slug/name collision: line \"Casa de Garcia Connecticut\" (casa-de-garcia-connecticut) vs existing \"Casa de Garcia Connecticut\" (casa-de-garcia-connecticut) under casa-de-garcia — not imported"
+    },
+    {
+      "file": "Casa de Garcia/casa-de-garcia-maduro.json",
+      "why": "slug/name collision: line \"Casa de Garcia Maduro\" (casa-de-garcia-maduro) vs existing \"Casa de Garcia Maduro\" (casa-de-garcia-maduro) under casa-de-garcia — not imported"
+    },
+    {
+      "file": "Casa de Garcia/casa-de-garcia-nicaragua.json",
+      "why": "slug/name collision: line \"Casa de Garcia Nicaragua\" (casa-de-garcia-nicaragua) vs existing \"Casa de Garcia Nicaragua\" (casa-de-garcia-nicaragua) under casa-de-garcia — not imported"
+    },
+    {
+      "file": "Casa de Garcia/casa-de-garcia-sumatra.json",
+      "why": "slug/name collision: line \"Casa de Garcia Sumatra\" (casa-de-garcia-sumatra) vs existing \"Casa de Garcia Sumatra\" (casa-de-garcia-sumatra) under casa-de-garcia — not imported"
+    },
+    {
+      "file": "Crowned Heads/las-calaveras.json",
+      "why": "slug/name collision: line \"Las Calaveras\" (las-calaveras) vs existing \"Las Calaveras\" (las-calaveras) under crowned-heads — not imported"
+    },
+    {
+      "file": "DBL/dbl-12th-anniversary.json",
+      "why": "slug/name collision: line \"DBL 12th Anniversary\" (dbl-12th-anniversary) vs existing \"DBL 12th Anniversary\" (dbl-12th-anniversary) under dbl — not imported"
+    },
+    {
+      "file": "DBL/dbl-baseball-bat.json",
+      "why": "slug/name collision: line \"DBL Baseball Bat\" (dbl-baseball-bat) vs existing \"DBL Baseball Bat\" (dbl-baseball-bat) under dbl — not imported"
+    },
+    {
+      "file": "DBL/dbl-chengo.json",
+      "why": "slug/name collision: line \"DBL Chengo\" (dbl-chengo) vs existing \"DBL Chengo\" (dbl-chengo) under dbl — not imported"
+    },
+    {
+      "file": "Davidoff/davidoff-chefs-edition-2025.json",
+      "why": "slug/name collision: line \"Davidoff Chefs Edition 2025\" (davidoff-chefs-edition-2025) vs existing \"Davidoff Chefs Edition 2025\" (davidoff-chefs-edition-2025) under davidoff — not imported"
+    },
+    {
+      "file": "Davidoff/davidoff-escurio-10th-anniversary-le-2025.json",
+      "why": "slug/name collision: line \"Davidoff Escurio 10th Anniversary Limited Edition 2025\" (davidoff-escurio-10th-anniversary-le-2025) vs existing \"Davidoff Escurio 10th Anniversary Limited Edition 2025\" (davidoff-escurio-10th-anniversary-le-2025) under davidoff — not imported"
+    },
+    {
+      "file": "Davidoff/davidoff-year-of-the-horse-le-2026.json",
+      "why": "slug/name collision: line \"Davidoff Year of the Horse Limited Edition 2026\" (davidoff-year-of-the-horse-le-2026) vs existing \"Davidoff Year of the Horse Limited Edition 2026\" (davidoff-year-of-the-horse-le-2026) under davidoff — not imported"
+    },
+    {
+      "file": "Deadwood/deadwood-dominicana-buenas-noches.json",
+      "why": "slug/name collision: line \"Deadwood Dominicana Buenas Noches\" (deadwood-dominicana-buenas-noches) vs existing \"Deadwood Dominicana Buenas Noches\" (deadwood-dominicana-buenas-noches) under drew-estate — not imported"
+    },
+    {
+      "file": "Deadwood/deadwood-fat-bottom-betty.json",
+      "why": "slug/name collision: line \"Deadwood Fat Bottom Betty\" (deadwood-fat-bottom-betty) vs existing \"Deadwood Fat Bottom Betty\" (deadwood-fat-bottom-betty) under drew-estate — not imported"
+    },
+    {
+      "file": "Deadwood/deadwood-sweet-jane-dia-de-los-muertos-le-2024.json",
+      "why": "slug/name collision: line \"Deadwood Sweet Jane Dia de los Muertos Limited Edition 2024\" (deadwood-sweet-jane-dia-de-los-muertos-le-2024) vs existing \"Deadwood Sweet Jane Dia de los Muertos Limited Edition 2024\" (deadwood-sweet-jane-dia-de-los-muertos-le-2024) under drew-estate — not imported"
+    },
+    {
+      "file": "Domain/domain-entropy.json",
+      "why": "slug/name collision: line \"Domain Entropy\" (domain-entropy) vs existing \"Domain Entropy\" (domain-entropy) under domain-cigars — not imported"
+    },
+    {
+      "file": "Don Diego/don-diego.json",
+      "why": "slug/name collision: line \"Don Diego\" (don-diego) vs existing \"Don Diego\" (don-diego) under don-diego — not imported"
+    },
+    {
+      "file": "Dos Amigos/dos-amigos-1987.json",
+      "why": "slug/name collision: line \"Dos Amigos 1987\" (dos-amigos-1987) vs existing \"Dos Amigos 1987\" (dos-amigos-1987) under dos-amigos — not imported"
+    },
+    {
+      "file": "Dunbarton Tobacco Trust/_sobremesa-additional-vitolas.json :: Gran Imperiales",
+      "why": "skipped: collides/near-duplicates existing vitola \"Gran Imperiales\" (7 x 54) in Dunbarton Tobacco & Trust Sobremesa"
+    },
+    {
+      "file": "Dunbarton Tobacco Trust/_stillwell-star-additional-vitolas.json :: Bayou No. 32",
+      "why": "skipped: collides/near-duplicates existing vitola \"Aromatic No. 1\" (6 x 52) in Dunbarton StillWell Star"
+    },
+    {
+      "file": "Dunbarton Tobacco Trust/_umbagog-additional-vitolas.json :: Bronzeback Robusto",
+      "why": "skipped: collides/near-duplicates existing vitola \"Bronzeback Robusto\" (5 x 52) in Dunbarton Tobacco & Trust Umbagog"
+    },
+    {
+      "file": "Dunbarton Tobacco Trust/sobremesa-brulee.json",
+      "why": "slug/name collision: line \"Sobremesa Brûlée\" (sobremesa-brulee) vs existing \"Sobremesa Brûlée\" (sobremesa-brulee) under dunbarton-tobacco-trust — not imported"
+    },
+    {
+      "file": "Fratello Cigars/_bianco-additional-vitolas.json :: Bianco Nero Riserva",
+      "why": "skipped: collides/near-duplicates existing vitola \"Bianco Nero Riserva\" (6 x 58) in Fratello Bianco"
+    },
+    {
+      "file": "Fratello Cigars/_bianco-additional-vitolas.json :: Bianco Fuoco",
+      "why": "skipped: collides/near-duplicates existing vitola \"Bianco Fuoco\" (3.5 x 50) in Fratello Bianco"
+    },
+    {
+      "file": "Fratello Cigars/_classico-additional-vitolas.json :: Classico Fuoco",
+      "why": "skipped: collides/near-duplicates existing vitola \"Classico Fuoco\" (3.5 x 50) in Fratello Classico"
+    },
+    {
+      "file": "Fratello Cigars/_navetta-additional-vitolas.json :: Atlantis",
+      "why": "skipped: collides/near-duplicates existing vitola \"Inception\" (6 x 54) in Fratello Navetta"
+    },
+    {
+      "file": "Fratello Cigars/_navetta-additional-vitolas.json :: Endeavour",
+      "why": "skipped: collides/near-duplicates existing vitola \"Inception\" (6 x 54) in Fratello Navetta"
+    },
+    {
+      "file": "Fratello Cigars/_navetta-additional-vitolas.json :: Enterprise",
+      "why": "skipped: collides/near-duplicates existing vitola \"Enterprise\" (6 x 60) in Fratello Navetta"
+    },
+    {
+      "file": "Fratello Cigars/_oro-additional-vitolas.json :: Oro Fuoco",
+      "why": "skipped: collides/near-duplicates existing vitola \"Oro Fuoco\" (3.5 x 50) in Fratello Oro"
+    },
+    {
+      "file": "Gispert/gispert.json",
+      "why": "slug/name collision: line \"Gispert\" (gispert) vs existing \"Gispert\" (gispert) under gispert — not imported"
+    },
+    {
+      "file": "H. Upmann/_the-banker-additional-vitolas.json :: Day Trader Robusto",
+      "why": "skipped: collides/near-duplicates existing vitola \"Day Trader Robusto\" (4.5 x 54) in H. Upmann The Banker"
+    },
+    {
+      "file": "H. Upmann/_the-banker-additional-vitolas.json :: Day Trader Toro",
+      "why": "skipped: collides/near-duplicates existing vitola \"Annuity\" (6 x 52) in H. Upmann The Banker"
+    },
+    {
+      "file": "H. Upmann/_the-banker-additional-vitolas.json :: Day Trader Whale",
+      "why": "skipped: collides/near-duplicates existing vitola \"Day Trader Whale\" (6 x 60) in H. Upmann The Banker"
+    },
+    {
+      "file": "H. Upmann/h-upmann-1844-anejo.json",
+      "why": "slug/name collision: line \"H. Upmann 1844 Añejo\" (h-upmann-1844-anejo) vs existing \"H. Upmann 1844 Añejo\" (h-upmann-1844-anejo) under h-upmann — not imported"
+    },
+    {
+      "file": "H. Upmann/h-upmann-1844-classic.json",
+      "why": "slug/name collision: line \"H. Upmann 1844 Classic\" (h-upmann-1844-classic) vs existing \"H. Upmann 1844 Classic\" (h-upmann-1844-classic) under h-upmann — not imported"
+    },
+    {
+      "file": "H. Upmann/h-upmann-by-ajf.json",
+      "why": "slug/name collision: line \"H. Upmann by AJ Fernandez\" (h-upmann-by-ajf) vs existing \"H. Upmann by AJ Fernandez\" (h-upmann-by-ajf) under h-upmann — not imported"
+    },
+    {
+      "file": "H. Upmann/h-upmann-nicaragua-ajf-heritage.json",
+      "why": "slug/name collision: line \"H. Upmann Nicaragua AJ Fernandez Heritage\" (h-upmann-nicaragua-ajf-heritage) vs existing \"H. Upmann Nicaragua AJ Fernandez Heritage\" (h-upmann-nicaragua-ajf-heritage) under h-upmann — not imported"
+    },
+    {
+      "file": "H. Upmann/h-upmann-vintage-cameroon.json",
+      "why": "slug/name collision: line \"H. Upmann Vintage Cameroon\" (h-upmann-vintage-cameroon) vs existing \"H. Upmann Vintage Cameroon\" (h-upmann-vintage-cameroon) under h-upmann — not imported"
+    },
+    {
+      "file": "HVC/_hvc-hot-cake-additional-vitolas.json :: Half Corona (Maduro - San Andres)",
+      "why": "skipped: collides/near-duplicates existing vitola \"Half Corona (Maduro - San Andres)\" (3.5 x 44) in HVC Hot Cake"
+    },
+    {
+      "file": "HVC/_hvc-hot-cake-additional-vitolas.json :: Half Corona 'Fresh Out the Oven' Broadleaf",
+      "why": "skipped: collides/near-duplicates existing vitola \"Half Corona (Maduro - San Andres)\" (3.5 x 44) in HVC Hot Cake"
+    },
+    {
+      "file": "HVC/_hvc-hot-cake-golden-line-additional-vitolas.json :: Half Corona",
+      "why": "skipped: collides/near-duplicates existing vitola \"Half Corona\" (3.5 x 44) in HVC Hot Cake Golden Line"
+    },
+    {
+      "file": "HVC/hvc-la-decoracion.json",
+      "why": "slug/name collision: line \"HVC La Decoración\" (hvc-la-decoracion) vs existing \"HVC La Decoración\" (hvc-la-decoracion) under hvc — not imported"
+    },
+    {
+      "file": "Henry Clay/henry-clay-rustic-cheroot.json",
+      "why": "slug/name collision: line \"Henry Clay Rustic Cheroot\" (henry-clay-rustic-cheroot) vs existing \"Henry Clay Rustic Cheroot\" (henry-clay-rustic-cheroot) under henry-clay — not imported"
+    },
+    {
+      "file": "Henry Clay/henry-clay-war-hawk-rebellious.json",
+      "why": "slug/name collision: line \"Henry Clay War Hawk Rebellious\" (henry-clay-war-hawk-rebellious) vs existing \"Henry Clay War Hawk Rebellious\" (henry-clay-war-hawk-rebellious) under henry-clay — not imported"
+    },
+    {
+      "file": "Henry Clay/henry-clay-war-hawk.json",
+      "why": "slug/name collision: line \"Henry Clay War Hawk\" (henry-clay-war-hawk) vs existing \"Henry Clay War Hawk\" (henry-clay-war-hawk) under henry-clay — not imported"
+    },
+    {
+      "file": "Henry Clay/henry-clay.json",
+      "why": "slug/name collision: line \"Henry Clay\" (henry-clay) vs existing \"Henry Clay\" (henry-clay) under henry-clay — not imported"
+    },
+    {
+      "file": "Illusione/_epernay-additional-vitolas.json :: L'Alpiniste",
+      "why": "skipped: collides/near-duplicates existing vitola \"L'Alpiniste\" (6.75 x 56) in Illusione Epernay"
+    },
+    {
+      "file": "Illusione/_epernay-additional-vitolas.json :: L'Excellence",
+      "why": "skipped: collides/near-duplicates existing vitola \"Le Matin\" (6.75 x 46) in Illusione Epernay"
+    },
+    {
+      "file": "Illusione/_epernay-additional-vitolas.json :: La Vie",
+      "why": "skipped: collides/near-duplicates existing vitola \"L'Alpiniste\" (6.75 x 56) in Illusione Epernay"
+    },
+    {
+      "file": "Illusione/_epernay-additional-vitolas.json :: Le Elegance",
+      "why": "skipped: collides/near-duplicates existing vitola \"Le Elegance\" (5.75 x 40) in Illusione Epernay"
+    },
+    {
+      "file": "Illusione/_original-documents-additional-vitolas.json :: Candela Robusto",
+      "why": "skipped: collides/near-duplicates existing vitola \"Corojo Robusto\" (5 x 52) in Illusione Original Documents"
+    },
+    {
+      "file": "Illusione/_original-documents-additional-vitolas.json :: Habano Robusto",
+      "why": "skipped: collides/near-duplicates existing vitola \"Corojo Robusto\" (5 x 52) in Illusione Original Documents"
+    },
+    {
+      "file": "Illusione/_original-documents-additional-vitolas.json :: Maduro Robusto",
+      "why": "skipped: collides/near-duplicates existing vitola \"Corojo Robusto\" (5 x 52) in Illusione Original Documents"
+    },
+    {
+      "file": "Illusione/_original-documents-additional-vitolas.json :: Original Documents Ultra Robusto",
+      "why": "skipped: collides/near-duplicates existing vitola \"Corojo Robusto\" (5 x 52) in Illusione Original Documents"
+    },
+    {
+      "file": "Illusione/_r-rothchildes-additional-vitolas.json :: Connecticut",
+      "why": "skipped: collides/near-duplicates existing vitola \"Rothschild\" (4.5 x 50) in Illusione R Rothchildes"
+    },
+    {
+      "file": "Illusione/epernay-tuonela.json",
+      "why": "slug/name collision: line \"Illusione Epernay Tuonela\" (epernay-tuonela) vs existing \"Illusione Epernay Tuonela\" (epernay-tuonela) under illusione — not imported"
+    },
+    {
+      "file": "J.C. Newman/_the-american-additional-vitolas.json :: Torpedo",
+      "why": "skipped: collides/near-duplicates existing vitola \"Toro\" (6 x 54) in The American"
+    },
+    {
+      "file": "J.C. Newman/brick-house-double-connecticut.json",
+      "why": "slug/name collision: line \"Brick House Double Connecticut\" (brick-house-double-connecticut) vs existing \"Brick House Double Connecticut\" (brick-house-double-connecticut) under jc-newman — not imported"
+    },
+    {
+      "file": "J.C. Newman/brick-house.json",
+      "why": "slug/name collision: line \"Brick House\" (brick-house) vs existing \"Brick House\" (brick-house) under jc-newman — not imported"
+    },
+    {
+      "file": "J.C. Newman/diamond-crown.json",
+      "why": "slug/name collision: line \"Diamond Crown\" (diamond-crown) vs existing \"Diamond Crown\" (diamond-crown) under jc-newman — not imported"
+    },
+    {
+      "file": "J.C. Newman/el-baton.json",
+      "why": "slug/name collision: line \"El Baton\" (el-baton) vs existing \"El Baton\" (el-baton) under jc-newman — not imported"
+    },
+    {
+      "file": "JFR/jfr-20th-anniversary.json",
+      "why": "slug/name collision: line \"JFR 20th Anniversary\" (jfr-20th-anniversary) vs existing \"JFR 20th Anniversary\" (jfr-20th-anniversary) under aganorsa-leaf — not imported"
+    },
+    {
+      "file": "JFR/jfr-lunatic-habano.json",
+      "why": "slug/name collision: line \"JFR Lunatic Habano\" (jfr-lunatic-habano) vs existing \"JFR Lunatic Habano\" (jfr-lunatic-habano) under aganorsa-leaf — not imported"
+    },
+    {
+      "file": "JFR/jfr-lunatic-maduro.json",
+      "why": "slug/name collision: line \"JFR Lunatic Maduro\" (jfr-lunatic-maduro) vs existing \"Aganorsa Leaf JFR Lunatic Maduro\" (jfr-lunatic-maduro) under aganorsa-leaf — not imported"
+    },
+    {
+      "file": "Jake Wyatt/_appendix-ii-additional-vitolas.json :: Corona Gorda",
+      "why": "skipped: collides/near-duplicates existing vitola \"Corona Gorda\" (5.625 x 46) in Jake Wyatt Appendix II"
+    },
+    {
+      "file": "Jake Wyatt/_appendix-ii-additional-vitolas.json :: Robusto",
+      "why": "skipped: collides/near-duplicates existing vitola \"Robusto\" (5 x 50) in Jake Wyatt Appendix II"
+    },
+    {
+      "file": "Jake Wyatt/_appendix-ii-additional-vitolas.json :: Gordo",
+      "why": "skipped: collides/near-duplicates existing vitola \"Gordo\" (6 x 60) in Jake Wyatt Appendix II"
+    },
+    {
+      "file": "Jake Wyatt/_lithium-additional-vitolas.json :: Belicoso",
+      "why": "skipped: collides/near-duplicates existing vitola \"Toro\" (6 x 54) in Jake Wyatt Lithium"
+    },
+    {
+      "file": "Jake Wyatt/_lithium-additional-vitolas.json :: Robusto",
+      "why": "skipped: collides/near-duplicates existing vitola \"Robusto\" (5 x 50) in Jake Wyatt Lithium"
+    },
+    {
+      "file": "Joya de Nicaragua/cinco-decadas-fundador.json",
+      "why": "slug/name collision: line \"Joya de Nicaragua Cinco Décadas Fundador\" (cinco-decadas-fundador) vs existing \"Joya de Nicaragua Cinco Décadas Fundador\" (cinco-decadas-fundador) under joya-de-nicaragua — not imported"
+    },
+    {
+      "file": "Joya de Nicaragua/clasico-medio-siglo.json",
+      "why": "slug/name collision: line \"Joya de Nicaragua Clásico Medio Siglo\" (clasico-medio-siglo) vs existing \"Joya de Nicaragua Clásico Medio Siglo\" (clasico-medio-siglo) under joya-de-nicaragua — not imported"
+    },
+    {
+      "file": "Joya de Nicaragua/cuatro-cinco-edicion-europa.json",
+      "why": "slug/name collision: line \"Joya de Nicaragua Cuatro Cinco Edición Europa\" (cuatro-cinco-edicion-europa) vs existing \"Joya de Nicaragua Cuatro Cinco Edición Europa\" (cuatro-cinco-edicion-europa) under joya-de-nicaragua — not imported"
+    },
+    {
+      "file": "Joya de Nicaragua/cuatro-cinco-pata-negra.json",
+      "why": "slug/name collision: line \"Joya de Nicaragua Cuatro Cinco Pata Negra\" (cuatro-cinco-pata-negra) vs existing \"Joya de Nicaragua Cuatro Cinco Pata Negra\" (cuatro-cinco-pata-negra) under joya-de-nicaragua — not imported"
+    },
+    {
+      "file": "Joya de Nicaragua/cuatro-cinco-secret-cask.json",
+      "why": "slug/name collision: line \"Joya de Nicaragua Cuatro Cinco Secret Cask\" (cuatro-cinco-secret-cask) vs existing \"Joya de Nicaragua Cuatro Cinco Secret Cask\" (cuatro-cinco-secret-cask) under joya-de-nicaragua — not imported"
+    },
+    {
+      "file": "Joya de Nicaragua/cyb.json",
+      "why": "slug/name collision: line \"CyB by Joya de Nicaragua\" (cyb) vs existing \"CyB by Joya de Nicaragua\" (cyb) under joya-de-nicaragua — not imported"
+    },
+    {
+      "file": "Joya de Nicaragua/flor-de-nicaragua-ventus-aurum.json",
+      "why": "slug/name collision: line \"Flor de Nicaragua Ventus Aurum\" (flor-de-nicaragua-ventus-aurum) vs existing \"Flor de Nicaragua Ventus Aurum\" (flor-de-nicaragua-ventus-aurum) under joya-de-nicaragua — not imported"
+    },
+    {
+      "file": "Joya de Nicaragua/rosalones-reserva.json",
+      "why": "slug/name collision: line \"Joya de Nicaragua Rosalones Reserva\" (rosalones-reserva) vs existing \"Joya de Nicaragua Rosalones Reserva\" (rosalones-reserva) under joya-de-nicaragua — not imported"
+    },
+    {
+      "file": "Joya de Nicaragua/rosalones.json",
+      "why": "slug/name collision: line \"Joya de Nicaragua Rosalones (CT)\" (rosalones) vs existing \"Joya de Nicaragua Rosalones (CT)\" (rosalones) under joya-de-nicaragua — not imported"
+    },
+    {
+      "file": "Kristoff/kristoff-guardrail.json",
+      "why": "slug/name collision: line \"Kristoff Guardrail\" (kristoff-guardrail) vs existing \"Kristoff Guardrail\" (kristoff-guardrail) under kristoff — not imported"
+    },
+    {
+      "file": "Kristoff/kristoff-nicaragua.json",
+      "why": "slug/name collision: line \"Kristoff Nicaragua\" (kristoff-nicaragua) vs existing \"Kristoff Nicaragua\" (kristoff-nicaragua) under kristoff — not imported"
+    },
+    {
+      "file": "Kristoff/kristoff-pca-2024-signature-series.json",
+      "why": "slug/name collision: line \"Kristoff PCA 2024 Signature Series\" (kristoff-pca-2024-signature-series) vs existing \"Kristoff PCA 2024 Signature Series\" (kristoff-pca-2024-signature-series) under kristoff — not imported"
+    },
+    {
+      "file": "Kristoff/kristoff-taa-exclusive-2023.json",
+      "why": "slug/name collision: line \"Kristoff TAA Exclusive 2023\" (kristoff-taa-exclusive-2023) vs existing \"Kristoff TAA Exclusive 2023\" (kristoff-taa-exclusive-2023) under kristoff — not imported"
+    },
+    {
+      "file": "Kristoff/kristoff-tres-compadres.json",
+      "why": "slug/name collision: line \"Kristoff Tres Compadres\" (kristoff-tres-compadres) vs existing \"Kristoff Tres Compadres\" (kristoff-tres-compadres) under kristoff — not imported"
+    },
+    {
+      "file": "La Aurora/_la-aurora-107-additional-vitolas.json :: Toro",
+      "why": "skipped: collides/near-duplicates existing vitola \"Toro\" (5.5 x 54) in La Aurora 107"
+    },
+    {
+      "file": "La Aurora/_la-aurora-107-additional-vitolas.json :: Gran Toro",
+      "why": "skipped: collides/near-duplicates existing vitola \"Gran Toro\" (6 x 58) in La Aurora 107"
+    },
+    {
+      "file": "La Aurora/_la-aurora-107-additional-vitolas.json :: Belicoso",
+      "why": "skipped: collides/near-duplicates existing vitola \"Belicoso\" (6.25 x 52) in La Aurora 107"
+    },
+    {
+      "file": "La Flor Dominicana/_double-ligero-additional-vitolas.json :: DL-452",
+      "why": "skipped: collides/near-duplicates existing vitola \"DL-452\" (4 x 52) in La Flor Dominicana Double Ligero"
+    },
+    {
+      "file": "La Flor Dominicana/_double-ligero-additional-vitolas.json :: DL-600",
+      "why": "skipped: collides/near-duplicates existing vitola \"DL-600\" (5.25 x 52) in La Flor Dominicana Double Ligero"
+    },
+    {
+      "file": "La Flor Dominicana/_double-ligero-additional-vitolas.json :: DL-654",
+      "why": "skipped: collides/near-duplicates existing vitola \"Chisel\" (6 x 54) in La Flor Dominicana Double Ligero"
+    },
+    {
+      "file": "La Flor Dominicana/_double-ligero-additional-vitolas.json :: Chisel",
+      "why": "skipped: collides/near-duplicates existing vitola \"Chisel\" (6 x 54) in La Flor Dominicana Double Ligero"
+    },
+    {
+      "file": "La Flor Dominicana/_double-ligero-additional-vitolas.json :: DL-700",
+      "why": "skipped: collides/near-duplicates existing vitola \"DL-700\" (6.5 x 60) in La Flor Dominicana Double Ligero"
+    },
+    {
+      "file": "La Flor Dominicana/la-flor-dominicana-capitulo-ii.json",
+      "why": "slug/name collision: line \"La Flor Dominicana Capitulo II (Chapter Two)\" (la-flor-dominicana-capitulo-ii) vs existing \"La Flor Dominicana Capitulo II (Chapter Two)\" (la-flor-dominicana-capitulo-ii) under la-flor-dominicana — not imported"
+    },
+    {
+      "file": "La Flor Dominicana/la-flor-dominicana-la-nox.json",
+      "why": "slug/name collision: line \"La Flor Dominicana La Nox\" (la-flor-dominicana-la-nox) vs existing \"La Flor Dominicana La Nox\" (la-flor-dominicana-la-nox) under la-flor-dominicana — not imported"
+    },
+    {
+      "file": "La Flor Dominicana/la-flor-dominicana-la-volcada.json",
+      "why": "slug/name collision: line \"La Flor Dominicana La Volcada\" (la-flor-dominicana-la-volcada) vs existing \"La Flor Dominicana La Volcada\" (la-flor-dominicana-la-volcada) under la-flor-dominicana — not imported"
+    },
+    {
+      "file": "La Flor Dominicana/la-flor-dominicana-ligero.json",
+      "why": "slug/name collision: line \"La Flor Dominicana Ligero\" (la-flor-dominicana-ligero) vs existing \"La Flor Dominicana Ligero\" (la-flor-dominicana-ligero) under la-flor-dominicana — not imported"
+    },
+    {
+      "file": "La Flor Dominicana/la-flor-dominicana-oro.json",
+      "why": "slug/name collision: line \"La Flor Dominicana Oro\" (la-flor-dominicana-oro) vs existing \"La Flor Dominicana Oro\" (la-flor-dominicana-oro) under la-flor-dominicana — not imported"
+    },
+    {
+      "file": "Lampert/_ocean-breeze-additional-vitolas.json :: Gordito",
+      "why": "skipped: collides/near-duplicates existing vitola \"Gordito\" (4 x 58) in Lampert Ocean Breeze"
+    },
+    {
+      "file": "Lampert/_ocean-breeze-additional-vitolas.json :: Toro Grande",
+      "why": "skipped: collides/near-duplicates existing vitola \"Toro Grande\" (6.5 x 56) in Lampert Ocean Breeze"
+    },
+    {
+      "file": "Lampert/_oro-line-additional-vitolas.json :: Small Batch Short Perfecto",
+      "why": "skipped: collides/near-duplicates existing vitola \"Small Batch Short Perfecto\" (4.5 x 62) in Lampert Oro Line"
+    },
+    {
+      "file": "Lampert/lampert-1593.json",
+      "why": "slug/name collision: line \"Lampert 1593 (Edición Blanca)\" (lampert-1593) vs existing \"Lampert 1593 (Edición Blanca)\" (lampert-1593) under lampert — not imported"
+    },
+    {
+      "file": "Lampert/lampert-1675-edicion-morado.json",
+      "why": "slug/name collision: line \"Lampert 1675 Edición Morado\" (lampert-1675-edicion-morado) vs existing \"Lampert 1675 Edición Morado\" (lampert-1675-edicion-morado) under lampert — not imported"
+    },
+    {
+      "file": "Lampert/lampert-1675-edicion-verde.json",
+      "why": "slug/name collision: line \"Lampert 1675 Edición Verde\" (lampert-1675-edicion-verde) vs existing \"Lampert 1675 Edición Verde\" (lampert-1675-edicion-verde) under lampert — not imported"
+    },
+    {
+      "file": "Lampert/lampert-baba-yaga.json",
+      "why": "slug/name collision: line \"Lampert Baba Yaga\" (lampert-baba-yaga) vs existing \"Lampert Baba Yaga\" (lampert-baba-yaga) under lampert — not imported"
+    },
+    {
+      "file": "Lampert/lampert-family-reserve.json",
+      "why": "slug/name collision: line \"Lampert Family Reserve\" (lampert-family-reserve) vs existing \"Lampert Family Reserve\" (lampert-family-reserve) under lampert — not imported"
+    },
+    {
+      "file": "Lampert/lampert-lawyer.json",
+      "why": "slug/name collision: line \"Lampert Lawyer\" (lampert-lawyer) vs existing \"Lampert Lawyer\" (lampert-lawyer) under lampert — not imported"
+    },
+    {
+      "file": "Lampert/lampert-limitada.json",
+      "why": "slug/name collision: line \"Lampert Limitada\" (lampert-limitada) vs existing \"Lampert Limitada\" (lampert-limitada) under lampert — not imported"
+    },
+    {
+      "file": "Montecristo/montecristo-1935-anniversary.json",
+      "why": "slug/name collision: line \"Montecristo 1935 Anniversary\" (montecristo-1935-anniversary) vs existing \"Montecristo 1935 Anniversary\" (montecristo-1935-anniversary) under montecristo — not imported"
+    },
+    {
+      "file": "Montecristo/montecristo-espada.json",
+      "why": "slug/name collision: line \"Montecristo Espada\" (montecristo-espada) vs existing \"Montecristo Espada\" (montecristo-espada) under montecristo — not imported"
+    },
+    {
+      "file": "Montecristo/montecristo-m.json",
+      "why": "slug/name collision: line \"Montecristo M\" (montecristo-m) vs existing \"Montecristo M\" (montecristo-m) under montecristo — not imported"
+    },
+    {
+      "file": "Montecristo/montecristo-nicaragua-series.json",
+      "why": "slug/name collision: line \"Montecristo Nicaragua Series\" (montecristo-nicaragua-series) vs existing \"Montecristo Nicaragua Series\" (montecristo-nicaragua-series) under montecristo — not imported"
+    },
+    {
+      "file": "Montecristo/montecristo-platinum.json",
+      "why": "slug/name collision: line \"Montecristo Platinum Series\" (montecristo-platinum) vs existing \"Montecristo Platinum Series\" (montecristo-platinum) under montecristo — not imported"
+    },
+    {
+      "file": "My Father Cigars/_fonseca-by-my-father-additional-vitolas.json :: Cosacos",
+      "why": "skipped: collides/near-duplicates existing vitola \"Cosacos\" (5.375 x 42) in Fonseca by My Father"
+    },
+    {
+      "file": "My Father Cigars/_jaime-garcia-reserva-especial-additional-vitolas.json :: Corona Grande",
+      "why": "skipped: collides/near-duplicates existing vitola \"Corona Grande\" (6.25 x 48) in Jaime Garcia Reserva Especial"
+    },
+    {
+      "file": "My Father Cigars/_vegas-cubanas-additional-vitolas.json :: Invictos",
+      "why": "skipped: collides/near-duplicates existing vitola \"Imperiales\" (5.125 x 52) in Don Pepin Garcia Vegas Cubanas"
+    },
+    {
+      "file": "My Father Cigars/_vegas-cubanas-additional-vitolas.json :: Toro Gordo",
+      "why": "skipped: collides/near-duplicates existing vitola \"Toro Gordo\" (6 x 60) in Don Pepin Garcia Vegas Cubanas"
+    },
+    {
+      "file": "My Father Cigars/don-pepin-garcia-erh.json",
+      "why": "slug/name collision: line \"Don Pepin Garcia E.R.H.\" (don-pepin-garcia-erh) vs existing \"Don Pepin Garcia E.R.H.\" (don-pepin-garcia-erh) under my-father — not imported"
+    },
+    {
+      "file": "My Father Cigars/flor-de-las-antillas-maduro.json",
+      "why": "slug/name collision: line \"Flor de las Antillas Maduro\" (flor-de-las-antillas-maduro) vs existing \"Flor de las Antillas Maduro\" (flor-de-las-antillas-maduro) under my-father — not imported"
+    },
+    {
+      "file": "My Father Cigars/fonseca-mexico-edition.json",
+      "why": "slug/name collision: line \"Fonseca Mexico Edition\" (fonseca-mexico-edition) vs existing \"Fonseca Mexico Edition\" (fonseca-mexico-edition) under my-father — not imported"
+    },
+    {
+      "file": "My Father Cigars/la-duena.json",
+      "why": "slug/name collision: line \"La Duena\" (la-duena) vs existing \"La Duena\" (la-duena) under my-father — not imported"
+    },
+    {
+      "file": "My Father Cigars/la-gran-oferta.json",
+      "why": "slug/name collision: line \"My Father La Gran Oferta\" (la-gran-oferta) vs existing \"My Father La Gran Oferta\" (la-gran-oferta) under my-father — not imported"
+    },
+    {
+      "file": "Oliva/_connecticut-reserve-additional-vitolas.json :: Double Toro",
+      "why": "skipped: collides/near-duplicates existing vitola \"Double Toro\" (6 x 60) in Connecticut Reserve"
+    },
+    {
+      "file": "Oliva/_serie-o-additional-vitolas.json :: Corona",
+      "why": "skipped: collides/near-duplicates existing vitola \"Corona\" (6 x 46) in Serie O"
+    },
+    {
+      "file": "Oliva/serie-g-maduro.json",
+      "why": "slug/name collision: line \"Oliva Serie G Maduro\" (serie-g-maduro) vs existing \"Oliva Serie G Maduro\" (serie-g-maduro) under oliva — not imported"
+    },
+    {
+      "file": "Omar Ortez/omar-ortez-maduro.json",
+      "why": "slug/name collision: line \"Omar Ortez Maduro\" (omar-ortez-maduro) vs existing \"Omar Ortez Maduro\" (omar-ortez-maduro) under omar-ortez — not imported"
+    },
+    {
+      "file": "Omar Ortez/omar-ortez-originals.json",
+      "why": "slug/name collision: line \"Omar Ortez Originals\" (omar-ortez-originals) vs existing \"Omar Ortez Originals\" (omar-ortez-originals) under omar-ortez — not imported"
+    },
+    {
+      "file": "Onyx/onyx-bold-nicaragua.json",
+      "why": "slug/name collision: line \"Onyx Bold Nicaragua\" (onyx-bold-nicaragua) vs existing \"Onyx Bold Nicaragua\" (onyx-bold-nicaragua) under onyx — not imported"
+    },
+    {
+      "file": "Onyx/onyx-reserve.json",
+      "why": "slug/name collision: line \"Onyx Reserve\" (onyx-reserve) vs existing \"Onyx Reserve\" (onyx-reserve) under onyx — not imported"
+    },
+    {
+      "file": "Onyx/onyx-vintage-nicaragua.json",
+      "why": "slug/name collision: line \"Onyx Vintage Nicaragua\" (onyx-vintage-nicaragua) vs existing \"Onyx Vintage Nicaragua\" (onyx-vintage-nicaragua) under onyx — not imported"
+    },
+    {
+      "file": "Ozgener Family Cigars/_aramas-additional-vitolas.json :: A54 (Torpedo)",
+      "why": "skipped: collides/near-duplicates existing vitola \"A54 (Torpedo)\" (6.25 x 54) in Ozgener Aramas"
+    },
+    {
+      "file": "Ozgener Family Cigars/_aramas-additional-vitolas.json :: A55",
+      "why": "skipped: collides/near-duplicates existing vitola \"A55\" (5.5 x 55) in Ozgener Aramas"
+    },
+    {
+      "file": "Ozgener Family Cigars/_aramas-additional-vitolas.json :: A60",
+      "why": "skipped: collides/near-duplicates existing vitola \"A60\" (6 x 60) in Ozgener Aramas"
+    },
+    {
+      "file": "Ozgener Family Cigars/_bosphorus-additional-vitolas.json :: B50",
+      "why": "skipped: collides/near-duplicates existing vitola \"B50\" (4 x 50) in Ozgener Bosphorus"
+    },
+    {
+      "file": "Ozgener Family Cigars/_bosphorus-additional-vitolas.json :: B54 (Toro)",
+      "why": "skipped: collides/near-duplicates existing vitola \"B54 (Toro)\" (6.5 x 54) in Ozgener Bosphorus"
+    },
+    {
+      "file": "Ozgener Family Cigars/_bosphorus-additional-vitolas.json :: B55 (Robusto Extra)",
+      "why": "skipped: collides/near-duplicates existing vitola \"B55 (Robusto Extra)\" (5.5 x 55) in Ozgener Bosphorus"
+    },
+    {
+      "file": "Ozgener Family Cigars/_firsat-additional-vitolas.json :: F54 (Double Corona)",
+      "why": "skipped: collides/near-duplicates existing vitola \"F54 (Double Corona)\" (7 x 54) in Ozgener Firsat"
+    },
+    {
+      "file": "Ozgener Family Cigars/_firsat-additional-vitolas.json :: F55",
+      "why": "skipped: collides/near-duplicates existing vitola \"F55\" (5.5 x 55) in Ozgener Firsat"
+    },
+    {
+      "file": "Ozgener Family Cigars/_firsat-additional-vitolas.json :: F60",
+      "why": "skipped: collides/near-duplicates existing vitola \"F60\" (6 x 60) in Ozgener Firsat"
+    },
+    {
+      "file": "Ozgener Family Cigars/karatoba.json",
+      "why": "slug/name collision: line \"Ozgener Karatoba\" (karatoba) vs existing \"Ozgener Karatoba\" (karatoba) under ozgener — not imported"
+    },
+    {
+      "file": "Perdomo/_30th-anniversary-connecticut-additional-vitolas.json :: Churchill",
+      "why": "skipped: collides/near-duplicates existing vitola \"Churchill\" (7 x 54) in Perdomo 30th Anniversary Connecticut"
+    },
+    {
+      "file": "Perdomo/_30th-anniversary-connecticut-additional-vitolas.json :: Gordo",
+      "why": "skipped: collides/near-duplicates existing vitola \"Gordo\" (6 x 60) in Perdomo 30th Anniversary Connecticut"
+    },
+    {
+      "file": "Perdomo/_30th-anniversary-connecticut-additional-vitolas.json :: Torpedo",
+      "why": "skipped: collides/near-duplicates existing vitola \"Churchill\" (7 x 54) in Perdomo 30th Anniversary Connecticut"
+    },
+    {
+      "file": "Perdomo/_30th-anniversary-maduro-additional-vitolas.json :: Churchill",
+      "why": "skipped: collides/near-duplicates existing vitola \"Churchill\" (7 x 54) in Perdomo 30th Anniversary Maduro"
+    },
+    {
+      "file": "Perdomo/_30th-anniversary-maduro-additional-vitolas.json :: Gordo",
+      "why": "skipped: collides/near-duplicates existing vitola \"Gordo\" (6 x 60) in Perdomo 30th Anniversary Maduro"
+    },
+    {
+      "file": "Perdomo/_30th-anniversary-maduro-additional-vitolas.json :: Robusto",
+      "why": "skipped: collides/near-duplicates existing vitola \"Robusto\" (5 x 54) in Perdomo 30th Anniversary Maduro"
+    },
+    {
+      "file": "Perdomo/_30th-anniversary-maduro-additional-vitolas.json :: Torpedo",
+      "why": "skipped: collides/near-duplicates existing vitola \"Churchill\" (7 x 54) in Perdomo 30th Anniversary Maduro"
+    },
+    {
+      "file": "Perdomo/_reserve-10th-anniversary-champagne-additional-vitolas.json :: Corona Extra",
+      "why": "skipped: collides/near-duplicates existing vitola \"Corona Extra\" (5.625 x 46) in Perdomo Reserve 10th Anniversary Champagne"
+    },
+    {
+      "file": "Perdomo/_reserve-10th-anniversary-champagne-additional-vitolas.json :: Magnum 50 Tubo",
+      "why": "skipped: collides/near-duplicates existing vitola \"Magnum 50 Tubo\" (6 x 50) in Perdomo Reserve 10th Anniversary Champagne"
+    },
+    {
+      "file": "Perdomo/perdomo-40th-anniversary-two-guys-exclusive.json",
+      "why": "slug/name collision: line \"Perdomo Two Guys Smoke Shop 40th Anniversary\" (perdomo-40th-anniversary-two-guys-exclusive) vs existing \"Perdomo Two Guys Smoke Shop 40th Anniversary\" (perdomo-40th-anniversary-two-guys-exclusive) under perdomo — not imported"
+    },
+    {
+      "file": "Perdomo/perdomo-habano-bourbon-barrel-aged-connecticut.json",
+      "why": "slug/name collision: line \"Perdomo Habano Bourbon Barrel-Aged Connecticut\" (perdomo-habano-bourbon-barrel-aged-connecticut) vs existing \"Perdomo Habano Bourbon Barrel-Aged Connecticut\" (perdomo-habano-bourbon-barrel-aged-connecticut) under perdomo — not imported"
+    },
+    {
+      "file": "Perdomo/perdomo-legacy.json",
+      "why": "slug/name collision: line \"Perdomo Legacy\" (perdomo-legacy) vs existing \"Perdomo Legacy\" (perdomo-legacy) under perdomo — not imported"
+    },
+    {
+      "file": "Perdomo/reserve-10th-anniversary-maduro.json",
+      "why": "slug/name collision: line \"Perdomo Reserve 10th Anniversary Maduro\" (perdomo-reserve-10th-anniversary-maduro) vs existing \"Perdomo Reserve 10th Anniversary Maduro\" (perdomo-reserve-10th-anniversary-maduro) under perdomo — not imported"
+    },
+    {
+      "file": "Perdomo/reserve-10th-anniversary-sun-grown.json",
+      "why": "slug/name collision: line \"Perdomo Reserve 10th Anniversary Sun Grown\" (perdomo-reserve-10th-anniversary-sun-grown) vs existing \"Perdomo Reserve 10th Anniversary Sun Grown\" (perdomo-reserve-10th-anniversary-sun-grown) under perdomo — not imported"
+    },
+    {
+      "file": "Primo del Rey/primo-del-rey.json",
+      "why": "slug/name collision: line \"Primo del Rey\" (primo-del-rey) vs existing \"Primo del Rey\" (primo-del-rey) under primo-del-rey — not imported"
+    },
+    {
+      "file": "RoMa Craft Tobac/_aquitaine-additional-vitolas.json :: Knuckle Dragger",
+      "why": "skipped: collides/near-duplicates existing vitola \"Knuckle Dragger\" (4 x 52) in RoMa Craft Aquitaine"
+    },
+    {
+      "file": "RoMa Craft Tobac/_aquitaine-additional-vitolas.json :: Pestera Muierilor",
+      "why": "skipped: collides/near-duplicates existing vitola \"Pestera Muierilor\" (4 x 46) in RoMa Craft Aquitaine"
+    },
+    {
+      "file": "RoMa Craft Tobac/_intemperance-ba-xxi-additional-vitolas.json :: Envy",
+      "why": "skipped: collides/near-duplicates existing vitola \"Envy\" (5 x 50) in RoMa Craft Intemperance BA XXI"
+    },
+    {
+      "file": "RoMa Craft Tobac/intemperance-ec-xviii.json",
+      "why": "slug/name collision: line \"RoMa Craft Intemperance EC XVIII\" (roma-craft-intemperance-ec-xviii) vs existing \"RoMa Craft Intemperance EC XVIII\" (roma-craft-intemperance-ec-xviii) under roma-craft-tobac — not imported"
+    },
+    {
+      "file": "RoMa Craft Tobac/intemperance-whiskey-rebellion-1794.json",
+      "why": "slug/name collision: line \"RoMa Craft Intemperance Whiskey Rebellion 1794\" (roma-craft-intemperance-whiskey-rebellion-1794) vs existing \"RoMa Craft Intemperance Whiskey Rebellion 1794\" (roma-craft-intemperance-whiskey-rebellion-1794) under roma-craft-tobac — not imported"
+    },
+    {
+      "file": "Rocky Patel/30th-anniversary.json",
+      "why": "slug/name collision: line \"30th Anniversary\" (30th-anniversary) vs existing \"30th Anniversary\" (30th-anniversary) under rocky-patel — not imported"
+    },
+    {
+      "file": "Rocky Patel/bold.json",
+      "why": "slug/name collision: line \"Bold\" (bold) vs existing \"Bold\" (bold) under rocky-patel — not imported"
+    },
+    {
+      "file": "Rocky Patel/dark-star.json",
+      "why": "slug/name collision: line \"Dark Star\" (dark-star) vs existing \"Dark Star\" (dark-star) under rocky-patel — not imported"
+    },
+    {
+      "file": "Rocky Patel/emerald.json",
+      "why": "slug/name collision: line \"Emerald\" (emerald) vs existing \"Emerald\" (emerald) under rocky-patel — not imported"
+    },
+    {
+      "file": "Rocky Patel/gold-label.json",
+      "why": "slug/name collision: line \"Gold Label\" (gold-label) vs existing \"Gold Label\" (gold-label) under rocky-patel — not imported"
+    },
+    {
+      "file": "Rocky Patel/quarter-century.json",
+      "why": "slug/name collision: line \"Quarter Century\" (quarter-century) vs existing \"Quarter Century\" (quarter-century) under rocky-patel — not imported"
+    },
+    {
+      "file": "Rocky Patel/sapphire.json",
+      "why": "slug/name collision: line \"Sapphire\" (sapphire) vs existing \"Sapphire\" (sapphire) under rocky-patel — not imported"
+    },
+    {
+      "file": "Rocky Patel/twentieth-anniversary.json",
+      "why": "slug/name collision: line \"Twentieth Anniversary\" (twentieth-anniversary) vs existing \"Twentieth Anniversary\" (twentieth-anniversary) under rocky-patel — not imported"
+    },
+    {
+      "file": "Rocky Patel/vintage-1999.json",
+      "why": "slug/name collision: line \"Vintage 1999\" (vintage-1999) vs existing \"Vintage 1999\" (vintage-1999) under rocky-patel — not imported"
+    },
+    {
+      "file": "Rocky Patel/year-of-the-dragon.json",
+      "why": "slug/name collision: line \"Year of the Dragon\" (year-of-the-dragon) vs existing \"Year of the Dragon\" (year-of-the-dragon) under rocky-patel — not imported"
+    },
+    {
+      "file": "Rocky Patel/year-of-the-snake.json",
+      "why": "slug/name collision: line \"Year of the Snake\" (year-of-the-snake) vs existing \"Year of the Snake\" (year-of-the-snake) under rocky-patel — not imported"
+    },
+    {
+      "file": "Romeo y Julieta/_romeo-anejo-additional-vitolas.json :: Toro",
+      "why": "skipped: collides/near-duplicates existing vitola \"Piramide\" (6.125 x 52) in Romeo Añejo"
+    },
+    {
+      "file": "Romeo y Julieta/romeo-y-julieta-150th-anniversary.json",
+      "why": "slug/name collision: line \"Romeo y Julieta 150th Anniversary\" (romeo-y-julieta-150th-anniversary) vs existing \"Romeo y Julieta 150th Anniversary\" (romeo-y-julieta-150th-anniversary) under romeo-y-julieta — not imported"
+    },
+    {
+      "file": "Romeo y Julieta/romeo-y-julieta-reserve.json",
+      "why": "slug/name collision: line \"Romeo y Julieta Reserve\" (romeo-y-julieta-reserve) vs existing \"Romeo y Julieta Reserve\" (romeo-y-julieta-reserve) under romeo-y-julieta — not imported"
+    },
+    {
+      "file": "Romeo y Julieta/romeo-y-julieta-vintage.json",
+      "why": "slug/name collision: line \"Romeo y Julieta Vintage\" (romeo-y-julieta-vintage) vs existing \"Romeo y Julieta Vintage\" (romeo-y-julieta-vintage) under romeo-y-julieta — not imported"
+    },
+    {
+      "file": "Saint Luis Rey/saint-luis-rey-carenas-ultramar.json",
+      "why": "slug/name collision: line \"Saint Luis Rey Carenas Ultramar\" (saint-luis-rey-carenas-ultramar) vs existing \"Saint Luis Rey Carenas Ultramar\" (saint-luis-rey-carenas-ultramar) under saint-luis-rey — not imported"
+    },
+    {
+      "file": "Saint Luis Rey/saint-luis-rey-carenas.json",
+      "why": "slug/name collision: line \"Saint Luis Rey Carenas\" (saint-luis-rey-carenas) vs existing \"Saint Luis Rey Carenas\" (saint-luis-rey-carenas) under saint-luis-rey — not imported"
+    },
+    {
+      "file": "Saint Luis Rey/saint-luis-rey-original.json",
+      "why": "slug/name collision: line \"Saint Luis Rey Original\" (saint-luis-rey-original) vs existing \"Saint Luis Rey Original\" (saint-luis-rey-original) under saint-luis-rey — not imported"
+    },
+    {
+      "file": "Saint Luis Rey/saint-luis-rey-reserva-especial.json",
+      "why": "slug/name collision: line \"Saint Luis Rey Reserva Especial\" (saint-luis-rey-reserva-especial) vs existing \"Saint Luis Rey Reserva Especial\" (saint-luis-rey-reserva-especial) under saint-luis-rey — not imported"
+    },
+    {
+      "file": "Saint Luis Rey/saint-luis-rey-serie-g-maduro.json",
+      "why": "slug/name collision: line \"Saint Luis Rey Serie G Maduro\" (saint-luis-rey-serie-g-maduro) vs existing \"Saint Luis Rey Serie G Maduro\" (saint-luis-rey-serie-g-maduro) under saint-luis-rey — not imported"
+    },
+    {
+      "file": "Saint Luis Rey/saint-luis-rey-tabacales.json",
+      "why": "slug/name collision: line \"Saint Luis Rey Tabacales\" (saint-luis-rey-tabacales) vs existing \"Saint Luis Rey Tabacales\" (saint-luis-rey-tabacales) under saint-luis-rey — not imported"
+    },
+    {
+      "file": "Santa Clara/_gran-santa-clara-additional-vitolas.json :: Robusto",
+      "why": "skipped: collides/near-duplicates existing vitola \"Robusto\" (5 x 50) in Gran Santa Clara"
+    },
+    {
+      "file": "Santa Clara/_gran-santa-clara-additional-vitolas.json :: Number Four",
+      "why": "skipped: collides/near-duplicates existing vitola \"Number Four\" (5 x 44) in Gran Santa Clara"
+    },
+    {
+      "file": "Santa Clara/_gran-santa-clara-additional-vitolas.json :: Quino",
+      "why": "skipped: collides/near-duplicates existing vitola \"Quino\" (4.25 x 30) in Gran Santa Clara"
+    },
+    {
+      "file": "Santa Clara/_santa-clara-1830-additional-vitolas.json :: Churchill",
+      "why": "skipped: collides/near-duplicates existing vitola \"Churchill\" (7 x 50) in Santa Clara 1830"
+    },
+    {
+      "file": "Santa Clara/_santa-clara-1830-additional-vitolas.json :: Gran Bolero",
+      "why": "skipped: collides/near-duplicates existing vitola \"Gran Bolero\" (7.5 x 52) in Santa Clara 1830"
+    },
+    {
+      "file": "Santa Clara/_santa-clara-1830-additional-vitolas.json :: Number 1",
+      "why": "skipped: collides/near-duplicates existing vitola \"Gran Bolero\" (7.5 x 52) in Santa Clara 1830"
+    },
+    {
+      "file": "Santa Clara/_santa-clara-1830-additional-vitolas.json :: Number 3",
+      "why": "skipped: collides/near-duplicates existing vitola \"Number 3\" (6.625 x 42) in Santa Clara 1830"
+    },
+    {
+      "file": "Santa Clara/_santa-clara-1830-additional-vitolas.json :: Number 4",
+      "why": "skipped: collides/near-duplicates existing vitola \"Number 4\" (5 x 44) in Santa Clara 1830"
+    },
+    {
+      "file": "Santa Clara/_santa-clara-1830-additional-vitolas.json :: Number 5",
+      "why": "skipped: collides/near-duplicates existing vitola \"Number 5\" (6 x 44) in Santa Clara 1830"
+    },
+    {
+      "file": "Santa Clara/_santa-clara-1830-additional-vitolas.json :: Number 6",
+      "why": "skipped: collides/near-duplicates existing vitola \"Number 6\" (6 x 50) in Santa Clara 1830"
+    },
+    {
+      "file": "Santa Clara/_santa-clara-1830-additional-vitolas.json :: Quino TT",
+      "why": "skipped: collides/near-duplicates existing vitola \"Quino TT\" (4.25 x 30) in Santa Clara 1830"
+    },
+    {
+      "file": "Santa Clara/_santa-clara-1830-additional-vitolas.json :: Bolero",
+      "why": "skipped: collides/near-duplicates existing vitola \"Number 3\" (6.625 x 42) in Santa Clara 1830"
+    },
+    {
+      "file": "Santa Clara/santa-clara-1830-50th-anniversary-triple-maduro.json",
+      "why": "slug/name collision: line \"Santa Clara 1830 50th Anniversary Triple Maduro (also marketed as \"Medio Siglo Triple Maduro\")\" (santa-clara-1830-50th-anniversary-triple-maduro) vs existing \"Santa Clara 1830 50th Anniversary Triple Maduro (also marketed as \"Medio Siglo Triple Maduro\")\" (santa-clara-1830-50th-anniversary-triple-maduro) under santa-clara — not imported"
+    },
+    {
+      "file": "Topper Cigar Company/topper-danli.json",
+      "why": "slug/name collision: line \"Topper Danli\" (topper-danli) vs existing \"Topper Danli\" (topper-danli) under topper-cigar-company — not imported"
+    },
+    {
+      "file": "Trinidad/trinidad-espiritu-series-no1.json",
+      "why": "slug/name collision: line \"Trinidad Espiritu Series No. 1\" (trinidad-espiritu-series-no1) vs existing \"Trinidad Espiritu Series No. 1\" (trinidad-espiritu-series-no1) under trinidad — not imported"
+    },
+    {
+      "file": "Trinidad/trinidad-espiritu-series-no2.json",
+      "why": "slug/name collision: line \"Trinidad Espiritu Series No. 2\" (trinidad-espiritu-series-no2) vs existing \"Trinidad Espiritu Series No. 2\" (trinidad-espiritu-series-no2) under trinidad — not imported"
+    },
+    {
+      "file": "Trinidad/trinidad-espiritu-series-no3.json",
+      "why": "slug/name collision: line \"Trinidad Espiritu Series No. 3\" (trinidad-espiritu-series-no3) vs existing \"Trinidad Espiritu Series No. 3\" (trinidad-espiritu-series-no3) under trinidad — not imported"
+    },
+    {
+      "file": "Trinidad/trinidad-santiago.json",
+      "why": "slug/name collision: line \"Trinidad Santiago\" (trinidad-santiago) vs existing \"Trinidad Santiago\" (trinidad-santiago) under trinidad — not imported"
+    },
+    {
+      "file": "Trinidad/trinidad-x-tommy-bahama-island-collection.json",
+      "why": "slug/name collision: line \"Trinidad x Tommy Bahama Island Collection\" (trinidad-x-tommy-bahama-island-collection) vs existing \"Trinidad x Tommy Bahama Island Collection\" (trinidad-x-tommy-bahama-island-collection) under trinidad — not imported"
+    },
+    {
+      "file": "United Cigars/abuelo.json",
+      "why": "slug/name collision: line \"Abuelo\" (abuelo) vs existing \"Abuelo\" (abuelo) under united-cigars — not imported"
+    },
+    {
+      "file": "United Cigars/alfonso-extra-anejo.json",
+      "why": "slug/name collision: line \"Alfonso Extra Añejo\" (alfonso-extra-anejo) vs existing \"Alfonso Extra Añejo\" (alfonso-extra-anejo) under united-cigars — not imported"
+    },
+    {
+      "file": "United Cigars/alfonso-gran-seleccion.json",
+      "why": "slug/name collision: line \"Alfonso Gran Selección\" (alfonso-gran-seleccion) vs existing \"Alfonso Gran Selección\" (alfonso-gran-seleccion) under united-cigars — not imported"
+    },
+    {
+      "file": "United Cigars/bandolero.json",
+      "why": "slug/name collision: line \"Bandolero Serie A (Aventureros)\" (bandolero-serie-a-aventureros) vs existing \"Bandolero Serie A (Aventureros)\" (bandolero-serie-a-aventureros) under bandolero — not imported"
+    },
+    {
+      "file": "United Cigars/bandolero.json",
+      "why": "slug/name collision: line \"Bandolero Serie C (Clandestinos)\" (bandolero-serie-c-clandestinos) vs existing \"Bandolero Serie C (Clandestinos)\" (bandolero-serie-c-clandestinos) under bandolero — not imported"
+    },
+    {
+      "file": "United Cigars/bandolero.json",
+      "why": "slug/name collision: line \"Bandolero Serie T (Traficantes)\" (bandolero-serie-t-traficantes) vs existing \"Bandolero Serie T (Traficantes)\" (bandolero-serie-t-traficantes) under bandolero — not imported"
+    },
+    {
+      "file": "United Cigars/bandolero.json",
+      "why": "slug/name collision: line \"Bandolero Premium\" (bandolero-premium) vs existing \"Bandolero Premium\" (bandolero-premium) under bandolero — not imported"
+    },
+    {
+      "file": "United Cigars/firecracker.json",
+      "why": "slug/name collision: line \"Firecracker (Connecticut)\" (firecracker-connecticut) vs existing \"Firecracker (Connecticut)\" (firecracker-connecticut) under firecracker — not imported"
+    },
+    {
+      "file": "United Cigars/firecracker.json",
+      "why": "slug/name collision: line \"Independence Firecracker\" (independence-firecracker) vs existing \"Independence Firecracker\" (independence-firecracker) under firecracker — not imported"
+    },
+    {
+      "file": "United Cigars/garofalo-la-famiglia.json",
+      "why": "slug/name collision: line \"La Famiglia\" (la-famiglia) vs existing \"La Famiglia\" (la-famiglia) under garofalo — not imported"
+    },
+    {
+      "file": "United Cigars/gold-star.json",
+      "why": "slug/name collision: line \"Gold Star (regular production, 2025)\" (gold-star-regular-production-2025) vs existing \"Gold Star (regular production, 2025)\" (gold-star-regular-production-2025) under gold-star — not imported"
+    },
+    {
+      "file": "United Cigars/hightower.json",
+      "why": "slug/name collision: line \"Hightower (Maduro) by Jose Dominguez\" (hightower-maduro-by-jose-dominguez) vs existing \"Hightower (Maduro) by Jose Dominguez\" (hightower-maduro-by-jose-dominguez) under hightower — not imported"
+    },
+    {
+      "file": "United Cigars/la-gianna.json",
+      "why": "slug/name collision: line \"La Gianna Havana Natural\" (la-gianna-havana-natural) vs existing \"La Gianna Havana Natural\" (la-gianna-havana-natural) under la-gianna-havana — not imported"
+    },
+    {
+      "file": "United Cigars/la-gianna.json",
+      "why": "slug/name collision: line \"La Gianna Havana Maduro\" (la-gianna-havana-maduro) vs existing \"La Gianna Havana Maduro\" (la-gianna-havana-maduro) under la-gianna-havana — not imported"
+    },
+    {
+      "file": "United Cigars/la-gianna.json",
+      "why": "slug/name collision: line \"La Gianna Havana Angelic\" (la-gianna-havana-angelic) vs existing \"La Gianna Havana Angelic\" (la-gianna-havana-angelic) under la-gianna-havana — not imported"
+    },
+    {
+      "file": "United Cigars/la-gianna.json",
+      "why": "slug/name collision: line \"La Gianna Havana 30th Anniversary\" (la-gianna-havana-30th-anniversary) vs existing \"La Gianna Havana 30th Anniversary\" (la-gianna-havana-30th-anniversary) under la-gianna-havana — not imported"
+    },
+    {
+      "file": "United Cigars/montosa.json",
+      "why": "slug/name collision: line \"Montosa Natural\" (montosa-natural) vs existing \"Montosa Natural\" (montosa-natural) under montosa — not imported"
+    },
+    {
+      "file": "United Cigars/montosa.json",
+      "why": "slug/name collision: line \"Montosa Maduro\" (montosa-maduro) vs existing \"Montosa Maduro\" (montosa-maduro) under montosa — not imported"
+    },
+    {
+      "file": "United Cigars/red-anchor.json",
+      "why": "slug/name collision: line \"Red Anchor\" (red-anchor) vs existing \"Red Anchor\" (red-anchor) under red-anchor — not imported"
+    },
+    {
+      "file": "United Cigars/terra-nova.json",
+      "why": "slug/name collision: line \"Araperique\" (araperique) vs existing \"Araperique\" (araperique) under terra-nova — not imported"
+    },
+    {
+      "file": "United Cigars/terra-nova.json",
+      "why": "slug/name collision: line \"Dark Fired Kentucky\" (dark-fired-kentucky) vs existing \"Dark Fired Kentucky\" (dark-fired-kentucky) under terra-nova — not imported"
+    },
+    {
+      "file": "United Cigars/united-flagship.json",
+      "why": "slug/name collision: line \"United\" (united) vs existing \"United\" (united) under united-cigars — not imported"
+    },
+    {
+      "file": "United Cigars/yaya.json",
+      "why": "slug/name collision: line \"YaYa\" (yaya) vs existing \"YaYa\" (yaya) under yaya — not imported"
+    },
+    {
+      "file": "VegaFina/vegafina-1998.json",
+      "why": "slug/name collision: line \"VegaFina 1998\" (vegafina-1998) vs existing \"VegaFina 1998\" (vegafina-1998) under vegafina — not imported"
+    },
+    {
+      "file": "VegaFina/vegafina-original.json",
+      "why": "slug/name collision: line \"VegaFina Original\" (vegafina-original) vs existing \"VegaFina Original\" (vegafina-original) under vegafina — not imported"
+    }
+  ],
+  "unresolved": [
+    "Classic/_classic-UNRESOLVED.json",
+    "DBL/_dbl-chengo-clar-UNRESOLVED.json",
+    "Dos Amigos/_dos-amigos-churchill-UNRESOLVED.json",
+    "JFR/_jfr-UNRESOLVED.json",
+    "Kristoff/_kristoff-vente-UNRESOLVED.json",
+    "Las Cabrillas/_las-cabrillas-ponce-de-leon-UNCONFIRMED.json"
+  ],
+  "strengthNull": [
+    {
+      "key": "aganorsa-leaf/la-validacion",
+      "name": "La Validación",
+      "research": null,
+      "rel": "Aganorsa Leaf/la-validacion.json"
+    },
+    {
+      "key": "aganorsa-leaf/rare-leaf",
+      "name": "Rare Leaf",
+      "research": null,
+      "rel": "Aganorsa Leaf/rare-leaf.json"
+    },
+    {
+      "key": "asylum/asylum-eleven",
+      "name": "Asylum Eleven (11/18)",
+      "research": null,
+      "rel": "CLE Cigar Co/asylum-eleven.json"
+    },
+    {
+      "key": "drew-estate/deadwood-crazy-alice",
+      "name": "Deadwood Crazy Alice",
+      "research": null,
+      "rel": "Deadwood/deadwood-crazy-alice.json"
+    },
+    {
+      "key": "joya-de-nicaragua/rosalones-seleccion-bodegas-2023",
+      "name": "Joya de Nicaragua Rosalones Selección Bodegas Edición 2023",
+      "research": null,
+      "rel": "Joya de Nicaragua/rosalones-seleccion-bodegas-2023.json"
+    },
+    {
+      "key": "omar-ortez/omar-ortez-connecticut",
+      "name": "Omar Ortez Connecticut",
+      "research": null,
+      "rel": "Omar Ortez/omar-ortez-connecticut.json"
+    },
+    {
+      "key": "perdomo/perdomo-fresco",
+      "name": "Perdomo Fresco",
+      "research": null,
+      "rel": "Perdomo/perdomo-fresco.json"
+    },
+    {
+      "key": "perdomo/perdomo-legacy-father-and-son",
+      "name": "Perdomo Legacy Father and Son",
+      "research": null,
+      "rel": "Perdomo/perdomo-legacy-father-and-son.json"
+    }
+  ],
+  "plan": []
+}

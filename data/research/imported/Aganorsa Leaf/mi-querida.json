@@ -1,0 +1,39 @@
+{
+  "brand": {
+    "name": "Mi Querida",
+    "description": "Steve Saka's second release under Dunbarton Tobacco & Trust (founded after Saka left Drew Estate in 2013/2015). 'Mi Querida' ('my dearest'/colloquially 'my mistress' in Nicaragua) is a deliberately gritty, old-school-style Nicaraguan puro built around Connecticut Broadleaf, contrasting with Dunbarton's more refined Sobremesa line. IMPORTANT: physically stored next to Aganorsa Leaf on the Mac, but this is its OWN brand (Dunbarton Tobacco & Trust), not an Aganorsa Leaf product line - should be modeled as a separate brand entry in the database, not nested under Aganorsa Leaf.",
+    "origin_country": "Nicaragua",
+    "founded": "2016 (announced June 2016, retail debut July 2016); Dunbarton Tobacco & Trust founded 2013/2015",
+    "notes": "Factory documented as NACSA (Nicaragua American Cigars S.A.), Estelí, overseen by Master Cigarmaker Raul Disla - not independently confirmed as an Aganorsa-owned facility in sources checked, despite the Mac's folder placement suggesting a connection."
+  },
+  "line": {
+    "name": "Mi Querida",
+    "wrapper": "Connecticut Broadleaf Maduro (100% naturally fermented)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (puro)",
+    "strength": "Full-bodied (medium-full to full)"
+  },
+  "vitolas": [
+    {
+      "name": "Ancho Corto",
+      "size": "5 x 52"
+    },
+    {
+      "name": "Gordo",
+      "size": null,
+      "notes": "Could not confirm an official vitola literally named just 'Gordo' - the line's stout vitola is officially 'Muy Gordo Grande' (6x56, since discontinued/replaced by a 6x64 size) and a separate 'Gorila Gordo' (6x60) also exists. Flagging as unresolved pending photo/box inspection rather than guessing which one this Mac photo shows."
+    },
+    {
+      "name": "Triqui Traca No. 764",
+      "size": "7 x 64",
+      "notes": "Correct spelling is 'Triqui Traca' (not the Mac filename's 'Triqui-Traqui'). Technically a distinct sub-line within Mi Querida (adds Dominican ligero to the Nicaraguan filler, medium strength, introduced 2019/2020) rather than identical to the core Mi Querida blend."
+    }
+  ],
+  "research_sources": [
+    "https://www.dunbartoncigars.com/marca/mi-querida/",
+    "https://halfwheel.com/mi-querida-fino-largo/133245/",
+    "https://halfwheel.com/mi-querida-triqui-traca-no-764/383177/",
+    "https://halfwheel.com/dunbarton-tobacco-trust-discontinues-mi-querida-muy-gordo-grande-adding-6-x-64-vitola-next-year/444325/",
+    "https://halfwheel.com/dunbarton-tobacco-trust-ships-mi-querida-gorila-gordo/454663/"
+  ]
+}

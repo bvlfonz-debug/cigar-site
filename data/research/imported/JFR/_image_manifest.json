@@ -1,0 +1,71 @@
+{
+  "brand": "JFR",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/JFR",
+  "note": "JFR is not on the site at all - full new brand object included. 3 lines added plus 4 unresolved/ambiguous filename flags, found in the (flat, unrenamed) Mac folder. No file renames performed.",
+  "mappings": [
+    {
+      "json_file": "jfr-20th-anniversary.json",
+      "line_slug": "jfr-20th-anniversary",
+      "mac_folder": "Cigar Images/JFR",
+      "files": [
+        "JFR_20-470_01.jpg",
+        "JFR_20-770_01.jpg",
+        "JFR_20-Tit_01.jpg",
+        "JFR_20-Tit_Box-Open_01.jpg",
+        "JFR_20-Tor_Box-Open_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "jfr-lunatic-habano.json",
+      "line_slug": "jfr-lunatic-habano",
+      "mac_folder": "Cigar Images/JFR",
+      "files": [
+        "JFR_Luna-Hab-Eighty_01.jpg",
+        "JFR_Luna-Hab-Hom_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "jfr-lunatic-maduro.json",
+      "line_slug": "jfr-lunatic-maduro",
+      "mac_folder": "Cigar Images/JFR",
+      "files": [
+        "JFR_Lun-Homlib-Mad_Box-Open_01.jpg",
+        "JFR_Luna-Mad-Eighty_01.jpg",
+        "JFR_Luna-Mad-Rob_01.jpg",
+        "JFR_Luna-Mad-Seventy_01.jpg",
+        "JFR_Luna-Mad-Sixty_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "_jfr-UNRESOLVED.json",
+      "line_slug": null,
+      "mac_folder": "Cigar Images/JFR",
+      "files": [
+        "JFR_20-St_01.jpg",
+        "JFR_Luna-Hab-Rob_01.jpg",
+        "JFR_Luna-Hab-Short_01.jpg",
+        "JFR_Luna-Mad-El_01.jpg",
+        "JFR_Luna-Mad-Short_01.jpg"
+      ],
+      "notes": "5 filenames could not be matched to a single confirmed vitola with confidence - see the flag file for candidate theories per file."
+    }
+  ],
+  "not_added": [
+    {
+      "mac_folder": "Cigar Images/JFR",
+      "files": [
+        "JFR_20-St_01.jpg",
+        "JFR_Luna-Hab-Rob_01.jpg",
+        "JFR_Luna-Hab-Short_01.jpg",
+        "JFR_Luna-Mad-El_01.jpg",
+        "JFR_Luna-Mad-Short_01.jpg"
+      ],
+      "reason": "See _jfr-UNRESOLVED.json - each is ambiguous between 2+ real candidate vitolas, or matches no known vitola at all."
+    }
+  ],
+  "already_on_site_no_action": []
+}

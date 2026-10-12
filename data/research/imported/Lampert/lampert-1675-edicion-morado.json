@@ -1,0 +1,93 @@
+{
+  "line": {
+    "brand_slug": "lampert",
+    "name": "Lampert 1675 Edición Morado",
+    "slug": "lampert-1675-edicion-morado",
+    "wrapper": "Mexican San Andrés (Negro)",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": "Medium-Full",
+    "release_year": 2024,
+    "background_text": "Edición Morado is a later entry in Lampert's 1675 series, produced for aficionados wanting a deeper, darker profile than the Azúl while retaining the brand's signature smoothness. Rolled at Fábrica AGROTABACOS in Nicaragua using tobacco aged 3-5 years. Treated as its own line entry (sibling to Azúl/Rojo within the 1675 series) since it has its own distinct wrapper/blend identity and dedicated product page, consistent with how the official site and retailers list it."
+  },
+  "vitolas": [
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": "A medium-bodied smoke with mesquite and hickory smokiness balanced by milk chocolate and floral notes; rated 91/100 by Blind Man's Puff, though found somewhat one-dimensional by that reviewer.",
+      "tasting_notes": [
+        "mesquite wood",
+        "hickory smoke",
+        "milk chocolate",
+        "floral",
+        "roasted espresso",
+        "dark cocoa"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Blind Man's Puff",
+          "source_type": "critic",
+          "score": 91,
+          "score_scale": "100",
+          "review_date": null,
+          "url": "https://blindmanspuff.com/lampert-1675-edicion-morado-toro-blind-cigar-review/",
+          "key_notes_text": "91/100; mesquite/hickory smokiness balanced by milk chocolate and floral notes; found somewhat one-dimensional."
+        }
+      ]
+    },
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": null,
+      "ring_gauge": null,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Short Robusto",
+      "slug": "short-robusto",
+      "length_in": null,
+      "ring_gauge": null,
+      "vitola_type": "Short Robusto",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Confirmed distinct blend from Azúl/Rojo (different wrapper, darker/fuller profile). Robusto and Short Robusto dimensions not stated in sources checked - left null. Release year (2024) inferred from a secondary blog post, treat as approximate.",
+  "research_sources": [
+    {
+      "url": "https://lampertcigars.com/cigars/lampert-1675-edicion-morado/",
+      "supports": "wrapper/binder/filler, strength, aging, background, vitolas, manufacturer"
+    },
+    {
+      "url": "https://blindmanspuff.com/lampert-1675-edicion-morado-toro-blind-cigar-review/",
+      "supports": "Toro size, composition, tasting notes, 91/100 score"
+    },
+    {
+      "url": "https://www.cigarjournal.com/lampert-1675-edicion-morado/",
+      "supports": "Independent confirmation of coverage"
+    },
+    {
+      "url": "https://whiskeynetwork.net/2024/04/edicion-1675-morado-by-lampert-cigars/",
+      "supports": "Approximate release timing"
+    }
+  ]
+}

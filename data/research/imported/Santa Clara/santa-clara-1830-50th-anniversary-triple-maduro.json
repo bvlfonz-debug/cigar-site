@@ -1,0 +1,28 @@
+{
+  "line": {
+    "name": "Santa Clara 1830 50th Anniversary Triple Maduro (also marketed as \"Medio Siglo Triple Maduro\")",
+    "slug": "santa-clara-1830-50th-anniversary-triple-maduro",
+    "description": "Not on the site. A limited 50th-anniversary release. The Mac folder has the manufacturer's own official Vitolario charts for two apparently related products - one banded/marketed in English ('50th Anniversary Triple Maduro') and one in Spanish ('Medio Siglo Triple Maduro' - literally 'Half Century') - both showing identical vitolas (Robusto 5x50, Toro 6x50) and identical 'Triple Maduro' positioning. FLAG: treating these as the same release marketed under two names/bands (likely for different markets) rather than two distinct products, since I found no evidence of a meaningful difference beyond band language - but this is an inference from the chart imagery, not independently confirmed via a third-party source. Recommend verifying if you have more context on how these two bandings were distributed.",
+    "wrapper": "Triple Maduro (specific wrapper leaf/fermentation not detailed on the chart itself)",
+    "status": "limited/anniversary release"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "Manufacturer's own Vitolario chart, Mac folder (both banding versions)"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "sources": [
+        "Manufacturer's own Vitolario chart, Mac folder (both banding versions)"
+      ]
+    }
+  ],
+  "research_sources": [
+    "Manufacturer's own Vitolario chart graphics, viewed directly from the Mac photo collection"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "line": {
+    "name": "La Flor Dominicana La Volcada",
+    "slug": "la-flor-dominicana-la-volcada",
+    "description": "Shown at the 2017 IPCPR Trade Show, retail availability late 2017/early 2018. Explicitly described by the brand as part of a series of limited production releases.",
+    "wrapper": "Dark Mexican San Andres",
+    "binder": "Ecuadorian Corojo",
+    "filler": "Dominican (La Canela farm)",
+    "factory": "Tabacalera La Flor, Dominican Republic",
+    "status": "limited production"
+  },
+  "vitolas": [
+    {
+      "name": "Churchill",
+      "size": "7 x 48",
+      "notes": "Matches the Mac photo. 20-count boxes.",
+      "sources": [
+        "https://www.cigarslover.com/la-flor-dominicana-launches-la-volcada-and-brings-back-factory-press/",
+        "https://cigar-coop.com/2018/11/cigar-review-la-flor-dominicana-la-volcada-churchill.html"
+      ]
+    },
+    {
+      "name": "Short Corona",
+      "size": "4.25 x 42",
+      "notes": "Announced/planned for 2019 but could NOT confirm it ever actually shipped - flagged as unconfirmed, included for awareness only.",
+      "sources": [
+        "https://www.cigarslover.com/la-flor-dominicana-launches-la-volcada-and-brings-back-factory-press/"
+      ]
+    }
+  ],
+  "research_notes": "MSRP not confirmed (one unverified retail price of $15.10 found, not labeled MSRP).",
+  "research_sources": [
+    "https://www.cigarslover.com/la-flor-dominicana-launches-la-volcada-and-brings-back-factory-press/",
+    "https://cigar-coop.com/2018/11/cigar-review-la-flor-dominicana-la-volcada-churchill.html"
+  ]
+}

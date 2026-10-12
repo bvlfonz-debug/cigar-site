@@ -1,0 +1,56 @@
+{
+  "line": {
+    "name": "H. Upmann Nicaragua AJ Fernandez Heritage",
+    "slug": "h-upmann-nicaragua-ajf-heritage",
+    "description": "Not on the site. Debuted January 2022 at TPE (Tobacco Plus Expo). A collaboration between A.J. Fernandez and Rafael Nodal, distinct from the earlier (2017) 'H. Upmann by AJ Fernandez' line researched separately in this batch - different wrapper (Brazilian vs. Ecuadorian), positioned as a heritage/legacy-style release. Medium to medium-full strength; notes of earthiness, spice, sweetness.",
+    "wrapper": "Brazilian Mata Fina (triple-fermented)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "factory": "Tabacalera A.J. Fernandez Cigars de Nicaragua, Esteli, Nicaragua",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Corona",
+      "size": "5.5 x 44",
+      "sources": [
+        "https://cigarcountry.com/brand/h-upmann-cigars/h-upmann-nicaragua-aj-fernandez-heritage/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 52",
+      "notes": "One source lists 4.875x52 - effectively the same size, minor rounding difference.",
+      "sources": [
+        "https://cigarcountry.com/brand/h-upmann-cigars/h-upmann-nicaragua-aj-fernandez-heritage/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://halfwheel.com/h-upmann-nicaragua-aj-fernandez-heritage-toro/408131/"
+      ]
+    },
+    {
+      "name": "Torpedo",
+      "size": "6.125 x 52",
+      "sources": [
+        "https://cigarcountry.com/brand/h-upmann-cigars/h-upmann-nicaragua-aj-fernandez-heritage/"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 54",
+      "sources": [
+        "https://cigarcountry.com/brand/h-upmann-cigars/h-upmann-nicaragua-aj-fernandez-heritage/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/h-upmann-nicaragua-aj-fernandez-heritage-toro/408131/",
+    "https://halfwheel.com/h-upmann-nicaragua-aj-fernandez-heritage-to-debut-at-tpe-2022/403120/",
+    "https://cigarcountry.com/brand/h-upmann-cigars/h-upmann-nicaragua-aj-fernandez-heritage/"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo Encore El Futuro",
+    "slug": "encore-el-futuro",
+    "wrapper": "Nicaraguan",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": "Medium",
+    "release_year": 2022,
+    "background_text": "The first regular-production line extension of Encore since its 2018 launch, unveiled April 2022. Unlike the original Encore's Ecuadorian wrapper, El Futuro uses an all-Nicaraguan wrapper/binder/filler blend, tobaccos aged in tercios before rolling. Production at Tabacalera La Alianza S.A., initial limited run of 1,000 boxes ahead of the 2022 PCA trade show."
+  },
+  "vitolas": [
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Genuinely distinct from plain Encore (all-Nicaraguan wrapper vs. Ecuadorian). Strength labeled 'Medium' based on general Encore-line positioning, not a numeric source - lower confidence. Price per stick not found.",
+  "research_sources": [
+    {
+      "url": "https://cigar-coop.com/2022/04/cigar-news-e-p-carrillo-adds-encore-el-futuro.html",
+      "supports": "wrapper/binder/filler, vitola, release year, aging process, factory"
+    }
+  ]
+}

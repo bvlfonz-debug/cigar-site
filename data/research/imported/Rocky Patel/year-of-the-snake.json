@@ -1,0 +1,68 @@
+{
+  "line": {
+    "brand_slug": "rocky-patel",
+    "name": "Year of the Snake",
+    "slug": "year-of-the-snake",
+    "wrapper": "Nicaraguan Habano (U.S. version); Nicaraguan Habano 2000 Oscuro (International version)",
+    "binder": "Nicaraguan Broadleaf",
+    "filler": "Honduran and Nicaraguan",
+    "strength": "Medium-Full",
+    "release_year": 2025,
+    "background_text": "Launched at the 2025 PCA Trade Show, Year of the Snake is the second release in Rocky Patel's Chinese Zodiac limited-edition series (following 2024's Year of the Dragon), honoring the serpent's symbolism of transformation, elegance, and mystery. Produced at Tabacalera Villa Cuba S.A. (TAVICUSA) in Esteli, Nicaragua, it was released in two blends: a medium-full U.S. version with Nicaraguan Habano wrapper and a medium-bodied International Exclusive with Habano 2000 Oscuro wrapper. Limited to 6,000 ten-count boxes at $35 per cigar, with festive red-and-gold packaging."
+  },
+  "vitolas": [
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6.5,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": "Halfwheel called it one of the hardest cigars in the series to score, noting a strong, muddled midsection but a strong finish.",
+      "tasting_notes": [
+        "charcoal",
+        "black pepper",
+        "earthiness",
+        "sweet cocoa",
+        "burning wood"
+      ],
+      "smoke_time_min": 145,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Halfwheel",
+          "source_type": "critic",
+          "score": null,
+          "score_scale": 100,
+          "review_date": "2025-06",
+          "url": "https://halfwheel.com/rocky-patel-year-of-the-snake/452482/",
+          "key_notes_text": "No final numeric score given; described as toasty/peppery/cocoa in the first third, muddied in the second, and improving with burning-wood flavors in the final third; smoke time 2h20m-2h30m."
+        }
+      ]
+    }
+  ],
+  "research_notes": "Halfwheel's review gave no final numeric score (explicitly stated), so score: null was used rather than guessed.",
+  "research_sources": [
+    {
+      "source_name": "Rocky Patel Premium Cigars (official)",
+      "source_url": "https://www.rockypatel.com/cigar/year-of-the-snake/",
+      "fact_note": "U.S./International blend differences, strength, background"
+    },
+    {
+      "source_name": "Halfwheel",
+      "source_url": "https://halfwheel.com/rocky-patel-year-of-the-snake/452482/",
+      "fact_note": "Tasting notes by third, smoke time, box count/MSRP"
+    },
+    {
+      "source_name": "Cigar Coop",
+      "source_url": "https://cigar-coop.com/2025/04/rocky-patel-year-of-the-snake-launched-at-pca-2025-cigar-news.html",
+      "fact_note": "Launch background, blend composition, factory"
+    },
+    {
+      "source_name": "Corona Cigar Co.",
+      "source_url": "https://www.coronacigar.com/rocky-patel-year-of-the-snake-toro/",
+      "fact_note": "Confirmed Toro size as 6.5x52"
+    }
+  ]
+}

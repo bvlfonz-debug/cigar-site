@@ -1,0 +1,51 @@
+{
+  "line": {
+    "name": "Ozgener Karatoba",
+    "slug": "karatoba",
+    "description": "Not on the site at all. IMPORTANT NAMING NOTE: the Mac photos for this line were originally filed under the abbreviation 'Kari' with no other identifying text. No product literally named 'Kari' could be found anywhere (retailers, halfwheel, Cigar Aficionado, Cigar Coop, brand site) - but this line's real name, 'Karatoba,' has an EXACT match for all 4 of the photographed vitola names (Gordo, Robusto Extra, Robusto, Toro) and no other Ozgener/OZ Family line matches that set. Recommend visually confirming the box art says 'Karatoba' before treating this as certain, but the vitola-name match makes it very likely. The Mac folder has been renamed from 'Ozgener Kari' to 'Ozgener Karatoba' accordingly.",
+    "wrapper": "Ecuador-grown Sumatra-seed",
+    "binder": "Nicaragua",
+    "filler": "Dominican Republic and Nicaragua",
+    "strength": "Medium to full",
+    "release_year": 2025,
+    "manufacturer_note": "Made at My Father Cigars (Nicaragua) - differs from the Dominican-made core lines (Aramas, Bosphorus, Firsat).",
+    "name_origin": "'Kara' (Turkish for dark) + 'Toba' (Lake Toba, Indonesia - the origin of Sumatra-seed tobacco)"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto (K52)",
+      "size": "5 x 52",
+      "sources": [
+        "ozfamilycigars.com/karatoba/"
+      ]
+    },
+    {
+      "name": "Robusto Extra (K55)",
+      "size": "5.5 x 55",
+      "sources": [
+        "ozfamilycigars.com/karatoba/"
+      ]
+    },
+    {
+      "name": "Toro (K50)",
+      "size": "6.5 x 50",
+      "sources": [
+        "ozfamilycigars.com/karatoba/"
+      ]
+    },
+    {
+      "name": "Gordo (K60)",
+      "size": "6 x 60",
+      "sources": [
+        "ozfamilycigars.com/karatoba/"
+      ]
+    }
+  ],
+  "research_notes": "A similarly-named newer line, 'Maracana' (soccer-themed, Brazilian Arapiraca wrapper, 2025/2026), also uses a Toro/Gordo/Robusto/Robusto Extra vitola naming pattern - ruled out as the better match here since Karatoba's vitola set corresponds exactly, but flagging in case a visual check of the box art says otherwise.",
+  "research_sources": [
+    "https://ozfamilycigars.com/karatoba/",
+    "https://halfwheel.com/pca-2025-oz-family-cigars/448772/",
+    "https://www.cigaraficionado.com/article/oz-family-karatoba-arriving-this-week",
+    "https://www.holts.com/cigars/all-cigar-brands/oz-family-karatoba.html"
+  ]
+}

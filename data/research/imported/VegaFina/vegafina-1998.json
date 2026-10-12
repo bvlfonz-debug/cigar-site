@@ -1,0 +1,61 @@
+{
+  "line": {
+    "name": "VegaFina 1998",
+    "slug": "vegafina-1998",
+    "description": "A step up in complexity from the core line. Tobaccos aged a minimum of 3 years (per Altadis) or 'at least 4 years' (per Cigar Aficionado) - minor conflict, not resolved.",
+    "wrapper": "Ecuadorian Habano",
+    "binder": "Indonesian (Java)",
+    "filler": "Dominican, Nicaraguan, and Colombian",
+    "factory": "Dominican Republic",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "VF50",
+      "size": "4.5 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/vegafina/vegafina-1998/"
+      ]
+    },
+    {
+      "name": "VF52",
+      "size": "5 x 52",
+      "sources": [
+        "https://www.altadisusa.com/cigars/vegafina/vegafina-1998/"
+      ]
+    },
+    {
+      "name": "VF54",
+      "size": "6 x 54 (UNVERIFIED length - sources disagree between 6\", 6-1/8\", and 6-1/10\"; ring gauge 54 is consistent everywhere)",
+      "sources": [
+        "https://www.altadisusa.com/cigars/vegafina/vegafina-1998/"
+      ]
+    },
+    {
+      "name": "VF46",
+      "size": "5.625 x 46",
+      "notes": "Found only in a CA DOJ tobacco registry filing, not on the current Altadis line page - may be discontinued or regional-only. Not confirmed as currently in production.",
+      "sources": [
+        "https://utl.doj.ca.gov/utl/variants/21751"
+      ]
+    },
+    {
+      "name": "VF56",
+      "size": "5 x 56",
+      "notes": "Found only in a CA DOJ tobacco registry filing, not on the current Altadis line page - may be discontinued, regional-only, or a newer addition. Not confirmed as currently in production.",
+      "sources": [
+        "https://utl.doj.ca.gov/utl/variants/21741"
+      ]
+    }
+  ],
+  "research_notes": "A 'Vintage 1 VF42L' was referenced in a single Cigar Coop review title as a possible sub-line/limited edition but could not be independently corroborated - not added, flagged as unconfirmed.",
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/vegafina/vegafina-1998/",
+    "https://www.cigaraficionado.com/article/vegafina-1998-coming-to-the-u-s-in-september",
+    "https://utl.doj.ca.gov/utl/variants/21751",
+    "https://utl.doj.ca.gov/utl/variants/21737",
+    "https://utl.doj.ca.gov/utl/variants/21733",
+    "https://utl.doj.ca.gov/utl/variants/21621",
+    "https://utl.doj.ca.gov/utl/variants/21741"
+  ]
+}

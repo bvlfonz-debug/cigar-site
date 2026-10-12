@@ -1,0 +1,49 @@
+{
+  "line": {
+    "name": "Illusione Epernay Tuonela",
+    "slug": "epernay-tuonela",
+    "description": "A San Andres-wrapper variant of Epernay released May 2025 (regular production, not limited). Reuses 4 of the standard Epernay vitola names (Le Ferme, Le Taureau, Le Grande, Le Monde) but with a different wrapper/blend, so it is modeled here as its own line rather than as a vitola of the standard Epernay line. Does not include Le Matin or Le Petite per sources found.",
+    "wrapper": "Mexican San Andres",
+    "binder": "Undisclosed",
+    "filler": "Undisclosed",
+    "strength": null,
+    "release_year": 2025,
+    "manufacturer_note": "Made at Raices Cubanas, Danli, Honduras (same factory as standard Epernay)."
+  },
+  "vitolas": [
+    {
+      "name": "Tuonela Le Ferme",
+      "size": "5.25 x 48",
+      "sources": [
+        "halfwheel.com/illusione-releases-epernay-tuonela/451649/"
+      ]
+    },
+    {
+      "name": "Tuonela Le Taureau",
+      "size": "5.5 x 56",
+      "sources": [
+        "halfwheel.com/illusione-releases-epernay-tuonela/451649/"
+      ]
+    },
+    {
+      "name": "Tuonela Le Grande",
+      "size": "6 x 46",
+      "sources": [
+        "halfwheel.com/illusione-epernay-tuonela-le-grande/454347/"
+      ]
+    },
+    {
+      "name": "Tuonela Le Monde",
+      "size": "6.25 x 52",
+      "sources": [
+        "cigar-coop.com/2025/10/illusione-epernay-tuonela-le-monde-cigar-review.html"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/illusione-releases-epernay-tuonela/451649/",
+    "https://halfwheel.com/illusione-epernay-tuonela-le-grande/454347/",
+    "https://cigar-coop.com/2025/10/illusione-epernay-tuonela-le-monde-cigar-review.html",
+    "https://www.smallbatchcigar.com/illusione-epernay-tuonela"
+  ]
+}

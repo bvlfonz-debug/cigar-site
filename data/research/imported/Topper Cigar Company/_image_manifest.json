@@ -1,0 +1,10 @@
+{
+  "brand": "Topper Cigar Company",
+  "brand_slug": "topper-cigar-company",
+  "note": "Paths are relative to 'Cigar Images/Topper Cigar Company/' in the connected folder on the user's Mac. This folder was newly created during this session - it was previously miscategorized as a subfolder of 'J.C. Newman' ('Cigar Images/J.C. Newman/Topper/'), but research confirmed Topper is an independent, unrelated manufacturer. Moved to 'Topper Danli/' under this new top-level folder.",
+  "new_lines": {
+    "topper-danli": {
+      "source_folder": "Cigar Images/Topper Cigar Company/Topper Danli"
+    }
+  }
+}

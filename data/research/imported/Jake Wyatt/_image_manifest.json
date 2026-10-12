@@ -1,0 +1,19 @@
+{
+  "brand": "Jake Wyatt",
+  "brand_slug": "jake-wyatt",
+  "note": "Paths are relative to 'Cigar Images/Jake Wyatt/' in the connected folder on the user's Mac. Filenames were already clean (retailer/CDN-style, e.g. 'apendix_ii_robusto_single_h__...') - no reorg or renaming was needed this batch.",
+  "gap_fill_supplements": {
+    "_appendix-ii-additional-vitolas": {
+      "source_folder": "Cigar Images/Jake Wyatt/Jake Wyatt Appendix II"
+    },
+    "_lithium-additional-vitolas": {
+      "source_folder": "Cigar Images/Jake Wyatt/Jake Wyatt Lithium"
+    }
+  },
+  "unresolved_flags": [
+    "This is a small boutique brand with thin third-party editorial coverage - several blend details (binder/filler origin for both lines, wrapper leaf for Lithium) are contradictory even across the brand's own website pages. Flagged in both JSON files rather than picked arbitrarily."
+  ],
+  "not_photographed": [
+    "Jake Wyatt U.S.I.R., Fourth Dimension, Lucid Interval, Herbert Spencer - all mentioned on the site's brand overview but not photographed on the Mac, no action taken."
+  ]
+}

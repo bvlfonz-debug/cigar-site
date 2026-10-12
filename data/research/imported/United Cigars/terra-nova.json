@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "name": "Terra Nova",
+    "description": "Manufactured by Arnold André Dominicana S.R.L.; distributed in the U.S. by United Cigars/Two Guys Cigars per a January 2022 distribution deal.",
+    "origin_country": "Dominican Republic"
+  },
+  "lines": [
+    {
+      "line": {
+        "name": "Araperique",
+        "wrapper": "Connecticut",
+        "binder": null,
+        "filler": "Includes Araperique tobacco (a rare varietal, barrel-aged in oak whiskey casks) plus other Dominican filler tobaccos",
+        "strength": "Medium",
+        "notes": "Flavor notes: pepper, floral, hay, cedar, cinnamon, peanuts, fruit zest, butter, fig, dark chocolate, oak."
+      },
+      "vitolas": [
+        {
+          "name": "Belicoso",
+          "size": "6.25 x 50"
+        },
+        {
+          "name": "Robusto",
+          "size": "4.875 x 50"
+        },
+        {
+          "name": "Short Robusto",
+          "size": "3.875 x 54"
+        },
+        {
+          "name": "Toro",
+          "size": "5.875 x 54"
+        }
+      ]
+    },
+    {
+      "line": {
+        "name": "Dark Fired Kentucky",
+        "wrapper": "Ecuadorian Connecticut",
+        "binder": "Bahia, Sumatra",
+        "filler": "Dominican, Nicaraguan, Brazilian tobaccos plus Dark Fired Kentucky leaf",
+        "strength": "Medium strength, medium body",
+        "notes": "20-count boxes. Cigar Coop rated the Toro 88 pts. A 5th size, Churchill (6.75x50), is documented by some retailers but not present in our photo library."
+      },
+      "vitolas": [
+        {
+          "name": "Short Robusto",
+          "size": "3.875 x 54"
+        },
+        {
+          "name": "Robusto",
+          "size": "4.875 x 50"
+        },
+        {
+          "name": "Toro",
+          "size": "5.875 x 54"
+        },
+        {
+          "name": "Belicoso",
+          "size": "6.25 x 50"
+        }
+      ]
+    }
+  ],
+  "research_notes": "Terra Nova is technically an Arnold André house brand distributed (not manufactured) by United Cigars - worth noting for database categorization/attribution.",
+  "research_sources": [
+    "https://cigar-coop.com/2022/11/cigar-review-terra-nova-dark-fired-kentucky-toro-by-arnold-andre.html",
+    "https://cigar-coop.com/2022/01/cigar-news-united-cigars-to-distribute-arnold-andre-products-in-u-s.html",
+    "https://www.terranova-cigar.com/dark-fired-kentucky/",
+    "https://oxfordcigarcompany.com/terra-nova-araperique/",
+    "https://thecigarauthority.com/cigar-review-terra-nova-araparique-robusto/"
+  ]
+}

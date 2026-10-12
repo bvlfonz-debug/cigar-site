@@ -1,0 +1,44 @@
+{
+  "line": {
+    "brand_slug": "joya-de-nicaragua",
+    "name": "Joya de Nicaragua Cuatro Cinco Pata Negra",
+    "slug": "cuatro-cinco-pata-negra",
+    "wrapper": "Nicaraguan Colorado Oscuro",
+    "binder": "Dominican",
+    "filler": "Nicaraguan",
+    "strength": "Medium-Full",
+    "release_year": 2026,
+    "background_text": "Cuatro Cinco Pata Negra is the most recent installment (announced for Spain in 2026) of JDN's annual Spain-exclusive Pata Negra prestige series, which each year reimagines one of JDN's core blends in an elevated, extra-aged expression limited to that market. This edition applies the Pata Negra treatment to the Cuatro Cinco (Reserva Especial) blend, originally created in 2013 as a 45th-anniversary limited edition featuring white-oak-barrel-aged tobacco."
+  },
+  "vitolas": [
+    {
+      "size_name": "Doble Robusto",
+      "slug": "doble-robusto",
+      "length_in": 4.88,
+      "ring_gauge": 56,
+      "vitola_type": "Robusto",
+      "summary_review": "Spain-exclusive annual Pata Negra release built on the Cuatro Cinco blend; medium-to-full-bodied.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        null
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "CONFIRMED distinct from Edición Europa and Secret Cask: uses a different wrapper (Nicaraguan Colorado Oscuro) and format (4.88x56 Doble Robusto). Follows JDN's established annual Pata Negra series pattern rather than being a one-off Cuatro Cinco sub-brand. Box count, exact price, and precise release date not confirmed; halfwheel's full article returned a 402 error during research, so some details rely on a secondary retailer source rather than direct critic coverage.",
+  "research_sources": [
+    {
+      "url": "https://halfwheel.com/joya-de-nicaragua-cuatro-cinco-pata-negra-heading-to-spain-next-month/475759/",
+      "supports": "Existence and naming of this release (headline only - full article inaccessible, 402 error)"
+    },
+    {
+      "url": "https://cigarsmokerclub.com/en/joya-cuatro-cinco-pata-negra/",
+      "supports": "wrapper/binder/filler, vitola size, Spain-exclusive annual Pata Negra positioning"
+    },
+    {
+      "url": "https://cigar-coop.com/2025/08/joya-de-nicaragua-releases-antano-ct-pata-negra-2025.html",
+      "supports": "Confirms the annual Pata Negra series pattern"
+    }
+  ]
+}

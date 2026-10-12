@@ -7,7 +7,11 @@ const index = getSearchIndex();
 
 function group(field: 'wrapper' | 'strength' | 'country') {
   const counts = new Map<string, number>();
-  for (const c of index) counts.set(c[field], (counts.get(c[field]) ?? 0) + 1);
+  for (const c of index) {
+    const value = c[field];
+    if (value == null) continue; // strength not yet sourced: not a facet value
+    counts.set(value, (counts.get(value) ?? 0) + 1);
+  }
   return [...counts.entries()].sort((a, b) => b[1] - a[1]);
 }
 

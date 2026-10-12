@@ -1,0 +1,47 @@
+{
+  "line": {
+    "name": "New World Oscuro",
+    "description": "Nicaraguan-puro sub-line of the New World family, launched circa 2019-2020. Reportedly the first blend AJ Fernandez developed together with his father Ismael Fernandez. Received 'Cigar of the Year' recognition from Cigar Journal per one retailer. Not currently listed on the site at all (the site has New World, New World Cameroon, New World Connecticut, New World Dorado, New World Puro Especial, but not Oscuro).",
+    "origin_country": "Nicaragua",
+    "wrapper": "Dark, oily Nicaraguan Habano-seed 'Oscuro' wrapper",
+    "binder": "Nicaraguan (Jalapa)",
+    "filler": "Nicaraguan long-fillers from Ometepe, Condega, and Estelí",
+    "strength": "Medium-full to full"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5.5 x 55",
+      "notes": "Also marketed as 'Navegante Robusto' on some retailer pages"
+    },
+    {
+      "name": "Belicoso",
+      "size": "5.5 x 55",
+      "notes": "Also marketed as 'Almirante Belicoso'"
+    },
+    {
+      "name": "Gordo",
+      "size": "6 x 58",
+      "notes": "Also marketed as 'Virrey Gordo'"
+    },
+    {
+      "name": "Toro Redondo",
+      "size": "6.5 x 55",
+      "notes": "Official name is 'Toro Redondo' (rounded/perfecto-cap toro). Mac photo library has both a 'Toro' and 'Toro-Redondo' file at this same size - almost certainly duplicate photos of this one vitola, not two distinct shapes; no evidence of a separate plain 'Toro' in this line."
+    },
+    {
+      "name": "Double Corona",
+      "size": "7.5 x 55",
+      "notes": "Added later as the line's 7th size overall, released ~2021."
+    }
+  ],
+  "research_notes": "Confirmed genuine and currently sold by major retailers (JR Cigars, Casa de Montecristo, Atlantic Cigar, Cigars.com, CigarPage, Mike's Cigars) and on the official ajfcigars.com site under /cigars/new-world/oscuro/.",
+  "research_sources": [
+    "https://www.jrcigars.com/cigars/handmade-cigars/aj-fernandez-cigars/new-world-oscuro-by-aj-fernandez/",
+    "https://www.casademontecristo.com/cigars/handmade-cigars/aj-fernandez-cigars/new-world-oscuro-by-aj-fernandez/",
+    "https://atlanticcigar.com/new-world-oscuro-by-aj-fernandez/",
+    "https://ajfcigars.com/cigars/new-world/oscuro/",
+    "https://halfwheel.com/aj-fernandez-adds-new-world-double-corona/385990/",
+    "https://halfwheel.com/new-world-double-corona/390864/"
+  ]
+}

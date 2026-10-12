@@ -1,0 +1,78 @@
+{
+  "brand": {
+    "name": "Montosa",
+    "description": "Produced by Arnold André (Dominican factory, est. 2011); distributed in the U.S. by United Cigars, alongside Red Anchor and La Gianna Havana. Tobaccos sourced from the Cibao Valley, Dominican Republic. Montosa Maduro named 'Cigar of the Year 2022' by The Cigar Authority.",
+    "origin_country": "Dominican Republic"
+  },
+  "lines": [
+    {
+      "line": {
+        "name": "Montosa Natural",
+        "wrapper": "Ecuador Connecticut",
+        "binder": "Mexican",
+        "filler": "Dominican Piloto, Dominican Criollo, Indonesian",
+        "strength": "Mild to medium-bodied"
+      },
+      "vitolas": [
+        {
+          "name": "Short Robusto",
+          "size": null
+        },
+        {
+          "name": "Robusto",
+          "size": null
+        },
+        {
+          "name": "Toro",
+          "size": null
+        },
+        {
+          "name": "Churchill",
+          "size": null
+        },
+        {
+          "name": "Gigante",
+          "size": "6 x 60 (added 2025)"
+        }
+      ]
+    },
+    {
+      "line": {
+        "name": "Montosa Maduro",
+        "wrapper": "Mexican San Andrés",
+        "binder": "Brazilian",
+        "filler": "Dominican, Brazilian, Nicaraguan",
+        "strength": "Fuller-bodied; earthy, spice, pepper"
+      },
+      "vitolas": [
+        {
+          "name": "Short Robusto",
+          "size": "3.875 x 54"
+        },
+        {
+          "name": "Robusto",
+          "size": "4.78 x 50"
+        },
+        {
+          "name": "Toro",
+          "size": "5.9 x 50"
+        },
+        {
+          "name": "Churchill",
+          "size": "6.34 x 50"
+        },
+        {
+          "name": "Gordo/Gigante",
+          "size": "6 x 60"
+        }
+      ]
+    }
+  ],
+  "research_notes": "Filenames 'Montos-Mad-Rob'/'Montos-Mad-Tor' are truncated/typo spellings of Montosa Maduro Robusto/Toro, not a separate line.",
+  "research_sources": [
+    "https://unitedcigargroup.com/montosa-maduro/",
+    "https://cigardojo.com/2025/04/montosa-introduces-new-6-x-60-gigante-size/",
+    "https://stogiepress.com/cigar-news-montosa-cigars-expands-line-with-6-x-60-gigante/",
+    "https://www.2guyscigars.com/montosa-cigars/"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "line": {
+    "name": "La Flor Dominicana Ligero",
+    "slug": "la-flor-dominicana-ligero",
+    "description": "A separate numbered series from the already-listed 'Double Ligero' line - filenames use a plain 'L' prefix (L300, L400) rather than 'DL,' and research confirms these are genuinely two different LFD lines, not a numbering quirk of the same line. Offered in Natural and Oscuro (darkest Ecuadorian Sumatra) wrapper styles, sometimes called 'Ligero Oscuro.'",
+    "wrapper": "Ecuadorian Sumatra (Natural or Oscuro/darkest styles)",
+    "binder": "Dominican",
+    "filler": "Dominican (grown on LFD's own farm)",
+    "factory": null,
+    "status": "current (appears to be a longer-running regular-production line; exact launch year not confirmed this session)"
+  },
+  "vitolas": [
+    {
+      "name": "L300",
+      "size": "5.75 x 50 (Toro)",
+      "notes": "Matches the Mac photo (Oscuro variant).",
+      "sources": [
+        "https://www.cigaraficionado.com/ratings/5377/name/la-flor-dominicana-ligero-l300",
+        "https://thecigarauthority.com/la-flor-dominicana-l300-cabinet/"
+      ]
+    },
+    {
+      "name": "L400",
+      "size": "5.75 x 54",
+      "notes": "Matches the Mac photos (both Natural and Oscuro variants).",
+      "sources": [
+        "https://www.coronacigar.com/la-flor-dominicana-ligero-cabinet-l400"
+      ]
+    },
+    {
+      "name": "L500",
+      "size": "5.75 x 60",
+      "notes": "Found in sourcing but has no matching Mac photo this batch - included for completeness of the confirmed lineup.",
+      "sources": [
+        "https://coronacigar.com/la-flor-dominicana-ligero-cabinet-l500"
+      ]
+    }
+  ],
+  "research_notes": "Factory and launch year not confirmed in sources found - left null/unconfirmed rather than guessed. MSRP not found.",
+  "research_sources": [
+    "https://www.cigaraficionado.com/ratings/5377/name/la-flor-dominicana-ligero-l300",
+    "https://thecigarauthority.com/la-flor-dominicana-l300-cabinet/",
+    "https://www.coronacigar.com/la-flor-dominicana-ligero-cabinet-l400",
+    "https://coronacigar.com/la-flor-dominicana-ligero-cabinet-l500"
+  ]
+}

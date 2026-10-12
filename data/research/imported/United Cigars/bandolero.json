@@ -1,0 +1,128 @@
+{
+  "brand": {
+    "name": "Bandolero",
+    "description": "Created by Nelson Alfonso (founder of Selected Tobacco S.A.); distributed in the U.S. by United Cigars (David Garofalo's company). Blends are largely undisclosed/proprietary. Organized into three core series distinguished by wrapper shade, plus a newer premium line.",
+    "origin_country": "Costa Rica (rolled at Tabacos de Costa Rica, Puriscal; Premium line aged in Madrid, Spain)",
+    "founded": "Selected Tobacco founded 2012; Bandolero line introduced ~2014"
+  },
+  "lines": [
+    {
+      "line": {
+        "name": "Bandolero Serie A (Aventureros)",
+        "wrapper": "Ecuadorian (darkest of the three series)",
+        "binder": null,
+        "filler": "Undisclosed + Peruvian seco",
+        "strength": "Medium"
+      },
+      "vitolas": [
+        {
+          "name": "Salvajes",
+          "size": "4.125 x 50"
+        },
+        {
+          "name": "Audaces",
+          "size": "4.5 x 54"
+        },
+        {
+          "name": "Osados",
+          "size": "5 x 42"
+        },
+        {
+          "name": "Sagaces",
+          "size": "5.375 x 46"
+        }
+      ]
+    },
+    {
+      "line": {
+        "name": "Bandolero Serie C (Clandestinos)",
+        "wrapper": "Ecuadorian Connecticut (lightest of the three series)",
+        "binder": null,
+        "filler": "Undisclosed, includes Peruvian leaf",
+        "strength": "Medium to medium-full"
+      },
+      "vitolas": [
+        {
+          "name": "Barbaros",
+          "size": "4.5 x 60"
+        },
+        {
+          "name": "Soberbios",
+          "size": "5.5 x 50"
+        },
+        {
+          "name": "Colosales",
+          "size": "6 x 54",
+          "notes": "Mac filename spells it 'Colasales'; correct product name is 'Colosales'."
+        },
+        {
+          "name": "Traviesos",
+          "size": "5 x 50"
+        }
+      ]
+    },
+    {
+      "line": {
+        "name": "Bandolero Serie T (Traficantes)",
+        "wrapper": "Natural/Colorado-shade (medium hue, between Serie A and C)",
+        "binder": null,
+        "filler": "Undisclosed; Peruvian ligero noted for Tremendos",
+        "strength": "Medium to medium-full"
+      },
+      "vitolas": [
+        {
+          "name": "Picaros",
+          "size": "5.5 x 54"
+        },
+        {
+          "name": "Pretenciosos",
+          "size": "6.5 x 60"
+        },
+        {
+          "name": "Tremendos",
+          "size": "5 x 50"
+        },
+        {
+          "name": "Vanidosos",
+          "size": "6 x 54"
+        }
+      ]
+    },
+    {
+      "line": {
+        "name": "Bandolero Premium",
+        "wrapper": "Ecuadorian Habano 2000",
+        "binder": "Nicaraguan",
+        "filler": "Nicaraguan ligero + Peruvian",
+        "strength": "Medium",
+        "notes": "Launched ~2025; rolled at Tabacos de Costa Rica, then aged 3 years in Madrid, Spain in cedar-lined humidors."
+      },
+      "vitolas": [
+        {
+          "name": "Ironicos",
+          "size": "4.5 x 50"
+        },
+        {
+          "name": "Bravos",
+          "size": "5.25 x 52",
+          "notes": "A 5.25x52 'Bravos' vitola also existed in the original ~2014 Bandolero lineup (5-cigar Premium Pack with humitubes) - filenames may reference either release; sizes match either way."
+        },
+        {
+          "name": "Magnificos",
+          "size": "6 x 55"
+        }
+      ]
+    }
+  ],
+  "research_notes": "Two filenames could not be decoded and are excluded: UC-Bandolero_Band-Osa-Fix_01.jpg and UC-Bandolero_Bando-Ash-Pack_01.jpg (no matching product found; the latter may be an accessory/ashtray shot).",
+  "research_sources": [
+    "https://halfwheel.com/united-cigars-adds-bandolero-premium/448932/",
+    "https://cigar-coop.com/2014/06/cigar-review-bandolero-bravos-by.html",
+    "https://cigar-coop.com/2025/10/bandolero-premium-bravos-by-selected-tobacco-cigar-review.html",
+    "https://blindmanspuff.com/united-cigars-bandolero-serie-a-aventureros-sagaces-blind-cigar-review/",
+    "https://atlanticcigar.com/bandolero-serie-c-clandestinos-colosales-6x54/",
+    "https://www.smokeinn.com/Bandolero-Series-C/",
+    "https://www.smokeinn.com/Bandolero-Series-T/",
+    "https://www.cigarjournal.com/bandolero-is-the-2022-le-firecracker/"
+  ]
+}

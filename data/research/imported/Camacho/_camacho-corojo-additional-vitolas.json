@@ -1,0 +1,26 @@
+{
+  "line_slug": "camacho-corojo",
+  "note": "Site lists Corojo with Churchill (7x48), Robusto (5x50), Toro (6x50). Mac photos show 2 additional vitolas.",
+  "additional_vitolas": [
+    {
+      "name": "Corojo BXP Toro (Box Press)",
+      "size": "6 x 50",
+      "notes": "A box-pressed version of the standard Toro. Matches the Mac photo.",
+      "sources": [
+        "https://mikescigars.com/camacho-corojo-bxp-toro"
+      ]
+    },
+    {
+      "name": "Gigante",
+      "size": "6.5 x 54",
+      "notes": "Confirmed as a distinct vitola from 'Gordo' (6x60, a separate size per a 2015 Cigar Coop article listing both side by side). Matches the Mac photo.",
+      "sources": [
+        "https://cigar-coop.com/2015/01/cigar-news-camacho-corojo-adds-gordo.html"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://mikescigars.com/camacho-corojo-bxp-toro",
+    "https://cigar-coop.com/2015/01/cigar-news-camacho-corojo-adds-gordo.html"
+  ]
+}

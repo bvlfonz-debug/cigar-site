@@ -1,0 +1,19 @@
+{
+  "line_slug": "the-american",
+  "note": "Site lists Churchill, Double Robusto, Robusto, Toro. Mac photo confirms a 5th real, current vitola not on the site: Torpedo. A 6th vitola, 'President' (7x47), also exists per jcnewman.com's own product page but has no corresponding Mac photo, so it's flagged here rather than formally added.",
+  "additional_vitolas": [
+    {
+      "name": "Torpedo",
+      "size": "6.25 x 52 per jcnewman.com's current listing; note sizing has varied slightly across years/retailers (6.125x52 at 2019 launch per Cigar Aficionado/halfwheel, 6.5x52 at some current retailers) - treat 6.25-6.5 x 52 as the verified range.",
+      "sources": [
+        "https://www.jcnewman.com/cigar/the-american/",
+        "https://www.coronacigar.com/the-american-torpedo/"
+      ]
+    }
+  ],
+  "not_photographed_flag": "President (7x47) - real per jcnewman.com, no Mac photo, not added.",
+  "research_sources": [
+    "https://www.jcnewman.com/cigar/the-american/",
+    "https://halfwheel.com/the-american-double-robusto/404330/"
+  ]
+}

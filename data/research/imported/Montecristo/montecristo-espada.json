@@ -1,0 +1,70 @@
+{
+  "line": {
+    "name": "Montecristo Espada",
+    "slug": "montecristo-espada",
+    "description": "Not on the site. Three distinct sub-lines under the Espada name, each a genuinely different blend, not just vitola variants of one product.",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Espada (original) - Ricasso",
+      "size": "5 x 54",
+      "notes": "Habano Jalapa 2010 wrapper, 2009 Jalapa binder, tri-vintage habano filler. Released 2014.",
+      "sources": [
+        "https://halfwheel.com/espada-montecristo-arrives-stores/64842/"
+      ]
+    },
+    {
+      "name": "Espada (original) - Guard",
+      "size": "6 x 50",
+      "sources": [
+        "https://halfwheel.com/espada-montecristo-arrives-stores/64842/"
+      ]
+    },
+    {
+      "name": "Espada (original) - Quillon",
+      "size": "6 x 56",
+      "sources": [
+        "https://halfwheel.com/espada-montecristo-arrives-stores/64842/"
+      ]
+    },
+    {
+      "name": "Espada Oscuro - Ricasso",
+      "size": "5 x 54",
+      "notes": "All-Nicaraguan Plasencia tobacco, habano rosado oscuro wrapper.",
+      "sources": [
+        "https://halfwheel.com/montecristo-espada-oscuro-slated-for-may/298270/"
+      ]
+    },
+    {
+      "name": "Espada Oscuro - Guarde",
+      "size": "6 x 50",
+      "sources": [
+        "https://halfwheel.com/montecristo-espada-oscuro-slated-for-may/298270/"
+      ]
+    },
+    {
+      "name": "Espada Oscuro - Quillon",
+      "size": "7 x 56",
+      "notes": "Note: size differs from the original Espada's Quillon (6x56).",
+      "sources": [
+        "https://halfwheel.com/montecristo-espada-oscuro-slated-for-may/298270/"
+      ]
+    },
+    {
+      "name": "Espada Signature - Valiente",
+      "size": "6 x 55 (Toro Gordo)",
+      "notes": "Jalapa Colorado Claro wrapper, Nicaraguan binder/filler. Limited release. Only this one vitola confirmed - full Signature lineup unverified.",
+      "sources": [
+        "https://halfwheel.com/espada-by-montecristo-signature-heading-to-stores-next-month/402569/",
+        "https://halfwheel.com/montecristo-espada-signature-valiente/407633/"
+      ]
+    }
+  ],
+  "research_notes": "Additional Espada sub-lines 'Estoque' and 'Conquistador' were referenced in passing during research but not independently verified - not added.",
+  "research_sources": [
+    "https://halfwheel.com/espada-montecristo-arrives-stores/64842/",
+    "https://halfwheel.com/montecristo-espada-oscuro-slated-for-may/298270/",
+    "https://halfwheel.com/espada-by-montecristo-signature-heading-to-stores-next-month/402569/"
+  ]
+}

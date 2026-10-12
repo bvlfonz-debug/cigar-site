@@ -1,0 +1,75 @@
+{
+  "brand": "AJ Fernandez",
+  "brand_slug": "aj-fernandez",
+  "note": "Paths are relative to 'Cigar Images/AJ Fernandez/' in the connected folder on the user's Mac. Unlike other batches, almost every one of AJ Fernandez's 12 Mac line-folders already matched an existing site line exactly - this batch found gaps WITHIN folders (missing vitolas/wrapper variants the site's listing is missing) and a few sub-lines whose photos were mixed into a parent folder rather than getting their own subfolder. This schema has no photo field, so this manifest maps each researched file to its source photo folder for a separate image-upload step.",
+  "gap_fill_supplements": {
+    "_last-call-additional-vitolas": {
+      "folder": "Cigar Images/AJ Fernandez/Last Call by AJ Fernandez",
+      "photo_count": 16,
+      "detail": "10 vitola photos (5 vitolas x Habano/Maduro) plus 6 box/logo photos"
+    },
+    "_bellas-artes-maduro-additional-vitolas": {
+      "folder": "Cigar Images/AJ Fernandez/Bellas Artes",
+      "photo_count": 1,
+      "detail": "Bellas-Artes-Maduro-Lancero-7-x-40-1.jpg only; rest of this folder's photos map to the already-on-site Bellas Artes / Bellas Artes Maduro lines"
+    },
+    "_new-world-cameroon-additional-vitolas": {
+      "folder": "Cigar Images/AJ Fernandez/New World",
+      "photo_count": 1,
+      "detail": "New-World-Cameroon-Torpedo-6.5-×-52.jpg only; rest of New World Cameroon's photos map to already-on-site vitolas"
+    }
+  },
+  "new_lines": {
+    "new-world-oscuro": {
+      "folder": "Cigar Images/AJ Fernandez/New World",
+      "photo_count": 7,
+      "files": [
+        "New-World-Oscuro-Belicoso-5-1_2-x-55.jpg",
+        "New-World-Oscuro-Doble-Corona-7-1_2-x-55.jpg",
+        "New-World-Oscuro-Gordo-6-x-58-1.jpg",
+        "New-World-Oscuro-Gordo-6-x-58.jpg",
+        "New-World-Oscuro-Robusto-5-1_2-x-55.jpg",
+        "New-World-Oscuro-Toro-6-1_2-x-55.jpg",
+        "New-World-Oscuro-Toro-Redondo-6-1-2-x-55.jpg",
+        "New-World-OscuroCigar-Box-Closed.png",
+        "New-World-Oscuro-Cigar-Box-1.png",
+        "New-World-Oscuro-Cigar-Box.png"
+      ]
+    },
+    "enclave-connecticut": {
+      "folder": "Cigar Images/AJ Fernandez/Enclave by AJ Fernandez",
+      "photo_count": 1,
+      "files": [
+        "Enclave-Connecticut-by-A.J.-Fernandez.jpeg"
+      ]
+    },
+    "san-lotano-dominicano": {
+      "folder": "Cigar Images/AJ Fernandez/San Lotano Requiem",
+      "photo_count": 6,
+      "files": [
+        "San-Lotano-Dominicano-AJ-Fernandez-Cigars-Background-1.jpg",
+        "San-Lotano-Dominicano-BOXES.png",
+        "San-Lotano-Dominicano-Cigar-Box-Closed.png",
+        "San-Lotano-Dominicano-Torpedo-6-1_2-x-52.jpg",
+        "San-lotano-Dominicano-Cigar-Box-1.png",
+        "San-lotano-Dominicano-Cigar-Box.png"
+      ]
+    }
+  },
+  "already_matched_no_gap": [
+    "AJ Fernandez Dias de Gloria",
+    "Bellas Artes (= site's Bellas Artes Hybrid)",
+    "Bellas Artes Maduro (except Lancero, see above)",
+    "Enclave by AJ Fernandez (= site's Enclave Habano)",
+    "Enclave Broadleaf",
+    "New World",
+    "New World Connecticut",
+    "New World Dorado",
+    "New World Puro Especial",
+    "Ramon Allones by AJ Fernandez",
+    "San Lotano Requiem",
+    "San Lotano Requiem Connecticut",
+    "San Lotano Requiem Maduro",
+    "San Lotano The Bull"
+  ]
+}

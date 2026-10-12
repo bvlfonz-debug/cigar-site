@@ -1,0 +1,21 @@
+{
+  "note": "Supplementary file - NOT a new line. 'Supreme Leaf' already exists on the site (Toro, 6x54). Adding genuine additional vitolas the site is missing.",
+  "line_name": "Supreme Leaf",
+  "additional_vitolas": [
+    {
+      "name": "Corona Gorda",
+      "size": "6 x 46 (box-pressed)",
+      "notes": "Released Feb 2021, a past rotating release per Aganorsa's own site."
+    },
+    {
+      "name": "Gran Toro",
+      "size": "6 x 56",
+      "notes": "Summer 2025 release; halfwheel explicitly states this was 'the largest format we ever released in this blend' - trust halfwheel's 6x56 over a couple of retailer listings that give 6x54/6x58."
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/supreme-leaf-corona-gorda/391146/",
+    "https://halfwheel.com/supreme-leaf-gran-toro/455031/",
+    "https://aganorsaleaf.com/cigars/aganorsa-leaf-supreme-leaf/"
+  ]
+}

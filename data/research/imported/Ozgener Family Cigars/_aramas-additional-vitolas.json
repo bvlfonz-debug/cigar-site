@@ -1,0 +1,38 @@
+{
+  "line_slug": "ozgener-aramas",
+  "note": "Site lists only A52 (5x52). Mac box photos show 3 more, all verified.",
+  "additional_vitolas": [
+    {
+      "name": "A54 (Torpedo)",
+      "size": "6.25 x 54",
+      "sources": [
+        "cigar-coop.com/2023/03/cigar-news-ozgener-family-cigars-announces-aramas-line.html"
+      ]
+    },
+    {
+      "name": "A55",
+      "size": "5.5 x 55",
+      "sources": [
+        "cigar-coop.com/2023/03/cigar-news-ozgener-family-cigars-announces-aramas-line.html"
+      ]
+    },
+    {
+      "name": "A60",
+      "size": "6 x 60",
+      "sources": [
+        "cigar-coop.com/2023/03/cigar-news-ozgener-family-cigars-announces-aramas-line.html"
+      ]
+    }
+  ],
+  "line_details_for_reference": {
+    "wrapper": "Mexican San Andres",
+    "binder": "Ecuadorian Sumatra",
+    "filler": "Dominican Republic, Nicaragua, Connecticut Broadleaf",
+    "factory": "Tabacalera La Alianza (Ernesto Perez-Carrillo), Dominican Republic",
+    "release": "Debuted at 2023 TAA Convention (March 2023), shipped April 2023",
+    "name_origin": "Blend of 'Ararat' + 'Masis' (Mt. Ararat, Eastern Turkey) - homage to founder Tim Ozgener's father"
+  },
+  "research_sources": [
+    "https://cigar-coop.com/2023/03/cigar-news-ozgener-family-cigars-announces-aramas-line.html"
+  ]
+}

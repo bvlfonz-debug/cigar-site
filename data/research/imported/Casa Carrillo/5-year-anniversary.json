@@ -1,0 +1,69 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo 5 Year Anniversary",
+    "slug": "5-year-anniversary",
+    "wrapper": "Ecuadorian Sumatra",
+    "binder": "Ecuadorian Corojo '99",
+    "filler": "Nicaraguan (Esteli, Condega & Jalapa)",
+    "strength": "Medium-Full",
+    "release_year": 2014,
+    "background_text": "Released August 15, 2014 to commemorate the fifth anniversary of E.P. Carrillo, the company Ernesto Perez-Carrillo founded in 2009 after leaving General Cigar. A limited, one-time fall release produced in only 3,000 ten-count boxes, made at Tabacalera La Alianza in the Dominican Republic."
+  },
+  "vitolas": [
+    {
+      "size_name": "Double Robusto (Toro)",
+      "slug": "double-robusto",
+      "length_in": 6.5,
+      "ring_gauge": 54,
+      "vitola_type": "Toro",
+      "summary_review": "A very strong, coffee- and pepper-forward cigar considered one of the boldest releases in the E.P. Carrillo catalog; halfwheel scored it 85, Cigar Coop scored it 92.",
+      "tasting_notes": [
+        "pepper",
+        "coffee",
+        "earth",
+        "wood",
+        "char",
+        "cream",
+        "oak",
+        "banana",
+        "natural tobacco sweetness"
+      ],
+      "smoke_time_min": 130,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "halfwheel",
+          "source_type": "critic",
+          "score": 85,
+          "score_scale": "100",
+          "review_date": null,
+          "url": "https://halfwheel.com/e-p-carrillo-5-year-anniversary/",
+          "key_notes_text": "Strongest E.P. Carrillo cigar the reviewer could recall; robust coffee, earth, wood, pepper."
+        },
+        {
+          "source_name": "Cigar Coop",
+          "source_type": "critic",
+          "score": 92,
+          "score_scale": "100",
+          "review_date": "2014-10-01",
+          "url": "https://cigar-coop.com/2014/10/cigar-review-ep-carrillo-5-year.html",
+          "key_notes_text": "Pepper blast opening into coffee, cream, oak and banana; medium-to-full moving to full."
+        }
+      ]
+    }
+  ],
+  "research_notes": "Only one vitola (6.5x54) found. Distinct from the later 'E.P. Carrillo 15 Year Anniversary' line. Some retailers list it as '5th Year Anniversary' - same product.",
+  "research_sources": [
+    {
+      "url": "https://halfwheel.com/e-p-carrillo-5-year-anniversary/",
+      "supports": "blend, size, release date, box count, score, tasting notes"
+    },
+    {
+      "url": "https://cigar-coop.com/2014/10/cigar-review-ep-carrillo-5-year.html",
+      "supports": "background, blend, score, tasting notes"
+    }
+  ]
+}

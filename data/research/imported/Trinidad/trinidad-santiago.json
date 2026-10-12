@@ -1,0 +1,42 @@
+{
+  "line": {
+    "name": "Trinidad Santiago",
+    "slug": "trinidad-santiago",
+    "description": "Dominican puro released September 2017, positioned by Altadis USA/Rafael Nodal as the start of a 'resurrection' of the Trinidad brand and the first regular-production Trinidad release since the 2012 limited 'Trinidad Paradox.'",
+    "wrapper": "Dominican",
+    "binder": "Dominican",
+    "filler": "Dominican",
+    "factory": "Tabacalera Palma, Santiago, Cibao Valley, Dominican Republic",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Corona",
+      "size": "5 x 48",
+      "sources": [
+        "https://cigar-coop.com/2017/09/cigar-news-altadis-u-s-a-releasing-trinidad-santiago.html"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://cigar-coop.com/2017/09/cigar-news-altadis-u-s-a-releasing-trinidad-santiago.html"
+      ]
+    },
+    {
+      "name": "Belicoso",
+      "size": "6 x 52",
+      "notes": "Confirmed as a Cigar Aficionado 2018 Top 25 entry.",
+      "sources": [
+        "https://cigar-coop.com/2017/09/cigar-news-altadis-u-s-a-releasing-trinidad-santiago.html",
+        "https://www.cigaraficionado.com/top25cigar/trinidad-santiago-belicoso-2018"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://cigar-coop.com/2017/09/cigar-news-altadis-u-s-a-releasing-trinidad-santiago.html",
+    "https://www.cigaraficionado.com/top25cigar/trinidad-santiago-belicoso-2018"
+  ]
+}

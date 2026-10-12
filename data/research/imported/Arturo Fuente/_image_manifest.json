@@ -1,0 +1,31 @@
+{
+  "brand": "Arturo Fuente",
+  "brand_slug": "arturo-fuente",
+  "note": "Paths are relative to 'Cigar Images/Arturo Fuente/' in the connected folder on the user's Mac. Before this research batch: 6 loose files sat at the top level. 5 were abbreviated OpusX box-open photos (decoded via research and moved into 'Fuente Fuente OpusX' with clear names); 1 was a 'Father and Son' sampler photo, renamed in place with a flag on its unverified '26-cigar' count claim. The existing 6 line subfolders (Anejo Reserva, Casa Cuba, Don Carlos, Gran Reserva, Hemingway, OpusX) were otherwise already reasonably organized; Casa Cuba's 6 vitola photo filenames were corrected to their real official names (see _casa-cuba-additional-vitolas.json).",
+  "gap_fill_supplements": {
+    "_casa-cuba-additional-vitolas": {
+      "source_folder": "Cigar Images/Arturo Fuente/Arturo Fuente Casa Cuba"
+    },
+    "_gran-reserva-additional-vitolas": {
+      "source_folder": "Cigar Images/Arturo Fuente/Arturo Fuente Gran Reserva"
+    },
+    "_opusx-additional-vitolas": {
+      "source_folder": "Cigar Images/Arturo Fuente/Fuente Fuente OpusX"
+    }
+  },
+  "renamed_files": {
+    "casa_cuba_folder": "Cinco->Doble-Cinco, Divine->Divine-Inspiration, Dos->Doble-Dos, Quatro->Doble-Cuatro, Seis->Doble-Seis, Tres->Doble-Tres (all in Arturo Fuente Casa Cuba/)",
+    "opusx_folder_additions": "Moved in and renamed from top-level loose files: Opus-Angel-Rob -> ...Angels-Share-Robusto, Opus-Beli-Xxx-5 -> ...Belicoso-XXX (trailing '5' dropped as unverified/not part of the official name), Opus-Oro-Fuent -> ...Oro-UNVERIFIED-which-release (left ambiguous, see supplement flag), Opus-Perf-4 -> ...PerfecXion-No4, Opus-Sup-Beli -> ...Super-Belicoso",
+    "top_level_remaining": "ArturoFuente_Fuente-Father-Son-26-Sampler_01.jpg -> Arturo-Fuente_Father-and-Son-Sampler_UNVERIFIED-count_01.jpg (renamed in place, left at top level - real recurring Fuente sampler product but the specific '26-cigar' count could not be verified against any documented edition; most editions found were 5 or 10-cigar boxes). Two untouched press-magazine PNGs (FuenteDonCarlos_EssentialCigars_CigarPressMagazine.png, FuenteOpusXCigar_EssentialCigars_CigarPress.png) left as-is per the project's usual convention."
+  },
+  "not_actionable_no_gap_identified": {
+    "Arturo Fuente Anejo Reserva": "Only 1 generic vitola-agnostic product photo plus 2 stock front/back band images - no specific vitola name to cross-reference against the site's 7-vitola listing, so no gap could be identified or filled from this photo set.",
+    "Arturo Fuente Don Carlos": "Folder contains only people/marketing photos (Carlos Fuente Jr. and Miguel Angel Garcia, a 'Carlos Stanford' photo, a 'trupet_carlos' photo of unclear subject) - no per-vitola product photos at all, so no gap could be identified against the site's 9-vitola listing.",
+    "Arturo Fuente Hemingway": "Only 1 generic vitola-agnostic product photo plus 1 stock back band image - no specific vitola name to cross-reference against the site's 7-vitola listing."
+  },
+  "already_matched_no_gap": [
+    "OpusX Super Belicoso (5.5x52) - exact match to site listing",
+    "OpusX PerfecXion No. 4 (Mac photo) likely = site's 'PerfecXion No. 4 Series X' - same core vitola, no separate entry added",
+    "Casa Cuba Doble Cinco (5x50) - exact match to site listing, Mac photo just had an abbreviated filename, now corrected"
+  ]
+}

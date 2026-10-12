@@ -1,0 +1,46 @@
+{
+  "line": {
+    "name": "Trinidad x Tommy Bahama Island Collection",
+    "slug": "trinidad-x-tommy-bahama-island-collection",
+    "description": "A collaboration between Altadis USA and the Tommy Bahama lifestyle brand, conceived by Rafael Nodal and A.J. Fernandez. IMPORTANT CORRECTION FROM MAC FOLDER NAME: the Mac folder was named 'Trinidad Tommy Breeze,' but research confirms 'Breeze' is a VITOLA within this line, not a standalone line - modeled correctly here as one line with 3 vitolas. Announced for a late-summer/September 2025 launch. Marketed as an 'elegant, relaxed, island-inspired' lifestyle collaboration; medium body.",
+    "wrapper": "All-Nicaraguan (specific wrapper seed varietal not disclosed in sources reviewed)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "factory": "Tabacalera A.J. Fernandez Cigars de Nicaragua S.A., Esteli, Nicaragua",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Harbor",
+      "size": "5 x 52 (UNVERIFIED - one source gives 6x52; unresolved conflict between Cigar Aficionado and Cigar Coop)",
+      "notes": "Also available as a 4-count pack.",
+      "sources": [
+        "https://www.cigaraficionado.com/article/trinidad-by-tommy-bahama-island-collection-set-for-late-summer-launch",
+        "https://cigar-coop.com/2026/07/trinidad-x-tommy-bahama-island-collection-breeze-cigar-review.html"
+      ]
+    },
+    {
+      "name": "Breeze",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo. $17.50 SRP.",
+      "sources": [
+        "https://halfwheel.com/altadis-u-s-a-announces-trinidad-by-tommy-bahama-island-collection/452745/",
+        "https://cigar-coop.com/2026/07/trinidad-x-tommy-bahama-island-collection-breeze-cigar-review.html"
+      ]
+    },
+    {
+      "name": "Marlin",
+      "size": "6 x 60",
+      "notes": "$18.50 SRP.",
+      "sources": [
+        "https://halfwheel.com/altadis-u-s-a-announces-trinidad-by-tommy-bahama-island-collection/452745/"
+      ]
+    }
+  ],
+  "research_notes": "Harbor's size conflicts between sources (5x52 vs 6x52) - not resolved. All boxes are standard 20-count.",
+  "research_sources": [
+    "https://halfwheel.com/altadis-u-s-a-announces-trinidad-by-tommy-bahama-island-collection/452745/",
+    "https://cigar-coop.com/2026/07/trinidad-x-tommy-bahama-island-collection-breeze-cigar-review.html",
+    "https://www.cigaraficionado.com/article/trinidad-by-tommy-bahama-island-collection-set-for-late-summer-launch"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "line": {
+    "brand_slug": "lampert",
+    "name": "Lampert 1675 Edición Verde",
+    "slug": "lampert-1675-edicion-verde",
+    "wrapper": "Mexican San Andrés Negro",
+    "binder": null,
+    "filler": null,
+    "strength": "Full",
+    "release_year": 2025,
+    "background_text": "Edición Verde is the fifth blend released in Lampert's 1675 Edición Series, debuting at InterTabac 2025. Manufactured at AgroIndustrial Nicaraguense de Tabacos S.A.; each vitola is oval-pressed and uses tobacco aged five years, positioned as Lampert's fullest-bodied 1675 release to date. Only the Toro Grande ships to the U.S.; Robusto Grande and Short Robusto are Europe-only."
+  },
+  "vitolas": [
+    {
+      "size_name": "Toro Grande",
+      "slug": "toro-grande",
+      "length_in": 6,
+      "ring_gauge": 56,
+      "vitola_type": "Toro Grande (oval press)",
+      "summary_review": "A medium-plus to full-bodied smoke dominated by gritty earth and creamy leather with dry hay, dark chocolate, oak, espresso, and cocoa nib notes; halfwheel scored it 86/100, finding the profile fairly straightforward.",
+      "tasting_notes": [
+        "gritty earth",
+        "creamy leather",
+        "dry hay",
+        "dark chocolate",
+        "oak",
+        "espresso",
+        "cocoa nibs",
+        "light red pepper (retrohale)"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [],
+      "critic_reviews": [
+        {
+          "source_name": "halfwheel",
+          "source_type": "critic",
+          "score": 86,
+          "score_scale": "100",
+          "review_date": "2026-03-01",
+          "url": "https://halfwheel.com/lampert-1675-edicion-verde-toro-grande/470830/",
+          "key_notes_text": "86/100; gritty earth, creamy leather, dry hay, dark chocolate, oak, espresso, cocoa nibs; medium-plus to full body."
+        }
+      ]
+    },
+    {
+      "size_name": "Robusto Grande",
+      "slug": "robusto-grande",
+      "length_in": 5,
+      "ring_gauge": 54,
+      "vitola_type": "Robusto Grande (oval press)",
+      "summary_review": "European-market-only release; not distributed in the U.S. No independent review found.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Short Robusto",
+      "slug": "short-robusto",
+      "length_in": 4,
+      "ring_gauge": 54,
+      "vitola_type": "Short Robusto (oval press)",
+      "summary_review": "European-market-only release; not distributed in the U.S. No independent review found.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Confirmed distinct 1675 blend - Mexican San Andrés Negro wrapper, undisclosed binder/filler, five-year-aged tobacco, oval press, fuller strength target than Azúl/Rojo/Morado. NOTE: a separate, different product called 'Lampert 1593 Edición Verde' also exists (different numbered series) - do not conflate the two 'Verde' editions. 'Edición El Chapo' was also investigated as a possible 4th 1675 gap but could NOT be verified as a real product (see README) - excluded from this batch.",
+  "research_sources": [
+    {
+      "url": "https://halfwheel.com/lampert-1675-edicion-verde-debuts-at-intertabac-2025/454874/",
+      "supports": "Debut: wrapper, five-year aging, series position, manufacturer, vitola sizes"
+    },
+    {
+      "url": "https://halfwheel.com/lampert-1675-edicion-verde-toro-grande/470830/",
+      "supports": "Full review: size, wrapper, strength, tasting notes, 86/100 score"
+    },
+    {
+      "url": "https://oxfordcigarcompany.com/lampert-1675-edicion-verde/",
+      "supports": "Full vitola spec table, U.S.-only availability of Toro Grande"
+    }
+  ]
+}

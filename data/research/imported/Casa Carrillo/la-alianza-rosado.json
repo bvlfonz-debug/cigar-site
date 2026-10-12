@@ -1,0 +1,82 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "Tabacalera La Alianza Rosado",
+    "slug": "la-alianza-rosado",
+    "wrapper": "Ecuadorian Rosado",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": null,
+    "release_year": 2016,
+    "background_text": "Launched alongside La Alianza Natural at the 2016 IPCPR trade show, uses an Ecuadorian Rosado wrapper and its own four vitolas, part of the Tabacalera La Alianza brand."
+  },
+  "vitolas": [
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Connoisseur No. 6",
+      "slug": "connoisseur-no-6",
+      "length_in": 6,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Unicos",
+      "slug": "unicos",
+      "length_in": 6.125,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Churchill Extra",
+      "slug": "churchill-extra",
+      "length_in": 7,
+      "ring_gauge": 54,
+      "vitola_type": "Churchill",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Cigar Aficionado has a rating page for this line but it could not be fetched (406 error) - score/notes left unverified rather than fabricated.",
+  "research_sources": [
+    {
+      "url": "https://cigar-coop.com/2016/08/cigar-news-e-p-carrillo-introduces-la-alianza-line-at-2016-ipcpr-trade-show.html",
+      "supports": "blend, vitola, box-count details"
+    },
+    {
+      "url": "https://www.cigaraficionado.com/ratings/20063",
+      "supports": "confirms a professional review exists (content not retrievable)"
+    }
+  ]
+}

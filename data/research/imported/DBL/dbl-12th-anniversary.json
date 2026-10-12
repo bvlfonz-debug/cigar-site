@@ -1,0 +1,46 @@
+{
+  "brand": {
+    "name": "DBL (Dominican Big Leaguer)",
+    "slug": "dbl",
+    "description": "Not on the site at all - confirmed absent from the site's full 112-brand index, and NOT related to 'Dunbarton Tobacco & Trust,' which IS a separate, unrelated listed brand (checked explicitly to avoid conflating the two). 'DBL' stands for 'Dominican Big Leaguer' - a baseball-themed boutique brand founded by Francisco Almonte, made at the company's own Dominican Republic factory, active since at least 2016 with a continuous release history through PCA 2026. Why it's absent from the site's index is unconfirmed - possibly an index gap, or it may be filed under 'Dominican Big Leaguer' elsewhere.",
+    "founded": null,
+    "founded_note": "Active releases documented from at least 2016 (IPCPR) through 2026; a precise founding year was not found in sources reviewed.",
+    "origin_country": "Dominican Republic",
+    "distributor": null,
+    "status": "current"
+  },
+  "line": {
+    "name": "DBL 12th Anniversary",
+    "slug": "dbl-12th-anniversary",
+    "description": "Regular production, released May 2025, offered in 2 wrapper variants.",
+    "wrapper": "Mexican sun-grown Habano, or Mexican sun-grown San Andres Maduro",
+    "binder": "Dominican Republic, Corojo 99",
+    "filler": "Dominican Republic, Criollo 98 and Carbonell",
+    "factory": "DBL's own factory, Dominican Republic",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Box-pressed (Habano)",
+      "size": "5.875 x 56, box-pressed, pigtail cap",
+      "notes": "Matches the Mac photo. $13/cigar; box of 12 (6 of each wrapper, $156) or box of 20 single-wrapper ($260).",
+      "sources": [
+        "https://halfwheel.com/pca-2025-dbl-cigars/450876/",
+        "https://halfwheel.com/dbl-ships-12th-anniversary-chengo/449252/"
+      ]
+    },
+    {
+      "name": "Box-pressed (Maduro)",
+      "size": "5.875 x 56, box-pressed, pigtail cap",
+      "notes": "Matches the Mac photo. Same pricing as the Habano variant.",
+      "sources": [
+        "https://halfwheel.com/pca-2025-dbl-cigars/450876/",
+        "https://halfwheel.com/dbl-ships-12th-anniversary-chengo/449252/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/pca-2025-dbl-cigars/450876/",
+    "https://halfwheel.com/dbl-ships-12th-anniversary-chengo/449252/"
+  ]
+}

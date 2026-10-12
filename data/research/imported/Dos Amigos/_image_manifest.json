@@ -1,0 +1,45 @@
+{
+  "brand": "Dos Amigos (1987)",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/Dos Amigos",
+  "note": "Dos Amigos is not on the site at all - full new brand object included. Confirmed as genuinely distinct from the site's existing unrelated 'Dos Hermanos' listing. 1 line added (2 vitolas) plus 1 unresolved flag. No file renames performed.",
+  "mappings": [
+    {
+      "json_file": "dos-amigos-1987.json",
+      "line_slug": "dos-amigos-1987",
+      "mac_folder": "Cigar Images/Dos Amigos",
+      "files": [
+        "DosAmigos_Robusto_01.jpg",
+        "DosAmigos_Toro_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "_dos-amigos-churchill-UNRESOLVED.json",
+      "line_slug": null,
+      "mac_folder": "Cigar Images/Dos Amigos",
+      "files": [
+        "DosAmigos_Churchill_01.jpg"
+      ],
+      "notes": "No source confirms a Churchill vitola exists for this brand - see the flag file."
+    }
+  ],
+  "not_added": [
+    {
+      "mac_folder": "Cigar Images/Dos Amigos",
+      "files": [
+        "DosAmigos_Churchill_01.jpg"
+      ],
+      "reason": "See _dos-amigos-churchill-UNRESOLVED.json - brand's documented catalog is only 2 vitolas (Robusto/Toro), no Churchill found anywhere."
+    },
+    {
+      "mac_folder": "Cigar Images/Dos Amigos",
+      "files": [
+        "DosAmigos_Product_Box-Open_01.jpg",
+        "DosAmigos_Product_Box-Open_02.jpg"
+      ],
+      "reason": "Generic box-open shots that could not be attributed to a specific vitola (Robusto vs. Toro) without viewing the images directly - not added as evidence for either vitola specifically, though the line itself is already documented from the other 2 photos."
+    }
+  ],
+  "already_on_site_no_action": []
+}

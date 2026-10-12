@@ -1,0 +1,55 @@
+{
+  "line": {
+    "name": "Trinidad Espiritu Series No. 3",
+    "slug": "trinidad-espiritu-series-no3",
+    "description": "Released late 2024, third entry in the Espiritu numbered series, themed around Mexican San Andres tobacco and tied to Dia de los Muertos.",
+    "wrapper": "Mexican San Andres",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "factory": "Tabacalera A.J. Fernandez, Esteli, Nicaragua",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "https://halfwheel.com/trinidad-espiritu-no-3-heading-to-stores-on-oct-31/429341/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://cigar-coop.com/2024/07/trinidad-espiritu-series-no-3-toro-by-altadis-usa-cigar-review.html"
+      ]
+    },
+    {
+      "name": "Magnum",
+      "size": "6 x 60",
+      "sources": [
+        "https://halfwheel.com/trinidad-espiritu-no-3-heading-to-stores-on-oct-31/429341/"
+      ]
+    },
+    {
+      "name": "Belicoso",
+      "size": "6.125 x 52",
+      "sources": [
+        "https://halfwheel.com/trinidad-espiritu-no-3-heading-to-stores-on-oct-31/429341/"
+      ]
+    },
+    {
+      "name": "Fundador",
+      "size": "7.5 x 40",
+      "sources": [
+        "https://halfwheel.com/trinidad-espiritu-no-3-heading-to-stores-on-oct-31/429341/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/trinidad-espiritu-no-3-heading-to-stores-on-oct-31/429341/",
+    "https://cigar-coop.com/2024/07/trinidad-espiritu-series-no-3-toro-by-altadis-usa-cigar-review.html",
+    "https://cigar-coop.com/2023/09/cigar-news-altadis-u-s-a-announces-trinidad-esparto-no-3.html"
+  ]
+}

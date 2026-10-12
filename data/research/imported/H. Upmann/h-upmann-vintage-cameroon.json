@@ -1,0 +1,68 @@
+{
+  "line": {
+    "name": "H. Upmann Vintage Cameroon",
+    "slug": "h-upmann-vintage-cameroon",
+    "description": "Not on the site. Marketed as a revival of H. Upmann's pre-1995 character, before a Cameroon wrapper shortage forced a recipe change. Medium strength. FLAG - PRODUCTION STATUS AMBIGUOUS: JR Cigars presents this as current/active inventory (alongside separately-sold 'vintage certified' dated stock from 1991-2000, suggesting old aged boxes sold as a novelty alongside an ongoing regular line), but the only detailed editorial source found is a Cigar Aficionado review dated October 2006, with no current-decade trade press confirming it's still actively manufactured. Status recorded as 'current' per retailer availability, but this should be treated as unverified rather than confirmed - it may be legacy/old inventory being sold through rather than active production.",
+    "wrapper": "African Cameroon",
+    "binder": "Nicaraguan",
+    "filler": "Dominican, Nicaraguan, and Peruvian",
+    "origin": "Dominican Republic",
+    "status": "current (unverified - see description)"
+  },
+  "vitolas": [
+    {
+      "name": "Petit Corona",
+      "size": "5 x 40",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-vintage-cameroon/"
+      ]
+    },
+    {
+      "name": "Corona",
+      "size": "5.5 x 44",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-vintage-cameroon/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 52",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-vintage-cameroon/"
+      ]
+    },
+    {
+      "name": "Lonsdale",
+      "size": "6.62 x 44",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-vintage-cameroon/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-vintage-cameroon/"
+      ]
+    },
+    {
+      "name": "Belicoso",
+      "size": "6.12 x 52",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-vintage-cameroon/"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 50",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-vintage-cameroon/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-vintage-cameroon/",
+    "https://www.cigaraficionado.com/ratings/11224/name/h-upmann-vintage-cameroon-belicoso",
+    "https://www.neptunecigar.com/cigar/h-upmann-vintage-cameroon"
+  ]
+}

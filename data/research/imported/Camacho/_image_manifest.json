@@ -1,0 +1,83 @@
+{
+  "brand": "Camacho",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/Camacho",
+  "note": "Camacho already exists on the site with 5 lines. This batch adds 2 new lines and 3 additional-vitola supplements found in the (flat, unrenamed) Mac folder. 4 files were discovered to be misfiled 'Charter Oak' product (an unrelated Foundation Cigar Company brand) and were moved out to a new top-level 'Charter Oak' folder - see that brand's own batch. No other file renames performed.",
+  "mappings": [
+    {
+      "json_file": "camacho-limited-edition-2025.json",
+      "line_slug": "camacho-limited-edition-2025",
+      "mac_folder": "Cigar Images/Camacho",
+      "files": [
+        "Camacho_25-Le_Box-Open_01.jpg",
+        "Camacho_Cam-Le-25_01.jpg"
+      ],
+      "notes": "CORRECTED from an initial assumption of a 25th-anniversary release to 'Limited Edition 2025' (the year, not a milestone)."
+    },
+    {
+      "json_file": "camacho-broadleaf.json",
+      "line_slug": "camacho-broadleaf",
+      "mac_folder": "Cigar Images/Camacho",
+      "files": [
+        "Camacho_Broadleaf-Gordo_01.jpg",
+        "Camacho_Broadleaf-Robusto_01.jpg"
+      ],
+      "notes": "Confirmed distinct from Triple Maduro (different wrapper origin - Honduran vs. Connecticut broadleaf)."
+    },
+    {
+      "json_file": "_camacho-corojo-additional-vitolas.json",
+      "line_slug": "camacho-corojo",
+      "mac_folder": "Cigar Images/Camacho",
+      "files": [
+        "Camacho_Corojo-Bxp-Toro_01.jpg",
+        "Camacho_Corojo-Gigante_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "_camacho-connecticut-additional-vitolas.json",
+      "line_slug": "camacho-connecticut",
+      "mac_folder": "Cigar Images/Camacho",
+      "files": [
+        "Camacho_Ct-Churchill_01.jpg",
+        "Camacho_Ct-Toro_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "_camacho-triple-maduro-additional-vitolas.json",
+      "line_slug": "camacho-triple-maduro",
+      "mac_folder": "Cigar Images/Camacho",
+      "files": [
+        "Camacho_Triple-Maduro-Gordo_01.jpg",
+        "Camacho_Triple-Maduro-Toro_01.jpg"
+      ],
+      "notes": null
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": [
+    {
+      "mac_folder": "Cigar Images/Camacho",
+      "files": [
+        "Camacho_Corojo-Robusto_01.jpg",
+        "Camacho_Corojo-Toro_01.jpg",
+        "Camacho_Ct-Robusto_01.jpg",
+        "CamachoConnecticut_EssentialCigars_CigarPressMagazine.png"
+      ],
+      "reason": "Match already-listed vitolas (Corojo Robusto/Toro, Connecticut Robusto) or are a non-product marketing/magazine stock image, not a real product photo needing a database entry."
+    }
+  ],
+  "moved_out": [
+    {
+      "to_brand": "Charter Oak",
+      "reason": "Confirmed unrelated to Camacho/Davidoff - made by Foundation Cigar Company. Files moved and renamed.",
+      "files_moved": [
+        "Camacho_Charter-Oak-CT-Roth_01.jpg -> Charter Oak/Charter Oak Connecticut Shade/CharterOak_Connecticut-Shade_Rothschild_01.jpg",
+        "Camacho_Charter-Oak-CT-Toro_01.jpg -> Charter Oak/Charter Oak Connecticut Shade/CharterOak_Connecticut-Shade_Toro_01.jpg",
+        "Camacho_Charter-Oak-Broad-Toro_01.jpg -> Charter Oak/Charter Oak Connecticut Broadleaf/CharterOak_Connecticut-Broadleaf_Toro_01.jpg",
+        "Camacho_Ch-Broad-Tor_01.jpg -> Charter Oak/Charter Oak Connecticut Broadleaf/CharterOak_Connecticut-Broadleaf_Toro_02.jpg (duplicate/second photo of the same vitola)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "line_slug": "jake-wyatt-appendix-ii",
+  "note": "Site lists only Toro (6x54), which matches one Mac photo exactly. FLAG: this brand's own website gave inconsistent blend details across different page fetches (binder/filler origin disputed between Honduran and Dominican Olor) - wrapper (Ecuadorian Connecticut) is the one consistent fact across sources. No halfwheel/Cigar Coop/Cigar Aficionado editorial coverage was found to independently confirm current specs - treat vitola sizes below as sourced from the brand's own site and a major retailer, cross-checked against each other, but not against third-party editorial review.",
+  "additional_vitolas": [
+    {
+      "name": "Corona Gorda",
+      "size": "5.625 x 46",
+      "notes": "Mac photo filename says 'Corona' but the actual product is 'Corona Gorda', not a standard Corona - confirmed on two independent sources.",
+      "sources": [
+        "https://jakewyattcigars.com/appendix-ii/",
+        "https://www.famous-smoke.com/brand/jake-wyatt-appendix-ii-cigars"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "https://jakewyattcigars.com/appendix-ii/",
+        "https://www.famous-smoke.com/brand/jake-wyatt-appendix-ii-cigars"
+      ]
+    },
+    {
+      "name": "Gordo",
+      "size": "6 x 60",
+      "sources": [
+        "https://jakewyattcigars.com/appendix-ii/",
+        "https://www.famous-smoke.com/brand/jake-wyatt-appendix-ii-cigars"
+      ]
+    }
+  ],
+  "wrapper": "Ecuadorian Connecticut",
+  "blend_flag": "Binder/filler origin disputed between sources (brand site: Honduran binder, Nicaraguan+Honduran filler; Famous Smoke: Dominican Olor binder, Dominican filler) - not resolved, noted rather than guessed.",
+  "research_sources": [
+    "https://jakewyattcigars.com/appendix-ii/",
+    "https://www.famous-smoke.com/brand/jake-wyatt-appendix-ii-cigars"
+  ]
+}

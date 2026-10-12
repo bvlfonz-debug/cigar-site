@@ -1,0 +1,46 @@
+{
+  "line": {
+    "name": "Montecristo M",
+    "slug": "montecristo-m",
+    "description": "Not on the site. Made by A.J. Fernandez in Esteli, Nicaragua.",
+    "wrapper": "Ecuadorian Connecticut Shade (aged 20 years)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "4.75 x 54",
+      "sources": [
+        "https://halfwheel.com/altadis-u-s-a-announces-montecristo-m/444132/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 52",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://cigar-coop.com/2025/07/montecristo-m-toro-cigar-review.html"
+      ]
+    },
+    {
+      "name": "No. 2",
+      "size": "6.25 x 52 (torpedo/belicoso)",
+      "sources": [
+        "https://halfwheel.com/altadis-u-s-a-announces-montecristo-m/444132/"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 50",
+      "sources": [
+        "https://halfwheel.com/altadis-u-s-a-announces-montecristo-m/444132/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/altadis-u-s-a-announces-montecristo-m/444132/",
+    "https://cigar-coop.com/2025/07/montecristo-m-toro-cigar-review.html"
+  ]
+}

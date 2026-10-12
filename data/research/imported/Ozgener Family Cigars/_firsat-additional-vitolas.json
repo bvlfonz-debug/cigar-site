@@ -1,0 +1,41 @@
+{
+  "line_slug": "ozgener-firsat",
+  "note": "Site lists only F52 (5x52). Mac box photos show 3 more, all verified.",
+  "additional_vitolas": [
+    {
+      "name": "F54 (Double Corona)",
+      "size": "7 x 54",
+      "sources": [
+        "cigaraficionado.com/article/ozgener-family-cigars-ships-firsat"
+      ]
+    },
+    {
+      "name": "F55",
+      "size": "5.5 x 55",
+      "sources": [
+        "cigaraficionado.com/article/ozgener-family-cigars-ships-firsat"
+      ]
+    },
+    {
+      "name": "F60",
+      "size": "6 x 60",
+      "sources": [
+        "cigaraficionado.com/article/ozgener-family-cigars-ships-firsat"
+      ]
+    }
+  ],
+  "line_details_for_reference": {
+    "wrapper": "Connecticut-seed, grown in Ecuador (high-priming, bronze shade)",
+    "binder": "Ecuador Habano",
+    "filler": "Nicaraguan, including Ometepe island leaf",
+    "strength": "Mild to medium - positioned as the brand's milder line",
+    "construction": "'Soft press' (between box-press and round)",
+    "factory": "Casa Carrillo (formerly Tabacalera La Alianza), Santiago, Dominican Republic",
+    "release": "Shown at PCA 2024, shipped starting ~late June/July 2024",
+    "name_origin": "Turkish for 'opportunity' - ties to the founding family's immigration story"
+  },
+  "research_sources": [
+    "https://www.cigaraficionado.com/article/ozgener-family-cigars-ships-firsat",
+    "https://halfwheel.com/pca-2023-ozgener-family-cigars/424860/"
+  ]
+}

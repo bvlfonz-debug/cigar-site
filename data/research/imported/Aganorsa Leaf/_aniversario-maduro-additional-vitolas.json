@@ -1,0 +1,20 @@
+{
+  "note": "Supplementary file - NOT a new line. 'Aniversario Maduro' already exists on the site (Gran Toro 6x58, Short Churchill 5.375x48). Adding a limited-edition release the site is missing.",
+  "line_name": "Aniversario Maduro",
+  "additional_vitolas": [
+    {
+      "name": "Aniversario 25 Years (Edición Limitada)",
+      "size": "Toro, 6.25 x 52",
+      "wrapper": "Nicaraguan Corojo (source conflict: possibly San Andrés-descended corojo - not fully independently confirmed)",
+      "binder": "Nicaragua",
+      "filler": "Nicaragua",
+      "strength": "Medium-Full",
+      "notes": "Marks Aganorsa/Casa Fernandez's 25th anniversary (company founded 1998); blended by master blender Eduardo Antonio Fernández Pujals. Box of 10. A separate limited edition, not folded into the core Aniversario Maduro line."
+    }
+  ],
+  "research_sources": [
+    "https://cigarcountry.com/brand/aganorsa-leaf-cigars/aganorsa-leaf-aniversario-25-years/",
+    "https://theboutiquecigar.com/product/aganorsa-leaf-aniversario-25-years-toro-61-4x52/",
+    "https://privadacigarclub.com/products/aganorsa-leaf-aniversario-25-years-corojo-edicion-limitada"
+  ]
+}

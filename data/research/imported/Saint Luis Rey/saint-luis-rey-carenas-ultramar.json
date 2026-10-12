@@ -1,0 +1,47 @@
+{
+  "line": {
+    "name": "Saint Luis Rey Carenas Ultramar",
+    "slug": "saint-luis-rey-carenas-ultramar",
+    "description": "A distinct sub-line/blend from standard Carenas (not just a vitola name) - confirmed via separate Altadis product pages with different wrapper/binder specs. Tribute to 16th-century Spanish trade vessels that sailed 'ultramar' (overseas) from Puerto Carenas carrying tobacco.",
+    "wrapper": "Nicaraguan Habano",
+    "binder": "Nicaraguan",
+    "filler": "Honduran",
+    "factory": "Flor de Copan, Santa Rosa de Copan, Honduras",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Corona",
+      "size": "5.625 x 45",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-carenas-ultramar/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-carenas-ultramar/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 52",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-carenas-ultramar/"
+      ]
+    },
+    {
+      "name": "Magnum",
+      "size": "6 x 60",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-carenas-ultramar/"
+      ]
+    }
+  ],
+  "research_notes": "Ultramar's wrapper (Nicaraguan Habano) and binder (Nicaraguan) differ from standard Carenas (Nicaraguan wrapper, Honduran binder), confirming it's a separate blend rather than a vitola-only variant.",
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-carenas-ultramar/"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "brand": "Classic (UNRESOLVED - not identified with confidence)",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/Classic",
+  "note": "This entire folder (24 files, Connecticut/Cuban-seed/Cameroon/Maduro wrappers across 6 vitola names) could NOT be confidently identified as belonging to a specific confirmed brand. A partial, medium-confidence lead (United Cigar's 'Classic' line) was found but has 2 significant unconfirmed gaps (no Cameroon variant, no 660/Sixty vitola found anywhere for that brand) - see _classic-UNRESOLVED.json for full details. NO database entries were published for this folder. No file renames performed - the folder's actual brand identity remains unresolved.",
+  "mappings": [],
+  "not_added": [
+    {
+      "mac_folder": "Cigar Images/Classic",
+      "files": [
+        "Classic_CT-660_Group_01.jpg",
+        "Classic_CT-Churchill_01.jpg",
+        "Classic_CT-Churchill_Group_01.jpg",
+        "Classic_CT-Corona_01.jpg",
+        "Classic_CT-Corona_Group_01.jpg",
+        "Classic_CT-Robusto_Group_01.jpg",
+        "Classic_CT-Torpedo_01.jpg",
+        "Classic_CT-Torpedo_Group_01.jpg",
+        "Classic_Cameroon-Robusto_Group_01.jpg",
+        "Classic_Cameroon-Sixty_Group_01.jpg",
+        "Classic_Cameroon-Torpedo_Group_01.jpg",
+        "Classic_Cuban-Churchill_01.jpg",
+        "Classic_Cuban-Churchill_Group_01.jpg",
+        "Classic_Cuban-Corona_Group_01.jpg",
+        "Classic_Cuban-Robusto_Group_01.jpg",
+        "Classic_Cuban-Sixty_Group_01.jpg",
+        "Classic_Cuban-Torpedo_Group_01.jpg",
+        "Classic_Cuban_Box-Open_01.jpg",
+        "Classic_Maduro-Churchill_Group_01.jpg",
+        "Classic_Maduro-Churchill_Group_02.jpg",
+        "Classic_Maduro-Corona_Group_01.jpg",
+        "Classic_Maduro-Robusto_Group_01.jpg",
+        "Classic_Maduro-Sixty_Group_01.jpg",
+        "Classic_Maduro-Torpedo_Group_01.jpg"
+      ],
+      "reason": "See _classic-UNRESOLVED.json - brand/line could not be confidently identified; a partial lead (United Cigar Classic) has unconfirmed gaps (no Cameroon variant, no 660/Sixty vitola found) that make a full, non-fabricated entry impossible this pass."
+    }
+  ],
+  "already_on_site_no_action": []
+}

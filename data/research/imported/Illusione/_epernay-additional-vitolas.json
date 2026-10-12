@@ -1,0 +1,64 @@
+{
+  "line_slug": "illusione-epernay",
+  "note": "The site currently lists 6 Epernay vitolas (Le Ferme, Le Grande, Le Matin, Le Monde, Le Petite, Le Taureau). The Mac photos show 5 more genuinely distinct Epernay 'Serie 2009' vitolas beyond that list, all confirmed real products across multiple retailers. Note the line's own naming is inconsistently gendered in French across retailers (La Vie / Le Elegance / Le Grande) - not a research error, just how Illusione/retailers spell it.",
+  "additional_vitolas": [
+    {
+      "name": "L'Alpiniste",
+      "size": "6.75 x 56",
+      "shape": "Torpedo",
+      "sources": [
+        "neptunecigar.com/cigars/illusione-epernay-lalpiniste",
+        "atlanticcigar.com/illusione-epernay-lalpiniste-1/"
+      ]
+    },
+    {
+      "name": "L'Excellence",
+      "size": "6.75 x 48",
+      "shape": "Churchill",
+      "sources": [
+        "atlanticcigar.com/illusione-epernay-lexcellence-churchill-6-3-4x48/",
+        "cigaraficionado.com/ratings/25987/name/illusione-epernay-l-excellence"
+      ]
+    },
+    {
+      "name": "La Vie",
+      "size": "6.75 x 56",
+      "shape": "Toro Gordo (also called Churchill by some retailers - naming inconsistency, not a research error)",
+      "sources": [
+        "neptunecigar.com/cigars/illusione-epernay-la-vie",
+        "atlanticcigar.com/illusione-epernay-la-vie-6-3-4x56/"
+      ]
+    },
+    {
+      "name": "Le Elegance",
+      "size": "5.75 x 40",
+      "shape": "Petit Lancero",
+      "notes": "Retailers consistently spell this 'Le Elegance,' not 'L'Elegance.'",
+      "sources": [
+        "atlanticcigar.com/illusione-epernay-le-elegance-petit-lancero-5-3-4x40/",
+        "smallbatchcigar.com/illusione-epernay-le-elegance"
+      ]
+    },
+    {
+      "name": "Le Voyage",
+      "size": "9.25 x 48 or 49 (sources disagree on ring gauge - not resolved)",
+      "shape": "Presidente, individually coffin-packaged",
+      "sources": [
+        "smokingpipes.com (product 607708)",
+        "cigarspots.com/illusione-epernay-serie-2009-le-voyage/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.neptunecigar.com/cigars/illusione-epernay-lalpiniste",
+    "https://atlanticcigar.com/illusione-epernay-lalpiniste-1/",
+    "https://atlanticcigar.com/illusione-epernay-lexcellence-churchill-6-3-4x48/",
+    "https://www.cigaraficionado.com/ratings/25987/name/illusione-epernay-l-excellence",
+    "https://www.neptunecigar.com/cigars/illusione-epernay-la-vie",
+    "https://atlanticcigar.com/illusione-epernay-la-vie-6-3-4x56/",
+    "https://atlanticcigar.com/illusione-epernay-le-elegance-petit-lancero-5-3-4x40/",
+    "https://www.smallbatchcigar.com/illusione-epernay-le-elegance",
+    "https://www.smokingpipes.com/cigars/illusione/moreinfo.cfm?product_id=607708",
+    "https://cigarspots.com/illusione-epernay-serie-2009-le-voyage/"
+  ]
+}

@@ -147,7 +147,9 @@ queue, affiliate config, age gate, or FTC disclosure logic.
   one row per citation (id, brand_id/factory_id, source_name, source_url,
   fact_note, retrieved_at) — see "Brand & Factory Profiles" below
 - **line**: id, brand_id, name, slug, wrapper, binder, filler, strength
-  (mild | mild-medium | medium | medium-full | full), release_year, background_text
+  (mild | mild-medium | medium | medium-full | full — NULL means "not yet sourced",
+  shown on the site as "Not yet sourced"; the nightly Strength backfill fills these
+  from one cited source each), release_year, background_text
 - **vitola**: id, line_id, size_name, slug, length_in, ring_gauge, vitola_type
   (robusto, toro, churchill, etc.), stick_score, score_flavor,
   score_construction, score_complexity, score_value, tasting_notes (JSON array

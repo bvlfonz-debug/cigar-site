@@ -1,0 +1,29 @@
+{
+  "brand": "Las Cabrillas",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/Las Cabrillas",
+  "note": "Part of the Altadis USA reorganization; folder was already top-level. Confirmed absent from the site's brand index.",
+  "mappings": [
+    {
+      "json_file": "las-cabrillas-balboa-maduro.json",
+      "line_slug": "las-cabrillas-balboa",
+      "mac_folder": "Cigar Images/Las Cabrillas/Las Cabrillas Balboa",
+      "files": [
+        "LasCabrillas_Balboa_01.png",
+        "LasCabrillas_Balboa_02.png",
+        "LasCabrillas_Balboa_Maduro_Box-Open_01.jpg"
+      ],
+      "notes": "Maduro variant - exact vitola size unverified, see JSON flags."
+    }
+  ],
+  "not_added": [
+    {
+      "mac_folder": "Cigar Images/Las Cabrillas/Las Cabrillas Ponce de Leon",
+      "files": [
+        "LasCabrillas_Ponce-de-Leon_Natural_Box-Closed_01.jpg"
+      ],
+      "reason": "No source found anywhere confirms a 'Ponce de Leon' line/vitola exists under Las Cabrillas - exhaustively searched across 3 major retailers and general web search. See _las-cabrillas-ponce-de-leon-UNCONFIRMED.json for the full flag and possible explanations. Not fabricated specs for an unconfirmed product."
+    }
+  ],
+  "already_on_site_no_action": []
+}

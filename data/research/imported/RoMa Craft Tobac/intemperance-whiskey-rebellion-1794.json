@@ -1,0 +1,34 @@
+{
+  "line": {
+    "name": "RoMa Craft Intemperance Whiskey Rebellion 1794",
+    "slug": "roma-craft-intemperance-whiskey-rebellion-1794",
+    "description": "Not on the site. A third Intemperance sub-blend, named for the actual 1794 U.S. Whiskey Rebellion rather than a constitutional amendment (unlike BA XXI and EC XVIII). Vitolas are named for historical American figures of the era.",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Hamilton",
+      "size": "4 x 46",
+      "sources": [
+        "https://atlanticcigar.com/roma-craft-intemperance-whiskey-rebellion-1794-hamilton-4x46/"
+      ]
+    },
+    {
+      "name": "Jefferson",
+      "size": "4.5 x 52",
+      "sources": [
+        "https://atlanticcigar.com/roma-craft-intemperance-whiskey-rebellion-1794-jefferson-4-1-2x52/"
+      ]
+    },
+    {
+      "name": "McFarlane",
+      "size": "5 x 50",
+      "sources": [
+        "https://atlanticcigar.com/roma-craft-intemperance-whiskey-rebellion-1794-mcfarlane-5x50/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://atlanticcigar.com/roma-craft-intemperance-whiskey-rebellion-1794-hamilton-4x46/"
+  ]
+}

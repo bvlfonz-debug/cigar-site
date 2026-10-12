@@ -1,0 +1,53 @@
+{
+  "line": {
+    "brand_slug": "joya-de-nicaragua",
+    "name": "Joya de Nicaragua Cinco Décadas Fundador",
+    "slug": "cinco-decadas-fundador",
+    "wrapper": "Nicaragua",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": "Medium",
+    "release_year": 2019,
+    "background_text": "Cinco Décadas Fundador debuted in June 2019 at the IPCPR trade show as the first release in JDN's Cinco Décadas annual-edition series, which continues today with the current 'El General' edition listed on the site. The Fundador name honors Juan Francisco Bermejo and Simón Camacho, credited with advancing Nicaragua's cigar industry. Each Cinco Décadas release is a distinct annual blend/vitola under the same family name, not a re-release of the prior year's cigar - confirmed via WebSearch/WebFetch as a genuinely separate product from the site's current 'El General' listing."
+  },
+  "vitolas": [
+    {
+      "size_name": "Gran Toro",
+      "slug": "gran-toro",
+      "length_in": 6,
+      "ring_gauge": 54,
+      "vitola_type": "Toro",
+      "summary_review": "Blind Man's Puff scored it 92/100 (\"Great\"), citing a bright, peppery opening that develops into a rich, oily character across the smoke.",
+      "tasting_notes": [
+        "sweet cedar",
+        "spicy red pepper",
+        "baking spice",
+        "leather",
+        "roasty dark wood",
+        "residual sweetness"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Blind Man's Puff",
+          "source_type": "critic",
+          "score": 92,
+          "score_scale": "100",
+          "review_date": null,
+          "url": "https://blindmanspuff.com/blind-cigar-review-joya-de-nicaragua-cinco-decadas-fundador/",
+          "key_notes_text": "\"Great\" (92/100); bright and peppery opening, rich and oily character; reviewer James H. MSRP $20.00/cigar, box of 10."
+        }
+      ]
+    }
+  ],
+  "research_notes": "Confirmed via WebSearch + WebFetch (not a subagent) as a distinct 2019 annual-edition release, separate from the site's current 'Cinco Décadas: El General' catalog entry. Debuted June 2019 at IPCPR; MSRP $20.00/cigar; box of 10.",
+  "research_sources": [
+    {
+      "url": "https://blindmanspuff.com/blind-cigar-review-joya-de-nicaragua-cinco-decadas-fundador/",
+      "supports": "Vitola (Gran Toro 6x54), wrapper/binder/filler, strength, release story, MSRP, box count, tasting notes, 92/100 score"
+    }
+  ]
+}

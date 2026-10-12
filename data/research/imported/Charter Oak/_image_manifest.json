@@ -1,0 +1,30 @@
+{
+  "brand": "Charter Oak",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/Charter Oak",
+  "note": "This brand's folder was newly created this batch - all 4 files were previously misfiled under 'Camacho' and have been moved and renamed here. Confirmed absent from the site's brand index - full new brand object included.",
+  "mappings": [
+    {
+      "json_file": "charter-oak-connecticut-shade.json",
+      "line_slug": "charter-oak-connecticut-shade",
+      "mac_folder": "Cigar Images/Charter Oak/Charter Oak Connecticut Shade",
+      "files": [
+        "CharterOak_Connecticut-Shade_Rothschild_01.jpg",
+        "CharterOak_Connecticut-Shade_Toro_01.jpg"
+      ],
+      "notes": "Originally misfiled under Camacho."
+    },
+    {
+      "json_file": "charter-oak-connecticut-broadleaf.json",
+      "line_slug": "charter-oak-connecticut-broadleaf",
+      "mac_folder": "Cigar Images/Charter Oak/Charter Oak Connecticut Broadleaf",
+      "files": [
+        "CharterOak_Connecticut-Broadleaf_Toro_01.jpg",
+        "CharterOak_Connecticut-Broadleaf_Toro_02.jpg"
+      ],
+      "notes": "Originally misfiled under Camacho; the two files appear to be duplicate photos of the same Toro vitola."
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": []
+}

@@ -1,0 +1,31 @@
+{
+  "note": "Supplementary file - NOT new lines. 'Guardian of the Farm' (Apollo, 6x44) and 'Guardian of the Farm Nightwatch' (JJ, 5.5x50) already exist on the site as separate entries, each with just one vitola. Adding genuine additional vitolas the site is missing from both. This is a Warped Cigars x Aganorsa Leaf collaboration.",
+  "guardian_of_the_farm_additional_vitolas": [
+    {
+      "name": "Campeon",
+      "size": "6 x 52 (Toro)",
+      "notes": "Literal (not Roman-numeral) name, part of the regular line alongside Apollo."
+    },
+    {
+      "name": "Rambo",
+      "size": "4.5 x 48 (Rothschild/Petit Robusto)",
+      "notes": "Added 2017 as a Rothschild-size line extension."
+    }
+  ],
+  "guardian_nightwatch_additional_vitolas": [
+    {
+      "name": "Orpheus",
+      "size": "6 x 44",
+      "wrapper": "Corojo Maduro",
+      "strength": "Medium-full",
+      "notes": "'Max Fernandez's solo creation' per Corona Cigar."
+    }
+  ],
+  "research_notes": "Note: 'Campeon' is also used as a distinct Nightwatch vitola name (6x52 Toro with a 109-style head, per halfwheel/Cigar Coop) separate from the regular-line 'Campeon' documented above - the site's Nightwatch list may also be missing that Nightwatch-specific Campeon. Flagging for the user's awareness rather than asserting a specific size for it here, since sourcing distinguishing the two 'Campeon' products was incomplete.",
+  "research_sources": [
+    "https://cigar-coop.com/2017/10/cigar-review-guardian-of-the-farm-rambo.html",
+    "https://halfwheel.com/guardian-of-the-farm-nightwatch-campeon/367230/",
+    "https://www.coronacigar.com/guardian-of-the-farm-nightwatch-orpheus/",
+    "https://cigarista.app/cigars/casa-fernandez/guardian-of-the-farm-campeon"
+  ]
+}

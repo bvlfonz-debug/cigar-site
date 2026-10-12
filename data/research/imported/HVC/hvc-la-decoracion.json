@@ -1,0 +1,54 @@
+{
+  "line": {
+    "name": "HVC La Decoración",
+    "slug": "hvc-la-decoracion",
+    "description": "CORRECTION TO AN INITIAL ASSUMPTION: Mac filename prefix 'Dec' was assumed might mean 'Decade' (a 10th-anniversary line) - research ruled this out (that line only has 2 vitolas, Toro and a Robusto, not matching all 4 photographed vitolas). The real product is 'La Decoración' ('Reinier Lorenzo's Ode to Cuban Artistry'), a new regular-production line shown at PCA 2026, shipping to stores from ~April 7, 2026. Site already lists HVC with 5 other lines - this is a genuinely new 6th line.",
+    "wrapper": "Ecuadorian (also referred to as 'Ecuadorian 2000' in some sourcing)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Esteli and Jalapa regions)",
+    "factory": "Nicaragua - one source names the Aganorsa Leaf factory, not independently corroborated by a second source, flagged rather than asserted as settled.",
+    "status": "current (medium-bodied, new 2026 regular production line)"
+  },
+  "vitolas": [
+    {
+      "name": "Churchill",
+      "size": "6.5 x 50",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://halfwheel.com/hvc-la-decoracion-heads-to-stores/471065/"
+      ]
+    },
+    {
+      "name": "Grandote",
+      "size": "6 x 60",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://cigar-coop.com/2026/04/hvc-launches-la-decoracion-at-pca-2026-cigar-news.html"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5.5 x 52",
+      "notes": "Matches the Mac photo. A 4-cigar sampler (one of each vitola), limited to 300 units, was also released - likely explains the box-open shot.",
+      "sources": [
+        "https://luxurycigarclub.com/blogs/news/hvc-la-decoracion-sampler-all-four-vitolas-in-one-flight-now-available"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6.5 x 54",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.cigaraficionado.com/ratings/26949/name/la-decoracion-by-hvc-cigars-robusto"
+      ]
+    }
+  ],
+  "research_notes": "Factory attribution single-sourced (Aganorsa Leaf), not independently corroborated. Binder leaf variety not specified in sources found.",
+  "research_sources": [
+    "https://luxurycigarclub.com/blogs/news/hvc-la-decoracion-sampler-all-four-vitolas-in-one-flight-now-available",
+    "https://halfwheel.com/hvc-la-decoracion-heads-to-stores/471065/",
+    "https://halfwheel.com/hvc-la-decoracion-scheduled-for-may/466524/",
+    "https://cigar-coop.com/2026/04/hvc-launches-la-decoracion-at-pca-2026-cigar-news.html",
+    "https://www.cigaraficionado.com/ratings/26949/name/la-decoracion-by-hvc-cigars-robusto"
+  ]
+}

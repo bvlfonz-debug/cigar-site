@@ -1,0 +1,43 @@
+{
+  "line_slug": "perdomo-30th-anniversary-maduro",
+  "note": "Site lists only Epicure (6x54). Mac photos show 4 more confirmed vitolas in this wrapper edition.",
+  "additional_vitolas": [
+    {
+      "name": "Churchill",
+      "size": "7 x 54",
+      "sources": [
+        "neptunecigar.com/cigars/perdomo-30th-anniversary-maduro-churchill"
+      ]
+    },
+    {
+      "name": "Gordo",
+      "size": "6 x 60",
+      "notes": "Sold box-pressed.",
+      "sources": [
+        "atlanticcigar.com/perdomo-30th-anniversary-maduro-box-pressed-gordo-6x60/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 54",
+      "notes": "Sold box-pressed.",
+      "sources": [
+        "atlanticcigar.com/perdomo-30th-anniversary-connecticut-robusto-box-pressed-5x54/",
+        "coronacigar.com/perdomo-30th-anniversary-connecticut-robusto/"
+      ]
+    },
+    {
+      "name": "Torpedo",
+      "size": "7 x 54",
+      "sources": [
+        "halfwheel.com/perdomo-30th-anniversary-sun-grown-torpedo/433840/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.neptunecigar.com/cigars/perdomo-30th-anniversary-maduro-churchill",
+    "https://atlanticcigar.com/perdomo-30th-anniversary-maduro-box-pressed-gordo-6x60/",
+    "https://atlanticcigar.com/perdomo-30th-anniversary-connecticut-robusto-box-pressed-5x54/",
+    "https://halfwheel.com/perdomo-30th-anniversary-sun-grown-torpedo/433840/"
+  ]
+}

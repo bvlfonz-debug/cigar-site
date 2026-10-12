@@ -1,0 +1,190 @@
+{
+  "line": {
+    "brand_slug": "rocky-patel",
+    "name": "Vintage 1999",
+    "slug": "vintage-1999",
+    "wrapper": "Connecticut Shade (USA/Ecuador-grown, harvested 1999)",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua and Dominican Republic (long-leaf ligero)",
+    "strength": "Mild-Medium",
+    "release_year": null,
+    "background_text": "Vintage 1999 uses Connecticut shade wrapper leaf harvested in 1999 and aged roughly seven years before use, paired with seven-year-aged Nicaraguan and Dominican ligero filler. Rocky Patel markets it as one of the oldest Connecticut shade wrappers on the market, positioned as an approachable, mild-to-medium everyday smoke for both new and experienced smokers. Exact original release year could not be confirmed; a published review dated December 2006 places it on the market by at least that year."
+  },
+  "vitolas": [
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5.5,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": "Toasty, buttery Connecticut-driven profile with a smooth, creamy finish per Stogie Review.",
+      "tasting_notes": [
+        "toasty",
+        "buttery",
+        "earth",
+        "cedar",
+        "modest spice"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6.5,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [
+        "toasty",
+        "buttery",
+        "earth",
+        "cedar",
+        "modest spice"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Torpedo",
+      "slug": "torpedo",
+      "length_in": 6.25,
+      "ring_gauge": 52,
+      "vitola_type": "Torpedo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Churchill",
+      "slug": "churchill",
+      "length_in": 7.0,
+      "ring_gauge": 48,
+      "vitola_type": "Churchill",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Petite Corona",
+      "slug": "petite-corona",
+      "length_in": 4.5,
+      "ring_gauge": 44,
+      "vitola_type": "Petite Corona",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Perfecto",
+      "slug": "perfecto",
+      "length_in": 4.0,
+      "ring_gauge": 48,
+      "vitola_type": "Perfecto",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Minis",
+      "slug": "minis",
+      "length_in": 4.25,
+      "ring_gauge": 32,
+      "vitola_type": "Small Panatela",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        100
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Short Gordo",
+      "slug": "short-gordo",
+      "length_in": 5.0,
+      "ring_gauge": 60,
+      "vitola_type": "Gordo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Sixty",
+      "slug": "sixty",
+      "length_in": 6.0,
+      "ring_gauge": 60,
+      "vitola_type": "Gordo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Toro Tubo",
+      "slug": "toro-tubo",
+      "length_in": 6.0,
+      "ring_gauge": 50,
+      "vitola_type": "Tubo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Original release year could not be verified (only that it existed by a Dec 2006 review). Cigar Snob/Cigar Journal/Cigar Aficionado ratings mentioned on Rocky Patel's own site could not be traced to reviewable URLs, so omitted rather than fabricated.",
+  "research_sources": [
+    {
+      "source_name": "Rocky Patel official site",
+      "source_url": "https://www.rockypatel.com/cigar/vintage-1999/",
+      "fact_note": "Wrapper description, strength"
+    },
+    {
+      "source_name": "Cigar Merchant",
+      "source_url": "https://www.cigarmerchant.com/brands/rocky-patel-vintage-1999/",
+      "fact_note": "Wrapper/binder/filler, strength, sizes and pricing"
+    },
+    {
+      "source_name": "JR Cigars",
+      "source_url": "https://www.jrcigars.com/cigars/handmade-cigars/rocky-patel-cigars/rocky-patel-vintage-1999/",
+      "fact_note": "Full vitola list with lengths, ring gauges, box counts"
+    },
+    {
+      "source_name": "Stogie Review",
+      "source_url": "https://stogiereview.com/2006/12/03/rocky-patel-vintage-1999/",
+      "fact_note": "Tasting notes, construction quality, existence confirmed by 2006"
+    }
+  ]
+}

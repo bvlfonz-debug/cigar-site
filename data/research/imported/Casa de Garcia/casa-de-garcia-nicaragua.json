@@ -1,0 +1,27 @@
+{
+  "line": {
+    "name": "Casa de Garcia Nicaragua",
+    "slug": "casa-de-garcia-nicaragua",
+    "description": "Genuinely distinct from the wrapper-variant lines above - a fuller-bodied blend with a different tobacco makeup, not just a different wrapper on the core blend.",
+    "wrapper": "Nicaraguan Habano 2000",
+    "binder": "Nicaraguan Connecticut Broadleaf",
+    "filler": "Connecticut Broadleaf, Colombian, and Nicaraguan",
+    "factory": "Dominican Republic (per retailer blend description; specific vitola sizes thinly sourced - see notes)",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Belicoso",
+      "size": "6.125 x 52",
+      "notes": "The only vitola confirmed directly on a retailer product page. A full 7-size run (Corona/Robusto/Toro/Churchill/Belicoso/Magnum/Colossal) is listed by one secondary source but not independently confirmed - not added without a manufacturer match.",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/casa-de-garcia-cigars/"
+      ]
+    }
+  ],
+  "research_notes": "Full vitola range thinly sourced - only Belicoso independently confirmed. Flagging the rest rather than guessing.",
+  "research_sources": [
+    "https://www.gothamcigars.com/blog/casa-de-garcia-nicaragua-a-tasty-everyday-cigar/",
+    "https://www.jrcigars.com/cigars/handmade-cigars/casa-de-garcia-cigars/"
+  ]
+}

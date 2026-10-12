@@ -1,0 +1,88 @@
+{
+  "line": {
+    "name": "Perdomo Legacy",
+    "slug": "perdomo-legacy",
+    "description": "Launched at the 2025 PCA trade show. Comes in 5 vitolas, each in 3 wrapper editions (Connecticut, Maduro, and 'Shade Grown' - note: NOT 'Sun Grown,' despite that being a common retailer mislabel; Perdomo's own site and halfwheel/Cigar Coop both consistently call it Shade Grown).",
+    "wrapper": "Connecticut, Maduro, or Nicaraguan Shade Grown (3 editions, see vitolas)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": null,
+    "release_year": 2025
+  },
+  "vitolas": [
+    {
+      "name": "Robusto Connecticut",
+      "size": "5 x 54"
+    },
+    {
+      "name": "Robusto Maduro",
+      "size": "5 x 54"
+    },
+    {
+      "name": "Robusto Shade Grown",
+      "size": "5 x 54"
+    },
+    {
+      "name": "Epicure Connecticut",
+      "size": "6 x 54",
+      "sources": [
+        "halfwheel.com/perdomo-legacy-connecticut-epicure/453829/"
+      ]
+    },
+    {
+      "name": "Epicure Maduro",
+      "size": "6 x 54"
+    },
+    {
+      "name": "Epicure Shade Grown",
+      "size": "6 x 54",
+      "sources": [
+        "cigar-coop.com/2025/09/perdomo-legacy-shade-grown-epicure-cigar-review.html"
+      ]
+    },
+    {
+      "name": "Gran Belicoso Connecticut",
+      "size": "6 x 60",
+      "notes": "Figurado (pointed cap), same ring gauge as Gordo but tapered."
+    },
+    {
+      "name": "Gran Belicoso Maduro",
+      "size": "6 x 60",
+      "sources": [
+        "halfwheel.com/perdomo-legacy-maduro-gran-belicoso/453752/"
+      ]
+    },
+    {
+      "name": "Gran Belicoso Shade Grown",
+      "size": "6 x 60"
+    },
+    {
+      "name": "Gordo Connecticut",
+      "size": "6 x 60"
+    },
+    {
+      "name": "Gordo Maduro",
+      "size": "6 x 60"
+    },
+    {
+      "name": "Gordo Shade Grown",
+      "size": "6 x 60"
+    },
+    {
+      "name": "Churchill Connecticut",
+      "size": "7 x 54"
+    },
+    {
+      "name": "Churchill Shade Grown",
+      "size": "7 x 54"
+    }
+  ],
+  "research_notes": "Mac has photo evidence for 14 of 15 possible vitola x wrapper combinations (missing only Churchill Maduro - no photo and no independent source confirming that specific combination exists, so it is excluded rather than assumed).",
+  "research_sources": [
+    "https://www.perdomocigars.com/legacy",
+    "https://halfwheel.com/perdomo-legacy-debuting-at-pca-2025/448816/",
+    "https://halfwheel.com/perdomo-legacy-connecticut-epicure/453829/",
+    "https://halfwheel.com/perdomo-legacy-maduro-gran-belicoso/453752/",
+    "https://cigar-coop.com/2025/09/perdomo-legacy-shade-grown-epicure-cigar-review.html"
+  ]
+}

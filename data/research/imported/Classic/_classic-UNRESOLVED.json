@@ -1,0 +1,19 @@
+{
+  "not_added_flag": {
+    "item": "Entire 'Classic' Mac folder (24 photos: Connecticut/Cuban-seed/Cameroon/Maduro wrappers x Churchill/Corona/Robusto/Torpedo/660/Sixty vitolas)",
+    "issue": "Could NOT be confidently/fully identified. Best lead found: United Cigar's 'Classic' line (Classic Cuban, Classic Connecticut, Classic Maduro - value-tier Dominican Republic cigars), which matches 3 of the 4 photographed wrapper types and 4 of the photographed vitola names (Corona 6x44, Robusto 5x50, Torpedo 6x50, Churchill 7x50). However:\n\n1) NO Cameroon-wrapper variant of United Cigar's 'Classic' line was found in any source - this wrapper type appears in the Mac photos (Classic_Cameroon-*) but could not be matched to this or any other candidate brand.\n2) NO '660' or 'Sixty' (6x60) vitola was found documented for United Cigar's Classic line, despite multiple Mac photos implying this size exists across several wrapper variants.\n3) Other candidate brands with similarly-named 'Classic' lines were checked and ruled out or left inconclusive: AVO Classic (wrong wrapper profile, no Cameroon/4-wrapper match), Aladino Classic (JRE Tobacco/Fabrica de Puros Aladino - has separate Cameroon and Connecticut lines but not combined into one 4-wrapper 'Classic' SKU, and sizes don't match), Quorum Classic (Natural wrapper only), Gurkha Classic (no 4-wrapper structure found).\n\nGiven the Cameroon wrapper and 660/Sixty vitola gaps, and that brand identification itself is only medium-confidence (not a direct, fully corroborated match), NO JSON line/vitola entries were published for this folder. Publishing a 'United Cigar Classic' entry with a guessed Cameroon spec or guessed 660 vitola dimensions would risk fabricating data not found in any primary source, which this project's standing rule prohibits."
+  },
+  "best_partial_lead": {
+    "candidate_brand": "United Cigar",
+    "candidate_line": "Classic (Classic Cuban / Classic Connecticut / Classic Maduro)",
+    "confirmed_overlap": "3 of 4 wrapper types (Connecticut, Cuban-seed/Habano, Maduro) and 4 vitolas (Corona 6x44, Robusto 5x50, Torpedo 6x50, Churchill 7x50), origin Dominican Republic.",
+    "unconfirmed_gaps": "Cameroon wrapper variant; '660'/'Sixty' (6x60) vitola; named factory/blender; current production status.",
+    "confidence": "medium - not a fully corroborated match, recorded as a lead only, not published as a database entry"
+  },
+  "mac_photo_reference": "Cigar Images/Classic/ (all 24 files)",
+  "research_sources": [
+    "https://blindmanspuff.com/blind-cigar-review-united-cigar-classic-cuban-torpedo/",
+    "https://thecigarauthority.com/?p=10770",
+    "https://cigardojo.com/2025/01/j-c-newman-and-united-cigar-announce-limited-edition-cameroon-firecracker/"
+  ]
+}

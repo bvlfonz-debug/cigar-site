@@ -1,0 +1,104 @@
+{
+  "line": {
+    "brand_slug": "rocky-patel",
+    "name": "Sapphire",
+    "slug": "sapphire",
+    "wrapper": "Mexican San Andres",
+    "binder": "Dual binder: one leaf from Esteli, Nicaragua and one from the Jamastran Valley, Honduras",
+    "filler": "Nicaraguan (Condega, Esteli and Jalapa), aged 6-7 years",
+    "strength": "Medium-Full",
+    "release_year": 2026,
+    "background_text": "Sapphire is the third entry in Rocky Patel's unofficial 'precious metals and gems' series, following Gold Label and Emerald (both 2024). It debuted at the April 2026 PCA Convention & Trade Show in New Orleans before shipping to retailers as a retailer-exclusive release. Rocky Patel describes it as using older tobaccos than Emerald, making it richer and stronger, and it marks the first commercial use of leaf from his three-year-old Honduran farm; nearly all of the blend aside from the wrapper comes from Patel's own farms."
+  },
+  "vitolas": [
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5.5,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Corona Gorda",
+      "slug": "corona-gorda",
+      "length_in": 6.0,
+      "ring_gauge": 46,
+      "vitola_type": "Corona Gorda",
+      "summary_review": "Reviewed by Halfwheel; full review content is paywalled and could not be verified in detail, so score and specific tasting notes are recorded as missing rather than guessed.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Halfwheel",
+          "source_type": "critic",
+          "score": null,
+          "score_scale": 100,
+          "review_date": null,
+          "url": "https://halfwheel.com/rocky-patel-sapphire-corona-gorda/478165/",
+          "key_notes_text": "Halfwheel reviewed the Sapphire Corona Gorda; the article was behind a paywall at research time so its score and detailed tasting notes could not be confirmed."
+        }
+      ]
+    },
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6.5,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20,
+        5
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "60",
+      "slug": "60",
+      "length_in": 6.0,
+      "ring_gauge": 60,
+      "vitola_type": "Gordo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_sources": [
+    {
+      "source_name": "Halfwheel",
+      "source_url": "https://halfwheel.com/rocky-patel-sapphire-heads-to-stores/473212/",
+      "fact_note": "Sapphire wrapper/binder/filler, vitola list, background"
+    },
+    {
+      "source_name": "Halfwheel",
+      "source_url": "https://halfwheel.com/rocky-patel-sapphire-debuting-in-april/464071/",
+      "fact_note": "Sapphire debut date (April 2026 PCA trade show)"
+    },
+    {
+      "source_name": "Halfwheel",
+      "source_url": "https://halfwheel.com/rocky-patel-sapphire-corona-gorda/478165/",
+      "fact_note": "Sapphire Corona Gorda review reference; paywalled"
+    },
+    {
+      "source_name": "Cigar Aficionado",
+      "source_url": "https://www.cigaraficionado.com/article/first-look-rocky-patel-sapphire",
+      "fact_note": "Sapphire strength, blend detail, release story, farm sourcing"
+    }
+  ]
+}

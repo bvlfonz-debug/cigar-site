@@ -1,0 +1,161 @@
+{
+  "line": {
+    "brand_slug": "rocky-patel",
+    "name": "Twentieth Anniversary",
+    "slug": "twentieth-anniversary",
+    "wrapper": "Honduran (sun-grown; offered in natural and Maduro wrapper options)",
+    "binder": "Honduran",
+    "filler": "Nicaraguan (Esteli, Jalapa) and Honduran (Jamastran Valley)",
+    "strength": "Medium to Medium-Full",
+    "release_year": 2015,
+    "background_text": "Released in 2015 to commemorate Rocky Patel's 20th year in the cigar industry (founded 1995), this line kept most of its blend recipe a closely guarded 'trade secret,' disclosing only the regional origins of the tobacco. It launched with a box-pressed Toro as the flagship vitola plus several companion sizes including a Lancero and Rothschild, and was marketed heavily around a pre-release 90-point rating."
+  },
+  "vitolas": [
+    {
+      "size_name": "Rothschild",
+      "slug": "rothschild",
+      "length_in": 4.5,
+      "ring_gauge": 50,
+      "vitola_type": "Rothschild",
+      "summary_review": "Halfwheel scored the Rothschild 91, praising orange peel, meatiness and peanut notes early, developing into French onion soup, salty popcorn, bourbon and smoky oak.",
+      "tasting_notes": [
+        "orange peel",
+        "meaty",
+        "peanuts",
+        "salty popcorn",
+        "bourbon",
+        "smoky oak"
+      ],
+      "smoke_time_min": 75,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Halfwheel",
+          "source_type": "critic",
+          "score": 91,
+          "score_scale": 100,
+          "review_date": "2015-11",
+          "url": "https://halfwheel.com/rocky-patel-twentieth-anniversary-rothschild/100021/",
+          "key_notes_text": "Halfwheel scored the Rothschild 91, describing a complex progression from orange peel and peanuts to French onion soup, bourbon and smoky oak."
+        }
+      ]
+    },
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6.0,
+      "ring_gauge": 52,
+      "vitola_type": "Toro (box-pressed)",
+      "summary_review": "CigarScore.com rated the box-pressed Toro poorly (2/10) citing burn issues and inconsistent flavor delivery despite a promising, short-lived butterscotch note.",
+      "tasting_notes": [
+        "roasted butterscotch",
+        "inconsistent flavor"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "CigarScore.com",
+          "source_type": "critic",
+          "score": 2,
+          "score_scale": 10,
+          "review_date": null,
+          "url": "https://www.cigarscore.com/cigar-review-rocky-patel-twentieth-anniversary/",
+          "key_notes_text": "CigarScore.com rated the box-pressed Toro low (2/10), citing burn problems and an inconsistent, though occasionally good, flavor profile."
+        }
+      ]
+    },
+    {
+      "size_name": "Sixty (Double Toro)",
+      "slug": "sixty",
+      "length_in": 6.0,
+      "ring_gauge": 60,
+      "vitola_type": "Double Toro / Gordo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Lancero",
+      "slug": "lancero",
+      "length_in": 7.5,
+      "ring_gauge": 38,
+      "vitola_type": "Lancero/Panatela",
+      "summary_review": "Leaf Enthusiast scored the Lancero an exceptional 9.5/10, calling it 'easily the best Rocky Patel product' the reviewer had smoked, citing cherry, cedar, coffee, earth, leather and pepper spice.",
+      "tasting_notes": [
+        "cherry",
+        "cedar",
+        "coffee bean",
+        "earth",
+        "leather",
+        "pepper spice"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [],
+      "critic_reviews": [
+        {
+          "source_name": "Leaf Enthusiast",
+          "source_type": "critic",
+          "score": 9.5,
+          "score_scale": 10,
+          "review_date": "2015-11-17",
+          "url": "https://www.leafenthusiast.com/cigar-review-20th-anniversary-by-rocky-patel/",
+          "key_notes_text": "Leaf Enthusiast scored the Lancero 9.5/10, calling it the best Rocky Patel product the reviewer had tried, with sweet cherry, cedar, coffee, earth, leather and pepper spice."
+        }
+      ]
+    },
+    {
+      "size_name": "Robusto Grande",
+      "slug": "robusto-grande",
+      "length_in": null,
+      "ring_gauge": null,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Confirmed distinct from 'Rocky Patel Vintage 20th Anniversary' (a separate extension of the older Vintage 1990 line, using Connecticut Broadleaf wrapper/Brazilian binder) -- the two are different products despite similar naming. Robusto Grande's length/ring gauge could not be confirmed in available sources.",
+  "research_sources": [
+    {
+      "source_name": "Famous Smoke Cigar Advisor",
+      "source_url": "https://www.famous-smoke.com/cigaradvisor/cigar-reviews/rocky-patel-twentieth-anniversary-cigar-review",
+      "fact_note": "Wrapper/binder/filler, release year 2015, sizes"
+    },
+    {
+      "source_name": "Halfwheel",
+      "source_url": "https://halfwheel.com/rocky-patel-twentieth-anniversary-rothschild/100021/",
+      "fact_note": "91-point score, tasting notes, size, box count for Rothschild"
+    },
+    {
+      "source_name": "CigarScore.com",
+      "source_url": "https://www.cigarscore.com/cigar-review-rocky-patel-twentieth-anniversary/",
+      "fact_note": "2/10 score and tasting notes for box-pressed Toro"
+    },
+    {
+      "source_name": "Leaf Enthusiast",
+      "source_url": "https://www.leafenthusiast.com/cigar-review-20th-anniversary-by-rocky-patel/",
+      "fact_note": "9.5/10 score, size, tasting notes for Lancero"
+    },
+    {
+      "source_name": "CigarsDirect",
+      "source_url": "https://www.cigarsdirect.com/collections/rocky-patel-twentieth",
+      "fact_note": "Vitola names and general wrapper info"
+    },
+    {
+      "source_name": "CIGAR.com",
+      "source_url": "https://www.cigar.com/p/rocky-patel-vintage-20th-anniversary-cigars/2041872/",
+      "fact_note": "Used to confirm 'Vintage 20th Anniversary' is a distinct product"
+    }
+  ]
+}

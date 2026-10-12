@@ -1,0 +1,56 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo INCH Limited Edition 2019",
+    "slug": "inch-limited-edition-2019",
+    "wrapper": "Connecticut Habano",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": "Medium to Medium-Full",
+    "release_year": 2019,
+    "background_text": "Released to commemorate E.P. Carrillo's tenth anniversary, only the second limited-edition INCH release after the 2014 INCH Short Run. Connecticut Habano wrapper (chosen for performance at large ring gauges) over Nicaraguan binder/filler, single oversized Super Gordo vitola with distinctive anniversary banding."
+  },
+  "vitolas": [
+    {
+      "size_name": "Super Gordo",
+      "slug": "super-gordo",
+      "length_in": 6.125,
+      "ring_gauge": 64,
+      "vitola_type": "Gordo",
+      "summary_review": "Medium-to-medium-full with coffee, earth, red pepper, cream, and fruit notes building through a balanced final third.",
+      "tasting_notes": [
+        "coffee",
+        "earth",
+        "red pepper",
+        "cream",
+        "fruit"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Cigar Coop",
+          "source_type": "critic",
+          "score": 89,
+          "score_scale": "100",
+          "review_date": "2020-06-01",
+          "url": "https://cigar-coop.com/2020/06/cigar-review-e-p-carrillo-inch-limited-edition-2019.html",
+          "key_notes_text": "Buy One; coffee, earth, red pepper, cream, fruit; $15.00; medium to medium-full."
+        }
+      ]
+    }
+  ],
+  "research_notes": "Confirmed genuinely distinct limited edition - unique wrapper and single-vitola format, clearly separate from standard INCH variants.",
+  "research_sources": [
+    {
+      "url": "https://cigar-coop.com/2020/06/cigar-review-e-p-carrillo-inch-limited-edition-2019.html",
+      "supports": "blend, vitola, score, tasting notes, price"
+    },
+    {
+      "url": "https://halfwheel.com/e-p-carrillo-inch-edicion-limitada-2019/377788/",
+      "supports": "release context, anniversary tie-in"
+    }
+  ]
+}

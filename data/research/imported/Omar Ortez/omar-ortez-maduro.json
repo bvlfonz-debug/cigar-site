@@ -1,0 +1,43 @@
+{
+  "line": {
+    "name": "Omar Ortez Maduro",
+    "slug": "omar-ortez-maduro",
+    "description": "Official Altadis product URL is 'omar-ortez-honduran-maduro,' supporting a Honduran origin for this specific line. Full description/wrapper-binder-filler not confirmed this session.",
+    "wrapper": null,
+    "binder": null,
+    "filler": null,
+    "factory": "Honduras (per Altadis product URL naming; not independently confirmed with a specific factory name)",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo. Confirmed via a California DOJ tobacco-product registry listing ('Omar Ortez Maduros Toro 6x54').",
+      "sources": [
+        "https://utl.doj.ca.gov/utl/variants/18954"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 54",
+      "notes": "Confirmed via a single retailer product URL.",
+      "sources": [
+        "https://smokincigar.com/products/omar-ortez-maduro-robusto-5x54"
+      ]
+    },
+    {
+      "name": "Torpedo",
+      "size": "UNVERIFIED - listed at a retailer, size not confirmed this session",
+      "sources": [
+        "https://mikescigars.com/omar-ortez-maduro-torpedo"
+      ]
+    }
+  ],
+  "research_notes": "The CA DOJ registry lists this line as 'Omar Ortez Maduros' (plural) while most retailers say 'Omar Ortez Maduro' (singular) - minor naming inconsistency, not resolved, likely not meaningful. RESEARCH LIMITATION THIS BATCH: this session's WebFetch tool hit a session-wide usage cap partway through research on this brand, preventing full-page reads of the Altadis USA official page and most retailer spec pages. Only facts confirmed via search-result titles/metadata or independently-fetched pages before the cap are included below. Wrapper/binder/filler and full vitola lists could not be confirmed and are left null/flagged rather than filled from general knowledge, per this project's no-fabrication policy. RECOMMEND a follow-up research pass once full page fetches are available.",
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/omar-ortez/omar-ortez-honduran-maduro/",
+    "https://utl.doj.ca.gov/utl/variants/18954",
+    "https://smokincigar.com/products/omar-ortez-maduro-robusto-5x54"
+  ]
+}

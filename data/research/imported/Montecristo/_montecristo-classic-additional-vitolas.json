@@ -1,0 +1,20 @@
+{
+  "line_slug": "montecristo-classic",
+  "note": "Site lists Churchill, Especial No.1, No.2 Torpedo, Robusto - no Toro. A Mac photo is specifically labeled 'Classic_Toro'. FLAG: I could not independently verify a Toro as an official Classic vitola in this research pass (site's own list, which I'm treating as likely authoritative, omits it) - recording it here as a flagged addition rather than silently dropping the photographed evidence.",
+  "additional_vitolas": [
+    {
+      "name": "Toro",
+      "size": "UNVERIFIED size - photo confirms a Toro-format product exists, but no independent retailer source was checked for exact dimensions in this pass.",
+      "sources": [
+        "Mac photo evidence only - not independently corroborated"
+      ]
+    }
+  ],
+  "not_added_flag": {
+    "item": "Montecristo Original / Montecristo (plain)",
+    "issue": "A Mac photo folder is labeled 'Montecristo Original' but research found no line branded 'Montecristo Original' at any retailer. JR Cigars lists a standalone 'Montecristo' (91-rated by Cigar Aficionado, Dominican-made) that may be what the photo depicts, and this may be identical to or the parent of the already-listed 'Montecristo Classic' line rather than a separate product. Not added as its own line without clearer differentiation from Classic."
+  },
+  "research_sources": [
+    "https://www.jrcigars.com/cigars/handmade-cigars/montecristo-cigars/"
+  ]
+}

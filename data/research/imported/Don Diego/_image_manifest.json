@@ -1,0 +1,20 @@
+{
+  "brand": "Don Diego",
+  "batch_date": "2026-09-30",
+  "mac_source_root": "Cigar Images/Don Diego",
+  "note": "Part of the Altadis USA reorganization; folder was already top-level (flat, 1 vitola photographed). Confirmed absent from the site's brand index. RESEARCH LIMITED THIS BATCH by a WebFetch session cap - see README.",
+  "mappings": [
+    {
+      "json_file": "don-diego.json",
+      "line_slug": "don-diego",
+      "mac_folder": "Cigar Images/Don Diego",
+      "files": [
+        "DonDiego_Churchill_01.png",
+        "DonDiego_Churchill_Box-Open_01.jpg"
+      ],
+      "notes": "Only the Churchill vitola is confirmed with full confidence; wrapper/binder/filler and other vitola sizes are flagged unverified due to a tooling limitation this session."
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": []
+}

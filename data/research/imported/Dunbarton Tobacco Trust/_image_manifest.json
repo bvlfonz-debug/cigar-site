@@ -1,0 +1,27 @@
+{
+  "brand": "Dunbarton Tobacco & Trust",
+  "brand_slug": "dunbarton-tobacco-trust",
+  "note": "Paths are relative to 'Cigar Images/Dunbarton Tobacco Trust/' in the connected folder on the user's Mac. Mi Querida (and its sub-lines Black, Triqui Traca) was already researched separately under the Aganorsa Leaf batch earlier in this project - the loose top-level 'DunbartonMiQuierda.png' in this folder is redundant with that earlier work and was not re-researched here. The untouched press-magazine PNG (MilDiasCigar_Essential30_CigarPressMagazine.png) was left as-is per the project's usual convention.",
+  "gap_fill_supplements": {
+    "_stillwell-star-additional-vitolas": {
+      "source_folder": "Cigar Images/Dunbarton Tobacco Trust/Stillwell"
+    },
+    "_umbagog-additional-vitolas": {
+      "source_folder": "Cigar Images/Dunbarton Tobacco Trust/Umbagog"
+    }
+  },
+  "new_lines": {
+    "sobremesa-brulee": {
+      "source_folder": "Cigar Images/Dunbarton Tobacco Trust/Dunbarton Tobacco & Trust Sobremesa",
+      "note": "Mac photo is a generic marketing banner, not a per-vitola shot - see research_notes in the JSON."
+    }
+  },
+  "renamed_files": {
+    "stillwell_folder": "Bayou -> Bayou-No32 (confirmed); 23 -> UNVERIFIED-No23 (no matching blend number found in the line)",
+    "umbagog_folder": "Bb-Rob -> Bronzeback-Robusto-INFERRED (plausible but not directly documented abbreviation, see supplement flag)"
+  },
+  "not_actionable_no_gap_identified": {
+    "Sin Compromiso": "Only a generic box photo and a logo SVG - no specific vitola name to cross-reference against the site's existing 'Seleccion No. 2' listing.",
+    "Muestra de Saka": "Only a generic box photo - no specific vitola name to cross-reference against the site's existing 'Nacatamale' listing."
+  }
+}

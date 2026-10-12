@@ -1,0 +1,124 @@
+{
+  "line": {
+    "brand_slug": "rocky-patel",
+    "name": "Dark Star",
+    "slug": "dark-star",
+    "wrapper": "Honduran Corojo",
+    "binder": "Honduran",
+    "filler": "Honduran and Nicaraguan, including tobacco grown from Paraguayan seed",
+    "strength": "Medium",
+    "release_year": 2023,
+    "background_text": "Dark Star debuted at the 2023 PCA (Premium Cigar Association) Trade Show and began shipping to retailers on November 30, 2023. It is produced at Plasencia's El Paraiso factory in Honduras and is notable for being the first Rocky Patel release to use a leaf grown from Paraguayan tobacco seed, an ingredient the brand had never used before."
+  },
+  "vitolas": [
+    {
+      "size_name": "Short Star",
+      "slug": "short-star",
+      "length_in": 4.0,
+      "ring_gauge": 60,
+      "vitola_type": "Short Robusto",
+      "summary_review": null,
+      "tasting_notes": [
+        "nuttiness",
+        "powdery cocoa",
+        "cedar",
+        "brewed coffee",
+        "black pepper",
+        "vanilla"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Halfwheel",
+          "source_type": "critic",
+          "score": 86,
+          "score_scale": 100,
+          "review_date": null,
+          "url": "https://halfwheel.com/rocky-patel-dark-star-short-star/434841/",
+          "key_notes_text": "Found consistent nutty, cocoa, cedar, and coffee notes with building black pepper and vanilla on the retrohale, finishing at medium-plus intensity."
+        }
+      ]
+    },
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5.0,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [
+        "coffee bean",
+        "fruit",
+        "wood",
+        "mixed pepper",
+        "musty"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20,
+        5
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Cigar Coop",
+          "source_type": "critic",
+          "score": 85,
+          "score_scale": 100,
+          "review_date": "2024-09-01",
+          "url": "https://cigar-coop.com/2024/09/rocky-patel-dark-star-robusto-cigar-review.html",
+          "key_notes_text": "Medium strength, medium-to-full body with coffee, fruit, wood, and mixed pepper notes; excellent draw but required touch-ups in the second half, rated Not Recommended for value."
+        }
+      ]
+    },
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6.0,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20,
+        5
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Sixty",
+      "slug": "sixty",
+      "length_in": 6.0,
+      "ring_gauge": 60,
+      "vitola_type": "Gordo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20,
+        5
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_sources": [
+    {
+      "source_name": "Cigar Coop",
+      "source_url": "https://cigar-coop.com/2024/09/rocky-patel-dark-star-robusto-cigar-review.html",
+      "fact_note": "Dark Star blend, release info, Robusto review and score"
+    },
+    {
+      "source_name": "Halfwheel",
+      "source_url": "https://halfwheel.com/rocky-patel-dark-star-short-star/434841/",
+      "fact_note": "Dark Star Short Star review, blend, pricing, score"
+    },
+    {
+      "source_name": "Cigars International",
+      "source_url": "https://www.cigarsinternational.com/p/rocky-patel-dark-star/2055271/",
+      "fact_note": "Dark Star vitola list, box counts, pricing"
+    }
+  ]
+}

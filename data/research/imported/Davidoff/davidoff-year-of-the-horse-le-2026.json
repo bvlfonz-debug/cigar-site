@@ -1,0 +1,39 @@
+{
+  "line": {
+    "name": "Davidoff Year of the Horse Limited Edition 2026",
+    "slug": "davidoff-year-of-the-horse-le-2026",
+    "description": "CORRECTION/DECODE: Mac filename 'Yoth' = 'Year of the Horse,' confirmed via multiple cigar-news sources (not guessed). Newest entry in Davidoff's long-running Lunar New Year/zodiac limited edition series (releases since 2013). Available from Davidoff flagship stores/select merchants starting November 20, 2025.",
+    "wrapper": null,
+    "binder": null,
+    "filler": "Proprietary hybrid tobaccos with three vintage fillers, aged over four decades (per brand description)",
+    "factory": null,
+    "status": "limited edition (2026 release)"
+  },
+  "vitolas": [
+    {
+      "name": "Limited Edition 2026 Toro Especial",
+      "size": "6.5 x 55",
+      "notes": "Davidoff's first 'toro especial' format. Matches the Mac photo. Quantity not stated.",
+      "sources": [
+        "https://cigarinspector.com/?p=84675",
+        "https://www.cigarjournal.com/?p=73947"
+      ]
+    },
+    {
+      "name": "Year of the Horse Flagship Exclusive",
+      "size": "6 x 52",
+      "notes": "The brand's first torpedo format in a limited edition; same blend as the Toro Especial. 600 boxes of 24 worldwide.",
+      "sources": [
+        "https://jamesfox.ie/products/davidoff-year-of-the-horse-2026-limited-edition-gran-toro"
+      ]
+    }
+  ],
+  "research_notes": "Wrapper, binder, and factory not stated in any source found - left null rather than guessed. MSRP not found. A Gift Set (328 pieces) and a Masterpiece Humidor (holds 88 Gran Toro 6x56 cigars, 20 pieces) were also found in sourcing but have no matching Mac photo, so not added as separate entries this pass. Sources show a minor, unresolved discrepancy on exactly when the current 12-year zodiac cycle began/ended - not treated as a fact either way.",
+  "research_sources": [
+    "https://cigarinspector.com/?p=84675",
+    "https://www.cigarjournal.com/?p=73947",
+    "https://jamesfox.ie/products/davidoff-year-of-the-horse-2026-limited-edition-gran-toro",
+    "https://tobacconistofgreenwich.com/product/davidoff-year-of-the-horse-limited-edition-2026/",
+    "https://thecigarauthority.com/davidoff-year-of-the-horse-2026-limited-edition-arrives-in-stores/"
+  ]
+}

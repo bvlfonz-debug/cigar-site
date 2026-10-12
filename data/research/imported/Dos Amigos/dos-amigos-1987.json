@@ -1,0 +1,48 @@
+{
+  "brand": {
+    "name": "Dos Amigos (1987)",
+    "slug": "dos-amigos",
+    "description": "Not on the site at all - confirmed absent from the site's full 112-brand index. Confirmed as a genuinely separate, distinct brand from the site's unrelated existing listing 'Dos Hermanos' and from Drew Estate's 'ACID Amigos' line - not a misremembering of either. A brand-new (2025) brand conceived in Barcelona, Spain by founders Jordi Llorens(-Carrio) and Isidre Pineda, with cigars produced in Nicaragua. The '1987'/'87' in the full brand name reportedly references the founders' birth year (per Cigar Journal). Officially launched internationally at InterTabac 2025 (Germany); German retail distribution handled by importer Feine Puros & Zubehor (Garmisch-Partenkirchen). Covered so far mainly by European trade press (Cigar Journal, Cigar Smoker Club) rather than US cigar media, consistent with its absence from this site's index.",
+    "founded": null,
+    "founded_note": "Brand launched internationally at InterTabac 2025; a specific company-founding year was not stated in any source found.",
+    "origin_country": "Nicaragua (manufacture); project conceived in Barcelona, Spain",
+    "distributor": null,
+    "status": "current"
+  },
+  "line": {
+    "name": "Dos Amigos 1987",
+    "slug": "dos-amigos-1987",
+    "description": "Launched deliberately as a focused two-vitola portfolio (not a 3-vitola lineup). Each vitola also carries its own marketing nickname: the Robusto is called 'Paster' and the Toro is called 'Sidecar.' Tobacco aged a minimum of 2 years; profile described as mild, with sweetness and a touch of spice. FLAG: a reported factory name ('Cociagsa/CIGOI,' Nicaragua) comes from a single source and could not be independently corroborated - recorded with that caveat rather than asserted as settled.",
+    "wrapper": "Ecuador Rosado (Colorado shade)",
+    "binder": "Nicaraguan, Jalapa-grown",
+    "filler": "Nicaraguan (Jalapa, Esteli, Ometepe)",
+    "factory": "Reported as 'Cociagsa (CIGOI),' Nicaragua - single-sourced, not independently corroborated.",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto ('Paster')",
+      "size": "5 x 52",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.cigarjournal.com/dos-amigos-at-intertabac-2026/",
+        "https://cigarsmokerclub.com/en/dos-amigos-cigars-sidecar-and-paster-the-new-barcelona-born-brand-aiming-to-make-its-mark-in-the-premium-cigar-market/"
+      ]
+    },
+    {
+      "name": "Toro ('Sidecar')",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.cigarjournal.com/dos-amigos-at-intertabac-2026/",
+        "https://cigarsmokerclub.com/en/dos-amigos-cigars-sidecar-and-paster-the-new-barcelona-born-brand-aiming-to-make-its-mark-in-the-premium-cigar-market/"
+      ]
+    }
+  ],
+  "research_notes": "A 3rd Mac photo, 'DosAmigos_Churchill_01.jpg', implies a Churchill vitola - NO source found documents a Churchill for this brand. Every source consistently describes the catalog as exactly the 2 vitolas above. NOT added as a confirmed vitola - see _dos-amigos-churchill-UNRESOLVED.json. A 3rd, market-specific release ('Zwoa Spezln,' a Bavarian/Munich-themed German/Austrian exclusive, Pigtail vitola 5.5x54) also exists but has no matching Mac photo and is a different, region-exclusive SKU, not added here. 2 generic 'Product_Box-Open' Mac photos could not be attributed to either specific vitola without viewing the images directly.",
+  "research_sources": [
+    "https://www.cigarjournal.com/dos-amigos-at-intertabac-2026/",
+    "https://cigarsmokerclub.com/en/dos-amigos-cigars-sidecar-and-paster-the-new-barcelona-born-brand-aiming-to-make-its-mark-in-the-premium-cigar-market/",
+    "https://smokersplanet.de/jordi-llorens-carrio-legt-mit-dos-amigos-cigarren-mit-abenteuern-auf/"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "note": "Supplementary/correction file - NOT purely new vitolas. 'Fratello Camo' already exists on the site, but its single listed vitola ('Camo Cameroon Robusto', 5x50) does not match any documented Camo product from any source checked (halfwheel, Cigar Coop, retailers, or Fratello's own site) - no 'Cameroon wrapper' Camo product was found anywhere. Camo is actually a budget/bundle line (introduced 2019, made at La Aurora, Dominican Republic) sold as distinct COLOR/FLAVOR-named variants. Recommend treating the site's current 'Camo Cameroon Robusto' entry as likely incorrect/outdated rather than building on top of it.",
+  "line_name": "Fratello Camo",
+  "site_entry_flagged_as_likely_wrong": "Camo Cameroon Robusto (5x50) - no corroborating source found",
+  "corrected_variants": [
+    {
+      "name": "Camo Blue (Blu)",
+      "wrapper": "Maduro",
+      "sizes": [
+        "Robusto 5x50",
+        "Toro 6x50"
+      ],
+      "notes": "Color/band name for the maduro-wrapper variant"
+    },
+    {
+      "name": "Camo Rosso",
+      "wrapper": "Habano",
+      "sizes": [
+        "Robusto 5x50",
+        "Toro 6x50"
+      ],
+      "notes": "Color/band name for the habano-wrapper variant"
+    },
+    {
+      "name": "Camo Verde",
+      "wrapper": "Connecticut",
+      "sizes": [
+        "Robusto 5x50",
+        "Toro 6x50"
+      ],
+      "notes": "Color/band name for the Connecticut-wrapper variant"
+    },
+    {
+      "name": "Camo Sweet",
+      "wrapper": null,
+      "sizes": [
+        "Robusto 5x50",
+        "Toro 6x50"
+      ],
+      "notes": "Flavor-infused variant with a sweetened tip - Fratello's first flavored release, debuted PCA 2021"
+    }
+  ],
+  "binder_filler": "Not disclosed by Fratello for any Camo variant in any source checked (halfwheel repeatedly notes this) - genuinely undisclosed, not an oversight on our part.",
+  "pack_counts": "Bundle counts have varied (15-count, later 25-count as of ~2021). Mac filenames 'Camo-20/30/40-scaled.jpg' are most likely just sequential image-numbering artifacts (e.g. photo #20, #30, #40) from a WordPress media export, not distinct pack-count SKUs - no source confirms 20/30/40-count Camo packaging.",
+  "not_covered": "A separate 'Camo Nicaragua' line extension exists (introduced TPE 2023) with its own wrapper, distinct from Blue/Rosso/Verde/Sweet. Not in your photo library's current file list, so not detailed here - flag as a possible future find if photos for it turn up.",
+  "research_sources": [
+    "https://halfwheel.com/fratello-ships-camo-bundles/377304/",
+    "https://halfwheel.com/fratello-camo-moves-to-25-count-bundles/395378/",
+    "https://halfwheel.com/fratello-camo-sweet-begins-shipping/402025/",
+    "https://halfwheel.com/fratello-camo-nicaragua-bundles-begin-shipping/427937/",
+    "https://fratellocigar.com/camo-2/",
+    "https://cigardojo.com/2020/09/fratello-camo-blu-toro/",
+    "https://blindmanspuff.com/blind-cigar-review-fratello-camo-verde-robusto/"
+  ]
+}

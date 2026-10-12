@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "name": "Primo del Rey",
+    "slug": "primo-del-rey",
+    "description": "Not on the site at all - confirmed absent from the site's full brand index. IMPORTANT CONFLICT WITH INITIAL ASSUMPTION: every current retailer source found (JR Cigars, Corona Cigar) states Primo del Rey cigars are handmade in HONDURAS, not the Dominican Republic, and none of the sources mention Altadis USA (or any other specific parent/distributor) by name. No Wikipedia page exists for this brand, and no founding date, founder, or origin story could be found anywhere. Only 2 active retailers (JR Cigars, Corona Cigar) were found currently carrying this brand - no listing found at Cigars International, Famous Smoke, or Thompson Cigar, suggesting a small or declining distribution footprint (cause not confirmed).",
+    "founded": null,
+    "founded_note": "Not found in any source - flagged as unknown rather than guessed.",
+    "origin_country": "Honduras",
+    "distributor": null,
+    "distributor_note": "UNCONFIRMED - no source ties this brand to Altadis USA, Tabacalera USA, or General Cigar. Recording as unknown rather than asserting the initially-assumed Altadis USA attribution.",
+    "status": "current"
+  },
+  "line": {
+    "name": "Primo del Rey",
+    "slug": "primo-del-rey",
+    "description": "Mild-to-medium / medium-bodied, marketed as affordable and aromatic; flavor notes cited by retailers include leather, cedar, coffee, cream, and vanilla.",
+    "wrapper": "Ecuadorian Connecticut-seed (shade/natural)",
+    "binder": "Nicaraguan",
+    "filler": "Honduran and Nicaraguan",
+    "factory": "Honduras (specific factory name not disclosed by any source found)",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 54",
+      "sources": [
+        "https://www.jrcigars.com/item/primo-del-rey/robusto/PRRO15.html",
+        "https://www.coronacigar.com/primo-del-rey-robusto"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.jrcigars.com/item/primo-del-rey/toro/PRT15.html"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 54",
+      "sources": [
+        "https://www.jrcigars.com/item/primo-del-rey/churchill/PRCH15.html"
+      ]
+    },
+    {
+      "name": "Pyramid",
+      "size": "6.12 x 52",
+      "sources": [
+        "https://www.jrcigars.com/item/primo-del-rey/pyramid/PRPY15.html"
+      ]
+    }
+  ],
+  "research_notes": "These 4 vitolas are the only ones found for sale anywhere (across the only 2 active retailers located) - not confirmed as an exhaustive historical list; a fuller line (numbered sizes, Corona, Lonsdale) may have existed in the past but is not confirmed, so nothing beyond these 4 was added.",
+  "research_sources": [
+    "https://www.jrcigars.com/cigars/handmade-cigars/primo-del-rey",
+    "https://www.jrcigars.com/item/primo-del-rey/robusto/PRRO15.html",
+    "https://www.jrcigars.com/item/primo-del-rey/toro/PRT15.html",
+    "https://www.jrcigars.com/item/primo-del-rey/churchill/PRCH15.html",
+    "https://www.jrcigars.com/item/primo-del-rey/pyramid/PRPY15.html",
+    "https://www.coronacigar.com/primo-del-rey-robusto"
+  ]
+}

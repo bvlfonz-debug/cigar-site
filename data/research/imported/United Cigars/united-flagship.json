@@ -1,0 +1,70 @@
+{
+  "line": {
+    "name": "United",
+    "description": "United Cigars' own-name flagship house blend - a genuinely separate blend from 'Independence' (Independence uses Mexican Habano wrapper/Dominican binder/Dominican+Nicaraguan ligero filler; United uses Ecuadorian Habano or Mexican San Andrés wrapper over Dominican binder/filler). Produced at Tabacalera Magia, Dominican Republic. Currently sold in a box-pressed-to-'Round' production format.",
+    "origin_country": "Dominican Republic",
+    "wrapper": "Natural/Connecticut: Ecuadorian Habano (marketed as 'Sun Grown'); Maduro: Mexican San Andrés",
+    "binder": "Dominican",
+    "filler": "Dominican Broadleaf, Quisqueya, Dominican Seco, Dominican Olor",
+    "strength": "Natural/Connecticut: mild-medium; Sun Grown/Habano: medium; Maduro: full-bodied"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 54",
+      "wrapper_variants": [
+        "Connecticut/Natural",
+        "Sun Grown/Habano",
+        "Maduro"
+      ],
+      "sources": [
+        "https://www.2guyscigars.com/united-cigars"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "wrapper_variants": [
+        "Connecticut/Natural",
+        "Sun Grown/Habano",
+        "Maduro"
+      ],
+      "sources": [
+        "https://www.2guyscigars.com/united-cigars"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 54",
+      "wrapper_variants": [
+        "Connecticut/Natural",
+        "Sun Grown/Habano",
+        "Maduro"
+      ],
+      "sources": [
+        "https://www.cigarjournal.com/newly-blended-united-cigar-in-the-round-format-slated-for-april/"
+      ]
+    },
+    {
+      "name": "Pencil",
+      "size": "6 x 28 (thin panetela)",
+      "wrapper_variants": [
+        "Natural",
+        "Maduro"
+      ],
+      "sources": [
+        "https://lmcigars.com/product/united-pencil/",
+        "https://www.cigarcentury.com/en/cigars/united-natural-box-pressed-pencil"
+      ]
+    }
+  ],
+  "research_notes": "'Round' is United's current box-pressed-to-round production format, not a distinct sub-brand - Round-Robusto/Toro/Churchill photos map to the same Robusto/Toro/Churchill vitolas above. 'Pencil' is a genuine separate United sub-shape (6x28 thin panetela), confirmed via LM Cigars and Cigar Century, available Natural and Maduro. Sleeve-pack photos (Pack-CT/Mad/SG-Sleeve) appear to be Toro-sized per '2 Guys Cigars' United Bag Toro product naming, but exact vitola within the sleeve wasn't independently confirmed - flagged, not asserted as fact. This is NOT the same product as 'Independence' (already listed on the site) - do not merge.",
+  "research_sources": [
+    "https://www.cigarjournal.com/newly-blended-united-cigar-in-the-round-format-slated-for-april/",
+    "https://www.2guyscigars.com/united-cigars",
+    "https://lmcigars.com/product/united-pencil/",
+    "https://www.cigarcentury.com/en/cigars/united-natural-box-pressed-pencil",
+    "https://halfwheel.com/two-new-independence-cigars-shipping-next-week/478035/",
+    "https://cigardojo.com/2026/07/united-cigars-makes-independence-a-regular-production-cigar/"
+  ]
+}

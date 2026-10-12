@@ -1,0 +1,42 @@
+{
+  "brand": {
+    "name": "Gold Star",
+    "description": "Originally introduced 1995, dormant for years. Revived 2024 as a Limited Edition supporting the Navy SEAL Gold Star Program. Went into full regular production starting March 2025, with wider retail rollout after PCA trade show, April 2025.",
+    "origin_country": "Dominican Republic",
+    "founded": "1995 (revived 2024/2025)",
+    "notes": "Made at Tabacalera William Ventura, Dominican Republic; ~1 year post-roll aging."
+  },
+  "lines": [
+    {
+      "line": {
+        "name": "Gold Star (regular production, 2025)",
+        "wrapper": "Ecuador Habano 2000 (Quevedo region)",
+        "binder": "Indonesian Sumatra",
+        "filler": "Dominican (Ligero, Criollo '98, Corojo '98) blended with Connecticut Broadleaf",
+        "strength": "Mild-medium building to medium",
+        "notes": "Boxes of 20. Differs from the 2024 LE version primarily in binder (Sumatra vs. Ecuadoran) and a higher ligero/broadleaf ratio."
+      },
+      "vitolas": [
+        {
+          "name": "Robusto",
+          "size": "5 x 52"
+        },
+        {
+          "name": "Toro",
+          "size": "6 x 54"
+        },
+        {
+          "name": "Gordo",
+          "size": "6.5 x 60"
+        }
+      ]
+    }
+  ],
+  "research_notes": "Mac filenames use both 'Gs-' and 'Star-' prefixes for the same 3 vitolas (single-stick vs. box-open photo sets), not 6 distinct products.",
+  "research_sources": [
+    "https://www.cigaraficionado.com/article/gold-star-returns-as-regular-production-brand",
+    "https://premiumcigars.org/united-cigarss-gold-star-goes-into-regular-production/",
+    "https://cigardojo.com/2025/03/united-gold-star-toro/",
+    "https://halfwheel.com/united-cigars-ships-gold-star-limited-edition/438145/"
+  ]
+}

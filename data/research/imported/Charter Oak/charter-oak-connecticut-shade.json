@@ -1,0 +1,47 @@
+{
+  "brand": {
+    "name": "Charter Oak",
+    "slug": "charter-oak",
+    "description": "Not on the site at all - confirmed absent from the site's full brand index. IMPORTANT CORRECTION: discovered during Camacho research - 4 Mac photos were misfiled under 'Camacho' (filenames 'Ch-Broad-Tor,' 'Charter-Oak-Broad-Toro,' 'Charter-Oak-CT-Roth,' 'Charter-Oak-CT-Toro') but Charter Oak has NO corporate or production connection to Camacho or Davidoff. It is made by Foundation Cigar Company, founded by Nicholas Melillo (former Drew Estate master blender). Moved to its own top-level folder and spun off into this separate brand entry rather than being incorrectly treated as a Camacho line.",
+    "founded": null,
+    "founded_note": "Not confirmed this session - Foundation Cigar Company's founding by Nicholas Melillo is documented, but a specific Charter Oak sub-brand launch date wasn't pinned down.",
+    "origin_country": "Varies by wrapper variant - see individual lines",
+    "distributor": "Foundation Cigar Company",
+    "status": "current"
+  },
+  "line": {
+    "name": "Charter Oak Connecticut Shade",
+    "slug": "charter-oak-connecticut-shade",
+    "description": "A budget-friendly, mild-to-medium Foundation Cigar Company line.",
+    "wrapper": "Connecticut Shade",
+    "binder": null,
+    "filler": null,
+    "factory": null,
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Toro",
+      "size": "6 x 52",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.neptunecigar.com/cigars/foundation-charter-oak-connecticut-toro",
+        "https://oakglentobacconist.com/product/foundation-charter-oak-toro/"
+      ]
+    },
+    {
+      "name": "Rothschild",
+      "size": "4.25 x 50",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.neptunecigar.com/cigars/foundation-charter-oak-connecticut-rothschild"
+      ]
+    }
+  ],
+  "research_notes": "Binder/filler/factory not confirmed this session - left null rather than guessed.",
+  "research_sources": [
+    "https://www.neptunecigar.com/cigars/foundation-charter-oak-connecticut-toro",
+    "https://www.neptunecigar.com/cigars/foundation-charter-oak-connecticut-rothschild",
+    "https://cigarcountry.com/brand/foundation-cigar-company/foundation-charter-oak/"
+  ]
+}

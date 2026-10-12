@@ -1,0 +1,52 @@
+{
+  "line": {
+    "brand_slug": "lampert",
+    "name": "Lampert Baba Yaga",
+    "slug": "lampert-baba-yaga",
+    "wrapper": "Ecuadorian Habano",
+    "binder": null,
+    "filler": null,
+    "strength": null,
+    "release_year": 2026,
+    "background_text": "Baba Yaga is a limited-edition Lampert Cigars release manufactured at Tabacos de Costa Rica, marking a departure from the brand's usual Nicaraguan (1675) and Dominican (1593) production. Named after the mythical witch of Slavic folklore, the line was deliberately shrouded in mystery at launch, with founder Dr. Stefan Lampert withholding binder and filler details, saying the blend was 'created to offer something different - something that captures mystery, strength, and craftsmanship in one cigar.' Announced/released in June 2026 in a single Toro vitola."
+  },
+  "vitolas": [
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": "Newly launched (June 2026); no detailed critic scoring/tasting-note reviews found yet beyond brand/retailer announcements and informal social-media mentions.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Very newly released (June 2026) - no formal critic reviews with scores/tasting notes exist yet as of this research (Sept 2026), too new for a full review cycle. Binder and filler origins explicitly not disclosed by the brand at launch - left null rather than guessed. Strength not stated categorically by any source. Price found: $17/cigar, $170/box of 10.",
+  "research_sources": [
+    {
+      "url": "https://halfwheel.com/lampert-announces-baby-yaga/472485/",
+      "supports": "Vitola size, wrapper origin, factory, pricing, founder quote/background"
+    },
+    {
+      "url": "https://cigar-coop.com/2026/06/lampert-cigars-introduces-baba-yaga-cigar-news.html",
+      "supports": "Vitola, wrapper, factory, box pricing, release date, background/name meaning"
+    },
+    {
+      "url": "https://www.cigarjournal.com/lampert-cigars-launches-baba-yaga-toro-6-x-52/",
+      "supports": "Confirms Toro 6x52 launch"
+    },
+    {
+      "url": "https://lampertcigars.com/announcement/baba-yaga-toro-6x52-lampert-cigars/",
+      "supports": "Official brand announcement of Toro 6x52"
+    },
+    {
+      "url": "https://cigarsmokerclub.com/en/lampert-baba-yaga-a-costa-rican-cigar-with-a-legendary-name/",
+      "supports": "Costa Rican production, folklore naming background"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "brand": "Saint Luis Rey",
+  "batch_date": "2026-09-30",
+  "mac_source_root": "Cigar Images/Saint Luis Rey",
+  "note": "Saint Luis Rey was part of the Altadis USA distributor-umbrella reorganization; its folder was already top-level. No file renames were needed. Saint Luis Rey is CONFIRMED ABSENT from the site's brand index entirely (checked directly, not just a wrong slug) - this batch includes a full new `brand` object. Note the brand-level disambiguation: there is a separate, unrelated Cuban 'Saint Luis Rey' (Habanos S.A.) - this batch covers only the non-Cuban Altadis USA version.",
+  "mappings": [
+    {
+      "json_file": "saint-luis-rey-carenas.json",
+      "line_slug": "saint-luis-rey-carenas",
+      "mac_folder": "Cigar Images/Saint Luis Rey/Saint Luis Rey Carenas",
+      "files": [
+        "SaintLuisRey_Carenas_01.png",
+        "SaintLuisRey_Carenas_Box-Open_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "saint-luis-rey-carenas-ultramar.json",
+      "line_slug": "saint-luis-rey-carenas-ultramar",
+      "mac_folder": "Cigar Images/Saint Luis Rey/Saint Luis Rey Carenas",
+      "files": [
+        "SaintLuisRey_Carenas-Ultramar_01.png",
+        "SaintLuisRey_Carenas-Ultramar_Box-Open_01.jpg"
+      ],
+      "notes": "Ultramar is a distinct sub-line/blend from plain Carenas (different wrapper/binder), confirmed via separate Altadis product pages - not just a vitola variant."
+    },
+    {
+      "json_file": "saint-luis-rey-original.json",
+      "line_slug": "saint-luis-rey-original",
+      "mac_folder": "Cigar Images/Saint Luis Rey/Saint Luis Rey Core",
+      "files": [
+        "SaintLuisRey_Churchill_Box-Open_01.jpg"
+      ],
+      "notes": "Mac folder named 'Core'; research confirmed Altadis's own product-page title for this line is 'Saint Luis Rey Original.'"
+    },
+    {
+      "json_file": "saint-luis-rey-reserva-especial.json",
+      "line_slug": "saint-luis-rey-reserva-especial",
+      "mac_folder": "Cigar Images/Saint Luis Rey/Saint Luis Rey Reserva Especial",
+      "files": [
+        "SaintLuisRey_Reserva-Especial_01.png",
+        "SaintLuisRey_Reserva-Especial_Maduro-Churchill_01.png",
+        "SaintLuisRey_Reserva-Especial_Maduro-Churchill_Box-Open_01.png"
+      ],
+      "notes": "'Maduro' is a wrapper option applied across the vitola range, not a separate named vitola - 'Maduro Churchill' = the Churchill vitola in the maduro wrapper."
+    },
+    {
+      "json_file": "saint-luis-rey-serie-g-maduro.json",
+      "line_slug": "saint-luis-rey-serie-g-maduro",
+      "mac_folder": "Cigar Images/Saint Luis Rey/Saint Luis Rey Serie G",
+      "files": [
+        "SaintLuisRey_SerieG_02.png",
+        "SaintLuisRey_SerieG_Box-Open_01.jpg",
+        "SaintLuisRey_SerieG_Maduro-No6_01.png",
+        "SaintLuisRey_SerieG_Maduro-No6_Box-Open_01.jpg"
+      ],
+      "notes": "A separate natural-wrapper 'Serie G Natural' SKU also exists per Altadis's site but wasn't independently researched in this pass (no Mac photo evidence of it either)."
+    },
+    {
+      "json_file": "saint-luis-rey-tabacales.json",
+      "line_slug": "saint-luis-rey-tabacales",
+      "mac_folder": "Cigar Images/Saint Luis Rey/Saint Luis Rey Tabacales",
+      "files": [
+        "SaintLuisRey_Tabacales_01.png",
+        "SaintLuisRey_Tabacales_Box-Open_01.jpg"
+      ],
+      "notes": "IMPORTANT: unlike every other Saint Luis Rey line, Tabacales is made in the Dominican Republic (Tabacalera de Garcia), not Honduras - confirmed across 3 independent sources. Does not inherit the brand's default Honduran origin."
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": []
+}

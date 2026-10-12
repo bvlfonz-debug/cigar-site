@@ -1,0 +1,32 @@
+{
+  "line": {
+    "name": "Brick House",
+    "slug": "brick-house",
+    "description": "Not on the site at all - the site's J.C. Newman entry lists only El Reloj, The American, and Yagua. Founded on a story from J.C. Newman founder Julius Caesar Newman, who named the brand after a communal Hungarian gathering house. Discontinued during the Depression, revived by descendants Bobby and Eric Newman using Cuban-seed tobacco grown in Nicaragua. Made at J.C. Newman's PENSA factory in Esteli, Nicaragua - a value-priced line, unrelated to the separately-owned HVC brand despite a superficial naming resemblance some might assume.",
+    "wrapper": "Ecuador Habano-seed",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Classic Robusto",
+      "size": "5 x 54 per JR Cigars (jcnewman.com's own review page lists 5x50 for 'Robusto' - minor sourcing inconsistency, recommend checking against the physical box)",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/brick-house-cigars/brick-house/",
+        "https://www.jcnewman.com/review-brick-house-robusto/"
+      ]
+    },
+    {
+      "name": "Classic Toro",
+      "size": "6 x 52",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/brick-house-cigars/brick-house/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.jcnewman.com/review-brick-house-robusto/",
+    "https://www.jrcigars.com/cigars/handmade-cigars/brick-house-cigars/brick-house/"
+  ]
+}

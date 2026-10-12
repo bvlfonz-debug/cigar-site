@@ -1,0 +1,72 @@
+{
+  "brand": "Casa de Garcia",
+  "batch_date": "2026-09-30",
+  "mac_source_root": "Cigar Images/Casa de Garcia",
+  "note": "This brand's folder was newly created during the Altadis USA reorganization - all 14 files were previously misfiled under 3 wrongly-named Altadis USA subfolders ('Flor de Selva Maduro,' 'Joya de Nicaragua Red,' 'La Aroma de Cuba Connecticut') and have been consolidated and correctly renamed here. Confirmed absent from the site's brand index - full new brand object included.",
+  "mappings": [
+    {
+      "json_file": "casa-de-garcia-connecticut.json",
+      "line_slug": "casa-de-garcia-connecticut",
+      "mac_folder": "Cigar Images/Casa de Garcia/Casa de Garcia Connecticut",
+      "files": [
+        "1510685688621-Casa-De-Garcia-Connecticut.png",
+        "1512163712566-Casa-De-Garcia-Connecticut.png",
+        "CasaDeGarcia_Connecticut_01.png",
+        "CasaDeGarcia_Connecticut_Bundle_01.jpg"
+      ],
+      "notes": "Originally misfiled under 'Altadis USA/La Aroma de Cuba Connecticut.'"
+    },
+    {
+      "json_file": "casa-de-garcia-maduro.json",
+      "line_slug": "casa-de-garcia-maduro",
+      "mac_folder": "Cigar Images/Casa de Garcia/Casa de Garcia Maduro",
+      "files": [
+        "CasaDeGarcia_Maduro_01.png",
+        "CasaDeGarcia_Maduro_Bundle_01.jpg"
+      ],
+      "notes": "Originally misfiled under 'Altadis USA/Flor de Selva Maduro.'"
+    },
+    {
+      "json_file": "casa-de-garcia-sumatra.json",
+      "line_slug": "casa-de-garcia-sumatra",
+      "mac_folder": "Cigar Images/Casa de Garcia/Casa de Garcia Sumatra",
+      "files": [
+        "CasaDeGarcia_Sumatra_01.png",
+        "CasaDeGarcia_Sumatra_Bundle_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "casa-de-garcia-nicaragua.json",
+      "line_slug": "casa-de-garcia-nicaragua",
+      "mac_folder": "Cigar Images/Casa de Garcia/Casa de Garcia Nicaragua",
+      "files": [
+        "CasaDeGarcia_Nicaragua_01.png",
+        "CasaDeGarcia_Nicaragua_Bundle_01.png"
+      ],
+      "notes": "Originally misfiled under 'Altadis USA/Joya de Nicaragua Red.'"
+    },
+    {
+      "json_file": "casa-de-garcia-centenario-red-label.json",
+      "line_slug": "casa-de-garcia-centenario-red-label",
+      "mac_folder": "Cigar Images/Casa de Garcia/Casa de Garcia Centenario Red",
+      "files": [
+        "CasaDeGarcia_Centenario-Red_01.png",
+        "CasaDeGarcia_Centenario-Red_Bundle_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "casa-de-garcia-centenario-gold-label.json",
+      "line_slug": "casa-de-garcia-centenario-gold-label",
+      "mac_folder": "Cigar Images/Casa de Garcia/Casa de Garcia Centenario Yellow",
+      "files": [
+        "CasaDeGarcia_Centenario-Yellow_01.png",
+        "CasaDeGarcia_Centenario-Yellow_Bundle_01.jpg"
+      ],
+      "notes": "IMPORTANT: folder is named 'Centenario Yellow' but research found only a confirmed 'Centenario Gold Label' product - no 'Yellow' variant exists in any source checked. Mapped to Gold Label; folder/files were not renamed on the Mac, so this mapping note is the authoritative correction."
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": []
+}

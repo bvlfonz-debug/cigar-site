@@ -1,0 +1,20 @@
+{
+  "line_slug": "dunbarton-umbagog",
+  "note": "Site lists only 'Corona Gorda' (6x48). Mac photo labeled 'Umbagog_Bb-Rob' plausibly decodes to 'Bronzeback Robusto' - Umbagog's 'Bronzeback' is a sub-blend (U.S. Connecticut Broadleaf 2LS wrapper, released ~June 2025) offered in a Robusto vitola. FLAG: no source directly documents the shorthand 'Bb-Rob' itself - this is a strong inference from Dunbarton's naming conventions elsewhere, not a confirmed abbreviation. Recommend a visual check against the box art.",
+  "additional_vitolas": [
+    {
+      "name": "Bronzeback Robusto",
+      "size": "5 x 52",
+      "notes": "Wrapper differs from core Umbagog (Connecticut Broadleaf) - Bronzeback uses a specific 2LS priming Broadleaf. Treat as a sub-blend variant rather than confirmed identical to the core line.",
+      "sources": [
+        "https://halfwheel.com",
+        "https://atlanticcigar.com",
+        "https://dunbartoncigars.com/marca/umbagog"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com",
+    "https://dunbartoncigars.com/marca/umbagog"
+  ]
+}

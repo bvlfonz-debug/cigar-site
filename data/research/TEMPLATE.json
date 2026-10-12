@@ -1,0 +1,58 @@
+{
+  "_comment": "Copy this file to data/research/incoming/<brand-slug>-<line-slug>.json and fill it in. Delete this _comment field and any fields you don't have data for (or leave them null). See SCHEMA.md for full field rules.",
+
+  "brand": {
+    "_comment": "Omit this whole \"brand\" object entirely if the brand already exists in the catalog — only include it when introducing a brand-new brand.",
+    "name": null,
+    "slug": null,
+    "country": null,
+    "factory": null,
+    "founded_year": null,
+    "story_short": null,
+    "sources": [
+      {
+        "source_name": null,
+        "source_url": null,
+        "fact_note": null,
+        "retrieved_at": null
+      }
+    ]
+  },
+
+  "line": {
+    "brand_slug": null,
+    "name": null,
+    "slug": null,
+    "wrapper": null,
+    "binder": null,
+    "filler": null,
+    "strength": null,
+    "release_year": null,
+    "background_text": null
+  },
+
+  "vitolas": [
+    {
+      "size_name": null,
+      "slug": null,
+      "length_in": null,
+      "ring_gauge": null,
+      "vitola_type": null,
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [],
+      "critic_reviews": [
+        {
+          "source_name": null,
+          "source_type": "critic",
+          "score": null,
+          "score_scale": 100,
+          "review_date": null,
+          "url": null,
+          "key_notes_text": null
+        }
+      ]
+    }
+  ]
+}

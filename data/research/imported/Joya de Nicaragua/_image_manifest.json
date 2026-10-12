@@ -1,0 +1,156 @@
+{
+  "brand": "Joya de Nicaragua",
+  "brand_slug": "joya-de-nicaragua",
+  "note": "Paths are relative to 'Cigar Images/Joya de Nicaragua/' in the connected folder on the user's Mac (Desktop/Cigar Images). This schema's cigar/line records do not carry a photo field, so this manifest is a companion file mapping each researched line to its available product photos for a separate image-upload step. NOTE: 'rosalones' and 'rosalones-reserva' share the same physical Mac folder ('Joya de Nicaragua Rosalones') - the single Rosalones Reserva photo is mixed in among the 17 plain-Rosalones photos, not in its own subfolder.",
+  "excluded": {
+    "soho-house-edition": "Not included - research could not verify this product exists (see README). No line JSON written for it."
+  },
+  "lines": {
+    "cinco-decadas-fundador": {
+      "folder": "Cigar Images/Joya de Nicaragua/Joya de Nicaragua Cinco Decadas Fundador",
+      "photo_count": 4,
+      "files": [
+        "JDN_Cinco-Decadas-Fundador_01.jpg",
+        "JDN_Cinco-Decadas-Fundador_Box-Closed_01.png",
+        "JDN_Cinco-Decadas-Fundador_Box-Open_01.png",
+        "JDN_Cinco-Decadas-Fundador_Group_01.jpg"
+      ]
+    },
+    "cyb": {
+      "folder": "Cigar Images/Joya de Nicaragua/Joya de Nicaragua CYB",
+      "photo_count": 16,
+      "files": [
+        "JDN_CYB-Corona_01.jpg",
+        "JDN_CYB-Corona_02.png",
+        "JDN_CYB-Lancero_01.jpg",
+        "JDN_CYB-Lancero_02.png",
+        "JDN_CYB-Lonsdale_01.jpg",
+        "JDN_CYB-Lonsdale_02.png",
+        "JDN_CYB-Robusto_01.jpg",
+        "JDN_CYB-Robusto_02.png",
+        "JDN_CYB-Toro_01.jpg",
+        "JDN_CYB-Toro_02.png",
+        "JDN_CYB-Torpedo_01.jpg",
+        "JDN_CYB-Torpedo_02.png",
+        "JDN_CYB_Box-Closed_01.png",
+        "JDN_CYB_Group_01.png",
+        "JDN_CYB_Group_02.png",
+        "JDN_CYB_Group_03.png"
+      ]
+    },
+    "clasico-medio-siglo": {
+      "folder": "Cigar Images/Joya de Nicaragua/Joya de Nicaragua Clasico Medio Siglo",
+      "photo_count": 7,
+      "files": [
+        "JDN_Clasico-Medio-Siglo-Pata-Negra_01.png",
+        "JDN_Clasico-Medio-Siglo-Pata-Negra_02.jpg",
+        "JDN_Clasico-Medio-Siglo-Pata-Negra_03.png",
+        "JDN_Clasico-Medio-Siglo-Pata-Negra_04.png",
+        "JDN_Clasico-Medio-Siglo-Pata-Negra_Box-Open_01.png",
+        "JDN_Clasico-Medio-Siglo_01.png",
+        "JDN_Clasico-Medio-Siglo_02.png"
+      ]
+    },
+    "cuatro-cinco-edicion-europa": {
+      "folder": "Cigar Images/Joya de Nicaragua/Joya de Nicaragua Cuatro Cinco Europa",
+      "photo_count": 1,
+      "files": [
+        "JDN_Cuatro-Cinco-Europa_Box-Open_01.png"
+      ]
+    },
+    "cuatro-cinco-pata-negra": {
+      "folder": "Cigar Images/Joya de Nicaragua/Joya de Nicaragua Cuatro Cinco Pata Negra",
+      "photo_count": 3,
+      "files": [
+        "JDN_Cuatro-Cinco-Pata-Negra_01.png",
+        "JDN_Cuatro-Cinco-Pata-Negra_02.png",
+        "JDN_Cuatro-Cinco-Pata-Negra_Box-Open_01.jpg"
+      ]
+    },
+    "cuatro-cinco-secret-cask": {
+      "folder": "Cigar Images/Joya de Nicaragua/Joya de Nicaragua Cuatro Cinco Secret Cask",
+      "photo_count": 1,
+      "files": [
+        "JDN_Cuatro-Cinco-Secret-Cask_01.png"
+      ]
+    },
+    "flor-de-nicaragua-ventus-aurum": {
+      "folder": "Cigar Images/Joya de Nicaragua/Joya de Nicaragua Flor de Nicaragua Ventus Aurum",
+      "photo_count": 12,
+      "files": [
+        "JDN_Flor-de-Nicaragua-Ventus-Aurum-Canon_01.jpg",
+        "JDN_Flor-de-Nicaragua-Ventus-Aurum-Canon_02.png",
+        "JDN_Flor-de-Nicaragua-Ventus-Aurum-Corona_01.jpg",
+        "JDN_Flor-de-Nicaragua-Ventus-Aurum-Corona_02.png",
+        "JDN_Flor-de-Nicaragua-Ventus-Aurum-Magnum_01.jpg",
+        "JDN_Flor-de-Nicaragua-Ventus-Aurum-Magnum_02.png",
+        "JDN_Flor-de-Nicaragua-Ventus-Aurum-Robusto_01.jpg",
+        "JDN_Flor-de-Nicaragua-Ventus-Aurum-Robusto_02.png",
+        "JDN_Flor-de-Nicaragua-Ventus-Aurum_Box-Closed_01.png",
+        "JDN_Flor-de-Nicaragua-Ventus-Aurum_Group_01.png",
+        "JDN_Flor-de-Nicaragua-Ventus-Aurum_Group_02.png",
+        "JDN_Flor-de-Nicaragua-Ventus-Aurum_Group_03.png"
+      ]
+    },
+    "jewel-collection": {
+      "folder": "Cigar Images/Joya de Nicaragua/Joya de Nicaragua Jewel Collection",
+      "photo_count": 3,
+      "files": [
+        "JDN_Jewel-Collection_01.jpg",
+        "JDN_Jewel-Collection_02.jpg",
+        "JDN_Jewel-Collection_03.png"
+      ]
+    },
+    "rosalones": {
+      "folder": "Cigar Images/Joya de Nicaragua/Joya de Nicaragua Rosalones",
+      "photo_count": 18,
+      "files": [
+        "JDN_Rosalones_Box-Closed_01.png",
+        "JDN_Rosalones_Group_01.png",
+        "JDN_Rosalones_Group_02.png",
+        "JDN_Rosalones_Group_03.jpg",
+        "JDN_Rosalones_Group_04.png",
+        "JDN_Rosalones_Group_05.jpg",
+        "JDN_Rosalones_Group_06.jpg",
+        "JDN_Rosalones_Group_07.png",
+        "JDN_Rosalones_Group_08.jpg",
+        "JDN_Rosalones_Group_09.png",
+        "JDN_Rosalones_Group_10.jpg",
+        "JDN_Rosalones_Group_11.png",
+        "JDN_Rosalones_Group_12.jpg",
+        "JDN_Rosalones_Group_13.png",
+        "JDN_Rosalones_Group_14.jpg",
+        "JDN_Rosalones_Group_15.png",
+        "JDN_Rosalones_Group_16.png",
+        "JDN_Rosalones_Group_17.png"
+      ]
+    },
+    "rosalones-reserva": {
+      "folder": "Cigar Images/Joya de Nicaragua/Joya de Nicaragua Rosalones",
+      "photo_count": 1,
+      "files": [
+        "JDN_Rosalones-Reserva_01.png"
+      ]
+    },
+    "rosalones-seleccion-bodegas-2023": {
+      "folder": "Cigar Images/Joya de Nicaragua/Joya de Nicaragua Seleccion de Bodegas 2023",
+      "photo_count": 2,
+      "files": [
+        "JDN_Seleccion-Bodegas-2023_Box-Open_01.png",
+        "JDN_Seleccion-Bodegas-2023_Box-Open_02.png"
+      ]
+    }
+  },
+  "unverified_line_photos": {
+    "soho-house-edition": {
+      "folder": "Cigar Images/Joya de Nicaragua/Joya de Nicaragua Soho House Edition",
+      "photo_count": 3,
+      "files": [
+        "JDN_Soho-House_01.png",
+        "JDN_Soho-House_02.jpg",
+        "JDN_Soho-House_03.jpg"
+      ],
+      "note": "These photos exist and are labeled 'Soho House' in the folder, but research could not confirm a JDN product by this name exists anywhere (official site, retailers, cigar press). Recommend the user visually double-check these photos against known JDN lines before uploading - they may be mislabeled."
+    }
+  }
+}

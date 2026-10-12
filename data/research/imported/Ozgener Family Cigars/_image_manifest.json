@@ -1,0 +1,30 @@
+{
+  "brand": "Ozgener Family Cigars",
+  "brand_slug": "ozgener",
+  "note": "Paths are relative to 'Cigar Images/Ozgener Family Cigars/' in the connected folder on the user's Mac. Site brand slug is '/brands/ozgener/', not '/brands/ozgener-family-cigars/'. Before this research batch: 20 loose files sat at the top level (not organized into any line folder). I sorted them - 8 belonged to an entirely new line (now 'Ozgener Karatoba', originally labeled 'Kari' - see karatoba.json for the naming note), and 12 were duplicate/complementary box-open and single-stick shots for existing Bosphorus (B50/B54/B55) and Firsat (F54/F55/F60) vitolas, merged into their respective folders.",
+  "gap_fill_supplements": {
+    "_aramas-additional-vitolas": {
+      "source_folder": "Cigar Images/Ozgener Family Cigars/Ozgener Aramas"
+    },
+    "_bosphorus-additional-vitolas": {
+      "source_folder": "Cigar Images/Ozgener Family Cigars/Ozgener Bosphorus"
+    },
+    "_firsat-additional-vitolas": {
+      "source_folder": "Cigar Images/Ozgener Family Cigars/Ozgener Firsat"
+    }
+  },
+  "new_lines": {
+    "karatoba": {
+      "source_folder": "Cigar Images/Ozgener Family Cigars/Ozgener Karatoba",
+      "note": "Folder renamed from 'Ozgener Kari' - see karatoba.json naming note"
+    }
+  },
+  "already_matched_no_gap": [
+    "Aramas A52",
+    "Bosphorus B52",
+    "Firsat F52"
+  ],
+  "not_photographed": [
+    "Ozgener Pi Synesthesia (Red Limited Edition, 6x52) - a 4th site line with no Mac photos at all, no action taken"
+  ]
+}

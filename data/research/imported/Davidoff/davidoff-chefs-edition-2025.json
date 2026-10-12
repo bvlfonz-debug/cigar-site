@@ -1,0 +1,29 @@
+{
+  "line": {
+    "name": "Davidoff Chefs Edition 2025",
+    "slug": "davidoff-chefs-edition-2025",
+    "description": "4th installment of Davidoff's ongoing 'Chefs Edition' collaboration series, created with 5 Michelin-starred chefs (11 stars total): Paolo Casagrande, Christian Bau, Kirk Westaway, Nick Bril, Michael Beltran. Not one of the brand's long-running core lines.",
+    "wrapper": "Ecuadorian",
+    "binder": "Mexican",
+    "filler": "All-Dominican - San Vicente (aged 15 years), a Dominican hybrid leaf, and Piloto tobacco aged 5 years in yagua palm leaves",
+    "factory": null,
+    "status": "limited edition (2025 run, 17,500 boxes worldwide, 5,600 to the US)"
+  },
+  "vitolas": [
+    {
+      "name": "Toro",
+      "size": "6.25 x 52 (one source states 6 x 54 - unresolved discrepancy, recorded as found)",
+      "notes": "Matches the Mac photo. Box of 10, ~$550/box.",
+      "sources": [
+        "https://regencycigar.com/davidoff-launches-chefs-edition-2025-available-starting-today/",
+        "https://mikescigars.com/davidoff-limited-chefs-edition-2025"
+      ]
+    }
+  ],
+  "research_notes": "Exact toro dimension conflicts between sources (6.25x52 vs 6x54) - flagged rather than resolved by guessing. Factory not stated anywhere found.",
+  "research_sources": [
+    "https://regencycigar.com/davidoff-launches-chefs-edition-2025-available-starting-today/",
+    "https://mikescigars.com/davidoff-limited-chefs-edition-2025",
+    "https://www.cigarslover.com/?p=73121"
+  ]
+}

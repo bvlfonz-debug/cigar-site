@@ -1,0 +1,55 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo Short Run 2016",
+    "slug": "short-run-2016",
+    "wrapper": "Ecuadorian Habano",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (incl. Criollo 98 from Somoto)",
+    "strength": "Medium",
+    "release_year": 2016,
+    "background_text": "The seventh installment of E.P. Carrillo's annual Short Run series, returning to an Ecuadorian Habano wrapper for the first time since Short Run 2011. Made at Tabacalera La Alianza S.A., launched as a 2,500-box limited run before moving to regular production. Distinct wrapper from the 2023 edition already on the site."
+  },
+  "vitolas": [
+    {
+      "size_name": "Super Toro",
+      "slug": "super-toro",
+      "length_in": 6,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": "Medium-strength, medium-complexity with natural tobacco sweetness, floral note, dusty earth in the final third; excellent burn/draw.",
+      "tasting_notes": [
+        "natural tobacco sweetness",
+        "floral",
+        "dusty earth",
+        "cream"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Cigar Coop",
+          "source_type": "critic",
+          "score": 92,
+          "score_scale": "100",
+          "review_date": "2016-11-01",
+          "url": "https://cigar-coop.com/2016/11/cigar-review-e-p-carrillo-short-run-2016.html",
+          "key_notes_text": "Box Worthy; natural tobacco sweetness with floral component, dusty earth, creamy texture."
+        }
+      ]
+    }
+  ],
+  "research_notes": "Confirmed as a distinct earlier year of the annual Short Run series, single 6x52 Super Toro vitola.",
+  "research_sources": [
+    {
+      "url": "https://halfwheel.com/e-p-carrillo-short-run-2016/133964/",
+      "supports": "wrapper, vitola, transition to regular production"
+    },
+    {
+      "url": "https://cigar-coop.com/2016/11/cigar-review-e-p-carrillo-short-run-2016.html",
+      "supports": "blend, tasting notes, score"
+    }
+  ]
+}

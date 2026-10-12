@@ -1,0 +1,51 @@
+{
+  "line": {
+    "name": "Romeo y Julieta 150th Anniversary",
+    "slug": "romeo-y-julieta-150th-anniversary",
+    "description": "Not on the site. Commemorates the brand's 1875 founding. Launched by Altadis USA, debuted at Procigar February 2025, national launch at the PCA Trade Show April 2025. Named halfwheel's 2025 #2 Cigar of the Year.",
+    "wrapper": "Ecuadorian Sumatra (A.J. Fernandez)",
+    "binder": "Mexican San Andres (Turrent family)",
+    "filler": "Peruvian/Honduran (Plasencia) and Dominican (Jose Mendez & Co.)",
+    "factory": "Tabacalera de Garcia, La Romana, Dominican Republic",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Prologue",
+      "size": "5 x 50",
+      "notes": "Regular production, 16-count boxes.",
+      "sources": [
+        "https://halfwheel.com/romeo-y-julieta-150th-anniversary-balconet/453221/"
+      ]
+    },
+    {
+      "name": "Balconet",
+      "size": "6 x 54",
+      "notes": "Regular production.",
+      "sources": [
+        "https://halfwheel.com/romeo-y-julieta-150th-anniversary-balconet/453221/"
+      ]
+    },
+    {
+      "name": "Crescendo",
+      "size": "7 x 50",
+      "notes": "Regular production.",
+      "sources": [
+        "https://cigar-coop.com/2025/02/altadis-u-s-a-to-launch-romeo-y-julieta-150th-anniversary-cigar-news.html"
+      ]
+    },
+    {
+      "name": "Reconciliation",
+      "size": "6.5 x 52 (belicoso)",
+      "notes": "Limited edition, exclusive to a special motorized anniversary humidor (35 cigars) unveiled at PCA 2025.",
+      "sources": [
+        "https://cigar-coop.com/2025/02/altadis-u-s-a-to-launch-romeo-y-julieta-150th-anniversary-cigar-news.html"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/romeo-y-julieta-150th-anniversary-balconet/453221/",
+    "https://cigar-coop.com/2025/02/altadis-u-s-a-to-launch-romeo-y-julieta-150th-anniversary-cigar-news.html",
+    "https://cigar-coop.com/2025/10/romeo-y-julieta-150th-anniversary-balconet-cigar-review.html"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "line_slug": "dunbarton-stillwell-star",
+  "note": "Site lists only 'Aromatic No. 1' (6x52). Mac folder photo labeled 'Stillwell_Bayou' decoded to a real, distinct blend within the line. A second photo, 'Stillwell_23', could NOT be matched to any documented StillWell Star blend - the line's confirmed blend numbers are 1, 22, 27, 32, and 1056; no '23' appears anywhere, including in a 2026 lineup revamp. Not added as a vitola; flagged here only.",
+  "additional_vitolas": [
+    {
+      "name": "Bayou No. 32",
+      "size": "6 x 52 (Toro - all StillWell Star vitolas share this size)",
+      "notes": "Dark-brown Ecuadorian Habano wrapper. All StillWell Star blends are pipe-tobacco-influenced and share the 6x52 toro format.",
+      "sources": [
+        "https://dunbartoncigars.com/marca/stillwell-star",
+        "https://cigar-coop.com"
+      ]
+    }
+  ],
+  "unresolved_flag": "Stillwell_23 photo - no known blend number 23 in this line. Possibly a misread of '22' or '27', or an unreleased sample. Left out of the database rather than guessed.",
+  "research_sources": [
+    "https://dunbartoncigars.com/marca/stillwell-star",
+    "https://halfwheel.com"
+  ]
+}

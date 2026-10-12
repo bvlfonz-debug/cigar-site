@@ -1,0 +1,158 @@
+{
+  "line": {
+    "brand_slug": "joya-de-nicaragua",
+    "name": "CyB by Joya de Nicaragua",
+    "slug": "cyb",
+    "wrapper": "Ecuador Habano",
+    "binder": "Dominican Republic (Piloto Cubano \"La Canela\")",
+    "filler": "Nicaragua (Ometepe and Estelí) & Peru (Tarapoto)",
+    "strength": "Medium-Full",
+    "release_year": 2012,
+    "background_text": "CyB (originally launched as \"Cuenca y Blanco\") was the first collaboration between Joya de Nicaragua and cigar maker Jose Blanco following his 2011 arrival at the company, after roughly a year of development. It marked a departure from JDN's tradition of all-Nicaraguan puros, blending tobaccos from four countries: Nicaragua, Dominican Republic, Ecuador and Peru. The line was renamed from \"Cuenca y Blanco\" to \"CyB\" in October 2012 to avoid a potential trademark conflict; the blend itself was unchanged. A Lancero Fino vitola (7 x 38) was later released in 2013 as a TAA exclusive."
+  },
+  "vitolas": [
+    {
+      "size_name": "Corona Real",
+      "slug": "corona-real",
+      "length_in": 5.5,
+      "ring_gauge": 46,
+      "vitola_type": "Corona",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Robusto Deluxe",
+      "slug": "robusto-deluxe",
+      "length_in": 5.25,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": "Blind Man's Puff scored this highly across all five panelists, praising thick, creamy smoke and strong construction, with a flavor arc from red pepper/cedar to roasted coffee to cinnamon and cocoa/pecan.",
+      "tasting_notes": [
+        "red pepper/cayenne",
+        "cedar",
+        "roasted coffee",
+        "faint sweetness",
+        "cinnamon",
+        "leather",
+        "black coffee",
+        "cocoa",
+        "pecan"
+      ],
+      "smoke_time_min": 92,
+      "box_counts": [],
+      "critic_reviews": [
+        {
+          "source_name": "Blind Man's Puff",
+          "source_type": "critic",
+          "score": 94,
+          "score_scale": "100",
+          "review_date": null,
+          "url": "https://blindmanspuff.com/blind-cigar-review-joya-de-nicaragua-cyb-robusto-deluxe/",
+          "key_notes_text": "Great (94/100); red pepper and cedar opening, roasted coffee midpoint, cinnamon/cocoa/pecan finish."
+        }
+      ]
+    },
+    {
+      "size_name": "Lonsdale Club",
+      "slug": "lonsdale-club",
+      "length_in": 6.5,
+      "ring_gauge": 44,
+      "vitola_type": "Lonsdale",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Toro Supremo",
+      "slug": "toro-supremo",
+      "length_in": 6,
+      "ring_gauge": 54,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Torpedo Especial",
+      "slug": "torpedo-especial",
+      "length_in": 6.25,
+      "ring_gauge": 52,
+      "vitola_type": "Torpedo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Lancero Fino",
+      "slug": "lancero-fino",
+      "length_in": 7,
+      "ring_gauge": 38,
+      "vitola_type": "Lancero",
+      "summary_review": "A 2013 TAA-exclusive vitola; halfwheel's initial (prerelease) review found inconsistency, but a later 2014 redux review found the blend had improved with age.",
+      "tasting_notes": [
+        "dry chocolate",
+        "cedar",
+        "sweet spices",
+        "cinnamon",
+        "ginger",
+        "lemon",
+        "nuts",
+        "woody",
+        "cocoa",
+        "fruit",
+        "creaminess",
+        "earthier notes (final third)"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [],
+      "critic_reviews": [
+        {
+          "source_name": "halfwheel",
+          "source_type": "critic",
+          "score": 88,
+          "score_scale": "100",
+          "review_date": "2013-05-01",
+          "url": "https://halfwheel.com/review-joya-de-nicaragua-cyb-lancero-fino/36960/",
+          "key_notes_text": "Original prerelease review; inconsistent construction noted."
+        },
+        {
+          "source_name": "halfwheel",
+          "source_type": "critic",
+          "score": 91,
+          "score_scale": "100",
+          "review_date": "2014-04-01",
+          "url": "https://halfwheel.com/joya-de-nicaragua-cyb-lancero-fino/53846/",
+          "key_notes_text": "Redux review; \"a much better cigar than it was when it shipped.\""
+        }
+      ]
+    }
+  ],
+  "research_notes": "Corona Real, Lonsdale Club, and Toro Supremo/Torpedo Especial dimensions are confirmed via Blind Man's Puff's line overview but no individual reviews were found for these three vitolas, so tasting notes/scores are left empty. Overall blend composition confirmed via halfwheel's CyB reviews, not a single canonical spec sheet.",
+  "research_sources": [
+    {
+      "url": "https://blindmanspuff.com/blind-cigar-review-joya-de-nicaragua-cyb-robusto-deluxe/",
+      "supports": "Robusto Deluxe size, tasting notes, score, smoke time; full vitola lineup names/dimensions"
+    },
+    {
+      "url": "https://halfwheel.com/joya-de-nicaragua-cyb-lancero-fino/53846/",
+      "supports": "Blend composition, Lancero Fino size/release, tasting notes, 91/100 score"
+    },
+    {
+      "url": "https://halfwheel.com/review-joya-de-nicaragua-cyb-lancero-fino/36960/",
+      "supports": "Lancero Fino original 88/100 prerelease score"
+    },
+    {
+      "url": "https://cigar-coop.com/2012/10/news-joya-de-nicaragua-to-rename-cuenca.html",
+      "supports": "Rename from Cuenca y Blanco to CyB, Jose Blanco collaboration origin, 2012 release, multi-country tobacco sourcing"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "line": {
+    "name": "Casa de Garcia Centenario Gold Label",
+    "slug": "casa-de-garcia-centenario-gold-label",
+    "description": "A genuinely distinct sub-line, companion to Centenario Red Label. IMPORTANT CORRECTION FROM MAC FOLDER NAME: the Mac folder was named 'Centenario Yellow,' but exhaustive research across Altadis official pages and multiple retailers (JR Cigars, Cigars.com, Famous Smoke, Neptune, Gotham, CCCrafter, AbsoluteCigars, BestCigarPrices) found only 'Centenario Gold Label' - never 'Yellow.' The photographed product is almost certainly Centenario Gold Label; 'Yellow' may be a colloquial packaging-color description applied during the original (incorrect) filing rather than an actual product name. Recorded under the confirmed name 'Gold Label' - flagging this correction explicitly rather than inventing a 'Centenario Yellow' product.",
+    "wrapper": "Ecuadorian Connecticut",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "factory": "Plasencia family factory, Esteli, Nicaragua",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "notes": "Matches the Mac photo (filed as 'Centenario Yellow' - see line description for the name correction).",
+      "sources": [
+        "https://www.famous-smoke.com/cigaradvisor/cigar-reviews/casa-de-garcia-centenario-gold-label-review-video"
+      ]
+    },
+    {
+      "name": "Magnum",
+      "size": "6 x 60",
+      "sources": [
+        "https://www.famous-smoke.com/cigaradvisor/cigar-reviews/casa-de-garcia-centenario-gold-label-review-video"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "https://www.famous-smoke.com/cigaradvisor/cigar-reviews/casa-de-garcia-centenario-gold-label-review-video"
+      ]
+    }
+  ],
+  "research_notes": "Recommend a physical band check against Gold Label band art to fully resolve the 'Yellow' vs. 'Gold' naming question before treating this as fully settled.",
+  "research_sources": [
+    "https://www.famous-smoke.com/cigaradvisor/cigar-reviews/casa-de-garcia-centenario-gold-label-review-video",
+    "https://www.altadisusa.com/cigars/casa-de-garcia/"
+  ]
+}

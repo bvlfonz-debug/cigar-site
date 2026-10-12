@@ -1,0 +1,20 @@
+{
+  "line_slug": "oliva-serie-o",
+  "note": "Site lists 6 Serie O vitolas (Churchill, Double Toro, Perfecto, Robusto, Toro, Torpedo). Mac infocard photo confirms a 7th, real, current vitola. This applies to plain Serie O only - no photo evidence for a Corona in the separate Serie O Maduro line, so not added there.",
+  "additional_vitolas": [
+    {
+      "name": "Corona",
+      "size": "6 x 46",
+      "sources": [
+        "jrcigars.com/item/oliva-serie-o/corona/OSOC.html",
+        "atlanticcigar.com/oliva-serie-o-corona/",
+        "cigaraficionado.com/ratings/11663/name/oliva-serie-o-corona"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.jrcigars.com/item/oliva-serie-o/corona/OSOC.html",
+    "https://atlanticcigar.com/oliva-serie-o-corona/",
+    "https://www.cigaraficionado.com/ratings/11663/name/oliva-serie-o-corona"
+  ]
+}

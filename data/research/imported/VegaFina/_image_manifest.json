@@ -1,0 +1,30 @@
+{
+  "brand": "VegaFina",
+  "batch_date": "2026-09-30",
+  "mac_source_root": "Cigar Images/VegaFina",
+  "note": "Part of the Altadis USA reorganization; folder was already top-level. No renames needed. Confirmed absent from the site's brand index - full new brand object included.",
+  "mappings": [
+    {
+      "json_file": "vegafina-original.json",
+      "line_slug": "vegafina-original",
+      "mac_folder": "Cigar Images/VegaFina/VegaFina Core",
+      "files": [
+        "VegaFina_01.png",
+        "VegaFina_Box-Open_01.jpg"
+      ],
+      "notes": "Folder named 'Core'; Altadis's own product page calls it 'VegaFina Original.'"
+    },
+    {
+      "json_file": "vegafina-1998.json",
+      "line_slug": "vegafina-1998",
+      "mac_folder": "Cigar Images/VegaFina/VegaFina 1998",
+      "files": [
+        "VegaFina_1998_01.png",
+        "VegaFina_1998_Box-Open_01.jpg"
+      ],
+      "notes": null
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": []
+}

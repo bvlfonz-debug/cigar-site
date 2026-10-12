@@ -1,0 +1,26 @@
+{
+  "line": {
+    "name": "Kristoff TAA Exclusive 2023",
+    "slug": "kristoff-taa-exclusive-2023",
+    "description": "'Taa' = TAA (Tobacconists' Association of America), an annual exclusive-retailer release; '23' = 2023. FLAG - THIN SOURCING: wrapper/binder/filler/origin could not be found in available content this session - left null rather than guessed.",
+    "wrapper": null,
+    "binder": null,
+    "filler": null,
+    "factory": null,
+    "status": "limited edition (2023 run)"
+  },
+  "vitolas": [
+    {
+      "name": "Double Perfecto",
+      "size": "6.25 x 60 (nearly symmetrical double perfecto)",
+      "notes": "Matches the Mac photo. Planned May 2023 launch.",
+      "sources": [
+        "https://halfwheel.com/tag/kristoff-taa-exclusive-2023"
+      ]
+    }
+  ],
+  "research_notes": "Blend composition not found - needs a follow-up source (likely a full halfwheel/Cigar Coop review) before those fields can be filled.",
+  "research_sources": [
+    "https://halfwheel.com/tag/kristoff-taa-exclusive-2023"
+  ]
+}

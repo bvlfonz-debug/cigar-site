@@ -1,0 +1,54 @@
+{
+  "line": {
+    "name": "La Flor Dominicana Oro",
+    "slug": "la-flor-dominicana-oro",
+    "description": "Originally launched at the 2012 IPCPR Trade Show with 3 sizes (one Chisel + two parejo, all 6x54), in gold tubos, 5-count boxes. Expanded with 3 new sizes in October 2025 (current, actively expanding regular-production line, not limited edition). Offered in Natural and Maduro sub-lines.",
+    "wrapper": "Nicaraguan Habano (Natural version)",
+    "binder": "Dominican",
+    "filler": "Dominican (La Canela farm)",
+    "factory": "Tabacalera La Flor S.A., Tamboril, Dominican Republic",
+    "status": "current (actively expanding as of October 2025)"
+  },
+  "vitolas": [
+    {
+      "name": "No. 6",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo (Natural). One of the two original 2012 parejo sizes, still current.",
+      "sources": [
+        "https://cigar-coop.com/2012/07/cigar-preview-la-flor-dominicana-oro.html",
+        "https://cigar-coop.com/2025/10/la-flor-dominicana-adds-three-sizes-to-oro-natural-cigar-news.html"
+      ]
+    },
+    {
+      "name": "No. 5",
+      "size": "6 x 48",
+      "notes": "Added October 2025. ~$16.50 MSRP.",
+      "sources": [
+        "https://cigar-coop.com/2025/10/la-flor-dominicana-adds-three-sizes-to-oro-natural-cigar-news.html"
+      ]
+    },
+    {
+      "name": "No. 7",
+      "size": "7.5 x 52",
+      "notes": "Added October 2025. ~$18.50 MSRP.",
+      "sources": [
+        "https://cigar-coop.com/2025/10/la-flor-dominicana-adds-three-sizes-to-oro-natural-cigar-news.html"
+      ]
+    },
+    {
+      "name": "No. 8",
+      "size": "7 x 60",
+      "notes": "Added October 2025. ~$18.70 MSRP.",
+      "sources": [
+        "https://cigar-coop.com/2025/10/la-flor-dominicana-adds-three-sizes-to-oro-natural-cigar-news.html"
+      ]
+    }
+  ],
+  "research_notes": "The original 2012 Chisel vitola and the Maduro sub-line's own vitola range were not independently re-verified this pass beyond what's listed above - recommend a follow-up for a fully exhaustive Oro Maduro vitola list.",
+  "research_sources": [
+    "https://cigar-coop.com/2012/07/cigar-preview-la-flor-dominicana-oro.html",
+    "https://cigar-coop.com/2025/10/la-flor-dominicana-adds-three-sizes-to-oro-natural-cigar-news.html",
+    "https://halfwheel.com/la-flor-dominicana-adds-20-count-boxes-for-oro-line/452405/",
+    "https://www.cigaraficionado.com/article/la-flor-dominicana-expands-oro-line"
+  ]
+}

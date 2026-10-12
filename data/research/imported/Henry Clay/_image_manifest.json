@@ -1,0 +1,50 @@
+{
+  "brand": "Henry Clay",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/Henry Clay",
+  "note": "Part of the Altadis USA reorganization; folder was already top-level. Confirmed absent from the site's brand index.",
+  "mappings": [
+    {
+      "json_file": "henry-clay.json",
+      "line_slug": "henry-clay",
+      "mac_folder": "Cigar Images/Henry Clay/Henry Clay Core",
+      "files": [
+        "HenryClay_02.png",
+        "HenryClay_Toro_Box-Closed_01.png"
+      ],
+      "notes": "Toro (Maduro, no cello) vitola matches the photographed product."
+    },
+    {
+      "json_file": "henry-clay-rustic-cheroot.json",
+      "line_slug": "henry-clay-rustic-cheroot",
+      "mac_folder": "Cigar Images/Henry Clay/Henry Clay Rustic Cheroot",
+      "files": [
+        "HenryClay_Rustic-Cheroot_01.png",
+        "HenryClay_Rustic-Cheroot_Bundle_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "henry-clay-war-hawk.json",
+      "line_slug": "henry-clay-war-hawk",
+      "mac_folder": "Cigar Images/Henry Clay/Henry Clay War Hawk",
+      "files": [
+        "HenryClay_WarHawk_01.png",
+        "HenryClay_WarHawk_Box-Open_01.jpg"
+      ],
+      "notes": "Toro vitola matches the photographed product."
+    },
+    {
+      "json_file": "henry-clay-war-hawk-rebellious.json",
+      "line_slug": "henry-clay-war-hawk-rebellious",
+      "mac_folder": "Cigar Images/Henry Clay/Henry Clay War Hawk Rebellious",
+      "files": [
+        "HenryClay_WarHawk-Rebellious_01.png",
+        "HenryClay_WarHawk-Rebellious_Box-Open_01.jpg"
+      ],
+      "notes": "Confirmed a distinct limited-edition blend from regular War Hawk, not just a size/vitola variant."
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": []
+}

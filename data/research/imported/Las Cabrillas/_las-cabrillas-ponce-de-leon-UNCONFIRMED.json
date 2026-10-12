@@ -1,0 +1,14 @@
+{
+  "not_added_flag": {
+    "item": "Las Cabrillas Ponce de Leon (Natural)",
+    "issue": "This line could NOT be verified to exist anywhere. Searched JR Cigars, Mike's Cigars, Neptune Cigar, halfwheel, and general web search using multiple query variants. None of the three major online retailers that carry Las Cabrillas list a 'Ponce de Leon' vitola or line. The confirmed Las Cabrillas line-up across all three retailers is only: Balboa, De Soto, Cortez, Columbus, Vasco De Gama (each in Natural and/or Maduro). The only 'Ponce de Leon' cigar hits found are unrelated products from a completely different brand ('McKay's The Navigator Ponce de Leon'). Possible explanations, none confirmed: (a) a discontinued/older vitola not carried by current online retailers, (b) a very recent/limited release not yet indexed, (c) the Mac photo's frontmark may actually be one of the other confirmed explorer names (Vasco De Gama, De Soto, Columbus, Cortez) misread during filing, or (d) the product line has changed since these retailer pages were last updated. NOT PUBLISHED AS A CONFIRMED LINE - recording here as an explicit flag per this project's no-fabrication policy rather than inventing specs for an unconfirmed product."
+  },
+  "mac_photo_reference": "Cigar Images/Las Cabrillas/Las Cabrillas Ponce de Leon/LasCabrillas_Ponce-de-Leon_Natural_Box-Closed_01.jpg",
+  "research_sources": [
+    "https://mikescigars.com/cigars/brands/lascabrillas",
+    "https://mikescigars.com/brands/las-cabrillas?binder=769",
+    "https://www.jrcigars.com/brand/las-cabrillas",
+    "https://www.jrcigars.com/cigars/handmade-cigars/las-cabrillas/",
+    "https://www.jrcigars.com/item/las-cabrillas/de-soto/LA15DE5.html"
+  ]
+}

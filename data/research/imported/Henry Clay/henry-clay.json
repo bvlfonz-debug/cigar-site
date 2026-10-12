@@ -1,0 +1,61 @@
+{
+  "brand": {
+    "name": "Henry Clay",
+    "slug": "henry-clay",
+    "description": "Not on the site at all - confirmed absent from the site's full brand index. Founded in the 1840s by Spanish immigrant Julian Alvarez Granda in Cuba, named after the US statesman Henry Clay. A historic Havana brand, nationalized by Castro's government post-Revolution with production severely reduced through the 1960s. The US trademark was held separately by Henry Clay & Bock Co. Ltd. (Trenton, NJ, part of the American Tobacco Trust); by 1986 it was owned by Consolidated Cigar Corporation, which began producing non-Cuban Henry Clays. Altadis later acquired Consolidated Cigar Corp. No official Altadis USA brand/press page was found in this research pass - all positioning language is retailer paraphrase, not a verified primary-source brand statement.",
+    "founded": "1840s (Cuban original); current non-Cuban Altadis-era production has no single documented relaunch date",
+    "origin_country": "Multiple, depending on sub-line - see individual lines",
+    "distributor": "Altadis USA",
+    "status": "current"
+  },
+  "line": {
+    "name": "Henry Clay",
+    "slug": "henry-clay",
+    "description": "Core/general-market line. Handmade, medium-to-full-bodied. FLAG: wrapper is inconsistent across sources - Connecticut Broadleaf (maduro) is confirmed on several specific vitola SKU pages, but some retailer brand-overview pages instead list Ecuadorian Sumatra/Connecticut Shade as wrapper options. This likely reflects different product-era blends or distinct sub-SKUs rather than one unified current spec, but this wasn't resolved.",
+    "wrapper": "Connecticut Broadleaf (maduro) - confirmed on specific vitolas; some sources instead describe Ecuadorian Sumatra/Connecticut Shade, unresolved conflict",
+    "binder": "Dominican",
+    "filler": "Dominican (some sources add Honduran/Nicaraguan/Peruvian as brand-wide filler components, not confirmed which specific SKUs these apply to)",
+    "factory": "Dominican Republic (specific factory name not confirmed)",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Breva",
+      "size": "5.5 x 42",
+      "sources": [
+        "https://www.jrcigars.com/item/henry-clay/breva/hcb5"
+      ]
+    },
+    {
+      "name": "Rothchilde",
+      "size": "5 x 50",
+      "notes": "Possible name overlap with a separate 'Breva Fina' SKU - a page fetch for Breva Fina returned Rothchilde content instead (likely a site redirect/mismatch), so Breva Fina's size is unverified.",
+      "sources": [
+        "https://www.jrcigars.com/item/henry-clay/breva/hcb5"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 48",
+      "sources": [
+        "https://jrcigars.com/item/henry-clay/toro/HCT5.html"
+      ]
+    },
+    {
+      "name": "Toro (Maduro, no cello)",
+      "size": "6 x 50",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://mikescigars.com/cigars/brands/henryclay/henry-clay/henry-clay-toro-no-cello"
+      ]
+    }
+  ],
+  "research_notes": "A 'Henry Clay Honduran' Churchill product was referenced in one JR Cigars URL as apparently separate from this core line - unclear if historical/discontinued or currently active; not confirmed, not added.",
+  "research_sources": [
+    "https://en.wikipedia.org/wiki/Henry_Clay_(cigar)",
+    "https://www.jrcigars.com/item/henry-clay/breva/hcb5",
+    "https://jrcigars.com/item/henry-clay/toro/HCT5.html",
+    "https://mikescigars.com/cigars/brands/henryclay/henry-clay/henry-clay-toro-no-cello",
+    "https://www.hilandscigars.com/shop/cigars/henry-clay/"
+  ]
+}

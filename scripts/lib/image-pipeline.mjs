@@ -23,13 +23,17 @@ export const publicDir = path.join(__dirname, '..', '..', 'public');
 
 /**
  * Resize a source image (never cropping) and save it as a JPEG under
- * public/images/cigars/<brandSlug>/<lineSlug>.jpg. Returns the site-relative
- * public path plus the final pixel dimensions.
+ * public/images/cigars/<brandSlug>/<lineSlug>.jpg (a line-level hero photo)
+ * or public/images/cigars/<brandSlug>/<lineSlug>/<vitolaSlug>.jpg (a photo
+ * of one specific size). Returns the site-relative public path plus the
+ * final pixel dimensions.
  */
-export async function resizeAndSaveCigarImage(sourcePath, brandSlug, lineSlug) {
-  const destDir = path.join(publicDir, 'images', 'cigars', brandSlug);
+export async function resizeAndSaveCigarImage(sourcePath, brandSlug, lineSlug, vitolaSlug = null) {
+  const destDir = vitolaSlug
+    ? path.join(publicDir, 'images', 'cigars', brandSlug, lineSlug)
+    : path.join(publicDir, 'images', 'cigars', brandSlug);
   fs.mkdirSync(destDir, { recursive: true });
-  const destFile = path.join(destDir, `${lineSlug}.jpg`);
+  const destFile = vitolaSlug ? path.join(destDir, `${vitolaSlug}.jpg`) : path.join(destDir, `${lineSlug}.jpg`);
 
   await sharp(fs.readFileSync(sourcePath))
     .rotate() // apply EXIF orientation before resizing
@@ -40,11 +44,10 @@ export async function resizeAndSaveCigarImage(sourcePath, brandSlug, lineSlug) {
   fs.renameSync(destFile + '.tmp', destFile);
 
   const meta = await sharp(destFile).metadata();
-  return {
-    publicPath: `/images/cigars/${brandSlug}/${lineSlug}.jpg`,
-    width: meta.width,
-    height: meta.height,
-  };
+  const publicPath = vitolaSlug
+    ? `/images/cigars/${brandSlug}/${lineSlug}/${vitolaSlug}.jpg`
+    : `/images/cigars/${brandSlug}/${lineSlug}.jpg`;
+  return { publicPath, width: meta.width, height: meta.height };
 }
 
 /** Writes the image fields onto a `line` row. Does not touch any other column. */
@@ -54,6 +57,16 @@ export function writeLineImageRecord(db, { lineId, publicPath, width, height, si
   db.prepare(
     `UPDATE line SET image_url = ?, image_source_name = ?, image_source_url = ?, image_checked_at = ?, image_width = ?, image_height = ? WHERE id = ?`
   ).run(publicPath, domain, siteUrl, checkedAt, width, height, lineId);
+  return { domain, checkedAt };
+}
+
+/** Writes the image fields onto a `vitola` row (a specific size's own photo). */
+export function writeVitolaImageRecord(db, { vitolaId, publicPath, width, height, siteUrl }) {
+  const domain = new URL(siteUrl).hostname.replace(/^www\./, '');
+  const checkedAt = new Date().toISOString().slice(0, 10);
+  db.prepare(
+    `UPDATE vitola SET image_url = ?, image_source_name = ?, image_source_url = ?, image_checked_at = ?, image_width = ?, image_height = ? WHERE id = ?`
+  ).run(publicPath, domain, siteUrl, checkedAt, width, height, vitolaId);
   return { domain, checkedAt };
 }
 

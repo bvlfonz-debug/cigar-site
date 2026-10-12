@@ -1,0 +1,26 @@
+{
+  "line_slug": "camacho-triple-maduro",
+  "note": "Site lists Triple Maduro with only Robusto (5x50). Mac photos show 2 additional vitolas. The 'triple' refers to maduro treatment on wrapper, binder, and filler.",
+  "additional_vitolas": [
+    {
+      "name": "Gordo",
+      "size": "6 x 60",
+      "notes": "Matches the Mac photo. Sourced from secondary retail listings (title/product name) rather than a brand-primary spec sheet, though consistent across multiple independent retailers.",
+      "sources": [
+        "https://woodencork.com/products/camacho-triple-maduro-gordo-gordo-6x60"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://mikescigars.com/camacho-triple-maduro-toro"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://woodencork.com/products/camacho-triple-maduro-gordo-gordo-6x60",
+    "https://mikescigars.com/camacho-triple-maduro-toro"
+  ]
+}

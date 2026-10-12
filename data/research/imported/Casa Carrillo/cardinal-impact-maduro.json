@@ -1,0 +1,64 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo Cardinal Impact Maduro",
+    "slug": "cardinal-impact-maduro",
+    "wrapper": "Connecticut Broadleaf",
+    "binder": "Ecuador",
+    "filler": "Nicaragua",
+    "strength": "Medium-Full",
+    "release_year": 2016,
+    "background_text": "Cardinal Impact is the 2016 relaunch of E.P. Carrillo's original 2012 Cardinal line, rebuilt with modified blends and box-pressed construction. Offered in two wrapper expressions: a Natural (Ecuadorian Sumatra, already on the site) and this Maduro (Connecticut Broadleaf), made at Tabacalera La Alianza."
+  },
+  "vitolas": [
+    {
+      "size_name": "No. 52",
+      "slug": "no-52",
+      "length_in": 5,
+      "ring_gauge": 52,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "No. 54",
+      "slug": "no-54",
+      "length_in": 6,
+      "ring_gauge": 54,
+      "vitola_type": "Corona Gorda",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "No. 56",
+      "slug": "no-56",
+      "length_in": 5.5,
+      "ring_gauge": 56,
+      "vitola_type": "Robusto Extra",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Confirmed genuinely distinct SKU family from the site's Cardinal Impact Natural - same line/relaunch, different wrapper leaf.",
+  "research_sources": [
+    {
+      "url": "https://cigar-coop.com/2019/11/cigar-review-e-p-carrillo-cardinal-impact-maduro-no-52.html",
+      "supports": "blend, sizes, 2016 relaunch, relationship to Natural"
+    }
+  ]
+}

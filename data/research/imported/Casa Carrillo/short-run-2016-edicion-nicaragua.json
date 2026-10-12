@@ -1,0 +1,36 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo Short Run 2016 Edicion Nicaragua",
+    "slug": "short-run-2016-edicion-nicaragua",
+    "wrapper": "Nicaraguan (puro)",
+    "binder": "Nicaraguan (same as Short Run 2016)",
+    "filler": "Nicaraguan (same as Short Run 2016)",
+    "strength": null,
+    "release_year": 2016,
+    "background_text": "Released alongside standard Short Run 2016, an all-Nicaraguan-puro variant using the same binder/filler as the original but with a Nicaraguan wrapper. Moved from limited to regular production alongside the standard release in late 2016."
+  },
+  "vitolas": [
+    {
+      "size_name": "Super Toro",
+      "slug": "super-toro",
+      "length_in": 6,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "This is specifically 'Short Run 2016 Edicion Nicaragua' (tied to the 2016 vintage), not a persistent generically-named 'Short Run Nicaragua' sub-line. No dedicated critic review with a numeric score located; size/box-count inferred from the same Super Toro format as standard Short Run 2016 - lower confidence.",
+  "research_sources": [
+    {
+      "url": "https://cigar-coop.com/2016/11/cigar-news-e-p-carrillo-short-run-2016-and-short-run-2016-nicaragua-become-regular-production.html",
+      "supports": "confirms distinct Nicaraguan-puro variant"
+    }
+  ]
+}

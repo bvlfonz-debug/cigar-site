@@ -1,0 +1,25 @@
+{
+  "brand": "Santa Clara",
+  "brand_slug": "santa-clara",
+  "note": "Paths are relative to 'Cigar Images/Santa Clara/' in the connected folder on the user's Mac. This folder's contents are mostly manufacturer marketing collateral (banners, logos, band photos) rather than individual per-vitola product shots - but several images are the manufacturer's own official 'Vitolario' (size chart) graphics, which I viewed directly and used as a primary, highly reliable source for vitola names and dimensions, in place of the usual retailer/review research.",
+  "gap_fill_supplements": {
+    "_santa-clara-1830-additional-vitolas": {
+      "source_folder": "Cigar Images/Santa Clara/Santa Clara 1830",
+      "source_image": "Vitolario-Santa-Clara-1830.jpg"
+    },
+    "_gran-santa-clara-additional-vitolas": {
+      "source_folder": "Cigar Images/Santa Clara/Gran Santa Clara",
+      "source_image": "Vitolario-Santa-Clara-Gran-Reserva.jpg"
+    }
+  },
+  "new_lines": {
+    "santa-clara-1830-50th-anniversary-triple-maduro": {
+      "source_folder": "Cigar Images/Santa Clara/Santa Clara 1830",
+      "source_images": [
+        "Vitolario-Santa-Clara-1830-50th-Anniversary-Triple-Maduro.jpg",
+        "Vitolario-Santa-Clara-1830-Medio-Siglo-Triple-Maduro-scaled.jpg"
+      ]
+    }
+  },
+  "not_used_marketing_only": "Remaining files in 'Santa Clara 1830/' (banners, logos, band-redesign photos, box photos, sliders) are marketing/packaging material rather than per-vitola product shots - not individually catalogued, though they support the general line/release facts noted in the JSON files above."
+}

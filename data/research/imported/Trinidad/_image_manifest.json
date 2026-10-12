@@ -1,0 +1,60 @@
+{
+  "brand": "Trinidad",
+  "batch_date": "2026-09-30",
+  "mac_source_root": "Cigar Images/Trinidad",
+  "note": "Trinidad was part of the Altadis USA distributor-umbrella reorganization; its folder was already top-level. No file renames were needed. Trinidad is CONFIRMED ABSENT from the site's brand index entirely (checked directly, not just a wrong slug) - this batch includes a full new `brand` object.",
+  "mappings": [
+    {
+      "json_file": "trinidad-espiritu-series-no1.json",
+      "line_slug": "trinidad-espiritu-series-no1",
+      "mac_folder": "Cigar Images/Trinidad/Trinidad Espiritu",
+      "files": [
+        "Trinidad_Espiritu_01.png",
+        "Trinidad_Espiritu_Box-Open_01.jpg"
+      ],
+      "notes": "Unlabeled 'Espiritu' photos correspond to the base/Series No.1 release."
+    },
+    {
+      "json_file": "trinidad-espiritu-series-no2.json",
+      "line_slug": "trinidad-espiritu-series-no2",
+      "mac_folder": "Cigar Images/Trinidad/Trinidad Espiritu",
+      "files": [
+        "Trinidad_Espiritu-SeriesNo2_Toro_01.png",
+        "Trinidad_Espiritu-SeriesNo2_Toro_Box-Open_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "trinidad-espiritu-series-no3.json",
+      "line_slug": "trinidad-espiritu-series-no3",
+      "mac_folder": "Cigar Images/Trinidad/Trinidad Espiritu",
+      "files": [
+        "Trinidad_Espiritu-SeriesNo3_Toro_01.png",
+        "Trinidad_Espiritu-SeriesNo3_Toro_Box-Open_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "trinidad-santiago.json",
+      "line_slug": "trinidad-santiago",
+      "mac_folder": "Cigar Images/Trinidad/Trinidad Santiago",
+      "files": [
+        "Trinidad_Santiago_02.png",
+        "Trinidad_Santiago_Toro_Box-Open_01.png"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "trinidad-x-tommy-bahama-island-collection.json",
+      "line_slug": "trinidad-x-tommy-bahama-island-collection",
+      "mac_folder": "Cigar Images/Trinidad/Trinidad Tommy Breeze",
+      "files": [
+        "Trinidad_Tommy-Breeze_01.png",
+        "Trinidad_Tommy-Breeze_Box-Open_01.jpg"
+      ],
+      "notes": "CORRECTION: the Mac folder name 'Trinidad Tommy Breeze' treats 'Breeze' as if it were the line name. Research confirmed 'Breeze' is actually a VITOLA within the line 'Trinidad x Tommy Bahama Island Collection.' No files were moved/renamed (the folder name is misleading but not incorrect data), but the JSON models this correctly as one line with a Breeze vitola."
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": []
+}

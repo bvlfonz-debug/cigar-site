@@ -45,7 +45,7 @@ export const GET: APIRoute = ({ site }) => {
   const rankingPaths = [
     ...new Set(index.map((c) => `/rankings/wrapper/${slugify(c.wrapper)}/`)),
     ...new Set(index.map((c) => `/rankings/country/${slugify(c.country)}/`)),
-    ...new Set(index.map((c) => `/rankings/strength/${slugify(c.strength)}/`)),
+    ...new Set(index.filter((c) => c.strength).map((c) => `/rankings/strength/${slugify(c.strength!)}/`)),
   ];
 
   const comparePaths = getAllComparePairSlugs().map((slug) => `/compare/${slug}/`);

@@ -1,0 +1,37 @@
+{
+  "line_slug": "the-banker",
+  "note": "Site lists The Banker with vitolas Annuity (6x52), Arbitrage (7x56), Currency (5.5x48). 'Day Trader' is confirmed to be a sub-release WITHIN this existing line (not a standalone line) - multiple retailers explicitly describe it as 'the newest installment of the Banker line.' Continues the finance/Wall Street naming motif. Blended by the Grupo de Maestros at Tabacalera de Garcia.",
+  "additional_vitolas": [
+    {
+      "name": "Day Trader Robusto",
+      "size": "4.5 x 54",
+      "sources": [
+        "https://www.neptunecigar.com/cigars/h-upmann-the-banker-daytrader-toro",
+        "https://cigarcountry.com/product/h-upmann-the-banker-day-trader-robusto/"
+      ]
+    },
+    {
+      "name": "Day Trader Toro",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.neptunecigar.com/cigars/h-upmann-the-banker-daytrader-toro",
+        "https://cigarcountry.com/product/h-upmann-the-banker-day-trader-toro/"
+      ]
+    },
+    {
+      "name": "Day Trader Whale",
+      "size": "6 x 60",
+      "sources": [
+        "https://www.neptunecigar.com/cigars/h-upmann-the-banker-daytrader-whale"
+      ]
+    }
+  ],
+  "research_notes": "No halfwheel/trade-press launch announcement was found for Day Trader (only retailer product pages) - could not independently verify an official launch date, but the vitola list is cross-confirmed by two independent retailers.",
+  "research_sources": [
+    "https://www.neptunecigar.com/cigars/h-upmann-the-banker-daytrader-whale",
+    "https://www.neptunecigar.com/cigars/h-upmann-the-banker-daytrader-toro",
+    "https://cigarcountry.com/product/h-upmann-the-banker-day-trader-toro/",
+    "https://cigarcountry.com/product/h-upmann-the-banker-day-trader-robusto/"
+  ]
+}

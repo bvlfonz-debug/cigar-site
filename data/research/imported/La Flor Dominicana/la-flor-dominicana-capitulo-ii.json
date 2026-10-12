@@ -1,0 +1,28 @@
+{
+  "line": {
+    "name": "La Flor Dominicana Capitulo II (Chapter Two)",
+    "slug": "la-flor-dominicana-capitulo-ii",
+    "description": "Follow-up to the limited 'Chapter One' (first blend by Antonio Gomez, son of Litto Gomez; Chapter One was capped at 100,000 cigars / 10,000 boxes). Unveiled at the 2014 IPCPR Trade Show. Confirmed as its own limited-edition line, NOT part of Double Ligero despite the Mac filename's 'Lfd-' prefix.",
+    "wrapper": "Nicaraguan Colorado",
+    "binder": "Ecuadorian Habano",
+    "filler": "Dominican",
+    "factory": null,
+    "status": "limited edition (exact production cap not disclosed in sources found)"
+  },
+  "vitolas": [
+    {
+      "name": "Chisel (box-pressed)",
+      "size": "6.5 x 58",
+      "notes": "Matches the Mac photo. 10-count boxes, ~$10.70/cigar, ~$107.00/box.",
+      "sources": [
+        "https://halfwheel.com/la-flor-dominicana-follows-chapter-one-capitulo-ii/64356",
+        "https://halfwheel.com/la-flor-dominicana-shipping-capitulo-ii/70413/"
+      ]
+    }
+  ],
+  "research_notes": "Factory not stated in sources found. The halfwheel full review URL returned a fetch error this session - sourcing drawn from the announcement/shipping-notice articles only; a follow-up pass could try to retrieve the review for additional detail.",
+  "research_sources": [
+    "https://halfwheel.com/la-flor-dominicana-follows-chapter-one-capitulo-ii/64356",
+    "https://halfwheel.com/la-flor-dominicana-shipping-capitulo-ii/70413/"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo Essence Connecticut",
+    "slug": "essence-connecticut",
+    "wrapper": "Ecuadorian Connecticut-seed",
+    "binder": "Honduran Criollo '98",
+    "filler": "Honduras and Dominican Republic",
+    "strength": "Mild",
+    "release_year": 2024,
+    "background_text": "The fourth release in E.P. Carrillo's Essence Series (following Sumatra, Maduro, and Honduras), made at Agroindustrias Diadema in Danli, Honduras - only the second Essence blend produced outside Casa Carrillo's main Dominican factory. Genuinely distinct from the older 'New Wave Connecticut' line (already on the site), which is a separate product in a different category with a different blend and history."
+  },
+  "vitolas": [
+    {
+      "size_name": "Corona",
+      "slug": "corona",
+      "length_in": 5.5,
+      "ring_gauge": 44,
+      "vitola_type": "Corona",
+      "summary_review": "Delicate, with cream, hay and light pepper notes; an easy, mild everyday smoke.",
+      "tasting_notes": [
+        "cream",
+        "hay",
+        "light pepper"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        24
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [
+        "cream",
+        "hay",
+        "light pepper"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        24
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [
+        "cream",
+        "hay",
+        "light pepper"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        24
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "The Mac folder is simply named 'E.P. Carrillo Connecticut' but the actual official product name is 'Essence Connecticut'. No critic reviews (full ratings) were found yet for this 2024 release, only manufacturer/retailer descriptions.",
+  "research_sources": [
+    {
+      "url": "https://casacarrillocigars.com/essence-connecticut/",
+      "supports": "blend, vitolas, background, confirms separateness from New Wave Connecticut"
+    },
+    {
+      "url": "https://halfwheel.com/e-p-carrillo-essence-series-connecticut-heads-to-stores/452165/",
+      "supports": "release year, blend, vitola sizes, pricing, box counts, factory"
+    }
+  ]
+}

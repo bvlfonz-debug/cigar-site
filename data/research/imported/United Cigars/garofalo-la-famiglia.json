@@ -1,0 +1,80 @@
+{
+  "brand": {
+    "name": "Garofalo",
+    "description": "'Garofalo La Famiglia' is a cigar line released by United Cigars (New Hampshire, owned by David Garofalo), named after Garofalo's own family. Manufactured by Tabacalera Perdomo (Nick Perdomo) in Nicaragua. Announced Dec 2021, shipped to retailers January 2022.",
+    "origin_country": "Nicaragua",
+    "founded": "2021 (announced Dec 2021; shipped Jan 2022)"
+  },
+  "lines": [
+    {
+      "line": {
+        "name": "La Famiglia",
+        "wrapper": {
+          "CT": "Ecuadorian Connecticut",
+          "MD": "Nicaraguan Maduro (bourbon-barrel-aged)",
+          "SG": "Nicaraguan Sun Grown"
+        },
+        "binder": "Nicaraguan",
+        "filler": "Nicaraguan (Cuban-seed, from Estelí/Condega/Jalapa; 5-year aged)",
+        "strength": {
+          "CT": "Mild-to-medium",
+          "SG": "Medium",
+          "MD": "Medium-to-full/full"
+        },
+        "notes": "All 5 vitolas are offered in all 3 wrapper variants (CT/MD/SG) per official/press sources, though our photo library only has Churchill in CT. Sold in 24-count boxes."
+      },
+      "vitolas": [
+        {
+          "name": "Churchill",
+          "size": "7 x 54",
+          "wrapper_variants_photographed": [
+            "CT"
+          ]
+        },
+        {
+          "name": "Epicure",
+          "size": "6 x 54",
+          "wrapper_variants_photographed": [
+            "CT",
+            "MD",
+            "SG"
+          ]
+        },
+        {
+          "name": "Gordo",
+          "size": "6 x 60",
+          "wrapper_variants_photographed": [
+            "CT",
+            "MD",
+            "SG"
+          ]
+        },
+        {
+          "name": "Robusto",
+          "size": "5 x 54",
+          "wrapper_variants_photographed": [
+            "CT",
+            "MD",
+            "SG"
+          ]
+        },
+        {
+          "name": "Torpedo",
+          "size": "6.5 x 54",
+          "wrapper_variants_photographed": [
+            "CT",
+            "MD",
+            "SG"
+          ]
+        }
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/united-taps-perdomo-for-new-garofalo-la-famiglia/402994/",
+    "https://cigar-coop.com/2021/12/cigar-news-united-cigars-to-release-garofalo-la-famiglia-line.html",
+    "https://unitedcigargroup.com/garofalo-la-famiglia-sun-grown/",
+    "https://unitedcigargroup.com/garofalo-la-famiglia-maduro/",
+    "https://www.cigarjournal.com/new-garofalo-la-famiglia-coming-in-january-2022/"
+  ]
+}

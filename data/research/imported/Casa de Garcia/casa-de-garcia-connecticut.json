@@ -1,0 +1,78 @@
+{
+  "brand": {
+    "name": "Casa de Garcia",
+    "slug": "casa-de-garcia",
+    "description": "Not on the site at all - confirmed absent from the site's full brand index. Discovered on the Mac during the Altadis USA reorganization: photos were misfiled under three wrongly-named Altadis USA subfolders ('Flor de Selva Maduro,' 'Joya de Nicaragua Red,' 'La Aroma de Cuba Connecticut') and have been consolidated into a correct, new top-level 'Casa de Garcia' folder. A budget/bundle-tier cigar brand distributed by Altadis USA, sold largely in bundles at roughly $1-2/stick, made at the same factories that produce Montecristo, Romeo y Julieta, and Saint Luis Rey. Founding year is UNVERIFIED - not found in any source checked (including Wikipedia's list of cigar brands, which does not list this brand at all) - trade-press coverage is essentially nonexistent, consistent with its budget tier. IMPORTANT CORRECTION: contrary to an initial assumption of Honduran manufacture, no source found supports Honduras as the factory location - the core 4 wrapper-variant lines are made in the Dominican Republic and the 2 Centenario lines in Nicaragua (Plasencia family, Esteli). Honduran-grown filler tobacco appears in several blends, which may be the source of the Honduras assumption, but it is not the factory/origin country.",
+    "founded": null,
+    "founded_note": "Not found in any source checked - recorded as unknown rather than guessed.",
+    "origin_country": "Dominican Republic (Connecticut, Maduro, Sumatra, Nicaragua-blend lines); Nicaragua (Centenario Red/Gold lines, made by the Plasencia family in Esteli)",
+    "distributor": "Altadis USA",
+    "status": "current"
+  },
+  "line": {
+    "name": "Casa de Garcia Connecticut",
+    "slug": "casa-de-garcia-connecticut",
+    "description": "A wrapper variant of the core Casa de Garcia blend (not a separately-blended sub-line).",
+    "wrapper": "Connecticut Shade",
+    "binder": "Connecticut",
+    "filler": "Dominican and Honduran (long filler)",
+    "factory": "Dominican Republic",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Corona",
+      "size": "5.5 x 44",
+      "sources": [
+        "https://www.altadisusa.com/cigars/casa-de-garcia/casa-de-garcia-connecticut-blend/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "4.75 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/casa-de-garcia/casa-de-garcia-connecticut-blend/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "5.5 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/casa-de-garcia/casa-de-garcia-connecticut-blend/"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "6.5 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/casa-de-garcia/casa-de-garcia-connecticut-blend/"
+      ]
+    },
+    {
+      "name": "Belicoso",
+      "size": "6.125 x 52",
+      "sources": [
+        "https://www.altadisusa.com/cigars/casa-de-garcia/casa-de-garcia-connecticut-blend/"
+      ]
+    },
+    {
+      "name": "Magnum",
+      "size": "6 x 60",
+      "sources": [
+        "https://www.altadisusa.com/cigars/casa-de-garcia/casa-de-garcia-connecticut-blend/"
+      ]
+    },
+    {
+      "name": "Colossal",
+      "size": "7 x 70",
+      "sources": [
+        "https://www.altadisusa.com/cigars/casa-de-garcia/casa-de-garcia-connecticut-blend/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/casa-de-garcia/casa-de-garcia-connecticut-blend/",
+    "https://www.jrcigars.com/cigars/handmade-cigars/casa-de-garcia-cigars/",
+    "https://stogiereview.com/2010/11/19/casa-de-garcia-connecticut/"
+  ]
+}

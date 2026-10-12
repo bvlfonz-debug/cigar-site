@@ -60,7 +60,7 @@ export interface LineRow {
   wrapper: string;
   binder: string;
   filler: string;
-  strength: string;
+  strength: string | null; // null = not yet sourced
   release_year: number | null;
   background_text: string;
   image_url: string | null;
@@ -88,6 +88,12 @@ export interface VitolaRow {
   summary_review: string;
   smoke_time_min: number | null;
   box_counts: string;
+  image_url: string | null;
+  image_source_name: string | null;
+  image_source_url: string | null;
+  image_checked_at: string | null;
+  image_width: number | null;
+  image_height: number | null;
 }
 
 export interface CriticReviewRow {
@@ -301,7 +307,7 @@ export interface SearchIndexEntry {
   vitolaSizeName: string;
   vitolaSlug: string;
   wrapper: string;
-  strength: string;
+  strength: string | null; // null = not yet sourced
   country: string;
   stickScore: number | null;
   path: string;
@@ -317,7 +323,7 @@ export interface SimilarCigar {
   stickScore: number | null;
 }
 
-export function getSimilarCigars(currentVitolaId: number, wrapper: string, strength: string, limit = 5): SimilarCigar[] {
+export function getSimilarCigars(currentVitolaId: number, wrapper: string, strength: string | null, limit = 5): SimilarCigar[] {
   const rows = getDb()
     .prepare(
       `SELECT

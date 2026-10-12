@@ -1,0 +1,58 @@
+{
+  "line": {
+    "name": "Saint Luis Rey Reserva Especial",
+    "slug": "saint-luis-rey-reserva-especial",
+    "description": "Handcrafted in Santa Rosa de Copan, Honduras; marketed as a 'super premium' tier within the brand, blending Honduran, Nicaraguan, and Peruvian tobaccos with rich coffee/tobacco notes. Offers both a natural and a Mexican-maduro wrapper option applied across the vitola range - 'Maduro Churchill' (the Mac photo) means the Churchill vitola in the maduro wrapper, not a separately named vitola.",
+    "wrapper": "Nicaraguan EMS (natural option) or Mexican San Andres/Morron (maduro option)",
+    "binder": null,
+    "binder_note": "Not stated on the retailer page used as the primary source - not fabricated.",
+    "filler": "Honduran, Nicaraguan, and Peruvian (per a JR Cigars brand-history page; not independently re-confirmed on a current Reserva Especial-specific product page)",
+    "factory": "Santa Rosa de Copan, Honduras",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Churchill",
+      "size": "7 x 52",
+      "notes": "Matches the Mac photo (in the maduro wrapper option, per 'Maduro Churchill'). Confirmed as a named vitola via a Cigar Aficionado rating page.",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/saint-luis-rey-cigars/saint-luis-rey-reserva-especial/",
+        "https://www.cigaraficionado.com/ratings/8649/name/saint-luis-rey-reserva-especial-churchill"
+      ]
+    },
+    {
+      "name": "Rothchilde",
+      "size": "5 x 54",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/saint-luis-rey-cigars/saint-luis-rey-reserva-especial/"
+      ]
+    },
+    {
+      "name": "Titan",
+      "size": "5.5 x 60",
+      "notes": "A 'Titan Maduro' SKU is explicitly listed by name.",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/saint-luis-rey-cigars/saint-luis-rey-reserva-especial/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/saint-luis-rey-cigars/saint-luis-rey-reserva-especial/"
+      ]
+    },
+    {
+      "name": "Belicoso",
+      "size": "6.12 x 52",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/saint-luis-rey-cigars/saint-luis-rey-reserva-especial/"
+      ]
+    }
+  ],
+  "research_notes": "Binder was not stated on the source page and is left null rather than guessed. Recommend pulling the current Altadis USA Reserva Especial product page directly (not independently located this pass - only a JR Cigars retailer mirror) to fill the binder and double-check filler.",
+  "research_sources": [
+    "https://www.jrcigars.com/cigars/handmade-cigars/saint-luis-rey-cigars/saint-luis-rey-reserva-especial/",
+    "https://www.cigaraficionado.com/ratings/8649/name/saint-luis-rey-reserva-especial-churchill"
+  ]
+}

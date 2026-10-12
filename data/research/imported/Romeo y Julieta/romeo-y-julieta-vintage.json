@@ -1,0 +1,82 @@
+{
+  "line": {
+    "name": "Romeo y Julieta Vintage",
+    "slug": "romeo-y-julieta-vintage",
+    "description": "Not on the site. A long-running, current (not discontinued) Dominican line, though some vitolas show as out-of-stock/restock at retail.",
+    "wrapper": "Ecuadorian Connecticut Shade",
+    "binder": "Mexican",
+    "filler": "Dominican",
+    "strength": "Mild-medium",
+    "origin": "Dominican Republic",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Corona (Glass Tubes)",
+      "size": "5.5 x 44",
+      "sources": [
+        "https://cigarcountry.com/brand/romeo-y-julieta-cigars/romeo-y-julieta-vintage/"
+      ]
+    },
+    {
+      "name": "Vintage I",
+      "size": "6 x 43 (Lonsdale)",
+      "sources": [
+        "https://cigarcountry.com/brand/romeo-y-julieta-cigars/romeo-y-julieta-vintage/"
+      ]
+    },
+    {
+      "name": "Vintage II",
+      "size": "6 x 46 (Double Corona)",
+      "sources": [
+        "https://cigarcountry.com/brand/romeo-y-julieta-cigars/romeo-y-julieta-vintage/"
+      ]
+    },
+    {
+      "name": "Vintage III",
+      "size": "5 x 50 (Robusto)",
+      "sources": [
+        "https://cigarcountry.com/brand/romeo-y-julieta-cigars/romeo-y-julieta-vintage/"
+      ]
+    },
+    {
+      "name": "Vintage IV",
+      "size": "7 x 48 (Churchill)",
+      "sources": [
+        "https://cigarcountry.com/brand/romeo-y-julieta-cigars/romeo-y-julieta-vintage/"
+      ]
+    },
+    {
+      "name": "Vintage V",
+      "size": "7.5 x 50 (Churchill)",
+      "sources": [
+        "https://www.neptunecigar.com/cigars/romeo-y-julieta-vintage-v"
+      ]
+    },
+    {
+      "name": "Vintage VI",
+      "size": "6.5 x 60 (Torpedo)",
+      "sources": [
+        "https://cigarcountry.com/brand/romeo-y-julieta-cigars/romeo-y-julieta-vintage/"
+      ]
+    },
+    {
+      "name": "Toro (Glass Tubes)",
+      "size": "6 x 50",
+      "sources": [
+        "https://cigarcountry.com/brand/romeo-y-julieta-cigars/romeo-y-julieta-vintage/"
+      ]
+    },
+    {
+      "name": "Vintage VII",
+      "size": "6 x 50 (Toro)",
+      "sources": [
+        "https://cigarcountry.com/brand/romeo-y-julieta-cigars/romeo-y-julieta-vintage/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://cigarcountry.com/brand/romeo-y-julieta-cigars/romeo-y-julieta-vintage/",
+    "https://www.neptunecigar.com/cigars/romeo-y-julieta-vintage-v"
+  ]
+}

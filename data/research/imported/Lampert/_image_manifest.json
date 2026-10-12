@@ -1,0 +1,181 @@
+{
+  "brand": "Lampert Cigars",
+  "brand_slug": "lampert",
+  "note": "Paths are relative to 'Cigar Images/Lampert/' in the connected folder on the user's Mac. This schema's cigar/line records do not carry a photo field, so this manifest is a companion file mapping each researched line to its available product photos for a separate image-upload step. 'lines' covers the 7 genuinely new line/edition files; 'additional_vitola_photos' covers photos for vitolas newly documented within 2 lines that already exist on the site (Ocean Breeze, Oro Line) - see the corresponding _*.json files for those.",
+  "lines": {
+    "lampert-1593": {
+      "folder": "Cigar Images/Lampert/Lampert 1593",
+      "photo_count": 12,
+      "files": [
+        "Lampert_1593_01.jpg",
+        "Lampert_1593_02.jpg",
+        "Lampert_1593_Edicion-Blanca_01.webp",
+        "Lampert_1593_Edicion-Blanca_02.webp",
+        "Lampert_1593_Edicion-Blanca_Box-Closed_01.jpg",
+        "Lampert_1593_Edicion-Blanca_Box-Closed_02.jpg",
+        "Lampert_1593_Edicion-Blanca_Box-Open_01.jpg",
+        "Lampert_1593_Edicion-Blanca_Box-Open_02.jpg",
+        "Lampert_1593_Edicion-Blanca_Box-Open_03.jpg",
+        "Lampert_1593_Edicion-Blanca_Box-Open_04.jpg",
+        "Lampert_1593_Edicion-Blanca_Box-Open_05.jpg",
+        "Lampert_1593_Edicion-Blanca_Box-Open_06.jpg"
+      ]
+    },
+    "lampert-baba-yaga": {
+      "folder": "Cigar Images/Lampert/Lampert Baba Yaga",
+      "photo_count": 6,
+      "files": [
+        "Lampert_Baba-Yaga_01.webp",
+        "Lampert_Baba-Yaga_02.webp",
+        "Lampert_Baba-Yaga_03.webp",
+        "Lampert_Baba-Yaga_04.webp",
+        "Lampert_Baba-Yaga_05.webp",
+        "Lampert_Baba-Yaga_Box-Closed_01.webp"
+      ]
+    },
+    "lampert-family-reserve": {
+      "folder": "Cigar Images/Lampert/Lampert Family Reserve",
+      "photo_count": 10,
+      "files": [
+        "Lampert_Family-Reserve_01.jpg",
+        "Lampert_Family-Reserve_02.jpg",
+        "Lampert_Family-Reserve_03.jpg",
+        "Lampert_Family-Reserve_04.jpg",
+        "Lampert_Family-Reserve_Box-Closed_01.jpg",
+        "Lampert_Family-Reserve_Box-Closed_02.jpg",
+        "Lampert_Family-Reserve_Box-Closed_03.jpeg",
+        "Lampert_Family-Reserve_Box-Closed_04.jpeg",
+        "Lampert_Family-Reserve_Box-Open_01.jpg",
+        "Lampert_Family-Reserve_Edicion-2023_01.webp"
+      ]
+    },
+    "lampert-lawyer": {
+      "folder": "Cigar Images/Lampert/Lampert Lawyer",
+      "photo_count": 5,
+      "files": [
+        "Lampert_Lawyer_01.webp",
+        "Lampert_Lawyer_02.webp",
+        "Lampert_Lawyer_Box-Closed_01.webp",
+        "Lampert_Lawyer_Box-Closed_02.webp",
+        "Lampert_Lawyer_Box-Closed_03.webp"
+      ]
+    },
+    "lampert-limitada": {
+      "folder": "Cigar Images/Lampert/Lampert Limitada",
+      "photo_count": 31,
+      "files": [
+        "Lampert_Limitada_01.jpg",
+        "Lampert_Limitada_02.jpg",
+        "Lampert_Limitada_03.jpg",
+        "Lampert_Limitada_04.jpg",
+        "Lampert_Limitada_05.jpg",
+        "Lampert_Limitada_06.jpg",
+        "Lampert_Limitada_07.webp",
+        "Lampert_Limitada_Box-Closed_01.jpg",
+        "Lampert_Limitada_Box-Closed_02.jpg",
+        "Lampert_Limitada_Box-Closed_03.webp",
+        "Lampert_Limitada_Box-Closed_04.png",
+        "Lampert_Limitada_Edicion-2023_01.webp",
+        "Lampert_Limitada_Edicion-2023_02.webp",
+        "Lampert_Limitada_Edicion-2023_03.webp",
+        "Lampert_Limitada_Edicion-2023_04.webp",
+        "Lampert_Limitada_Edicion-2023_05.webp",
+        "Lampert_Limitada_Edicion-2023_06.webp",
+        "Lampert_Limitada_Edicion-2025_01.webp",
+        "Lampert_Limitada_Edicion-2025_02.webp",
+        "Lampert_Limitada_Edicion-2025_03.webp",
+        "Lampert_Limitada_Edicion-2025_04.webp",
+        "Lampert_Limitada_Edicion-2025_Box-Closed_01.webp",
+        "Lampert_Limitada_Edicion-2025_Box-Closed_02.jpg",
+        "Lampert_Limitada_Edicion-2026_01.webp",
+        "Lampert_Limitada_Edicion-2026_02.webp",
+        "Lampert_Limitada_Group_01.jpg",
+        "Lampert_Limitada_Salomon_01.jpg",
+        "Lampert_Limitada_Toro-Gordo_Box-Closed_01.webp",
+        "Lampert_Limitada_Toro-Gordo_Box-Closed_02.jpg",
+        "Lampert_Limitada_Toro-Gordo_Box-Closed_03.png",
+        "Lampert_Limitada_Toro-Gordo_Box-Closed_04.webp"
+      ]
+    },
+    "lampert-1675-edicion-morado": {
+      "folder": "Cigar Images/Lampert/Lampert 1675",
+      "photo_count": 19,
+      "files": [
+        "Lampert_1675_Edicion-Morado_01.jpg",
+        "Lampert_1675_Edicion-Morado_02.webp",
+        "Lampert_1675_Edicion-Morado_03.webp",
+        "Lampert_1675_Edicion-Morado_04.webp",
+        "Lampert_1675_Edicion-Morado_05.webp",
+        "Lampert_1675_Edicion-Morado_06.webp",
+        "Lampert_1675_Edicion-Morado_Band-Detail_01.webp",
+        "Lampert_1675_Edicion-Morado_Box-Closed_01.webp",
+        "Lampert_1675_Edicion-Morado_Box-Closed_02.webp",
+        "Lampert_1675_Edicion-Morado_Box-Closed_03.webp",
+        "Lampert_1675_Edicion-Morado_Box-Closed_04.webp",
+        "Lampert_1675_Edicion-Morado_Box-Open_01.webp",
+        "Lampert_1675_Edicion-Morado_Box-Open_04.webp",
+        "Lampert_1675_Edicion-Morado_Box-Open_05.webp",
+        "Lampert_1675_Edicion-Morado_Group_01.webp",
+        "Lampert_1675_Edicion-Morado_Group_02.webp",
+        "Lampert_1675_Edicion-Morado_Group_03.webp",
+        "Lampert_1675_Edicion-Morado_Robusto_Box-Open_02.webp",
+        "Lampert_1675_Edicion-Morado_Robusto_Box-Open_03.webp"
+      ]
+    },
+    "lampert-1675-edicion-verde": {
+      "folder": "Cigar Images/Lampert/Lampert 1675",
+      "photo_count": 8,
+      "files": [
+        "Lampert_1675_Edicion-Verde_Box-Closed_01.webp",
+        "Lampert_1675_Edicion-Verde_Box-Closed_02.webp",
+        "Lampert_1675_Edicion-Verde_Group_01.webp",
+        "Lampert_1675_Edicion-Verde_Group_02.webp",
+        "Lampert_1675_Edicion-Verde_Group_03.webp",
+        "Lampert_1675_Edicion-Verde_Group_04.webp",
+        "Lampert_1675_Edicion-Verde_Robusto-Grande_Box-Open_01.webp",
+        "Lampert_1675_Edicion-Verde_Robusto-Grande_Box-Open_02.webp"
+      ]
+    }
+  },
+  "additional_vitola_photos": {
+    "lampert-ocean-breeze (Gordito photos only - line already on site)": {
+      "folder": "Cigar Images/Lampert/Lampert Ocean Breeze",
+      "photo_count": 1,
+      "files": [
+        "Lampert_Ocean-Breeze_Gordito_Box-Closed_01.webp"
+      ]
+    },
+    "lampert-oro-line (Senorito/Gatsby/Short-Perfecto/Kingpin photos - line already on site)": {
+      "folder": "Cigar Images/Lampert/Lampert Oro Line",
+      "photo_count": 22,
+      "files": [
+        "Lampert_Oro-Line_Gatsby_01.jpg",
+        "Lampert_Oro-Line_Gatsby_02.webp",
+        "Lampert_Oro-Line_Gatsby_Box-Closed_01.webp",
+        "Lampert_Oro-Line_Gatsby_Box-Closed_02.jpg",
+        "Lampert_Oro-Line_Gatsby_Box-Open_01.webp",
+        "Lampert_Oro-Line_Kingpin_01.jpg",
+        "Lampert_Oro-Line_Kingpin_02.webp",
+        "Lampert_Oro-Line_Kingpin_03.webp",
+        "Lampert_Oro-Line_Kingpin_04.webp",
+        "Lampert_Oro-Line_Kingpin_Box-Closed_01.webp",
+        "Lampert_Oro-Line_Kingpin_Box-Closed_02.jpg",
+        "Lampert_Oro-Line_Kingpin_Box-Closed_03.webp",
+        "Lampert_Oro-Line_Kingpin_Box-Closed_04.webp",
+        "Lampert_Oro-Line_Kingpin_Box-Closed_05.webp",
+        "Lampert_Oro-Line_Senorito_01.webp",
+        "Lampert_Oro-Line_Senorito_02.webp",
+        "Lampert_Oro-Line_Senorito_Box-Closed_01.webp",
+        "Lampert_Oro-Line_Short-Perfecto_01.webp",
+        "Lampert_Oro-Line_Short-Perfecto_Box-Closed_01.jpg",
+        "Lampert_Oro-Line_Short-Perfecto_Box-Open_01.webp",
+        "Lampert_Oro-Line_Short-Perfecto_Box-Open_02.webp",
+        "Lampert_Oro-Line_Small-Batch_Box-Closed_01.webp"
+      ]
+    }
+  },
+  "excluded": {
+    "lampert-1675-edicion-el-chapo": "2 photos exist (Lampert_1675_Edicion-El-Chapo_Box-Open_01.jpg, _02.jpg) but research could not verify this product exists as a genuine Lampert 1675 edition - see README. Not included in either lines or additional_vitola_photos.",
+    "lampert-1593-edicion-oscura": "Research confirmed this edition exists (per Blind Man's Puff etc.) but it was not fully detailed in this research pass - Mac folder has ~19 photos for it (see 'Lampert 1593' folder listing) that are not yet mapped to a line JSON. Flagging for a follow-up pass."
+  }
+}

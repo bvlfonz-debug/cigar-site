@@ -1,0 +1,60 @@
+{
+  "brand": {
+    "name": "ADVentura",
+    "slug": "adventura",
+    "description": "Not on the site at all - confirmed absent from the site's full 112-brand index. CORRECTION: the Mac folder is named 'Blue Eyed Jack,' but that is actually the LINE name ('Blue Eyed Jack's Revenge'), not the brand/company name. The brand is 'ADVentura,' made/distributed by ADV & McKay Cigars Co., founded 2016 by Henderson Ventura (of Tabacalera William Ventura) and Marcel Knobel (Swiss sommelier/coffee producer-retailer). Sold in Europe from 2017; US market debut ~2019 (IPCPR).",
+    "founded": 2016,
+    "founded_note": null,
+    "origin_country": "Dominican Republic (manufacture) - the company's own corporate HQ country is not stated in any source found.",
+    "distributor": "ADV & McKay Cigars Co.",
+    "status": "current"
+  },
+  "line": {
+    "name": "ADVentura Blue Eyed Jack's Revenge",
+    "slug": "adventura-blue-eyed-jacks-revenge",
+    "description": "One line with a base blend plus a Maduro wrapper variant sub-named 'High Tide' - confirmed by Cigar Coop as 'adding a Maduro offering to the Blue Eyed Jack's Revenge line' (same binder/filler, different wrapper), not two separate lines. Uses a 'talking box' gimmick, also used on ADVentura's earlier Barbarroja's Invasion (2022). Made at Tabacalera Mina del Rey, co-founded by Ventura and Knobel in late 2023.",
+    "wrapper": "Mexican San Andres Colorado (base blend); Mexican San Andres Maduro (High Tide variant)",
+    "binder": "Dominican Olor",
+    "filler": "Dominican - one source (Cigar Coop) has an internal inconsistency, its own blend-summary box says 'Dominican filler' while its body text says 'aged Nicaraguan fillers'; 3 other sources (Cigar Inspector, The Cigar Authority, Neptune Cigar) say Dominican filler only. Recorded as Dominican with this one-source conflict flagged rather than silently resolved.",
+    "factory": "Tabacalera Mina del Rey, Dominican Republic",
+    "status": "current (base blend); limited/annual run (Maduro 'High Tide,' ~1,000 boxes/year)"
+  },
+  "vitolas": [
+    {
+      "name": "Corona",
+      "size": "6 x 44",
+      "notes": "Matches the Mac photo. Shipped July 2024 (previewed PCA 2024). 20-ct box; $13.20/cigar, $264/box.",
+      "sources": [
+        "https://cigar-coop.com/2024/07/adventura-releasing-blue-eyed-jacks-revenge-cigar-news.html",
+        "https://neptunecigar.com/cigars/adventura-blue-eyed-jacks-revenge-corona"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 52",
+      "notes": "Matches the Mac photo. 20-ct box; $14.20/cigar, $284/box.",
+      "sources": [
+        "https://cigar-coop.com/2024/07/adventura-releasing-blue-eyed-jacks-revenge-cigar-news.html"
+      ]
+    },
+    {
+      "name": "Maduro High Tide (Diadema)",
+      "size": "6.5 x 50",
+      "notes": "Matches the Mac photo. Single size, debuted PCA 2025 (April 2025), shipped June 2025, a 2nd installment was reported for ~2026. 10-ct box with a collectible pirate coin; $21/cigar, $210/box; limited to ~1,000 boxes/year.",
+      "sources": [
+        "https://cigar-coop.com/2025/04/adventura-blue-eyed-jacks-revenge-maduro-debuts-at-pca-2025-cigar-news.html",
+        "https://halfwheel.com/adventura-blue-eyed-jacks-revenge-maduro-high-tide/454240/"
+      ]
+    }
+  ],
+  "research_notes": "A 4th vitola, Toro (6x54, $15.00/cigar), exists in the base blend lineup per sourcing but has no matching Mac photo this batch, so not added. A Short Robusto (4x50) retailer-exclusive limited to 3,000 sticks was also found referenced (halfwheel tag page, title/summary only, full article not fetched) - not added, flagged as low-confidence/unconfirmed. Exact factory address/city for Tabacalera Mina del Rey not found in sources reviewed.",
+  "research_sources": [
+    "https://cigar-coop.com/2024/07/adventura-releasing-blue-eyed-jacks-revenge-cigar-news.html",
+    "https://cigar-coop.com/2025/04/adventura-blue-eyed-jacks-revenge-maduro-debuts-at-pca-2025-cigar-news.html",
+    "https://neptunecigar.com/cigars/adventura-blue-eyed-jacks-revenge-corona",
+    "https://cigarinspector.com/news/adv-mckay-cigars-co-unleash-blue-eyed-jacks-revenge-cigars/",
+    "https://halfwheel.com/adventura-blue-eyed-jacks-revenge-maduro-high-tide/454240/",
+    "https://thecigarauthority.com/adventura-blue-eyed-jacks-revenge-shipping-to-stores/",
+    "https://halfwheel.com/ipcpr-2019-adventura-mckay-cigars/299016"
+  ]
+}

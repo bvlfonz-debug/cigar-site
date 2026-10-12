@@ -1,0 +1,58 @@
+{
+  "line_slug": "arturo-fuente-casa-cuba",
+  "note": "Site lists only 'Doble Cinco' (5x50). Mac photos were originally filed under shorthand names that dropped the 'Doble' prefix and, in one case, used the wrong word entirely ('Divine' instead of the real 'Divine Inspiration'). Research confirmed the real official names/sizes below and I renamed the Mac photo files to match. Casa Cuba is a revived historic Ybor City brand (originally Maseda family, acquired by Fuente in the late 1970s), relaunched in 2013 with an original blend by Carlos Fuente Sr. - it is deliberately not badged 'Arturo Fuente' on the box itself, though it's a Fuente product.",
+  "additional_vitolas": [
+    {
+      "name": "Doble Cuatro",
+      "size": "4.5 x 54",
+      "notes": "One of the original 4 vitolas at 2013 launch.",
+      "sources": [
+        "https://arturofuente.com/our-cigars/casa-cuba/",
+        "https://cigar-coop.com/2014/02/cigar-review-arturo-fuente-casa-cuba.html"
+      ]
+    },
+    {
+      "name": "Doble Tres",
+      "size": "5.5 x 44",
+      "notes": "One of the original 4 vitolas at 2013 launch.",
+      "sources": [
+        "https://arturofuente.com/our-cigars/casa-cuba/",
+        "https://cigar-coop.com/2014/02/cigar-review-arturo-fuente-casa-cuba.html"
+      ]
+    },
+    {
+      "name": "Doble Seis",
+      "size": "6 x 52 (Toro)",
+      "notes": "One of the original 4 vitolas at 2013 launch.",
+      "sources": [
+        "https://arturofuente.com/our-cigars/casa-cuba/",
+        "https://cigar-coop.com/2014/02/cigar-review-arturo-fuente-casa-cuba.html"
+      ]
+    },
+    {
+      "name": "Divine Inspiration",
+      "size": "6.125 x 47 (Corona Gorda)",
+      "notes": "Added 2016. NOT 'Divino' - the real name is the English phrase 'Divine Inspiration'; Mac photo/folder has been corrected to match.",
+      "sources": [
+        "https://halfwheel.com/casa-cuba-divine-inspiration/135606/"
+      ]
+    },
+    {
+      "name": "Doble Dos",
+      "size": "6.75 x 42 per Fuente's own site (halfwheel's 2018 review lists 6.5 x 42 - minor source discrepancy, using Fuente's own figure)",
+      "notes": "Added November 2018.",
+      "sources": [
+        "https://arturofuente.com/our-cigars/casa-cuba/",
+        "https://halfwheel.com/casa-cuba-doble-dos/291002/"
+      ]
+    }
+  ],
+  "resolved_note": "The Mac photo labeled just 'Cinco' is the same product as the site's existing 'Doble Cinco' (5x50) - no new vitola, just a mislabeled/abbreviated filename, corrected on the Mac to 'Doble-Cinco'.",
+  "possibly_discontinued_not_added": "halfwheel references a limited 'Casa Cuba Corona' prerelease vitola but I could not confirm it as a current standing SKU from any other source - not added, flagging only.",
+  "research_sources": [
+    "https://arturofuente.com/our-cigars/casa-cuba/",
+    "https://cigar-coop.com/2014/02/cigar-review-arturo-fuente-casa-cuba.html",
+    "https://halfwheel.com/casa-cuba-doble-dos/291002/",
+    "https://halfwheel.com/casa-cuba-divine-inspiration/135606/"
+  ]
+}

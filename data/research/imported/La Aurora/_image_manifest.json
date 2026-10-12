@@ -1,0 +1,13 @@
+{
+  "brand": "La Aurora",
+  "brand_slug": "la-aurora",
+  "note": "Paths are relative to 'Cigar Images/La Aurora/' in the connected folder on the user's Mac. IMPORTANT: the 'Las Calaveras' subfolder that was previously here has been MOVED OUT - research confirmed it's a Crowned Heads product (blended by My Father Cigars), not a La Aurora product. It now lives at 'Cigar Images/Crowned Heads/Las Calaveras/' and is researched in its own separate batch. The 2 untouched press-magazine PNGs at top level (LaAuroraFamilyCreed and LaAuroraPreferidosRubyCigar, both 'EssentialCigars'-branded) were left as-is per usual convention.",
+  "gap_fill_supplements": {
+    "_la-aurora-107-additional-vitolas": {
+      "source_folder": "Cigar Images/La Aurora/La Aurora 107"
+    }
+  },
+  "unresolved_flags": [
+    "La Aurora 107 folder - one photo's specific vitola could not be confirmed (renamed to flag as 'Possibly-Gran-Toro-6x58-UNVERIFIED')."
+  ]
+}

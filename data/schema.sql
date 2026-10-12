@@ -58,7 +58,7 @@ CREATE TABLE line (
   wrapper          TEXT NOT NULL,
   binder           TEXT NOT NULL,
   filler           TEXT NOT NULL,
-  strength         TEXT NOT NULL CHECK (strength IN ('mild','mild-medium','medium','medium-full','full')),
+  strength         TEXT CHECK (strength IS NULL OR strength IN ('mild','mild-medium','medium','medium-full','full')), -- NULL = not yet sourced
   release_year     INTEGER,
   background_text  TEXT NOT NULL,
   UNIQUE (brand_id, slug)

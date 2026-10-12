@@ -1,0 +1,71 @@
+{
+  "line": {
+    "name": "Las Calaveras",
+    "slug": "las-calaveras",
+    "description": "Not on the site - the site's Crowned Heads entry currently lists 8 other lines (Four Kicks, Four Kicks Capa Especial, Headley Grange, Jericho Hill, Juarez, Le Careme, Le Patissier, Mil Dias) but not this one. IMPORTANT CORRECTION: these photos were originally filed on the Mac under 'La Aurora', but research confirmed Las Calaveras is Crowned Heads' annual Dia de los Muertos (Day of the Dead) themed limited edition, first released in 2014, blended by My Father Cigars S.A. in Esteli, Nicaragua - La Aurora has no involvement. I moved the Mac folder to its own new top-level 'Crowned Heads' folder to reflect this correctly. Each year's release typically uses a new wrapper/blend and offers 'LC' + ring-gauge-coded vitola names (e.g. LC50, LC52, LC54), making every vintage a distinct, collectible limited blend rather than one fixed recurring product - the vitola list below spans multiple release years, not one single blend.",
+    "status": "current (new blend annually)"
+  },
+  "vitolas": [
+    {
+      "name": "Edicion Limitada 2023 - LC52",
+      "size": "6 x 52",
+      "sources": [
+        "https://www.coronacigar.com/las-calaveras-edicion-limitada-2023-lc52/",
+        "https://www.neptunecigar.com/cigars/las-calaveras-edicion-limitada-2023-lc52"
+      ]
+    },
+    {
+      "name": "Edicion Limitada 2023 - LC54",
+      "size": "5.625 x 54 (sometimes called 'Robusto Extra')",
+      "notes": "Wrapper: USA Connecticut Broadleaf. Released July 2023; 1,500 boxes of 24 plus 3,000 single-cigar samplers. MSRP $14.95/cigar.",
+      "sources": [
+        "https://halfwheel.com/las-calaveras-edicion-limitada-2023-lc54/429450/",
+        "https://atlanticcigar.com/crowned-heads-las-calaveras-el-2023-lc54-5-5-8x54/"
+      ]
+    },
+    {
+      "name": "Edicion Limitada 2024 - LC48",
+      "size": "6 x 48",
+      "notes": "Mac photo filename suggested 'Corona' but no source uses that as the official vitola name - the confirmed 2024 name is 'LC48'. Photo-to-size match is an inference based on shape, not independently confirmed - flagged for a visual double-check.",
+      "sources": [
+        "https://halfwheel.com/crowned-heads-announces-two-las-calaveras-releases-for-2024/439580/"
+      ]
+    },
+    {
+      "name": "Edicion Limitada 2024 - LC52",
+      "size": "5 x 52",
+      "notes": "Mac photo filename suggested 'Robusto' but the official name is 'LC52'. Photo-to-size match is inferred by shape, not independently confirmed.",
+      "sources": [
+        "https://halfwheel.com/las-calaveras-edicion-limitada-2024-lc52/442745/"
+      ]
+    },
+    {
+      "name": "Edicion Limitada 2024 - LC54",
+      "size": "6 x 54",
+      "notes": "Mac photo filename suggested 'Toro' but the official name is 'LC54'. Photo-to-size match is inferred by shape, not independently confirmed.",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/las-calaveras/"
+      ]
+    },
+    {
+      "name": "Decimo Aniversario (10th Anniversary)",
+      "size": "6 x 52 (Toro)",
+      "notes": "One-off 2024 release marking the line's 10th anniversary (debuted 2014). Wrapper: Ecuadorian Habano Oscuro. Boxes of 10 only, 2,500 boxes / 25,000 cigars total, no sampler offered.",
+      "sources": [
+        "https://halfwheel.com/las-calaveras-decimo-aniversario/446039/",
+        "https://cigar-coop.com/2024/06/crowned-heads-las-calaveras-10th-anniversary-cigars-announced-cigar-news.html"
+      ]
+    }
+  ],
+  "not_added_as_vitola": {
+    "photo": "LasCalaveras_EL2024-4-Cigar-Sampler.jpg (renamed from '24_Sampler')",
+    "note": "Depicts the real 2024 4-Cigar Sampler ($56.95, JR Cigars) containing one each of LC48, LC52, LC54, and a sampler-exclusive Belicoso Fino (5.5x52) not separately photographed - not added as its own vitola entry since it's a mixed sampler, not a single product."
+  },
+  "research_notes": "The 2024 lineup's Mac filenames used shape-descriptive shorthand (Corona/Robusto/Toro) that don't match any official 'LC' product name - I've mapped them to the closest-matching official LC size by shape as a best-effort identification, clearly flagged as inferred rather than confirmed in each vitola's notes.",
+  "research_sources": [
+    "https://halfwheel.com/las-calaveras-edicion-limitada-2023-lc54/429450/",
+    "https://halfwheel.com/crowned-heads-announces-two-las-calaveras-releases-for-2024/439580/",
+    "https://halfwheel.com/las-calaveras-decimo-aniversario/446039/",
+    "https://cigar-coop.com/2024/06/crowned-heads-las-calaveras-10th-anniversary-cigars-announced-cigar-news.html"
+  ]
+}

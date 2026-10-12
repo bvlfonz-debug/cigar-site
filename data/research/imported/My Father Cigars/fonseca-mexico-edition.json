@@ -1,0 +1,47 @@
+{
+  "line": {
+    "name": "Fonseca Mexico Edition",
+    "slug": "fonseca-mexico-edition",
+    "description": "Mexican San Andres-wrapped expression of Fonseca by My Father, debuted mid-2020 with the Robusto vitola formalized into the regular lineup by March 2024.",
+    "wrapper": "Mexican San Andres Maduro",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": "Full-bodied",
+    "release_year": 2020
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "halfwheel.com/fonseca-edition-mx-robusto/440764/"
+      ]
+    },
+    {
+      "name": "Cedros",
+      "size": "6.25 x 52",
+      "sources": [
+        "myfathercigars.com/cigar/fonseca-mexico-edition/"
+      ]
+    },
+    {
+      "name": "Toro Grande",
+      "size": "6.5 x 56",
+      "sources": [
+        "myfathercigars.com/cigar/fonseca-mexico-edition/"
+      ]
+    },
+    {
+      "name": "Toro Gordo",
+      "size": "6 x 60",
+      "sources": [
+        "cigaraficionado.com"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://myfathercigars.com/cigar/fonseca-mexico-edition/",
+    "https://halfwheel.com/fonseca-edition-mx-robusto/440764/",
+    "https://cigaraficionado.com"
+  ]
+}

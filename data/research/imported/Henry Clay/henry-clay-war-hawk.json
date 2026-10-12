@@ -1,0 +1,55 @@
+{
+  "line": {
+    "name": "Henry Clay War Hawk",
+    "slug": "henry-clay-war-hawk",
+    "description": "Launched March 2019, the first Henry Clay product with an Ecuadorian Connecticut Shade wrapper. Intended as part 1 of a planned three-part 'Immortal Trio' series - whether parts 2-3 ever shipped is unconfirmed.",
+    "wrapper": "Ecuadorian Connecticut Shade",
+    "binder": "Connecticut Broadleaf",
+    "filler": "Honduran",
+    "factory": "Flor de Copan, Honduras",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Corona",
+      "size": "5.5 x 44 (UNVERIFIED - one source gives 5.0x44; unresolved conflict between the 2019 launch article and a current JR Cigars SKU page, possibly a size change over time)",
+      "sources": [
+        "https://cigar-coop.com/2019/03/cigar-news-altadis-u-s-a-to-introduce-henry-clay-war-hawk.html",
+        "https://www.jrcigars.com/item/henry-clay-war-hawk/toro/HCWHT5.html"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 54",
+      "notes": "Confirmed by both sources.",
+      "sources": [
+        "https://cigar-coop.com/2019/03/cigar-news-altadis-u-s-a-to-introduce-henry-clay-war-hawk.html",
+        "https://www.jrcigars.com/item/henry-clay-war-hawk/toro/HCWHT5.html"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "notes": "Matches the Mac photo. Confirmed by both sources.",
+      "sources": [
+        "https://cigar-coop.com/2019/03/cigar-news-altadis-u-s-a-to-introduce-henry-clay-war-hawk.html",
+        "https://www.jrcigars.com/item/henry-clay-war-hawk/toro/HCWHT5.html"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 56",
+      "notes": "Added December 2022 as a 4th regular-production size.",
+      "sources": [
+        "https://cigar-coop.com/2022/12/cigar-news-altadis-u-s-a-adding-henry-clay-war-hawk-churchill.html",
+        "https://halfwheel.com/altadis-u-s-a-announces-henry-clay-war-hawk-churchill/416841/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://cigar-coop.com/2019/03/cigar-news-altadis-u-s-a-to-introduce-henry-clay-war-hawk.html",
+    "https://www.jrcigars.com/item/henry-clay-war-hawk/toro/HCWHT5.html",
+    "https://cigar-coop.com/2022/12/cigar-news-altadis-u-s-a-adding-henry-clay-war-hawk-churchill.html",
+    "https://halfwheel.com/altadis-u-s-a-announces-henry-clay-war-hawk-churchill/416841/"
+  ]
+}

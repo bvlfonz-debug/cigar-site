@@ -1,0 +1,16 @@
+{
+  "note": "Supplementary file - NOT a new line. 'Bellas Artes Maduro' already exists on the site with 4 vitolas (Gordo 6.5x58, Robusto 5.5x52, Short Churchill 6x48, Toro 6x54). Adding a 5th, limited-edition vitola the site is missing.",
+  "line_name": "Bellas Artes Maduro",
+  "additional_vitolas": [
+    {
+      "name": "Lancero",
+      "size": "7 x 40",
+      "notes": "Limited-edition 5th size, added June 2019. Limited to 2,000 boxes of 10 (20,000 cigars total), ~$10/cigar MSRP. Made at Tabacalera A.J. Fernandez Cigars de Nicaragua, Estelí. Blend unchanged from the rest of the line: Brazilian Mata Fina wrapper, Mexican San Andrés binder, Nicaraguan filler."
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/a-j-fernandez-adding-bellas-artes-maduro/361640/",
+    "https://www.cigaraficionado.com/article/bellas-artes-maduro-getting-a-limited-edition-lancero",
+    "https://www.neptunecigar.com/cigars/aj-fernandez-bellas-artes-maduro-lancero"
+  ]
+}

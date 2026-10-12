@@ -1,0 +1,33 @@
+{
+  "line": {
+    "name": "CLE Corojo",
+    "slug": "cle-corojo",
+    "description": "Not on the site - the site's existing 'CLE Corojo 2012' entry only lists an 11/18 (6x54) vitola. This appears to be a related but DISTINCT current listing: plain 'CLE Corojo' is sold by multiple major retailers (clecigars.com's own shop, Neptune, JR Cigars, Mike's Cigars, Smokeinn, Cigar King) as a 5-vitola line. Likely the same underlying blend lineage as the original 2012 release (same wrapper varietal, the 11/18 vitola persists in both), but no source explicitly confirms 'Corojo 2012' was formally renamed into today's 'CLE Corojo' - flagging this lineage claim as plausible but not fully verified, in case the site intends them as genuinely separate SKUs. CLE Cigar Company was founded July 2012 by Christian Eiroa (son of Julio Eiroa, founder of the Eiroa tobacco dynasty and later Camacho Cigars), after Christian left Camacho in 2011. The factory occupies a converted 1975 movie theater ('Cine Aladino') in Danli, Honduras that once belonged to his grandfather, Antonio Kafati.",
+    "wrapper": "Corojo",
+    "binder": "Honduran",
+    "filler": "Honduran",
+    "status": "current",
+    "relationship_flag": "Possible successor/rename of the site's existing 'CLE Corojo 2012' entry - not confirmed, treat as related but separate for now."
+  },
+  "vitolas": [
+    {
+      "name": "60 x 6",
+      "size": "6 x 60",
+      "notes": "The only vitola photographed on the Mac.",
+      "sources": [
+        "https://clecigars.com/shop/c-l-e-corojo/",
+        "https://www.neptunecigar.com/cigars/cle-corojo-6--60",
+        "https://www.jrcigars.com/item/cle-corojo/6-x-60/CLE660.html"
+      ]
+    }
+  ],
+  "known_additional_sizes_not_photographed": [
+    "40x4, 50x5, 11/18, 54x6 also appear on clecigars.com's own shop page for this line, but no Mac photo exists for them, so they are not added as formal vitola entries here."
+  ],
+  "research_notes": "Mac filename was 'Cor-660', now decoded and renamed on the Mac.",
+  "research_sources": [
+    "https://clecigars.com/shop/c-l-e-corojo/",
+    "https://www.cigaraficionado.com/rating/cle-corojo-2012-11-18",
+    "https://www.neptunecigar.com/cigars/cle-corojo-6--60"
+  ]
+}

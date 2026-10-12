@@ -1,0 +1,55 @@
+{
+  "brand": {
+    "name": "Domain Cigars",
+    "slug": "domain-cigars",
+    "description": "Not on the site at all - confirmed absent from the site's full 112-brand index. CORRECTION TO AN INITIAL ASSUMPTION: 'Domain' was initially hypothesized to be a line of AJ Fernandez (already a listed brand) - research ruled this out. Domain is its own standalone brand, founded March 2024 by Daniel Lance (cigar retail background, founder of Lujo Concepts) and Esteban Disla (cigar-making veteran, ~10 years at Fabrica de Tabacos Nica Sueno S.A.; earlier at Latin Cigars S.A./now STG Esteli; created blends for CAO, Toraño, Alec Bradley). A full-service tobacco company (agriculture, processing, brokering, cigar making). Its absence from the site's index is consistent with it being a genuinely new brand (launched March 2024), not evidence it's fictional.",
+    "founded": 2024,
+    "founded_note": null,
+    "origin_country": "Nicaragua (Esteli)",
+    "distributor": null,
+    "status": "current"
+  },
+  "line": {
+    "name": "Domain Entropy",
+    "slug": "domain-entropy",
+    "description": "Domain's third regular-production line (after Neutron and Negentropy, both debuted April 2024). A refined, regular-production evolution of an earlier limited prototype called 'No7B' - roughly 90% of Entropy's blend is derived from Negentropy, with a different broadleaf crop and one filler viso change versus the No7B prototype. Pre-orders opened October 2024; began shipping to retailers around November 2024.",
+    "wrapper": "AAA Connecticut Broadleaf",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan, double ligero-heavy composition",
+    "factory": "Tabacalera Familia Disla S.A., Esteli, Nicaragua",
+    "status": "current (regular production)"
+  },
+  "vitolas": [
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "notes": "Matches the Mac photo. ~$12.49/cigar, $249.80/box of 20.",
+      "sources": [
+        "https://cigar-coop.com/2024/10/domain-cigars-releasing-n7b-prototype-and-entropy-line-cigar-news.html"
+      ]
+    },
+    {
+      "name": "Robusto Extra",
+      "size": "5 x 52",
+      "notes": "~$12.49/cigar, $249.80/box of 20.",
+      "sources": [
+        "https://halfwheel.com/domain-cigars-begins-shipping-entropy/445526/"
+      ]
+    },
+    {
+      "name": "Robusto Gordo",
+      "size": "5 x 56",
+      "notes": "~$12.99/cigar (one source lists $13.00), $259.80/box of 20.",
+      "sources": [
+        "https://cigar-coop.com/2025/09/domain-entropy-robusto-gordo-cigar-review.html"
+      ]
+    }
+  ],
+  "research_notes": "The Mac photo 'Domain_Entropy-Robx_01.jpg' is AMBIGUOUS between 'Robusto Extra' (5x52) and 'Robusto Gordo' (5x56) - no source uses 'Robx' as an official abbreviation for either, and both exist in the confirmed lineup. NOT resolved to one specific vitola for that photo - both are listed above as confirmed line vitolas, but the photo itself isn't attributed to either with confidence. A 4th vitola, 'Belicoso Shaggy - His Excellency' (5x54, ~$14.99/cigar), and a later expansion vitola referenced in a 2026 review ('Corona Heritage Cabinet Agile') were also found but have no matching Mac photo and full specs weren't pulled for the latter.",
+  "research_sources": [
+    "https://halfwheel.com/domain-cigars-announces-entropy-as-newest-line-releases-no7b-prototypes/444297",
+    "https://cigar-coop.com/2025/09/domain-entropy-robusto-gordo-cigar-review.html",
+    "https://halfwheel.com/domain-cigars-begins-shipping-entropy/445526/",
+    "https://cigar-coop.com/2024/10/domain-cigars-releasing-n7b-prototype-and-entropy-line-cigar-news.html"
+  ]
+}

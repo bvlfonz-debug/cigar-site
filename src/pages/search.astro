@@ -72,7 +72,7 @@ const index = getSearchIndex();
     vitolaSizeName: string;
     vitolaSlug: string;
     wrapper: string;
-    strength: string;
+    strength: string | null;
     country: string;
     stickScore: number | null;
     path: string;
@@ -94,7 +94,7 @@ const index = getSearchIndex();
   }
 
   populate('filter-wrapper', entries.map((e) => e.wrapper));
-  populate('filter-strength', entries.map((e) => e.strength));
+  populate('filter-strength', entries.map((e) => e.strength).filter((s): s is string => !!s));
   populate('filter-country', entries.map((e) => e.country));
 
   const resultsEl = document.getElementById('search-results') as HTMLElement;

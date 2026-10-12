@@ -1,0 +1,20 @@
+{
+  "note": "Supplementary file - NOT a new line. 'Fratello Classico' already exists on the site (Boxer 6.25x52, Toro 6.25x54). Adding the shared 'Fuoco' vitola.",
+  "line_name": "Fratello Classico",
+  "additional_vitolas": [
+    {
+      "name": "Classico Fuoco",
+      "size": "3.5 x 50 (short robusto, closed foot, pigtail)",
+      "wrapper": null,
+      "binder": null,
+      "filler": null,
+      "strength": null,
+      "notes": "Same shared 'Fuoco' format as Bianco Fuoco and Oro Fuoco - uses Classico's own established blend in a 3.5x50 short-robusto shape. See Fratello Bianco's supplement file for the fuller Fuoco background."
+    }
+  ],
+  "research_sources": [
+    "https://fratellocigar.com/fuoco/",
+    "https://halfwheel.com/fratello-ships-fuoco-vitolas/400001/",
+    "https://stogiepress.com/cigar-news-fratello-cigars-announces-the-fratello-fuoco/"
+  ]
+}

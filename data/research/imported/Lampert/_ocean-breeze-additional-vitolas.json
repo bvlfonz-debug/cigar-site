@@ -1,0 +1,46 @@
+{
+  "line_slug": "lampert-ocean-breeze",
+  "note": "Lampert Ocean Breeze already exists as a line on the site catalog (currently listing one vitola, 'Robusto Extra', 5x54). This file is NOT a new line - it's a supplementary vitola-level correction/addition for Claude Code to merge into the existing site record, since the schema's brand/line omission rule doesn't cover 'add a vitola to an existing line.'",
+  "corrections": [
+    {
+      "issue": "naming_mismatch",
+      "site_has": "Robusto Extra (5x54)",
+      "should_likely_be": "Robusto Grande (5x54)",
+      "explanation": "Lampert's own official site (lampertcigars.com/cigars/ocean-breeze/) does not use the name 'Robusto Extra' at all - it calls this exact 5x54 vitola 'Robusto Grande'. Dimensions match exactly and halfwheel/retailer coverage confirms 'Robusto Grande' as the original Ocean Breeze size introduced in 2022. Likely just a naming discrepancy in the site's existing catalog entry - recommend renaming rather than treating as two different vitolas."
+    }
+  ],
+  "additional_vitolas": [
+    {
+      "size_name": "Gordito",
+      "slug": "gordito",
+      "length_in": 4,
+      "ring_gauge": 58,
+      "vitola_type": "Gordito",
+      "summary_review": null,
+      "tasting_notes": ["mineral", "cocoa", "roasted almonds", "earth", "leather", "natural sweetness"],
+      "smoke_time_min": null,
+      "box_counts": [10],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Toro Grande",
+      "slug": "toro-grande",
+      "length_in": 6.5,
+      "ring_gauge": 56,
+      "vitola_type": "Toro Grande",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [10],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Gordito (4x58) and Toro Grande (6.5x56) are genuinely distinct, officially-confirmed additional vitolas within the same Ocean Breeze blend - confirmed via Lampert's own 'expands Ocean Breeze with two new vitolas' announcement and halfwheel. Toro Grande was not in our Mac photo library at the time of this research but is flagged here for completeness/future reference. Tasting notes are the blend-level profile from the official page; no Gordito-specific breakdown was found.",
+  "research_sources": [
+    {"url": "https://lampertcigars.com/cigars/ocean-breeze/", "supports": "Official vitola list, dimensions, wrapper, blend tasting notes"},
+    {"url": "https://lampertcigars.com/lampert-cigars-expands-ocean-breeze-line-with-two-new-vitolas/", "supports": "Confirms Gordito and Toro Grande as new vitolas added to the original Robusto Grande"},
+    {"url": "https://halfwheel.com/lampert-shipping-two-new-ocean-breeze-vitolas-this-week/456463/", "supports": "Gordito/Toro Grande pricing, confirms Robusto Grande (5x54) as the original 2022 size"},
+    {"url": "https://halfwheel.com/lampert-ocean-breeze-toro-grande/459180/", "supports": "Existence of Toro Grande vitola"},
+    {"url": "https://sirlouiscigars.com/products/lampert-cigars-ocean-breeze-gordito-1", "supports": "Retailer confirmation Gordito sold as distinct product"}
+  ]
+}

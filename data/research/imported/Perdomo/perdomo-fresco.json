@@ -1,0 +1,35 @@
+{
+  "line": {
+    "name": "Perdomo Fresco",
+    "slug": "perdomo-fresco",
+    "description": "A long-running budget/bundle-tier Perdomo line, in production since at least 2007 and still currently sold.",
+    "wrapper": "Natural (also sold in Sun Grown per one retailer, not photographed on the Mac)",
+    "binder": null,
+    "filler": null,
+    "strength": null
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": null,
+      "notes": "Size could not be verified from sources found - not guessed.",
+      "sources": [
+        "famous-smoke.com/perdomo-fresco-toro-cigars-natural",
+        "smokeinn.com/fresco-natural-toro.html"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": null,
+      "notes": "Size could not be verified from sources found - not guessed.",
+      "sources": [
+        "cigarsinternational.com/product/perdomo-fresco/3JA-PM.html"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.famous-smoke.com/perdomo-fresco-toro-cigars-natural",
+    "https://www.smokeinn.com/fresco-natural-toro.html",
+    "https://www.cigarsinternational.com/product/perdomo-fresco/3JA-PM.html"
+  ]
+}

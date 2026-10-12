@@ -1,0 +1,43 @@
+{
+  "brand_folder_note": "This single Mac folder ('CLE Cigar Co') actually contains photos for TWO separate brand entities in the database: CLE Cigar Company (Connecticut, Corojo, Maduro subfolders) and Asylum (all 6 'Asylum *' subfolders) - Asylum is manufactured by CLE/Christian Eiroa but marketed and sold under its own standalone brand name, and does not exist at all in the site's brand index. Paths below are relative to 'Cigar Images/CLE Cigar Co/' in the connected folder on the user's Mac.",
+  "reorg_performed": "All files across the 10 line subfolders used cryptic numeric/abbreviated shorthand filenames (e.g. 'Ct-18', 'Asy-550', 'Mad-660') - decoded via research and renamed in place to reflect real vitola names/sizes. One file ('Asy-Insan-Lat') was moved out of the 'Asylum Insidious' folder into a new '_Unclear - Asy-Insan-Lat...' folder since research found no real Insidious vitola matching that name and it more likely belongs to the separate 'Serenity Now, Insanity Later' release. The now-empty 'Asylum Insidious' folder could not be deleted (delete permission not granted in this session) so it remains as an empty placeholder - Asylum Insidious is a real, current line (Connecticut Shade and Maduro wrapper variants) but has no Mac photos at all, so no JSON was created for it.",
+  "cle_cigar_company_new_lines": {
+    "cle-connecticut": {
+      "source_folder": "Cigar Images/CLE Cigar Co/Connecticut"
+    },
+    "cle-maduro": {
+      "source_folder": "Cigar Images/CLE Cigar Co/Maduro"
+    },
+    "cle-corojo": {
+      "source_folder": "Cigar Images/CLE Cigar Co/Corojo",
+      "note": "Distinct from the site's existing 'CLE Corojo 2012' entry - see relationship_flag in cle-corojo.json"
+    }
+  },
+  "asylum_new_brand_new_lines": {
+    "asylum-eleven": {
+      "source_folder": "Cigar Images/CLE Cigar Co/Asylum 11-70"
+    },
+    "asylum-13": {
+      "source_folder": "Cigar Images/CLE Cigar Co/Asylum 13"
+    },
+    "asylum-13-cool-brew": {
+      "source_folder": "Cigar Images/CLE Cigar Co/Asylum 13 Cool Brew"
+    },
+    "asylum-13-the-ogre": {
+      "source_folder": "Cigar Images/CLE Cigar Co/Asylum 13 Ogre"
+    },
+    "asylum-serenity-now-insanity-later": {
+      "source_folder": "Cigar Images/CLE Cigar Co/Asylum Serenity Now"
+    },
+    "asylum-13-split-personality": {
+      "source_folder": "Cigar Images/CLE Cigar Co/Asylum Split"
+    }
+  },
+  "not_photographed_no_json": [
+    "Asylum Insidious - real, current line (Connecticut Shade + Maduro variants) but zero Mac photos after removing the misfiled file, no JSON created",
+    "CLE Prieto - already on site, no Mac photos exist for it, not applicable"
+  ],
+  "unresolved_flags": [
+    "Asylum 11-70/ - both files flagged: the folder name's '70' and one filename's '-Sin' suffix could not be matched to any documented Asylum Eleven product detail - see asylum-eleven.json vitola notes and the renamed 'UNVERIFIED-Sin-suffix' file."
+  ]
+}

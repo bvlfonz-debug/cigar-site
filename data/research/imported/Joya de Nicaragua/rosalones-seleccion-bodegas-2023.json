@@ -1,0 +1,44 @@
+{
+  "line": {
+    "brand_slug": "joya-de-nicaragua",
+    "name": "Joya de Nicaragua Rosalones Selección Bodegas Edición 2023",
+    "slug": "rosalones-seleccion-bodegas-2023",
+    "wrapper": "Ecuadorian Habano",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": null,
+    "release_year": 2023,
+    "background_text": "Rosalones is a Joya de Nicaragua brand that originated in the 1970s, was discontinued in 1990, and revived in 2011 at the request of JDN's Spanish market representatives. Selección Bodegas is an annual limited-edition extension of Rosalones created exclusively for the Spanish market in collaboration with wine and cigar sommelier Agustín López, pairing each year's cigar with a specific Spanish wine region. The inaugural 2022 edition was paired with La Rioja red wines (6x50 Toro); the 2023 edition was paired with Verdejo wines from the Rueda Denominación de Origen region and released in a Corona Gorda vitola."
+  },
+  "vitolas": [
+    {
+      "size_name": "Corona Gorda",
+      "slug": "corona-gorda",
+      "length_in": null,
+      "ring_gauge": null,
+      "vitola_type": "Corona Gorda",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Full product name found is 'Rosalones Selección Bodegas Edición 2023' (matches user's local folder name 'Selección de Bodegas 2023'). Exact length x ring gauge, strength rating, and any critic reviews/scores could not be found - Spanish-market-only limited release not covered by U.S. cigar press for this specific year (2022 edition was covered instead). Blend details are carried over from the 2022 edition per Halfwheel/Cigar Coop reporting that Selección Bodegas uses the standard Rosalones blend each year, but this has not been separately confirmed for the 2023 vitola.",
+  "research_sources": [
+    {
+      "url": "https://joyacigars.com/tag/rosalones/",
+      "supports": "Confirms product name, Corona Gorda vitola, box of 20, Rueda/Verdejo wine pairing"
+    },
+    {
+      "url": "https://halfwheel.com/joya-de-nicaragua-rosalones-seleccion-bodegas-edicion-2022-heading-to-spain/416924/",
+      "supports": "Background on concept, sommelier collaboration, 2022 edition blend"
+    },
+    {
+      "url": "https://cigar-coop.com/2022/12/cigar-news-joya-de-nicaragua-launches-rosalones-seleccion-bodegas.html",
+      "supports": "Rosalones brand history, 2022 edition blend and vitola details"
+    }
+  ]
+}

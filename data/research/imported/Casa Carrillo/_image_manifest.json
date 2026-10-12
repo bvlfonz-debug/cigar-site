@@ -1,0 +1,214 @@
+{
+  "brand": "E.P. Carrillo (Casa Carrillo)",
+  "brand_slug": "ep-carrillo",
+  "note": "Paths are relative to 'Cigar Images/Casa Carrillo/' in the connected folder on the user's Mac. This schema's cigar/line records do not carry a photo field, so this manifest is a companion file mapping each researched line to its available product photos for a separate image-upload step.",
+  "lines": {
+    "5-year-anniversary": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo 5 Year Anniversary",
+      "photo_count": 3,
+      "files": [
+        "EPC_5-Year-Anniversary-Double-Robusto_01.jpg",
+        "EPC_5-Year-Anniversary_Box-Closed_01.jpg",
+        "EPC_5-Year-Anniversary_Box-Open_01.jpg"
+      ]
+    },
+    "battleborn": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo Battleborn",
+      "photo_count": 2,
+      "files": [
+        "EPC_Battleborn_01.png",
+        "EPC_Battleborn_02.png"
+      ]
+    },
+    "original-rebel-maverick": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo Maverick",
+      "photo_count": 6,
+      "files": [
+        "EPC_Maverick-Maverick-52_01.jpg",
+        "EPC_Maverick-Maverick-54_01.jpg",
+        "EPC_Maverick-Maverick-56_01.jpg",
+        "EPC_Maverick_Box-Closed_01.jpg",
+        "EPC_Maverick_Box-Open_01.jpg",
+        "EPC_Maverick_Group_01.jpg"
+      ]
+    },
+    "original-rebel-rebellious": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo Revellious",
+      "photo_count": 7,
+      "files": [
+        "EPC_Revellious-Maduro_Box-Closed_01.jpg",
+        "EPC_Revellious-Rebellious-52_01.jpg",
+        "EPC_Revellious-Rebellious-54_01.jpg",
+        "EPC_Revellious-Rebellious-56_01.jpg",
+        "EPC_Revellious_Box-Closed_01.jpg",
+        "EPC_Revellious_Box-Open_01.jpg",
+        "EPC_Revellious_Group_01.jpg"
+      ]
+    },
+    "essence-connecticut": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo Connecticut",
+      "photo_count": 4,
+      "files": [
+        "EPC_Connecticut-Corona_01.png",
+        "EPC_Connecticut-Robusto_01.png",
+        "EPC_Connecticut-Toro_01.png",
+        "EPC_Connecticut_Box-Closed_01.png"
+      ]
+    },
+    "cardinal-impact-maduro": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo Cardinal Impact Maduro",
+      "photo_count": 7,
+      "files": [
+        "EPC_Cardinal-Impact-Maduro-No52_01.jpg",
+        "EPC_Cardinal-Impact-Maduro-No54_01.jpg",
+        "EPC_Cardinal-Impact-Maduro-No56_01.jpg",
+        "EPC_Cardinal-Impact-Maduro_Box-Closed_01.jpg",
+        "EPC_Cardinal-Impact-Maduro_Box-Open_01.jpg",
+        "EPC_Cardinal-Impact-Maduro_Box-Open_02.jpg",
+        "EPC_Cardinal-Impact-Maduro_Group_01.jpg"
+      ]
+    },
+    "encore-black": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo Encore Black",
+      "photo_count": 1,
+      "files": [
+        "EPC_Encore-Black_01.png"
+      ]
+    },
+    "encore-el-futuro": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo Encore El Futuro",
+      "photo_count": 2,
+      "files": [
+        "EPC_Encore-El-Futuro_01.png",
+        "EPC_Encore-El-Futuro_02.jpg"
+      ]
+    },
+    "encore-taa-exclusive": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo Encore TAA Exclusive",
+      "photo_count": 2,
+      "files": [
+        "EPC_Encore-TAA-Exclusive_Box-Closed_01.jpg",
+        "EPC_Encore-TAA-Exclusive_Box-Closed_02.jpg"
+      ]
+    },
+    "interlude-maduro": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo Interlude Maduro",
+      "photo_count": 5,
+      "files": [
+        "EPC_Interlude-Maduro-Carrillito_01.png",
+        "EPC_Interlude-Maduro-Rothchild-Jr-38_01.jpg",
+        "EPC_Interlude-Maduro-Rothchild-Jr-48_01.jpg",
+        "EPC_Interlude-Maduro-Rothchild-Jr_02.png",
+        "EPC_Interlude-Maduro_Box-Closed_01.jpg"
+      ]
+    },
+    "interlude-natural": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo Interlude Natural",
+      "photo_count": 5,
+      "files": [
+        "EPC_Interlude-Natural-Carrillito_01.png",
+        "EPC_Interlude-Natural-Rothchild-Jr-38_01.jpg",
+        "EPC_Interlude-Natural-Rothchild-Jr-48_01.jpg",
+        "EPC_Interlude-Natural-Rothchild-Jr_02.png",
+        "EPC_Interlude-Natural_Box-Closed_01.jpg"
+      ]
+    },
+    "grand-prize-by-ep-carrillo": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo La Alianza Grand Prize",
+      "photo_count": 6,
+      "files": [
+        "EPC_La-Alianza-Grand-Prize-Churchill_01.jpg",
+        "EPC_La-Alianza-Grand-Prize-Gordo_01.jpg",
+        "EPC_La-Alianza-Grand-Prize-Robusto_01.jpg",
+        "EPC_La-Alianza-Grand-Prize-Toro_01.jpg",
+        "EPC_La-Alianza-Grand-Prize_Box-Open_01.jpg",
+        "EPC_La-Alianza-Grand-Prize_Group_01.jpg"
+      ]
+    },
+    "la-alianza-natural": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo La Alianza Natural",
+      "photo_count": 7,
+      "files": [
+        "EPC_La-Alianza-Natural-Gran-Toro_01.jpg",
+        "EPC_La-Alianza-Natural-Grandioso_01.jpg",
+        "EPC_La-Alianza-Natural-Robusto-Selecto_01.jpg",
+        "EPC_La-Alianza-Natural-Sabrosos_01.jpg",
+        "EPC_La-Alianza-Natural_Box-Closed_01.jpg",
+        "EPC_La-Alianza-Natural_Box-Open_01.jpg",
+        "EPC_La-Alianza-Natural_Group_01.jpg"
+      ]
+    },
+    "la-alianza-rosado": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo La Alianza Rosado",
+      "photo_count": 6,
+      "files": [
+        "EPC_La-Alianza-Rosado-Churchill-Extra_01.jpg",
+        "EPC_La-Alianza-Rosado-Connoisseur-No6_01.jpg",
+        "EPC_La-Alianza-Rosado-Robusto_01.jpg",
+        "EPC_La-Alianza-Rosado-Unicos_01.jpg",
+        "EPC_La-Alianza-Rosado_Box-Open_01.jpg",
+        "EPC_La-Alianza-Rosado_Group_01.jpg"
+      ]
+    },
+    "la-historia-taa-656": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo La Historia TAA Exclusive",
+      "photo_count": 2,
+      "files": [
+        "EPC_La-Historia-TAA-Exclusive_01.jpg",
+        "EPC_La-Historia-TAA-Exclusive_Box-Closed_01.jpg"
+      ]
+    },
+    "short-run-2016": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo Short Run 2016",
+      "photo_count": 3,
+      "files": [
+        "EPC_Short-Run-2016-Super-Robusto_01.jpg",
+        "EPC_Short-Run-2016_Box-Closed_01.jpg",
+        "EPC_Short-Run-2016_Box-Open_01.jpg"
+      ]
+    },
+    "short-run-2016-edicion-nicaragua": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo Short Run Nicaragua",
+      "photo_count": 2,
+      "files": [
+        "EPC_Short-Run-Nicaragua-Super-Robusto_01.jpg",
+        "EPC_Short-Run-Nicaragua_Box-Closed_01.jpg"
+      ]
+    },
+    "inch-colorado": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo INCH Colorado",
+      "photo_count": 8,
+      "files": [
+        "EPC_INCH-Colorado-No58_01.jpg",
+        "EPC_INCH-Colorado-No60_01.jpg",
+        "EPC_INCH-Colorado-No62_01.jpg",
+        "EPC_INCH-Colorado-No64_01.jpg",
+        "EPC_INCH-Colorado-No70_01.jpg",
+        "EPC_INCH-Colorado_Box-Closed_01.jpg",
+        "EPC_INCH-Colorado_Box-Open_01.jpg",
+        "EPC_INCH-Colorado_Group_01.jpg"
+      ]
+    },
+    "inch-limited-edition-2019": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo INCH Limited Edition 2019",
+      "photo_count": 2,
+      "files": [
+        "EPC_INCH-Limited-2019_01.jpg",
+        "EPC_INCH-Limited-2019_Box-Closed_01.jpg"
+      ]
+    },
+    "taa-exclusive-2023": {
+      "folder": "Cigar Images/Casa Carrillo/E.P. Carrillo TAA Exclusive 2023",
+      "photo_count": 1,
+      "files": [
+        "EPC_TAA-Exclusive-2023_Box-Open_01.jpg"
+      ]
+    }
+  },
+  "excluded": {
+    "la-alianza-taa-exclusive-2021": "1 photo exists (EPC_La-Alianza-TAA-Exclusive-2021_01.jpg) but research found no product by this exact name - the real 2021 TAA exclusive is branded 'E.P. Carrillo TAA 2021' and is not part of the 'La Alianza' retail line, despite being made at the Tabacalera La Alianza factory. See README.",
+    "core-plus-natural": "Confirmed to be the SAME product as the site's existing 'Core Line Natural' (just a renamed/current name) - no new file needed, photos apply to that existing site entry.",
+    "core-plus-maduro-caja": "'Caja' just means 'box' in Spanish - confirmed to be standard packaging photography for the existing 'Core Plus Maduro' site entry, not a separate product.",
+    "honduras": "Confirmed to be the SAME product as the site's existing 'Essence Honduras' (shorthand name used by trade press) - no new file needed."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "brand": "Onyx",
+  "batch_date": "2026-09-30",
+  "mac_source_root": "Cigar Images/Onyx",
+  "note": "Part of the Altadis USA reorganization; folder was already top-level. No renames needed. Confirmed absent from the site's brand index - full new brand object included.",
+  "mappings": [
+    {
+      "json_file": "onyx-reserve.json",
+      "line_slug": "onyx-reserve",
+      "mac_folder": "Cigar Images/Onyx/Onyx Reserve",
+      "files": [
+        "Onyx_Reserve_01.png",
+        "Onyx_Reserve_Box-Open_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "onyx-bold-nicaragua.json",
+      "line_slug": "onyx-bold-nicaragua",
+      "mac_folder": "Cigar Images/Onyx/Onyx Bold Nicaragua",
+      "files": [
+        "Onyx_Bold_Nicaragua_01.png",
+        "Onyx_Bold_Nicaragua_Box-Open_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "onyx-vintage-nicaragua.json",
+      "line_slug": "onyx-vintage-nicaragua",
+      "mac_folder": "Cigar Images/Onyx/Onyx Vintage Nicaragua",
+      "files": [
+        "Onyx_Vintage_Nicaragua_Toro_01.png",
+        "Onyx_Vintage_Nicaragua_Toro_Box-Open_01.jpg"
+      ],
+      "notes": "Toro vitola matches the photographed product directly."
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": []
+}

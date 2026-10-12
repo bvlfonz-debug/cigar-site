@@ -1,0 +1,30 @@
+{
+  "brand": "J.C. Newman",
+  "brand_slug": "jc-newman",
+  "note": "Paths are relative to 'Cigar Images/J.C. Newman/' in the connected folder on the user's Mac. IMPORTANT: the 'Topper' subfolder that was previously here has been MOVED OUT - research confirmed Topper Cigar Company is an independent, unrelated manufacturer, not a J.C. Newman brand. It now lives at 'Cigar Images/Topper Cigar Company/Topper Danli/' and is researched in its own separate batch (see that folder's own README/_image_manifest). The untouched press-magazine PNG (JCNewmanDiamondCrown_EssentialCigars_CigarPressMagazine.png) was left as-is per usual convention.",
+  "new_lines": {
+    "brick-house": {
+      "source_folder": "Cigar Images/J.C. Newman/Brick House",
+      "note": "Classic Robusto and Classic Toro photos"
+    },
+    "brick-house-double-connecticut": {
+      "source_folder": "Cigar Images/J.C. Newman/Brick House",
+      "note": "The 'CT-Mighty' photo - a distinct sub-line, not core Brick House"
+    },
+    "diamond-crown": {
+      "source_folder": "Cigar Images/J.C. Newman/Diamond Crown"
+    },
+    "el-baton": {
+      "source_folder": "Cigar Images/J.C. Newman/El Baton"
+    }
+  },
+  "gap_fill_supplements": {
+    "_the-american-additional-vitolas": {
+      "source_folder": "Cigar Images/J.C. Newman/The American"
+    }
+  },
+  "not_added_flags": [
+    "DiamondCrown_3-Pack-2024_Group_01.jpg - a real product (Diamond Crown 2024 Holiday Collection sampler) but a mixed Cameroon/MAXIMUS sampler, not the No.4/No.5 vitolas also photographed - see diamond-crown.json for detail.",
+    "The American folder also has 2 'America250-Giveaway' promotional/contest photos - not per-vitola product shots, no action taken."
+  ]
+}

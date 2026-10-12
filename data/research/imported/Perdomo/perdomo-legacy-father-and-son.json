@@ -1,0 +1,41 @@
+{
+  "line": {
+    "name": "Perdomo Legacy Father and Son",
+    "slug": "perdomo-legacy-father-and-son",
+    "description": "A limited collaboration: Nick Perdomo Jr. blended the Shade Grown wrapper version, his son Nick Perdomo III blended the Maduro version, and they co-developed the Connecticut version. Made from 2011-2016-harvest tobacco. First previewed May 2026 at Two Guys Cigars (NH), wider Q4 2026 shipping. Limited to 50-count chests, $15 MSRP/cigar, released roughly once or twice a year rather than as standing production.",
+    "wrapper": "Connecticut, Maduro, or Shade Grown (3 editions, see vitolas)",
+    "binder": null,
+    "filler": null,
+    "strength": null,
+    "release_year": 2026,
+    "limited_edition": true
+  },
+  "vitolas": [
+    {
+      "name": "Gran Figurado Connecticut",
+      "size": "6 x 48/60/52",
+      "notes": "Box-pressed gran figurado (perfecto): 6 inches long, 48 ring gauge at foot, 60 at belly, 52 at head.",
+      "sources": [
+        "halfwheel.com/perdomo-goes-limited-with-legacy-father-son/464464/"
+      ]
+    },
+    {
+      "name": "Gran Figurado Maduro",
+      "size": "6 x 48/60/52",
+      "sources": [
+        "halfwheel.com/perdomo-legacy-father-son-maduro/473818/"
+      ]
+    },
+    {
+      "name": "Gran Figurado Shade Grown",
+      "size": "6 x 48/60/52"
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/perdomo-goes-limited-with-legacy-father-son/464464/",
+    "https://halfwheel.com/perdomo-legacy-father-son-maduro/473818/",
+    "https://www.cigarboxpa.com/perdomo-legacy-father-son-connecticut-gra-70844300.html",
+    "https://www.cigarjournal.com/perdomo-cigars-launches-perdomo-legacy-father-son/",
+    "https://cigar-coop.com/2026/03/perdomo-legacy-father-son-launching-at-pca-2026.html"
+  ]
+}

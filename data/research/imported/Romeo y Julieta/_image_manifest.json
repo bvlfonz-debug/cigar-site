@@ -1,0 +1,81 @@
+{
+  "brand": "Romeo y Julieta",
+  "batch_date": "2026-09-30",
+  "mac_source_root": "Cigar Images/Romeo y Julieta",
+  "note": "Romeo y Julieta was part of the Altadis USA distributor-umbrella reorganization; its folder was already top-level (with one loose file merged in from the old Altadis USA/Romeo y Julieta subfolder). No file renames were needed - existing filenames were already clear enough to map to lines.",
+  "mappings": [
+    {
+      "json_file": "romeo-y-julieta-150th-anniversary.json",
+      "line_slug": "romeo-y-julieta-150th-anniversary",
+      "mac_folder": "Cigar Images/Romeo y Julieta/Romeo y Julieta 150th Anniversary",
+      "files": [
+        "RomeoYJulieta_150th-Anniversary-Tin_01.jpg",
+        "RomeoYJulieta_150th-Anniversary_01.png",
+        "RomeoYJulieta_150th-Anniversary_Box-Open_01.jpg"
+      ],
+      "notes": "The 'Tin' photo likely depicts packaging for one of the regular-production vitolas (Prologue/Balconet/Crescendo) rather than the limited humidor-exclusive Reconciliation - not verified which, left general."
+    },
+    {
+      "json_file": "romeo-y-julieta-reserve.json",
+      "line_slug": "romeo-y-julieta-reserve",
+      "mac_folder": "Cigar Images/Romeo y Julieta/Romeo y Julieta Reserve",
+      "files": [
+        "RomeoYJulieta_Reserve_Churchill_01.png",
+        "RomeoYJulieta_Reserve_Churchill_Box-Open_01.jpg"
+      ],
+      "notes": "Churchill (7x54) matches the photographed product directly."
+    },
+    {
+      "json_file": "romeo-y-julieta-vintage.json",
+      "line_slug": "romeo-y-julieta-vintage",
+      "mac_folder": "Cigar Images/Romeo y Julieta/Romeo y Julieta Vintage",
+      "files": [
+        "RomeoYJulieta_Vintage_01.png",
+        "RomeoYJulieta_Vintage_Box-Closed_01.jpg"
+      ],
+      "notes": "Photos are general/box-level, not tied to one specific Vintage I-VII vitola."
+    },
+    {
+      "json_file": "_romeo-anejo-additional-vitolas.json",
+      "line_slug": "romeo-anejo",
+      "mac_folder": "Cigar Images/Romeo y Julieta/Romeo y Julieta Romeo",
+      "files": [
+        "RomeoYJulieta_Romeo_Piramide_01.png",
+        "RomeoYJulieta_Romeo_Toro_Box-Closed_01.jpg"
+      ],
+      "notes": "Folder name is 'Romeo' (shorthand for 'Romeo Añejo', the line's real name). Piramide matches the site's existing sole vitola; Toro is the new addition documented in this supplement file."
+    }
+  ],
+  "already_on_site_no_action": [
+    {
+      "mac_folder": "Cigar Images/Romeo y Julieta/Romeo y Julieta 1875",
+      "files": [
+        "RomeoYJulieta_1875-Reserve_Maduro_01.png",
+        "RomeoYJulieta_1875-Reserve_Maduro_Box-Open_01.jpg",
+        "RomeoYJulieta_1875_01.png",
+        "RomeoYJulieta_1875_02.png",
+        "RomeoYJulieta_1875_Box-Open_02.jpg",
+        "RomeoYJulieta_1875_Bully_Box-Closed_01.jpg",
+        "RomeoYJulieta_1875_CT-Nicaragua_01.png",
+        "RomeoYJulieta_1875_CT-Nicaragua_Box-Open_01.jpg",
+        "RomeoYJulieta_1875_Nicaragua_Magnum_01.png",
+        "RomeoYJulieta_1875_Nicaragua_Magnum_Box-Open_01.png"
+      ],
+      "reason": "1875 is already listed on the site. Not re-researched for gap vitolas in this batch (this batch focused on lines/sub-lines entirely absent from the site) - flagged as a candidate for a future additional-vitolas pass, since several photographed variants (Bully, CT-Nicaragua, Nicaragua Magnum) were not checked against the site's current vitola list."
+    },
+    {
+      "mac_folder": "Cigar Images/Romeo y Julieta/Romeo y Julieta Reserva Real",
+      "files": [
+        "RomeoYJulieta_Reserva-Real_02.png",
+        "RomeoYJulieta_Reserva-Real_Nicaragua-Midnight-Twist_01.png",
+        "RomeoYJulieta_Reserva-Real_Nicaragua-Midnight-Twist_Box-Open_01.jpg",
+        "RomeoYJulieta_Reserva-Real_Nicaragua_01.png",
+        "RomeoYJulieta_Reserva-Real_Nicaragua_Box-Open_01.jpg",
+        "RomeoYJulieta_Reserva-Real_Toro_Box-Open_01.jpg",
+        "RomeoYJulieta_Reserva-Real_Twisted_01.png",
+        "RomeoYJulieta_Reserva-Real_Twisted_Box-Open_01.jpg"
+      ],
+      "reason": "Reserva Real is already listed on the site (this is the Dominican-made line, distinct from the newly-added Honduran-made 'Reserve' researched in this batch). Not re-researched for gap vitolas in this pass - several photographed variants (Nicaragua Midnight Twist, Twisted) were not checked against the site's current list; flagged as a candidate for a future additional-vitolas pass."
+    }
+  ]
+}

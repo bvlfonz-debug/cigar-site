@@ -1,0 +1,42 @@
+{
+  "line": {
+    "name": "Camacho Broadleaf",
+    "slug": "camacho-broadleaf",
+    "description": "Confirmed a distinct line, NOT another name for the already-listed Camacho Triple Maduro (which uses a Connecticut Broadleaf wrapper) - Camacho Broadleaf instead uses Honduran-grown broadleaf, a different wrapper origin. Announced July 2023, released September 2023. Spotlights Honduran-grown broadleaf tobacco; positioned as a bold, full-bodied offering.",
+    "wrapper": "Honduran Broadleaf",
+    "binder": "Honduran",
+    "filler": "Honduran and Dominican",
+    "factory": "Diadema Cigars de Honduras, S.A., Honduras",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://halfwheel.com/camacho-spotlights-honduran-broadleaf-with-new-line-debuting-in-september/427800/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "sources": [
+        "https://halfwheel.com/camacho-spotlights-honduran-broadleaf-with-new-line-debuting-in-september/427800/"
+      ]
+    },
+    {
+      "name": "Gordo",
+      "size": "6 x 60",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://halfwheel.com/camacho-spotlights-honduran-broadleaf-with-new-line-debuting-in-september/427800/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/camacho-spotlights-honduran-broadleaf-with-new-line-debuting-in-september/427800/",
+    "https://cigar-coop.com/2023/07/cigar-news-camacho-broadleaf-announced.html",
+    "https://www.casademontecristo.com/cigars/handmade-cigars/camacho-cigars/camacho-broadleaf/"
+  ]
+}

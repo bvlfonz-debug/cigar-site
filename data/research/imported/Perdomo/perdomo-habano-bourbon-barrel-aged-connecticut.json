@@ -1,0 +1,55 @@
+{
+  "line": {
+    "name": "Perdomo Habano Bourbon Barrel-Aged Connecticut",
+    "slug": "perdomo-habano-bourbon-barrel-aged-connecticut",
+    "description": "Connecticut-wrapper edition of the Bourbon Barrel-Aged line - a parallel wrapper edition to the site's existing 'Habano Bourbon Barrel-Aged Sun Grown' entry, not currently listed separately. Ecuadoran Connecticut wrapper aged 6+ years then bourbon-barrel finished 6 additional months.",
+    "wrapper": "Ecuadorian Connecticut (bourbon-barrel finished)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": null
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 54",
+      "sources": [
+        "cigarsinternational.com/p/perdomo-habano-bourbon-barrel-aged-connecticut-cigars/1496355/"
+      ]
+    },
+    {
+      "name": "Epicure",
+      "size": "6 x 54",
+      "sources": [
+        "cigarsinternational.com/p/perdomo-habano-bourbon-barrel-aged-connecticut-cigars/1496355/",
+        "cigar.com/p/perdomo-habano-bourbon-barrel-aged-connecticut-cigars/1496355/"
+      ]
+    },
+    {
+      "name": "Torpedo",
+      "size": "6.5 x 54",
+      "sources": [
+        "cigar.com/p/perdomo-habano-bourbon-barrel-aged-connecticut-cigars/1496355/"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 54",
+      "sources": [
+        "cigarcountry.com/brand/perdomo-cigars/perdomo-habano-bourbon-barrel-aged/"
+      ]
+    },
+    {
+      "name": "Gordo",
+      "size": "6 x 60",
+      "sources": [
+        "cigarcountry.com/brand/perdomo-cigars/perdomo-habano-bourbon-barrel-aged/"
+      ]
+    }
+  ],
+  "research_notes": "Only Epicure has direct Mac photo evidence. The other 4 vitolas are included because they're independently confirmed to exist in this wrapper edition's catalog (mirroring the site's existing parallel Sun Grown entry's vitola set).",
+  "research_sources": [
+    "https://www.cigarsinternational.com/p/perdomo-habano-bourbon-barrel-aged-connecticut-cigars/1496355/",
+    "https://www.cigar.com/p/perdomo-habano-bourbon-barrel-aged-connecticut-cigars/1496355/",
+    "https://cigarcountry.com/brand/perdomo-cigars/perdomo-habano-bourbon-barrel-aged/"
+  ]
+}

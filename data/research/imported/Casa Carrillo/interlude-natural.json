@@ -1,0 +1,70 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo Interlude Natural",
+    "slug": "interlude-natural",
+    "wrapper": "Ecuadorian (Connecticut-seed)",
+    "binder": "Nicaraguan/Ecuadorian (sources conflict)",
+    "filler": "Nicaraguan (long-filler)",
+    "strength": "Medium",
+    "release_year": 2016,
+    "background_text": "Debuted alongside the Maduro at the 2016 IPCPR trade show as part of the Dimension Series. Pairs an Ecuadorian Connecticut-seed wrapper with Nicaraguan long-filler, handmade at Tabacalera La Alianza, same two compact vitolas as the Maduro."
+  },
+  "vitolas": [
+    {
+      "size_name": "Carrillitos",
+      "slug": "carrillitos",
+      "length_in": 4,
+      "ring_gauge": 38,
+      "vitola_type": "Short Panatela",
+      "summary_review": "Dry, mild-to-medium with bread/cereal notes and a chalky, mineral finish; scored 85 by Cigar Aficionado's Cigar Insider.",
+      "tasting_notes": [
+        "bread",
+        "cereal",
+        "chalk",
+        "mineral"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        5,
+        50
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Cigar Aficionado (Cigar Insider)",
+          "source_type": "critic",
+          "score": 85,
+          "score_scale": "100",
+          "review_date": "2018-09-11",
+          "url": "https://www.cigaraficionado.com/ratings/20684/name/e-p-carrillo-interlude-natural-carrillitos",
+          "key_notes_text": "Tawny cover leaf, dry smoke with bread and cereal before chalky mineral finish; ~$3.00."
+        }
+      ]
+    },
+    {
+      "size_name": "Rothschild Jr.",
+      "slug": "rothschild-jr",
+      "length_in": 3.75,
+      "ring_gauge": 48,
+      "vitola_type": "Rothschild (petit robusto)",
+      "summary_review": "Medium-strength short smoke; rated 86% by a retailer.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        5
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Confirmed real. Binder origin disputed between sources (Nicaraguan per 2016/2018 press vs. Ecuadorian per current retail copy) - could reflect an actual blend change or inconsistent retailer copy, flagged rather than resolved. Maduro and Natural are separate blends, not wrapper variants of one recipe.",
+  "research_sources": [
+    {
+      "url": "https://cigar-coop.com/2016/08/cigar-news-interlude-by-e-p-carrillo-makes-debut-at-the-2016-ipcpr-trade-show.html",
+      "supports": "launch, blend, vitola sizes"
+    },
+    {
+      "url": "https://www.cigaraficionado.com/ratings/20684/name/e-p-carrillo-interlude-natural-carrillitos",
+      "supports": "score, tasting notes, price, review date"
+    }
+  ]
+}

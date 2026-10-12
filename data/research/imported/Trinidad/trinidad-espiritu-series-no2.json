@@ -1,0 +1,47 @@
+{
+  "line": {
+    "name": "Trinidad Espiritu Series No. 2",
+    "slug": "trinidad-espiritu-series-no2",
+    "description": "Released 2021, second entry in the Espiritu numbered series, themed around Brazilian tobacco.",
+    "wrapper": "Brazil",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan/Brazilian",
+    "factory": "Tabacalera A.J. Fernandez, Esteli, Nicaragua",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "https://cigar-coop.com/2021/09/cigar-review-trinidad-espiritu-no-2-by-altadis-usa.html"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://halfwheel.com/trinidad-espiritu-series-no-2-toro/392088/"
+      ]
+    },
+    {
+      "name": "Belicoso",
+      "size": "6.14 x 52",
+      "sources": [
+        "https://cigar-coop.com/2021/09/cigar-review-trinidad-espiritu-no-2-by-altadis-usa.html"
+      ]
+    },
+    {
+      "name": "Magnum",
+      "size": "6 x 60",
+      "sources": [
+        "https://cigar-coop.com/2021/09/cigar-review-trinidad-espiritu-no-2-by-altadis-usa.html"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/trinidad-espiritu-series-no-2-toro/392088/",
+    "https://cigar-coop.com/2021/09/cigar-review-trinidad-espiritu-no-2-by-altadis-usa.html"
+  ]
+}

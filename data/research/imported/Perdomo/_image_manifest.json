@@ -1,0 +1,53 @@
+{
+  "brand": "Perdomo",
+  "brand_slug": "perdomo",
+  "note": "Paths are relative to 'Cigar Images/Perdomo/' in the connected folder on the user's Mac. This brand's folder was flat (all 62 files loose, no subfolders) at the start of this batch - it was reorganized into 8 per-line subfolders and every file renamed to reflect its real product name before this research batch began. See the reorganization done earlier in this session for the old-name-to-new-name mapping if needed.",
+  "gap_fill_supplements": {
+    "_reserve-10th-anniversary-champagne-additional-vitolas": {
+      "source_folder": "Cigar Images/Perdomo/Perdomo 10th Anniversary Champagne"
+    },
+    "_30th-anniversary-connecticut-additional-vitolas": {
+      "source_folder": "Cigar Images/Perdomo/Perdomo 30th Anniversary"
+    },
+    "_30th-anniversary-maduro-additional-vitolas": {
+      "source_folder": "Cigar Images/Perdomo/Perdomo 30th Anniversary"
+    }
+  },
+  "new_lines": {
+    "reserve-10th-anniversary-maduro": {
+      "source_folder": "Cigar Images/Perdomo/Perdomo 10th Anniversary Champagne",
+      "note": "Maduro and Sun Grown wrapper photos were mixed into the same folder as the Champagne (Connecticut) photos"
+    },
+    "reserve-10th-anniversary-sun-grown": {
+      "source_folder": "Cigar Images/Perdomo/Perdomo 10th Anniversary Champagne"
+    },
+    "perdomo-40th-anniversary-two-guys-exclusive": {
+      "source_folder": "Cigar Images/Perdomo/Perdomo 40th Anniversary (Two Guys Smoke Shop Exclusive)"
+    },
+    "perdomo-fresco": {
+      "source_folder": "Cigar Images/Perdomo/Perdomo Fresco"
+    },
+    "perdomo-habano-bourbon-barrel-aged-connecticut": {
+      "source_folder": "Cigar Images/Perdomo/Perdomo Habano Bourbon Barrel-Aged Connecticut"
+    },
+    "perdomo-legacy": {
+      "source_folder": "Cigar Images/Perdomo/Perdomo Legacy"
+    },
+    "perdomo-legacy-father-and-son": {
+      "source_folder": "Cigar Images/Perdomo/Perdomo Legacy Father and Son"
+    }
+  },
+  "already_matched_no_gap": [
+    "Perdomo 30th Anniversary Sun Grown (Epicure)",
+    "Perdomo Lot 23 Maduro (Robusto)",
+    "Perdomo 20th Anniversary Maduro (Epicure)",
+    "Perdomo 20th Anniversary Sun Grown (all 5 vitolas)",
+    "Perdomo Reserve 10th Anniversary Box-Pressed Maduro (all 6 vitolas)"
+  ],
+  "unresolved": {
+    "connecticut_ambiguous_photo": "One photo (originally 'Perdomo_Connecticut_01.jpg', now in '_Unclear - Connecticut (verify which line)') could not be confidently matched to any of the 3 real Perdomo Connecticut-wrapper lines (Habano Connecticut, 10th Anniversary Champagne, or BBA Connecticut). Excluded from JSON output. Recommend checking the band/box art in the photo itself.",
+    "supremo_vitola": "See _reserve-10th-anniversary-champagne-additional-vitolas.json - a 'Supremo' photo couldn't be matched to any verified vitola name.",
+    "10th_anniversary_maduro_sun_grown_full_range": "Only Epicure (and Robusto for Maduro) could be independently verified for the 10th Anniversary Maduro and Sun Grown wrapper editions. Whether they share the Champagne line's full 6-vitola range is unconfirmed - not assumed.",
+    "10th_anniversary_maduro_possible_duplicate_of_site_entry": "The new reserve-10th-anniversary-maduro.json line may or may not be the same product as the site's existing 'Reserve 10th Anniversary Box-Pressed Maduro' entry (which has a different vitola set: Churchill/Epicure/Figurado/Robusto/Super Toro/Torpedo). Flagged in that file for manual review rather than assumed to be duplicate or distinct."
+  }
+}

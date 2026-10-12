@@ -1,0 +1,115 @@
+{
+  "line": {
+    "brand_slug": "rocky-patel",
+    "name": "30th Anniversary",
+    "slug": "30th-anniversary",
+    "wrapper": "Mexican San Andres",
+    "binder": "Nicaraguan (double binder, aged 7+ years)",
+    "filler": "Honduras and Nicaragua (aged 5+ years)",
+    "strength": "Medium-Full",
+    "release_year": 2025,
+    "background_text": "Released in 2025 to mark Rocky Patel Premium Cigars' 30th year in business (the company traces its roots to Rocky Patel's 1995 partnership with Phil Zanghi/Indian Tabac). Unveiled at the 2025 PCA trade show and rolled at Patel's Tavicusa factory in Esteli, Nicaragua, it is a box-pressed blend built around an aged Mexican San Andres wrapper, and it was also the first release to carry the company's newly redesigned band/box branding."
+  },
+  "vitolas": [
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5.5,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": "Halfwheel scored the Robusto 88, describing an earthy, chocolate-and-cream opening that develops pepper, mineral and wood notes with increasing dryness toward the finish.",
+      "tasting_notes": [
+        "earthy",
+        "chocolate",
+        "creamy",
+        "black pepper",
+        "mineral",
+        "wood"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20,
+        5
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Halfwheel",
+          "source_type": "critic",
+          "score": 88,
+          "score_scale": 100,
+          "review_date": "2025-11",
+          "url": "https://halfwheel.com/rocky-patel-thirtieth-anniversary-robusto/463211/",
+          "key_notes_text": "Halfwheel rated the Robusto 88, noting earthy, chocolate and creamy notes that give way to pepper, mineral and wood in the back half."
+        }
+      ]
+    },
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6.5,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [
+        "caramel",
+        "almond",
+        "cocoa powder",
+        "cedar"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20,
+        5
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Sixty",
+      "slug": "sixty",
+      "length_in": 6.0,
+      "ring_gauge": 60,
+      "vitola_type": "Gordo",
+      "summary_review": null,
+      "tasting_notes": [
+        "caramel",
+        "almond",
+        "cocoa powder",
+        "cedar"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20,
+        5
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "A distinct, more limited SKU called 'Thirtieth Anniversary Limited Edition' (Toro 6.5x52, box of 10, Connecticut/Nicaraguan binder rather than the standard double-Nicaraguan binder) was also released under the 30th Anniversary umbrella; treated as a separate/limited product, not one of the three core vitolas, since specs differ.",
+  "research_sources": [
+    {
+      "source_name": "Rocky Patel official site",
+      "source_url": "https://www.rockypatel.com/cigar/thirtieth-anniversary/",
+      "fact_note": "Wrapper/binder/filler, strength, background text"
+    },
+    {
+      "source_name": "Halfwheel",
+      "source_url": "https://halfwheel.com/rocky-patel-thirtieth-anniversary-robusto/463211/",
+      "fact_note": "88-point score, tasting notes, size, box count/price for Robusto"
+    },
+    {
+      "source_name": "Halfwheel",
+      "source_url": "https://halfwheel.com/rocky-patel-thirtieth-anniversary-limited-edition/466397/",
+      "fact_note": "Details on the separate limited-edition Toro SKU"
+    },
+    {
+      "source_name": "Cigar Aficionado",
+      "source_url": "https://www.cigaraficionado.com/article/rocky-patel-thirtieth-anniversary-smoke",
+      "fact_note": "Release year/background, blend details, vitola sizes/prices"
+    },
+    {
+      "source_name": "Cigars International",
+      "source_url": "https://www.cigarsinternational.com/product/rocky-patel-thirtieth-anniversary/30R-PM.html",
+      "fact_note": "Vitola list with box counts and pricing"
+    }
+  ]
+}

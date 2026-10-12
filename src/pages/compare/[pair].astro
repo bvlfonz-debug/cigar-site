@@ -93,7 +93,7 @@ const pageDescription = `Side-by-side comparison of ${cigarLabel(a)} and ${cigar
           <tr><th class="row-label">Wrapper</th><td>{cigarA.line.wrapper}</td><td>{cigarB.line.wrapper}</td></tr>
           <tr><th class="row-label">Binder</th><td>{cigarA.line.binder}</td><td>{cigarB.line.binder}</td></tr>
           <tr><th class="row-label">Filler</th><td>{cigarA.line.filler}</td><td>{cigarB.line.filler}</td></tr>
-          <tr><th class="row-label">Strength</th><td>{cigarA.line.strength}</td><td>{cigarB.line.strength}</td></tr>
+          <tr><th class="row-label">Strength</th><td>{cigarA.line.strength ?? 'Not yet sourced'}</td><td>{cigarB.line.strength ?? 'Not yet sourced'}</td></tr>
           <tr><th class="row-label">Origin</th><td>{cigarA.brand.country}</td><td>{cigarB.brand.country}</td></tr>
         </tbody>
       </table>

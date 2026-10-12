@@ -1,0 +1,27 @@
+{
+  "line_slug": "jake-wyatt-lithium",
+  "note": "Site lists only Toro (6x54), which matches one Mac photo exactly - though halfwheel's original 2020 review describes the line's then-only size as a 6x50 Toro with covered foot/pigtail, suggesting the line has been resized/reformulated since launch. FLAG: wrapper leaf and origin are contradictory across sources - brand site gave both 'Sumatra wrapper/Honduran binder' and 'Ecuadorian Habano wrapper/Dominican Corojo filler' on different page pulls; halfwheel's 2020 piece said Ecuadorian Habano wrapper with Dominican binder/filler, made by Tabacalera JVM. Not resolved - flagged rather than picking one arbitrarily.",
+  "additional_vitolas": [
+    {
+      "name": "Belicoso",
+      "size": "6 x 52",
+      "notes": "Listed on the brand's own site; did not appear on Famous Smoke's listing at time of check - flagging minor source gap.",
+      "sources": [
+        "https://jakewyattcigars.com/lithium/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "https://jakewyattcigars.com/lithium/",
+        "https://www.famous-smoke.com/brand/jake-wyatt-lithium-cigars"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://jakewyattcigars.com/lithium/",
+    "https://www.famous-smoke.com/brand/jake-wyatt-lithium-cigars",
+    "https://halfwheel.com/jake-wyatt-lithium/385108/"
+  ]
+}

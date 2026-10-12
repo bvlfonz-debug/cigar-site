@@ -1,0 +1,37 @@
+{
+  "line": {
+    "name": "Perdomo Reserve 10th Anniversary Maduro",
+    "slug": "perdomo-reserve-10th-anniversary-maduro",
+    "description": "Box-pressed, bourbon-barrel-aged Nicaraguan Maduro wrapper edition of the Reserve 10th Anniversary line - a parallel wrapper edition to the site's existing 'Reserve 10th Anniversary Champagne' (Connecticut) and 'Reserve 10th Anniversary Box-Pressed Maduro' entries. Not currently listed as its own line on the site under this exact name - if the site's existing 'Box-Pressed Maduro' entry is meant to represent this same product, review before merging (this entry uses a plain 'Epicure' vitola size matching Champagne, while the site's Box-Pressed Maduro entry uses a different vitola set - Churchill/Epicure/Figurado/Robusto/Super Toro/Torpedo - so they may already be the same line under a different vitola list, or may be two distinct product generations. Recommend manual review.)",
+    "wrapper": "Nicaraguan Maduro (bourbon-barrel-aged)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": null,
+    "shape_note": "Sold box-pressed."
+  },
+  "vitolas": [
+    {
+      "name": "Epicure",
+      "size": "6 x 54",
+      "sources": [
+        "coronacigar.com/perdomo-reserve-10th-anniversary-maduro-epicure/",
+        "neptunecigar.com/cigars/perdomo-reserve-10th-anniversary-maduro-epicure",
+        "cigar-coop.com/2021/10/cigar-review-perdomo-reserve-10th-anniversary-box-pressed-maduro-robusto.html"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 54",
+      "sources": [
+        "cigar-coop.com/2021/10/cigar-review-perdomo-reserve-10th-anniversary-box-pressed-maduro-robusto.html"
+      ]
+    }
+  ],
+  "research_notes": "Only Epicure has direct Mac photo evidence. Robusto is included because it's independently verified via Cigar Coop's review title/content, but Churchill, Figurado, Super Toro, and Torpedo could not be confirmed to exist in this specific wrapper edition and are NOT included - flag as UNVERIFIED rather than assumed present.",
+  "research_sources": [
+    "https://www.coronacigar.com/perdomo-reserve-10th-anniversary-maduro-epicure/",
+    "https://www.neptunecigar.com/cigars/perdomo-reserve-10th-anniversary-maduro-epicure",
+    "https://cigar-coop.com/2021/10/cigar-review-perdomo-reserve-10th-anniversary-box-pressed-maduro-robusto.html",
+    "https://www.casademontecristo.com/item/perdomo-reserve-10th-anniversary-box-pressed-maduro/epicure/PEBPE3.html"
+  ]
+}

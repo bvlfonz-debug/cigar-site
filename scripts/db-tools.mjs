@@ -315,6 +315,17 @@ const commands = {
     return { ok: true, brand_id: result.lastInsertRowid };
   },
 
+  // Lines whose strength is still NULL ("not yet sourced"). Used by the nightly
+  // automation to backfill a few per run via update-line (strength).
+  'list-unsourced-strength'(payload) {
+    const limit = Number(payload?.limit ?? 50);
+    return db.prepare(`
+      SELECT brand.slug AS brand_slug, brand.name AS brand_name, line.slug AS line_slug, line.name AS line_name, line.wrapper
+      FROM line JOIN brand ON brand.id = line.brand_id
+      WHERE line.strength IS NULL ORDER BY brand.name, line.name LIMIT ?
+    `).all(limit);
+  },
+
   'add-line'(payload) {
     const required = ['brand_slug', 'name', 'slug', 'wrapper', 'binder', 'filler', 'strength', 'background_text'];
     for (const field of required) {
@@ -371,7 +382,16 @@ const commands = {
       sets.push('filler = @filler');
       params.filler = payload.filler;
     }
-    if (sets.length === 0) fail('update-line requires at least one of: release_year, background_text, wrapper, binder, filler');
+    if (payload.strength != null) {
+      // Only fills a line whose strength is still NULL ("not yet sourced"); never overwrites a sourced value.
+      if (!['mild', 'mild-medium', 'medium', 'medium-full', 'full'].includes(payload.strength)) {
+        fail('update-line strength must be one of: mild, mild-medium, medium, medium-full, full');
+      }
+      if (line.strength != null) fail(`Line "${payload.line_slug}" already has strength "${line.strength}" — not overwriting`);
+      sets.push('strength = @strength');
+      params.strength = payload.strength;
+    }
+    if (sets.length === 0) fail('update-line requires at least one of: release_year, background_text, wrapper, binder, filler, strength');
     db.prepare(`UPDATE line SET ${sets.join(', ')} WHERE id = @id`).run(at(params));
     return { ok: true };
   },

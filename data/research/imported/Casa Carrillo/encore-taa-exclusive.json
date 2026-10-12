@@ -1,0 +1,57 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo Encore TAA Exclusive (Encore TAA 656)",
+    "slug": "encore-taa-exclusive",
+    "wrapper": "Nicaraguan",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": "Medium-Full",
+    "release_year": 2020,
+    "background_text": "Released 2020 exclusively for Tobacconists Association of America (TAA) retailers, the Encore TAA 656 is an all-Nicaraguan-tobacco expression of Encore, a departure from the standard Encore's Ecuadorian-wrapper blend. Its extreme box press gives the 6x56 'Toro Gordo' vitola an oval-like cross-section. Announced March 2020, shipped August 2020, limited to 750 boxes of 10, produced at Tabacalera La Alianza S.A."
+  },
+  "vitolas": [
+    {
+      "size_name": "Toro Gordo (656)",
+      "slug": "toro-gordo-656",
+      "length_in": 6,
+      "ring_gauge": 56,
+      "vitola_type": "Extreme box-pressed Toro Gordo",
+      "summary_review": null,
+      "tasting_notes": [
+        "chocolate-brown wrapper with multi-seamed cap",
+        "strong and spicy",
+        "licorice",
+        "charred oak",
+        "black cherry",
+        "caramel"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Cigar Aficionado",
+          "source_type": "critic",
+          "score": 89,
+          "score_scale": "100",
+          "review_date": null,
+          "url": "https://www.cigaraficionado.com/ratings/22539/name/e-p-carrillo-encore-taa-656",
+          "key_notes_text": "89 points."
+        }
+      ]
+    }
+  ],
+  "research_notes": "IMPORTANT CAVEAT: E.P. Carrillo releases a new TAA exclusive nearly every year; this 2020 'Encore TAA 656' is the one explicitly Encore-branded. A separate 2022 TAA Exclusive release exists but is NOT part of the Encore line (Ecuadorian Sumatra wrapper, different blend/vitola) - do not conflate the two.",
+  "research_sources": [
+    {
+      "url": "https://www.cigaraficionado.com/article/exclusive-e-p-carrillo-encore-ships-to-taa-retailers",
+      "supports": "product name, size, blend, announcement/shipping dates, box limit, price"
+    },
+    {
+      "url": "https://halfwheel.com/perez-carrillo-encore-656/383339/",
+      "supports": "wrapper/binder/filler, size, launch date, box count, pricing"
+    }
+  ]
+}

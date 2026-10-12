@@ -1,0 +1,54 @@
+{
+  "line": {
+    "name": "My Father La Gran Oferta",
+    "slug": "la-gran-oferta",
+    "description": "Value/everyday-smoke line launched at the 2018 IPCPR trade show, sold in boxes of 20. Photos were found misfiled inside the Mac's 'My Father La Opulencia' folder; this is a genuinely separate line, not part of La Opulencia.",
+    "wrapper": "Habano Rosado",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua (Habano-Criollo)",
+    "strength": "Medium to full",
+    "release_year": 2018
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "myfathercigars.com/cigar/my-father-la-gran-oferta/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 50",
+      "sources": [
+        "myfathercigars.com/cigar/my-father-la-gran-oferta/"
+      ]
+    },
+    {
+      "name": "Toro Gordo",
+      "size": "6 x 56",
+      "sources": [
+        "cigar-coop.com"
+      ]
+    },
+    {
+      "name": "Torpedo",
+      "size": "6.125 x 52",
+      "sources": [
+        "cigarsinternational.com"
+      ]
+    },
+    {
+      "name": "Lancero",
+      "size": "7.5 x 38",
+      "sources": [
+        "cigar-coop.com"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://myfathercigars.com/cigar/my-father-la-gran-oferta/",
+    "https://cigar-coop.com",
+    "https://cigarsinternational.com"
+  ]
+}

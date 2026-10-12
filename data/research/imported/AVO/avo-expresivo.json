@@ -1,0 +1,45 @@
+{
+  "line": {
+    "name": "AVO Expresivo",
+    "slug": "avo-expresivo",
+    "description": "Site already lists AVO with 14 other lines - this is a new line, not a new brand. CORRECTION TO AN INITIAL ASSUMPTION: the Mac folder's 'Exp' prefix was assumed to mean 'AVO Expression,' a long-running line - research found no line by that name. The real product is 'AVO Expresivo,' a BRAND-NEW regular-production line debuting at PCA 2026, launching in US stores June 25, 2026 - the opposite of long-running. It is the first AVO made outside the Dominican Republic, produced at Davidoff's Diadema Cigars de Honduras factory. Marketed as a fuller-flavored, accessible sub-premium entry, framed as 'a new chapter for AVO.' FLAG: since this is a mid-2026 launch, confirm the Mac photo's provenance/date aligns with this release before treating it as a settled catalog entry.",
+    "wrapper": "Ecuadorian",
+    "binder": "Honduran",
+    "filler": "Honduran and Jalapa, Nicaragua",
+    "factory": "Diadema Cigars de Honduras S.A., Honduras",
+    "status": "current (2026 launch)"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 52",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://store.davidoffgeneva.com/avo-expresivo-churchill/",
+        "https://halfwheel.com/avo-expresivo-robusto/476596/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://halfwheel.com/avo-expresivo-robusto/476596/"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 48",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://store.davidoffgeneva.com/avo-expresivo-churchill/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://store.davidoffgeneva.com/avo-expresivo-churchill/",
+    "https://halfwheel.com/avo-expresivo-robusto/476596/",
+    "https://www.cigaraficionado.com/article/avo-continues-burn-brighter-celebration-with-new-expresivo-line",
+    "https://cigar-coop.com/2026/04/avo-expresivo-makes-debut-at-pca-2026-cigar-news.html"
+  ]
+}

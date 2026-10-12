@@ -1,0 +1,20 @@
+{
+  "note": "Supplementary file - NOT a new line. 'Fratello Oro' already exists on the site (Toro, 6.25x54). Adding the shared 'Fuoco' vitola - this Oro version is the best-documented of the three Fuoco releases.",
+  "line_name": "Fratello Oro",
+  "additional_vitolas": [
+    {
+      "name": "Oro Fuoco",
+      "size": "3.5 x 50 (short robusto, closed foot, pigtail)",
+      "wrapper": "Ecuadorian Connecticut Shade",
+      "binder": "Cameroon",
+      "filler": "Dominican and Nicaraguan",
+      "strength": "Mild-to-medium, building to medium",
+      "notes": "Made at La Aurora, Dominican Republic (Oro's usual factory, vs. Bianco/Classico's Joya de Nicaragua). Same shared 'Fuoco' format released across Bianco/Classico/Oro simultaneously."
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/fratello-oro-fuoco/402060/",
+    "https://cigar-coop.com/2023/10/agile-cigar-review-fratello-oro-fuoco.html",
+    "https://fratellocigar.com/fuoco/"
+  ]
+}

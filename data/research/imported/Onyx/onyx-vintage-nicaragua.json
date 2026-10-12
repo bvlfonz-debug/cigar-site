@@ -1,0 +1,47 @@
+{
+  "line": {
+    "name": "Onyx Vintage Nicaragua",
+    "slug": "onyx-vintage-nicaragua",
+    "description": "Released September 2023 - a 100% Nicaraguan-puro release built around an extra-aged Habano Nicaragua wrapper from a 2019 harvest. Positioned as medium-to-full-bodied, deliberately less intense than Onyx Bold Nicaragua and with a lighter wrapper color, distinguishing it from the brand's traditional dark 'black/onyx' look while still carrying the Onyx name. Flavor notes: black pepper, leather, earth, dark chocolate, sweetness.",
+    "wrapper": "Nicaraguan Habano, 2019 harvest, EMS shade",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (100% puro)",
+    "factory": "Tabacalera A.J. Fernandez Cigars de Nicaragua S.A., Esteli, Nicaragua",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "notes": "$9.60 SRP. FLAG: JR Cigars' live catalog showed only the Toro as an active SKU at time of research - Robusto/Magnum availability should be confirmed per retailer.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/onyx/onyx-vintage-nicaragua/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo. $10.00 SRP.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/onyx/onyx-vintage-nicaragua/",
+        "https://www.jrcigars.com/item/onyx-vintage-nicaragua/toro/ONVNT5.html"
+      ]
+    },
+    {
+      "name": "Magnum",
+      "size": "6 x 60",
+      "notes": "$10.75 SRP. See Robusto note on live availability.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/onyx/onyx-vintage-nicaragua/"
+      ]
+    }
+  ],
+  "research_notes": "QA note: Bold Nicaragua and Vintage Nicaragua share identical vitola names and dimensions (Robusto 5x50, Toro 6x54, Magnum 6x60) despite being different blends - corroborated by two independent sources, so treated as verified rather than a data-entry duplication error, but flagged as an unusual coincidence worth double-checking.",
+  "research_sources": [
+    "https://cigar-coop.com/2024/05/onyx-vintage-nicaragua-toro-by-altadis-u-s-a-cigar-review.html",
+    "https://www.cigaraficionado.com/article/onyx-vintage-nicaragua-coming-next-month",
+    "https://www.altadisusa.com/cigars/onyx/",
+    "https://www.jrcigars.com/item/onyx-vintage-nicaragua/toro/ONVNT5.html",
+    "https://cigar-coop.com/2023/08/cigar-news-altadis-u-s-a-announces-onyx-vintage-nicaragua.html"
+  ]
+}

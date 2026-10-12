@@ -1,0 +1,38 @@
+{
+  "line": {
+    "brand_slug": "lampert",
+    "name": "Lampert Lawyer",
+    "slug": "lampert-lawyer",
+    "wrapper": null,
+    "binder": null,
+    "filler": null,
+    "strength": "Medium",
+    "release_year": null,
+    "background_text": "Lawyer is a current single-vitola line listed on Lampert Cigars' own site, made in Costa Rica. Lampert deliberately withholds the wrapper, binder, and filler origins for this blend, positioning it around 'balance, discretion, and quiet confidence.' Founder Dr. Stefan Lampert is himself a practicing lawyer, presumably the inspiration for the name, though no source explicitly states the connection."
+  },
+  "vitolas": [
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6.0,
+      "ring_gauge": 56,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "No third-party press coverage (halfwheel, Cigar Coop, Cigar Aficionado, retailers) was found for this line - confirmed to exist only via the brand's own official site (lampertcigars.com/cigars/lawyer/), which lists it as 6x56 Toro, medium strength, handmade in Costa Rica, with wrapper/binder/filler intentionally undisclosed. No price, box count, or release date found anywhere. Treat as brand-sourced-only data.",
+  "research_sources": [
+    {
+      "url": "https://lampertcigars.com/cigars/",
+      "supports": "Confirms 'Lawyer' appears as a listed product line on the official site"
+    },
+    {
+      "url": "https://lampertcigars.com/cigars/lawyer/",
+      "supports": "Vitola, strength, Costa Rica production, undisclosed wrapper/binder/filler"
+    }
+  ]
+}

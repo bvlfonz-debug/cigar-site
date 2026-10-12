@@ -1,0 +1,36 @@
+{
+  "line_slug": "perdomo-30th-anniversary-connecticut",
+  "note": "Site lists only Epicure (6x54). Mac photos show 3 more confirmed vitolas in this wrapper edition.",
+  "additional_vitolas": [
+    {
+      "name": "Churchill",
+      "size": "7 x 54",
+      "sources": [
+        "neptunecigar.com/cigars/perdomo-30th-anniversary-maduro-churchill",
+        "coronacigar.com/perdomo-30th-anniversary-connecticut-churchill/"
+      ]
+    },
+    {
+      "name": "Gordo",
+      "size": "6 x 60",
+      "notes": "Sold box-pressed.",
+      "sources": [
+        "smokeinn.com/Perdomo-30th-Anniversary-Connecticut-Gordo.html"
+      ]
+    },
+    {
+      "name": "Torpedo",
+      "size": "7 x 54",
+      "sources": [
+        "neptunecigar.com/cigars/perdomo-30th-anniversary-connecticut-torpedo",
+        "halfwheel.com/perdomo-30th-anniversary-sun-grown-torpedo/433840/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.neptunecigar.com/cigars/perdomo-30th-anniversary-maduro-churchill",
+    "https://www.coronacigar.com/perdomo-30th-anniversary-connecticut-churchill/",
+    "https://www.smokeinn.com/Perdomo-30th-Anniversary-Connecticut-Gordo.html",
+    "https://www.neptunecigar.com/cigars/perdomo-30th-anniversary-connecticut-torpedo"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "brand": "ADVentura",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/Blue Eyed Jack",
+  "note": "CORRECTION: the Mac folder is named 'Blue Eyed Jack,' but that's the LINE name, not the brand/company name - the brand is 'ADVentura' (made by ADV & McKay Cigars Co.), not on the site at all. Full new brand object included. No file renames performed - folder name is a minor misnomer, not incorrect data.",
+  "mappings": [
+    {
+      "json_file": "adventura-blue-eyed-jacks-revenge.json",
+      "line_slug": "adventura-blue-eyed-jacks-revenge",
+      "mac_folder": "Cigar Images/Blue Eyed Jack",
+      "files": [
+        "BlueEyedJack_Blue-Cor_01.jpg",
+        "BlueEyedJack_Blue-Mad_Box-Open_01.jpg",
+        "BlueEyedJack_Blue-Rob_Box-Open_01.jpg"
+      ],
+      "notes": null
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": []
+}

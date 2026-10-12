@@ -267,7 +267,7 @@ export interface PairingSuggestion {
 }
 
 interface StrengthLike {
-  strength: string;
+  strength: string | null;
 }
 
 interface WrapperLike {

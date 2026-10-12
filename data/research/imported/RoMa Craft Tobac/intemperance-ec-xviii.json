@@ -1,0 +1,37 @@
+{
+  "line": {
+    "name": "RoMa Craft Intemperance EC XVIII",
+    "slug": "roma-craft-intemperance-ec-xviii",
+    "description": "Not on the site - the site only has 'RoMa Craft Intemperance BA XXI' as its own entry, not this sibling sub-blend. Part of RoMa Craft's Prohibition-era-themed Intemperance concept (launched 2012); 'EC' = Ecuadorian Connecticut wrapper, 'XVIII' references the 18th Amendment (which enacted Prohibition).",
+    "wrapper": "Ecuadorian Connecticut",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "The Faith",
+      "size": "UNVERIFIED - confirmed as a real vitola name via a halfwheel pre-release piece, but no retailer spec sheet with exact dimensions was found in this research pass.",
+      "sources": [
+        "https://halfwheel.com/intemperance-ecx-viii-faith-prerelease/24895/"
+      ]
+    },
+    {
+      "name": "Reverence",
+      "size": "5.75 x 46 (Corona Gorda)",
+      "sources": [
+        "https://halfwheel.com/intemperance-ec-xviii-reverence/409088/"
+      ]
+    },
+    {
+      "name": "Virtue",
+      "size": "4.5 x 52 (Short Robusto)",
+      "sources": [
+        "https://www.neptunecigar.com/cigars/roma-craft-intemperance-ec-xviii-virtue",
+        "https://atlanticcigar.com/roma-craft-intemperance-ec-xviii-virtue-short-robusto-4-1-2x52-24-pack/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://cigar-coop.com/2013/02/cigar-review-intemperance-ba-xxi-by.html",
+    "https://halfwheel.com/intemperance-ec-xviii-reverence/409088/"
+  ]
+}

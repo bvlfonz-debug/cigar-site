@@ -1,0 +1,30 @@
+{
+  "line": {
+    "name": "AVO Syncro 10th Anniversary Limited Edition",
+    "slug": "avo-syncro-10th-anniversary-le",
+    "description": "A one-off limited edition tied to AVO Syncro Nicaragua's 10th anniversary (not a new permanent Syncro variant), released to mark 10 years since Syncro Nicaragua's 2015 debut, timed to Avo Uvezian's birthday (March 22) tradition of annual limited editions. Announced March 13, 2025; shipped to retailers April 3, 2025. Box-pressed, 20-count collectible box, ~3,400 boxes allocated to the US.",
+    "wrapper": "Ecuadorian (one retailer specifies Ecuadorian Connecticut - unverified detail, single-sourced)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan and Dominican (one retailer's product copy also mentions Peruvian filler - unconfirmed elsewhere, likely retail-copy over-specification, not added as a confirmed fact)",
+    "factory": "TABADOM, Dominican Republic",
+    "status": "limited edition (2025 run)"
+  },
+  "vitolas": [
+    {
+      "name": "Diadema (Diademas Finas)",
+      "size": "6.625 x 50 (box-pressed)",
+      "notes": "Matches the Mac photo. One source, Cigar Coop's own announcement, states '60 x 6-5/8' which appears to be a transposition/garbling error rather than a genuine 60-ring cigar - the 3-retailer consensus of 6.625x50 is treated as the reliable figure.",
+      "sources": [
+        "https://www.cigarsdirect.com/products/avo-syncro-10th-anniversary-diadema-le",
+        "https://www.hilandscigars.com/shop/cigars/avo-syncro-10th-anniversary-limited-edition-6-62-x-50-box-of-20/"
+      ]
+    }
+  ],
+  "research_notes": "See notes above on the wrapper/filler single-sourced details and the size discrepancy.",
+  "research_sources": [
+    "https://cigar-coop.com/2025/03/avo-syncro-10th-anniversary-limited-edition-announced-cigar-news.html",
+    "https://www.cigarsdirect.com/products/avo-syncro-10th-anniversary-diadema-le",
+    "https://www.hilandscigars.com/shop/cigars/avo-syncro-10th-anniversary-limited-edition-6-62-x-50-box-of-20/",
+    "https://moodiedavittreport.com/?p=442091"
+  ]
+}

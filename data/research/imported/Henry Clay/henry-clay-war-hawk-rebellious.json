@@ -1,0 +1,25 @@
+{
+  "line": {
+    "name": "Henry Clay War Hawk Rebellious",
+    "slug": "henry-clay-war-hawk-rebellious",
+    "description": "CLARIFICATION: confirmed to be a distinct limited-edition blend, NOT simply a size/vitola within the regular War Hawk line - different wrapper, different origin, different factory, different blender. A Nicaraguan puro, single-vitola limited edition. Released July 2020; limited run of 1,200 boxes of 20 (24,000 cigars total). Launch price $9.60/cigar, $192/box of 20.",
+    "wrapper": "Nicaraguan Habano",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "factory": "Tabacalera A.J. Fernandez Cigars de Nicaragua S.A., Esteli, Nicaragua (rolled under Abdel Fernandez)",
+    "status": "limited edition (2020 run, now likely sold through)"
+  },
+  "vitolas": [
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo. The only size in this line - no other vitolas exist.",
+      "sources": [
+        "https://halfwheel.com/henry-clay-war-hawk-rebellious-limited-edition/381134/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/henry-clay-war-hawk-rebellious-limited-edition/381134/"
+  ]
+}

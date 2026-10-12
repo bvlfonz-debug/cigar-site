@@ -1,0 +1,62 @@
+{
+  "line": {
+    "name": "Alfonso Extra Añejo",
+    "description": "Marketed on unitedcigargroup.com simply as 'Alfonso Añejo'. Aged 5+ years, finished in French oak-lined rooms. 25 cigars/box. Produced by Selected Tobacco S.A. (also makers of Atabey and Byron), named after Nelson Alfonso Egüed. NOTE: trade press (Cigar Aficionado, Cigar Coop, halfwheel) documents this line as debuting in 2022 - we found no verified evidence of an older ('1979') Alfonso brand history; do not treat any pre-2022 backstory as confirmed.",
+    "origin_country": "Not explicitly confirmed for this sub-line (Gran Selección below is confirmed Costa Rica)",
+    "wrapper": "Ecuador Connecticut",
+    "binder": "Ecuador Connecticut",
+    "filler": "Peruvian & Nicaraguan (ligero)",
+    "strength": "Medium-bodied"
+  },
+  "vitolas": [
+    {
+      "name": "No. 1",
+      "size": "4 x 50",
+      "sources": [
+        "https://unitedcigargroup.com/alfonso-anejo/"
+      ]
+    },
+    {
+      "name": "No. 2",
+      "size": "5 x 52",
+      "sources": [
+        "https://unitedcigargroup.com/alfonso-anejo/"
+      ]
+    },
+    {
+      "name": "No. 3",
+      "size": "6 x 54",
+      "sources": [
+        "https://unitedcigargroup.com/alfonso-anejo/"
+      ]
+    },
+    {
+      "name": "No. 4",
+      "size": "6.75 x 56",
+      "sources": [
+        "https://unitedcigargroup.com/alfonso-anejo/"
+      ]
+    },
+    {
+      "name": "No. 5",
+      "size": "7.5 x 58",
+      "sources": [
+        "https://unitedcigargroup.com/alfonso-anejo/"
+      ]
+    },
+    {
+      "name": "No. 6",
+      "size": "9 x 50",
+      "sources": [
+        "https://unitedcigargroup.com/alfonso-anejo/"
+      ]
+    }
+  ],
+  "research_notes": "Also sold as 3-count tubes and in a giftpack with an ashtray accessory (photos exist but aren't separate cigar SKUs: 2-Tubes, 3-Tube, 4-Tubes, Giftpack-With-Cigar - not added as vitolas, see image manifest).",
+  "research_sources": [
+    "https://unitedcigargroup.com/alfonso-anejo/",
+    "https://www.coronacigar.com/brands/alfonso/",
+    "https://www.2guyscigars.com/alfonso-anejo-cigars",
+    "https://www.cigaraficionado.com/article/new-alfonso-line-from-selected-tobacco-debuting-at-pca-trade-show"
+  ]
+}

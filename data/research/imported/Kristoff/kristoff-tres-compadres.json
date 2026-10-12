@@ -1,0 +1,42 @@
+{
+  "line": {
+    "name": "Kristoff Tres Compadres",
+    "slug": "kristoff-tres-compadres",
+    "description": "'Tres' = Tres Compadres ('three friends/compadres,' honoring Glen Case's friends Rolando Villamil and Chuck Finch). Introduced at 2023 PCA alongside Kristoff Nicaragua. FLAG: marketed as a 'Nicaraguan puro' while the rolling origin is listed as Dominican Republic - both facts recorded rather than treated as contradictory (puro refers to tobacco origin, not rolling location).",
+    "wrapper": "Nicaraguan Habano",
+    "binder": "Nicaraguan (Condega)",
+    "filler": "Nicaraguan (Condega, Esteli, Jalapa)",
+    "factory": "Tabacalera von Eicken, Dominican Republic",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "notes": "Matches the Mac photo. ~$10.50 MSRP.",
+      "sources": [
+        "https://www.jrcigars.com/item/kristoff-tres-compadres/robusto/KRTCOMR.html",
+        "https://www.cigaraficionado.com/ratings/24950/name/kristoff-tres-compadres-robusto-robusto"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6.25 x 54",
+      "sources": [
+        "https://cigar-coop.com/2025/01/kristoff-tres-compadres-toro.html"
+      ]
+    },
+    {
+      "name": "Gordo",
+      "size": "6 x 60",
+      "sources": [
+        "https://cigar-coop.com/2025/01/kristoff-tres-compadres-toro.html"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://cigar-coop.com/2025/01/kristoff-tres-compadres-toro.html",
+    "https://www.jrcigars.com/item/kristoff-tres-compadres/robusto/KRTCOMR.html",
+    "https://www.cigaraficionado.com/ratings/24950/name/kristoff-tres-compadres-robusto-robusto"
+  ]
+}

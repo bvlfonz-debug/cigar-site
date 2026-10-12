@@ -1,0 +1,56 @@
+{
+  "brand": {
+    "name": "Saint Luis Rey",
+    "slug": "saint-luis-rey",
+    "description": "Not on the site at all - confirmed absent from the site's full brand index, not just a slug issue. DISAMBIGUATION: there are two distinct trademarks both called 'Saint Luis Rey.' A Cuban version made by Habanos S.A. (Briones Montoto factory, Havana, Vuelta Abajo tobacco) is a separate, embargoed product not covered here. This entry covers the non-Cuban 'Saint Luis Rey' distributed by Altadis USA, which traces its name to a Cuban brand registered in the 1940s and nationalized by Cuba in 1960. The modern non-Cuban Honduran blend was created in 1996 by Christian Eiroa, originally produced at Tabacos Rancho Jamastran for distributor Max Rohr Imports; production moved to Flor de Copan after Max Rohr was absorbed into what became Altadis. A reformulated 'SLR Gen2' was released in 2013. Positioned as an accessible-premium brand (roughly $6-9/stick retail). Altadis USA's own '1918' marketing tagline refers to the company's founding, not the brand's - not used as the brand's founded date.",
+    "founded": 1996,
+    "founded_note": "1996 is when the modern non-Cuban Honduran blend was created by Christian Eiroa. The Saint Luis Rey name itself traces to a Cuban trademark registered in the 1940s (separate, embargoed Habanos S.A. product today).",
+    "origin_country": "Honduras (primary manufacturing location for most lines); Dominican Republic (Tabacales line only, since 2025 - does not share the brand's default Honduran origin)",
+    "distributor": "Altadis USA",
+    "status": "current"
+  },
+  "line": {
+    "name": "Saint Luis Rey Carenas",
+    "slug": "saint-luis-rey-carenas",
+    "description": "Named for Puerto de Carenas, the old name for Havana harbor. Medium-bodied, earthy spice and salty notes, oily Nicaraguan wrapper over an aged Honduran core.",
+    "wrapper": "Nicaraguan",
+    "binder": "Honduran",
+    "filler": "Honduran",
+    "factory": "Flor de Copan, Santa Rosa de Copan, Honduras",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-carenas/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 52",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-carenas/"
+      ]
+    },
+    {
+      "name": "Magnum",
+      "size": "6 x 60",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-carenas/"
+      ]
+    },
+    {
+      "name": "Belicoso",
+      "size": "6.125 x 54",
+      "notes": "Matches the plain 'Carenas' Mac photo.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-carenas/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/saint-luis-rey/saint-luis-rey-carenas/"
+  ]
+}

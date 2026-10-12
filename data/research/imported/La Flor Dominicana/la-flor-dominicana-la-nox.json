@@ -1,0 +1,28 @@
+{
+  "line": {
+    "name": "La Flor Dominicana La Nox",
+    "slug": "la-flor-dominicana-la-nox",
+    "description": "Unveiled at the 2015 IPCPR Trade Show. Confirmed as a distinct line, not part of Double Ligero, Air Bender, Andalusian Bull, or Reserva Especial.",
+    "wrapper": "Dark Brazilian Cubra maduro leaf",
+    "binder": "Mexican San Andres",
+    "filler": "Dominican Piloto Cubano and Dominican Pelo de Oro (La Canela farm)",
+    "factory": "Tabacalera La Flor, Dominican Republic",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Toro",
+      "size": "6.5 x 50",
+      "notes": "Only size confirmed by sourcing (10-count circular box). The Mac photo filename suggests a 'Petit' vitola, but NO source found confirms a Petit size exists for this line - flagged as unconfirmed, not added as a separate vitola entry.",
+      "sources": [
+        "https://cigar-coop.com/2015/07/cigar-news-la-flor-dominicana-la-nox.html",
+        "https://cigar-coop.com/2015/12/cigar-review-la-flor-dominicana-la-nox.html"
+      ]
+    }
+  ],
+  "research_notes": "The Mac photo is labeled 'La-Nox-Petit' implying a Petit vitola, but no source confirms this size exists for La Nox. Not fabricated - only the confirmed 6.5x50 Toro is listed. MSRP not confirmed (one unverified retail listing showed $11.00, not labeled MSRP).",
+  "research_sources": [
+    "https://cigar-coop.com/2015/07/cigar-news-la-flor-dominicana-la-nox.html",
+    "https://cigar-coop.com/2015/12/cigar-review-la-flor-dominicana-la-nox.html"
+  ]
+}

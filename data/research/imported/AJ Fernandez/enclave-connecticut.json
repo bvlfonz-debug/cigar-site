@@ -1,0 +1,31 @@
+{
+  "line": {
+    "name": "Enclave Connecticut",
+    "description": "4th Enclave wrapper variant (alongside Habano/'Enclave by AJ Fernandez', Broadleaf, and this one), released ~May 2021. Originally launched as an international-markets-only release (Germany, Austria, Poland, Switzerland, UK, South Africa, Slovakia, Hong Kong, Malta, Sweden per halfwheel); now also carried by some US retailers, suggesting wider distribution since launch. Not currently listed on the site at all.",
+    "wrapper": "Ecuadorian Connecticut",
+    "binder": "Nicaraguan (Fernandez farms)",
+    "filler": "Nicaraguan (Fernandez farms)",
+    "strength": null
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 52"
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 52"
+    },
+    {
+      "name": "Figurado",
+      "size": "6.5 x 52"
+    }
+  ],
+  "research_notes": "Mac photo library has only 1 photo for this line (a logo/banner, no vitola-specific shots) - consistent with it being real but less-documented/international-first. Strength not stated in any source found; left null rather than guessed.",
+  "research_sources": [
+    "https://halfwheel.com/aj-fernandezs-enclave-connecticut-heading-to-non-u-s-retailers/392866/",
+    "https://www.cigaraficionado.com/article/enclave-connecticut-by-a-j-fernandez-heading-to-international-markets",
+    "https://www.cigarslover.com/aj-fernandez-enclave-connecticut-figurado/",
+    "https://cigarchief.com/shop/aj-fernandez-enclave-connecticut-figurado/"
+  ]
+}

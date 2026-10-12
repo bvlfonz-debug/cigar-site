@@ -1,0 +1,55 @@
+{
+  "note": "Supplementary file - NOT a new line. 'Last Call by AJ Fernandez' already exists on the site, but it currently lists only ONE vitola (Geniales, 4.5x48, no wrapper specified). Research confirmed the line actually ships in TWO wrapper variants (Habano and Maduro) across FIVE vitolas - the site is missing the wrapper split and 4 of the 5 vitolas entirely.",
+  "line_name": "Last Call by AJ Fernandez",
+  "already_on_site": "Geniales (4.5x48) - matches both wrapper variants (same size in each)",
+  "corrected_line_facts": {
+    "wrapper": {
+      "Habano": "Ecuadorian Habano Rosado",
+      "Maduro": "Pennsylvania Broadleaf-seed wrapper grown in Nicaragua"
+    },
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": "Full (Habano); Maduro described elsewhere as medium-full to full, not independently confirmed",
+    "history": "Launched 2015 as Habano-only; Maduro line added 2016."
+  },
+  "additional_vitolas": [
+    {
+      "name": "Chiquitas",
+      "size": "3.5 x 50",
+      "wrapper_variants": [
+        "Habano",
+        "Maduro"
+      ]
+    },
+    {
+      "name": "Corticas",
+      "size": "4 x 52",
+      "wrapper_variants": [
+        "Habano",
+        "Maduro"
+      ]
+    },
+    {
+      "name": "Pequeñas",
+      "size": "5 x 46",
+      "wrapper_variants": [
+        "Habano",
+        "Maduro"
+      ]
+    },
+    {
+      "name": "Flaquitas",
+      "size": "6 x 46",
+      "wrapper_variants": [
+        "Habano",
+        "Maduro"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/j-fernandez-last-call-maduro-habano-extensions-formally-launch/134099/",
+    "https://halfwheel.com/last-call-by-a-j-fernandez/114068/",
+    "https://www.cigarplace.biz/all-brands/last-call-by-aj-fernandez.html",
+    "https://halfwheel.com/a-j-fernandez-adding-last-call-maduro-at-ipcpr-2016/121075/"
+  ]
+}

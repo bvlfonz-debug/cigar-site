@@ -1,0 +1,96 @@
+{
+  "line": {
+    "brand_slug": "lampert",
+    "name": "Lampert 1593 (Edición Blanca)",
+    "slug": "lampert-1593",
+    "wrapper": "Ecuadorian Connecticut (Habano seed)",
+    "binder": "Dominican Republic",
+    "filler": "Dominican Republic",
+    "strength": "Medium",
+    "release_year": 2022,
+    "background_text": "The Lampert 1593 line commemorates the year the Lampert family received its first heraldic crest, tying the brand's premium cigars to the family's claimed European noble heritage. Unlike Lampert's Nicaraguan-made 1675 series, 1593 is produced by Edgar Julian Sued at Julian Sued & Compania in Tamboril, Dominican Republic. It was soft-launched exclusively through Small Batch Cigar (Orange, CA) in June 2022 as the Edición Blanca, with a national U.S. rollout in 2023, and a Short Robusto format made available in Switzerland and Sweden. The line has since spawned additional editions (Edición Oscura, Edición Verde) not detailed in this file."
+  },
+  "vitolas": [
+    {
+      "size_name": "Toro",
+      "slug": "edicion-blanca-toro",
+      "length_in": 6,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": "Halfwheel scored this 84/100, citing tight draw and construction issues (over-filled bunch) that muted otherwise leather, earth, nut and bread/spice/floral flavors.",
+      "tasting_notes": [
+        "leather",
+        "earth",
+        "nuttiness",
+        "roux-like creaminess",
+        "bread",
+        "spice",
+        "floral (retrohale)"
+      ],
+      "smoke_time_min": 150,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "halfwheel",
+          "source_type": "critic",
+          "score": 84,
+          "score_scale": "100",
+          "review_date": null,
+          "url": "https://halfwheel.com/lampert-1593-edicion-blanca-toro/413038/",
+          "key_notes_text": "Leather, earth, nuttiness moving to roux-like creaminess; medium strength; tight draw across samples, docked for construction."
+        }
+      ]
+    },
+    {
+      "size_name": "Short Robusto",
+      "slug": "edicion-blanca-short-robusto",
+      "length_in": 3.75,
+      "ring_gauge": 52,
+      "vitola_type": "Short Robusto",
+      "summary_review": "European-market-exclusive size (Switzerland/Sweden); no detailed critic tasting notes found, retailer listing notes medium strength Colorado Claro wrapper.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Confirmed 'Edición Blanca' is a genuine, documented edition of the Lampert 1593 line (Dominican-made, Ecuadorian Connecticut wrapper), soft-launched June 2022. Research also surfaced 'Edición Oscura' and 'Edición Verde' variants of 1593 (per Blind Man's Puff, Cigarsense, Oxford Cigar Co.) but these were not independently detailed in this pass - noted so the database doesn't treat 1593 as single-blend only; may need a follow-up research pass if photos for those editions turn up. No 'plain' (non-edition) Lampert 1593 release was found - all releases carry an 'Edición' qualifier.",
+  "research_sources": [
+    {
+      "url": "https://halfwheel.com/lampert-1593-edicion-blanca-toro/413038/",
+      "supports": "Toro vitola specs, blend, factory, pricing, tasting notes, score, smoke time"
+    },
+    {
+      "url": "https://halfwheel.com/lampert-1593-edicion-blanca-gets-soft-launch-at-small-batch-cigar-2023-release/410086/",
+      "supports": "Release timeline, blend aging details, pricing, both vitolas"
+    },
+    {
+      "url": "https://cigar-coop.com/2022/06/cigar-news-lampert-cigars-to-soft-launch-lampert-1593-edicion-blanca.html",
+      "supports": "Background vs. 1675 line, factory, blend, box counts, release timeline"
+    },
+    {
+      "url": "https://lampertcigars.com/lampert-cigars-edicion-blanca/",
+      "supports": "Official brand description of Edición Blanca blend, vitolas, box counts, pricing"
+    },
+    {
+      "url": "https://lampertcigars.com/about-us/",
+      "supports": "Meaning of '1593' as the year of the Lampert family crest"
+    },
+    {
+      "url": "https://cigarsmokerclub.com/en/product/lampert-1593-edicion-blanca-short-robusto/",
+      "supports": "Short Robusto size specs, wrapper color, strength"
+    },
+    {
+      "url": "https://blindmanspuff.com/lampert-1593-edicion-oscura-blind-cigar-review/",
+      "supports": "Confirms existence of an Edición Oscura 1593 variant (not detailed further)"
+    },
+    {
+      "url": "https://www.cigarsense.com/cigar_analysis_lampert-1593-edici%C3%B3n-verde-toro-grande/",
+      "supports": "Confirms existence of an Edición Verde 1593 variant (not detailed further)"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "line_slug": "roma-craft-aquitaine",
+  "note": "Site lists only 'EMH' (5x56) for the standalone 'RoMa Craft Aquitaine' line. Aquitaine is a distinct sub-blend from core CroMagnon - Ecuador Habano Ligero wrapper over Cameroon binder and Nicaraguan filler (vs. CroMagnon's Connecticut Broadleaf wrapper) - both Mac photos are this Aquitaine blend, originally filed in a 'Cromagnon' subfolder but the vitola names match Aquitaine-specific naming (cave/prehistoric-anthropology theme), not plain CroMagnon. FLAG: Aquitaine also has its own vitola called 'Knuckle Dragger' distinct in name from - but sharing a name with - the site's existing plain CroMagnon 'Knuckle Dragger' (4x52) entry. Recommend visually confirming wrapper color (darker Habano Ligero vs. Broadleaf) before merging or treating as separate database entries.",
+  "additional_vitolas": [
+    {
+      "name": "Knuckle Dragger",
+      "size": "4 x 52 (Rothschild)",
+      "notes": "Same name and size as the site's existing plain CroMagnon 'Knuckle Dragger' - but this is the Aquitaine sub-blend, a different wrapper. Possible duplicate-name situation, not a duplicate product.",
+      "sources": [
+        "https://www.jrcigars.com/item/roma-craft-cromagnon-aquitaine/knuckle-dragger/CROMKD.html",
+        "https://www.neptunecigar.com/cigars/roma-craft-cromagnon-aquitaine-knuckle-dragger"
+      ]
+    },
+    {
+      "name": "Pestera Muierilor",
+      "size": "4 x 46",
+      "notes": "Named for a real Romanian cave, consistent with the sub-line's other vitola names (Anthropology, Mandible, Mastodon, EMH, Epoch).",
+      "sources": [
+        "https://www.neptunecigar.com/cigars/roma-craft-cromagnon-aquitaine-pestera-muierilor"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://atlanticcigar.com/roma-craft-cromagnon-aquitaine-mandible-mastodon-l-e-4-1-2x60/",
+    "https://www.jrcigars.com/item/roma-craft-cromagnon-aquitaine/knuckle-dragger/CROMKD.html"
+  ]
+}

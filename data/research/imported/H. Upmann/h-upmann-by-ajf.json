@@ -1,0 +1,48 @@
+{
+  "line": {
+    "name": "H. Upmann by AJ Fernandez",
+    "slug": "h-upmann-by-ajf",
+    "description": "Not on the site. Launched by Altadis USA in 2017, a collaboration with A.J. Fernandez marking a departure from Upmann's traditional Dominican/mild profile toward a medium-to-full-bodied blend. Also marketed as 'H. Upmann Nicaragua by AJ Fernandez' / 'H. Upmann Crafted by AJ Fernandez.' FLAG: distinct from the separate 'H. Upmann Nicaragua AJ Fernandez Heritage' line (also researched in this batch) and from a newer Connecticut-wrapper spinoff called 'Sunrise' - these are different sub-lines under a broader 'by AJ Fernandez' family, not the same product.",
+    "wrapper": "Ecuador Sumatra",
+    "binder": "Corojo '99 (Nicaraguan) - one retailer (JR Cigars) instead lists 'Vintage San Andres,' possibly reflecting a blend refresh since 2017; not resolved",
+    "filler": "Criollo '98 and Piloto Cubano (Nicaraguan)",
+    "factory": "Tabacalera A.J. Fernandez Cigars de Nicaragua, Esteli, Nicaragua",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 52",
+      "notes": "2017 launch specs per Cigar Aficionado/Cigar Dojo. JR Cigars' current listing instead gives 5x54 - unresolved discrepancy, possibly a later resize.",
+      "sources": [
+        "https://www.cigaraficionado.com/article/new-nicaraguan-h-upmann-from-aj-fernandez-19362",
+        "https://cigardojo.com/2017/11/h-upmann-aj-fernandez-toro/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo, which is labeled simply 'Toro' - consistent with the 2017 launch specs (CA/Cigar Dojo). JR Cigars instead lists 6x50 for a Toro in this line - could not confirm which is correct without the actual band/box in hand.",
+      "sources": [
+        "https://www.cigaraficionado.com/article/new-nicaraguan-h-upmann-from-aj-fernandez-19362",
+        "https://cigardojo.com/2017/11/h-upmann-aj-fernandez-toro/",
+        "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-crafted-by-aj-fernandez/"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 54",
+      "notes": "2017 launch specs. JR Cigars instead lists 7x52 and describes the line as having 4 vitolas without naming the 4th - unresolved.",
+      "sources": [
+        "https://www.cigaraficionado.com/article/new-nicaraguan-h-upmann-from-aj-fernandez-19362",
+        "https://cigardojo.com/2017/11/h-upmann-aj-fernandez-toro/"
+      ]
+    }
+  ],
+  "research_notes": "Vitola sizes conflict between 2017 trade-press launch coverage (treated as primary here) and current JR Cigars retail listings, which may reflect an unconfirmed blend/size refresh. A 4th vitola is implied by JR Cigars but not named - not added without a name. Gotham Cigars' page appears to conflate this line with the separate 'Heritage' line - not used as a source here to avoid cross-contamination.",
+  "research_sources": [
+    "https://www.cigaraficionado.com/article/new-nicaraguan-h-upmann-from-aj-fernandez-19362",
+    "https://cigardojo.com/2017/11/h-upmann-aj-fernandez-toro/",
+    "https://www.jrcigars.com/cigars/handmade-cigars/h.-upmann-cigars/h.-upmann-crafted-by-aj-fernandez/"
+  ]
+}

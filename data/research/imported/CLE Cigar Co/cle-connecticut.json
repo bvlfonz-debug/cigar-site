@@ -1,0 +1,58 @@
+{
+  "line": {
+    "name": "CLE Connecticut",
+    "slug": "cle-connecticut",
+    "description": "Not on the site at all - the site's CLE Cigar Company entry currently lists only 'CLE Corojo 2012' and 'CLE Prieto'. This is a real, distinct, currently active core line. CLE Cigar Company was founded July 2012 by Christian Eiroa (son of Julio Eiroa, founder of the Eiroa tobacco dynasty and later Camacho Cigars), after Christian left Camacho in 2011. The factory occupies a converted 1975 movie theater ('Cine Aladino') in Danli, Honduras that once belonged to his grandfather, Antonio Kafati.",
+    "wrapper": "Ecuador Connecticut",
+    "binder": "Honduran",
+    "filler": "Honduran",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "11/18 (Figurado)",
+      "size": "approx. 6 x 48/54/48 (tapered)",
+      "sources": [
+        "https://clecigars.com/shop/c-l-e-connecticut/",
+        "https://mikescigars.com/cigars/brands/cle/cle-connecticut"
+      ]
+    },
+    {
+      "name": "40 x 4",
+      "size": "4 x 40",
+      "sources": [
+        "https://mikescigars.com/cigars/brands/cle/cle-connecticut"
+      ]
+    },
+    {
+      "name": "60 x 6",
+      "size": "6 x 60",
+      "notes": "Shows sold out at some retailers but still catalogued current by JR Cigars, Famous Smoke, and clecigars.com's own shop.",
+      "sources": [
+        "https://www.jrcigars.com/cigars/handmade-cigars/cle-cigars/cle-connecticut/",
+        "https://www.famous-smoke.com/brand/cle-connecticut-cigars"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "https://www.famous-smoke.com/brand/cle-connecticut-cigars"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "sources": [
+        "https://www.famous-smoke.com/brand/cle-connecticut-cigars"
+      ]
+    }
+  ],
+  "research_notes": "Mac filenames used shorthand codes (Ct-18, Ct-440, Ct-60, Ct-Rob, Ct-Tor) now decoded and renamed on the Mac to match these vitola names.",
+  "research_sources": [
+    "https://clecigars.com/shop/c-l-e-connecticut/",
+    "https://www.jrcigars.com/cigars/handmade-cigars/cle-cigars/cle-connecticut/",
+    "https://www.famous-smoke.com/brand/cle-connecticut-cigars",
+    "https://mikescigars.com/cigars/brands/cle/cle-connecticut"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "brand": {
+    "name": "Deadwood Tobacco Co.",
+    "slug": "deadwood-tobacco-co",
+    "description": "Not on the site at all - confirmed absent from the site's full 112-brand index. CORRECTION TO AN INITIAL ASSUMPTION: this is NOT a Black Label Trading Company sub-line (that was the starting hypothesis, ruled out by research - no source connects Deadwood to BLTC at all). It is 'Deadwood Tobacco Co.,' produced/distributed by Drew Estate, rolled at La Gran Fabrica Drew Estate, Esteli, Nicaragua. Started as a South Dakota retail-exclusive brand and went national via Drew Estate around 2016. Sold as 'Deadwood by Drew Estate.' The brand's 4 core blends ('the Wild Bunch') are Sweet Jane, Fat Bottom Betty, Crazy Alice, and Leather Rose, plus a newer 'Dominicana' sub-line (2025).",
+    "founded": 2016,
+    "founded_note": "2016 marks the national rollout via Drew Estate; the brand originated earlier as a South Dakota retail exclusive (exact year not confirmed).",
+    "origin_country": "Nicaragua (Esteli) - the newer 'Dominicana' sub-line uses Dominican tobacco instead, per its name; factory not independently confirmed for that sub-line.",
+    "distributor": "Drew Estate",
+    "status": "current"
+  },
+  "line": {
+    "name": "Deadwood Crazy Alice",
+    "slug": "deadwood-crazy-alice",
+    "description": "One of the 4 core Deadwood blends ('the Wild Bunch': Sweet Jane, Fat Bottom Betty, Crazy Alice, Leather Rose). Debuted 2014 per founder Vaughn Boyd.",
+    "wrapper": "Maduro",
+    "binder": "Unconfirmed - one source reports Indonesian, but this conflicts with other retailer descriptions and was not resolved to a single answer.",
+    "filler": "Nicaraguan (exact sub-origin undisclosed in sources checked)",
+    "factory": "Drew Estate, Esteli, Nicaragua",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Short Pyramid (decoded from Mac filename 'Crazy')",
+      "size": "Reported inconsistently across retailers: 4.5x46 (original 2016 release per Drew Estate) vs. 4x52 (Corona Cigar) vs. 4.5x52 (Mike's Cigars) - recorded as an open discrepancy, not resolved to one figure.",
+      "notes": "Matches the Mac photo. A smaller 'C-Note' size (3.75x22) was added in 2026 but has no matching Mac photo this batch.",
+      "sources": [
+        "https://mikescigars.com/deadwood-by-drew-estate-crazy-alice-short-pyramid",
+        "https://www.coronacigar.com/deadwood-cigars-crazy-alice/",
+        "https://halfwheel.com/drew-estate-adding-crazy-alice-c-notes-this-month/466724/"
+      ]
+    }
+  ],
+  "research_notes": "Binder origin and exact standard-size dimensions are inconsistent across sources - no single authoritative spec sheet reconciling these was found. Recorded as found, not guessed.",
+  "research_sources": [
+    "https://mikescigars.com/deadwood-by-drew-estate-crazy-alice-short-pyramid",
+    "https://www.coronacigar.com/deadwood-cigars-crazy-alice/",
+    "https://halfwheel.com/drew-estate-adding-crazy-alice-c-notes-this-month/466724/",
+    "https://drewestate.prezly.com/drew-estate-is-taking-deadwoods-three-yummy-bitches-national",
+    "https://www.cigarsdirect.com/collections/deadwood-tobacco-co"
+  ]
+}

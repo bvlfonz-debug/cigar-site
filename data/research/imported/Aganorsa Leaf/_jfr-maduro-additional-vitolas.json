@@ -1,0 +1,30 @@
+{
+  "note": "Supplementary file - NOT a new line. 'JFR Maduro' already exists on the site (Robusto, 5.5x50). Adding genuine editions the site is missing.",
+  "line_name": "JFR Maduro",
+  "additional_vitolas": [
+    {
+      "name": "JFR 20th Anniversary (JFR 20 Years)",
+      "size": "Multiple: Gordo BP 4.75x70, Titan BP 6x60, Super Toro BP 6.5x52, Gordo Extra BP 7x70 (all box-pressed, pigtail head)",
+      "wrapper": "Mexican San Andrés maduro",
+      "binder": "Nicaraguan",
+      "filler": "Nicaraguan",
+      "strength": null,
+      "notes": "Commemorates 20 years of the JFR brand. Released 2025 (reviewed in Cigar Aficionado's Cigar Insider, August 2025); rated 88pts (Gordo BP size)."
+    },
+    {
+      "name": "JFR 770 / 770 Limited Edition",
+      "size": "7 x 70",
+      "wrapper": null,
+      "binder": null,
+      "filler": null,
+      "strength": null,
+      "notes": "Sold as both a regular bundle product ('JFR Maduro 770', boxes of 30, by Casa Fernandez/Tabacalera Tropical) and marketed by some retailers as 'JFR 770 Limited Edition'. Could not confirm a distinct blend difference between plain '770' and '770-LE' - treat as the same 7x70 vitola with 'LE' likely reflecting retailer marketing language rather than a confirmed separate release."
+    }
+  ],
+  "research_sources": [
+    "https://www.cigaraficionado.com/rating/jfr-20th-anniversary-1",
+    "https://www.cuencacigars.com/blog/experience-the-rich-flavors-of-jfr-20th-anniversary-maduro-cigars/",
+    "https://www.smallbatchcigar.com/jfr-maduro-770",
+    "https://www.factorydirectcigars.com/index.cfm?fuseaction=product.display&product_id=14394"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "brand": {
+    "name": "Asylum",
+    "slug": "asylum",
+    "description": "Not on the site at all - no 'Asylum' brand entry exists in the site's brand index. Created in 2012 by Tom Lazuka (a former Camacho/Davidoff sales rep), in partnership with Christian Eiroa shortly after Eiroa's Davidoff non-compete expired. Lazuka pitched oversized 60-80 ring gauge cigars after seeing retailers sell out of them; Eiroa reportedly called the idea 'the worst idea he had ever heard' and named the brand Asylum as a joke at Lazuka's expense, but agreed to produce it anyway. Asylum is sold as its own standalone brand (not badged 'CLE'), but is made at Christian Eiroa's own factory - The CLE Factory (a converted 1975 movie theater) in Danli, Honduras. Blend philosophy is practical/value-driven rather than 'masterpiece' blending - Lazuka has said they started by asking what tobacco they had enough of to make a million cigars - reflected in very large ring gauges (50-80) and bold, spicy, full-flavored profiles at aggressive price points.",
+    "founded_year": 2012,
+    "origin": "Honduras",
+    "research_sources": [
+      "https://halfwheel.com/asylum-13-70-x-7-box-pressed/175494/",
+      "https://halfwheel.com/asylum-seven-11-18/374418/"
+    ]
+  },
+  "line": {
+    "name": "Asylum Eleven (11/18)",
+    "slug": "asylum-eleven",
+    "description": "A perfecto vitola within the Asylum 13 blend family. Nicaraguan puro with Nicaraguan habano wrapper, made at The CLE Factory. A 2022 TAA-exclusive release used this shape (500 boxes of 25, $9/cigar).",
+    "wrapper": "Nicaraguan Habano",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "11/18",
+      "size": "UNCONFIRMED - Mac folder/filenames say '7x70' but no source found documents an Asylum Eleven vitola at that size. Confirmed Eleven sizes are a 6 x 48/54/48 perfecto shape. The '70' in the Mac folder name may be a mislabel, or may reflect a genuinely separate, undocumented release - recommend a visual check of the box art against the 6x48/54/48 perfecto shape before entering a size into the database.",
+      "sources": [
+        "https://halfwheel.com/asylum-13-11-18-designated-as-taa-2022-exclusive/407544/",
+        "https://halfwheel.com/asylum-seven-11-18/374418/"
+      ]
+    }
+  ],
+  "research_notes": "Also has one further Mac photo whose filename suffix ('-Sin') could not be matched to any real vitola or sub-product name - flagged as unverified in the image manifest, not represented here.",
+  "research_sources": [
+    "https://halfwheel.com/asylum-13-11-18-designated-as-taa-2022-exclusive/407544/",
+    "https://halfwheel.com/asylum-seven-11-18/374418/"
+  ]
+}

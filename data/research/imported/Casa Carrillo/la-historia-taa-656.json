@@ -1,0 +1,36 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo La Historia TAA 656",
+    "slug": "la-historia-taa-656",
+    "wrapper": "Mexican",
+    "binder": "Ecuadorian Sumatra",
+    "filler": "Nicaraguan",
+    "strength": "Medium-Full",
+    "release_year": 2018,
+    "background_text": "A TAA-exclusive release using the same blend as the regular La Historia line (already on site), packaged in a unique thick-ring 6x56 toro vitola sold only to TAA member retailers, limited to 1,000 boxes. Produced at Tabacalera La Alianza S.A."
+  },
+  "vitolas": [
+    {
+      "size_name": "TAA 656",
+      "slug": "taa-656",
+      "length_in": 6,
+      "ring_gauge": 56,
+      "vitola_type": "Extreme box-pressed Toro",
+      "summary_review": "TAA-exclusive thick-ring vitola using the standard La Historia blend, sold in limited 10-count boxes.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Same underlying blend as regular La Historia but a unique exclusive vitola/packaging, not part of La Historia's standard lineup - justifies its own entry distinct from the plain La Historia already on site. No independent critic score found.",
+  "research_sources": [
+    {
+      "url": "https://halfwheel.com/e-p-carrillo-adding-la-historia-taa-656/296619/",
+      "supports": "blend, size, price, box count, factory"
+    }
+  ]
+}

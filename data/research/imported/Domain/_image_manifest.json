@@ -1,0 +1,20 @@
+{
+  "brand": "Domain Cigars",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/Domain",
+  "note": "Domain is not on the site at all - full new brand object included. CORRECTED from an initial hypothesis that 'Domain' was a line of the already-listed AJ Fernandez brand (ruled out - it's its own standalone brand). 1 line added. No file renames performed.",
+  "mappings": [
+    {
+      "json_file": "domain-entropy.json",
+      "line_slug": "domain-entropy",
+      "mac_folder": "Cigar Images/Domain",
+      "files": [
+        "Domain_Entropy-Robx_01.jpg",
+        "Domain_Entropy-Tor_01.jpg"
+      ],
+      "notes": "The 'Robx' file is ambiguous between the line's 'Robusto Extra' (5x52) and 'Robusto Gordo' (5x56) vitolas - both are documented in the line entry, but the specific photo isn't attributed to either with confidence."
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": []
+}

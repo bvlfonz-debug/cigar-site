@@ -1,0 +1,48 @@
+{
+  "line": {
+    "name": "Rare Leaf",
+    "description": "A separate, distinct Aganorsa Leaf line from 'Rare Leaf Reserve' (which is already on the site) despite the closely related name/branding. Per Aganorsa's own site, sold in two wrapper expressions with their own vitola sets.",
+    "origin_country": "Nicaragua",
+    "filler": "Cuban-seed Criollo 98-dominant"
+  },
+  "variants": [
+    {
+      "wrapper": "Corojo (Nicaragua Café)",
+      "vitolas": [
+        {
+          "name": "Robusto",
+          "size": "5x52"
+        },
+        {
+          "name": "Toro",
+          "size": "6x54"
+        },
+        {
+          "name": "Lonsdale",
+          "size": "6x44"
+        }
+      ]
+    },
+    {
+      "wrapper": "Maduro (San Andrés, Mexico)",
+      "vitolas": [
+        {
+          "name": "Robusto",
+          "size": "5x52"
+        },
+        {
+          "name": "Toro",
+          "size": "6x54"
+        },
+        {
+          "name": "Torpedo (Box Press)",
+          "size": null
+        }
+      ]
+    }
+  ],
+  "research_notes": "Not on the site at all under this name - only 'Rare Leaf Reserve' is listed. Our Mac photo 'AganorsaLeaf_Rare-Leaf_Corojo_01.jpg' (found misplaced in the 'Aniversario Corojo' folder) belongs to this separate 'Rare Leaf' (non-Reserve) line, not Rare Leaf Reserve - flagged for the user to re-verify/relabel that photo.",
+  "research_sources": [
+    "https://aganorsaleaf.com/cigars/rare-leaf-corojo-and-maduro/"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "line": {
+    "name": "Sobremesa Brûlée",
+    "slug": "sobremesa-brulee",
+    "description": "Not on the site - the site's existing 'Sobremesa' entry lists only Cervantes Fino and Short Churchill. Dunbarton's own site treats Brûlée as a distinct marca (product line) rather than a simple wrapper variant of core Sobremesa: it swaps the core recipe's Pennsylvania Seedleaf ligero for more Condega Seco, resulting in a milder, creamier profile (cedar, caramel, coffee notes). NOTE: the Mac photo for this is a generic marketing banner, not a per-vitola product shot, so no single vitola is confirmed by the photo itself - the vitola list below reflects the line's full published lineup per the manufacturer's own site.",
+    "wrapper": "Ecuador Connecticut Shade (Sumatra-seed 'G2BW')",
+    "binder": "Mexican San Andres Negro",
+    "filler": "Nicaraguan",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5.25 x 52",
+      "sources": [
+        "https://dunbartoncigars.com/marca/sobremesa-brulee"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 52",
+      "sources": [
+        "https://dunbartoncigars.com/marca/sobremesa-brulee"
+      ]
+    },
+    {
+      "name": "Double Corona",
+      "size": "7 x 54",
+      "sources": [
+        "https://dunbartoncigars.com/marca/sobremesa-brulee"
+      ]
+    },
+    {
+      "name": "Gordo",
+      "size": "6.25 x 60",
+      "sources": [
+        "https://dunbartoncigars.com/marca/sobremesa-brulee"
+      ]
+    }
+  ],
+  "research_notes": "Two further limited sub-variants exist - 'Brûlée Blue' (stronger, aged) and 'Brûlée Wagashi' (6.25x46, milder) - not added as formal vitola entries since I couldn't confirm exact current availability/specs beyond retailer review mentions; flagging for awareness only. Original Brûlée release year not confirmed from the manufacturer's page.",
+  "research_sources": [
+    "https://dunbartoncigars.com/marca/sobremesa-brulee",
+    "https://www.jrcigars.com",
+    "https://www.cigarsinternational.com"
+  ]
+}

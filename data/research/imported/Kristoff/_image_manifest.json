@@ -1,0 +1,73 @@
+{
+  "brand": "Kristoff",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/Kristoff",
+  "note": "Kristoff already exists on the site with 3 lines. This batch adds 5 new lines plus 1 unresolved flag, found in the (flat, unrenamed) Mac folder. No file renames performed this batch.",
+  "mappings": [
+    {
+      "json_file": "kristoff-guardrail.json",
+      "line_slug": "kristoff-guardrail",
+      "mac_folder": "Cigar Images/Kristoff",
+      "files": [
+        "Kristoff_Kri-Guard-Rob_01.jpg"
+      ],
+      "notes": "CORRECTED from an initial assumption of 'Guardian of the Farm' (an unrelated brand) to the real name 'Guardrail.'"
+    },
+    {
+      "json_file": "kristoff-nicaragua.json",
+      "line_slug": "kristoff-nicaragua",
+      "mac_folder": "Cigar Images/Kristoff",
+      "files": [
+        "Kristoff_Kri-Nica-Rob_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "kristoff-taa-exclusive-2023.json",
+      "line_slug": "kristoff-taa-exclusive-2023",
+      "mac_folder": "Cigar Images/Kristoff",
+      "files": [
+        "Kristoff_Kri-Taa-23_01.jpg"
+      ],
+      "notes": "Blend composition unverified this session - thin sourcing."
+    },
+    {
+      "json_file": "kristoff-tres-compadres.json",
+      "line_slug": "kristoff-tres-compadres",
+      "mac_folder": "Cigar Images/Kristoff",
+      "files": [
+        "Kristoff_Kri-Tres-Rob_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "kristoff-pca-2024-signature-series.json",
+      "line_slug": "kristoff-pca-2024-signature-series",
+      "mac_folder": "Cigar Images/Kristoff",
+      "files": [
+        "Kristoff_Pca-24_01.jpg",
+        "Kristoff_Pca-24_Box-Open_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "_kristoff-vente-UNRESOLVED.json",
+      "line_slug": null,
+      "mac_folder": "Cigar Images/Kristoff",
+      "files": [
+        "Kristoff_Vente-Robusto_01.jpg"
+      ],
+      "notes": "Could not confirm what product this is - not published as a real line, see the flag file for details and candidate theories."
+    }
+  ],
+  "not_added": [
+    {
+      "mac_folder": "Cigar Images/Kristoff",
+      "files": [
+        "Kristoff_Vente-Robusto_01.jpg"
+      ],
+      "reason": "See _kristoff-vente-UNRESOLVED.json - no source confirms what 'Vente' refers to."
+    }
+  ],
+  "already_on_site_no_action": []
+}

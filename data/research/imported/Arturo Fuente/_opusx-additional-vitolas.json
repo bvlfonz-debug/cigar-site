@@ -1,0 +1,52 @@
+{
+  "line_slug": "fuente-fuente-opusx",
+  "note": "Site lists 8 core vitolas. Mac folder (after light reorg - 5 loose top-level files moved in and renamed) has several limited/special releases not on the standard list. 'PerfecXion No. 4' from the Mac photo likely corresponds to the site's existing 'PerfecXion No. 4 Series X' entry - same core vitola, no separate entry added. 'Super Belicoso' matches the site's existing entry exactly, no gap.",
+  "additional_vitolas": [
+    {
+      "name": "Angel's Share Robusto",
+      "size": "5.25 x 50",
+      "notes": "Limited release, November 2012, commemorating Arturo Fuente's 100th anniversary; milder-profile OpusX. Dominican Chateau de la Fuente sun-grown wrapper, box-pressed, triple cap.",
+      "sources": [
+        "https://halfwheel.com/opusx-angels-share-robusto/70800/",
+        "https://www.neptunecigar.com/cigars/arturo-fuente-opus-x-angels-share-robusto"
+      ]
+    },
+    {
+      "name": "Belicoso XXX (\"Belicoso xXx\")",
+      "size": "4.625 x 49",
+      "notes": "Cigar Aficionado Top 25 Cigars of 2010, #3, 95 points. All-Dominican.",
+      "sources": [
+        "https://www.cigaraficionado.com/top25cigar/fuente-fuente-opusx-belicoso-xxx-2010",
+        "https://www.neptunecigar.com/cigars/arturo-fuente-opus-x-belicoso-xxx"
+      ]
+    },
+    {
+      "name": "The Undefeated",
+      "size": "Approximately 6 x 56 (halfwheel's estimate only - Fuente never published an official spec sheet, so treat size as unconfirmed)",
+      "notes": "One-off exclusive contributed to the Cigar Rights of America (CRA) Freedom Sampler, Spring 2023 - an industry-advocacy fundraiser sampler, NOT connected to a boxer or the 'UNDEFEATED' streetwear/sneaker brand despite the name (no source supports that association). Made entirely from Dominican-grown OpusX tobacco.",
+      "sources": [
+        "https://halfwheel.com/opusx-the-undefeated/423286/",
+        "https://arturofuente.com/opusx-the-undefeated/"
+      ]
+    },
+    {
+      "name": "25th Anniversary (\"25th Aniversario Tributo\")",
+      "size": "7 x 50 (Churchill)",
+      "notes": "Released November 2021 to mark OpusX's 25th year since its 1995 debut (release itself came slightly after the literal 25-year mark due to pandemic delays). Standard boxes plus ultra-limited Elie Bleu humidor tiers (88 units of 25 cigars at ~$9,250; 25 units of 144 cigars at ~$70,000). The Mac photo ('25th-Anniversary_Pack-Sleeve') likely depicts this release's standard packaging.",
+      "sources": [
+        "https://halfwheel.com/opusx-25/408325/",
+        "https://www.neptunecigar.com/cigar/arturo-fuente-fuente-opus-x-25th-anniversary"
+      ]
+    }
+  ],
+  "unresolved_flag": {
+    "photo": "Fuente-Fuente-OpusX_Oro-UNVERIFIED-which-release_Box-Open_01.jpg",
+    "issue": "Photo filename references 'Oro' (gold). Two distinct real OpusX product families use this word: (a) OpusX Rosado Oscuro Oro (a rosado-wrapper line, several vitolas), or (b) OpusX Templo de Oro (a 2023 gold-foil-wrapped mystery/limited release). Could not determine which without a visual check of the band/box art. NOT added as a vitola entry - left as an open flag for you to confirm by eye, at which point it can be researched precisely."
+  },
+  "research_sources": [
+    "https://halfwheel.com/opusx-angels-share-robusto/70800/",
+    "https://www.cigaraficionado.com/top25cigar/fuente-fuente-opusx-belicoso-xxx-2010",
+    "https://halfwheel.com/opusx-the-undefeated/423286/",
+    "https://halfwheel.com/opusx-25/408325/"
+  ]
+}

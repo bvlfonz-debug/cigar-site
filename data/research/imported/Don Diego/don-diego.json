@@ -1,0 +1,62 @@
+{
+  "brand": {
+    "name": "Don Diego",
+    "slug": "don-diego",
+    "description": "Not on the site at all - confirmed absent from the site's full brand index. Currently distributed by Altadis USA (official page: altadisusa.com/cigars/don-diego/don-diego-by-don-diego/). RESEARCH LIMITATION THIS BATCH: this session's WebFetch tool hit a session-wide usage cap partway through research on this brand, preventing full-page reads of the Altadis USA official page and most retailer spec pages. Only facts confirmed via search-result titles/metadata or independently-fetched pages before the cap are included below. Wrapper/binder/filler and full vitola lists could not be confirmed and are left null/flagged rather than filled from general knowledge, per this project's no-fabrication policy. RECOMMEND a follow-up research pass once full page fetches are available.",
+    "founded": null,
+    "founded_note": "Not confirmed this session - flagged as unknown rather than guessed.",
+    "origin_country": "Dominican Republic (per multiple retailer categorizations; not independently confirmed via a primary source this session)",
+    "distributor": "Altadis USA",
+    "status": "current"
+  },
+  "line": {
+    "name": "Don Diego",
+    "slug": "don-diego",
+    "description": "Core/original line. RESEARCH LIMITATION THIS BATCH: this session's WebFetch tool hit a session-wide usage cap partway through research on this brand, preventing full-page reads of the Altadis USA official page and most retailer spec pages. Only facts confirmed via search-result titles/metadata or independently-fetched pages before the cap are included below. Wrapper/binder/filler and full vitola lists could not be confirmed and are left null/flagged rather than filled from general knowledge, per this project's no-fabrication policy. RECOMMEND a follow-up research pass once full page fetches are available.",
+    "wrapper": null,
+    "binder": null,
+    "filler": null,
+    "factory": null,
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Churchill",
+      "size": "7 x 54",
+      "notes": "Matches the Mac photo. Confirmed via an independent retailer (Windy City Cigars) listing title.",
+      "sources": [
+        "https://windycitycigars.com/don-diego-churchill-cigars-7-x-54/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 52",
+      "notes": "Confirmed via an independent retailer (Neptune Cigar) listing title only - single-source.",
+      "sources": [
+        "https://www.neptunecigar.com/cigars/don-diego-robusto"
+      ]
+    },
+    {
+      "name": "Corona",
+      "size": "UNVERIFIED - exists per JR Cigars product listing, size not confirmed this session",
+      "sources": [
+        "https://www.jrcigars.com/item/don-diego/corona/DDC.html"
+      ]
+    },
+    {
+      "name": "Lonsdale",
+      "size": "UNVERIFIED - exists per JR Cigars product listing, size not confirmed this session",
+      "sources": [
+        "https://www.jrcigars.com/item/don-diego/lonsdale/DDL.html"
+      ]
+    }
+  ],
+  "research_notes": "RESEARCH LIMITATION THIS BATCH: this session's WebFetch tool hit a session-wide usage cap partway through research on this brand, preventing full-page reads of the Altadis USA official page and most retailer spec pages. Only facts confirmed via search-result titles/metadata or independently-fetched pages before the cap are included below. Wrapper/binder/filler and full vitola lists could not be confirmed and are left null/flagged rather than filled from general knowledge, per this project's no-fabrication policy. RECOMMEND a follow-up research pass once full page fetches are available.",
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/don-diego/don-diego-by-don-diego/",
+    "https://windycitycigars.com/don-diego-churchill-cigars-7-x-54/",
+    "https://www.neptunecigar.com/cigars/don-diego-robusto",
+    "https://www.jrcigars.com/item/don-diego/corona/DDC.html",
+    "https://www.jrcigars.com/item/don-diego/lonsdale/DDL.html"
+  ]
+}

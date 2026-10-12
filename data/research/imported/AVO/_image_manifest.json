@@ -1,0 +1,42 @@
+{
+  "brand": "AVO",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/AVO",
+  "note": "AVO already exists on the site with 14 lines. This batch adds 2 new lines found in the (flat, unrenamed) Mac folder. No file renames performed this batch.",
+  "mappings": [
+    {
+      "json_file": "avo-expresivo.json",
+      "line_slug": "avo-expresivo",
+      "mac_folder": "Cigar Images/AVO",
+      "files": [
+        "AVO_Exp-Church_01.jpg",
+        "AVO_Exp-Church_Box-Open_01.jpg",
+        "AVO_Exp-Rob_01.jpg",
+        "AVO_Exp-Rob_Box-Open_01.jpg",
+        "AVO_Exp-Tor_01.jpg",
+        "AVO_Exp-Tor_Box-Open_01.jpg"
+      ],
+      "notes": "CORRECTED from an initial assumption of 'AVO Expression' (a long-running line that doesn't exist) to 'AVO Expresivo' (a brand-new 2026 line)."
+    },
+    {
+      "json_file": "avo-syncro-10th-anniversary-le.json",
+      "line_slug": "avo-syncro-10th-anniversary-le",
+      "mac_folder": "Cigar Images/AVO",
+      "files": [
+        "AVO_Sync-10_01.jpg",
+        "AVO_Sync-10th_Box-Open_01.jpg"
+      ],
+      "notes": null
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": [
+    {
+      "mac_folder": "Cigar Images/AVO",
+      "files": [
+        "AVO_Classic-No-2_01.jpg"
+      ],
+      "reason": "AVO Classic No.2 is already listed on the site - no gap."
+    }
+  ]
+}

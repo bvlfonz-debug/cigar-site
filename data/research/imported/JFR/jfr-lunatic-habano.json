@@ -1,0 +1,39 @@
+{
+  "line": {
+    "name": "JFR Lunatic Habano",
+    "slug": "jfr-lunatic-habano",
+    "description": "The Habano-wrapper branch of JFR's long-running 'Lunatic' line, added 2016 under Casa Fernandez.",
+    "wrapper": "Ecuadorian Habano",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "factory": "Tabacos Valle de Jalapa S.A. (TABSA), Esteli, Nicaragua (per 2016-era sourcing; current factory attribution may have shifted to Aganorsa facilities along with the rest of the brand - not independently confirmed for this specific sub-line).",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Lunatic (8x80)",
+      "size": "8 x 80",
+      "notes": "Matches the Mac photo. The original belicoso-style size sometimes just listed as 'Lunatic.'",
+      "sources": [
+        "https://halfwheel.com/jfr-goes-bigger-8-x-80-lunatic",
+        "https://cigar-coop.com/2016/08/cigar-news-casa-fernandez-adds-jfr-lunatic-habano-line.html"
+      ]
+    },
+    {
+      "name": "Hombre Libre",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.hilandscigars.com/shop/cigars/jfr-cigars/jfr-lunatic/"
+      ]
+    }
+  ],
+  "research_notes": "2 additional Mac photos ('JFR_Luna-Hab-Rob' and 'JFR_Luna-Hab-Short') could not be confidently matched to a single confirmed vitola name - both a 'Short Robusto' (4.25x52) and a 'Short Titan' (4.25-4.75x60) exist for this line, and 'Rob'/'Short' alone don't disambiguate with certainty. Not added as confirmed vitolas - see _jfr-UNRESOLVED.json.",
+  "research_sources": [
+    "https://halfwheel.com/jfr-goes-bigger-8-x-80-lunatic",
+    "https://cigar-coop.com/2016/08/cigar-news-casa-fernandez-adds-jfr-lunatic-habano-line.html",
+    "https://www.hilandscigars.com/shop/cigars/jfr-cigars/jfr-lunatic/",
+    "https://www.cigaraficionado.com/ratings/20946/name/jfr-lunatic-short-robusto-habano",
+    "https://thecigarauthority.com/jfr-lunatic-habano-short-titan-cigar-review"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "brand": "Omar Ortez",
+  "batch_date": "2026-09-30",
+  "mac_source_root": "Cigar Images/Omar Ortez",
+  "note": "Part of the Altadis USA reorganization; folder was already top-level. Confirmed absent from the site's brand index. RESEARCH LIMITED THIS BATCH by a WebFetch session cap - see README.",
+  "mappings": [
+    {
+      "json_file": "omar-ortez-connecticut.json",
+      "line_slug": "omar-ortez-connecticut",
+      "mac_folder": "Cigar Images/Omar Ortez/Omar Ortez Connecticut",
+      "files": [
+        "OmarOrtez_Connecticut_01.png",
+        "OmarOrtez_Connecticut_Box-Open_01.jpg"
+      ],
+      "notes": "Vitola sizes not confirmed this session - see JSON flags."
+    },
+    {
+      "json_file": "omar-ortez-maduro.json",
+      "line_slug": "omar-ortez-maduro",
+      "mac_folder": "Cigar Images/Omar Ortez/Omar Ortez Maduro",
+      "files": [
+        "OmarOrtez_Maduro_02.png",
+        "OmarOrtez_Maduro_Toro_Box-Closed_01.jpg"
+      ],
+      "notes": "Toro matches the Mac photo, confirmed via CA DOJ registry."
+    },
+    {
+      "json_file": "omar-ortez-originals.json",
+      "line_slug": "omar-ortez-originals",
+      "mac_folder": "Cigar Images/Omar Ortez/Omar Ortez Originals",
+      "files": [
+        "OmarOrtez_Original_01.png",
+        "OmarOrtez_Originals_Box-Open_01.jpg"
+      ],
+      "notes": "Toro matches the Mac photo. FLAG: relationship between Originals and Maduro is unresolved - see JSON."
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": []
+}

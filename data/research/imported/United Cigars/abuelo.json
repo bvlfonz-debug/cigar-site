@@ -1,0 +1,51 @@
+{
+  "line": {
+    "name": "Abuelo",
+    "description": "100% Honduran puro made entirely from tobacco grown on the Eiroa/JRE Tobacco Farm in Las Lomas, Jamastran, Honduras, and produced at Fabrica de Puros Aladino S.A. (Julio R. Eiroa's factory). Released June 2021. Vitola names form a family-relationship theme (Abuelo = grandfather, Padre = father, Nieto/Nieta = grandson/granddaughter).",
+    "origin_country": "Honduras",
+    "released": "2021-06",
+    "wrapper": "Honduran Habano",
+    "binder": "Honduran Corojo",
+    "filler": "Honduran Corojo",
+    "strength": "Mild-to-medium building to medium"
+  },
+  "vitolas": [
+    {
+      "name": "Nieto",
+      "size": "5 x 50 (Robusto)",
+      "sources": [
+        "https://halfwheel.com/abuelo-nieto/399923/"
+      ]
+    },
+    {
+      "name": "Nieta",
+      "size": "5.25 x 44 (sources conflict: 44 vs 46)",
+      "sources": [
+        "https://unitedcigargroup.com/abuelo/"
+      ]
+    },
+    {
+      "name": "Padre",
+      "size": "6 x 52 (Toro)",
+      "sources": [
+        "https://cigar-coop.com/2021/10/cigar-review-abuelo-padre-by-united-cigar.html"
+      ]
+    },
+    {
+      "name": "Gran Abuelo",
+      "size": "6.5 x 60 (Gordo)",
+      "sources": [
+        "https://unitedcigargroup.com/abuelo/"
+      ]
+    }
+  ],
+  "research_notes": "'New Nieta' (folder photo UC-Abuelo_New-Nieta_Box-Open_01.jpg) could not be verified as a distinct vitola from 'Nieta' - likely the same product with updated box art or a re-photograph, not a separate SKU. Not added as its own vitola entry; flagged in image manifest instead. Sold in 20-count boxes.",
+  "research_sources": [
+    "https://halfwheel.com/united-cigars-adds-abuelo-line/395627/",
+    "https://halfwheel.com/abuelo-nieto/399923/",
+    "https://cigar-coop.com/2021/10/cigar-review-abuelo-padre-by-united-cigar.html",
+    "https://unitedcigargroup.com/abuelo/",
+    "https://www.cigarjournal.com/abuelo-a-new-line-from-united-cigars/",
+    "https://www.2guyscigars.com/abuelo-cigars"
+  ]
+}

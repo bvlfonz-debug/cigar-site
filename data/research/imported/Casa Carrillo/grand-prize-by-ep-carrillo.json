@@ -1,0 +1,78 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "Grand Prize by E.P. Carrillo",
+    "slug": "grand-prize-by-ep-carrillo",
+    "wrapper": "Ecuadorian",
+    "binder": "Ecuadorian",
+    "filler": "USA, Ecuador, Nicaragua, Mexico, Dominican Republic (five-country blend)",
+    "strength": null,
+    "release_year": 2016,
+    "background_text": "Debuted at the 2016 IPCPR trade show as part of E.P. Carrillo's new 'Factory Series' - cigars produced at Tabacalera La Alianza but deliberately not carrying the E.P. Carrillo name. Positioned as an affordable, value-priced line."
+  },
+  "vitolas": [
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        24
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6,
+      "ring_gauge": 50,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        24
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Churchill",
+      "slug": "churchill",
+      "length_in": 7,
+      "ring_gauge": 49,
+      "vitola_type": "Churchill",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        24
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Gordo",
+      "slug": "gordo",
+      "length_in": 6,
+      "ring_gauge": 60,
+      "vitola_type": "Gordo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        24
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "'La Alianza Grand Prize' (our Mac folder name) is not the line's true name - it's simply 'Grand Prize by E.P. Carrillo,' a separate 'Factory Series' product made at the Tabacalera La Alianza factory but NOT branded/blended as part of the 'La Alianza' retail line. No numeric critic scores found (Cigar Aficionado blocked direct fetch).",
+  "research_sources": [
+    {
+      "url": "https://cigar-coop.com/2016/08/cigar-news-grand-prize-by-e-p-carrillo-makes-debut-at-2016-ipcpr-trade-show.html",
+      "supports": "blend, vitolas, pricing, box counts, Factory Series origin"
+    }
+  ]
+}

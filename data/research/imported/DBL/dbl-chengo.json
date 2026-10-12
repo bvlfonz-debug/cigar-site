@@ -1,0 +1,36 @@
+{
+  "line": {
+    "name": "DBL Chengo",
+    "slug": "dbl-chengo",
+    "description": "Named after DBL's lead Dominican tobacco farmer; founder Francisco Almonte called it the brand's strongest release to date. Regular production, released May 2025.",
+    "wrapper": "Mexican Habano, or Mexican San Andres Maduro",
+    "binder": "Dominican Republic (variety unconfirmed - one source suggests Sumatra-seed, not corroborated elsewhere)",
+    "filler": "Dominican Republic, T-13 hybrid",
+    "factory": "DBL's own factory, Dominican Republic",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Habano",
+      "size": "6 x 52",
+      "notes": "Matches the Mac photo ('Chen-Mad' is actually the Maduro variant - see below; this entry covers the confirmed single size offered in both wrappers).",
+      "sources": [
+        "https://halfwheel.com/pca-2025-dbl-cigars/450876/",
+        "https://halfwheel.com/dbl-ships-12th-anniversary-chengo/449252/"
+      ]
+    },
+    {
+      "name": "Maduro",
+      "size": "6 x 52",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://halfwheel.com/dbl-ships-12th-anniversary-chengo/449252/"
+      ]
+    }
+  ],
+  "research_notes": "A 3rd Mac photo ('DBL_Cheng-Clar_Box-Open_01.jpg') implies a 'Claro' wrapper variant, but every source found for Chengo's May 2025 launch lists only Habano and Maduro - no Claro/Connecticut/Natural variant confirmed anywhere. NOT added as a confirmed wrapper variant - see _dbl-chengo-clar-UNRESOLVED.json.",
+  "research_sources": [
+    "https://halfwheel.com/pca-2025-dbl-cigars/450876/",
+    "https://halfwheel.com/dbl-ships-12th-anniversary-chengo/449252/"
+  ]
+}

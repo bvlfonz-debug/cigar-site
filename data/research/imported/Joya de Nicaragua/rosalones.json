@@ -1,0 +1,103 @@
+{
+  "line": {
+    "brand_slug": "joya-de-nicaragua",
+    "name": "Joya de Nicaragua Rosalones (CT)",
+    "slug": "rosalones",
+    "wrapper": "Ecuador Connecticut-seed",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": "Mild",
+    "release_year": 2026,
+    "background_text": "Rosalones is one of Joya de Nicaragua's original, longest-running brands, historically sold mainly in European markets. In 2026 JDN brought Rosalones to the U.S. market for the first time as \"Rosalones CT,\" a Connecticut-seed-wrapped, milder entry in the Rosalones family, alongside the darker Rosalones Reserva. Older international packagings of the base Rosalones/Rosalones Auténticos line (predating the 2026 U.S. launch) used a Habano-seed Colorado Maduro wrapper and different vitola naming (e.g., \"552,\" \"448 Consul\"), suggesting the blend/wrapper has varied by market and over time."
+  },
+  "vitolas": [
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [
+        "woody",
+        "refined spice",
+        "earth",
+        "pepper",
+        "coffee"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "448 Consul (legacy/international sizing)",
+      "slug": "448-consul",
+      "length_in": 4.7,
+      "ring_gauge": 48,
+      "vitola_type": "Robusto",
+      "summary_review": "Blind Man's Puff rated this a Very Good 90/100, with strong draw, wavy-but-self-correcting burn, and medium-strong/medium-full body.",
+      "tasting_notes": [
+        "pepper",
+        "chocolate",
+        "deep earth",
+        "black pepper",
+        "bittersweet cocoa",
+        "charred flavors",
+        "coffee base",
+        "bittersweet chocolate finish"
+      ],
+      "smoke_time_min": 66,
+      "box_counts": [],
+      "critic_reviews": [
+        {
+          "source_name": "Blind Man's Puff",
+          "source_type": "critic",
+          "score": 90,
+          "score_scale": "100",
+          "review_date": null,
+          "url": "https://blindmanspuff.com/blind-cigar-review-joya-de-nicaragua-rosalones-448-consul/",
+          "key_notes_text": "Wrapper listed as Nicaraguan Criollo, binder Habano, filler Nicaraguan (differs from 2026 U.S. Rosalones CT spec) - likely an earlier/international Rosalones batch."
+        }
+      ]
+    }
+  ],
+  "research_notes": "IMPORTANT AMBIGUITY: sources show at least two versions of 'Rosalones' over time - an older/international line (vitola codes like '448 Consul'/'552 Auténticos', wrapper listed variously as Nicaraguan Criollo or Habano 2000 Colorado Maduro) and the newly launched (2026) U.S. 'Rosalones CT' with a Connecticut-seed Ecuador wrapper, Robusto/Toro sizes, boxes of 20. Treated as the same brand family but flagged as a possible historical/market variation rather than fabricated as identical.",
+  "research_sources": [
+    {
+      "url": "https://joyacigars.com/cigars/rosalones-ct/",
+      "supports": "Current official wrapper/binder/filler, strength, Robusto/Toro sizes, background text"
+    },
+    {
+      "url": "https://halfwheel.com/joya-de-nicaragua-shipping-red-white-blue-new-rosalones-lines-tomorrow/472719/",
+      "supports": "2026 U.S. launch confirmation, box counts (20), pricing, wrapper distinction vs. Reserva"
+    },
+    {
+      "url": "https://www.cigaraficionado.com/article/joya-de-nicaragua-rosalones-coming-to-u-s-market",
+      "supports": "Confirms CT vs Reserva as distinct blends, milder vs medium-bodied, sizes, box counts of 20"
+    },
+    {
+      "url": "https://blindmanspuff.com/blind-cigar-review-joya-de-nicaragua-rosalones-448-consul/",
+      "supports": "Legacy Rosalones 448 Consul review"
+    },
+    {
+      "url": "https://cigarsmokerclub.com/en/product/joya-de-nicaragua-rosalones-autenticos-552/",
+      "supports": "Legacy Rosalones Auténticos 552 spec"
+    }
+  ]
+}

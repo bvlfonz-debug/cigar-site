@@ -1,0 +1,38 @@
+{
+  "line": {
+    "name": "Diamond Crown",
+    "slug": "diamond-crown",
+    "description": "Not on the site. J.C. Newman's flagship prestige/long-aged Dominican line, originally introduced over a century ago and reintroduced in 1995 for the company's centennial. Made at Tabacalera A. Fuente y Cia using double-fermented, long-aged Connecticut Shade wrapper. (Note: I could not verify a claimed Ernesto Perez-Carrillo connection to this line - flagging as unconfirmed rather than stating it as fact; may be a conflation with a different J.C. Newman collaboration.)",
+    "wrapper": "Connecticut Shade (double-fermented, long-aged)",
+    "binder": "Dominican",
+    "filler": "Multi-country",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "No. 4",
+      "size": "5.5 x 54",
+      "sources": [
+        "https://www.jcnewman.com/diamond-crown-cigars/",
+        "https://www.neptunecigar.com/cigars/diamond-crown-robusto-no-4"
+      ]
+    },
+    {
+      "name": "No. 5",
+      "size": "4.5 x 54",
+      "sources": [
+        "https://www.jcnewman.com/diamond-crown-cigars/",
+        "https://lmcigars.com/product/diamond-crown-classic-no-5/"
+      ]
+    }
+  ],
+  "not_added_flag": {
+    "photo": "DiamondCrown_3-Pack-2024_Group_01.jpg",
+    "issue": "This photo depicts the real 'Diamond Crown 2024 Holiday Collection 3-Cigar Sampler with Leather Case' - but that sampler contains 2x Diamond Crown Cameroon Belicoso + 1x Diamond Crown MAXIMUS Belicoso (both 6.75x54), NOT the No.4/No.5 vitolas also photographed. Not added as a vitola entry since it's a mixed sampler of different sub-lines (Cameroon, MAXIMUS) not otherwise researched here; flagging its real identity for your awareness. Exact price/release date unverifiable."
+  },
+  "research_notes": "The Classic line's full size range per jcnewman.com: No.2 (7.5x54), No.3 (6.5x54), No.4 (5.5x54), No.5 (4.5x54), No.6 (6x64), No.7 (6.75x54), No.8 (5x58), No.9 (6x50) - no 'No.1' appears in current listings, possibly retired. Only No.4 and No.5 were photographed on the Mac, so only those are added as formal vitola entries here.",
+  "research_sources": [
+    "https://www.jcnewman.com/diamond-crown-cigars/",
+    "https://www.neptunecigar.com/cigars/diamond-crown-holiday-collection-2024-3-cigar-sampler-with-leather-case"
+  ]
+}

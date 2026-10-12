@@ -1,0 +1,107 @@
+{
+  "brand": "Montecristo",
+  "batch_date": "2026-09-30",
+  "mac_source_root": "Cigar Images/Montecristo",
+  "note": "Montecristo was part of the Altadis USA distributor-umbrella reorganization; its folder was already top-level (with some loose files merged in from the old Altadis USA/Montecristo subfolder). No file renames were needed in this batch - existing filenames were already clear enough to map to lines.",
+  "mappings": [
+    {
+      "json_file": "montecristo-1935-anniversary.json",
+      "line_slug": "montecristo-1935-anniversary",
+      "mac_folder": "Cigar Images/Montecristo/Montecristo 1935 Anniversary",
+      "files": [
+        "Montecristo_1935-Anniversary_01.png",
+        "Montecristo_1935-Anniversary_Box-Open_01.jpg",
+        "Montecristo_1935-Dia-Tor_01.jpg",
+        "Montecristo_1935_Edicion-Diamante_01.png",
+        "Montecristo_1935_Edicion-Diamante_Box-Open_01.jpg"
+      ],
+      "notes": "Montecristo_1935-Dia-Tor_01.jpg = Edicion Doble Diamante Toro (the one confirmed Doble Diamante vitola)."
+    },
+    {
+      "json_file": "_montecristo-classic-additional-vitolas.json",
+      "line_slug": "montecristo-classic",
+      "mac_folder": "Cigar Images/Montecristo/Montecristo Classic",
+      "files": [
+        "Montecristo_Clas-2_01.jpg",
+        "Montecristo_Classic-Series_01.png",
+        "Montecristo_Classic_Toro_Box-Open_01.png"
+      ],
+      "notes": "Classic already exists on the site (Churchill, Especial No.1, No.2 Torpedo, Robusto). 'Montecristo_Classic_Toro_Box-Open_01.png' is the evidence for the flagged Toro addition. 'Clas-2' is presumed to depict one of the already-listed vitolas (likely No.2 Torpedo) - not independently re-verified since it's not a gap."
+    },
+    {
+      "json_file": "montecristo-espada.json",
+      "line_slug": "montecristo-espada",
+      "mac_folder": "Cigar Images/Montecristo/Montecristo Espada",
+      "files": [
+        "Montecristo_Espada-Oscuro_01.png",
+        "Montecristo_Espada-Oscuro_Box-Open_01.jpg",
+        "Montecristo_Espada-Signature_01.png",
+        "Montecristo_Espada-Signature_Box-Open_01.jpg",
+        "Montecristo_Espada_Box-Open_01.jpg"
+      ],
+      "notes": "Covers all 3 Espada sub-lines (original, Oscuro, Signature) found in the Mac folder."
+    },
+    {
+      "json_file": "montecristo-m.json",
+      "line_slug": "montecristo-m",
+      "mac_folder": "Cigar Images/Montecristo/Montecristo M",
+      "files": [
+        "Montecristo_M_Toro_01.png",
+        "Montecristo_M_Toro_Box-Open_01.jpg"
+      ],
+      "notes": "Toro vitola matches the photographed product directly."
+    },
+    {
+      "json_file": "montecristo-nicaragua-series.json",
+      "line_slug": "montecristo-nicaragua-series",
+      "mac_folder": "Cigar Images/Montecristo/Montecristo Nicaragua Series",
+      "files": [
+        "Montecristo_Nicaragua-Series_01.png",
+        "Montecristo_Nicaragua-Series_Box-Open_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "montecristo-platinum.json",
+      "line_slug": "montecristo-platinum",
+      "mac_folder": "Cigar Images/Montecristo/Montecristo Platinum",
+      "files": [
+        "Montecristo_Platinum_01.png",
+        "Montecristo_Platinum_Box-Open_01.png"
+      ],
+      "notes": null
+    }
+  ],
+  "not_added": [
+    {
+      "mac_folder": "Cigar Images/Montecristo/Montecristo Original",
+      "files": [
+        "Montecristo_Original_01.png",
+        "Montecristo_Original_Box-Open_01.jpg"
+      ],
+      "reason": "See not_added_flag in _montecristo-classic-additional-vitolas.json - could not confirm this is a distinct line from Classic rather than the same product under an informal name. Left un-mapped to any output JSON pending clearer differentiation."
+    }
+  ],
+  "already_on_site_no_action": [
+    {
+      "mac_folder": "Cigar Images/Montecristo/Montecristo Epic",
+      "files": [
+        "1590614877957-AUSA_Montecristo_Epic_logo_700x700.png",
+        "Montecristo_Epic-Vintage12_01.png",
+        "Montecristo_Epic-Vintage12_Box-Open_01.jpg",
+        "Montecristo_Epic_01.png",
+        "Montecristo_Epic_Toro_Box-Open_01.jpg"
+      ],
+      "reason": "Epic is already listed on the site; photos appear consistent with already-catalogued vitolas (Toro, Vintage No.12). No gap identified, no JSON produced."
+    },
+    {
+      "mac_folder": "Cigar Images/Montecristo/Montecristo White Series",
+      "files": [
+        "1512486079335-Montecristo-Artisan-Series-Batch-II-1264-x-1170.jpg",
+        "Montecristo_White-Series_02.png",
+        "Montecristo_White-Series_Toro_Box-Open_01.png"
+      ],
+      "reason": "White Series already listed on the site; Toro matches an existing catalogued vitola. The 'Artisan Series Batch II' file is a separate limited release not independently researched in this pass - flagged for a future batch rather than guessed at."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "line": {
+    "brand_slug": "joya-de-nicaragua",
+    "name": "Flor de Nicaragua Ventus Aurum",
+    "slug": "flor-de-nicaragua-ventus-aurum",
+    "wrapper": "Nicaraguan Colorado Claro (Habano seed)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan (Habano seed, grown in Estelí and Jalapa)",
+    "strength": "Medium-Full",
+    "release_year": null,
+    "background_text": "Ventus Aurum is a tier within Joya de Nicaragua's Flor de Nicaragua brand, one of JDN's oldest lines, historically sold mainly in northern Europe/Spain rather than the U.S. market. It uses tobaccos grown in the selected valleys of Estelí and Jalapa in northern Nicaragua. It does not appear to have been reviewed or distributed by major U.S. outlets and could not be confirmed on JDN's official U.S. site."
+  },
+  "vitolas": [
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        27
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Magnum 52",
+      "slug": "magnum-52",
+      "length_in": null,
+      "ring_gauge": 52,
+      "vitola_type": "Magnum",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Could NOT verify 'Canon' or 'Corona' vitolas (photographed in our library) for this line from any source - only Robusto and Magnum 52 were confirmed to exist. No critic reviews found for this line - appears to be a Spain/Europe-market-only product not covered by major English-language cigar press. Exact length for Magnum vitola, release year, and any scored reviews are unverified - left null/empty. RECOMMEND: double-check the 'Canon' and 'Corona' vitola photos against Magnum 52/Robusto in case of a naming mismatch.",
+  "research_sources": [
+    {
+      "url": "https://cometcigars.com/articulo/5093",
+      "supports": "Brand/line name, Robusto vitola, wrapper/binder/filler, strength, box count of 27, origin region"
+    },
+    {
+      "url": "https://smediacigarpicturesads.wordpress.com/2017/12/01/flor-de-nicaragua-ventus-aurum-robusto/",
+      "supports": "Confirms brand/line name and Robusto vitola existence"
+    },
+    {
+      "url": "https://www.vanlookeren.com/shop/flor-nicaragua-ventus-aurum-magnum-52/",
+      "supports": "Confirms existence of a Magnum 52 vitola (title only)"
+    },
+    {
+      "url": "https://joyacigars.com/cigars/flor-de-nicaragua/",
+      "supports": "Confirms Flor de Nicaragua as an official JDN brand line, general context"
+    }
+  ]
+}

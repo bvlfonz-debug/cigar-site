@@ -1,0 +1,26 @@
+{
+  "note": "Supplementary file - NOT a new line. 'Signature Selection' already exists on the site (Belicoso 6.25x52, Toro 6x52, presumably an unstated Habano/Natural wrapper). Adding a genuine separate wrapper expression and an additional vitola.",
+  "line_name": "Signature Selection",
+  "additional_vitolas": [
+    {
+      "name": "Signature Corojo (wrapper variant)",
+      "sizes": [
+        "Robusto 5x52",
+        "Toro 6x52",
+        "Torpedo/109 6.25x52",
+        "Corona Gorda 6x44"
+      ],
+      "notes": "Sold as 'Signature Corojo', a distinct SKU (paired with a separate 'Signature Maduro') per aganorsaleaf.com, containing rare medio tiempo filler leaf - not just a wrapper implied by plain 'Signature Selection'."
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 52",
+      "notes": "Confirmed additional vitola across multiple retailers (Neptune Cigar, Atlantic Cigar, Cigars Daily, Paladin Cigars, Mardo Cigars), available in both plain and Corojo/Maduro versions."
+    }
+  ],
+  "research_sources": [
+    "https://aganorsaleaf.com/cigars/aganorsa-leaf-signature-corojo/",
+    "https://www.neptunecigar.com/cigars/aganorsa-leaf-signature-selection-robusto",
+    "https://atlanticcigar.com/aganorsa-leaf-signature-selection-corojo-robusto-5x52/"
+  ]
+}

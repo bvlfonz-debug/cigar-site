@@ -1,0 +1,138 @@
+{
+  "line": {
+    "brand_slug": "rocky-patel",
+    "name": "Gold Label",
+    "slug": "gold-label",
+    "wrapper": "Ecuadorian Habano",
+    "binder": "Connecticut Broadleaf and Connecticut Shade (dual binder)",
+    "filler": "Nicaraguan (Esteli and Jalapa)",
+    "strength": "Medium-Full",
+    "release_year": 2024,
+    "background_text": "Gold Label debuted at the 2024 PCA Trade Show as part of Rocky Patel's newer 'precious metals and stones'-themed lineup, positioned as a more affordable, approachable option relative to his premium-tier blends. It pairs an Ecuadorian Habano wrapper with a dual Connecticut binder over Nicaraguan long fillers, and is made at Tabacalera Villa Cuba S.A. in Esteli, Nicaragua."
+  },
+  "vitolas": [
+    {
+      "size_name": "Petite Corona",
+      "slug": "petite-corona",
+      "length_in": 3.5,
+      "ring_gauge": 46,
+      "vitola_type": "Petit Corona",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Robusto",
+      "slug": "robusto",
+      "length_in": 5.5,
+      "ring_gauge": 50,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6.5,
+      "ring_gauge": 54,
+      "vitola_type": "Toro (box-pressed)",
+      "summary_review": "Halfwheel found the Toro an easy-drinking but uncomplex 'session cigar' with toast, leather, black pepper and coffee notes; a later aged-sample redux review rated it higher for added complexity, and Cigar Coop rated it similarly, noting a sour, unripe-raisin note in the final third.",
+      "tasting_notes": [
+        "toast",
+        "leather",
+        "black pepper",
+        "coffee",
+        "earth",
+        "cocoa"
+      ],
+      "smoke_time_min": 150,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Halfwheel",
+          "source_type": "critic",
+          "score": 86,
+          "score_scale": 100,
+          "review_date": "2024-10",
+          "url": "https://halfwheel.com/rocky-patel-gold-label-toro/443768/",
+          "key_notes_text": "Original review found toastiness/terroir-dominant flavors of burnt toast, leather, black pepper and coffee, calling it a consistent but uncomplex 'session cigar' lasting roughly 2.5-3+ hours."
+        },
+        {
+          "source_name": "Halfwheel",
+          "source_type": "critic",
+          "score": 89,
+          "score_scale": 100,
+          "review_date": "2026-03",
+          "url": "https://halfwheel.com/rocky-patel-gold-label-toro-2/464909/",
+          "key_notes_text": "A redux review of an aged sample noted woodiness, potato, Worcestershire-like savoriness, cardamom, honey, graham cracker and creamy bread retrohales, with improved complexity versus the fresh cigar."
+        },
+        {
+          "source_name": "Cigar Coop",
+          "source_type": "critic",
+          "score": 88,
+          "score_scale": 100,
+          "review_date": "2025-02",
+          "url": "https://cigar-coop.com/2025/02/rocky-patel-gold-label-toro-cigar-review.html",
+          "key_notes_text": "Rated 'Try a Sample' with cocoa, raisin, earth, cedar, mineral and pepper notes; strong first two-thirds followed by a sour, unripe-raisin quality in the final third."
+        }
+      ]
+    },
+    {
+      "size_name": "Sixty",
+      "slug": "sixty",
+      "length_in": 6.0,
+      "ring_gauge": 60,
+      "vitola_type": "Gordo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_sources": [
+    {
+      "source_name": "Rocky Patel Premium Cigars (official site)",
+      "source_url": "https://www.rockypatel.com/cigar/gold-label/",
+      "fact_note": "Gold Label wrapper/binder/filler description and marketing positioning"
+    },
+    {
+      "source_name": "Halfwheel",
+      "source_url": "https://halfwheel.com/rocky-patel-gold-label-toro/443768/",
+      "fact_note": "Gold Label Toro original review"
+    },
+    {
+      "source_name": "Halfwheel",
+      "source_url": "https://halfwheel.com/rocky-patel-gold-label-toro-2/464909/",
+      "fact_note": "Gold Label Toro redux/aged review"
+    },
+    {
+      "source_name": "Cigars International",
+      "source_url": "https://www.cigarsinternational.com/product/rocky-patel-gold-label/RP4-PM.html",
+      "fact_note": "Gold Label vitola list with dimensions and box counts"
+    },
+    {
+      "source_name": "Famous Smoke Cigar Advisor",
+      "source_url": "https://www.famous-smoke.com/cigaradvisor/cigar-reviews/quick-ash-rocky-patel-gold-label",
+      "fact_note": "Gold Label wrapper/binder/filler, strength, tasting notes"
+    },
+    {
+      "source_name": "Cigar Coop",
+      "source_url": "https://cigar-coop.com/2025/02/rocky-patel-gold-label-toro-cigar-review.html",
+      "fact_note": "Gold Label release timing, strength, tasting notes, vitola list, score"
+    }
+  ]
+}

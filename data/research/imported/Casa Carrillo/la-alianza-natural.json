@@ -1,0 +1,78 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "Tabacalera La Alianza Natural",
+    "slug": "la-alianza-natural",
+    "wrapper": "Ecuadorian Natural",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": null,
+    "release_year": 2016,
+    "background_text": "Introduced at the 2016 IPCPR trade show, one of two wrapper variants (alongside Rosado) in the Tabacalera La Alianza brand, built around Ernesto Perez-Carrillo's namesake Dominican factory."
+  },
+  "vitolas": [
+    {
+      "size_name": "Sabrosos",
+      "slug": "sabrosos",
+      "length_in": 5,
+      "ring_gauge": 50,
+      "vitola_type": "Corona Gorda",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Robusto Selecto",
+      "slug": "robusto-selecto",
+      "length_in": 5,
+      "ring_gauge": 52,
+      "vitola_type": "Robusto",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Gran Toro",
+      "slug": "gran-toro",
+      "length_in": 6,
+      "ring_gauge": 54,
+      "vitola_type": "Toro",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Grandioso",
+      "slug": "grandioso",
+      "length_in": 6,
+      "ring_gauge": 60,
+      "vitola_type": "Gordo",
+      "summary_review": null,
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Genuinely distinct blend from La Alianza Rosado (different wrapper, different vitola set), both under the shared 'Tabacalera La Alianza' brand. Unrelated in blend to Grand Prize. No critic scores retrieved in this pass.",
+  "research_sources": [
+    {
+      "url": "https://cigar-coop.com/2016/08/cigar-news-e-p-carrillo-introduces-la-alianza-line-at-2016-ipcpr-trade-show.html",
+      "supports": "blend, vitola, box-count details"
+    }
+  ]
+}

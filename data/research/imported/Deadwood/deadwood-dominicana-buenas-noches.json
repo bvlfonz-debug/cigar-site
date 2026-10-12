@@ -1,0 +1,30 @@
+{
+  "line": {
+    "name": "Deadwood Dominicana Buenas Noches",
+    "slug": "deadwood-dominicana-buenas-noches",
+    "description": "DECODE: 'Dom-Noche-Gor' = Dominicana Buenas Noches Gordo. 'Dominicana' is a distinct sub-line departing from Deadwood's usual Nicaraguan-tobacco blends toward Dominican-puro-oriented tobacco. Revealed as the mystery cigar at a 2025 'Freestyle Live' event.",
+    "wrapper": null,
+    "binder": null,
+    "filler": null,
+    "factory": null,
+    "status": "current (released 2025)"
+  },
+  "vitolas": [
+    {
+      "name": "Gordo (Buenas Noches, 'good night')",
+      "size": "6 x 60",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://mikescigars.com/deadwood-dominicana-buenas-noches-gordo",
+        "https://www.coronacigar.com/deadwood-dominicana-buenas-noches-gordo/"
+      ]
+    }
+  ],
+  "research_notes": "Full blend composition (wrapper/binder/filler) and factory not found in sources checked - left null rather than guessed.",
+  "research_sources": [
+    "https://mikescigars.com/deadwood-dominicana-buenas-noches-gordo",
+    "https://www.coronacigar.com/deadwood-dominicana-buenas-noches-gordo/",
+    "https://halfwheel.com/drew-estates-deadwood-dominicana-buenas-noches-coming-this-month/467355/",
+    "https://cigar-coop.com/2025/04/deadwood-dominicana-revealed-as-freestyle-live-mystery-cigar-cigar-news.html"
+  ]
+}

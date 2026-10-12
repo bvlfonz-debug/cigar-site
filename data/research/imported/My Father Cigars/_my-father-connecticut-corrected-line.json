@@ -1,0 +1,37 @@
+{
+  "note": "FLAGGED FOR REVIEW, not a straightforward merge. The Mac's 'My Father Connecticut' folder photos are, per research, definitively 'Jaime Garcia Reserva Especial Connecticut' - a line released nationally in August 2024 (wrapper/binder/filler/vitola specs below match that release, not the site's existing 'My Father Connecticut' entry of Toro 6.5x54). There is also a separate, older 'My Father Connecticut' line that has been reviewed since 2014 (kohnhed.com/2014/08/08/my-father-connecticut-cigar-review/), which also does not match the site's 6.5x54 Toro spec cleanly. I could not confidently determine whether the site's existing entry is: (a) a garbled version of the 2014 standalone line, (b) a garbled version of the 2024 Jaime Garcia R.E. Connecticut, or (c) an entirely separate third product. Recommend manually reviewing the site's source for that entry before deciding how to correct it. The data below describes the product the Mac's actual photos depict: Jaime Garcia Reserva Especial Connecticut.",
+  "likely_correct_line": {
+    "name": "Jaime Garcia Reserva Especial Connecticut",
+    "slug": "jaime-garcia-reserva-especial-connecticut",
+    "description": "Connecticut Shade-wrapped expression of Jaime Garcia Reserva Especial, released nationally in August 2024.",
+    "wrapper": "Ecuadorian Connecticut Shade",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua",
+    "strength": "Mild to medium",
+    "release_year": 2024,
+    "vitolas": [
+      {
+        "name": "Robusto",
+        "size": "5 x 50"
+      },
+      {
+        "name": "Toro",
+        "size": "6 x 54"
+      },
+      {
+        "name": "Toro Gordo",
+        "size": "6 x 60"
+      },
+      {
+        "name": "Churchill",
+        "size": "7 x 50"
+      }
+    ]
+  },
+  "research_sources": [
+    "https://cigar-coop.com/2024/08/",
+    "https://myfathercigars.com/cigar/jaime-garcia-r-e-connecticut/",
+    "https://holts.com",
+    "https://kohnhed.com/2014/08/08/my-father-connecticut-cigar-review/"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "line_slug": "illusione-r-rothchildes",
+  "note": "The site lists one vitola, 'Rothschild' (4.5x50), with no wrapper specified. Research strongly suggests this unqualified listing is the original/base Mexican San Andres (maduro) blend, which is the same wrapper as the Mac's photos labeled 'Maduro' - so no new vitola is added for that variant, just this note. The Connecticut-wrapper edition, however, is a confirmed genuinely separate 2016 release and is added below. No source found lists any Rothchildes vitola beyond 4.5x50 in any wrapper.",
+  "additional_vitolas": [
+    {
+      "name": "Connecticut",
+      "size": "4.5 x 50",
+      "notes": "Ecuadorian Connecticut Shade wrapper, debuted at 2016 IPCPR.",
+      "sources": [
+        "cigar-coop.com/2016/09/cigar-news-illusione-rothchildes-ct-and-gigantes-ct-debut-at-2016-ipcpr.html",
+        "halfwheel.com/illusione-rothchildes-ct-2/213139/",
+        "atlanticcigar.com/illusione-r-rothchildes-connecticut-4-1-2x50/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://cigar-coop.com/2016/09/cigar-news-illusione-rothchildes-ct-and-gigantes-ct-debut-at-2016-ipcpr.html",
+    "https://halfwheel.com/illusione-rothchildes-ct-2/213139/",
+    "https://atlanticcigar.com/illusione-r-rothchildes-connecticut-4-1-2x50/",
+    "https://cigar-coop.com/2013/03/cigar-review-illusione-rothchildes.html",
+    "https://www.famous-smoke.com/illusione-rothchildes-cigars-maduro"
+  ]
+}

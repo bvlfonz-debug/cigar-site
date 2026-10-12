@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "JFR",
+    "slug": "jfr",
+    "description": "Not on the site at all - confirmed absent from the site's full 112-brand index. 'JFR' stands for 'Just For Retailers' - originally created to be sold only through brick-and-mortar retailers, no big-box/online-only distribution, which plausibly explains its absence from a general review-site index despite being well-documented by halfwheel, Cigar Coop, and Cigar Aficionado. Historically associated with Casa Fernandez (2013-2016 era sourcing); current (2025) sourcing attributes it to Aganorsa Leaf as a bestselling house brand. Both are Fernandez-family Nicaraguan tobacco operations; no source explicitly narrates the handoff between them, so that transition is noted as an inference, not a confirmed fact.",
+    "founded": 2005,
+    "founded_note": null,
+    "origin_country": "Nicaragua (Esteli)",
+    "distributor": "Aganorsa Leaf (current); historically Casa Fernandez",
+    "status": "current"
+  },
+  "line": {
+    "name": "JFR 20th Anniversary",
+    "slug": "jfr-20th-anniversary",
+    "description": "A regular-production line celebrating 20 years of the JFR brand (2005-2025), released by Aganorsa Leaf in 2025. Box-pressed, pigtail cap, covered foot, boxes of 21.",
+    "wrapper": "Mexican San Andres Maduro",
+    "binder": "Nicaraguan (Aganorsa farms)",
+    "filler": "Nicaraguan (Aganorsa farms)",
+    "factory": "Aganorsa Leaf factory, Esteli, Nicaragua",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Gordito",
+      "size": "4.75 x 70, box-pressed",
+      "notes": "Matches the Mac photo ('470' filename code = 4.75x70).",
+      "sources": [
+        "https://halfwheel.com/jfr-20th-anniversary-gordito/454109/"
+      ]
+    },
+    {
+      "name": "770",
+      "size": "7 x 70, box-pressed",
+      "notes": "Matches the Mac photo. No separate marketing name beyond '770' found in sourcing.",
+      "sources": [
+        "https://cigar-coop.com/2025/03/aganorsa-leaf-to-release-jfr-20th-anniversary-cigar-news.html"
+      ]
+    },
+    {
+      "name": "Titan",
+      "size": "6 x 60, box-pressed",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://cigardojo.com/2025/03/aganorsa-leaf-marks-20-years-of-jfr-with-new-cigar-line/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6.5 x 52, box-pressed",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.jrcigars.com/item/jfr-20th-anniversary/maduro-770-bp/JFR20770.html"
+      ]
+    }
+  ],
+  "research_notes": "A 5th Mac photo, 'JFR_20-St_01.jpg', could not be matched to any vitola in the confirmed 4-size 20th Anniversary lineup - see _jfr-UNRESOLVED.json. Not added as a vitola here.",
+  "research_sources": [
+    "https://cigar-coop.com/2025/03/aganorsa-leaf-to-release-jfr-20th-anniversary-cigar-news.html",
+    "https://cigar-coop.com/2025/11/jfr-20th-anniversary-toro-by-aganorsa-leaf-cigar-review.html",
+    "https://halfwheel.com/jfr-20th-anniversary-gordito/454109/",
+    "https://cigardojo.com/2025/03/aganorsa-leaf-marks-20-years-of-jfr-with-new-cigar-line/",
+    "https://www.jrcigars.com/item/jfr-20th-anniversary/maduro-770-bp/JFR20770.html",
+    "https://cigarinspector.com/?p=83890"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "line": {
+    "name": "Romeo y Julieta Reserve",
+    "slug": "romeo-y-julieta-reserve",
+    "description": "Not on the site. A genuinely distinct line from the site's existing 'Reserva Real' (which is Dominican-made) - Reserve is made in Honduras, confirming a different product rather than a naming variant. Medium-to-full body, a notable departure from RyJ's traditionally milder profile. FLAG: one retailer (Atlantic Cigar) lists the same Churchill vitola under the name 'Romeo y Julieta Habana Reserve Churchill' - likely a retailer naming variant rather than a 4th distinct product, but not confirmed which name Altadis itself uses officially.",
+    "wrapper": "Habano (Nicaraguan)",
+    "binder": "Nicaraguan",
+    "filler": "Honduran/Nicaraguan",
+    "origin": "Honduras",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Corona",
+      "size": "5.6 x 45",
+      "sources": [
+        "https://www.cigarsinternational.com/p/romeo-y-julieta-reserve-cigars/1411947/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 54",
+      "sources": [
+        "https://www.cigarsinternational.com/p/romeo-y-julieta-reserve-cigars/1411947/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 56",
+      "sources": [
+        "https://www.cigarsinternational.com/p/romeo-y-julieta-reserve-cigars/1411947/"
+      ]
+    },
+    {
+      "name": "Belicoso",
+      "size": "6.1 x 52",
+      "sources": [
+        "https://www.cigarsinternational.com/p/romeo-y-julieta-reserve-cigars/1411947/"
+      ]
+    },
+    {
+      "name": "Churchill",
+      "size": "7 x 54",
+      "notes": "Matches the Mac photo. Cigar Aficionado has reviewed this vitola across multiple years (2014-2018), confirming an established, recurring SKU.",
+      "sources": [
+        "https://www.cigarsinternational.com/p/romeo-y-julieta-reserve-cigars/1411947/",
+        "https://www.cigaraficionado.com/ratings/18740/name/romeo-y-julieta-reserve-churchill"
+      ]
+    },
+    {
+      "name": "Toro BP",
+      "size": "6 x 50",
+      "sources": [
+        "https://www.cigarsinternational.com/p/romeo-y-julieta-reserve-cigars/1411947/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.cigarsinternational.com/p/romeo-y-julieta-reserve-cigars/1411947/",
+    "https://www.cigaraficionado.com/ratings/18740/name/romeo-y-julieta-reserve-churchill"
+  ]
+}

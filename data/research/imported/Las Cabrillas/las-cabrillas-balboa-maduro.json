@@ -1,0 +1,39 @@
+{
+  "brand": {
+    "name": "Las Cabrillas",
+    "slug": "las-cabrillas",
+    "description": "Not on the site at all - confirmed absent from the site's full brand index. Line named after New World explorers (Balboa, De Soto, Cortez, Columbus, Vasco De Gama). Uses an unusual-for-Honduras all-Mexican binder/filler tobacco (San Andres/Tuxtla Valley) while being rolled in Honduras - retailers describe this combination as rare. No source gives a founding date or founder; multiple retailers describe it only as a 'long-standing' brand with 'a loyal following dating back many years' and 'best seller for over two decades.' Two wrapper treatments exist brand-wide: Natural (Connecticut Shade) and Maduro (San Andres).",
+    "founded": null,
+    "founded_note": "No founding date found - described only vaguely as long-standing (20+ years) by retailers.",
+    "origin_country": "Honduras (rolled); Mexico (binder and filler tobacco - San Andres/Tuxtla Valley)",
+    "distributor": "Altadis USA",
+    "status": "current"
+  },
+  "line": {
+    "name": "Las Cabrillas Balboa",
+    "slug": "las-cabrillas-balboa",
+    "description": "Medium-bodied; flavor notes of earth, black pepper, cocoa. FLAG: wrapper identity conflicts across sources (see wrapper field).",
+    "wrapper": "San Andres (Mexico) per one retailer (Mike's Cigars spec); a JR Cigars blending-room article instead describes it as 'Connecticut Broadleaf maduro' for the same product - CONFLICT, not resolved.",
+    "binder": "Mexican (San Andres/Tuxtla Valley)",
+    "filler": "Mexican, all-long-filler",
+    "factory": "Honduras",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Maduro (Churchill shape)",
+      "size": "UNVERIFIED - no retailer lists exact length x ring gauge for the Maduro specifically. Matches the Mac photo, labeled 'Maduro.' The Natural version of this same vitola is confirmed at 7.5x54; a JR blending-room article calls the Maduro a 'medium-bodied Churchill' implying a similar size, but no page states the Maduro's dimensions directly.",
+      "sources": [
+        "https://www.jrcigars.com/blending-room/?p=5382",
+        "https://www.neptunecigar.com/cigars/las-cabrillas-natural-balboa"
+      ]
+    }
+  ],
+  "research_notes": "Only 'Balboa' (Natural, confirmed 7.5x54) and 'Balboa Maduro' (size unlisted) were found - no additional Balboa sub-sizes identified anywhere.",
+  "research_sources": [
+    "https://www.jrcigars.com/blending-room/?p=5382",
+    "https://mikescigars.com/brands/las-cabrillas?binder=769",
+    "https://www.neptunecigar.com/cigars/las-cabrillas-natural-balboa",
+    "https://www.jrcigars.com/brand/las-cabrillas"
+  ]
+}

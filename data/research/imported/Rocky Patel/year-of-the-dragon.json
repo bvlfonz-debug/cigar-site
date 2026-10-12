@@ -1,0 +1,63 @@
+{
+  "line": {
+    "brand_slug": "rocky-patel",
+    "name": "Year of the Dragon",
+    "slug": "year-of-the-dragon",
+    "wrapper": "Mexican San Andres",
+    "binder": "Honduran and Nicaraguan (dual binder)",
+    "filler": "All-Nicaraguan (Rocky Patel-grown, aged since 2014)",
+    "strength": "Medium-Full",
+    "release_year": 2024,
+    "background_text": "Year of the Dragon was Rocky Patel's inaugural entry into a new Chinese Zodiac-themed limited-edition series, released for Chinese New Year 2024 to honor the dragon as a symbol of power, strength, and prosperity. The blend pairs a Mexican San Andres wrapper with dual Honduran/Nicaraguan binders over all-Nicaraguan filler tobacco aged since 2014, produced at Rocky Patel's TAVICUSA factory in Nicaragua. Limited to 6,000 ten-count boxes for the U.S. market with red-and-gold packaging honoring the Chinese New Year aesthetic."
+  },
+  "vitolas": [
+    {
+      "size_name": "Toro",
+      "slug": "toro",
+      "length_in": 6.5,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": "Cigar Coop rated it 87 points, noting mocha, mineral, vegetal, cherry, and pepper notes but scored it 'not recommended' for value at $35.",
+      "tasting_notes": [
+        "mocha",
+        "espresso",
+        "dark chocolate",
+        "cinnamon",
+        "black pepper",
+        "mineral"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Cigar Coop",
+          "source_type": "critic",
+          "score": 87,
+          "score_scale": 100,
+          "review_date": "2024-07",
+          "url": "https://cigar-coop.com/2024/07/rocky-patel-year-of-the-dragon-2024-toro-cigar-review.html",
+          "key_notes_text": "Scored 87/100 with mocha, mineral, vegetal, cherry and pepper notes; rated 'not recommended' for value at $35/stick."
+        }
+      ]
+    }
+  ],
+  "research_sources": [
+    {
+      "source_name": "Rocky Patel Premium Cigars (official)",
+      "source_url": "https://www.rockypatel.com/cigar/year-of-the-dragon/",
+      "fact_note": "Wrapper/binder/filler, strength, box count, background"
+    },
+    {
+      "source_name": "Cigar Coop",
+      "source_url": "https://cigar-coop.com/2024/07/rocky-patel-year-of-the-dragon-2024-toro-cigar-review.html",
+      "fact_note": "87-point review score, tasting notes, box count, pricing, factory"
+    },
+    {
+      "source_name": "Corona Cigar Co.",
+      "source_url": "https://www.coronacigar.com/rocky-patel-year-of-dragon-2024-toro/",
+      "fact_note": "Confirmed Toro size as 6.5x52"
+    }
+  ]
+}

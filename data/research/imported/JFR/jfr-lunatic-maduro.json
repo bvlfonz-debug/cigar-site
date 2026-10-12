@@ -1,0 +1,62 @@
+{
+  "line": {
+    "name": "JFR Lunatic Maduro",
+    "slug": "jfr-lunatic-maduro",
+    "description": "The Maduro-wrapper branch of JFR's long-running 'Lunatic' line.",
+    "wrapper": "Mexican San Andres Maduro",
+    "binder": "Nicaraguan (Aganorsa)",
+    "filler": "Nicaraguan (Aganorsa)",
+    "factory": "Nicaragua - specific factory attribution shifts between TABSA/Casa Fernandez (2016-era sources) and Aganorsa facilities (current sources), consistent with the brand's broader ownership transition - not resolved to a single answer here.",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Hombre Libre (Toro-shaped)",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo ('Lun-Homlib-Mad' filename).",
+      "sources": [
+        "https://halfwheel.com/jfr-lunatic-maduro-hombre-libre/464264/",
+        "https://www.neptunecigar.com/cigars/jfr-lunatic-maduro-hombre-libre-6--54"
+      ]
+    },
+    {
+      "name": "Lunatic (8x80)",
+      "size": "8 x 80",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.cigarsinternational.com/p/aganorsa-jfr-lunatic-maduro-cigars/1496897/"
+      ]
+    },
+    {
+      "name": "Short Robusto",
+      "size": "4.25-4.75 x 52 (exact length varies slightly between retailer listings of the same product page - recorded as found, not resolved to one figure)",
+      "notes": "Matches the Mac photo ('Luna-Mad-Rob').",
+      "sources": [
+        "https://cigar-coop.com/2016/08/cigar-news-casa-fernandez-launches-jfr-maduro-short-robusto-and-short-titan-at-2016-ipcpr.html"
+      ]
+    },
+    {
+      "name": "770",
+      "size": "7 x 70",
+      "notes": "Matches the Mac photo ('Luna-Mad-Seventy').",
+      "sources": [
+        "https://www.cigarsinternational.com/p/aganorsa-jfr-lunatic-maduro-cigars/1496897/"
+      ]
+    },
+    {
+      "name": "Super Toro",
+      "size": "6.5 x 60",
+      "notes": "Matches the Mac photo ('Luna-Mad-Sixty').",
+      "sources": [
+        "https://www.cigarsinternational.com/p/aganorsa-jfr-lunatic-maduro-cigars/1496897/"
+      ]
+    }
+  ],
+  "research_notes": "2 additional Mac photos could not be confidently matched: 'JFR_Luna-Mad-El' is ambiguous between 'El Chiquito' (4.7x70) and 'El Grande' (5.5x80), both real vitolas starting with 'El' - not resolved. 'JFR_Luna-Mad-Short' is ambiguous between Short Robusto and Short Titan (same issue as the Habano line) - since a separate '-Rob' file already exists in this batch, Short Titan is the more likely match by elimination, but this is contextual inference from the file list, not a direct source confirmation, so it was NOT added as a vitola. See _jfr-UNRESOLVED.json for both.",
+  "research_sources": [
+    "https://halfwheel.com/jfr-lunatic-maduro-hombre-libre/464264/",
+    "https://www.neptunecigar.com/cigars/jfr-lunatic-maduro-hombre-libre-6--54",
+    "https://www.cigarsinternational.com/p/aganorsa-jfr-lunatic-maduro-cigars/1496897/",
+    "https://cigar-coop.com/2016/08/cigar-news-casa-fernandez-launches-jfr-maduro-short-robusto-and-short-titan-at-2016-ipcpr.html"
+  ]
+}

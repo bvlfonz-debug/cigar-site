@@ -1,0 +1,47 @@
+{
+  "brand": {
+    "name": "Firecracker",
+    "description": "Line dating to 2007, originally exclusive to Two Guys Smoke Shop in NH; now distributed nationwide by United Cigars. Signature format: 3.5x50 petite robusto with a pigtail cap resembling a fuse. Multiple SKUs exist (Connecticut, Maduro, Sungrown, and a 2024/2026 'Independence Firecracker' 250th-anniversary edition).",
+    "origin_country": "Dominican Republic",
+    "founded": "2007"
+  },
+  "lines": [
+    {
+      "line": {
+        "name": "Firecracker (Connecticut)",
+        "wrapper": "Ecuadorian Connecticut",
+        "binder": "Dominican Criollo",
+        "filler": "Dominican / Dominican Ligero",
+        "strength": "Medium-full"
+      },
+      "vitolas": [
+        {
+          "name": "Petite Robusto",
+          "size": "3.5 x 50"
+        }
+      ]
+    },
+    {
+      "line": {
+        "name": "Independence Firecracker",
+        "wrapper": "Habano (Mexico)",
+        "binder": "Dominican",
+        "filler": "Dominican Republic and Nicaraguan",
+        "notes": "Made at Arnold André Dominicana; sold in 12-count tins, $9 MSRP. Part of United's Independence 250th-anniversary series (halfwheel, 2026). Maduro and Sungrown SKUs also exist under the Firecracker name."
+      },
+      "vitolas": [
+        {
+          "name": "Petite Robusto",
+          "size": "3.5 x 50"
+        }
+      ]
+    }
+  ],
+  "research_notes": "Only 2 photos exist in the Mac folder for this brand.",
+  "research_sources": [
+    "https://halfwheel.com/united-cigars-releasing-independence-firecracker-in-june/460614/",
+    "https://unitedcigargroup.com/firecracker-connecticut/",
+    "https://unitedcigargroup.com/firecracker-maduro/",
+    "https://unitedcigargroup.com/firecracker-sungrown/"
+  ]
+}

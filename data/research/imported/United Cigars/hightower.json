@@ -1,0 +1,43 @@
+{
+  "brand": {
+    "name": "Hightower",
+    "description": "Marketed as 'JD Hightower by Jose Dominguez', made at Magia Cubana factory, Dominican Republic. Reviews date back to at least 2012, predating United Cigars' involvement.",
+    "origin_country": "Dominican Republic",
+    "notes": "FLAG: could not confirm a United Cigars manufacturing/distribution credit for Hightower from halfwheel, Cigar Coop, Cigar Aficionado, or major retailers. It's sold via Two Guys Cigars (David Garofalo's retail chain, same owner as United Cigars), which likely explains the 'UC-' filename prefix, but the brand itself appears to be an older, independent Jose Dominguez line merely retailed alongside United's own products rather than a genuine United Cigars sub-brand. Treat brand attribution to United Cigars as unverified."
+  },
+  "lines": [
+    {
+      "line": {
+        "name": "Hightower (Maduro) by Jose Dominguez",
+        "wrapper": "Maduro",
+        "binder": "Dominican Republic",
+        "filler": "Dominican Republic",
+        "strength": "Full/strong",
+        "notes": "Size codes appear to be length+ring-gauge shorthand (660=6x60, 670=6x70); 662 (6x62) inferred by pattern, not independently sourced."
+      },
+      "vitolas": [
+        {
+          "name": "660 (Gordo)",
+          "size": "6 x 60"
+        },
+        {
+          "name": "662",
+          "size": "6 x 62 (unconfirmed, inferred by naming pattern)"
+        },
+        {
+          "name": "670",
+          "size": "6 x 70",
+          "sources": [
+            "https://kapnoscigar.com/product/hightower-maduro-6x70/"
+          ]
+        }
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://thecigarauthority.com/jd-hightower-by-jose-dominguez-660-cigar-review/",
+    "https://www.2guyscigars.com/hightower-by-jose-dominguez",
+    "https://stogiereview.com/2012/09/22/jd-hightower-first-impressions/",
+    "https://kapnoscigar.com/product/hightower-maduro-6x70/"
+  ]
+}

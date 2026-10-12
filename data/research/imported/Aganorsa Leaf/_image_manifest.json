@@ -1,0 +1,74 @@
+{
+  "brand": "Aganorsa Leaf",
+  "brand_slug": "aganorsa-leaf",
+  "note": "Paths are relative to 'Cigar Images/Aganorsa Leaf/' in the connected folder on the user's Mac. This batch found several products whose photos were filed under the WRONG line folder on the Mac (e.g. 'La Validacion' and 'Rare Leaf' photos sitting inside 'Aniversario Corojo'/'Aniversario Maduro' folders) - the folders listed below are where the photos actually are, not necessarily where they conceptually belong. This schema has no photo field, so this manifest maps each file to its source folder.",
+  "new_lines": {
+    "la-validacion": {
+      "source_folders": [
+        "Cigar Images/Aganorsa Leaf/Aniversario Corojo",
+        "Cigar Images/Aganorsa Leaf/Aniversario Maduro",
+        "Cigar Images/Aganorsa Leaf/Connecticut",
+        "Cigar Images/Aganorsa Leaf/Habano"
+      ],
+      "note": "4 photos, one per wrapper variant, scattered across these 4 folders"
+    },
+    "new-cuba-superior": {
+      "source_folder": "Cigar Images/Aganorsa Leaf/Connecticut",
+      "photo_count": 6
+    },
+    "jfr-lunatic-habano": {
+      "source_folder": "Cigar Images/Aganorsa Leaf/Habano",
+      "photo_count": 3
+    },
+    "rare-leaf": {
+      "source_folder": "Cigar Images/Aganorsa Leaf/Aniversario Corojo",
+      "photo_count": 1,
+      "note": "misfiled - conceptually a 'Rare Leaf' (non-Reserve) photo, not an Aniversario Corojo photo"
+    }
+  },
+  "gap_fill_supplements": {
+    "_aniversario-maduro-additional-vitolas": {
+      "source_folder": "Cigar Images/Aganorsa Leaf/Aniversario Maduro",
+      "photo_count": 3
+    },
+    "_guardian-of-the-farm-additional-vitolas": {
+      "source_folder": "Cigar Images/Aganorsa Leaf/Guardian of the Farm",
+      "photo_count": 5
+    },
+    "_jfr-maduro-additional-vitolas": {
+      "source_folder": "Cigar Images/Aganorsa Leaf/JFR Maduro",
+      "photo_count": 6
+    },
+    "_jfr-corojo-additional-vitolas": {
+      "source_folder": "Cigar Images/Aganorsa Leaf/JFR Corojo",
+      "photo_count": 2
+    },
+    "_jfr-lunatic-maduro-additional-vitolas": {
+      "source_folder": "Cigar Images/Aganorsa Leaf/JFR Lunatic Maduro",
+      "photo_count": 4
+    },
+    "_signature-selection-additional-vitolas": {
+      "source_folder": "Cigar Images/Aganorsa Leaf/Signature Selection",
+      "photo_count": 6
+    },
+    "_supreme-leaf-additional-vitolas": {
+      "source_folder": "Cigar Images/Aganorsa Leaf/Supreme Leaf",
+      "photo_count": 2
+    },
+    "_rare-leaf-reserve-additional-vitolas": {
+      "source_folder": "Cigar Images/Aganorsa Leaf/Aniversario Corojo",
+      "photo_count": 2,
+      "note": "misfiled - conceptually a Rare Leaf Reserve Corojo Lonsdale photo, not an Aniversario Corojo photo"
+    }
+  },
+  "separate_brand": {
+    "mi-querida": {
+      "source_folder": "Cigar Images/Aganorsa Leaf/Mi Querida",
+      "photo_count": 4,
+      "note": "NOT an Aganorsa Leaf line - this is Dunbarton Tobacco & Trust's own brand, physically stored next to Aganorsa Leaf on the Mac. Should be modeled as its own brand in the database."
+    }
+  },
+  "already_matched_no_gap": [
+    "JFR Lunatic Torch (Visionary)"
+  ]
+}

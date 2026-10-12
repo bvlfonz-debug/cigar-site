@@ -1,0 +1,79 @@
+{
+  "brand": "Fratello Cigars",
+  "brand_slug": "fratello-cigars",
+  "note": "Paths are relative to 'Cigar Images/Fratello Cigars/' in the connected folder on the user's Mac. This schema has no photo field, so this manifest maps each researched supplement to its source photo folder for a separate image-upload step.",
+  "gap_fill_supplements": {
+    "_bianco-additional-vitolas": {
+      "folder": "Cigar Images/Fratello Cigars/Fratello Bianco",
+      "files": [
+        "Bianco-Nero-Cover-2.jpg",
+        "Bianco-Nero-Signature.jpg",
+        "Fratello_Bianco-Nero_01.png",
+        "Fratello_Bianco-Nero_Box-Closed_01.png",
+        "Fratello_Bianco-Nero_Box-Open_01.png",
+        "Fratello_Bianco-Nero_Box-Open_02.png",
+        "Fratello_Bianco-Nero_Box-Open_03.png",
+        "Fratello_Fuoco_Box-Open_01.png"
+      ]
+    },
+    "_classico-additional-vitolas": {
+      "folder": "Cigar Images/Fratello Cigars/Fratello Classico",
+      "files": [
+        "Fratello_Fuoco_Box-Open_02.png"
+      ]
+    },
+    "_oro-additional-vitolas": {
+      "folder": "Cigar Images/Fratello Cigars/Fratello Oro",
+      "files": [
+        "Fratello_Fuoco_05.jpg",
+        "Fratello_Fuoco_06.jpg",
+        "Fratello_Fuoco_07.png",
+        "Fratello_Fuoco_08.png",
+        "Fratello_Fuoco_Box-Closed_02.jpg",
+        "Fratello_Fuoco_Box-Closed_03.jpg",
+        "Fratello_Fuoco_Box-Closed_04.jpg",
+        "Fratello_Fuoco_Box-Closed_05.jpg",
+        "Fratello_Fuoco_Box-Closed_06.png",
+        "Fratello_Fuoco_Box-Closed_07.png",
+        "Fratello_Fuoco_Box-Closed_08.png",
+        "Fratello_Fuoco_Box-Closed_09.png",
+        "Fratello_Fuoco_Box-Open_03.jpg",
+        "Fratello_Fuoco_Box-Open_04.png"
+      ]
+    },
+    "_camo-corrected-line": {
+      "folder": "Cigar Images/Fratello Cigars/Fratello Camo",
+      "note": "80+ photos in this folder covering Camo Blue, Rosso, Sweet, Verde across box/pack-sleeve/wrapped-stick shots - see folder listing directly, too many to enumerate individually here."
+    },
+    "_navetta-additional-vitolas": {
+      "folder": "Cigar Images/Fratello Cigars/Fratello Navetta",
+      "files": [
+        "Fratello_Navetta-Atlantis_Box-Closed_01.png",
+        "Fratello_Navetta-Atlantis_Box-Closed_02.tif",
+        "Fratello_Navetta-Atlantis_Box-Closed_03.tif",
+        "Fratello_Navetta-Atlantis_Box-Closed_04.tif",
+        "Fratello_Navetta-Atlantis_Box-Open_01.png",
+        "Fratello_Navetta-Atlantis_Box-Open_02.png",
+        "Fratello_Navetta-Atlantis_Box-Open_02.tif",
+        "Fratello_Navetta-Endeavour_Box-Closed_01.tif",
+        "Fratello_Navetta-Endeavour_Box-Closed_02.tif",
+        "Fratello_Navetta-Endeavour_Box-Closed_03.tif",
+        "Fratello_Navetta-Endeavour_Box-Open_01.tif",
+        "Fratello_Navetta-Endeavour_Box-Open_02.tif",
+        "Fratello_Navetta-Enterprise_Box-Closed_01.tif",
+        "Fratello_Navetta-Enterprise_Box-Closed_02.tif",
+        "Fratello_Navetta-Enterprise_Box-Open_01.jpg",
+        "Fratello_Navetta-Enterprise_Box-Open_02.tif"
+      ]
+    }
+  },
+  "already_matched_no_gap": [
+    "Fratello Classico (Boxer, Toro)",
+    "Fratello Oro (Toro)",
+    "Fratello Bianco (Bianco I)",
+    "Fratello Navetta Discovery"
+  ],
+  "unresolved": {
+    "navetta_inception": "Site lists 'Inception' as a Navetta vitola but no photos or independent verification exist for it - see _navetta-additional-vitolas.json notes."
+  }
+}

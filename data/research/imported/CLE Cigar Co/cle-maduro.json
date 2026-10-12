@@ -1,0 +1,50 @@
+{
+  "line": {
+    "name": "CLE Maduro",
+    "slug": "cle-maduro",
+    "description": "Not on the site at all. Newly launched at the 2025 PCA trade show (shipped ~April/May 2025), explicitly marketed as distinct from CLE's Connecticut, Corojo, and Habano core lines. CLE Cigar Company was founded July 2012 by Christian Eiroa (son of Julio Eiroa, founder of the Eiroa tobacco dynasty and later Camacho Cigars), after Christian left Camacho in 2011. The factory occupies a converted 1975 movie theater ('Cine Aladino') in Danli, Honduras that once belonged to his grandfather, Antonio Kafati.",
+    "wrapper": "Mexican San Andres",
+    "binder": "Honduran",
+    "filler": "Honduran",
+    "status": "current (launched 2025)"
+  },
+  "vitolas": [
+    {
+      "name": "11/18 (Figurado)",
+      "size": "approx. 6 x 50/54 (tapered)",
+      "sources": [
+        "https://cigar-coop.com/2025/11/c-l-e-maduro-11-18-cigar-review.html",
+        "https://clecigars.com/shop/c-l-e-maduro/"
+      ]
+    },
+    {
+      "name": "40 x 4",
+      "size": "4 x 40",
+      "sources": [
+        "https://www.gqtobaccos.com/cigars/c-l-e-maduro-40-x-4-box-of-25-cigars/"
+      ]
+    },
+    {
+      "name": "Robusto (50 x 5)",
+      "size": "5 x 50",
+      "sources": [
+        "https://www.famous-smoke.com/cle-maduro-robusto-cigars-maduro"
+      ]
+    },
+    {
+      "name": "60 x 6",
+      "size": "6 x 60",
+      "notes": "Confirmed directly on clecigars.com's own product page - not just pattern inference.",
+      "sources": [
+        "https://clecigars.com/shop/c-l-e-maduro/",
+        "https://www.cigarspartan.com/cle-maduro-60-x-6.html"
+      ]
+    }
+  ],
+  "research_notes": "Mac filenames used shorthand codes (Mad-118, Mad-440, Mad-550, Mad-660) now decoded and renamed on the Mac to match these vitola names.",
+  "research_sources": [
+    "https://www.cigaraficionado.com/article/c-l-e-cigar-co-adds-maduro-line",
+    "https://clecigars.com/shop/c-l-e-maduro/",
+    "https://cigar-coop.com/2025/11/c-l-e-maduro-11-18-cigar-review.html"
+  ]
+}

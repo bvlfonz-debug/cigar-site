@@ -1,0 +1,35 @@
+{
+  "brand": "Illusione",
+  "brand_slug": "illusione",
+  "note": "Paths are relative to 'Cigar Images/Illusione/' in the connected folder on the user's Mac. Research confirmed Illusione is independently owned by Dion Giolito (not part of My Father Cigars or Fratello - correcting an assumption my research prompts initially made); cigars are made at TABSA (Esteli, Nicaragua) and Raices Cubanas (Danli, Honduras) depending on the line. This doesn't affect the database schema output (Illusione already exists as its own brand on the site), just flagging for accuracy in case maker/factory fields exist elsewhere in your database.",
+  "gap_fill_supplements": {
+    "_epernay-additional-vitolas": {
+      "source_folder": "Cigar Images/Illusione/Illusione Epernay",
+      "note": "photos for L'Alpiniste, L'Excellence, La Vie, Le Elegance, Le Voyage mixed in with the 6 already-listed vitolas' photos in this one folder"
+    },
+    "_original-documents-additional-vitolas": {
+      "source_folders": [
+        "Cigar Images/Illusione/Illusione Original Documents",
+        "Cigar Images/Illusione/Illusione Ultra"
+      ],
+      "note": "4 of the 5 wrapper-edition photos (Candela, Corojo, Habano, Maduro) are in the 'Illusione Original Documents' folder. The 5th, 'Ultra', is filed in the SEPARATE top-level 'Illusione Ultra' folder, but its filename is 'Illusione_Original-Documents_Ultra_02.png' - confirming it belongs to Original Documents' Ultra wrapper edition, not to the site's separate standalone 'Illusione Ultra' (OP No. 9) line. Recommend moving this file into the Original Documents folder and renaming the 'Illusione Ultra' folder if/when you photograph the actual standalone Illusione Ultra (OP No. 9) product, since right now that folder holds a different product's photo."
+    },
+    "_r-rothchildes-additional-vitolas": {
+      "source_folder": "Cigar Images/Illusione/Illusione R Rothchildes"
+    }
+  },
+  "new_lines": {
+    "epernay-tuonela": {
+      "source_folder": "Cigar Images/Illusione/Illusione Epernay",
+      "note": "Tuonela photo mixed in with the rest of the Epernay folder's photos"
+    }
+  },
+  "already_matched_no_gap": [
+    "Illusione Epernay (Le Ferme, Le Grande, Le Matin, Le Monde, Le Petite, Le Taureau)",
+    "Illusione Original Documents (Corojo Robusto)"
+  ],
+  "unresolved": {
+    "site_illusione_ultra_entry": "The site's existing 'Illusione Ultra' line entry (OP No. 9, 5.5x56) is a real, separate, verified product - but there is currently NO Mac photo of it. The one photo in the Mac's 'Illusione Ultra' folder is actually 'Original Documents Ultra' (see above), a different product. Not treated as an error to fix, just flagging that this line still has no matching photo on the Mac.",
+    "mj12_wrapper_ambiguity": "The site's 'MJ12' vitola entry (under Original Documents) has no wrapper attached. Research shows MJ12 is sold across multiple wrappers (at least Corojo and Maduro), so the existing entry is ambiguous/incomplete but not necessarily wrong - left as-is rather than guessed at."
+  }
+}

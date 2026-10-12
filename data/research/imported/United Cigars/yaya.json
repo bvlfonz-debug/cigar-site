@@ -1,0 +1,46 @@
+{
+  "brand": {
+    "name": "YaYa",
+    "description": "Created by Carlos Guillermo, originally launched in the Dominican Republic in 2019; United Cigars gave it its U.S. debut at the PCA 2022 trade show. Name references a woman nicknamed 'Yaya' who rolled her own blends, from whom Guillermo and friends used to take cigars as kids.",
+    "origin_country": "Dominican Republic (rolled at Tabacalera Magia, Santiago)",
+    "founded": "2019 (DR); U.S. launch via United Cigars, July 2022 (PCA)"
+  },
+  "lines": [
+    {
+      "line": {
+        "name": "YaYa",
+        "wrapper": "Ecuadorian Habano",
+        "binder": "Dominican (Cubano-seed)",
+        "filler": "Dominican (three varieties, unspecified names)",
+        "strength": "Medium, trending medium-full in the final third",
+        "notes": "A later variant, 'YaYa Bagua Robusto', also exists (per 2024 halfwheel/Cigar Coop coverage) but is not represented in our photo library, which covers only the original 4-vitola lineup."
+      },
+      "vitolas": [
+        {
+          "name": "Short Robusto",
+          "size": "4 x 54 (PCA-exclusive release size)"
+        },
+        {
+          "name": "Robusto",
+          "size": "5 x 52",
+          "notes": "Mac filename 'Robuto' is a typo for Robusto."
+        },
+        {
+          "name": "Toro",
+          "size": "6 x 54"
+        },
+        {
+          "name": "Gordo",
+          "size": "6 x 60"
+        }
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://halfwheel.com/pca-2022-yaya/409978/",
+    "https://blindmanspuff.com/united-cigars-yaya-short-robusto-blind-cigar-review/",
+    "https://developingpalates.com/news/cigar-news/cigar-news-united-cigars-launching-yaya-at-pca-2022/",
+    "https://www.cigarjournal.com/yaya-cigars-begin-shipping-to-retailers/",
+    "https://cigar-coop.com/2024/08/yaya-bagua-robusto-cigar-review.html"
+  ]
+}

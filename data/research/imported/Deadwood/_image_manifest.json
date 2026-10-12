@@ -1,0 +1,47 @@
+{
+  "brand": "Deadwood Tobacco Co.",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/Deadwood",
+  "note": "Deadwood is not on the site at all - full new brand object included. CORRECTED from an initial hypothesis that this was a Black Label Trading Company sub-line (ruled out by research). 4 sub-line entries added. No file renames performed.",
+  "mappings": [
+    {
+      "json_file": "deadwood-crazy-alice.json",
+      "line_slug": "deadwood-crazy-alice",
+      "mac_folder": "Cigar Images/Deadwood",
+      "files": [
+        "Deadwood_Crazy_01.jpg"
+      ],
+      "notes": "Decoded to 'Crazy Alice,' not the initially-guessed 'Crazy Eyes.'"
+    },
+    {
+      "json_file": "deadwood-sweet-jane-dia-de-los-muertos-le-2024.json",
+      "line_slug": "deadwood-sweet-jane-dia-de-los-muertos-le-2024",
+      "mac_folder": "Cigar Images/Deadwood",
+      "files": [
+        "Deadwood_Dia-24_01.jpg",
+        "Deadwood_Dia-24_Box-Open_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "deadwood-dominicana-buenas-noches.json",
+      "line_slug": "deadwood-dominicana-buenas-noches",
+      "mac_folder": "Cigar Images/Deadwood",
+      "files": [
+        "Deadwood_Dom-Noche-Gor_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "deadwood-fat-bottom-betty.json",
+      "line_slug": "deadwood-fat-bottom-betty",
+      "mac_folder": "Cigar Images/Deadwood",
+      "files": [
+        "Deadwood_Fat-Gord_01.jpg"
+      ],
+      "notes": null
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": []
+}

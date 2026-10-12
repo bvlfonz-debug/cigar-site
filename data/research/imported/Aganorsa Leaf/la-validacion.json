@@ -1,0 +1,100 @@
+{
+  "line": {
+    "name": "La Validación",
+    "description": "Aganorsa Leaf's 2022 rebrand/packaging update unifying its four core lines (Corojo, Maduro, Connecticut, Habano) under standardized 15-count boxing, a redesigned band, and 3 shared vitolas. Announced at PCA 2022; Habano/Connecticut shipped late May 2022, Corojo/Maduro shipped July 2022. The underlying blends are largely the same tobacco program as before, not new recipes - some legacy sizes (e.g. Connecticut Churchill, Corojo Torpedo) were discontinued in the transition. Sold broadly at major retailers (JR Cigars, Corona Cigar, Cigars International, Atlantic Cigar, Famous Smoke), not a retailer exclusive.",
+    "origin_country": "Nicaragua",
+    "notes": "Wrapper/binder/filler/strength below are sourced from aganorsaleaf.com (manufacturer marketing) - not independently corroborated by a halfwheel review in this research pass; treat with slightly more caution than other entries in this batch."
+  },
+  "variants": [
+    {
+      "wrapper": "Corojo",
+      "binder": "Aganorsa, Nicaragua",
+      "filler": "Aganorsa, Nicaragua",
+      "strength": "Medium-Full",
+      "vitolas": [
+        {
+          "name": "Gran Robusto",
+          "size": "5 x 54"
+        },
+        {
+          "name": "Toro",
+          "size": "6.25 x 52"
+        },
+        {
+          "name": "Gran Toro",
+          "size": "6 x 58"
+        }
+      ]
+    },
+    {
+      "wrapper": "Maduro",
+      "wrapper_origin": "San Andrés, Mexico",
+      "binder": "Aganorsa, Nicaragua",
+      "filler": "Aganorsa, Nicaragua",
+      "strength": "Full",
+      "vitolas": [
+        {
+          "name": "Gran Robusto",
+          "size": "5 x 54"
+        },
+        {
+          "name": "Toro",
+          "size": "6.25 x 52"
+        },
+        {
+          "name": "Gran Toro",
+          "size": "6 x 58"
+        }
+      ]
+    },
+    {
+      "wrapper": "Connecticut",
+      "wrapper_origin": "Connecticut-seed, Ecuador",
+      "binder": "Aganorsa, Nicaragua",
+      "filler": "Aganorsa, Nicaragua",
+      "strength": "Mild-Medium",
+      "vitolas": [
+        {
+          "name": "Gran Robusto",
+          "size": "5 x 54"
+        },
+        {
+          "name": "Toro",
+          "size": "6.25 x 52"
+        },
+        {
+          "name": "Gran Toro",
+          "size": "6 x 58"
+        }
+      ]
+    },
+    {
+      "wrapper": "Habano",
+      "wrapper_origin": "Habano-seed, Ecuador",
+      "binder": "Aganorsa, Nicaragua",
+      "filler": "Aganorsa, Nicaragua",
+      "strength": "Medium-Full",
+      "vitolas": [
+        {
+          "name": "Gran Robusto",
+          "size": "5 x 54"
+        },
+        {
+          "name": "Toro",
+          "size": "6.25 x 52"
+        },
+        {
+          "name": "Gran Toro",
+          "size": "6 x 58"
+        }
+      ]
+    }
+  ],
+  "research_notes": "Not on the site at all. The site instead lists the pre-2022 legacy names (Aniversario Corojo, Aniversario Maduro, Connecticut, Habano) which La Validación appears to supersede/rebrand, though the exact naming correspondence between 'La Validación Corojo' and 'Aniversario Corojo' was not explicitly confirmed by any single source - recommend the user check whether these should replace or sit alongside the existing site entries. A separate limited retailer-exclusive vitola, 'La Validación Corojo Gran Corona' (for Twins Smoke Shop's 25th anniversary), also exists but is a one-off special release, not part of the core series - not included here.",
+  "research_sources": [
+    "https://halfwheel.com/aganorsa-leaf-updates-core-lines-as-la-validacion-series/408523/",
+    "https://halfwheel.com/aganorsa-leaf-ships-la-validacion-connecticut-habano/409295/",
+    "https://www.cigaraficionado.com/article/aganorsa-leaf-streamlines-its-core-brands",
+    "https://aganorsaleaf.com/cigars/la-validacion-series/"
+  ]
+}

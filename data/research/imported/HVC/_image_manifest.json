@@ -1,0 +1,52 @@
+{
+  "brand": "HVC",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/HVC",
+  "note": "HVC already exists on the site with 5 lines. This batch adds 1 new line (La Decoracion) and 2 additional-vitolas supplements, found in the (flat, unrenamed) Mac folder. No file renames performed.",
+  "mappings": [
+    {
+      "json_file": "hvc-la-decoracion.json",
+      "line_slug": "hvc-la-decoracion",
+      "mac_folder": "Cigar Images/HVC",
+      "files": [
+        "HVC_Dec-Church_01.jpg",
+        "HVC_Dec-Gran_01.jpg",
+        "HVC_Dec-Rob_01.jpg",
+        "HVC_Dec-Rob_Box-Open_01.jpg",
+        "HVC_Dec-Tor_01.jpg",
+        "HVC_Dec-Tor_Box-Open_01.jpg"
+      ],
+      "notes": "CORRECTED from an initial guess of 'Decade' (ruled out - doesn't match all 4 vitolas) to the real name 'La Decoracion.'"
+    },
+    {
+      "json_file": "_hvc-hot-cake-golden-line-additional-vitolas.json",
+      "line_slug": "hvc-hot-cake-golden-line",
+      "mac_folder": "Cigar Images/HVC",
+      "files": [
+        "HVC_Golden-Half-Cor_01.jpg",
+        "HVC_Golden-Half-Cor_Box-Open_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "_hvc-hot-cake-additional-vitolas.json",
+      "line_slug": "hvc-hot-cake",
+      "mac_folder": "Cigar Images/HVC",
+      "files": [
+        "HVC_Hot-Half_01.jpg",
+        "HVC_Oven-Half_01.jpg"
+      ],
+      "notes": "'Oven' decoded as a literal part of the product's own marketing name ('Fresh Out the Oven'), not a mis-transcription."
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": [
+    {
+      "mac_folder": "Cigar Images/HVC",
+      "files": [
+        "HVC_Golden-5_01.jpg"
+      ],
+      "reason": "Matches the already-listed Hot Cake Golden Line Laguito No. 5 vitola exactly - confirmed, no gap."
+    }
+  ]
+}

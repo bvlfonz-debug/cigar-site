@@ -1,0 +1,62 @@
+{
+  "brand": "Davidoff",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/Davidoff",
+  "note": "Davidoff already exists on the site with 9 lines. This batch adds 3 new limited-edition lines found in the (flat, unrenamed) Mac folder. The 5 Millennium pack photos matched already-current vitolas (no gap). 4 generic marketing/magazine stock images were not researched as product entries. No file renames performed this batch.",
+  "mappings": [
+    {
+      "json_file": "davidoff-chefs-edition-2025.json",
+      "line_slug": "davidoff-chefs-edition-2025",
+      "mac_folder": "Cigar Images/Davidoff",
+      "files": [
+        "Davidoff_Chef-25_01.jpg",
+        "Davidoff_Chef-25_Box-Open_01.jpg"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "davidoff-escurio-10th-anniversary-le-2025.json",
+      "line_slug": "davidoff-escurio-10th-anniversary-le-2025",
+      "mac_folder": "Cigar Images/Davidoff",
+      "files": [
+        "Davidoff_Escur-10th_Box-Open_01.jpg",
+        "Davidoff_Escurio-10th_01.jpg"
+      ],
+      "notes": "A limited-edition blend variant of the already-listed Escurio line, recorded as its own entry since the blend materially differs from standard Escurio."
+    },
+    {
+      "json_file": "davidoff-year-of-the-horse-le-2026.json",
+      "line_slug": "davidoff-year-of-the-horse-le-2026",
+      "mac_folder": "Cigar Images/Davidoff",
+      "files": [
+        "Davidoff_Yoth_01.jpg",
+        "Davidoff_Yoth_Box-Open_01.jpg"
+      ],
+      "notes": "CORRECTED/DECODED: 'Yoth' = 'Year of the Horse' (confirmed via research, not guessed)."
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": [
+    {
+      "mac_folder": "Cigar Images/Davidoff",
+      "files": [
+        "Davidoff_Mil-Pet-Cor-Pack_01.jpg",
+        "Davidoff_Mil-Pir-Pack_01.jpg",
+        "Davidoff_Mil-Rob-Pack_01.jpg",
+        "Davidoff_Mil-Rob-T-Pack_01.jpg",
+        "Davidoff_Mil-Tor-Pack_01.jpg"
+      ],
+      "reason": "All 5 decode to Millennium Petit Corona/Piramide/Robusto/Robusto Tubos/Toro - confirmed as already-current standard vitolas of the existing Millennium line, no gap."
+    },
+    {
+      "mac_folder": "Cigar Images/Davidoff",
+      "files": [
+        "DavidoffAnniversarioCigar.png",
+        "DavidoffAvoXOCigar_EssentialMildCigars_CigarPress.png",
+        "DavidoffMilleniumBlendCigar.png",
+        "DavidoffWinstonChurchillCigar_CigarPressEssentialCigars.png"
+      ],
+      "reason": "Generic marketing/magazine stock images referencing already-listed lines (or, for AVO XO, a different brand entirely) - not usable as evidence for a specific new database entry."
+    }
+  ]
+}

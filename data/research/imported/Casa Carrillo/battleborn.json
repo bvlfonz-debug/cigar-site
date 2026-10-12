@@ -1,0 +1,57 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo Battleborn",
+    "slug": "battleborn",
+    "wrapper": "Connecticut Broadleaf",
+    "binder": "Mexico and Nicaragua (dual binder)",
+    "filler": "Nicaraguan",
+    "strength": "Medium-Full",
+    "release_year": 2025,
+    "background_text": "Marketed as 'Perez-Carrillo Battleborn,' this limited-edition line honors Lionel H. McKoy, a U.S. Navy Gulf War veteran who joined Casa Carrillo as shipping manager in 2017. Ernesto Perez-Carrillo III created the line after McKoy shared his military story with him; proceeds support veteran and first-responder charities including the Fisher House Foundation."
+  },
+  "vitolas": [
+    {
+      "size_name": "Warriors (Toro Gordo)",
+      "slug": "warriors",
+      "length_in": 6,
+      "ring_gauge": 56,
+      "vitola_type": "Toro",
+      "summary_review": "Cigar Coop rated it 88; solid but described as lacking a 'thrilling factor' despite good construction.",
+      "tasting_notes": [
+        "coffee",
+        "earth",
+        "lemon peel",
+        "cocoa",
+        "white pepper",
+        "bitterness in later thirds"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        20
+      ],
+      "critic_reviews": [
+        {
+          "source_name": "Cigar Coop",
+          "source_type": "critic",
+          "score": 88,
+          "score_scale": "100",
+          "review_date": "2026-07-01",
+          "url": "https://cigar-coop.com/2026/07/perez-carrillo-battleborn-warriors-2025-by-casa-carrillo-cigar-review.html",
+          "key_notes_text": "Coffee, earth, lemon peel dominant; medium to medium-full strength; 'Try a Sample' at $22."
+        }
+      ]
+    }
+  ],
+  "research_notes": "Limited to 2,500 individually numbered boxes of 20, $22/cigar. Only one vitola confirmed.",
+  "research_sources": [
+    {
+      "url": "https://halfwheel.com/casa-carrillo-battleborn-warriors-coming-in-mid-october/454530/",
+      "supports": "background, blend, box count, pricing"
+    },
+    {
+      "url": "https://cigar-coop.com/2026/07/perez-carrillo-battleborn-warriors-2025-by-casa-carrillo-cigar-review.html",
+      "supports": "review score, tasting notes, strength, blend"
+    }
+  ]
+}

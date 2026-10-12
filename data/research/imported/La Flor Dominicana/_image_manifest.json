@@ -1,0 +1,87 @@
+{
+  "brand": "La Flor Dominicana",
+  "batch_date": "2026-10-11",
+  "mac_source_root": "Cigar Images/La Flor Dominicana",
+  "note": "La Flor Dominicana already exists on the site with 4 lines. This batch adds 5 new lines plus 1 additional-vitolas supplement for the existing Double Ligero line, found in the (flat, unrenamed) Mac folder. No file renames performed this batch.",
+  "mappings": [
+    {
+      "json_file": "la-flor-dominicana-la-nox.json",
+      "line_slug": "la-flor-dominicana-la-nox",
+      "mac_folder": "Cigar Images/La Flor Dominicana",
+      "files": [
+        "LaFlorDominicana_La-Nox-Petit_01.png"
+      ],
+      "notes": "The 'Petit' implied by the filename could NOT be confirmed as a real vitola - only a 6.5x50 Toro is documented for this line. Vitola published as Toro, not Petit, per no-fabrication policy."
+    },
+    {
+      "json_file": "la-flor-dominicana-capitulo-ii.json",
+      "line_slug": "la-flor-dominicana-capitulo-ii",
+      "mac_folder": "Cigar Images/La Flor Dominicana",
+      "files": [
+        "LaFlorDominicana_Lfd-Chapter-Two_01.png"
+      ],
+      "notes": "Confirmed as its own limited-edition line (follow-up to 'Chapter One'), NOT part of Double Ligero despite the shared 'Lfd-' filename prefix."
+    },
+    {
+      "json_file": "la-flor-dominicana-ligero.json",
+      "line_slug": "la-flor-dominicana-ligero",
+      "mac_folder": "Cigar Images/La Flor Dominicana",
+      "files": [
+        "LaFlorDominicana_Lfd-L300-Oscuro_01.png",
+        "LaFlorDominicana_Lfd-L300-Oscuro_Box-Open_01.png",
+        "LaFlorDominicana_Lfd-L400-Natural_01.png",
+        "LaFlorDominicana_Lfd-L400-Oscuro_01.png"
+      ],
+      "notes": "Confirmed as a separate line/series from the already-listed 'Double Ligero' (plain 'L' numbering vs. 'DL' numbering), not a renaming or numbering quirk of the same line."
+    },
+    {
+      "json_file": "la-flor-dominicana-la-volcada.json",
+      "line_slug": "la-flor-dominicana-la-volcada",
+      "mac_folder": "Cigar Images/La Flor Dominicana",
+      "files": [
+        "LaFlorDominicana_Lfd-La-Volcada_01.png"
+      ],
+      "notes": null
+    },
+    {
+      "json_file": "la-flor-dominicana-oro.json",
+      "line_slug": "la-flor-dominicana-oro",
+      "mac_folder": "Cigar Images/La Flor Dominicana",
+      "files": [
+        "LaFlorDominicana_Lfd-Oro-6-Natural_01.png"
+      ],
+      "notes": "The '6' in the filename decodes to the No. 6 vitola (6x54), one of the line's original 2012 sizes, still current."
+    },
+    {
+      "json_file": "_double-ligero-additional-vitolas.json",
+      "line_slug": "double-ligero",
+      "mac_folder": "Cigar Images/La Flor Dominicana",
+      "files": [
+        "LaFlorDominicana_Lfd-DL-452-Maduro_01.png",
+        "LaFlorDominicana_Lfd-DL-600-Maduro_01.png",
+        "LaFlorDominicana_Lfd-DL-600-Natural_01.png",
+        "LaFlorDominicana_Lfd-DL-654-Maduro_01.png",
+        "LaFlorDominicana_Lfd-DL-Chisel-Maduro_01.png",
+        "LaFlorDominicana_Lfd-DL700-Maduro_01.png"
+      ],
+      "notes": null
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": [
+    {
+      "mac_folder": "Cigar Images/La Flor Dominicana",
+      "files": [
+        "LaFlorAirBenderCigar_CigarPressEssentialCigars.png"
+      ],
+      "reason": "Generic marketing/magazine stock image of the already-listed Air Bender line - no new data."
+    },
+    {
+      "mac_folder": "Cigar Images/La Flor Dominicana",
+      "files": [
+        "LaFlorDominicana_LFD-Andalusian_Box-Open_01.jpg"
+      ],
+      "reason": "Matches the already-listed Andalusian Bull line exactly (6.5x64) - confirmed, no gap."
+    }
+  ]
+}

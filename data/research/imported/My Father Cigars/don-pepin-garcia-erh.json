@@ -1,0 +1,45 @@
+{
+  "line": {
+    "name": "Don Pepin Garcia E.R.H.",
+    "slug": "don-pepin-garcia-erh",
+    "description": "\"El Rey de los Habanos\" - a reformulated 2025 revival of a 2014-era Don Pepin Garcia release, released by My Father Cigars as part of the Don Pepin Garcia family. Described by the maker as a signature peppery blend.",
+    "wrapper": "Sumatra Ecuador Rosado Oscuro",
+    "binder": "Nicaragua",
+    "filler": "Nicaragua (Esteli, Jalapa, Condega)",
+    "strength": "Medium-bodied",
+    "release_year": 2025,
+    "notes": "Reformulated revival of a 2014-era Don Pepin Garcia line of the same name; not a brand-new blend concept."
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 54",
+      "sources": [
+        "myfathercigars.com/cigar/don-pepin-garcia-e-r-h/",
+        "cigar-coop.com/2025/09/don-pepin-garcia-e-r-h-toro-by-my-father-cigars-cigar-review.html"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 52",
+      "sources": [
+        "myfathercigars.com/cigar/don-pepin-garcia-e-r-h/",
+        "cigar-coop.com/2025/09/don-pepin-garcia-e-r-h-toro-by-my-father-cigars-cigar-review.html"
+      ]
+    },
+    {
+      "name": "Toro Gordo",
+      "size": "6 x 60",
+      "sources": [
+        "myfathercigars.com/cigar/don-pepin-garcia-e-r-h/",
+        "coronacigar.com"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://myfathercigars.com/cigar/don-pepin-garcia-e-r-h/",
+    "https://halfwheel.com/my-fathers-el-rey-de-los-habanos-returns/444463/",
+    "https://cigar-coop.com/2025/09/don-pepin-garcia-e-r-h-toro-by-my-father-cigars-cigar-review.html",
+    "https://coronacigar.com"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "line_slug": "double-ligero",
+  "note": "Site lists Double Ligero as an existing line. Mac photos show 6 additional vitola/wrapper-variant photos (DL-452, DL-600 x2 wrappers, DL-654, Chisel, DL-700), all confirmed as part of the current lineup.",
+  "additional_vitolas": [
+    {
+      "name": "DL-452",
+      "size": "4 x 52 (one 2013 preview source lists 4x42 - flagged as a possible historical size revision, not resolved)",
+      "notes": "Matches the Mac photo (Maduro). Wrapper variant: Natural (per current retailer).",
+      "sources": [
+        "https://tobacconistofgreenwich.com/brand/la-flor-dominicana-lfd-cigars/la-flor-dominicana-lfd-double-ligero/",
+        "https://cigar-coop.com/2013/07/cigar-preview-la-flor-dominicana-double.html"
+      ]
+    },
+    {
+      "name": "DL-600",
+      "size": "5.25 x 52",
+      "notes": "Matches the Mac photos (both Maduro and Natural). Wrapper variants: Natural, Habano Maduro.",
+      "sources": [
+        "https://tobacconistofgreenwich.com/brand/la-flor-dominicana-lfd-cigars/la-flor-dominicana-lfd-double-ligero/"
+      ]
+    },
+    {
+      "name": "DL-654",
+      "size": "6 x 54",
+      "notes": "Matches the Mac photo (Maduro). Wrapper variants: Natural, Habano Maduro.",
+      "sources": [
+        "https://www.cigaraficionado.com/ratings/22348/name/la-flor-dominicana-double-ligero-dl-654-toro"
+      ]
+    },
+    {
+      "name": "Chisel",
+      "size": "6 x 54 (per a 2013 Cigar Coop preview - exact dims vary slightly between sources, flagged)",
+      "notes": "Matches the Mac photo (Maduro).",
+      "sources": [
+        "https://cigar-coop.com/2013/07/cigar-preview-la-flor-dominicana-double.html"
+      ]
+    },
+    {
+      "name": "DL-700",
+      "size": "6.5 x 60",
+      "notes": "Matches the Mac photo (Maduro). Wrapper variants: Natural, Maduro.",
+      "sources": [
+        "https://tobacconistofgreenwich.com/brand/la-flor-dominicana-lfd-cigars/la-flor-dominicana-lfd-double-ligero/"
+      ]
+    }
+  ],
+  "research_notes": "DL-452 ring gauge conflicts between a 2013 preview (42) and current retail listing (52) - recorded as an open discrepancy, not resolved by guessing. Also found in sourcing but with no matching Mac photo this batch: DL-660 (4.625x60), DL-854 (8x54), DL-Churchill Oscuro Natural Especial (7x48) - not added as entries since no photo evidence drove them, listed here for awareness only.",
+  "research_sources": [
+    "https://tobacconistofgreenwich.com/brand/la-flor-dominicana-lfd-cigars/la-flor-dominicana-lfd-double-ligero/",
+    "https://cigar-coop.com/2013/07/cigar-preview-la-flor-dominicana-double.html",
+    "https://www.cigaraficionado.com/ratings/22348/name/la-flor-dominicana-double-ligero-dl-654-toro",
+    "https://www.cigaraficionado.com/ratings/17093/name/la-flor-dominicana-double-ligero-dl-854-double-corona"
+  ]
+}

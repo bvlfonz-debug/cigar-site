@@ -1,0 +1,29 @@
+{
+  "line": {
+    "name": "Perdomo Reserve 10th Anniversary Sun Grown",
+    "slug": "perdomo-reserve-10th-anniversary-sun-grown",
+    "description": "Box-pressed, bourbon-barrel-aged Nicaraguan Sun Grown wrapper edition of the Reserve 10th Anniversary line - a parallel wrapper edition to the site's existing Champagne (Connecticut) and Box-Pressed Maduro entries. Not currently listed as its own line on the site.",
+    "wrapper": "Nicaraguan Sun Grown (bourbon-barrel-aged)",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan",
+    "strength": null,
+    "shape_note": "Sold box-pressed."
+  },
+  "vitolas": [
+    {
+      "name": "Epicure",
+      "size": "6 x 54",
+      "sources": [
+        "coronacigar.com/perdomo-reserve-10th-anniversary-sun-grown-epicure/",
+        "neptunecigar.com/cigars/perdomo-reserve-10th-anniversary-sun-grown-epicure",
+        "cigar-coop.com/2021/03/cigar-review-perdomo-reserve-10th-anniversary-box-pressed-sun-grown-epicure.html"
+      ]
+    }
+  ],
+  "research_notes": "Only Epicure has direct Mac photo evidence and independent size verification. Other vitola sizes for this specific wrapper edition (Churchill, Figurado, Robusto, Super Toro, Torpedo) could not be confirmed and are NOT included.",
+  "research_sources": [
+    "https://www.coronacigar.com/perdomo-reserve-10th-anniversary-sun-grown-epicure/",
+    "https://www.neptunecigar.com/cigars/perdomo-reserve-10th-anniversary-sun-grown-epicure",
+    "https://cigar-coop.com/2021/03/cigar-review-perdomo-reserve-10th-anniversary-box-pressed-sun-grown-epicure.html"
+  ]
+}

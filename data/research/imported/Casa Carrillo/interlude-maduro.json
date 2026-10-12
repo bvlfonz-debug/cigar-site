@@ -1,0 +1,60 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo Interlude Maduro",
+    "slug": "interlude-maduro",
+    "wrapper": "Mexican San Andres",
+    "binder": "Ecuadorian",
+    "filler": "Nicaraguan (long-filler)",
+    "strength": "Medium",
+    "release_year": 2016,
+    "background_text": "Interlude debuted at the 2016 IPCPR trade show as part of E.P. Carrillo's 'Dimension Series,' created to fill a portfolio gap for short, thinner, quick smokes. The Maduro blend pairs a sweet, dark Mexican San Andres wrapper with an Ecuadorian binder and Nicaraguan long-filler, handmade at Tabacalera La Alianza. NOTE: Maduro and Natural are two SEPARATE BLENDS sharing only the line name and vitola sizes, not simple wrapper variants of one recipe."
+  },
+  "vitolas": [
+    {
+      "size_name": "Carrillitos",
+      "slug": "carrillitos",
+      "length_in": 4,
+      "ring_gauge": 38,
+      "vitola_type": "Short Panatela",
+      "summary_review": "Dry and earthy with a dense, chalky/nutty character; rated in the mid-80s by reviewers.",
+      "tasting_notes": [
+        "earth",
+        "nut",
+        "cocoa",
+        "black pepper"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        5,
+        50
+      ],
+      "critic_reviews": []
+    },
+    {
+      "size_name": "Rothschild Jr.",
+      "slug": "rothschild-jr",
+      "length_in": 3.75,
+      "ring_gauge": 48,
+      "vitola_type": "Rothschild (petit robusto)",
+      "summary_review": "Marketed as 'the shortest cigar I've ever made'; medium-strength with the Maduro's San Andres wrapper character.",
+      "tasting_notes": [],
+      "smoke_time_min": null,
+      "box_counts": [
+        5
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Confirmed real. Could not retrieve full Stogie Guys review text (persistent redirect loop). Box counts: 5-count packs at launch; Carrillitos also listed in 50-count boxes by some retailers.",
+  "research_sources": [
+    {
+      "url": "https://cigar-coop.com/2016/08/cigar-news-interlude-by-e-p-carrillo-makes-debut-at-the-2016-ipcpr-trade-show.html",
+      "supports": "launch, blend, vitola sizes"
+    },
+    {
+      "url": "https://www.neptunecigar.com/cigars/ep-carrillo-interlude-carrillitos-maduro",
+      "supports": "wrapper/binder/filler, strength"
+    }
+  ]
+}

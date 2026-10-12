@@ -1,0 +1,42 @@
+{
+  "line": {
+    "name": "Onyx Bold Nicaragua",
+    "slug": "onyx-bold-nicaragua",
+    "description": "Released 2020. A Nicaraguan-puro-adjacent expression with a dark San Andres wrapper, positioned as the brand's more intense/bold departure from the original Dominican maduro.",
+    "wrapper": "Mexican San Andres",
+    "binder": "Nicaraguan",
+    "filler": "Nicaraguan and Dominican",
+    "factory": "Tabacalera A.J. Fernandez Cigars de Nicaragua S.A., Esteli, Nicaragua",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5 x 50",
+      "sources": [
+        "https://www.altadisusa.com/cigars/onyx/onyx-bold-nicaragua/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "sources": [
+        "https://www.altadisusa.com/cigars/onyx/onyx-bold-nicaragua/",
+        "https://halfwheel.com/onyx-bold-nicaragua-robusto/381940/"
+      ]
+    },
+    {
+      "name": "Magnum",
+      "size": "6 x 60",
+      "notes": "Described by Altadis as a newer/larger addition to the line.",
+      "sources": [
+        "https://www.altadisusa.com/cigars/onyx/onyx-bold-nicaragua/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.altadisusa.com/cigars/onyx/onyx-bold-nicaragua/",
+    "https://halfwheel.com/onyx-bold-nicaragua-robusto/381940/",
+    "https://cigar-coop.com/2021/02/cigar-review-onyx-bold-nicaragua-toro.html"
+  ]
+}

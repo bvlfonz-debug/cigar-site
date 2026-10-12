@@ -1,0 +1,29 @@
+{
+  "line": {
+    "name": "Charter Oak Connecticut Broadleaf",
+    "slug": "charter-oak-connecticut-broadleaf",
+    "description": "A maduro-wrapper Foundation Cigar Company line, fuller-bodied than the Connecticut Shade version. Also referred to as 'Charter Oak Maduro' by some retailers.",
+    "wrapper": "Connecticut Broadleaf (maduro)",
+    "binder": null,
+    "filler": null,
+    "factory": null,
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Toro",
+      "size": "6 x 52",
+      "notes": "Matches the Mac photo.",
+      "sources": [
+        "https://www.oakscigar.com/product/foundation-charter-oak-maduro-toro/",
+        "https://www.stogieguys.com/2019/08/08122019-cigar-review-charter-oak-maduro-toro.html"
+      ]
+    }
+  ],
+  "research_notes": "Binder/filler/factory not confirmed this session - left null rather than guessed. Only a Toro vitola was found in Mac photos; a fuller line vitola range wasn't independently researched in this pass.",
+  "research_sources": [
+    "https://www.oakscigar.com/product/foundation-charter-oak-maduro-toro/",
+    "https://www.stogieguys.com/2019/08/08122019-cigar-review-charter-oak-maduro-toro.html",
+    "https://www.cigaraficionado.com/article/two-new-charter-oaks-from-foundation-coming-this-fall"
+  ]
+}

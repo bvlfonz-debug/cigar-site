@@ -1,0 +1,20 @@
+{
+  "brand": "Gispert",
+  "batch_date": "2026-09-30",
+  "mac_source_root": "Cigar Images/Gispert",
+  "note": "Part of the Altadis USA reorganization; folder was already top-level (flat, 1 vitola photographed). Confirmed absent from the site's brand index. RESEARCH LIMITED THIS BATCH by a WebFetch session cap - see README.",
+  "mappings": [
+    {
+      "json_file": "gispert.json",
+      "line_slug": "gispert",
+      "mac_folder": "Cigar Images/Gispert",
+      "files": [
+        "Gispert_01.png",
+        "Gispert_Churchill_Box-Closed_01.jpg"
+      ],
+      "notes": "Churchill and Robusto sizes are 2-retailer confirmed; Toro/Corona/Belicoso are single-retailer sourced; wrapper/binder/filler not confirmed this session."
+    }
+  ],
+  "not_added": [],
+  "already_on_site_no_action": []
+}

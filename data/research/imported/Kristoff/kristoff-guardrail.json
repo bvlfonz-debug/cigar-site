@@ -1,0 +1,27 @@
+{
+  "line": {
+    "name": "Kristoff Guardrail",
+    "slug": "kristoff-guardrail",
+    "description": "CORRECTION TO AN INITIAL ASSUMPTION: Mac filename 'Kri-Guard-Rob' was assumed to be 'Guardian of the Farm' - that name belongs to a different, unrelated brand entirely. The real product is 'Kristoff Guardrail,' debuted 2022, ranked #8 on Cigar Coop's 2023 Cigar of the Year countdown.",
+    "wrapper": "Brazilian Arapiraca",
+    "binder": "Dominican",
+    "filler": "Zimbabwean (Burma Valley) and Dominican",
+    "factory": "Tabacalera Von Eicken, Dominican Republic",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Robusto",
+      "size": "5.25 x 54",
+      "notes": "Matches the Mac photo. Only size found in sourcing this pass - flagged as possibly not the only size offered, not confirmed as a single-vitola line.",
+      "sources": [
+        "https://cigar-coop.com/2024/01/2023-cigar-of-the-year-countdown-coops-list-8-kristoff-guardrail-robusto.html"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://cigar-coop.com/2024/01/2023-cigar-of-the-year-countdown-coops-list-8-kristoff-guardrail-robusto.html",
+    "https://halfwheel.com/tag/kristoff-guardail-robusto",
+    "https://www.smoke-king.co.uk/products/kristoff-guardrail-robusto-cigars-box-of-20"
+  ]
+}

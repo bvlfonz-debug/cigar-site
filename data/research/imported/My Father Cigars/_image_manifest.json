@@ -1,0 +1,61 @@
+{
+  "brand": "My Father Cigars",
+  "brand_slug": "my-father-cigars",
+  "note": "Paths are relative to 'Cigar Images/' in the connected folder on the user's Mac. This brand's photos are split across two top-level folders: 'Cigar Images/My Father Cigars/My Father Cigars/' (14 line subfolders) and 'Cigar Images/My Father Cigars/Flor de Selva/' (1 subfolder, see mislabeling note below). This schema has no photo field, so this manifest maps each researched item to its source photo folder.",
+  "critical_mislabeling": {
+    "folder": "Cigar Images/My Father Cigars/../Flor de Selva/Flor de Selva Maduro",
+    "issue": "This folder is named 'Flor de Selva Maduro' but every file inside it is prefixed 'Flor_de_las_Antillas_Maduro_*' (e.g. Flor_de_las_Antillas_Maduro_Corona_5-5-8x46-1.png, Flor_de_las_Antillas_Maduro_Torpedo_6-1-8x52-1.png). This is a My Father Cigars product (Flor de las Antillas Maduro), not a Flor de Selva product. Flor de Selva itself is already fully covered on the site (3 lines: Classic/Connecticut, Coleccion Aniversario No. 20, Maduro) and needs no new files from this batch. Recommend renaming this Mac folder to something like 'Flor de las Antillas Maduro' and moving it under the My Father Cigars folder tree if you want the Mac structure to reflect reality.",
+    "used_for": "flor-de-las-antillas-maduro.json"
+  },
+  "new_lines": {
+    "don-pepin-garcia-erh": {
+      "source_folder": "Cigar Images/My Father Cigars/Don Pepin Garcia Original",
+      "note": "photos mixed in with Original folder; several additional unresolved 'Don-Pepin-Nicaragua_*' files also in this folder, see 'unresolved' below"
+    },
+    "flor-de-las-antillas-maduro": {
+      "source_folder": "Cigar Images/My Father Cigars/../Flor de Selva/Flor de Selva Maduro",
+      "note": "see critical_mislabeling above"
+    },
+    "fonseca-mexico-edition": {
+      "source_folder": "Cigar Images/My Father Cigars/Fonseca by My Father"
+    },
+    "la-gran-oferta": {
+      "source_folder": "Cigar Images/My Father Cigars/My Father La Opulencia",
+      "note": "misfiled - conceptually a separate line, not La Opulencia"
+    },
+    "la-duena": {
+      "source_folder": "Cigar Images/My Father Cigars/My Father La Opulencia",
+      "note": "misfiled - conceptually a separate line, not La Opulencia"
+    }
+  },
+  "gap_fill_supplements": {
+    "_vegas-cubanas-additional-vitolas": {
+      "source_folder": "Cigar Images/My Father Cigars/Don Pepin Garcia Vegas Cubanas"
+    },
+    "_fonseca-by-my-father-additional-vitolas": {
+      "source_folder": "Cigar Images/My Father Cigars/Fonseca by My Father"
+    },
+    "_jaime-garcia-reserva-especial-additional-vitolas": {
+      "source_folder": "Cigar Images/My Father Cigars/Jaime Garcia Reserva Especial"
+    },
+    "_my-father-connecticut-corrected-line": {
+      "source_folder": "Cigar Images/My Father Cigars/My Father Connecticut",
+      "note": "see corrected-line flag - photos here are actually Jaime Garcia Reserva Especial Connecticut, not the site's existing 'My Father Connecticut' entry"
+    }
+  },
+  "already_matched_no_gap": [
+    "Don Pepin Garcia Cuban Classic",
+    "Don Pepin Garcia Series JJ (Belicoso/Selectos/Sublime - but see unresolved 'Toros' filename below)",
+    "Don Pepin Garcia Vintage Edition",
+    "Flor de las Antillas (non-maduro)",
+    "My Father La Antiguedad",
+    "My Father La Promesa",
+    "My Father The Judge",
+    "Le Bijou 1922",
+    "Flor de Selva (all 3 site lines)"
+  ],
+  "unresolved": {
+    "don_pepin_nicaragua_filenames": "The Don Pepin Garcia Original folder contains files prefixed 'Don-Pepin-Nicaragua_*' (Corona, Petit-Robusto, Robusto, Toro, Toro-Gordo) that could not be confidently matched to E.R.H., Original, or any other confirmed Don Pepin Garcia product by research. Excluded from JSON output rather than guessed. Recommend a closer look at these specific files (e.g. checking box art/bands in the photos themselves) if you want them matched.",
+    "series_jj_toros_filename": "The Don Pepin Garcia Series JJ folder contains a file with 'Toros' in its name, but the site lists only Belicoso, Selectos, and Sublime for this line - no 'Toro'/'Toros' vitola. Not yet dispatched to a research agent; flagged here as a minor unresolved item rather than guessed at."
+  }
+}

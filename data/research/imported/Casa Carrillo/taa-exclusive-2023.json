@@ -1,0 +1,43 @@
+{
+  "line": {
+    "brand_slug": "ep-carrillo",
+    "name": "E.P. Carrillo TAA Exclusive 2023",
+    "slug": "taa-exclusive-2023",
+    "wrapper": "Ecuadorian Connecticut",
+    "binder": "Connecticut Broadleaf (U.S.-grown)",
+    "filler": "Dominican and Nicaraguan",
+    "strength": "Medium",
+    "release_year": 2023,
+    "background_text": "E.P. Carrillo has produced an annual TAA Exclusive release for member retailers most years since roughly 2015. By 2023 the TAA Exclusive had become its own standalone yearly blend, distinct from both La Historia and Short Run. Made at Tabacalera La Alianza, box-pressed toro, limited to 1,000 boxes."
+  },
+  "vitolas": [
+    {
+      "size_name": "Toro (box-pressed)",
+      "slug": "toro-box-pressed",
+      "length_in": 6,
+      "ring_gauge": 52,
+      "vitola_type": "Toro",
+      "summary_review": "Medium-strength, complex and aromatic with pepper, earth, nuts, and cocoa, finishing long and creamy with cedar notes.",
+      "tasting_notes": [
+        "pepper",
+        "earth",
+        "nuts",
+        "cocoa",
+        "cedar",
+        "cream"
+      ],
+      "smoke_time_min": null,
+      "box_counts": [
+        10
+      ],
+      "critic_reviews": []
+    }
+  ],
+  "research_notes": "Confirmed distinct blend from earlier TAA exclusives (La Historia-based) and from Short Run - should be its own standalone entry. No numeric critic score located for this vintage.",
+  "research_sources": [
+    {
+      "url": "https://halfwheel.com/e-p-carrillo-2023-taa-exclusive-heads-to-stores/426807/",
+      "supports": "blend, size, price, box count, production limit"
+    }
+  ]
+}

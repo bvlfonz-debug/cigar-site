@@ -1,0 +1,27 @@
+{
+  "line": {
+    "name": "Brick House Double Connecticut",
+    "slug": "brick-house-double-connecticut",
+    "description": "Not on the site. A distinct sub-line from core Brick House - different wrapper (Connecticut Shade vs. Ecuador Habano-seed) and profile (mellow to medium vs. the core line's fuller body).",
+    "wrapper": "Connecticut Shade",
+    "binder": "Connecticut Broadleaf",
+    "filler": "Aged Nicaraguan (long filler)",
+    "strength": "Mellow to medium",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Mighty Mighty",
+      "size": "6.25 x 60",
+      "notes": "Mac photo filename was 'CT-Mighty' - real official vitola name repeats the word ('Mighty Mighty'), not just 'Mighty'.",
+      "sources": [
+        "https://www.neptunecigar.com/cigars/brick-house-double-connecticut-mighty-mighty"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.neptunecigar.com/cigars/brick-house-double-connecticut-mighty-mighty",
+    "https://www.jrcigars.com/cigars/handmade-cigars/brick-house-cigars/brick-house/",
+    "https://www.neptunecigar.com/cigar/brick-house-double-connecticut"
+  ]
+}

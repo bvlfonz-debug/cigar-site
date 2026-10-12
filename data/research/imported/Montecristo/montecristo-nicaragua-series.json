@@ -1,0 +1,43 @@
+{
+  "line": {
+    "name": "Montecristo Nicaragua Series",
+    "slug": "montecristo-nicaragua-series",
+    "description": "Not on the site. 100% Nicaraguan, made by A.J. Fernandez in Esteli. FLAG: may overlap with or be related to a separately-named 'Montecristo 1935 Anniversary Nicaragua' line referenced in some sources with different vitola names (Demi, No.2/Belicoso) - the relationship between the two names was not clarified in research. Treating as a separate line per its own distinct name and vitola set until clarified.",
+    "filler": "100% Nicaraguan",
+    "status": "current"
+  },
+  "vitolas": [
+    {
+      "name": "Churchill",
+      "size": "7 x 56",
+      "sources": [
+        "https://www.coronacigar.com/brands/montecristo/montecristo-nicaragua-series/"
+      ]
+    },
+    {
+      "name": "No. 2",
+      "size": "6.125 x 52",
+      "sources": [
+        "https://www.coronacigar.com/brands/montecristo/montecristo-nicaragua-series/"
+      ]
+    },
+    {
+      "name": "Robusto",
+      "size": "5 x 52",
+      "sources": [
+        "https://www.coronacigar.com/brands/montecristo/montecristo-nicaragua-series/"
+      ]
+    },
+    {
+      "name": "Toro",
+      "size": "6 x 54",
+      "sources": [
+        "https://www.coronacigar.com/brands/montecristo/montecristo-nicaragua-series/"
+      ]
+    }
+  ],
+  "research_sources": [
+    "https://www.coronacigar.com/brands/montecristo/montecristo-nicaragua-series/",
+    "https://halfwheel.com/montecristo-1935-anniversary-nicaragua-no-2-2/404972/"
+  ]
+}
