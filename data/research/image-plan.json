@@ -1,0 +1,1238 @@
+[
+ {
+  "folder": "AVO",
+  "sec": "mappings",
+  "json": "avo-expresivo.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/AVO/",
+  "files": [
+   "AVO_Exp-Church_01.jpg",
+   "AVO_Exp-Church_Box-Open_01.jpg",
+   "AVO_Exp-Rob_01.jpg",
+   "AVO_Exp-Rob_Box-Open_01.jpg",
+   "AVO_Exp-Tor_01.jpg",
+   "AVO_Exp-Tor_Box-Open_01.jpg"
+  ],
+  "primary": "AVO_Exp-Church_01.jpg",
+  "hasimg": null,
+  "line_id": 565,
+  "brand": "avo",
+  "lslug": "avo-expresivo",
+  "lname": "AVO Expresivo"
+ },
+ {
+  "folder": "AVO",
+  "sec": "mappings",
+  "json": "avo-syncro-10th-anniversary-le.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/AVO/",
+  "files": [
+   "AVO_Sync-10_01.jpg",
+   "AVO_Sync-10th_Box-Open_01.jpg"
+  ],
+  "primary": "AVO_Sync-10_01.jpg",
+  "hasimg": null,
+  "line_id": 566,
+  "brand": "avo",
+  "lslug": "avo-syncro-10th-anniversary-le",
+  "lname": "AVO Syncro 10th Anniversary Limited Edition"
+ },
+ {
+  "folder": "Blue Eyed Jack",
+  "sec": "mappings",
+  "json": "adventura-blue-eyed-jacks-revenge.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Blue Eyed Jack/",
+  "files": [
+   "BlueEyedJack_Blue-Cor_01.jpg",
+   "BlueEyedJack_Blue-Mad_Box-Open_01.jpg",
+   "BlueEyedJack_Blue-Rob_Box-Open_01.jpg"
+  ],
+  "primary": "BlueEyedJack_Blue-Cor_01.jpg",
+  "hasimg": null,
+  "line_id": 569,
+  "brand": "adventura",
+  "lslug": "adventura-blue-eyed-jacks-revenge",
+  "lname": "ADVentura Blue Eyed Jack's Revenge"
+ },
+ {
+  "folder": "Camacho",
+  "sec": "mappings",
+  "json": "camacho-limited-edition-2025.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Camacho/",
+  "files": [
+   "Camacho_25-Le_Box-Open_01.jpg",
+   "Camacho_Cam-Le-25_01.jpg"
+  ],
+  "primary": "Camacho_Cam-Le-25_01.jpg",
+  "hasimg": null,
+  "line_id": 579,
+  "brand": "camacho",
+  "lslug": "camacho-limited-edition-2025",
+  "lname": "Camacho Limited Edition 2025"
+ },
+ {
+  "folder": "Camacho",
+  "sec": "mappings",
+  "json": "camacho-broadleaf.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Camacho/",
+  "files": [
+   "Camacho_Broadleaf-Gordo_01.jpg",
+   "Camacho_Broadleaf-Robusto_01.jpg"
+  ],
+  "primary": "Camacho_Broadleaf-Gordo_01.jpg",
+  "hasimg": null,
+  "line_id": 578,
+  "brand": "camacho",
+  "lslug": "camacho-broadleaf",
+  "lname": "Camacho Broadleaf"
+ },
+ {
+  "folder": "Casa de Garcia",
+  "sec": "mappings",
+  "json": "casa-de-garcia-connecticut.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Casa de Garcia/Casa de Garcia Connecticut/",
+  "files": [
+   "1510685688621-Casa-De-Garcia-Connecticut.png",
+   "1512163712566-Casa-De-Garcia-Connecticut.png",
+   "CasaDeGarcia_Connecticut_01.png",
+   "CasaDeGarcia_Connecticut_Bundle_01.jpg"
+  ],
+  "primary": "1510685688621-Casa-De-Garcia-Connecticut.png",
+  "hasimg": null,
+  "line_id": 602,
+  "brand": "casa-de-garcia",
+  "lslug": "casa-de-garcia-connecticut",
+  "lname": "Casa de Garcia Connecticut"
+ },
+ {
+  "folder": "Casa de Garcia",
+  "sec": "mappings",
+  "json": "casa-de-garcia-maduro.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Casa de Garcia/Casa de Garcia Maduro/",
+  "files": [
+   "CasaDeGarcia_Maduro_01.png",
+   "CasaDeGarcia_Maduro_Bundle_01.jpg"
+  ],
+  "primary": "CasaDeGarcia_Maduro_01.png",
+  "hasimg": null,
+  "line_id": 603,
+  "brand": "casa-de-garcia",
+  "lslug": "casa-de-garcia-maduro",
+  "lname": "Casa de Garcia Maduro"
+ },
+ {
+  "folder": "Casa de Garcia",
+  "sec": "mappings",
+  "json": "casa-de-garcia-sumatra.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Casa de Garcia/Casa de Garcia Sumatra/",
+  "files": [
+   "CasaDeGarcia_Sumatra_01.png",
+   "CasaDeGarcia_Sumatra_Bundle_01.jpg"
+  ],
+  "primary": "CasaDeGarcia_Sumatra_01.png",
+  "hasimg": null,
+  "line_id": 605,
+  "brand": "casa-de-garcia",
+  "lslug": "casa-de-garcia-sumatra",
+  "lname": "Casa de Garcia Sumatra"
+ },
+ {
+  "folder": "Casa de Garcia",
+  "sec": "mappings",
+  "json": "casa-de-garcia-nicaragua.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Casa de Garcia/Casa de Garcia Nicaragua/",
+  "files": [
+   "CasaDeGarcia_Nicaragua_01.png",
+   "CasaDeGarcia_Nicaragua_Bundle_01.png"
+  ],
+  "primary": "CasaDeGarcia_Nicaragua_01.png",
+  "hasimg": null,
+  "line_id": 604,
+  "brand": "casa-de-garcia",
+  "lslug": "casa-de-garcia-nicaragua",
+  "lname": "Casa de Garcia Nicaragua"
+ },
+ {
+  "folder": "Casa de Garcia",
+  "sec": "mappings",
+  "json": "casa-de-garcia-centenario-red-label.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Casa de Garcia/Casa de Garcia Centenario Red/",
+  "files": [
+   "CasaDeGarcia_Centenario-Red_01.png",
+   "CasaDeGarcia_Centenario-Red_Bundle_01.jpg"
+  ],
+  "primary": "CasaDeGarcia_Centenario-Red_01.png",
+  "hasimg": null,
+  "line_id": 601,
+  "brand": "casa-de-garcia",
+  "lslug": "casa-de-garcia-centenario-red-label",
+  "lname": "Casa de Garcia Centenario Red Label"
+ },
+ {
+  "folder": "Casa de Garcia",
+  "sec": "mappings",
+  "json": "casa-de-garcia-centenario-gold-label.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Casa de Garcia/Casa de Garcia Centenario Yellow/",
+  "files": [
+   "CasaDeGarcia_Centenario-Yellow_01.png",
+   "CasaDeGarcia_Centenario-Yellow_Bundle_01.jpg"
+  ],
+  "primary": "CasaDeGarcia_Centenario-Yellow_01.png",
+  "hasimg": null,
+  "line_id": 600,
+  "brand": "casa-de-garcia",
+  "lslug": "casa-de-garcia-centenario-gold-label",
+  "lname": "Casa de Garcia Centenario Gold Label"
+ },
+ {
+  "folder": "DBL",
+  "sec": "mappings",
+  "json": "dbl-12th-anniversary.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/DBL/",
+  "files": [
+   "DBL_12th-Hab_01.jpg",
+   "DBL_12th-Mad_01.jpg"
+  ],
+  "primary": "DBL_12th-Hab_01.jpg",
+  "hasimg": null,
+  "line_id": 607,
+  "brand": "dbl",
+  "lslug": "dbl-12th-anniversary",
+  "lname": "DBL 12th Anniversary"
+ },
+ {
+  "folder": "DBL",
+  "sec": "mappings",
+  "json": "dbl-chengo.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/DBL/",
+  "files": [
+   "DBL_Chen-Mad_01.jpg"
+  ],
+  "primary": "DBL_Chen-Mad_01.jpg",
+  "hasimg": null,
+  "line_id": 609,
+  "brand": "dbl",
+  "lslug": "dbl-chengo",
+  "lname": "DBL Chengo"
+ },
+ {
+  "folder": "DBL",
+  "sec": "mappings",
+  "json": "dbl-baseball-bat.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/DBL/",
+  "files": [
+   "DBL_Bat-Ct_01.jpg"
+  ],
+  "primary": "DBL_Bat-Ct_01.jpg",
+  "hasimg": null,
+  "line_id": 608,
+  "brand": "dbl",
+  "lslug": "dbl-baseball-bat",
+  "lname": "DBL Baseball Bat"
+ },
+ {
+  "folder": "Davidoff",
+  "sec": "mappings",
+  "json": "davidoff-chefs-edition-2025.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Davidoff/",
+  "files": [
+   "Davidoff_Chef-25_01.jpg",
+   "Davidoff_Chef-25_Box-Open_01.jpg"
+  ],
+  "primary": "Davidoff_Chef-25_01.jpg",
+  "hasimg": null,
+  "line_id": 610,
+  "brand": "davidoff",
+  "lslug": "davidoff-chefs-edition-2025",
+  "lname": "Davidoff Chefs Edition 2025"
+ },
+ {
+  "folder": "Davidoff",
+  "sec": "mappings",
+  "json": "davidoff-escurio-10th-anniversary-le-2025.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Davidoff/",
+  "files": [
+   "Davidoff_Escur-10th_Box-Open_01.jpg",
+   "Davidoff_Escurio-10th_01.jpg"
+  ],
+  "primary": "Davidoff_Escurio-10th_01.jpg",
+  "hasimg": null,
+  "line_id": 611,
+  "brand": "davidoff",
+  "lslug": "davidoff-escurio-10th-anniversary-le-2025",
+  "lname": "Davidoff Escurio 10th Anniversary Limited Edition 2025"
+ },
+ {
+  "folder": "Davidoff",
+  "sec": "mappings",
+  "json": "davidoff-year-of-the-horse-le-2026.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Davidoff/",
+  "files": [
+   "Davidoff_Yoth_01.jpg",
+   "Davidoff_Yoth_Box-Open_01.jpg"
+  ],
+  "primary": "Davidoff_Yoth_01.jpg",
+  "hasimg": null,
+  "line_id": 612,
+  "brand": "davidoff",
+  "lslug": "davidoff-year-of-the-horse-le-2026",
+  "lname": "Davidoff Year of the Horse Limited Edition 2026"
+ },
+ {
+  "folder": "Deadwood",
+  "sec": "mappings",
+  "json": "deadwood-sweet-jane-dia-de-los-muertos-le-2024.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Deadwood/",
+  "files": [
+   "Deadwood_Dia-24_01.jpg",
+   "Deadwood_Dia-24_Box-Open_01.jpg"
+  ],
+  "primary": "Deadwood_Dia-24_01.jpg",
+  "hasimg": null,
+  "line_id": 615,
+  "brand": "drew-estate",
+  "lslug": "deadwood-sweet-jane-dia-de-los-muertos-le-2024",
+  "lname": "Deadwood Sweet Jane Dia de los Muertos Limited Edition 2024"
+ },
+ {
+  "folder": "Deadwood",
+  "sec": "mappings",
+  "json": "deadwood-dominicana-buenas-noches.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Deadwood/",
+  "files": [
+   "Deadwood_Dom-Noche-Gor_01.jpg"
+  ],
+  "primary": "Deadwood_Dom-Noche-Gor_01.jpg",
+  "hasimg": null,
+  "line_id": 613,
+  "brand": "drew-estate",
+  "lslug": "deadwood-dominicana-buenas-noches",
+  "lname": "Deadwood Dominicana Buenas Noches"
+ },
+ {
+  "folder": "Deadwood",
+  "sec": "mappings",
+  "json": "deadwood-fat-bottom-betty.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Deadwood/",
+  "files": [
+   "Deadwood_Fat-Gord_01.jpg"
+  ],
+  "primary": "Deadwood_Fat-Gord_01.jpg",
+  "hasimg": null,
+  "line_id": 614,
+  "brand": "drew-estate",
+  "lslug": "deadwood-fat-bottom-betty",
+  "lname": "Deadwood Fat Bottom Betty"
+ },
+ {
+  "folder": "Domain",
+  "sec": "mappings",
+  "json": "domain-entropy.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Domain/",
+  "files": [
+   "Domain_Entropy-Robx_01.jpg",
+   "Domain_Entropy-Tor_01.jpg"
+  ],
+  "primary": "Domain_Entropy-Robx_01.jpg",
+  "hasimg": null,
+  "line_id": 616,
+  "brand": "domain-cigars",
+  "lslug": "domain-entropy",
+  "lname": "Domain Entropy"
+ },
+ {
+  "folder": "Don Diego",
+  "sec": "mappings",
+  "json": "don-diego.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Don Diego/",
+  "files": [
+   "DonDiego_Churchill_01.png",
+   "DonDiego_Churchill_Box-Open_01.jpg"
+  ],
+  "primary": "DonDiego_Churchill_01.png",
+  "hasimg": null,
+  "line_id": 617,
+  "brand": "don-diego",
+  "lslug": "don-diego",
+  "lname": "Don Diego"
+ },
+ {
+  "folder": "Dos Amigos",
+  "sec": "mappings",
+  "json": "dos-amigos-1987.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Dos Amigos/",
+  "files": [
+   "DosAmigos_Robusto_01.jpg",
+   "DosAmigos_Toro_01.jpg"
+  ],
+  "primary": "DosAmigos_Robusto_01.jpg",
+  "hasimg": null,
+  "line_id": 618,
+  "brand": "dos-amigos",
+  "lslug": "dos-amigos-1987",
+  "lname": "Dos Amigos 1987"
+ },
+ {
+  "folder": "Gispert",
+  "sec": "mappings",
+  "json": "gispert.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Gispert/",
+  "files": [
+   "Gispert_01.png",
+   "Gispert_Churchill_Box-Closed_01.jpg"
+  ],
+  "primary": "Gispert_01.png",
+  "hasimg": null,
+  "line_id": 620,
+  "brand": "gispert",
+  "lslug": "gispert",
+  "lname": "Gispert"
+ },
+ {
+  "folder": "H. Upmann",
+  "sec": "mappings",
+  "json": "h-upmann-by-ajf.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/H. Upmann/H. Upmann by AJF/",
+  "files": [
+   "HUpmann-by-AJF_Toro_01.png",
+   "HUpmann-by-AJF_Toro_Box-Open_01.jpg"
+  ],
+  "primary": "HUpmann-by-AJF_Toro_01.png",
+  "hasimg": null,
+  "line_id": 623,
+  "brand": "h-upmann",
+  "lslug": "h-upmann-by-ajf",
+  "lname": "H. Upmann by AJ Fernandez"
+ },
+ {
+  "folder": "H. Upmann",
+  "sec": "mappings",
+  "json": "h-upmann-1844-anejo.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/H. Upmann/H. Upmann Anejo/",
+  "files": [
+   "HUpmann_Anejo_01.png",
+   "HUpmann_Anejo_Box-Open_01.jpg"
+  ],
+  "primary": "HUpmann_Anejo_01.png",
+  "hasimg": null,
+  "line_id": 621,
+  "brand": "h-upmann",
+  "lslug": "h-upmann-1844-anejo",
+  "lname": "H. Upmann 1844 A\u00f1ejo"
+ },
+ {
+  "folder": "H. Upmann",
+  "sec": "mappings",
+  "json": "h-upmann-1844-classic.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/H. Upmann/H. Upmann Classic/",
+  "files": [
+   "HUpmann_Classic_01.png",
+   "HUpmann_Classic_Box-Open_01.jpg"
+  ],
+  "primary": "HUpmann_Classic_01.png",
+  "hasimg": null,
+  "line_id": 622,
+  "brand": "h-upmann",
+  "lslug": "h-upmann-1844-classic",
+  "lname": "H. Upmann 1844 Classic"
+ },
+ {
+  "folder": "H. Upmann",
+  "sec": "mappings",
+  "json": "h-upmann-nicaragua-ajf-heritage.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/H. Upmann/H. Upmann Nicaragua AJF Heritage/",
+  "files": [
+   "HUpmann_Nicaragua-AJF-Heritage_01.png",
+   "HUpmann_Nicaragua-AJF-Heritage_Box-Open_01.jpg"
+  ],
+  "primary": "HUpmann_Nicaragua-AJF-Heritage_01.png",
+  "hasimg": null,
+  "line_id": 624,
+  "brand": "h-upmann",
+  "lslug": "h-upmann-nicaragua-ajf-heritage",
+  "lname": "H. Upmann Nicaragua AJ Fernandez Heritage"
+ },
+ {
+  "folder": "H. Upmann",
+  "sec": "mappings",
+  "json": "h-upmann-vintage-cameroon.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/H. Upmann/H. Upmann Vintage Cameroon/",
+  "files": [
+   "HUpmann_Vintage-Cameroon_01.png",
+   "HUpmann_Vintage-Cameroon_Box-Open_01.jpg"
+  ],
+  "primary": "HUpmann_Vintage-Cameroon_01.png",
+  "hasimg": null,
+  "line_id": 625,
+  "brand": "h-upmann",
+  "lslug": "h-upmann-vintage-cameroon",
+  "lname": "H. Upmann Vintage Cameroon"
+ },
+ {
+  "folder": "H. Upmann",
+  "sec": "mappings",
+  "json": "_the-banker-additional-vitolas.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/H. Upmann/H. Upmann The Banker Day Trader/",
+  "files": [
+   "HUpmann_The-Banker-DayTrader_01.png",
+   "HUpmann_The-Banker-DayTrader_Box-Open_01.jpg"
+  ],
+  "primary": "HUpmann_The-Banker-DayTrader_01.png",
+  "hasimg": null,
+  "line_id": 56,
+  "brand": "h-upmann",
+  "lslug": "the-banker",
+  "lname": "H. Upmann The Banker"
+ },
+ {
+  "folder": "HVC",
+  "sec": "mappings",
+  "json": "hvc-la-decoracion.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/HVC/",
+  "files": [
+   "HVC_Dec-Church_01.jpg",
+   "HVC_Dec-Gran_01.jpg",
+   "HVC_Dec-Rob_01.jpg",
+   "HVC_Dec-Rob_Box-Open_01.jpg",
+   "HVC_Dec-Tor_01.jpg",
+   "HVC_Dec-Tor_Box-Open_01.jpg"
+  ],
+  "primary": "HVC_Dec-Church_01.jpg",
+  "hasimg": null,
+  "line_id": 626,
+  "brand": "hvc",
+  "lslug": "hvc-la-decoracion",
+  "lname": "HVC La Decoraci\u00f3n"
+ },
+ {
+  "folder": "Henry Clay",
+  "sec": "mappings",
+  "json": "henry-clay.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Henry Clay/Henry Clay Core/",
+  "files": [
+   "HenryClay_02.png",
+   "HenryClay_Toro_Box-Closed_01.png"
+  ],
+  "primary": "HenryClay_02.png",
+  "hasimg": null,
+  "line_id": 630,
+  "brand": "henry-clay",
+  "lslug": "henry-clay",
+  "lname": "Henry Clay"
+ },
+ {
+  "folder": "Henry Clay",
+  "sec": "mappings",
+  "json": "henry-clay-rustic-cheroot.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Henry Clay/Henry Clay Rustic Cheroot/",
+  "files": [
+   "HenryClay_Rustic-Cheroot_01.png",
+   "HenryClay_Rustic-Cheroot_Bundle_01.jpg"
+  ],
+  "primary": "HenryClay_Rustic-Cheroot_01.png",
+  "hasimg": null,
+  "line_id": 627,
+  "brand": "henry-clay",
+  "lslug": "henry-clay-rustic-cheroot",
+  "lname": "Henry Clay Rustic Cheroot"
+ },
+ {
+  "folder": "Henry Clay",
+  "sec": "mappings",
+  "json": "henry-clay-war-hawk.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Henry Clay/Henry Clay War Hawk/",
+  "files": [
+   "HenryClay_WarHawk_01.png",
+   "HenryClay_WarHawk_Box-Open_01.jpg"
+  ],
+  "primary": "HenryClay_WarHawk_01.png",
+  "hasimg": null,
+  "line_id": 629,
+  "brand": "henry-clay",
+  "lslug": "henry-clay-war-hawk",
+  "lname": "Henry Clay War Hawk"
+ },
+ {
+  "folder": "Henry Clay",
+  "sec": "mappings",
+  "json": "henry-clay-war-hawk-rebellious.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Henry Clay/Henry Clay War Hawk Rebellious/",
+  "files": [
+   "HenryClay_WarHawk-Rebellious_01.png",
+   "HenryClay_WarHawk-Rebellious_Box-Open_01.jpg"
+  ],
+  "primary": "HenryClay_WarHawk-Rebellious_01.png",
+  "hasimg": null,
+  "line_id": 628,
+  "brand": "henry-clay",
+  "lslug": "henry-clay-war-hawk-rebellious",
+  "lname": "Henry Clay War Hawk Rebellious"
+ },
+ {
+  "folder": "JFR",
+  "sec": "mappings",
+  "json": "jfr-20th-anniversary.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/JFR/",
+  "files": [
+   "JFR_20-470_01.jpg",
+   "JFR_20-770_01.jpg",
+   "JFR_20-Tit_01.jpg",
+   "JFR_20-Tit_Box-Open_01.jpg",
+   "JFR_20-Tor_Box-Open_01.jpg"
+  ],
+  "primary": "JFR_20-470_01.jpg",
+  "hasimg": null,
+  "line_id": 636,
+  "brand": "aganorsa-leaf",
+  "lslug": "jfr-20th-anniversary",
+  "lname": "JFR 20th Anniversary"
+ },
+ {
+  "folder": "JFR",
+  "sec": "mappings",
+  "json": "jfr-lunatic-habano.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/JFR/",
+  "files": [
+   "JFR_Luna-Hab-Eighty_01.jpg",
+   "JFR_Luna-Hab-Hom_01.jpg"
+  ],
+  "primary": "JFR_Luna-Hab-Eighty_01.jpg",
+  "hasimg": null,
+  "line_id": 567,
+  "brand": "aganorsa-leaf",
+  "lslug": "jfr-lunatic-habano",
+  "lname": "JFR Lunatic Habano"
+ },
+ {
+  "folder": "JFR",
+  "sec": "mappings",
+  "json": "jfr-lunatic-maduro.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/JFR/",
+  "files": [
+   "JFR_Lun-Homlib-Mad_Box-Open_01.jpg",
+   "JFR_Luna-Mad-Eighty_01.jpg",
+   "JFR_Luna-Mad-Rob_01.jpg",
+   "JFR_Luna-Mad-Seventy_01.jpg",
+   "JFR_Luna-Mad-Sixty_01.jpg"
+  ],
+  "primary": "JFR_Luna-Mad-Eighty_01.jpg",
+  "hasimg": "/images/cigars/aganorsa-leaf/jfr-lunatic-maduro.jpg",
+  "line_id": 513,
+  "brand": "aganorsa-leaf",
+  "lslug": "jfr-lunatic-maduro",
+  "lname": "Aganorsa Leaf JFR Lunatic Maduro"
+ },
+ {
+  "folder": "Kristoff",
+  "sec": "mappings",
+  "json": "kristoff-guardrail.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Kristoff/",
+  "files": [
+   "Kristoff_Kri-Guard-Rob_01.jpg"
+  ],
+  "primary": "Kristoff_Kri-Guard-Rob_01.jpg",
+  "hasimg": null,
+  "line_id": 646,
+  "brand": "kristoff",
+  "lslug": "kristoff-guardrail",
+  "lname": "Kristoff Guardrail"
+ },
+ {
+  "folder": "Kristoff",
+  "sec": "mappings",
+  "json": "kristoff-nicaragua.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Kristoff/",
+  "files": [
+   "Kristoff_Kri-Nica-Rob_01.jpg"
+  ],
+  "primary": "Kristoff_Kri-Nica-Rob_01.jpg",
+  "hasimg": null,
+  "line_id": 647,
+  "brand": "kristoff",
+  "lslug": "kristoff-nicaragua",
+  "lname": "Kristoff Nicaragua"
+ },
+ {
+  "folder": "Kristoff",
+  "sec": "mappings",
+  "json": "kristoff-taa-exclusive-2023.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Kristoff/",
+  "files": [
+   "Kristoff_Kri-Taa-23_01.jpg"
+  ],
+  "primary": "Kristoff_Kri-Taa-23_01.jpg",
+  "hasimg": null,
+  "line_id": 649,
+  "brand": "kristoff",
+  "lslug": "kristoff-taa-exclusive-2023",
+  "lname": "Kristoff TAA Exclusive 2023"
+ },
+ {
+  "folder": "Kristoff",
+  "sec": "mappings",
+  "json": "kristoff-tres-compadres.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Kristoff/",
+  "files": [
+   "Kristoff_Kri-Tres-Rob_01.jpg"
+  ],
+  "primary": "Kristoff_Kri-Tres-Rob_01.jpg",
+  "hasimg": null,
+  "line_id": 650,
+  "brand": "kristoff",
+  "lslug": "kristoff-tres-compadres",
+  "lname": "Kristoff Tres Compadres"
+ },
+ {
+  "folder": "Kristoff",
+  "sec": "mappings",
+  "json": "kristoff-pca-2024-signature-series.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Kristoff/",
+  "files": [
+   "Kristoff_Pca-24_01.jpg",
+   "Kristoff_Pca-24_Box-Open_01.jpg"
+  ],
+  "primary": "Kristoff_Pca-24_01.jpg",
+  "hasimg": null,
+  "line_id": 648,
+  "brand": "kristoff",
+  "lslug": "kristoff-pca-2024-signature-series",
+  "lname": "Kristoff PCA 2024 Signature Series"
+ },
+ {
+  "folder": "La Flor Dominicana",
+  "sec": "mappings",
+  "json": "la-flor-dominicana-la-nox.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/La Flor Dominicana/",
+  "files": [
+   "LaFlorDominicana_La-Nox-Petit_01.png"
+  ],
+  "primary": "LaFlorDominicana_La-Nox-Petit_01.png",
+  "hasimg": null,
+  "line_id": 652,
+  "brand": "la-flor-dominicana",
+  "lslug": "la-flor-dominicana-la-nox",
+  "lname": "La Flor Dominicana La Nox"
+ },
+ {
+  "folder": "La Flor Dominicana",
+  "sec": "mappings",
+  "json": "la-flor-dominicana-capitulo-ii.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/La Flor Dominicana/",
+  "files": [
+   "LaFlorDominicana_Lfd-Chapter-Two_01.png"
+  ],
+  "primary": "LaFlorDominicana_Lfd-Chapter-Two_01.png",
+  "hasimg": null,
+  "line_id": 651,
+  "brand": "la-flor-dominicana",
+  "lslug": "la-flor-dominicana-capitulo-ii",
+  "lname": "La Flor Dominicana Capitulo II (Chapter Two)"
+ },
+ {
+  "folder": "La Flor Dominicana",
+  "sec": "mappings",
+  "json": "la-flor-dominicana-ligero.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/La Flor Dominicana/",
+  "files": [
+   "LaFlorDominicana_Lfd-L300-Oscuro_01.png",
+   "LaFlorDominicana_Lfd-L300-Oscuro_Box-Open_01.png",
+   "LaFlorDominicana_Lfd-L400-Natural_01.png",
+   "LaFlorDominicana_Lfd-L400-Oscuro_01.png"
+  ],
+  "primary": "LaFlorDominicana_Lfd-L300-Oscuro_01.png",
+  "hasimg": null,
+  "line_id": 654,
+  "brand": "la-flor-dominicana",
+  "lslug": "la-flor-dominicana-ligero",
+  "lname": "La Flor Dominicana Ligero"
+ },
+ {
+  "folder": "La Flor Dominicana",
+  "sec": "mappings",
+  "json": "la-flor-dominicana-la-volcada.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/La Flor Dominicana/",
+  "files": [
+   "LaFlorDominicana_Lfd-La-Volcada_01.png"
+  ],
+  "primary": "LaFlorDominicana_Lfd-La-Volcada_01.png",
+  "hasimg": null,
+  "line_id": 653,
+  "brand": "la-flor-dominicana",
+  "lslug": "la-flor-dominicana-la-volcada",
+  "lname": "La Flor Dominicana La Volcada"
+ },
+ {
+  "folder": "La Flor Dominicana",
+  "sec": "mappings",
+  "json": "la-flor-dominicana-oro.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/La Flor Dominicana/",
+  "files": [
+   "LaFlorDominicana_Lfd-Oro-6-Natural_01.png"
+  ],
+  "primary": "LaFlorDominicana_Lfd-Oro-6-Natural_01.png",
+  "hasimg": null,
+  "line_id": 655,
+  "brand": "la-flor-dominicana",
+  "lslug": "la-flor-dominicana-oro",
+  "lname": "La Flor Dominicana Oro"
+ },
+ {
+  "folder": "La Flor Dominicana",
+  "sec": "mappings",
+  "json": "_double-ligero-additional-vitolas.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/La Flor Dominicana/",
+  "files": [
+   "LaFlorDominicana_Lfd-DL-452-Maduro_01.png",
+   "LaFlorDominicana_Lfd-DL-600-Maduro_01.png",
+   "LaFlorDominicana_Lfd-DL-600-Natural_01.png",
+   "LaFlorDominicana_Lfd-DL-654-Maduro_01.png",
+   "LaFlorDominicana_Lfd-DL-Chisel-Maduro_01.png",
+   "LaFlorDominicana_Lfd-DL700-Maduro_01.png"
+  ],
+  "primary": "LaFlorDominicana_Lfd-DL-452-Maduro_01.png",
+  "hasimg": null,
+  "line_id": 30,
+  "brand": "la-flor-dominicana",
+  "lslug": "double-ligero",
+  "lname": "La Flor Dominicana Double Ligero"
+ },
+ {
+  "folder": "Montecristo",
+  "sec": "mappings",
+  "json": "montecristo-1935-anniversary.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Montecristo/Montecristo 1935 Anniversary/",
+  "files": [
+   "Montecristo_1935-Anniversary_01.png",
+   "Montecristo_1935-Anniversary_Box-Open_01.jpg",
+   "Montecristo_1935-Dia-Tor_01.jpg",
+   "Montecristo_1935_Edicion-Diamante_01.png",
+   "Montecristo_1935_Edicion-Diamante_Box-Open_01.jpg"
+  ],
+  "primary": "Montecristo_1935-Anniversary_01.png",
+  "hasimg": null,
+  "line_id": 663,
+  "brand": "montecristo",
+  "lslug": "montecristo-1935-anniversary",
+  "lname": "Montecristo 1935 Anniversary"
+ },
+ {
+  "folder": "Montecristo",
+  "sec": "mappings",
+  "json": "montecristo-espada.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Montecristo/Montecristo Espada/",
+  "files": [
+   "Montecristo_Espada-Oscuro_01.png",
+   "Montecristo_Espada-Oscuro_Box-Open_01.jpg",
+   "Montecristo_Espada-Signature_01.png",
+   "Montecristo_Espada-Signature_Box-Open_01.jpg",
+   "Montecristo_Espada_Box-Open_01.jpg"
+  ],
+  "primary": "Montecristo_Espada-Oscuro_01.png",
+  "hasimg": null,
+  "line_id": 664,
+  "brand": "montecristo",
+  "lslug": "montecristo-espada",
+  "lname": "Montecristo Espada"
+ },
+ {
+  "folder": "Montecristo",
+  "sec": "mappings",
+  "json": "montecristo-m.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Montecristo/Montecristo M/",
+  "files": [
+   "Montecristo_M_Toro_01.png",
+   "Montecristo_M_Toro_Box-Open_01.jpg"
+  ],
+  "primary": "Montecristo_M_Toro_01.png",
+  "hasimg": null,
+  "line_id": 665,
+  "brand": "montecristo",
+  "lslug": "montecristo-m",
+  "lname": "Montecristo M"
+ },
+ {
+  "folder": "Montecristo",
+  "sec": "mappings",
+  "json": "montecristo-nicaragua-series.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Montecristo/Montecristo Nicaragua Series/",
+  "files": [
+   "Montecristo_Nicaragua-Series_01.png",
+   "Montecristo_Nicaragua-Series_Box-Open_01.jpg"
+  ],
+  "primary": "Montecristo_Nicaragua-Series_01.png",
+  "hasimg": null,
+  "line_id": 666,
+  "brand": "montecristo",
+  "lslug": "montecristo-nicaragua-series",
+  "lname": "Montecristo Nicaragua Series"
+ },
+ {
+  "folder": "Montecristo",
+  "sec": "mappings",
+  "json": "montecristo-platinum.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Montecristo/Montecristo Platinum/",
+  "files": [
+   "Montecristo_Platinum_01.png",
+   "Montecristo_Platinum_Box-Open_01.png"
+  ],
+  "primary": null,
+  "hasimg": null,
+  "line_id": 667,
+  "brand": "montecristo",
+  "lslug": "montecristo-platinum",
+  "lname": "Montecristo Platinum Series"
+ },
+ {
+  "folder": "Omar Ortez",
+  "sec": "mappings",
+  "json": "omar-ortez-maduro.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Omar Ortez/Omar Ortez Maduro/",
+  "files": [
+   "OmarOrtez_Maduro_02.png",
+   "OmarOrtez_Maduro_Toro_Box-Closed_01.jpg"
+  ],
+  "primary": "OmarOrtez_Maduro_02.png",
+  "hasimg": null,
+  "line_id": 674,
+  "brand": "omar-ortez",
+  "lslug": "omar-ortez-maduro",
+  "lname": "Omar Ortez Maduro"
+ },
+ {
+  "folder": "Omar Ortez",
+  "sec": "mappings",
+  "json": "omar-ortez-originals.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Omar Ortez/Omar Ortez Originals/",
+  "files": [
+   "OmarOrtez_Original_01.png",
+   "OmarOrtez_Originals_Box-Open_01.jpg"
+  ],
+  "primary": "OmarOrtez_Original_01.png",
+  "hasimg": null,
+  "line_id": 675,
+  "brand": "omar-ortez",
+  "lslug": "omar-ortez-originals",
+  "lname": "Omar Ortez Originals"
+ },
+ {
+  "folder": "Onyx",
+  "sec": "mappings",
+  "json": "onyx-reserve.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Onyx/Onyx Reserve/",
+  "files": [
+   "Onyx_Reserve_01.png",
+   "Onyx_Reserve_Box-Open_01.jpg"
+  ],
+  "primary": "Onyx_Reserve_01.png",
+  "hasimg": null,
+  "line_id": 677,
+  "brand": "onyx",
+  "lslug": "onyx-reserve",
+  "lname": "Onyx Reserve"
+ },
+ {
+  "folder": "Onyx",
+  "sec": "mappings",
+  "json": "onyx-bold-nicaragua.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Onyx/Onyx Bold Nicaragua/",
+  "files": [
+   "Onyx_Bold_Nicaragua_01.png",
+   "Onyx_Bold_Nicaragua_Box-Open_01.jpg"
+  ],
+  "primary": "Onyx_Bold_Nicaragua_01.png",
+  "hasimg": null,
+  "line_id": 676,
+  "brand": "onyx",
+  "lslug": "onyx-bold-nicaragua",
+  "lname": "Onyx Bold Nicaragua"
+ },
+ {
+  "folder": "Onyx",
+  "sec": "mappings",
+  "json": "onyx-vintage-nicaragua.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Onyx/Onyx Vintage Nicaragua/",
+  "files": [
+   "Onyx_Vintage_Nicaragua_Toro_01.png",
+   "Onyx_Vintage_Nicaragua_Toro_Box-Open_01.jpg"
+  ],
+  "primary": "Onyx_Vintage_Nicaragua_Toro_01.png",
+  "hasimg": null,
+  "line_id": 678,
+  "brand": "onyx",
+  "lslug": "onyx-vintage-nicaragua",
+  "lname": "Onyx Vintage Nicaragua"
+ },
+ {
+  "folder": "Primo del Rey",
+  "sec": "mappings",
+  "json": "primo-del-rey.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Primo del Rey/",
+  "files": [
+   "PrimoDelRey_02.png",
+   "PrimoDelRey_Toro_Box-Closed_01.jpg"
+  ],
+  "primary": "PrimoDelRey_02.png",
+  "hasimg": null,
+  "line_id": 685,
+  "brand": "primo-del-rey",
+  "lslug": "primo-del-rey",
+  "lname": "Primo del Rey"
+ },
+ {
+  "folder": "Romeo y Julieta",
+  "sec": "mappings",
+  "json": "romeo-y-julieta-150th-anniversary.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Romeo y Julieta/Romeo y Julieta 150th Anniversary/",
+  "files": [
+   "RomeoYJulieta_150th-Anniversary-Tin_01.jpg",
+   "RomeoYJulieta_150th-Anniversary_01.png",
+   "RomeoYJulieta_150th-Anniversary_Box-Open_01.jpg"
+  ],
+  "primary": "RomeoYJulieta_150th-Anniversary_01.png",
+  "hasimg": null,
+  "line_id": 699,
+  "brand": "romeo-y-julieta",
+  "lslug": "romeo-y-julieta-150th-anniversary",
+  "lname": "Romeo y Julieta 150th Anniversary"
+ },
+ {
+  "folder": "Romeo y Julieta",
+  "sec": "mappings",
+  "json": "romeo-y-julieta-reserve.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Romeo y Julieta/Romeo y Julieta Reserve/",
+  "files": [
+   "RomeoYJulieta_Reserve_Churchill_01.png",
+   "RomeoYJulieta_Reserve_Churchill_Box-Open_01.jpg"
+  ],
+  "primary": "RomeoYJulieta_Reserve_Churchill_01.png",
+  "hasimg": null,
+  "line_id": 700,
+  "brand": "romeo-y-julieta",
+  "lslug": "romeo-y-julieta-reserve",
+  "lname": "Romeo y Julieta Reserve"
+ },
+ {
+  "folder": "Romeo y Julieta",
+  "sec": "mappings",
+  "json": "romeo-y-julieta-vintage.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Romeo y Julieta/Romeo y Julieta Vintage/",
+  "files": [
+   "RomeoYJulieta_Vintage_01.png",
+   "RomeoYJulieta_Vintage_Box-Closed_01.jpg"
+  ],
+  "primary": "RomeoYJulieta_Vintage_01.png",
+  "hasimg": null,
+  "line_id": 701,
+  "brand": "romeo-y-julieta",
+  "lslug": "romeo-y-julieta-vintage",
+  "lname": "Romeo y Julieta Vintage"
+ },
+ {
+  "folder": "Saint Luis Rey",
+  "sec": "mappings",
+  "json": "saint-luis-rey-carenas.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Saint Luis Rey/Saint Luis Rey Carenas/",
+  "files": [
+   "SaintLuisRey_Carenas_01.png",
+   "SaintLuisRey_Carenas_Box-Open_01.jpg"
+  ],
+  "primary": "SaintLuisRey_Carenas_01.png",
+  "hasimg": null,
+  "line_id": 703,
+  "brand": "saint-luis-rey",
+  "lslug": "saint-luis-rey-carenas",
+  "lname": "Saint Luis Rey Carenas"
+ },
+ {
+  "folder": "Saint Luis Rey",
+  "sec": "mappings",
+  "json": "saint-luis-rey-carenas-ultramar.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Saint Luis Rey/Saint Luis Rey Carenas/",
+  "files": [
+   "SaintLuisRey_Carenas-Ultramar_01.png",
+   "SaintLuisRey_Carenas-Ultramar_Box-Open_01.jpg"
+  ],
+  "primary": "SaintLuisRey_Carenas-Ultramar_01.png",
+  "hasimg": null,
+  "line_id": 702,
+  "brand": "saint-luis-rey",
+  "lslug": "saint-luis-rey-carenas-ultramar",
+  "lname": "Saint Luis Rey Carenas Ultramar"
+ },
+ {
+  "folder": "Saint Luis Rey",
+  "sec": "mappings",
+  "json": "saint-luis-rey-original.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Saint Luis Rey/Saint Luis Rey Core/",
+  "files": [
+   "SaintLuisRey_Churchill_Box-Open_01.jpg"
+  ],
+  "primary": null,
+  "hasimg": null,
+  "line_id": 704,
+  "brand": "saint-luis-rey",
+  "lslug": "saint-luis-rey-original",
+  "lname": "Saint Luis Rey Original"
+ },
+ {
+  "folder": "Saint Luis Rey",
+  "sec": "mappings",
+  "json": "saint-luis-rey-reserva-especial.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Saint Luis Rey/Saint Luis Rey Reserva Especial/",
+  "files": [
+   "SaintLuisRey_Reserva-Especial_01.png",
+   "SaintLuisRey_Reserva-Especial_Maduro-Churchill_01.png",
+   "SaintLuisRey_Reserva-Especial_Maduro-Churchill_Box-Open_01.png"
+  ],
+  "primary": "SaintLuisRey_Reserva-Especial_01.png",
+  "hasimg": null,
+  "line_id": 705,
+  "brand": "saint-luis-rey",
+  "lslug": "saint-luis-rey-reserva-especial",
+  "lname": "Saint Luis Rey Reserva Especial"
+ },
+ {
+  "folder": "Saint Luis Rey",
+  "sec": "mappings",
+  "json": "saint-luis-rey-serie-g-maduro.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Saint Luis Rey/Saint Luis Rey Serie G/",
+  "files": [
+   "SaintLuisRey_SerieG_02.png",
+   "SaintLuisRey_SerieG_Box-Open_01.jpg",
+   "SaintLuisRey_SerieG_Maduro-No6_01.png",
+   "SaintLuisRey_SerieG_Maduro-No6_Box-Open_01.jpg"
+  ],
+  "primary": "SaintLuisRey_SerieG_02.png",
+  "hasimg": null,
+  "line_id": 706,
+  "brand": "saint-luis-rey",
+  "lslug": "saint-luis-rey-serie-g-maduro",
+  "lname": "Saint Luis Rey Serie G Maduro"
+ },
+ {
+  "folder": "Saint Luis Rey",
+  "sec": "mappings",
+  "json": "saint-luis-rey-tabacales.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Saint Luis Rey/Saint Luis Rey Tabacales/",
+  "files": [
+   "SaintLuisRey_Tabacales_01.png",
+   "SaintLuisRey_Tabacales_Box-Open_01.jpg"
+  ],
+  "primary": "SaintLuisRey_Tabacales_01.png",
+  "hasimg": null,
+  "line_id": 707,
+  "brand": "saint-luis-rey",
+  "lslug": "saint-luis-rey-tabacales",
+  "lname": "Saint Luis Rey Tabacales"
+ },
+ {
+  "folder": "Trinidad",
+  "sec": "mappings",
+  "json": "trinidad-espiritu-series-no1.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Trinidad/Trinidad Espiritu/",
+  "files": [
+   "Trinidad_Espiritu_01.png",
+   "Trinidad_Espiritu_Box-Open_01.jpg"
+  ],
+  "primary": "Trinidad_Espiritu_01.png",
+  "hasimg": null,
+  "line_id": 710,
+  "brand": "trinidad",
+  "lslug": "trinidad-espiritu-series-no1",
+  "lname": "Trinidad Espiritu Series No. 1"
+ },
+ {
+  "folder": "Trinidad",
+  "sec": "mappings",
+  "json": "trinidad-espiritu-series-no2.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Trinidad/Trinidad Espiritu/",
+  "files": [
+   "Trinidad_Espiritu-SeriesNo2_Toro_01.png",
+   "Trinidad_Espiritu-SeriesNo2_Toro_Box-Open_01.jpg"
+  ],
+  "primary": "Trinidad_Espiritu-SeriesNo2_Toro_01.png",
+  "hasimg": null,
+  "line_id": 711,
+  "brand": "trinidad",
+  "lslug": "trinidad-espiritu-series-no2",
+  "lname": "Trinidad Espiritu Series No. 2"
+ },
+ {
+  "folder": "Trinidad",
+  "sec": "mappings",
+  "json": "trinidad-espiritu-series-no3.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Trinidad/Trinidad Espiritu/",
+  "files": [
+   "Trinidad_Espiritu-SeriesNo3_Toro_01.png",
+   "Trinidad_Espiritu-SeriesNo3_Toro_Box-Open_01.jpg"
+  ],
+  "primary": "Trinidad_Espiritu-SeriesNo3_Toro_01.png",
+  "hasimg": null,
+  "line_id": 712,
+  "brand": "trinidad",
+  "lslug": "trinidad-espiritu-series-no3",
+  "lname": "Trinidad Espiritu Series No. 3"
+ },
+ {
+  "folder": "Trinidad",
+  "sec": "mappings",
+  "json": "trinidad-santiago.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Trinidad/Trinidad Santiago/",
+  "files": [
+   "Trinidad_Santiago_02.png",
+   "Trinidad_Santiago_Toro_Box-Open_01.png"
+  ],
+  "primary": "Trinidad_Santiago_02.png",
+  "hasimg": null,
+  "line_id": 713,
+  "brand": "trinidad",
+  "lslug": "trinidad-santiago",
+  "lname": "Trinidad Santiago"
+ },
+ {
+  "folder": "Trinidad",
+  "sec": "mappings",
+  "json": "trinidad-x-tommy-bahama-island-collection.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/Trinidad/Trinidad Tommy Breeze/",
+  "files": [
+   "Trinidad_Tommy-Breeze_01.png",
+   "Trinidad_Tommy-Breeze_Box-Open_01.jpg"
+  ],
+  "primary": "Trinidad_Tommy-Breeze_01.png",
+  "hasimg": null,
+  "line_id": 714,
+  "brand": "trinidad",
+  "lslug": "trinidad-x-tommy-bahama-island-collection",
+  "lname": "Trinidad x Tommy Bahama Island Collection"
+ },
+ {
+  "folder": "VegaFina",
+  "sec": "mappings",
+  "json": "vegafina-original.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/VegaFina/VegaFina Core/",
+  "files": [
+   "VegaFina_01.png",
+   "VegaFina_Box-Open_01.jpg"
+  ],
+  "primary": "VegaFina_01.png",
+  "hasimg": null,
+  "line_id": 739,
+  "brand": "vegafina",
+  "lslug": "vegafina-original",
+  "lname": "VegaFina Original"
+ },
+ {
+  "folder": "VegaFina",
+  "sec": "mappings",
+  "json": "vegafina-1998.json",
+  "base": "/Users/Carleo/Desktop/Cigar Images/VegaFina/VegaFina 1998/",
+  "files": [
+   "VegaFina_1998_01.png",
+   "VegaFina_1998_Box-Open_01.jpg"
+  ],
+  "primary": "VegaFina_1998_01.png",
+  "hasimg": null,
+  "line_id": 738,
+  "brand": "vegafina",
+  "lslug": "vegafina-1998",
+  "lname": "VegaFina 1998"
+ }
+]

@@ -51,8 +51,9 @@ export async function resizeAndSaveCigarImage(sourcePath, brandSlug, lineSlug, v
 }
 
 /** Writes the image fields onto a `line` row. Does not touch any other column. */
-export function writeLineImageRecord(db, { lineId, publicPath, width, height, siteUrl }) {
-  const domain = new URL(siteUrl).hostname.replace(/^www\./, '');
+export function writeLineImageRecord(db, { lineId, publicPath, width, height, siteUrl, sourceName }) {
+  // sourceName overrides the credit text (default: the source URL's domain), e.g. for the owner's own photos.
+  const domain = sourceName ?? new URL(siteUrl).hostname.replace(/^www\./, '');
   const checkedAt = new Date().toISOString().slice(0, 10);
   db.prepare(
     `UPDATE line SET image_url = ?, image_source_name = ?, image_source_url = ?, image_checked_at = ?, image_width = ?, image_height = ? WHERE id = ?`
