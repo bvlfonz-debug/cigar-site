@@ -3528,3 +3528,19 @@ blend or sizes for either, so I added nothing rather than guess. Both are
 limited editions anyway.
 
 No prices, news, scores, or queue changes. Only this log changed. No errors.
+
+## 2026-10-13 — accessories rotation (weekday, lean run)
+
+Tonight was an accessories night (day 13, modulo 3 = 1). Cigar growth was
+off (odd day), so no new cigars were added. No strength backfill (that runs
+on cigars nights only).
+
+**Accessories:** Many accessories still have no sources. I searched for
+reviews of the Xikar Crystal Gel Humidifier Jar and found only retailer
+listings and two old testimonials, so I added nothing for it. For the Colibri
+Julius lighter I added two buyer-rating aggregates (Drop, 4.6/5 from 18
+reviews; Shop, 5.0/5 from 15 ratings). That is two sources, so it still shows
+"insufficient data". A 2015 Cigar Aficionado write-up exists but I could not
+confirm a numeric score for it, so I did not record it.
+
+No prices, news, or queue changes. No errors.
