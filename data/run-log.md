@@ -3544,3 +3544,20 @@ reviews; Shop, 5.0/5 from 15 ratings). That is two sources, so it still shows
 confirm a numeric score for it, so I did not record it.
 
 No prices, news, or queue changes. No errors.
+
+## 2026-10-14 — lounges rotation + cigar growth (weekday, lean run)
+
+Tonight was a lounges night (day 14, modulo 3 = 2), and cigar growth was on
+(even day). No strength backfill (that runs on cigars nights only).
+
+**Lounges:** Many lounges still have no ratings. I searched for Yelp, Google
+or TripAdvisor ratings for Single Malt Cigar Bar (Nashville) and found only
+pre-opening news articles, no rating pages. I recorded nothing rather than
+guess. No new lounges were proposed.
+
+**Cigar growth — added 0.** A search for October releases turned up Hooten
+Young Midnight Hammer 2026 (a re-release of last year's limited edition) and
+NUb Mexico. Neither had confirmed sizes and blend details from a manufacturer
+or retailer page, only trade-news snippets, so I added nothing.
+
+No prices, news, scores, or queue changes. No errors. Only this log changed.
