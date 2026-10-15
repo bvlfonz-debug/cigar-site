@@ -3561,3 +3561,18 @@ NUb Mexico. Neither had confirmed sizes and blend details from a manufacturer
 or retailer page, only trade-news snippets, so I added nothing.
 
 No prices, news, scores, or queue changes. No errors. Only this log changed.
+
+## 2026-10-15 — cigars rotation (weekday, lean run)
+
+Tonight was a cigars night (day 15, modulo 3 = 0). Cigar growth was off
+(flag false), so no new cigars were added. No prices, news, scores or queue
+changes were made.
+
+**Strength backfill:** Filled Casa de Garcia Sumatra as "mild" (JR Cigars
+describes it as mellow). Skipped: Bandolero Serie T (retailers split between
+Full and Medium-Full, and none name Serie T specifically), Casa de Garcia
+Nicaragua (only a loosely matching retailer page saying medium-to-full), and
+Asylum "Serenity Now, Insanity Later" and DBL Baseball Bat (each has two
+wrapper variants, so one value would be a guess). Left as "Not yet sourced".
+
+No errors.
