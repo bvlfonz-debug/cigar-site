@@ -3576,3 +3576,22 @@ Asylum "Serenity Now, Insanity Later" and DBL Baseball Bat (each has two
 wrapper variants, so one value would be a guess). Left as "Not yet sourced".
 
 No errors.
+
+## 2026-10-16 — accessories rotation (weekday, lean run)
+
+Tonight was an accessories night (day 16, modulo 3 = 1), and cigar growth was on
+(even day). No strength backfill (that runs on cigars nights only).
+
+**Accessories:** I looked for buyer ratings for the Xikar Crystal Gel Humidifier
+Jar (4 oz). Walmart shows 4.5 of 5 stars with no review count, and Neptune shows
+about 104 reviews with no visible average. I couldn't confirm a usable average
+from a second or third source, so I recorded nothing rather than guess. The item
+stays at "insufficient data".
+
+**Cigar growth — added 0.** I checked Oliva (the Serie V Melanio 2026 Perfecto
+turned up in search) and it is already in the catalog, as are the other Oliva
+Serie V Melanio sizes. I skipped it as a duplicate and did not start a second
+candidate.
+
+No prices, news, scores, or queue changes. No errors. Only this log changed, so
+no site build was needed.
