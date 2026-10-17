@@ -3595,3 +3595,19 @@ candidate.
 
 No prices, news, scores, or queue changes. No errors. Only this log changed, so
 no site build was needed.
+
+## 2026-10-17 — lounges rotation (weekday, lean run)
+
+Tonight was a lounges night (day 17, modulo 3 = 2). Cigar growth was off
+(odd day), and the strength backfill only runs on cigars nights.
+
+**Lounges:** I looked for more cited ratings for Iwan Ries & Co. (Chicago),
+which has only one rating on file. The only new figure I found was a Foursquare
+snippet (8.7/10, about 17 tips) in a search result, which I couldn't open on
+the page itself. A Forevervacation page had a 5.0 from a single vote, which is
+too thin to use. Even with Foursquare it would only be two sources, so I
+recorded nothing rather than guess. The lounge stays at "insufficient data".
+No new lounges were proposed.
+
+No prices, news, scores or queue changes. No errors. Only this log changed, so
+no site build was needed.
