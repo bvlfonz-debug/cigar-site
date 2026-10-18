@@ -3611,3 +3611,32 @@ No new lounges were proposed.
 
 No prices, news, scores or queue changes. No errors. Only this log changed, so
 no site build was needed.
+
+## 2026-10-18 — cigars rotation + cigar growth (Sunday, heavier run)
+
+Tonight was a cigars night (day 18, modulo 3 = 0), cigar growth was on (even
+day), and it is Sunday.
+
+**Cigar growth — added 6 new sizes to brands already in the catalog**, each
+confirmed by live searches (Cigar Aficionado listings, retailer specs, halfwheel):
+- Punch Rare Corojo: Rapido (5 x 40), El Doble (5 7/8 x 60), Champion (4 1/2 x 60).
+  Rapido also got its Cigar Aficionado score (90) recorded; the others have no
+  citation yet and show "insufficient data".
+- Tatuaje Black Label: Petite Lancero (6 x 38), Petite Robusto (4 x 50).
+- Cuesta-Rey Centenario: Aristocrat (7 1/4 x 48).
+Summaries use only the confirmed blend and the few flavor notes retailers/reviewers
+gave. Skipped: Tatuaje Black Label Cazadores (6 3/8 x 43) because sources mixed it
+up with a 2025 limited release of nearly the same size; Punch Elite/Pitas/En Crystale
+because the retailer pages blocked me from confirming them.
+
+**Strength backfill:** filled Casa de Garcia Nicaragua (medium-full, JR Cigars lists
+the Nicaraguan Blend as medium-to-full with a Habana 2000 wrapper) and E.P. Carrillo
+Short Run 2016 Edicion Nicaragua (medium-full, per Cigar Aficionado). Left blank:
+Bandolero Serie T (retailers don't tie the strength to that series), Asylum and DBL
+(two wrapper variants each).
+
+**Queue triage:** I went through data/review-queue.json. Every open item is an
+information/gap note (insufficient sources, conflicting facts, etc.); there are no
+new-brand/line/lounge/factory proposals waiting, so nothing needed a decision.
+
+No prices, news, or lounge/accessory work tonight. The site builds cleanly. No errors.
