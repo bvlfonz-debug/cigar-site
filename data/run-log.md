@@ -3640,3 +3640,18 @@ information/gap note (insufficient sources, conflicting facts, etc.); there are 
 new-brand/line/lounge/factory proposals waiting, so nothing needed a decision.
 
 No prices, news, or lounge/accessory work tonight. The site builds cleanly. No errors.
+
+## 2026-10-19 — accessories rotation (weekday, lean run)
+
+Tonight was an accessories night (day 19, modulo 3 = 1). Cigar growth was off
+(odd day), and the strength backfill only runs on cigars nights.
+
+**Accessories:** I looked for more cited ratings for the TISFA Acrylic Desktop
+Humidor, which has one source on file (Plush Cigars, 85/100). Search turned up
+only an AI-summarized owner-review roundup and a CherryPicks listing with no
+score for this model (its 9.6 score belongs to a different TISFA product, the
+cedar humidor). Nothing usable, so I recorded nothing. It stays at
+"insufficient data".
+
+No prices, news, scores, or queue changes. No errors. Only this log changed, so
+no site build was needed.
