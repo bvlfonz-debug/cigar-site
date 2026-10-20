@@ -3655,3 +3655,21 @@ cedar humidor). Nothing usable, so I recorded nothing. It stays at
 
 No prices, news, scores, or queue changes. No errors. Only this log changed, so
 no site build was needed.
+
+## 2026-10-20 — lounges rotation + cigar growth (weekday, lean run)
+
+Tonight was a lounges night (day 20, modulo 3 = 2), and cigar growth was on (even day).
+
+**Lounges:** Churchill's Fine Cigars (Phoenix) has 2 cited ratings (Google, Yelp) and
+needs a third. I searched for TripAdvisor, Foursquare and Restaurantji pages and found
+no usable rating, so I recorded nothing. It stays at "insufficient data". No new
+lounges were proposed.
+
+**New cigars (3 added):** Oliva Connecticut Reserve Robusto (5.0x50), Torpedo (6.5x52)
+and Churchill (7.0x50). All three sizes and the blend (Ecuadorian Connecticut wrapper,
+Nicaraguan binder and filler) are confirmed by the Stogie Review 2009 article. The
+Robusto is also listed by a Hilands Cigars retailer page. The summaries use only what
+that review described. No critic scores were added, so they show "insufficient data".
+Skipped: Lonsdale and Petit Corona, because sources disagree on their dimensions.
+
+No prices, news or queue changes. Strength backfill only runs on cigars nights. No errors.
