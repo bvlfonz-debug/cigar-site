@@ -3673,3 +3673,18 @@ that review described. No critic scores were added, so they show "insufficient d
 Skipped: Lonsdale and Petit Corona, because sources disagree on their dimensions.
 
 No prices, news or queue changes. Strength backfill only runs on cigars nights. No errors.
+
+## 2026-10-21 — cigars rotation (weekday, lean run)
+
+Tonight was a cigars night (day 21, modulo 3 = 0). Cigar growth was off (odd day).
+
+**Strength backfill:** I searched for 5 lines and filled none. Sources either gave
+no strength for that exact line or disagreed:
+- Asylum "Serenity Now, Insanity Later": two blends in one box (mild-medium vs. fuller), no single value.
+- Bandolero Serie T (Traficantes): retailers split between medium-full and full.
+- Grand Prize by E.P. Carrillo: no strength stated anywhere found.
+- Tabacalera La Alianza Natural: no strength stated for this line.
+- DBL Baseball Bat: no strength stated.
+All remain "Not yet sourced".
+
+No new cigars, prices, news, scores or queue changes. No errors. Only this log changed, so no site build was needed.
