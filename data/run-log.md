@@ -3688,3 +3688,20 @@ no strength for that exact line or disagreed:
 All remain "Not yet sourced".
 
 No new cigars, prices, news, scores or queue changes. No errors. Only this log changed, so no site build was needed.
+
+## 2026-10-22 — accessories rotation + cigar growth (weekday, lean run)
+
+Tonight was an accessories night (day 22, modulo 3 = 1), and cigar growth was on (even day).
+
+**Accessories:** The Xikar EX lighter had 2 sources (Amazon 3.4/5, Walmart 2.5/5). I added a
+third: Neptune Cigar buyer reviews, 4.52/5 from 12 reviews (confirmed on the page). It now
+has a Codex Score of about 69. That third source is a small sample, so treat it as rough.
+
+**New cigars (3 added):** My Father Connecticut Robusto (5.25x52), Toro Gordo (6x60) and
+Corona Gorda (6x48). Sizes and blend (Ecuadorian Connecticut wrapper, Nicaraguan binder and
+filler) come from the 2014 launch coverage at Cigar Coop and halfwheel, with retailers
+listing it as mild-medium. No critic scores added, so they show "insufficient data".
+No near-duplicates (only a 6.5x54 Toro was on file). One retailer listed a Habano wrapper
+for the Robusto; every other source says Connecticut, so I ignored it as a likely error.
+
+No prices, news or queue changes. No errors.
