@@ -3705,3 +3705,15 @@ No near-duplicates (only a 6.5x54 Toro was on file). One retailer listed a Haban
 for the Robusto; every other source says Connecticut, so I ignored it as a likely error.
 
 No prices, news or queue changes. No errors.
+
+## 2026-10-23 — lounges rotation (weekday, lean run)
+
+Tonight was a lounges night (day 23, modulo 3 = 2). Cigar growth was off.
+
+**Lounges:** Churchill's Fine Cigars (Phoenix) is the closest to a score, with Google (4.7) and
+Yelp (4.5) on file. I searched for a third source (TripAdvisor) and found no confirmed page for
+this exact venue, only a look-alike listing I couldn't match to it. So I added nothing, and it
+stays at "insufficient data". Every other lounge has 1 or 0 sources.
+
+No new cigars, prices, news, scores or queue changes. No errors. Only this log changed, so no
+site build was needed.
