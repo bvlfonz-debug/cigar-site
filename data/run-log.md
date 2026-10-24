@@ -3717,3 +3717,19 @@ stays at "insufficient data". Every other lounge has 1 or 0 sources.
 
 No new cigars, prices, news, scores or queue changes. No errors. Only this log changed, so no
 site build was needed.
+
+## 2026-10-24 — cigars rotation + cigar growth (weekday, lean run)
+
+Tonight was a cigars night (day 24, modulo 3 = 0), and cigar growth was on (even day).
+
+**New cigars (1 added, target was 3):** Oliva Serie V Melanio Toro (6x52). Cigar Coop and Cigar
+Aficionado launch coverage (2021) confirm it with the Ecuadorian Sumatra wrapper and Nicaraguan
+binder/filler. I couldn't open the Cigar Coop page itself (blocked), so I relied on the search
+summaries. Skipped: Melanio Double Toro, Churchill and Torpedo (sources disagree on whether they
+belong to the regular or Maduro line), and a Maduro Figurado (too close to the Torpedo already on
+file). I stopped at one rather than risk duplicates.
+
+**Strength backfill:** Searched E.P. Carrillo Grand Prize and La Alianza Natural; no source gave
+a strength for either, so both stay "Not yet sourced". The other three listed lines were not tried.
+
+No prices, news, scores or queue changes. No errors.
