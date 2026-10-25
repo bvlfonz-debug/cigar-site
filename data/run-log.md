@@ -3733,3 +3733,22 @@ file). I stopped at one rather than risk duplicates.
 a strength for either, so both stay "Not yet sourced". The other three listed lines were not tried.
 
 No prices, news, scores or queue changes. No errors.
+
+## 2026-10-25 — accessories rotation + Sunday queue triage (heavier day)
+
+Tonight was an accessories night (day 25, modulo 3 = 1). Cigar growth was off (odd day), and the
+strength backfill only runs on cigars nights, so neither ran.
+
+**Accessories:** Two items sit at 2 sources, one short of a Codex Score. I searched for a third
+source for each and found nothing usable, so both stay at "insufficient data":
+- Colibri Julius: Cigar Aficionado and Cigar Inspector have written reviews but no numeric score,
+  so I can't turn them into a rating. No third score was added.
+- The Cigar Log Book (Nathan Scott Lester): searched and found no additional ratings page.
+
+**Queue triage:** I read all 240 queue entries. All are informational gap-notes (insufficient
+sources, conflicting facts, missing founding years, unverified awards and similar). None
+proposes a new brand, line, lounge, factory or accessory category, so there was nothing to approve
+or reject, and I called no queue-resolve.
+
+No prices, news, scores or releases changed. No errors. Only this log changed, so no site build
+was needed.
