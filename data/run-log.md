@@ -3752,3 +3752,21 @@ or reject, and I called no queue-resolve.
 
 No prices, news, scores or releases changed. No errors. Only this log changed, so no site build
 was needed.
+
+## 2026-10-26 — lounges rotation (weekday, lean run)
+
+Tonight was a lounges night (day 26, modulo 3 = 2). Cigar growth was on (even day).
+
+**Lounges:** Churchill's Fine Cigars (Phoenix) has 2 ratings (Google, Yelp), one short of a Codex Score.
+I searched for a third; the search found only press write-ups with no numeric rating, and the Phoenix New
+Times page returned 403. Nothing was added, so it stays "insufficient data". The other single-rating
+lounges were not searched tonight.
+
+**New cigars (0 added, target was 3):** I looked at extending Rocky Patel Vintage 1990 (Gordito 4x60,
+Petite Corona 4.5x44, Toro Tubos 6x50). Sources disagreed on the size list; the retailer page I opened
+listed sizes that match the Vintage 1999 line (Perfecto, Short Gordo, Juniors), so it seemed to be mixing
+lines. The Petite Corona, Short Gordo and Perfecto sizes are already on file under 1999, and Toro Tubos is
+close to the existing Toro. Nothing could be confirmed, so I added nothing rather than risk a bad or duplicate entry.
+
+Strength backfill is cigars-night only, so it did not run. No prices, news, scores, releases or queue
+changes. No errors. Only this log changed, so no site build was needed.
