@@ -3770,3 +3770,16 @@ close to the existing Toro. Nothing could be confirmed, so I added nothing rathe
 
 Strength backfill is cigars-night only, so it did not run. No prices, news, scores, releases or queue
 changes. No errors. Only this log changed, so no site build was needed.
+
+## 2026-10-27 — cigars rotation (weekday, lean run)
+
+Tonight was a cigars night (day 27, modulo 3 = 0). New-cigar growth was off tonight (odd day), so no cigars were added.
+
+**Strength backfill (0 filled, 4 searched, all left blank):**
+- Asylum "Serenity Now, Insanity Later": it is two blends in one line (mild-medium vs. full), so no single value applies.
+- Bandolero Serie T (Traficantes): retailers disagree (Full vs. Medium-Full), and none tie the figure to Serie T specifically.
+- Grand Prize by E.P. Carrillo: no source states a strength.
+- Tabacalera La Alianza Natural: no source states a strength.
+Nothing was guessed. The fifth and later lines were not searched, to keep the run lean.
+
+No news, prices, scores, releases or queue changes tonight. No errors. Only this log changed, so no site build was needed.
