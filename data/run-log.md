@@ -3783,3 +3783,16 @@ Tonight was a cigars night (day 27, modulo 3 = 0). New-cigar growth was off toni
 Nothing was guessed. The fifth and later lines were not searched, to keep the run lean.
 
 No news, prices, scores, releases or queue changes tonight. No errors. Only this log changed, so no site build was needed.
+
+## 2026-10-28 — accessories rotation + cigar growth (weekday, lean run)
+
+Tonight was an accessories night (day 28, modulo 3 = 1), and cigar growth was on (even day).
+
+**Accessories:** Colibri Julius (lighter) has 2 sources (Drop, Shop buyer ratings). I searched for a third. Cigar Inspector (Feb 2024) and Cigar Aficionado (2015) both reviewed it, but I found no numeric score for either (the Cigar Inspector page returned 403), so nothing was added and it stays "insufficient data". Nothing was invented.
+
+**New cigars (2 added, target was 3):** both under Oliva Serie V Melanio.
+- Churchill 7x50: confirmed by Cigar Aficionado (93 pts, Top 25 of 2018, No. 8). Rating added. Only 1 source, so no aggregate score yet.
+- Double Toro 6x60: confirmed by several retailer listings (Neptune, Cigars Direct). No critic score found for the natural version (the 95 pts I saw belongs to the Maduro), so no citation added.
+- Skipped: Petit Corona 4.5x46 — only 2012-era sources, not confirmed as current. Cigars International and halfwheel pages were unreachable (403/402).
+
+No prices, news, scores, releases or queue changes. The site builds cleanly. No errors.
