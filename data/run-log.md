@@ -3796,3 +3796,11 @@ Tonight was an accessories night (day 28, modulo 3 = 1), and cigar growth was on
 - Skipped: Petit Corona 4.5x46 — only 2012-era sources, not confirmed as current. Cigars International and halfwheel pages were unreachable (403/402).
 
 No prices, news, scores, releases or queue changes. The site builds cleanly. No errors.
+
+## 2026-10-29 — lounges rotation (weekday, lean run)
+
+Tonight was a lounges night (day 29, modulo 3 = 2). New-cigar growth was off tonight (odd day), so no cigars were added.
+
+**Lounges:** Churchill's Fine Cigars (Phoenix) has 2 ratings (Google, Yelp). I searched twice for a third. The only candidates were a Phoenix New Times "Best of" listing from 2008 (too old and tied to a different Tempe address) and sites showing no rating for this location. Nothing was added, so it stays "insufficient data". Nothing was invented.
+
+No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
