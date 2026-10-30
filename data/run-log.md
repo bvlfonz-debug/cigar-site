@@ -3804,3 +3804,15 @@ Tonight was a lounges night (day 29, modulo 3 = 2). New-cigar growth was off ton
 **Lounges:** Churchill's Fine Cigars (Phoenix) has 2 ratings (Google, Yelp). I searched twice for a third. The only candidates were a Phoenix New Times "Best of" listing from 2008 (too old and tied to a different Tempe address) and sites showing no rating for this location. Nothing was added, so it stays "insufficient data". Nothing was invented.
 
 No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
+
+## 2026-10-30 — cigars rotation + cigar growth (weekday, lean run)
+
+Tonight was a cigars night (day 30, modulo 3 = 0), and cigar growth was on (even day).
+
+**Strength backfill (0 filled, 1 newly searched):**
+- DBL Baseball Bat: no source states a strength for this specific cigar, so it stays blank.
+- The other four unsourced lines (Asylum, Bandolero Serie T, Grand Prize, La Alianza Natural) were already searched on 2026-10-27 with no result, so I didn't repeat them.
+
+**New cigars (0 added, target was 3):** I looked at Arturo Fuente Hemingway Between the Lines (4.5x54). Sources disagree on the wrapper (Cameroon vs. Connecticut broadleaf) and a couple of retailers list different sizes. It isn't safe to add without a clear source, so I skipped it. I didn't want to rush the other candidates, so nothing was added tonight. Nothing was guessed.
+
+No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
