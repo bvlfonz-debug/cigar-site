@@ -3824,3 +3824,13 @@ Tonight was an accessories night (day 31, modulo 3 = 1). New-cigar growth was of
 **Accessories:** I looked for more sources for the Xikar Xi1 cutter (1 source on file). The only extra ratings were retailer reviews of different colour editions (Bestcigarprices Silver, 4.5/5 from 6 ratings; Red, 1 rating) and one lone Neptune review of a Tommy Bahama edition. Those are not clearly the same product, so nothing was added and it stays "insufficient data". The Colibri Julius and The Cigar Log Book were already searched on earlier nights with no new sources, so I didn't repeat them. Nothing was invented.
 
 No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
+
+## 2026-11-01 — accessories rotation + weekly queue triage (Sunday)
+
+Tonight was an accessories night (day 1, modulo 3 = 1). New-cigar growth was off tonight, so no cigars were added and the strength backfill (cigars nights only) did not run.
+
+**Accessories:** I looked for a third source for the Lotus Brawn torch lighter (1 source on file: Cigars International 4.0/5). The only other coverage is a halfwheel review that recommends it but gives no numeric score, plus a retailer page with no customer rating. Ratings I saw for other Lotus models don't count for this one. Nothing was added, so it stays "insufficient data". Nothing was invented.
+
+**Weekly queue triage:** I went through all 240 queue entries. None of them proposes a new brand, line, lounge, city, factory or accessory category. They are all gap-notes (thin sources, unconfirmed sizes or awards, missing founding years, missing lounge hours). Per the rules those need no decision, so I approved, rejected and resolved nothing and left them as they are.
+
+No prices, news, scores or releases changed. No errors. Only this log changed, so no site build was needed.
