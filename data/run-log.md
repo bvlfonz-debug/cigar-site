@@ -3834,3 +3834,13 @@ Tonight was an accessories night (day 1, modulo 3 = 1). New-cigar growth was off
 **Weekly queue triage:** I went through all 240 queue entries. None of them proposes a new brand, line, lounge, city, factory or accessory category. They are all gap-notes (thin sources, unconfirmed sizes or awards, missing founding years, missing lounge hours). Per the rules those need no decision, so I approved, rejected and resolved nothing and left them as they are.
 
 No prices, news, scores or releases changed. No errors. Only this log changed, so no site build was needed.
+
+## 2026-11-02 — lounges rotation + cigar growth (weekday, lean run)
+
+Tonight was a lounges night (day 2, modulo 3 = 2), and cigar growth was on (even day).
+
+**Lounges:** I looked for a third rating for Churchill's Fine Cigars in Phoenix (2 on file: Google and Yelp). The only other ratings are mall-directory listings with a single vote each, and a Phoenix New Times "Best of" award for a different (Tempe) location. None of these is a usable third source, so nothing was added and it stays "insufficient data". Nothing was invented.
+
+**New cigars (0 added, target was 3):** I checked Oliva Serie O Maduro and the Serie V Maduro/Melanio Maduro lines. The one size not on file, a Melanio Maduro Figurado (6.5 x 52), has the same dimensions as the Melanio Maduro Torpedo already catalogued. It is almost certainly the same cigar, so I skipped it as a duplicate. I found no verifiable Serie O Maduro size that is missing. Nothing was guessed.
+
+Strength backfill did not run (not a cigars night). No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
