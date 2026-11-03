@@ -3844,3 +3844,11 @@ Tonight was a lounges night (day 2, modulo 3 = 2), and cigar growth was on (even
 **New cigars (0 added, target was 3):** I checked Oliva Serie O Maduro and the Serie V Maduro/Melanio Maduro lines. The one size not on file, a Melanio Maduro Figurado (6.5 x 52), has the same dimensions as the Melanio Maduro Torpedo already catalogued. It is almost certainly the same cigar, so I skipped it as a duplicate. I found no verifiable Serie O Maduro size that is missing. Nothing was guessed.
 
 Strength backfill did not run (not a cigars night). No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
+
+## 2026-11-03 — cigars rotation (weekday, lean run)
+
+Tonight was a cigars night (day 3, modulo 3 = 0). New-cigar growth was off tonight, so no cigars were added.
+
+**Strength backfill:** I searched for two of the five unsourced lines: Grand Prize by E.P. Carrillo and Tabacalera La Alianza Natural. Neither search found a strength figure for that exact line. It only turned up ratings for other E.P. Carrillo lines, which don't count. Both stay "Not yet sourced" and nothing was guessed. I did not search for the other three (Asylum Serenity Now/Insanity Later, Bandolero Serie T, DBL Baseball Bat). Their entries cover several variants, so a single value would be a guess.
+
+I did not run a news or review ingest or a price refresh tonight, so no prices, news, scores or releases changed and nothing new went to the review queue. No errors. Only this log changed, so no site build was needed.
