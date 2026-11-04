@@ -3852,3 +3852,13 @@ Tonight was a cigars night (day 3, modulo 3 = 0). New-cigar growth was off tonig
 **Strength backfill:** I searched for two of the five unsourced lines: Grand Prize by E.P. Carrillo and Tabacalera La Alianza Natural. Neither search found a strength figure for that exact line. It only turned up ratings for other E.P. Carrillo lines, which don't count. Both stay "Not yet sourced" and nothing was guessed. I did not search for the other three (Asylum Serenity Now/Insanity Later, Bandolero Serie T, DBL Baseball Bat). Their entries cover several variants, so a single value would be a guess.
 
 I did not run a news or review ingest or a price refresh tonight, so no prices, news, scores or releases changed and nothing new went to the review queue. No errors. Only this log changed, so no site build was needed.
+
+## 2026-11-04 — accessories rotation + cigar growth (weekday, lean run)
+
+Tonight was an accessories night (day 4, modulo 3 = 1), and cigar growth was on (even day).
+
+**Accessories:** The Colibri Julius soft-flame lighter had 2 sources on file (Drop 4.6/5, Shop 5.0/5). I added a third: Neptune Cigar's buyer-rating average, 4.74/5 from 22 reviews, read directly from their product page. A search snippet had quoted 4.81 from 20 reviews, but the page itself says 4.74 from 22, so I used the page. With 3 sources the Julius now has a Codex Score of 95.6. It is built only from retailer buyer ratings, and is labelled as community-based.
+
+**New cigars (0 added, target was 3):** I checked My Father and Rocky Patel lines already in the catalog. Nearly every standard size is on file, so any remaining candidate would very likely be a near-duplicate of something catalogued. I could not verify a clearly missing size in a lean run, so I skipped rather than guess.
+
+Strength backfill did not run (not a cigars night). No prices, news, releases or queue changes. No errors.
