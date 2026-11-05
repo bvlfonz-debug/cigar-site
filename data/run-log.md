@@ -3862,3 +3862,11 @@ Tonight was an accessories night (day 4, modulo 3 = 1), and cigar growth was on 
 **New cigars (0 added, target was 3):** I checked My Father and Rocky Patel lines already in the catalog. Nearly every standard size is on file, so any remaining candidate would very likely be a near-duplicate of something catalogued. I could not verify a clearly missing size in a lean run, so I skipped rather than guess.
 
 Strength backfill did not run (not a cigars night). No prices, news, releases or queue changes. No errors.
+
+## 2026-11-05 — lounges rotation (weekday, lean run)
+
+Tonight was a lounges night (day 5, modulo 3 = 2). New-cigar growth was off tonight, so no cigars were added.
+
+**Lounges:** I looked for more ratings for Iwan Ries & Co. in Chicago (1 rating on file: Yelp). The search turned up a Google figure that contradicted itself on the same page (4.9 from 619 reviews, but also "no reviews yet"), a Better Business Bureau grade (not a customer rating), and an unlabeled 9.7 score from Atly. I couldn't confirm any of these, so nothing was added. It stays "insufficient data". Nothing was invented.
+
+No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
