@@ -3870,3 +3870,13 @@ Tonight was a lounges night (day 5, modulo 3 = 2). New-cigar growth was off toni
 **Lounges:** I looked for more ratings for Iwan Ries & Co. in Chicago (1 rating on file: Yelp). The search turned up a Google figure that contradicted itself on the same page (4.9 from 619 reviews, but also "no reviews yet"), a Better Business Bureau grade (not a customer rating), and an unlabeled 9.7 score from Atly. I couldn't confirm any of these, so nothing was added. It stays "insufficient data". Nothing was invented.
 
 No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
+
+## 2026-11-06 — cigars rotation + cigar growth (weekday, lean run)
+
+Tonight was a cigars night (day 6, modulo 3 = 0), and cigar growth was on (even day).
+
+**Strength backfill:** Filled 1: Grand Prize by E.P. Carrillo is now "medium" (one retailer listing, Mike's Cigars, states Medium; that listing is marked discontinued, but strength is unaffected). Skipped Bandolero Serie T: retailers disagree (several say Full, others Medium-Full), so it stays "Not yet sourced". I did not search the other three (Asylum, DBL Baseball Bat, Tabacalera La Alianza Natural) since earlier nights found nothing or they cover multiple variants.
+
+**New cigars (0 added, target was 3):** The only candidate I looked at was Arturo Fuente Hemingway Between the Lines. Retailers disagree on its size (4.5 x 54 vs 4.25 x 46), and the 4.5 x 54 reading is within one ring gauge of the Best Seller (4.5 x 55) already catalogued, so I skipped it as an unverifiable and likely near-duplicate. Nothing was guessed.
+
+No prices, news, scores, releases or queue changes. No errors.
