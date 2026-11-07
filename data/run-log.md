@@ -3880,3 +3880,11 @@ Tonight was a cigars night (day 6, modulo 3 = 0), and cigar growth was on (even 
 **New cigars (0 added, target was 3):** The only candidate I looked at was Arturo Fuente Hemingway Between the Lines. Retailers disagree on its size (4.5 x 54 vs 4.25 x 46), and the 4.5 x 54 reading is within one ring gauge of the Best Seller (4.5 x 55) already catalogued, so I skipped it as an unverifiable and likely near-duplicate. Nothing was guessed.
 
 No prices, news, scores, releases or queue changes. No errors.
+
+## 2026-11-07 — accessories rotation (weekday, lean run)
+
+Tonight was an accessories night (day 7, modulo 3 = 1). New-cigar growth was off tonight, so no cigars were added.
+
+**Accessories:** I looked for a third source for The Cigar Log Book (2 on file: Amazon, Goodreads). The search returned only other, differently named cigar journals, and nothing for this title and author. I added nothing, so it stays "insufficient data". Nothing was invented.
+
+No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
