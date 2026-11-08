@@ -3888,3 +3888,21 @@ Tonight was an accessories night (day 7, modulo 3 = 1). New-cigar growth was off
 **Accessories:** I looked for a third source for The Cigar Log Book (2 on file: Amazon, Goodreads). The search returned only other, differently named cigar journals, and nothing for this title and author. I added nothing, so it stays "insufficient data". Nothing was invented.
 
 No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
+
+## 2026-11-08 — lounges rotation + cigar growth + Sunday triage (heavier run)
+
+Tonight was a lounges night (day 8, modulo 3 = 2), and cigar growth was on.
+
+**Lounges:** Churchill's Fine Cigars in Phoenix has 2 ratings on file (Google, Yelp). I looked for a third. The only extra figures were a Foursquare 8.6/10 from about 5 tips, and aggregator pages mixing different Churchill's locations. I couldn't tie any of them cleanly to this shop, so I added nothing. It stays "insufficient data".
+
+**New cigars (7 added, target was 6):**
+- Joya de Nicaragua Silver: the line was already catalogued with no sizes. I added all four: Ultra 6.25x46, Toro 6x52, Corona 5.25x42, Robusto 5x50. The sizes, wrapper, binder and filler all come from Cigar Aficionado's launch article, and the maker's "medium- to full-bodied" description matches the line's strength.
+- Joya de Nicaragua Antaño CT: added Robusto 5x52, Belicoso 6x54, Corona Gorda 5.25x46 (launch coverage and retailer listings agree on these). The existing Toro (6x50) was already on file. The old queue note guessed the Robusto at 5x50. Sources say 5x52, so I used that.
+- No flavor notes were found, so summaries are plain, blend-based, and say a Codex Score isn't available yet. None of these has a critic citation yet, so all show "insufficient data".
+- Nothing was skipped as a duplicate. The only existing sizes in these lines were checked first.
+
+**Weekly queue triage:** I went through the whole queue. No item proposes a genuinely new brand, line, lounge, city, factory or accessory category. The unresolved items are all gap-notes (missing founding years, unverified awards or sizes, source conflicts). Per the rules those need no decision, so I resolved nothing. The Shelly's Back Room gap (hours and walk-in/membership status) is still open.
+
+**Strength backfill:** Not a cigars night, so I skipped it.
+
+No prices, news, scores or releases changed. No errors. The site build passed.
