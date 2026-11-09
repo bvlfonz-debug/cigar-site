@@ -3906,3 +3906,15 @@ Tonight was a lounges night (day 8, modulo 3 = 2), and cigar growth was on.
 **Strength backfill:** Not a cigars night, so I skipped it.
 
 No prices, news, scores or releases changed. No errors. The site build passed.
+
+## 2026-11-09 — cigars rotation (weekday, lean run)
+
+Tonight was a cigars night (day 9, modulo 3 = 0). New-cigar growth was off tonight, so no cigars were added.
+
+**Strength backfill:** I searched for three of the five lines on the list and filled none of them.
+- Bandolero Serie T (Traficantes): retailers disagree. Some say full, some medium-full, and one says medium. Left blank.
+- DBL Baseball Bat: the only source I found describes a limited-edition version, not the standard one. Left blank.
+- E.P. Carrillo La Alianza Natural: the only source covers one size, not the whole line. Left blank.
+- Asylum "Serenity Now, Insanity Later" and La Alianza Rosado: not searched, to keep the run lean.
+
+Nothing was guessed. No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
