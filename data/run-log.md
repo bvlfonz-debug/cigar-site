@@ -3918,3 +3918,13 @@ Tonight was a cigars night (day 9, modulo 3 = 0). New-cigar growth was off tonig
 - Asylum "Serenity Now, Insanity Later" and La Alianza Rosado: not searched, to keep the run lean.
 
 Nothing was guessed. No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
+
+## 2026-11-10 — accessories rotation + cigar growth (weekday, lean run)
+
+Tonight was an accessories night (day 10, modulo 3 = 1), and cigar growth was on (even day).
+
+**Accessories:** I looked for a third source for "The Cigar Log Book" (it has Amazon and Goodreads ratings). A search found no reviews or other ratings tied to this book, so nothing was added. It stays "insufficient data". No prices or new accessories.
+
+**New cigars (3 added):** a new line, Hoyo de Monterrey Excalibur Black (2021), under the existing Hoyo de Monterrey brand. Sizes: Robusto 5x50, Toro 6x52, No. 1 7.25x54. The sizes, wrapper (Connecticut Broadleaf), binder (Ecuador Sumatra) and fillers (Honduras, Nicaragua) come from Cigar Aficionado's launch article, and retailer listings agree on the sizes. I set strength to medium-full. The article says "medium body" but also "fuller-bodied" and stronger than the regular Excalibur, so that is a judgment call. No flavor notes were found, so the summaries are plain and blend-based. No critic citations yet. Nothing skipped as a duplicate; the existing Excalibur line's sizes (No. II, No. III) don't overlap.
+
+No news, scores, releases or queue changes. No errors.
