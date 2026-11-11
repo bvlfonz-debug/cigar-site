@@ -3928,3 +3928,13 @@ Tonight was an accessories night (day 10, modulo 3 = 1), and cigar growth was on
 **New cigars (3 added):** a new line, Hoyo de Monterrey Excalibur Black (2021), under the existing Hoyo de Monterrey brand. Sizes: Robusto 5x50, Toro 6x52, No. 1 7.25x54. The sizes, wrapper (Connecticut Broadleaf), binder (Ecuador Sumatra) and fillers (Honduras, Nicaragua) come from Cigar Aficionado's launch article, and retailer listings agree on the sizes. I set strength to medium-full. The article says "medium body" but also "fuller-bodied" and stronger than the regular Excalibur, so that is a judgment call. No flavor notes were found, so the summaries are plain and blend-based. No critic citations yet. Nothing skipped as a duplicate; the existing Excalibur line's sizes (No. II, No. III) don't overlap.
 
 No news, scores, releases or queue changes. No errors.
+
+## 2026-11-11 — lounges rotation (weekday, lean run)
+
+Tonight was a lounges night (day 11, modulo 3 = 2). New-cigar growth was off tonight, so no cigars were added.
+
+**Lounge ratings:** I looked for a third rating for the two lounges closest to the 3-source minimum.
+- Churchill's Fine Cigars (Phoenix): the searches found no TripAdvisor rating. The other listings were third-party sites that disagree with each other, or they were for a different branch. Nothing added.
+- Iwan Ries & Co. (Chicago): it has one rating on file. The new figures came from aggregator sites that contradict themselves (one page shows 619 Google reviews and also "no reviews yet"), and one was last updated in 2022. Nothing added.
+
+Nothing was guessed. They stay "insufficient data". No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
