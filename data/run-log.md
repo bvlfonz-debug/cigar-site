@@ -3938,3 +3938,13 @@ Tonight was a lounges night (day 11, modulo 3 = 2). New-cigar growth was off ton
 - Iwan Ries & Co. (Chicago): it has one rating on file. The new figures came from aggregator sites that contradict themselves (one page shows 619 Google reviews and also "no reviews yet"), and one was last updated in 2022. Nothing added.
 
 Nothing was guessed. They stay "insufficient data". No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
+
+## 2026-11-12 — cigars rotation + cigar growth (weekday, lean run)
+
+Tonight was a cigars night (day 12, modulo 3 = 0), and cigar growth was on (even day).
+
+**New cigars (3 added):** a new line, Perdomo Lot 23 Connecticut, under the existing Perdomo brand. Sizes: Robusto 5x50, Toro 6x50, Churchill 7x50. The wrapper (Ecuadorian Connecticut), binder and filler (Cuban-seed Nicaraguan), strength (mild to medium) and the cedar/honey/creamy notes all come from Perdomo's own Lot 23 page. Not added: Gordito 4.5x60 and Belicoso 6x54, to keep the run small. No critic citations yet, so they show "insufficient data". The existing Lot 23 Maduro line only has a Robusto and doesn't overlap. Only 1 line / 3 sizes were added (the target was 3).
+
+**Strength backfill:** I searched only for La Alianza Rosado (E.P. Carrillo). The only strength found was Cigar Aficionado's "medium-full" for a single size (Churchill Extra), not the whole line. Left blank. The other four lines were not searched, to keep the run lean.
+
+No prices, news, scores, releases or queue changes. No errors.
