@@ -3948,3 +3948,11 @@ Tonight was a cigars night (day 12, modulo 3 = 0), and cigar growth was on (even
 **Strength backfill:** I searched only for La Alianza Rosado (E.P. Carrillo). The only strength found was Cigar Aficionado's "medium-full" for a single size (Churchill Extra), not the whole line. Left blank. The other four lines were not searched, to keep the run lean.
 
 No prices, news, scores, releases or queue changes. No errors.
+
+## 2026-11-13 — accessories rotation (weekday, lean run)
+
+Tonight was an accessories night (day 13, modulo 3 = 1). New-cigar growth was off tonight, so no cigars were added.
+
+**Accessories:** The only unscored accessory sitting at 2 sources is "The Cigar Log Book" (Amazon, Goodreads). I searched for a third source on the 10th and found none, so I did not repeat it. Every other unscored accessory has 1 or 0 sources, too far from the 3-source minimum to close in a lean run. Nothing added, nothing guessed. They stay "insufficient data".
+
+No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
