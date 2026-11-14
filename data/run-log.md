@@ -3956,3 +3956,11 @@ Tonight was an accessories night (day 13, modulo 3 = 1). New-cigar growth was of
 **Accessories:** The only unscored accessory sitting at 2 sources is "The Cigar Log Book" (Amazon, Goodreads). I searched for a third source on the 10th and found none, so I did not repeat it. Every other unscored accessory has 1 or 0 sources, too far from the 3-source minimum to close in a lean run. Nothing added, nothing guessed. They stay "insufficient data".
 
 No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
+
+## 2026-11-14 — lounges rotation + cigar growth (weekday, lean run)
+
+Tonight was a lounges night (day 14, modulo 3 = 2), and cigar growth was on (even day).
+
+**New cigars (2 added):** two new sizes of the existing Oliva Serie G line: Torpedo (6.5x52) and Figurado (6.5x60). Sizes, Cameroon wrapper, Nicaraguan filler, medium strength and cedar/coffee notes come from Famous Smoke's Serie G page (it lists no binder). Skipped as a likely duplicate: Double Robusto 5x54 (too close to the existing Belicoso 5x52). Skipped as not needed: Cigarillo and Tubos. The target was 3, but I stopped at 2 rather than add a risky near-duplicate. No critic citations, so they show "insufficient data".
+
+**Lounges:** No new ratings searched. The two lounges nearest the 3-source minimum were already checked on 2026-11-11 with nothing usable found, so I didn't repeat it. No prices, news, scores, releases or queue changes. No errors.
