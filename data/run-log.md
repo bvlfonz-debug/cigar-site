@@ -3964,3 +3964,13 @@ Tonight was a lounges night (day 14, modulo 3 = 2), and cigar growth was on (eve
 **New cigars (2 added):** two new sizes of the existing Oliva Serie G line: Torpedo (6.5x52) and Figurado (6.5x60). Sizes, Cameroon wrapper, Nicaraguan filler, medium strength and cedar/coffee notes come from Famous Smoke's Serie G page (it lists no binder). Skipped as a likely duplicate: Double Robusto 5x54 (too close to the existing Belicoso 5x52). Skipped as not needed: Cigarillo and Tubos. The target was 3, but I stopped at 2 rather than add a risky near-duplicate. No critic citations, so they show "insufficient data".
 
 **Lounges:** No new ratings searched. The two lounges nearest the 3-source minimum were already checked on 2026-11-11 with nothing usable found, so I didn't repeat it. No prices, news, scores, releases or queue changes. No errors.
+
+## 2026-11-15 — cigars rotation + weekly queue triage (Sunday)
+
+Tonight was a cigars night (day 15, modulo 3 = 0). New-cigar growth was off tonight, so no cigars were added.
+
+**Strength backfill:** I searched two lines and filled none. E.P. Carrillo La Alianza Natural: no source gave a strength for the line, so it stays blank. Asylum "Serenity Now, Insanity Later": it is two blends in one box (a mild-medium one and a full one), so no single value is honest. Left blank. The other three unsourced lines (Bandolero Serie T, DBL Baseball Bat, La Alianza Rosado) were not searched; Rosado was already checked on 11-12 with nothing usable.
+
+**Weekly queue triage:** I read all 240 open queue entries. None proposes a brand-new brand, line, lounge, city, factory or accessory category. They are all gap notes (not enough sources, unverified sizes or awards, missing founding years, and so on). Per the rules, these need no decision, so nothing was approved, rejected or resolved, and nothing is waiting on you from this triage.
+
+No prices, news, scores, releases or database changes. No errors. Only this log changed, so no site build was needed.
