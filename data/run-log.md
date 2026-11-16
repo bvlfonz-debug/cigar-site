@@ -3974,3 +3974,13 @@ Tonight was a cigars night (day 15, modulo 3 = 0). New-cigar growth was off toni
 **Weekly queue triage:** I read all 240 open queue entries. None proposes a brand-new brand, line, lounge, city, factory or accessory category. They are all gap notes (not enough sources, unverified sizes or awards, missing founding years, and so on). Per the rules, these need no decision, so nothing was approved, rejected or resolved, and nothing is waiting on you from this triage.
 
 No prices, news, scores, releases or database changes. No errors. Only this log changed, so no site build was needed.
+
+## 2026-11-16 — accessories rotation + cigar growth (weekday, lean run)
+
+Tonight was an accessories night (day 16, modulo 3 = 1), and cigar growth was on (even day).
+
+**New cigars (2 added):** two new sizes of the existing Perdomo Lot 23 Maduro line: Toro (6x50) and Churchill (7x50). Sizes, Nicaraguan maduro wrapper and Cuban-seed Nicaraguan binder/filler come from Perdomo's own site (retailers conflicted on the Churchill wrapper, so I used the maker's description). No flavor notes were found that I trusted, so tasting notes are blank and the summaries stick to the blend facts. No critic citations, so both show "insufficient data". The target was 3; I stopped at 2 rather than add a doubtful one (Oliva Serie G Maduro is already covered and its sources conflict on wrapper/binder, so I skipped it).
+
+**Accessories:** Nothing new searched. The only accessory near the 3-source minimum was already checked on 11-10 with nothing found, so I did not repeat it.
+
+No prices, news, scores, releases or queue changes. No errors.
