@@ -3984,3 +3984,11 @@ Tonight was an accessories night (day 16, modulo 3 = 1), and cigar growth was on
 **Accessories:** Nothing new searched. The only accessory near the 3-source minimum was already checked on 11-10 with nothing found, so I did not repeat it.
 
 No prices, news, scores, releases or queue changes. No errors.
+
+## 2026-11-17 — lounges rotation (weekday, lean run)
+
+Tonight was a lounges night (day 17, modulo 3 = 2). Cigar growth was off tonight, so no cigars were added.
+
+**Lounges:** I searched once more for a third rating for Churchill's Fine Cigars (Phoenix), which has 2 on file (Google, Yelp). I found no TripAdvisor listing. The other figures were aggregator sites (Atly, CigarFinder), which only repeat the Google number or mix up locations. Nothing was added, so it stays "insufficient data". Nothing was invented.
+
+No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
