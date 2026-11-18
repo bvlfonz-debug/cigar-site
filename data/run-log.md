@@ -3992,3 +3992,13 @@ Tonight was a lounges night (day 17, modulo 3 = 2). Cigar growth was off tonight
 **Lounges:** I searched once more for a third rating for Churchill's Fine Cigars (Phoenix), which has 2 on file (Google, Yelp). I found no TripAdvisor listing. The other figures were aggregator sites (Atly, CigarFinder), which only repeat the Google number or mix up locations. Nothing was added, so it stays "insufficient data". Nothing was invented.
 
 No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
+
+## 2026-11-18 — cigars rotation + cigar growth (weekday, lean run)
+
+Tonight was a cigars night (day 18, modulo 3 = 0), and cigar growth was on (even day).
+
+**New cigars (2 added):** two new sizes of the existing Aging Room Quattro Connecticut line: Espressivo (5x50 robusto) and Concerto (7x50 churchill). Sizes and the Ecuadorian Connecticut wrapper over Dominican binder and filler come from Neptune Cigar and Cigar Aficionado listings. Skipped: Maestro torpedo (no dimensions found). The target was 3; I stopped at 2 rather than guess. No flavor notes were found, so tasting notes are blank. No critic citations were added, so both show "insufficient data". No unlinked release entries matched.
+
+**Strength backfill:** I searched one line, Bandolero Serie T (Traficantes). Retailers conflict (some say Full, others Medium-Full), so I left it blank. The other four lines were not searched.
+
+No prices, news, scores or queue changes. No errors.
