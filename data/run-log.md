@@ -4002,3 +4002,11 @@ Tonight was a cigars night (day 18, modulo 3 = 0), and cigar growth was on (even
 **Strength backfill:** I searched one line, Bandolero Serie T (Traficantes). Retailers conflict (some say Full, others Medium-Full), so I left it blank. The other four lines were not searched.
 
 No prices, news, scores or queue changes. No errors.
+
+## 2026-11-19 — accessories rotation (weekday, lean run)
+
+Tonight was an accessories night (day 19, modulo 3 = 1). Cigar growth was off tonight, so no cigars were added.
+
+**Accessories:** The Cigar Log Book (the only one at 2 sources) was already checked with nothing found, so I skipped it. I searched once for a third source for the Quality Importers Capri Glasstop Humidor (it has 1). I found only retailer listings and a few unverifiable customer snippets, with no rating I could cite. Nothing was added, so it stays "insufficient data". Nothing was invented.
+
+No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
