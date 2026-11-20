@@ -4010,3 +4010,13 @@ Tonight was an accessories night (day 19, modulo 3 = 1). Cigar growth was off to
 **Accessories:** The Cigar Log Book (the only one at 2 sources) was already checked with nothing found, so I skipped it. I searched once for a third source for the Quality Importers Capri Glasstop Humidor (it has 1). I found only retailer listings and a few unverifiable customer snippets, with no rating I could cite. Nothing was added, so it stays "insufficient data". Nothing was invented.
 
 No prices, news, scores, releases or queue changes. No errors. Only this log changed, so no site build was needed.
+
+## 2026-11-20 — lounges rotation + cigar growth (weekday, lean run)
+
+Tonight was a lounges night (day 20, modulo 3 = 2), and cigar growth was on (even day).
+
+**Lounges:** The only lounge at 2 sources (Churchill's Fine Cigars, Phoenix) has been searched on 11-11, 11-14 and 11-17 with no usable third rating, so I did not repeat it. No ratings added.
+
+**New cigars (3 added):** three new sizes of the existing Camacho Ecuador line: Toro (6x50), Churchill (7x48) and Gordo (6x60). Sizes and blend (Ecuadorian Habano wrapper, Brazilian Mata Fina binder, Honduran/Dominican filler) agree across Cigars International, Cigar Aficionado and a halfwheel launch post. Skipped: the Figurado (listed in a 2014 launch post but absent from current retailers, so I couldn't confirm it still exists), and Rocky Patel Conviction (only ever one size). No flavor notes found, so tasting notes are blank; no critic citations added, so all show "insufficient data". No unlinked release entries matched.
+
+No prices, news, queue changes or errors. Site build passed.
