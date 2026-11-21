@@ -4020,3 +4020,11 @@ Tonight was a lounges night (day 20, modulo 3 = 2), and cigar growth was on (eve
 **New cigars (3 added):** three new sizes of the existing Camacho Ecuador line: Toro (6x50), Churchill (7x48) and Gordo (6x60). Sizes and blend (Ecuadorian Habano wrapper, Brazilian Mata Fina binder, Honduran/Dominican filler) agree across Cigars International, Cigar Aficionado and a halfwheel launch post. Skipped: the Figurado (listed in a 2014 launch post but absent from current retailers, so I couldn't confirm it still exists), and Rocky Patel Conviction (only ever one size). No flavor notes found, so tasting notes are blank; no critic citations added, so all show "insufficient data". No unlinked release entries matched.
 
 No prices, news, queue changes or errors. Site build passed.
+
+## 2026-11-21 — cigars rotation (weekday, lean run)
+
+Tonight was a cigars night (day 21, modulo 3 = 0). Cigar growth was off tonight, so no cigars were added.
+
+**Strength backfill:** Filled two lines from one Cigar Aficionado rating each: E.P. Carrillo Tabacalera La Alianza Natural (Sabrosos Toro) and La Alianza Rosado (Churchill Extra), both Medium-Full. Each is a single-size rating, so treat them as lighter evidence. Skipped: DBL Baseball Bat (only a limited edition has a stated strength, and the wrapper variants differ). Asylum and Bandolero were not searched; Bandolero's sources conflicted on 11-18.
+
+No prices, news, scores, releases or queue changes. No errors. Only the database and this log changed.
