@@ -4028,3 +4028,15 @@ Tonight was a cigars night (day 21, modulo 3 = 0). Cigar growth was off tonight,
 **Strength backfill:** Filled two lines from one Cigar Aficionado rating each: E.P. Carrillo Tabacalera La Alianza Natural (Sabrosos Toro) and La Alianza Rosado (Churchill Extra), both Medium-Full. Each is a single-size rating, so treat them as lighter evidence. Skipped: DBL Baseball Bat (only a limited edition has a stated strength, and the wrapper variants differ). Asylum and Bandolero were not searched; Bandolero's sources conflicted on 11-18.
 
 No prices, news, scores, releases or queue changes. No errors. Only the database and this log changed.
+
+## 2026-11-22 — accessories rotation + cigar growth + Sunday triage (heavier run)
+
+Tonight was an accessories night (day 22, modulo 3 = 1), and cigar growth was on (even day).
+
+**Accessories:** Every unscored accessory has 0 or 1 sources (the two at 2 were already searched with nothing found), too far from the 3-source minimum to close tonight. I added nothing and invented nothing.
+
+**New cigars (5 added, target was 6):** Macanudo Cru Royale Gigante (6x60); Perdomo Lot 23 Maduro Gordito (4.5x60) and Belicoso (6x54); Rocky Patel Vintage 1990 Petit Corona (4.5x44) and Juniors (4x38). Sizes come from retailer, manufacturer and Cigar Aficionado listings. The Belicoso size rests mainly on Perdomo's own site, so treat it as lighter evidence. No flavor notes found, so tasting notes are blank; no critic citations added, so all show "insufficient data". Skipped: Perdomo Lot 23 Maduro Robusto at 5.5x52 (one retailer's listing, a near-duplicate of the existing 5x50); Oliva Serie V Melanio Torpedo (near-duplicate of the existing Figurado 6.5x52); Rocky Patel Vintage 1990 Perfecto and Gordo (single source or no dimensions); Crowned Heads Jericho Hill Toro and Double Corona (no dimensions found). No unlinked release entries matched.
+
+**Weekly queue triage:** I read the open queue. Every undecided entry is a gap note (thin sources, unverified sizes or awards, missing founding years). None proposes a new brand, line, lounge, city, factory or accessory category, so nothing was approved, rejected or resolved, and nothing is waiting on you.
+
+Strength backfill is not part of an accessories night, so it was skipped. No prices, news, scores or errors. Site build passed.
