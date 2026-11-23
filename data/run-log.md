@@ -4040,3 +4040,11 @@ Tonight was an accessories night (day 22, modulo 3 = 1), and cigar growth was on
 **Weekly queue triage:** I read the open queue. Every undecided entry is a gap note (thin sources, unverified sizes or awards, missing founding years). None proposes a new brand, line, lounge, city, factory or accessory category, so nothing was approved, rejected or resolved, and nothing is waiting on you.
 
 Strength backfill is not part of an accessories night, so it was skipped. No prices, news, scores or errors. Site build passed.
+
+## 2026-11-23 — lounges rotation (weekday, lean run)
+
+Tonight was a lounges night (day 23, modulo 3 = 2). Cigar growth was off tonight, so no cigars were added.
+
+**Lounges:** I searched once for ratings on Excalibur Cigar & Scotch Lounge (San Diego). Search results showed a Yelp figure (4.5 from 211 reviews) on a MapQuest page, a Google figure (4.7 from 335 reviews) on CigarFinder, and a 9.3 score on Atly. All three are third-party copies, not the platforms' own pages, and none has a date I could confirm. I did not add them as ratings because I couldn't verify them at the source. No ratings were added tonight. Next time, open Yelp and Google directly for this lounge before recording anything.
+
+No prices, news, scores, queue changes or errors. Only this log changed, so I did not run a site build.
