@@ -4048,3 +4048,13 @@ Tonight was a lounges night (day 23, modulo 3 = 2). Cigar growth was off tonight
 **Lounges:** I searched once for ratings on Excalibur Cigar & Scotch Lounge (San Diego). Search results showed a Yelp figure (4.5 from 211 reviews) on a MapQuest page, a Google figure (4.7 from 335 reviews) on CigarFinder, and a 9.3 score on Atly. All three are third-party copies, not the platforms' own pages, and none has a date I could confirm. I did not add them as ratings because I couldn't verify them at the source. No ratings were added tonight. Next time, open Yelp and Google directly for this lounge before recording anything.
 
 No prices, news, scores, queue changes or errors. Only this log changed, so I did not run a site build.
+
+## 2026-11-24 — cigars rotation + cigar growth (weekday, lean run)
+
+Tonight was a cigars night (day 24, modulo 3 = 0), and cigar growth was on (even day).
+
+**Strength backfill:** Filled none. Garofalo La Famiglia: the three wrappers (Connecticut, Maduro, Sun Grown) differ in strength and the Sun Grown has no rating, so I can't give one value for the whole line. Gispert: retailers split between mild-medium and medium, and the Maduro variants are fuller, so I left it blank. Asylum, Bandolero and DBL were not re-searched (all conflicted on earlier nights).
+
+**New cigars (2 added, target was 3):** Davidoff Nicaragua Diadema (6.5x50, from Cigar Aficionado and several retailers) and Montecristo White Series Rothschilde (5x52, from retailer listings; sources disagree on calling it Rothschilde or Robusto, so treat it as lighter evidence). No flavor notes found, so tasting notes are blank; no critic citations, so both show "insufficient data". Skipped as near-duplicates of sizes already on file: Arturo Fuente Hemingway Between the Lines (4.5x54, vs Best Seller 4.5x55), Alec Bradley Prensado Gran Toro (6x54, vs Torpedo 6.125x52), Montecristo White Series No. 2 Belicoso (6.125x52, vs Toro 6x54). No unlinked release entries matched.
+
+No prices, news, scores, queue changes or errors.
