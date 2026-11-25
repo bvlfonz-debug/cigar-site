@@ -4058,3 +4058,11 @@ Tonight was a cigars night (day 24, modulo 3 = 0), and cigar growth was on (even
 **New cigars (2 added, target was 3):** Davidoff Nicaragua Diadema (6.5x50, from Cigar Aficionado and several retailers) and Montecristo White Series Rothschilde (5x52, from retailer listings; sources disagree on calling it Rothschilde or Robusto, so treat it as lighter evidence). No flavor notes found, so tasting notes are blank; no critic citations, so both show "insufficient data". Skipped as near-duplicates of sizes already on file: Arturo Fuente Hemingway Between the Lines (4.5x54, vs Best Seller 4.5x55), Alec Bradley Prensado Gran Toro (6x54, vs Torpedo 6.125x52), Montecristo White Series No. 2 Belicoso (6.125x52, vs Toro 6x54). No unlinked release entries matched.
 
 No prices, news, scores, queue changes or errors.
+
+## 2026-11-25 — accessories rotation (weekday, lean run)
+
+Tonight was an accessories night (day 25, modulo 3 = 1). Cigar growth was off tonight, so no cigars were added.
+
+**Accessories:** I did one search for the Case Elegance Renzo Glass Top Humidor, which has 3 sources on file but no score yet. The results were retailer listings and affiliate-style "best of" roundups. I found nothing independent and dated that I could cite, and one roundup quoted a "90-day test" I couldn't verify. I added no reviews, prices or scores. The other accessories are still at 0–2 sources.
+
+No news, prices, queue changes or errors. Only this log changed, so I did not run a site build.
