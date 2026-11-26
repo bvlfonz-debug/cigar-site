@@ -4066,3 +4066,13 @@ Tonight was an accessories night (day 25, modulo 3 = 1). Cigar growth was off to
 **Accessories:** I did one search for the Case Elegance Renzo Glass Top Humidor, which has 3 sources on file but no score yet. The results were retailer listings and affiliate-style "best of" roundups. I found nothing independent and dated that I could cite, and one roundup quoted a "90-day test" I couldn't verify. I added no reviews, prices or scores. The other accessories are still at 0–2 sources.
 
 No news, prices, queue changes or errors. Only this log changed, so I did not run a site build.
+
+## 2026-11-26 — lounges rotation + cigar growth (weekday, lean run)
+
+Tonight was a lounges night (day 26, modulo 3 = 2), and cigar growth was on (even day).
+
+**Lounges:** No new ratings were added. Last night's note said to check Yelp and Google directly for Excalibur, and I spent my search effort on cigar growth instead, so lounges are unchanged.
+
+**New cigars (1 added, target was 3):** Padrón 1964 Anniversary Natural Imperial (6x54, all-Nicaraguan, boxes of 25), confirmed by several retailers and Cigar Aficionado's database. The line only had the 5.5x50 Exclusivo before. No tasting notes added (none found for the Natural specifically). I did not add a critic citation: Cigar Aficionado's entries disagree (91, 92, 93 points) and I could not tell which review is the right one, so it shows "insufficient data". The summary notes that sources disagree on strength. I stopped at one because the catalog's popular lines are already well covered and finding more safe, non-duplicate candidates was taking too long for a lean run. Padrón 3000 Natural was already on file (skipped). No unlinked release entries matched.
+
+Strength backfill was not attempted (the 5 remaining lines all had conflicting sources on earlier nights). No prices, news, scores, queue changes or errors.
