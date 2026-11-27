@@ -4076,3 +4076,13 @@ Tonight was a lounges night (day 26, modulo 3 = 2), and cigar growth was on (eve
 **New cigars (1 added, target was 3):** Padrón 1964 Anniversary Natural Imperial (6x54, all-Nicaraguan, boxes of 25), confirmed by several retailers and Cigar Aficionado's database. The line only had the 5.5x50 Exclusivo before. No tasting notes added (none found for the Natural specifically). I did not add a critic citation: Cigar Aficionado's entries disagree (91, 92, 93 points) and I could not tell which review is the right one, so it shows "insufficient data". The summary notes that sources disagree on strength. I stopped at one because the catalog's popular lines are already well covered and finding more safe, non-duplicate candidates was taking too long for a lean run. Padrón 3000 Natural was already on file (skipped). No unlinked release entries matched.
 
 Strength backfill was not attempted (the 5 remaining lines all had conflicting sources on earlier nights). No prices, news, scores, queue changes or errors.
+
+## 2026-11-27 — cigars rotation (weekday, lean run)
+
+Tonight was a cigars night (day 27, modulo 3 = 0). Cigar growth was off tonight, so no cigars were added.
+
+**News/releases:** One news brief (HVC 500 Years Lancero, sixth Only Legends release) and two calendar entries: HVC 500 Years Lancero and My Father Le Bijou 1922 Connecticut (both November 2026, per halfwheel search results). NEEDS-ATTENTION: halfwheel blocked my page fetch (403), so I could not open the My Father article. Its source link points to halfwheel's Nov 9 listing page, not the exact article, and its announced date (Nov 1) is approximate. Please check it, or let me correct it later. The update tool can't change a source link.
+
+**Strength backfill:** Skipped. All 5 remaining lines had conflicting sources on earlier nights.
+
+No price refresh tonight (kept lean), no score changes, no queue changes, no errors.
