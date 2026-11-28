@@ -4086,3 +4086,13 @@ Tonight was a cigars night (day 27, modulo 3 = 0). Cigar growth was off tonight,
 **Strength backfill:** Skipped. All 5 remaining lines had conflicting sources on earlier nights.
 
 No price refresh tonight (kept lean), no score changes, no queue changes, no errors.
+
+## 2026-11-28 — accessories rotation (weekday, lean run)
+
+Tonight was an accessories night (day 28, modulo 3 = 1). Cigar growth was on (even day), but I did not attempt it tonight.
+
+**Accessories:** Only one accessory (The Cigar Log Book) sits at 2 sources. I ran one search for a cutter review as a possible third-source lead. It found nothing specific or citable for that item. I added no reviews, prices or scores.
+
+**Skipped:** Cigar growth (0 of 3 added) and strength backfill. Earlier nights found the remaining catalog candidates hard to verify without risking duplicates, and the remaining unsourced-strength lines all had conflicting sources. I chose to add nothing rather than guess.
+
+No news, queue changes or errors. Only this log changed, so I did not run a site build.
